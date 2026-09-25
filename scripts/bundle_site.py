@@ -73,6 +73,12 @@ def main():
                                             for c in canceladas], ensure_ascii=False) + ";\n",
         encoding="utf-8",
     )
+    # faixas granulométricas das especificações (ficha de granulometria, DNIT 412-ME)
+    faixas_path = ROOT / "data" / "faixas_granulometricas.json"
+    if faixas_path.exists():
+        (SITE_DATA_DIR / "faixas_data.js").write_text(
+            "window.FAIXAS_GRANULOMETRICAS = " + json.dumps(json.loads(faixas_path.read_text(encoding="utf-8")), ensure_ascii=False) + ";\n",
+            encoding="utf-8")
     (SITE_DATA_DIR / "graph_data.js").write_text(
         "window.GRAPH_DATA = " + json.dumps(graph, ensure_ascii=False) + ";\n",
         encoding="utf-8",

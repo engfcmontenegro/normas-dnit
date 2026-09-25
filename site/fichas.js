@@ -868,6 +868,380 @@
   function c0(arr, k) { return arr && arr[0] ? arr[0][k] : ""; }
 
   // =====================================================================================
+  // DNIT 412/2025-ME — Agregados — Análise granulométrica por peneiramento
+  // =====================================================================================
+  var PENEIRAS_A1 = [[75, "3\""], [50, "2\""], [37.5, "1 ½\""], [25, "1\""], [19, "3/4\""], [12.5, "1/2\""], [9.5, "3/8\""], [6.3, "1/4\""],
+    [4.8, "nº 4"], [2.36, "nº 8"], [2, "nº 10"], [1.18, "nº 16"], [0.6, "nº 30"], [0.43, "nº 40"], [0.3, "nº 50"], [0.15, "nº 100"], [0.075, "nº 200"]];
+  var SERIES_412 = {
+    completa: PENEIRAS_A1.map(function (p) { return p[0]; }),
+    grauda: [75, 50, 37.5, 25, 19, 12.5, 9.5, 6.3, 4.8, 2.36],
+    miuda: [9.5, 6.3, 4.8, 2.36, 1.18, 0.6, 0.3, 0.15, 0.075],
+    solos: [50, 25, 9.5, 4.8, 2, 0.43, 0.075],
+    mistura: [37.5, 25, 19, 12.5, 9.5, 4.8, 2.36, 2, 1.18, 0.6, 0.43, 0.3, 0.15, 0.075],
+  };
+  var SERIE_NORMAL_MF = [75, 37.5, 19, 9.5, 4.8, 2.36, 1.18, 0.6, 0.3, 0.15];   // módulo de finura (3.6)
+  var MIN_412 = [[4.8, 0.3], [9.5, 1], [12.5, 2], [19, 5], [25, 10], [37.5, 15], [50, 20], [63, 35], [75, 60]];  // Tabela 1 (kg)
+  function nomePeneira(mm) {
+    var p = PENEIRAS_A1.filter(function (x) { return Math.abs(x[0] - mm) / mm < 0.04; })[0];
+    return (p ? p[1] + " — " : "") + fmt(mm, mm < 1 ? 3 : mm < 10 ? 2 : 1).replace(/,?0+$/, "") + " mm";
+  }
+  function chavePen(mm) { return "r" + String(mm).replace(".", "_"); }
+  function faixasDisponiveis() { return (window.FAIXAS_GRANULOMETRICAS || {}).faixas || []; }
+  function faixaEscolhida(P) {
+    if (P.faixa === "custom") return null;
+    return faixasDisponiveis().filter(function (f) { return f.id === P.faixa; })[0] || null;
+  }
+  // limite da faixa para uma peneira (casa aberturas próximas: 50 ↔ 50,8; 0,43 ↔ 0,42)
+  function limiteFaixa(fx, mm) {
+    if (!fx) return null;
+    var p = fx.peneiras.filter(function (x) { return Math.abs(x.mm - mm) / mm < 0.04; })[0];
+    return p ? { min: p.min, max: p.max } : null;
+  }
+  function peneirasDe(d) {
+    var P = d.params || {}, fx = faixaEscolhida(P);
+    if (P.serie === "faixa" && fx) return fx.peneiras.map(function (x) { return x.mm; });
+    return SERIES_412[P.serie] || SERIES_412.completa;
+  }
+
+  FICHAS["dnit-412-2025-me"] = {
+    titulo: "Agregados — Análise granulométrica por peneiramento",
+    resumo: "Porcentagens retidas, acumuladas e passantes; dimensão máxima característica, tamanho nominal máximo, módulo de finura e verificação da faixa granulométrica.",
+    blocos: [],
+    params: [
+      { k: "material", r: "Material", tipo: "select", opcoes: [["grauda", "Agregado graúdo"], ["miuda", "Agregado miúdo"], ["mistura", "Mistura de agregados / solo-agregado"]] },
+      { k: "faixa", r: "Faixa granulométrica de especificação", tipo: "select", recarrega: true,
+        opcoes: function () {
+          return [["", "— sem faixa —"], ["custom", "Faixa digitada (tabela abaixo)"]].concat(faixasDisponiveis().map(function (f) {
+            return [f.id, f.codigo + " — " + f.servico + " — faixa " + f.faixa + (f.condicao ? " (" + f.condicao + ")" : "")];
+          }));
+        },
+        dica: "faixas extraídas das especificações de serviço do acervo (conferidas no PDF)" },
+      { k: "serie", r: "Série de peneiras", tipo: "select", recarrega: true,
+        opcoes: [["faixa", "Peneiras da faixa escolhida"], ["completa", "Tabela A1 completa (75 a 0,075 mm)"], ["grauda", "Graúdo (75 a 2,36 mm)"],
+          ["miuda", "Miúdo (9,5 a 0,075 mm)"], ["mistura", "Mistura (37,5 a 0,075 mm)"], ["solos", "Solo-agregado (2\", 1\", 3/8\", nº 4, 10, 40, 200)"]] },
+      { k: "lavagem", r: "Material pulverulento determinado por lavagem (DNER-ME 266/97)", tipo: "select", recarrega: true,
+        opcoes: [["nao", "Não"], ["sim", "Sim — informar a massa seca após a lavagem"]], dica: "5 b e 8 d: o pulverulento entra no cálculo sobre a massa seca inicial" },
+      { k: "concreto", r: "Agregado para concreto (9.1)", tipo: "select", opcoes: [["nao", "Não"], ["sim", "Sim — relatar módulo de finura"]] },
+      { k: "peneiramento", r: "Peneiramento", tipo: "select", opcoes: [["mecanico", "Agitador mecânico (7.1)"], ["manual", "Manual (7.2)"]] },
+    ],
+    padrao: { material: "grauda", faixa: "", serie: "completa", lavagem: "nao", concreto: "nao", peneiramento: "mecanico" },
+    tabelas: function (d) {
+      var P = d.params || {};
+      var linhas = [{ k: "Mi", r: "Massa seca inicial da amostra (6 c)", u: "g", destaque: true }];
+      if (P.lavagem === "sim") linhas.push({ k: "Mlav", r: "Massa seca após lavagem na 0,075 mm (DNER-ME 266)", u: "g" },
+        { calc: "pulv", r: "Material pulverulento lavado", u: "%", casas: 1 });
+      linhas.push({ grupo: "Massas retidas em cada peneira (8 a)" });
+      peneirasDe(d).forEach(function (mm) { linhas.push({ k: chavePen(mm), r: "Retido na " + nomePeneira(mm), u: "g" }); });
+      linhas.push({ k: "fundo", r: "Fundo", u: "g" },
+        { calc: "soma", r: "Soma das massas" + (P.lavagem === "sim" ? " (+ pulverulento lavado)" : ""), u: "g", casas: 1 },
+        { calc: "dif", r: "Diferença para a massa inicial (≤ 0,3 %, 8 b)", u: "%", casas: 2, destaque: true });
+      var tabs = [{ chave: "amostras", titulo: "Amostras", rotulo: "Amostra", iniciais: 2, min: 1,
+        dica: "uma coluna por amostra; com duas, a ficha verifica a concordância (8 e) e usa a média", linhas: linhas }];
+      if (P.faixa === "custom") {
+        tabs.push({ chave: "faixa", titulo: "Faixa digitada — % passando", rotulo: "Limite", iniciais: 2, min: 2, fixo: true, nomes: ["Mínimo", "Máximo"],
+          linhas: peneirasDe(d).map(function (mm) { return { k: chavePen(mm), r: nomePeneira(mm), u: "%" }; }) });
+      }
+      return tabs;
+    },
+    calcular: function (d) {
+      var P = d.params || {}, avisos = [], pens = peneirasDe(d), fx = faixaEscolhida(P);
+      var amostras = (d.amostras || []).map(function (a, i) {
+        var Mi = num(a.Mi), rot = "Amostra " + (i + 1);
+        var pulvM = P.lavagem === "sim" && ok(num(a.Mlav)) ? Mi - num(a.Mlav) : 0;
+        var ret = pens.map(function (mm) { var v = num(a[chavePen(mm)]); return ok(v) ? v : 0; });
+        var fundo = ok(num(a.fundo)) ? num(a.fundo) : 0;
+        var soma = ret.reduce(function (x, y) { return x + y; }, 0) + fundo + pulvM;
+        var o = { soma: soma, dif: ok(Mi) && Mi > 0 ? (soma - Mi) / Mi * 100 : NaN, pulv: ok(Mi) && P.lavagem === "sim" ? pulvM / Mi * 100 : NaN };
+        if (!ok(Mi) || Mi <= 0) return o;
+        var acum = 0;
+        o.pen = pens.map(function (mm, j) {
+          var r = ret[j] / Mi * 100;  // % sobre a massa seca inicial (8 c, 8 d)
+          acum += r;
+          return { mm: mm, ret: r, acum: acum, pass: 100 - acum };
+        });
+        o.fundoPct = fundo / Mi * 100;
+        // tamanho máximo (3.3): menor abertura com 100 % passando; dimensão máxima característica (3.4): acumulada ≤ 5 %
+        var tm = null, dmc = null, tnm = null;
+        for (var j = o.pen.length - 1; j >= 0; j--) {
+          if (tm === null && o.pen[j].acum <= 1e-9) tm = o.pen[j].mm;
+          if (dmc === null && o.pen[j].acum <= 5 + 1e-9) dmc = o.pen[j].mm;
+        }
+        // TNM (3.8): abertura imediatamente acima da 1ª peneira que retém mais de 10 % (acumulada)
+        for (var k = 0; k < o.pen.length; k++) {
+          if (o.pen[k].acum > 10) { tnm = k > 0 ? o.pen[k - 1].mm : o.pen[k].mm; break; }
+        }
+        o.tm = tm; o.dmc = dmc; o.tnm = tnm;
+        var mf = 0;
+        SERIE_NORMAL_MF.forEach(function (mm) {
+          var p = o.pen.filter(function (x) { return Math.abs(x.mm - mm) / mm < 0.04; })[0];
+          if (p) mf += p.acum;
+        });
+        o.mf = mf / 100;
+        o.mfCompleto = SERIE_NORMAL_MF.filter(function (mm) { return mm <= (o.tm || 75); }).every(function (mm) {
+          return o.pen.some(function (x) { return Math.abs(x.mm - mm) / mm < 0.04; });
+        });
+        // verificações
+        if (Math.abs(o.dif) > 0.3) avisos.push(rot + ": a soma das massas difere " + fmt(o.dif, 2) + " % da massa seca inicial (limite 0,3 %, 8 b).");
+        var ref = o.tm || (o.dmc || 0);
+        var minKg = (MIN_412.filter(function (x) { return x[0] >= ref - 1e-9; })[0] || [0, 0])[1];
+        if (minKg && Mi < minKg * 1000) avisos.push(rot + ": massa inicial de " + fmt(Mi / 1000, 2) + " kg, abaixo do mínimo de " + fmt(minKg, 1) +
+          " kg para tamanho máximo de " + fmt(ref, 1) + " mm (Tabela 1).");
+        return o;
+      });
+      var validas = amostras.filter(function (o) { return o.pen; });
+      // 8 e: mesma dimensão máxima característica e retidas individuais com diferença ≤ 4 %
+      if (validas.length >= 2) {
+        var a0 = validas[0];
+        validas.slice(1).forEach(function (o, n) {
+          if (o.dmc !== a0.dmc) avisos.push("As amostras têm dimensões máximas características diferentes (" + fmt(a0.dmc, 1) + " e " + fmt(o.dmc, 1) + " mm) — 8 e.");
+          o.pen.forEach(function (p, j) {
+            var dlt = Math.abs(p.ret - a0.pen[j].ret);
+            if (dlt > 4) avisos.push("Peneira " + nomePeneira(p.mm) + ": as porcentagens retidas das amostras 1 e " + (n + 2) + " diferem " + fmt(dlt, 1) + " % (limite 4 %, 8 e).");
+          });
+        });
+      }
+      // média das amostras e verificação da faixa
+      var faixaTab = P.faixa === "custom" ? (d.faixa || []) : null;
+      var media = pens.map(function (mm, j) {
+        var pass = media_(validas.map(function (o) { return o.pen[j].pass; }));
+        var ret = media_(validas.map(function (o) { return o.pen[j].ret; }));
+        var acum = media_(validas.map(function (o) { return o.pen[j].acum; }));
+        var lim = fx ? limiteFaixa(fx, mm) : null;
+        if (faixaTab) {
+          var mn = num((faixaTab[0] || {})[chavePen(mm)]), mx = num((faixaTab[1] || {})[chavePen(mm)]);
+          lim = ok(mn) || ok(mx) ? { min: ok(mn) ? mn : 0, max: ok(mx) ? mx : 100 } : null;
+        }
+        var dentro = lim && ok(pass) ? pass >= lim.min - 1e-9 && pass <= lim.max + 1e-9 : null;
+        return { mm: mm, ret: ret, acum: acum, pass: pass, lim: lim, dentro: dentro };
+      });
+      var fora = media.filter(function (m) { return m.dentro === false; });
+      if (fora.length) avisos.push("Fora da faixa em " + fora.length + " peneira(s): " + fora.map(function (m) {
+        return nomePeneira(m.mm) + " (" + fmt(m.pass, 1) + " %, faixa " + fmt(m.lim.min, 0) + "–" + fmt(m.lim.max, 0) + ")";
+      }).join("; ") + ".");
+      if (fx) {
+        var semPen = fx.peneiras.filter(function (x) { return !pens.some(function (mm) { return Math.abs(x.mm - mm) / mm < 0.04; }); });
+        if (semPen.length) avisos.push("A série de peneiras não inclui " + semPen.map(function (x) { return x.nome + " (" + fmt(x.mm, 2) + " mm)"; }).join(", ") +
+          ", exigidas pela faixa — use \"Peneiras da faixa escolhida\".");
+      }
+      var res = { media: media, faixa: fx, custom: !!faixaTab,
+        tm: validas.length ? validas[0].tm : null, dmc: validas.length ? validas[0].dmc : null, tnm: validas.length ? validas[0].tnm : null,
+        mf: media_(validas.map(function (o) { return o.mf; })), mfCompleto: validas.length && validas.every(function (o) { return o.mfCompleto; }),
+        pulv: media_(validas.map(function (o) { return o.pulv; })),
+        p200: (media.filter(function (m) { return Math.abs(m.mm - 0.075) < 0.001; })[0] || {}).pass,
+        conforme: (fx || faixaTab) && validas.length ? !fora.length : null };
+      return { tab: { amostras: amostras }, amostras: amostras, resultados: res, avisos: avisos };
+    },
+    resultadosHtml: function (calc, d) {
+      var r = calc.resultados, P = d.params || {};
+      function cx(v, rot) { return '<div class="fe-res-item"><div class="fe-res-v fe-res-p">' + v + '</div><div class="fe-res-r">' + rot + "</div></div>"; }
+      var cards = '<div class="fe-res">' +
+        cx(r.tm ? fmt(r.tm, 1) + " mm" : "—", "Tamanho máximo (3.3)") + cx(r.dmc ? fmt(r.dmc, 1) + " mm" : "—", "Dimensão máxima característica (3.4)") +
+        cx(r.tnm ? fmt(r.tnm, 1) + " mm" : "—", "Tamanho nominal máximo (3.8)") +
+        (P.concreto === "sim" || r.mfCompleto ? cx(ok(r.mf) ? fmt(r.mf, 2) + (r.mfCompleto ? "" : " *") : "—", "Módulo de finura (3.6)" + (r.mfCompleto ? "" : " — * série normal incompleta")) : "") +
+        (P.lavagem === "sim" ? cx(fmt(r.pulv, 1) + " %", "Material pulverulento (lavagem)") : "") +
+        (r.conforme === null ? "" : cx(r.conforme ? '<span class="fe-ok">dentro da faixa</span>' : '<span class="fe-nok">fora da faixa</span>',
+          r.faixa ? r.faixa.codigo + " — faixa " + r.faixa.faixa : "faixa digitada")) + "</div>";
+      return cards + tabelaGranulometria(calc, d, false);
+    },
+    graficos: function (calc, d, opt) { return [graficoGranulometria(calc, opt)]; },
+    relatorio: {
+      notas: "Porcentagens sobre a massa seca inicial da amostra (8 c); passante na 0,075 mm com 0,1 % quando menor que 10 % (9 d).",
+      resultados: function (calc, d) {
+        var r = calc.resultados, P = d.params || {};
+        var rows = [["Tamanho máximo / dimensão máxima característica / TNM",
+          (r.tm ? fmt(r.tm, 1) : "—") + " / " + (r.dmc ? fmt(r.dmc, 1) : "—") + " / " + (r.tnm ? fmt(r.tnm, 1) : "—") + " mm"]];
+        if (P.concreto === "sim" || r.mfCompleto) rows.push(["Módulo de finura", ok(r.mf) ? fmt(r.mf, 2) + (r.mfCompleto ? "" : " (série normal incompleta)") : "—"]);
+        if (P.lavagem === "sim") rows.push(["Material pulverulento (DNER-ME 266)", fmt(r.pulv, 1) + " %"]);
+        if (r.conforme !== null) rows.push(["Faixa granulométrica", (r.faixa ? r.faixa.codigo + " — " + r.faixa.servico + " — faixa " + r.faixa.faixa : "faixa digitada") +
+          (r.conforme ? " — DENTRO DA FAIXA" : " — FORA DA FAIXA")]);
+        return rows;
+      },
+      extraHtml: function (calc, d) { return tabelaGranulometria(calc, d, true); },
+    },
+    exemplo: function () { return FICHAS["dnit-412-2025-me"].exemplos[0].dados(); },
+  };
+  function media_(arr) { return media(arr); }
+
+  // tabela de resultados por peneira (tela e relatório; no relatório, inteiros e 0,1 % na 0,075 < 10 %)
+  function tabelaGranulometria(calc, d, relat) {
+    var r = calc.resultados, am = calc.amostras.filter(function (o) { return o.pen; });
+    if (!am.length) return "";
+    function p(v, mm) {
+      if (!ok(v)) return "—";
+      if (!relat) return fmt(v, 1);
+      return Math.abs(mm - 0.075) < 0.001 && v < 10 ? fmt(v, 1) : fmt(Math.round(v), 0);
+    }
+    var temLim = r.media.some(function (m) { return m.lim; });
+    var h = '<table class="' + (relat ? "gr" : "fe-resumo fe-gran") + '"><thead><tr><th>Peneira</th>' +
+      am.map(function (o, i) { return '<th colspan="3">Amostra ' + (i + 1) + "</th>"; }).join("") +
+      (am.length > 1 ? "<th>Média</th>" : "") + (temLim ? "<th>Faixa</th><th></th>" : "") + "</tr><tr><th></th>" +
+      am.map(function () { return "<th>% ret.</th><th>% acum.</th><th>% pass.</th>"; }).join("") +
+      (am.length > 1 ? "<th>% pass.</th>" : "") + (temLim ? "<th>mín–máx</th><th></th>" : "") + "</tr></thead><tbody>";
+    r.media.forEach(function (m, j) {
+      h += "<tr><td>" + esc(nomePeneira(m.mm)) + "</td>" + am.map(function (o) {
+        return "<td>" + p(o.pen[j].ret, m.mm) + "</td><td>" + p(o.pen[j].acum, m.mm) + "</td><td><b>" + p(o.pen[j].pass, m.mm) + "</b></td>";
+      }).join("") + (am.length > 1 ? "<td><b>" + p(m.pass, m.mm) + "</b></td>" : "") +
+        (temLim ? "<td>" + (m.lim ? fmt(m.lim.min, 0) + "–" + fmt(m.lim.max, 0) : "") + "</td><td>" +
+          (m.dentro === null ? "" : m.dentro ? (relat ? "ok" : '<span class="fe-ok">ok</span>') : (relat ? "FORA" : '<span class="fe-nok">fora</span>')) + "</td>" : "") + "</tr>";
+    });
+    h += "<tr><td>Fundo</td>" + am.map(function (o) { return "<td>" + p(o.fundoPct, 0) + "</td><td></td><td></td>"; }).join("") +
+      (am.length > 1 ? "<td></td>" : "") + (temLim ? "<td></td><td></td>" : "") + "</tr></tbody></table>";
+    return h;
+  }
+
+  // curva granulométrica (abertura em escala logarítmica × % passando), faixa sombreada
+  function graficoGranulometria(calc, opt) {
+    opt = opt || {};
+    var r = calc.resultados, am = calc.amostras.filter(function (o) { return o.pen; });
+    if (!am.length) return '<div class="fe-graf-vazio">A curva aparece com a massa inicial e as massas retidas.</div>';
+    var W = opt.w || 600, H = opt.h || 320, m = { l: 48, r: 16, t: 14, b: 44 };
+    var xmin = Math.log10(0.05), xmax = Math.log10(100);
+    function X(mm) { return m.l + (Math.log10(mm) - xmin) / (xmax - xmin) * (W - m.l - m.r); }
+    function Y(v) { return H - m.b - v / 100 * (H - m.t - m.b); }
+    var imp = opt.imprimir, txt = imp ? "#222" : "var(--text-dim)", grade = imp ? "#ddd" : "var(--border)";
+    var cor = imp ? "#1f5fbf" : "#4f8cff", corF = imp ? "rgba(52,160,110,.18)" : "rgba(52,195,143,.16)", corFl = imp ? "#2e8b57" : "#34c38f";
+    var s = '<svg class="fe-graf" viewBox="0 0 ' + W + " " + H + '" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" font-size="10.5">';
+    [0.075, 0.15, 0.3, 0.6, 1.18, 2.36, 4.8, 9.5, 19, 37.5, 75].forEach(function (mm) {
+      s += '<line x1="' + X(mm) + '" y1="' + m.t + '" x2="' + X(mm) + '" y2="' + (H - m.b) + '" stroke="' + grade + '" stroke-width="0.6"/>';
+      s += '<text x="' + X(mm) + '" y="' + (H - m.b + 14) + '" text-anchor="middle" fill="' + txt + '">' + fmt(mm, mm < 1 ? 3 : mm < 10 ? 2 : 1).replace(/,?0+$/, "") + "</text>";
+    });
+    for (var v = 0; v <= 100; v += 10) {
+      s += '<line x1="' + m.l + '" y1="' + Y(v) + '" x2="' + (W - m.r) + '" y2="' + Y(v) + '" stroke="' + grade + '" stroke-width="0.6"/>';
+      s += '<text x="' + (m.l - 6) + '" y="' + (Y(v) + 4) + '" text-anchor="end" fill="' + txt + '">' + v + "</text>";
+    }
+    s += '<text x="' + ((W + m.l) / 2) + '" y="' + (H - 8) + '" text-anchor="middle" fill="' + txt + '">Abertura da peneira (mm) — escala logarítmica</text>';
+    s += '<text transform="translate(13 ' + ((H - m.b + m.t) / 2) + ') rotate(-90)" text-anchor="middle" fill="' + txt + '">% passando</text>';
+    // faixa
+    var lim = r.media.filter(function (x) { return x.lim; });
+    if (lim.length >= 2) {
+      var sup = lim.map(function (x) { return X(x.mm).toFixed(1) + " " + Y(x.lim.max).toFixed(1); });
+      var inf = lim.slice().reverse().map(function (x) { return X(x.mm).toFixed(1) + " " + Y(x.lim.min).toFixed(1); });
+      s += '<path d="M' + sup.join(" L") + " L" + inf.join(" L") + ' Z" fill="' + corF + '" stroke="' + corFl + '" stroke-width="1" stroke-dasharray="4 3"/>';
+    }
+    // amostras (tracejadas) e média
+    am.forEach(function (o) {
+      if (am.length < 2) return;
+      s += '<path d="' + o.pen.map(function (x, j) { return (j ? "L" : "M") + X(x.mm).toFixed(1) + " " + Y(x.pass).toFixed(1); }).join(" ") +
+        '" fill="none" stroke="' + txt + '" stroke-width="1" stroke-dasharray="3 3" opacity="0.7"/>';
+    });
+    var med = r.media.filter(function (x) { return ok(x.pass); });
+    s += '<path d="' + med.map(function (x, j) { return (j ? "L" : "M") + X(x.mm).toFixed(1) + " " + Y(x.pass).toFixed(1); }).join(" ") +
+      '" fill="none" stroke="' + cor + '" stroke-width="2.2"/>';
+    med.forEach(function (x) {
+      s += '<circle cx="' + X(x.mm) + '" cy="' + Y(x.pass) + '" r="3.5" fill="' + (x.dentro === false ? "#e5534b" : cor) + '"/>';
+    });
+    return s + "</svg>";
+  }
+
+  // =====================================================================================
+  // DNIT 451/2024-ME — Agregados — Desgaste por abrasão e impacto no equipamento "Los Angeles"
+  // =====================================================================================
+  // Tabela B1 (Anexo B): frações [passa, retém, massa, tolerância] por graduação; total; rotações
+  var GRAD_LA = {
+    A: { fr: [[38, 25, 1250, 25], [25, 19, 1250, 25], [19, 12.5, 1250, 10], [12.5, 9.5, 1250, 10]], total: [5000, 10], rot: 500 },
+    B: { fr: [[19, 12.5, 2500, 10], [12.5, 9.5, 2500, 10]], total: [5000, 10], rot: 500 },
+    C: { fr: [[9.5, 6.3, 2500, 10], [6.3, 4.8, 2500, 10]], total: [5000, 10], rot: 500 },
+    D: { fr: [[4.8, 2.4, 5000, 10]], total: [5000, 10], rot: 500 },
+    E: { fr: [[76, 63, 2500, 50], [63, 50, 2500, 50], [50, 38, 5000, 50]], total: [10000, 100], rot: 1000 },
+    F: { fr: [[50, 38, 5000, 50], [38, 25, 5000, 25]], total: [10000, 75], rot: 1000 },
+    G: { fr: [[38, 25, 5000, 25], [25, 19, 5000, 25]], total: [10000, 50], rot: 1000 },
+  };
+  // Tabela 1: carga abrasiva [nº de esferas, massa, tolerância]
+  var CARGA_LA = { A: [12, 5000, 25], B: [11, 4584, 25], C: [8, 3330, 20], D: [6, 2500, 15], E: [12, 5000, 25], F: [12, 5000, 25], G: [12, 5000, 25] };
+  function chaveFr(f) { return "f" + String(f[0]).replace(".", "_") + "_" + String(f[1]).replace(".", "_"); }
+
+  FICHAS["dnit-451-2024-me"] = {
+    titulo: "Agregados — Desgaste por abrasão \"Los Angeles\"",
+    resumo: "Graduações A a G (Anexo B), carga abrasiva (Tabela 1), 500 ou 1000 rotações; desgaste Aₙ = (mₙ − m'ₙ)/mₙ × 100, com aproximação de 1 %.",
+    blocos: [],
+    params: [
+      { k: "graduacao", r: "Graduação da amostra (5.1, Anexo B)", tipo: "select", recarrega: true,
+        opcoes: Object.keys(GRAD_LA).map(function (g) {
+          var G = GRAD_LA[g];
+          return [g, "Graduação " + g + " — " + G.fr[0][0] + " a " + G.fr[G.fr.length - 1][1] + " mm, " + fmt(G.total[0], 0) + " g, " + G.rot + " rotações"];
+        }),
+        dica: "a de granulometria mais próxima da usada na obra (5.1 b)" },
+      { k: "esferas", r: "Nº de esferas da carga abrasiva", ph: "conforme Tabela 1" },
+      { k: "carga", r: "Massa da carga abrasiva (g)", ph: "conforme Tabela 1" },
+      { k: "rotacoes", r: "Rotações aplicadas", ph: "500 ou 1000 (6 c)" },
+      { k: "lavagem", r: "Lavagem antes e depois do ensaio", tipo: "select",
+        opcoes: [["sim", "Sim (5.2 b e 6 f)"], ["nao", "Dispensada — agregado livre de pó e material aderente (NOTA 2)"]] },
+      { k: "classificacao", r: "Classificação / tipo do agregado", ph: "ex.: brita granítica nº 1" },
+      { k: "limite", r: "Desgaste máximo admitido (%) — opcional", dica: "da especificação de serviço (ex.: 40 % concreto asfáltico, 55 % base)" },
+    ],
+    padrao: { graduacao: "B", lavagem: "sim" },
+    tabelas: function (d) {
+      var g = (d.params || {}).graduacao || "B", G = GRAD_LA[g];
+      var linhas = [{ grupo: "Massas das frações antes do ensaio — graduação " + g + " (5.2 c, Tabela B1)" }]
+        .concat(G.fr.map(function (f) {
+          return { k: chaveFr(f), r: "Passa " + fmt(f[0], 1).replace(",0", "") + " mm, retido " + fmt(f[1], 1).replace(",0", "") + " mm — " +
+            fmt(f[2], 0) + " ± " + f[3] + " g", u: "g" };
+        }))
+        .concat([{ calc: "mn", r: "mₙ — massa total da amostra seca (5.2 e)", u: "g", casas: 0, destaque: true },
+          { grupo: "Após o ensaio (6 e–g)" },
+          { k: "mln", r: "m'ₙ — retido na peneira de 1,7 mm, lavado e seco", u: "g" },
+          { calc: "An", r: "Aₙ = (mₙ − m'ₙ) / mₙ × 100 (eq. 1)", u: "%", casas: 2, destaque: true }]);
+      return [{ chave: "amostras", titulo: "Amostras", rotulo: "Amostra", iniciais: 1, min: 1,
+        dica: "uma coluna por amostra ensaiada; com mais de uma, o resultado é a média", linhas: linhas }];
+    },
+    calcular: function (d) {
+      var P = d.params || {}, g = P.graduacao || "B", G = GRAD_LA[g], C = CARGA_LA[g], avisos = [];
+      var amostras = (d.amostras || []).map(function (a, i) {
+        var rot = "Amostra " + (i + 1), soma = 0, todas = true;
+        G.fr.forEach(function (f) {
+          var v = num(a[chaveFr(f)]);
+          if (!ok(v)) { todas = false; return; }
+          soma += v;
+          if (Math.abs(v - f[2]) > f[3]) avisos.push(rot + ": a fração " + f[0] + "–" + f[1] + " mm tem " + fmt(v, 0) + " g, fora de " +
+            fmt(f[2], 0) + " ± " + f[3] + " g (Tabela B1).");
+        });
+        var mn = todas ? soma : NaN, mln = num(a.mln);
+        if (ok(mn) && Math.abs(mn - G.total[0]) > G.total[1]) avisos.push(rot + ": massa total de " + fmt(mn, 0) + " g, fora de " +
+          fmt(G.total[0], 0) + " ± " + G.total[1] + " g (Tabela B1).");
+        var An = ok(mn) && ok(mln) && mn > 0 ? (mn - mln) / mn * 100 : NaN;  // eq. 1
+        if (ok(mln) && ok(mn) && mln > mn) avisos.push(rot + ": m'ₙ maior que mₙ — confira as pesagens.");
+        return { mn: mn, An: An };
+      });
+      var esf = num(P.esferas), carga = num(P.carga), rotac = num(P.rotacoes);
+      if (ok(esf) && esf !== C[0]) avisos.push("A graduação " + g + " usa " + C[0] + " esferas (Tabela 1); informado " + esf + ".");
+      if (ok(carga) && Math.abs(carga - C[1]) > C[2]) avisos.push("Carga abrasiva de " + fmt(carga, 0) + " g, fora de " + fmt(C[1], 0) + " ± " + C[2] + " g para a graduação " + g + " (Tabela 1).");
+      if (ok(rotac) && rotac !== G.rot) avisos.push("A graduação " + g + " exige " + G.rot + " rotações (6 c, Tabela B1); informado " + rotac + ".");
+      var val = amostras.map(function (o) { return o.An; }).filter(ok);
+      var A = media(val), lim = num(P.limite);
+      if (ok(A) && ok(lim) && Math.round(A) > lim) avisos.push("Desgaste de " + fmt(Math.round(A), 0) + " %, acima do máximo admitido de " + fmt(lim, 0) + " %.");
+      if (val.length > 1) {
+        var amp = Math.max.apply(null, val) - Math.min.apply(null, val);
+        if (amp > 5) avisos.push("As amostras diferem " + fmt(amp, 1) + " pontos percentuais entre si — confira a preparação das frações.");
+      }
+      return { tab: { amostras: amostras }, resultados: { A: A, An: val, g: g, carga: C, rot: G.rot, lim: lim,
+        conforme: ok(A) && ok(lim) ? Math.round(A) <= lim : null }, avisos: avisos };
+    },
+    resultadosHtml: function (calc) {
+      var r = calc.resultados;
+      function cx(v, rot) { return '<div class="fe-res-item"><div class="fe-res-v">' + v + '</div><div class="fe-res-r">' + rot + "</div></div>"; }
+      return '<div class="fe-res">' +
+        cx(ok(r.A) ? fmt(Math.round(r.A), 0) + " <small>%</small>" : "—", "Desgaste por abrasão \"Los Angeles\" A" + r.g.toLowerCase() +
+          (r.An.length > 1 ? " — média de " + r.An.length + " amostras (" + r.An.map(function (x) { return fmt(x, 1); }).join("; ") + " %)" : "") +
+          (r.conforme === null ? "" : r.conforme ? ' · <span class="fe-ok">atende</span>' : ' · <span class="fe-nok">não atende</span>')) +
+        cx('<span class="fe-res-p">' + r.carga[0] + " esferas · " + fmt(r.carga[1], 0) + " ± " + r.carga[2] + " g</span>", "Carga abrasiva da graduação " + r.g + " (Tabela 1)") +
+        cx('<span class="fe-res-p">' + r.rot + " rotações</span>", "a 30–33 rpm (6 c)") + "</div>";
+    },
+    relatorio: {
+      notas: "Desgaste expresso com aproximação de 1 % (7 c); material passante na peneira de 1,7 mm rejeitado após o ensaio. A interpretação deve considerar a composição mineralógica, a estrutura da rocha e a aplicação do agregado (7 d).",
+      resultados: function (calc, d) {
+        var r = calc.resultados, P = d.params || {};
+        var rows = [["Graduação / carga abrasiva / rotações", r.g + " / " + r.carga[0] + " esferas, " + fmt(r.carga[1], 0) + " g / " + r.rot]];
+        if (P.classificacao) rows.push(["Agregado", P.classificacao]);
+        if (r.An.length > 1) rows.push(["Desgaste de cada amostra", r.An.map(function (x) { return fmt(x, 1) + " %"; }).join("; ")]);
+        rows.push(["Desgaste por abrasão \"Los Angeles\" (A" + r.g.toLowerCase() + ")", ok(r.A) ? fmt(Math.round(r.A), 0) + " %" +
+          (r.conforme === null ? "" : r.conforme ? " — atende ao máximo de " + fmt(r.lim, 0) + " %" : " — NÃO ATENDE ao máximo de " + fmt(r.lim, 0) + " %") : "—"]);
+        return rows;
+      },
+    },
+    exemplo: function () { return FICHAS["dnit-451-2024-me"].exemplos[0].dados(); },
+  };
+
+  // =====================================================================================
   // EXEMPLOS de cada ficha (grupo "Exemplos" na lista de ensaios; abrir carrega uma cópia).
   // Os números saem de valores-alvo coerentes (umidade, γs, ISC, expansão, GC), para que cada
   // exemplo seja internamente consistente; o 1º de cada ficha usa dados das planilhas do laboratório.
@@ -983,6 +1357,59 @@
     } },
   ];
 
+  // exemplos da granulometria: massas geradas a partir de uma curva-alvo de % passando
+  function massasDePassante(Mi, pens, pass, fundoPass) {
+    var o = { Mi: fmt(Mi, 1) }, ant = 100;
+    pens.forEach(function (mm, j) { o[chavePen(mm)] = fmt((ant - pass[j]) / 100 * Mi, 1); ant = pass[j]; });
+    o.fundo = fmt((ant - (fundoPass || 0)) / 100 * Mi, 1);
+    return o;
+  }
+  FICHAS["dnit-412-2025-me"].exemplos = [
+    { nome: "Pedrisco — planilha do laboratório (amostra 1 real; amostra 2 completada)", dados: function () {
+      return { ident: { registro: "EX-G-001", camada: "Pedrisco", origem: "Pedreira da Unidade A" },
+        params: { material: "grauda", faixa: "", serie: "grauda", lavagem: "nao", concreto: "nao", peneiramento: "mecanico" },
+        amostras: [{ Mi: "2000", r75: "0", r50: "0", r37_5: "0", r25: "0", r19: "0", r12_5: "0", r9_5: "61", r6_3: "598", r4_8: "565", r2_36: "667", fundo: "109" },
+          { Mi: "2000", r75: "0", r50: "0", r37_5: "0", r25: "0", r19: "0", r12_5: "0", r9_5: "60", r6_3: "604", r4_8: "560", r2_36: "670", fundo: "106" }] };
+    } },
+    { nome: "Mistura solo-agregado para base — com lavagem (DNER-ME 266)", dados: function () {
+      var pens = SERIES_412.solos, alvo1 = [100, 88, 62, 47, 33, 19, 9.8], alvo2 = [100, 87, 61, 48, 34, 20, 10.3];
+      var a1 = massasDePassante(20200, pens, alvo1, 0), a2 = massasDePassante(20150, pens, alvo2, 0);
+      // o passante na 0,075 sai por lavagem: Mlav = Mi − pulverulento; fundo seco residual pequeno
+      [[a1, 20200, 9.8], [a2, 20150, 10.3]].forEach(function (x) {
+        var pulv = x[2] / 100 * x[1] - 45;
+        x[0].Mlav = fmt(x[1] - pulv, 1); x[0].fundo = "45,0";
+      });
+      return { ident: { registro: "EX-G-002", camada: "Base — solo-brita", origem: "Jazida 4" },
+        params: { material: "mistura", faixa: (faixasDisponiveis().filter(function (f) { return /141/.test(f.codigo) && f.faixa === "B"; })[0] || {}).id || "",
+          serie: "solos", lavagem: "sim", concreto: "nao", peneiramento: "mecanico" },
+        amostras: [a1, a2] };
+    } },
+    { nome: "Areia média para concreto — módulo de finura", dados: function () {
+      return { ident: { registro: "EX-G-003", camada: "Areia para concreto", origem: "Porto de areia B" },
+        params: { material: "miuda", faixa: "", serie: "miuda", lavagem: "nao", concreto: "sim", peneiramento: "mecanico" },
+        amostras: [massasDePassante(1000, SERIES_412.miuda, [100, 99.6, 98, 86, 69, 44, 18, 4.5, 1.6], 0),
+          massasDePassante(1000, SERIES_412.miuda, [100, 99.4, 98, 85, 70, 45, 19, 4.8, 1.8], 0)] };
+    } },
+  ];
+
+  FICHAS["dnit-451-2024-me"].exemplos = [
+    { nome: "Brita granítica tipo 0 — graduação C, 3 amostras (planilha do laboratório)", dados: function () {
+      return { ident: { registro: "EX-LA-001", obra: "Obra A", origem: "Unidade A", data: "2025-10-11" },
+        params: { graduacao: "C", esferas: "8", carga: "3330", rotacoes: "500", lavagem: "sim", classificacao: "Brita granítica tipo 0", limite: "40" },
+        amostras: [["2858"], ["2961"], ["2887"]].map(function (x) { return { f9_5_6_3: "2500", f6_3_4_8: "2500", mln: x[0] }; }) };
+    } },
+    { nome: "Brita granítica tipo 2 — graduação B, 3 amostras (planilha do laboratório)", dados: function () {
+      return { ident: { registro: "EX-LA-002", obra: "Obra A", origem: "Unidade A", data: "2025-10-13" },
+        params: { graduacao: "B", esferas: "11", carga: "4584", rotacoes: "500", lavagem: "sim", classificacao: "Brita granítica tipo 2", limite: "40" },
+        amostras: [["3438"], ["3502"], ["3450"]].map(function (x) { return { f19_12_5: "2500", f12_5_9_5: "2500", mln: x[0] }; }) };
+    } },
+    { nome: "Brita graduada para base — graduação A, frações pesadas, limite de 55 %", dados: function () {
+      return { ident: { registro: "EX-LA-003", camada: "Base — brita graduada", origem: "Pedreira A" },
+        params: { graduacao: "A", esferas: "12", carga: "5008", rotacoes: "500", lavagem: "sim", classificacao: "Brita graduada simples (gnaisse)", limite: "55" },
+        amostras: [{ f38_25: "1252", f25_19: "1247", f19_12_5: "1251", f12_5_9_5: "1249", mln: "3712" }] };
+    } },
+  ];
+
   // ---------- relatório completo (HTML autônomo, A4) ----------
   function valorParam(f, d) {
     var v = (d.params || {})[f.k] || "";
@@ -1025,7 +1452,7 @@
       }).join("");
       var nota = T.usar && cols.some(function (p) { return p.usar === false; }) ? '<p class="nota">* não considerado no ajuste da curva.</p>' : "";
       return "<h2>" + esc(T.titulo) + '</h2><table class="pts"><tr><th>' + esc(T.rotulo) + "</th><th></th>" + cols.map(function (p, k) {
-        return "<th>" + (k + 1) + (T.usar && p.usar === false ? "*" : "") + "</th>";
+        return "<th>" + (T.nomes ? esc(T.nomes[k] || k + 1) : k + 1) + (T.usar && p.usar === false ? "*" : "") + "</th>";
       }).join("") + "</tr>" + corpo + "</table>" + nota;
     }).join("");
 
@@ -1045,6 +1472,7 @@
       ".pts th,.pts td{text-align:center;font-size:10.5px}.pts th:first-child{text-align:left;width:36%}.pts .u{color:#555}" +
       ".pts tr.g td{background:#e9e9e9;text-align:left;font-weight:bold}.pts tr.d td{font-weight:bold}" +
       ".res th{width:42%;background:#f2f2f2;font-weight:normal}.res td b{font-size:12.5px}" +
+      ".gr{margin-top:8px}.gr th,.gr td{text-align:center;font-size:10.5px}.gr td:first-child{text-align:left}.gr thead th{background:#f2f2f2}" +
       ".graf{text-align:center;margin-top:8px}.graf svg{width:100%;max-width:560px}" +
       ".av{border:1px solid #c77d12;background:#fff6e5;padding:5px 8px;margin-top:6px}.nota{color:#555;margin:4px 0}" +
       ".canc{border:2px solid #c0392b;color:#c0392b;font-weight:bold;padding:5px 8px;margin:8px 0}" +
@@ -1056,7 +1484,7 @@
       '<br><span style="font-weight:normal">Registro: ' + esc(i.registro || "—") + "</span></div></div>" + canc +
       '<h2>Identificação</h2><div class="duas"><table>' + identHtml.slice(0, 5).join("") + "</table><table>" + identHtml.slice(5).join("") + "</table></div>" +
       "<h2>Parâmetros</h2><table>" + paramHtml + "</table>" + tabsHtml +
-      "<h2>Resultados</h2>" + resHtml + graf +
+      "<h2>Resultados</h2>" + resHtml + ((F.relatorio || {}).extraHtml ? F.relatorio.extraHtml(calc, d) : "") + graf +
       ((F.relatorio || {}).notas ? '<p class="nota">' + esc(F.relatorio.notas) + "</p>" : "") +
       (calc.avisos.length ? '<div class="av">' + calc.avisos.map(function (a) { return "⚠ " + esc(a); }).join("<br>") + "</div>" : "") +
       (d.obs ? "<h2>Observações</h2><p>" + esc(d.obs).replace(/\n/g, "<br>") + "</p>" : "") +
@@ -1125,7 +1553,7 @@
           (bl.length ? " · usa bloco: " + esc(bl.join(", ")) : "") + (qtd ? " · " + qtd + " salvo(s)" : "") + "</div></div>";
       }).join("") +
         '<div class="fe-sec fe-sec-em">Em preparação</div><div class="fe-prox">Próximas fichas (após aprovação): ' +
-        "granulometria, abrasão Los Angeles, equivalente de areia, ligantes…</div>";
+        "equivalente de areia, índice de forma, ligantes…</div>";
     }
 
     function relacoes(fid) {
@@ -1219,8 +1647,8 @@
       tabelasDe(fid, d).forEach(function (T) {
         html += '<h3 class="fe-h">' + esc(T.titulo) + (T.dica ? ' <span class="fe-hint">' + esc(T.dica) + "</span>" : "") + "</h3>" +
           '<div class="fe-tab-wrap"><table class="fe-tab" id="fe-tab-' + T.chave + '" data-t="' + T.chave + '"></table></div>' +
-          '<div class="fe-pts-acoes"><button class="edit-btn" data-add="' + T.chave + '">+ ' + esc(T.rotulo) + '</button> ' +
-          '<button class="edit-btn" data-rem="' + T.chave + '">− Último</button></div>';
+          (T.fixo ? "" : '<div class="fe-pts-acoes"><button class="edit-btn" data-add="' + T.chave + '">+ ' + esc(T.rotulo) + '</button> ' +
+          '<button class="edit-btn" data-rem="' + T.chave + '">− Último</button></div>');
       });
 
       html += '<h3 class="fe-h">Resultados</h3><div id="fe-resultados"></div>' +
@@ -1238,7 +1666,7 @@
       tabelasDe(estado.ficha, d).forEach(function (T) {
         var cols = d[T.chave];
         var cab = '<tr><th class="fe-rot">' + esc(T.rotulo) + '</th><th class="fe-u"></th>' + cols.map(function (p, i) {
-          return "<th><div>" + (i + 1) + "</div>" + (T.usar ? '<label class="fe-usar"><input type="checkbox" data-t="' + T.chave + '" data-i="' + i +
+          return "<th><div>" + (T.nomes ? esc(T.nomes[i] || i + 1) : i + 1) + "</div>" + (T.usar ? '<label class="fe-usar"><input type="checkbox" data-t="' + T.chave + '" data-i="' + i +
             '" data-k="usar"' + (p.usar !== false ? " checked" : "") + "> usar</label>" : "") + "</th>";
         }).join("") + "</tr>";
         var corpo = T.linhas.map(function (l) {

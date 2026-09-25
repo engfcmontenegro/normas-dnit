@@ -144,6 +144,11 @@
       "page": 3,
       "cat": "contradicao",
       "texto": "Expansão: 5.1.2 admite ≤ 1 %, mas o controle em 7.4.1 (p. 6) exige < 0,5 %."
+    },
+    {
+      "page": 8,
+      "cat": "contradicao",
+      "texto": "Faixa F: nº 4 = 10–100, mínimo abaixo do da nº 10 (55); a DNIT 141/2022 dá 70–100."
     }
   ],
   "dnit_138_2010_es-1": [
@@ -158,6 +163,11 @@
       "page": 3,
       "cat": "contradicao",
       "texto": "Teor de betume: a Tabela 2 indica tolerância de ± 2 %; o texto de 7.2.1 (p. 7) indica ± 0,3 %. Adotado ± 0,3 %."
+    },
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Tabela 2: cabeçalho diz \"% mínima passando\", mas os valores são faixas (mín–máx)."
     }
   ],
   "dnit_139_2010_es-1": [
@@ -186,6 +196,11 @@
       "page": 6,
       "cat": "contradicao",
       "texto": "7.4.1 remete à alínea \"b\" de 5.3 para LL e IP, mas esses limites estão na alínea \"c\"."
+    },
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Tabela de faixas: abertura da nº 10 impressa \"2,09\" (é 2,0 mm); a mesma tabela escreve os limites na ordem máx–mín."
     }
   ],
   "dnit_140_2022_es": [
@@ -200,6 +215,11 @@
       "page": 4,
       "cat": "contradicao",
       "texto": "Tabela 2: a última linha repete o rótulo \"Taxa de aplicação\" (8–13 / 10–16 / 7,5–13,5 % da mistura seca); provavelmente é o teor de emulsão. Não incluída no controle de serviços."
+    },
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Tabela de faixas: nº 16 impressa \"1,21\" (1,18 mm) e nº 50 \"0,33\" (0,30 mm)."
     }
   ],
   "dnit_032_2005_es": [
@@ -957,6 +977,55 @@
       "page": 5,
       "cat": "erro",
       "texto": "6.3.5: \"Cronológico: 203 = A\", mas o código do documento termina em 200 = A; a Figura 1 (p. 2) traz \"LL.AAA.LL\" e o texto usa \"LL.BBB.LL\"; o Anexo B (p. 8) pula o código 026."
+    }
+  ],
+  "dner_es_393_99": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Faixas granulométricas: abertura de 1½\" impressa \"28,1\" (é 38,1 mm); faixa A com 3/8\" = 0–15, igual à ½\" (a DNIT 148 dá 0–5)."
+    }
+  ],
+  "dnit_152_2010_es-1": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Tabela de faixas: nº 200 impressa \"0,74\" (0,075 mm)."
+    }
+  ],
+  "dnit_406_2017_es-2": [
+    {
+      "page": 9,
+      "cat": "contradicao",
+      "texto": "Faixa F: nº 4 = 10–100, mínimo abaixo do da nº 10 (55); a DNIT 141/2022 dá 70–100 para a mesma faixa."
+    }
+  ],
+  "dnit_149_2010_es-1": [
+    {
+      "page": 8,
+      "cat": "erro",
+      "texto": "Tabela de faixas: 3/8\" impresso \"20,55\" (20–55); faixa D da 2ª camada com ½\" = \"0-100\" (provável 90–100); coluna D-1ª desalinhada."
+    }
+  ],
+  "dnit_166_2013_es": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Faixa granulométrica: nº 200 com máximo 20, acima do máximo 17 da nº 100; tolerância da 2\" impressa \"- 7\"."
+    }
+  ],
+  "dnit_169_2014_es": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Faixa granulométrica: nº 200 com máximo 20, acima do máximo 17 da nº 100; tolerância da 2\" impressa \"- 7\"."
+    }
+  ],
+  "dnit_142_2022_es-2": [
+    {
+      "page": 11,
+      "cat": "erro",
+      "texto": "Tabela A1: 3/8\" da faixa A impresso \"30 - 65 65\"."
     }
   ]
 }

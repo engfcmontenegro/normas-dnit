@@ -1,0 +1,37 @@
+{
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "66 Retirar o material da estufa",
+    "para": "**6.6** Retirar o material da estufa",
+    "nota": "número do item 6.6 quebrado"
+  },
+  "eq01": {
+    "page": 3,
+    "clip": [
+      64,
+      326,
+      200,
+      372
+    ],
+    "latex": [
+      "V = \\frac{M_2 - M_3}{M_2 - M_1} \\times 100",
+      "NV = \\frac{M_3 - M_1}{M_2 - M_1} \\times 100"
+    ],
+    "de_inicio": "M,-M, M,-M, V=———— x 100",
+    "de_fim": "após secagem, em gramas (ver 6.6).",
+    "para": "$$\nV = \\frac{M_2 - M_3}{M_2 - M_1} \\times 100\n$$\n\n$$\nNV = \\frac{M_3 - M_1}{M_2 - M_1} \\times 100\n$$\n\n$V$ - Matéria volátil, em porcentagem;\n$NV$ - Matéria não volátil, em porcentagem;\n$M_1$ - Massa da folha de alumínio, em gramas;\n$M_2$ - Massa da folha de alumínio, com a amostra, em gramas (ver 6.4);\n$M_3$ - Massa da folha de alumínio, com a amostra, após secagem, em gramas (ver 6.6)."
+  },
+  "eq02": {
+    "page": 3,
+    "clip": [
+      215,
+      326,
+      350,
+      372
+    ],
+    "latex": [
+      "NV = \\frac{M_3 - M_1}{M_2 - M_1} \\times 100"
+    ]
+  }
+}

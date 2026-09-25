@@ -1,0 +1,39 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      132.1,
+      158.4,
+      294.0,
+      196.0
+    ],
+    "raw": "𝑷 𝟏 +𝟎,𝟓 𝑷 𝟐 𝒇= (1) 𝟏𝟎𝟎 𝒏",
+    "latex": "f = \\frac{P_1 + 0{,}5\\, P_2}{100\\, n} \\tag{1}"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      226.2,
+      147.3,
+      252.5
+    ],
+    "raw": "𝒇 – índice de forma;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda (f – índice de forma)"
+  },
+  "eq03": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      275.5,
+      563.4,
+      301.9
+    ],
+    "raw": "c) Relatar o índice de forma (𝑓) calculado na equação",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto comum de item de lista"
+  }
+}

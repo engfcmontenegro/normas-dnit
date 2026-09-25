@@ -1,0 +1,26 @@
+{
+  "eq01": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      295.6,
+      203.7,
+      350.0
+    ],
+    "raw": "𝑓 𝑐𝑘,𝑒𝑠𝑡 < 𝑓 𝑐𝑘 , não conformidade 𝑓 𝑐𝑘,𝑒𝑠𝑡 ≥𝑓 𝑐𝑘 , conformidade",
+    "latex": [
+      "f_{ck,est} < f_{ck}\\text{, não conformidade}",
+      "f_{ck,est} \\geq f_{ck}\\text{, conformidade}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "nas seções 4 e 5 desta\n\nNorma, respectivamente.",
+    "para": "nas seções 4 e 5 desta Norma, respectivamente."
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "de acordo com a norma DNIT 011 –\n\nPRO a qual",
+    "para": "de acordo com a norma DNIT 011 – PRO a qual"
+  }
+}

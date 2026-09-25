@@ -1,0 +1,33 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      83.9,
+      148.0,
+      164.2,
+      194.2
+    ],
+    "raw": "",
+    "latex": "",
+    "ignorar": true,
+    "nota": "parte da figura de 3.1 (sem texto)"
+  },
+  "r01": {
+    "todas": true,
+    "de_inicio": "SELO DE\n\nARGILA\n\nMATERIAL\n\nFILTRANTE\n\nMATERIAL\n\nDRENANTE\n\nTUBO DRENO PERFURADO PEAD OU CONCRETO POROSO / PERFURADO\n\n",
+    "para": "",
+    "nota": "rótulos da figura (estão na imagem)"
+  },
+  "r02": {
+    "todas": true,
+    "de_inicio": "MATERIAL DE\n\nRECOBRIMENTO DO TUBO CONDUTOR\n\nTUBO CONDUTOR (NÃO PERFURADO) PVC, PEAD, PRFV OU CONCRETO\n\n",
+    "para": "",
+    "nota": "rótulos da figura (estão na imagem)"
+  },
+  "r03": {
+    "todas": true,
+    "de_inicio": "polietileno de alta\n\nDNIT 016/2006-ES densidade - PEAD",
+    "para": "polietileno de alta densidade - PEAD",
+    "nota": "cabeçalho de página no meio da frase"
+  }
+}

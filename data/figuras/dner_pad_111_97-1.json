@@ -1,0 +1,82 @@
+{
+  "fig01": {
+    "page": 3,
+    "bbox": [
+      49.7,
+      85.2,
+      571.0,
+      787.0
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO B - FICHA PARA REPRESENTAÇÃO",
+    "clip": [
+      72,
+      114,
+      572,
+      790
+    ],
+    "nota": "recorte manual: só a ficha (sem o título do anexo e a tarja lateral)",
+    "texto_removido": [
+      "COMPACIDADE",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `5 50 é efu «lr *`",
+      "## 32 a",
+      "Pos selo) S 4",
+      "## CO DIDO",
+      "Tptelulajag| Sê sã S3S5",
+      "## 0002412004104 I|n|S|53|]",
+      "O g5 ED GRANULOMETRIA cl=ss| =[&i 9 6",
+      "R como fonte",
+      "ção p Reprodu",
+      "## B - FICHA PARA REPRESENTAÇÃO",
+      "## DE PERFIL DE SONDAGEM",
+      "## AMOSTRA | W",
+      "CLASSIFICAÇÃO",
+      "LIMITE DE LIQUIDEZ PENETRAÇÃO",
+      "Nº DA CAMADA amostra | (m) FURONESP 5,08 cm) COTA DO FURO LIMIT. DE PLASTICIDADE Nº Golpes / 30cm",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `q o mm T Eq 2a (6) =altalS| €`",
+      "TEOR DE UMIDADE CONSISTÊNCIA S êo N.A. olm|a)",
+      "## 5 lê",
+      "E CLASSIFICAÇÃO DO MATERIAL =El=itlo E “|",
+      "## 0 y 20 40",
+      "60 80 8 18 24 32 40 10 30 50 70 90 |4 12 20 28 36",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `É a E [escala ) [data ] [número`",
+      "## 4 ua",
+      "## PERCUSSÃO ção p",
+      "PERFIL INDIVIDUAL DE SONDAGEM A PERCUSSÃO",
+      "COTAS (m)"
+    ]
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      42.7,
+      82.4,
+      564.0,
+      787.0
+    ],
+    "legenda": "",
+    "ancora": "O índice de recuperação IR, numa sondagem rotativa,",
+    "clip": [
+      68,
+      112,
+      570,
+      778
+    ],
+    "nota": "recorte manual: só a ficha (sem o título do anexo e a tarja lateral)",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `q Ê < E E |6| (IM) 1 | Nº`",
+      "CONSISTÊNCIA FENDILHAMENTO | ? PROFUN-SlElz) 2 |EjE] memanodra DIDADE",
+      "## SOLOS E/OU ROCHAS",
+      "4 42 20 28 36 |2 [246810 121416 18]? (m)",
+      "4 122028 36 44 1º Sérico",
+      "- 02º séricos COMPACIDADE sp None jreersão [escala data E número",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `0- 100 % SR dia s9/ 0 |5 a`",
+      "CZK é ressseros AMOSTRADOR códigoPNV IT TTIIIIII| ElEiso| E IE RECUPERAÇÃO — vao Ol8l5€| E 2]5 FRACIONAMENTO fr/M Va 4 >20(f)",
+      "ROTATIVA OU MISTA",
+      "PERFIL INDIVIDUAL DE SONDAGEM ROTATIVA OU MISTA",
+      "SR nº G INT D EXT BR “km ESTACA COTA",
+      "PENETRAÇÃO NA.",
+      "Nº DA Nº Golpes / 30cm ÍNDICES"
+    ]
+  }
+}

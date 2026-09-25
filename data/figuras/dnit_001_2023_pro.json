@@ -1,0 +1,32 @@
+{
+  "fig01": {
+    "page": 10,
+    "bbox": [
+      160.0,
+      94.7,
+      438.2,
+      207.9
+    ],
+    "legenda": "Figura 1 – Título"
+  },
+  "fig02": {
+    "page": 11,
+    "bbox": [
+      191.5,
+      405.6,
+      418.0,
+      440.9
+    ],
+    "legenda": "Figura C2 – Modelo de tabela (Exemplo 2)"
+  },
+  "fig03": {
+    "page": 11,
+    "bbox": [
+      191.5,
+      507.9,
+      418.0,
+      553.6
+    ],
+    "legenda": "Figura C3 – Modelo de tabela (Exemplo 3)"
+  }
+}

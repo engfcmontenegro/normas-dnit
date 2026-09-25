@@ -1,0 +1,21 @@
+{
+  "fig01": {
+    "page": 6,
+    "bbox": [
+      215.6,
+      190.4,
+      433.0,
+      308.4
+    ],
+    "legenda": "",
+    "ancora": "No caso de controle de compactação de um aterro, por exemplo, exige-se que o seg",
+    "clip": [
+      205,
+      145,
+      458,
+      312
+    ],
+    "nota": "gráfico da CCO (5.2.1)",
+    "inserir_antes": "**5.3** Extensão de trecho"
+  }
+}

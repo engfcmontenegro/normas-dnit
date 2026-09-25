@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Normas DNER / DNIT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>Normas DNER / DNIT</h1>
+    <div class="tabs">
+      <button id="tab-normas" class="active">Normas</button>
+      <button id="tab-rede">Rede de correlação</button>
+      <button id="tab-controle">Controle de serviços</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="view-normas" class="view active">
+      <aside class="sidebar">
+        <div class="filters">
+          <input type="search" id="search" placeholder="Buscar por código, título ou conteúdo...">
+          <div class="filter-group">
+            <div class="label">Órgão</div>
+            <div class="chip-row" id="filtro-orgao">
+              <div class="chip" data-value="DNER">DNER</div>
+              <div class="chip" data-value="DNIT">DNIT</div>
+            </div>
+          </div>
+          <div class="filter-group">
+            <div class="label">Tipo</div>
+            <div class="chip-row" id="filtro-tipo"></div>
+          </div>
+          <div class="filter-group">
+            <div class="label">Status</div>
+            <div class="chip-row" id="filtro-status">
+              <div class="chip" data-value="vigente">Vigente</div>
+              <div class="chip" data-value="suspensa">Suspensa</div>
+            </div>
+          </div>
+        </div>
+        <div class="result-count" id="result-count"></div>
+        <div class="norma-list" id="norma-list"></div>
+      </aside>
+      <div class="content-panel" id="content-panel">
+        <div class="empty-state">Selecione uma norma na lista à esquerda.</div>
+      </div>
+      <aside class="video-panel" id="video-panel" hidden></aside>
+    </section>
+
+    <section id="view-rede" class="view">
+      <div class="rede-toolbar">
+        <span><span class="legend-dot" style="background:var(--dner)"></span>DNER</span>
+        <span><span class="legend-dot" style="background:var(--dnit)"></span>DNIT</span>
+        <span id="rede-info"></span>
+        <span style="margin-left:auto">A rede se acomoda sozinha. Clique num nó para abrir a norma. Arraste para reorganizar. Role para zoom.</span>
+      </div>
+      <div id="network"></div>
+    </section>
+
+    <section id="view-controle" class="view">
+      <aside class="sidebar">
+        <div class="filters">
+          <input type="search" id="ctl-search" placeholder="Buscar serviço ou ensaio...">
+          <div class="chip-row" id="ctl-modo">
+            <div class="chip active" data-modo="checklist">Checklist por serviço</div>
+            <div class="chip" data-modo="matriz">Matriz ES × ensaios</div>
+          </div>
+        </div>
+        <div class="result-count" id="ctl-count"></div>
+        <div class="norma-list" id="ctl-list"></div>
+      </aside>
+      <div class="content-panel" id="ctl-panel">
+        <div class="empty-state">Selecione um serviço à esquerda para ver os ensaios e verificações exigidos.</div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script src="vendor/marked.min.js"></script>
+<script src="vendor/vis-network.min.js"></script>
+<script src="vendor/katex/katex.min.js"></script>
+<script src="vendor/katex/auto-render.min.js"></script>
+<script src="data/normas_data.js"></script>
+<script src="data/graph_data.js"></script>
+<script src="data/controle_data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

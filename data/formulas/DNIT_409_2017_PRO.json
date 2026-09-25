@@ -1,0 +1,57 @@
+{
+  "eq01": {
+    "page": 2,
+    "bbox": [
+      412.0,
+      452.7,
+      469.9,
+      493.0
+    ],
+    "raw": "𝑅 𝐿 = 𝐿 𝐸",
+    "latex": "R_L = \\frac{L}{E}"
+  },
+  "eq02": {
+    "page": 2,
+    "bbox": [
+      390.9,
+      520.2,
+      490.9,
+      560.6
+    ],
+    "raw": "𝑚𝑐𝑑 𝑙𝑢𝑥 ∗ 𝑚 2 ] 𝑅 𝐿 = [",
+    "latex": "R_L = \\left[\\frac{mcd}{lux * m^2}\\right]"
+  },
+  "eq03": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      484.8,
+      399.2,
+      563.1
+    ],
+    "raw": "𝑛 ∑ 𝑋1 𝑖=1 𝑥= 𝑛 𝑠= √∑(𝑥𝑖−𝑋)² 𝑛−1",
+    "latex": [
+      "x = \\frac{\\sum_{i=1}^{n} X1}{n}",
+      "s = \\sqrt{\\frac{\\sum (xi - X)^2}{n - 1}}"
+    ],
+    "nota": "transcrito como no PDF (p. 4): numerador 'X1' (seria X_i) e 'xi'/'X' em vez de x_i / x̄"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$R_{L}$̅̅̅",
+    "para": "$\\overline{R_{L}}$",
+    "nota": "barra de R_L perdida na extração (p. 4)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X – média da população s – desvio padrão",
+    "para": "X – média da população\n\ns – desvio padrão",
+    "nota": "duas linhas da legenda grudadas"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "a cada 100 m ((RL));",
+    "para": "a cada 100 m (($R_{L}$));",
+    "nota": "9 f): índice L de R_L perdido; parênteses duplos como no PDF"
+  }
+}

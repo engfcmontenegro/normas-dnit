@@ -1,0 +1,15 @@
+{
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": " mº",
+    "para": " m³",
+    "nota": "m³ lido como mº (volume das pedras, item 2)"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "100 cm? de drenos",
+    "para": "100 cm² de drenos"
+  }
+}

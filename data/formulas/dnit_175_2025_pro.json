@@ -1,0 +1,234 @@
+{
+  "eq01": {
+    "page": 2,
+    "bbox": [
+      318.1,
+      364.9,
+      562.4,
+      404.8
+    ],
+    "raw": "𝑋 𝑝𝑖 𝑋 𝑣𝑖 (1) 𝑋 𝑖 =",
+    "latex": "X_i = \\frac{X_{pi}}{X_{vi}} \\tag{1}"
+  },
+  "eq02": {
+    "page": 2,
+    "bbox": [
+      318.1,
+      624.0,
+      561.9,
+      664.1
+    ],
+    "raw": "𝑁 ∑ 𝑋 𝑖 , 𝑐𝑜𝑚 𝑁≥30 𝑖=1 𝑋̅ = (2) 𝑁",
+    "latex": "\\bar{X} = \\frac{\\sum_{i=1}^{N} X_i}{N}, \\quad \\text{com } N \\geq 30 \\tag{2}"
+  },
+  "eq03": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      77.1,
+      292.4,
+      116.0
+    ],
+    "raw": "𝜎= √ ∑(𝑋 𝑖 −𝑋̅) 2 (3) 𝑁−1",
+    "latex": "\\sigma = \\sqrt{\\frac{\\sum (X_i - \\bar{X})^2}{N-1}} \\tag{3}"
+  },
+  "eq04": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      308.2,
+      292.4,
+      346.3
+    ],
+    "raw": "𝜎 √𝑁 𝜎(𝑋̅) = (4)",
+    "latex": "\\sigma(\\bar{X}) = \\frac{\\sigma}{\\sqrt{N}} \\tag{4}"
+  },
+  "eq05": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      492.6,
+      292.4,
+      523.3
+    ],
+    "raw": "𝜀 0 = 2,045. 𝜎(𝑋̅) (5)",
+    "latex": "\\varepsilon_0 = 2{,}045 \\cdot \\sigma(\\bar{X}) \\tag{5}",
+    "nota": "o PDF usa ponto ('2,045.σ') como sinal de multiplicação"
+  },
+  "eq06": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      552.2,
+      207.1,
+      580.0
+    ],
+    "raw": "𝜀 0 é o erro de estimativa da média;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: linha da legenda 'onde:'"
+  },
+  "eq07": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      655.6,
+      292.4,
+      710.0
+    ],
+    "raw": "𝐿 𝑖 = 𝑋̅ −𝜀 0 { (6) 𝐿 𝑠 = 𝑋̅ + 𝜀 0",
+    "latex": "\\begin{cases} L_i = \\bar{X} - \\varepsilon_0 \\\\ L_s = \\bar{X} + \\varepsilon_0 \\end{cases} \\tag{6}"
+  },
+  "eq08": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      91.1,
+      477.5,
+      119.7
+    ],
+    "raw": "𝜀 0 é o erro de estimativa da média.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: linha da legenda 'onde:'"
+  },
+  "eq09": {
+    "page": 5,
+    "bbox": [
+      459.3,
+      420.2,
+      535.8,
+      463.0
+    ],
+    "raw": "> 𝛼 𝑖 Caso I < 𝛽 𝑖",
+    "latex": "L_i > \\alpha_i \\quad \\text{e} \\quad L_s < \\beta_i \\quad (\\text{Caso I})",
+    "nota": "anotação ao lado das linhas Li/Ls da tabela do Anexo A (comparação com αi e βi)"
+  },
+  "eq10": {
+    "page": 6,
+    "bbox": [
+      463.7,
+      398.8,
+      505.5,
+      441.5
+    ],
+    "raw": "> 𝛼 𝑖 < 𝛽 𝑖",
+    "latex": "L_i > \\alpha_i \\quad \\text{e} \\quad L_s < \\beta_i",
+    "nota": "anotação ao lado das linhas Li/Ls da tabela do Anexo A (comparação com αi e βi)"
+  },
+  "eq11": {
+    "page": 7,
+    "bbox": [
+      459.0,
+      384.5,
+      544.1,
+      441.4
+    ],
+    "raw": "< (𝛽 𝑖 −𝛼 𝑖 )/2 > 𝛼 𝑖 > 𝛽 𝑖",
+    "latex": "\\varepsilon_0 < (\\beta_i - \\alpha_i)/2, \\quad L_i > \\alpha_i \\quad \\text{e} \\quad L_s > \\beta_i",
+    "nota": "anotação ao lado das linhas Li/Ls da tabela do Anexo A (comparação com αi e βi)"
+  },
+  "eq12": {
+    "page": 7,
+    "bbox": [
+      338.6,
+      439.9,
+      425.9,
+      467.0
+    ],
+    "raw": "𝐾= 𝑋̅ = 2,11",
+    "latex": "K = \\bar{X} = 2{,}11"
+  },
+  "eq13": {
+    "page": 8,
+    "bbox": [
+      446.8,
+      384.5,
+      531.9,
+      441.4
+    ],
+    "raw": "> (𝛽 𝑖 −𝛼 𝑖 )/2 > 𝛼 𝑖 > 𝛽 𝑖",
+    "latex": "\\varepsilon_0 > (\\beta_i - \\alpha_i)/2, \\quad L_i > \\alpha_i \\quad \\text{e} \\quad L_s > \\beta_i",
+    "nota": "anotação ao lado das linhas Li/Ls da tabela do Anexo A (comparação com αi e βi); o PDF usa '>' para ε0 (a Tabela 2 diz ≥ no Caso IV)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "| Caso | Condição | Resultado |\n| --- | --- | --- |\n| I | 𝐿 ≥ 𝛼 𝑒 𝐿 ≤ 𝛽 𝑖 𝑖 𝑠 𝑖 | Aceita |\n| II | 𝐿 < 𝛼 𝑒 𝐿 > 𝛽 𝑖 𝑖 𝑠 𝑖 | Rejeitada |\n| III | 𝐿 > 𝛼 𝑒 𝐿 > 𝛽 𝑖 𝑖 𝑠 𝑖 ou 𝐿 < 𝛼 𝑒 𝐿 < 𝛽 𝑖 𝑖 𝑠 𝑖 e 𝛽 −𝛼 𝑖 𝑖 𝜀 < 0 2 | Aceita |\n| IV | 𝐿 > 𝛼 𝑒 𝐿 > 𝛽 𝑖 𝑖 𝑠 𝑖 ou 𝐿 < 𝛼 𝑒 𝐿 < 𝛽 𝑖 𝑖 𝑠 𝑖 e 𝛽 −𝛼 𝑖 𝑖 𝜀 ≥ 0 2 | Rejeitada |",
+    "para": "| Caso | Condição | Resultado |\n| --- | --- | --- |\n| I | $L_i \\geq \\alpha_i$ e $L_s \\leq \\beta_i$ | Aceita |\n| II | $L_i < \\alpha_i$ e $L_s > \\beta_i$ | Rejeitada |\n| III | $L_i > \\alpha_i$ e $L_s > \\beta_i$<br>ou<br>$L_i < \\alpha_i$ e $L_s < \\beta_i$<br>e<br>$\\varepsilon_0 < \\frac{\\beta_i - \\alpha_i}{2}$ | Aceita |\n| IV | $L_i > \\alpha_i$ e $L_s > \\beta_i$<br>ou<br>$L_i < \\alpha_i$ e $L_s < \\beta_i$<br>e<br>$\\varepsilon_0 \\geq \\frac{\\beta_i - \\alpha_i}{2}$ | Rejeitada |",
+    "nota": "Tabela 2: condições em LaTeX"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "| Caso | Constante (k) |\n| --- | --- |\n| I | (𝛽 −𝛼 ) 𝑖 𝑖 𝛼 + 𝑖 2 |\n| III | Média aritmética determinada em 5.2 |",
+    "para": "| Caso | Constante (k) |\n| --- | --- |\n| I | $\\alpha_i + \\frac{(\\beta_i - \\alpha_i)}{2}$ |\n| III | Média aritmética determinada em 5.2 |",
+    "nota": "Tabela 3: constante em LaTeX"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "| 𝑋̅ |",
+    "para": "| $\\bar{X}$ |",
+    "nota": "tabelas do Anexo A"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "| 𝜎(𝑋̅) |",
+    "para": "| $\\sigma(\\bar{X})$ |"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "| 𝜎 |",
+    "para": "| $\\sigma$ |"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "| ε 0 |",
+    "para": "| $\\varepsilon_0$ |"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "| Li |",
+    "para": "| $L_i$ |"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "| Ls |",
+    "para": "| $L_s$ |"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "| Xpi (0,01 mm) | Xvi (0,01 mm) |  | Xi |",
+    "para": "| $X_{pi}$ (0,01 mm) | $X_{vi}$ (0,01 mm) |  | $X_i$ |"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "(αi – βi)",
+    "para": "($\\alpha_i$ – $\\beta_i$)"
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "$σ$($\\bar{X}$)",
+    "para": "$\\sigma(\\bar{X})$",
+    "nota": "legendas"
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "$σ$ é",
+    "para": "$\\sigma$ é"
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "uma determinada viga\n\nBenkelman está",
+    "para": "uma determinada viga Benkelman está",
+    "nota": "linha partida"
+  },
+  "t14": {
+    "todas": true,
+    "de_inicio": "rejeição da viga\n\nBenkelman\n\n",
+    "para": "rejeição da viga Benkelman\n\n"
+  },
+  "t15": {
+    "todas": true,
+    "de_inicio": "para a viga\n\nBenkelman\n\n",
+    "para": "para a viga Benkelman\n\n"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      197.5,
+      109.3,
+      412.0,
+      260.7
+    ],
+    "legenda": "Figura A1 – Etapas de ensaio de estabilidade à estocagem"
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      159.0,
+      326.2,
+      450.5,
+      605.1
+    ],
+    "legenda": "Figura A2 – Tubos na vertical posicionados na estufa"
+  },
+  "fig03": {
+    "page": 5,
+    "bbox": [
+      161.8,
+      51.9,
+      447.7,
+      206.0
+    ],
+    "legenda": "Figura A3 – Tubos seccionados"
+  },
+  "fig04": {
+    "page": 5,
+    "bbox": [
+      142.9,
+      267.4,
+      466.6,
+      438.3
+    ],
+    "legenda": "Figura A4 – Tubo de alumínio utilizado no ensaio de estabilidade à estocagem"
+  }
+}

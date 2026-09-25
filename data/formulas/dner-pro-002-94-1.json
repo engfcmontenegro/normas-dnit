@@ -1,0 +1,85 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      74,
+      196,
+      190,
+      250
+    ],
+    "latex": [
+      "r = \\frac{D_e^2 - D_i^2}{D_i^2} \\times 100",
+      "i = \\frac{D_i - D_p}{D_p} \\times 100"
+    ],
+    "de_inicio": "22 D-D.\n\nr— º 17100 D2 onde:",
+    "de_fim": "D, - diâmetro de abertura do amostrador",
+    "para": "$$\nr = \\frac{D_e^2 - D_i^2}{D_i^2} \\times 100\n$$\n\nonde:\n\nr - relação de áreas;\n$D_e$ - diâmetro externo;\n$D_i$ - diâmetro interno.\n\n**3.5** Folga interna (“inside clearence”) de um amostrador é o valor obtido pela expressão:\n\n$$\ni = \\frac{D_i - D_p}{D_p} \\times 100\n$$\n\nonde:\n\ni - folga interna (“inside clearence”);\n$D_i$ - diâmetro externo;\n$D_p$ - diâmetro de abertura do amostrador.",
+    "nota": "3.5 (p. 3): o PDF chama D_i de 'diâmetro externo' na legenda da folga interna (em 3.4 é 'diâmetro interno'); transcrito como no PDF"
+  },
+  "eq02": {
+    "page": 3,
+    "clip": [
+      74,
+      393,
+      190,
+      442
+    ],
+    "latex": [
+      "i = \\frac{D_i - D_p}{D_p} \\times 100"
+    ]
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `, o aa VIAKIU vw So`",
+    "de_fim": "conteúdo técnico.\n\nY",
+    "para": "## 0 APRESENTAÇÃO\n\nEsta Norma decorreu da necessidade de se adaptar, quanto à forma, a DNER-PRO 002/78 à DNER-PRO 101/93, mantendo-se inalterável o seu conteúdo técnico.",
+    "nota": "aviso falso: SUMÁRIO ilegível no OCR (p. 1); '007/78' do OCR é 002/78 no PDF"
+  },
+  "x02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "o mais próximo possível de sua estrutura 1 4",
+    "para": "o mais próximo possível de sua estrutura natural."
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "Reprodução permiticla desde que citado o DNER como fonte\n\nTabela 2 - Diâmetro do amostrador “Denison”\n\n## 26 4 EQUIPAMENTOS a)",
+    "de_fim": "n) fogareiro com recipiente;\n\nSegundo o tipo de coleta, são utilizados os seguintes equipamentos e materiais:",
+    "para": "## 4 EQUIPAMENTOS\n\nSegundo o tipo de coleta, são utilizados os seguintes equipamentos e materiais:\n\n**4.1** Amostra em blocos indeformados:\n\na) balde;\n\nb) corda;\n\nc) pá;\n\nd) picareta;\n\ne) caixa de madeira de forma cúbica;\n\nf) facão;\n\ng) trena;\n\nh) etiqueta de identificação;\n\ni) boletim de sondagem;\n\nj) “metro”;\n\nl) pano;\n\nm) parafina;\n\nn) fogareiro com recipiente;\n\no) serragem;\n\np) marcador (Pilot).\n\n**4.2** Amostras indeformadas com amostradores:",
+    "nota": "seção 4 (p. 4-5): título grudado, alíneas de 4.1 fora de ordem e título 4.2 perdido no OCR; título da Tabela 2 vai com a tabela (tabm02)"
+  },
+  "x04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n1) “metro”;\n\nm) pano;\n\nn) parafina;\n\n0) fogareiro com recipiente;\n\nP) serragem;",
+    "para": "\n\nl) “metro”;\n\nm) pano;\n\nn) parafina;\n\no) fogareiro com recipiente;\n\np) serragem;"
+  },
+  "x05": {
+    "texto": true,
+    "de_inicio": "## 7 RNeatvrio de Tampo",
+    "de_fim": "E CABEÇA DO AMOSTRADOR\n\nANEXO NORMATIVO - FIGURAS",
+    "para": "## 7 RELATÓRIO DE CAMPO\n\nOs dados obtidos devem ser anotados em boletim de campo, incluindo os seguintes itens:\n\na) data do início e término da sondagem;\n\nb) nome da obra;\n\nc) local da obra;\n\nd) número da sondagem;\n\ne) locação;\n\nf) diâmetro e método de avanço da sondagem;\n\ng) cota da boca do furo;\n\nh) profundidade do revestimento;\n\ni) profundidade das diversas camadas;\n\nj) número da amostra;\n\nl) profundidade do nível d’água (inicial e após 24 hs);\n\nm) comprimento de penetração do amostrador;\n\nn) comprimento recuperado no interior do amostrador;\n\no) análise tátil-visual das diversas amostras.\n\n## ANEXO NORMATIVO - FIGURAS",
+    "nota": "alíneas e) a o) da seção 7 (p. 9) só existiam como imagem da página (figura ignorada); rótulos das figuras do anexo removidos"
+  },
+  "x06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n## 1 FIGURA\n\nFIGURA 3\n\n",
+    "para": "\n\n",
+    "nota": "rótulos de carimbo das figuras"
+  },
+  "x07": {
+    "texto": true,
+    "de_inicio": "DAISIES SSIS SESASESSSS EST",
+    "de_fim": "é- SAPATA 150 TUBO EXTERNO e - CAMISA",
+    "para": "",
+    "nota": "avisos falsos/lixo: rótulos das figuras 2 e 3 (p. 11-12)"
+  },
+  "x08": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "o) análise tátil-visual das diversas amostras.\n\n![[dner-pro-002-94-1_fig02.png]]\n\n![[dner-pro-002-94-1_fig03.png]]\n\n![[dner-pro-002-94-1_fig04.png]]\n\n## ANEXO NORMATIVO - FIGURAS",
+    "para": "o) análise tátil-visual das diversas amostras.\n\n## ANEXO NORMATIVO - FIGURAS\n\n![[dner-pro-002-94-1_fig02.png]]\n\n![[dner-pro-002-94-1_fig03.png]]\n\n![[dner-pro-002-94-1_fig04.png]]",
+    "nota": "figuras do anexo depois do título do anexo (embeds fixos)"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "eq01": {
+    "page": 9,
+    "bbox": [
+      316.9,
+      368.8,
+      416.2,
+      465.9
+    ],
+    "raw": "= ∑ Xi X n ∑ − ) 2 ( Xi X = s − n 1",
+    "latex": [
+      "\\overline{X} = \\frac{\\sum X_i}{n}",
+      "s = \\sqrt{\\frac{\\sum (X_i - \\overline{X})^2}{n - 1}}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "\n\nX - ks < valor mínimo admitido,",
+    "para": "\n\n$\\overline{X} - ks$ < valor mínimo admitido,"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "\n\nX - ks ≥ valor mínimo admitido,",
+    "para": "\n\n$\\overline{X} - ks$ ≥ valor mínimo admitido,"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "\n\nX + ks > valor máximo admitido,",
+    "para": "\n\n$\\overline{X} + ks$ > valor máximo admitido,"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "\n\nX + ks ≤ valor máximo admitido,",
+    "para": "\n\n$\\overline{X} + ks$ ≤ valor máximo admitido,"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "$X_{i - valores individuais;}$",
+    "para": "$X_i$ - valores individuais;"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "\n\nX - média da amostra;",
+    "para": "\n\n$\\overline{X}$ - média da amostra;"
+  }
+}

@@ -1,0 +1,64 @@
+{
+ "es": "dner-es-227-89",
+ "servico": "Agregados sintéticos graúdos de argila calcinada – emprego",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado sintético graúdo",
+   "ensaio": "Classe e grupo do agregado",
+   "citado": "DNER-EM 230/89",
+   "norma": null,
+   "norma_atual": "dner-em-230-94",
+   "frequencia": "Na seleção do material",
+   "criterio": "Tratamento superficial: IA; revestimento de CA: IA, IIA; base de CA e base flexível: IA, IB, IC, IIA, IIB, IIC; concreto leve exposto: IA; pavimento de CCP: IA, IB; base de CCP: IA, IB, IC, IIA, IIB",
+   "secao": "4.1 (Quadro)"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado sintético graúdo",
+   "ensaio": "Massa unitária no estado solto",
+   "citado": "NBR 7251/82",
+   "norma": null,
+   "frequencia": "Na seleção do material",
+   "criterio": "Conforme classe/grupo da DNER-EM 230",
+   "secao": "2.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado sintético graúdo",
+   "ensaio": "Perda de massa após fervura",
+   "citado": "DNER-ME 225/89",
+   "norma": null,
+   "norma_atual": "dner-me-225-94",
+   "frequencia": "Na seleção do material",
+   "criterio": "Conforme classe/grupo da DNER-EM 230",
+   "secao": "2.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado sintético graúdo",
+   "ensaio": "Desgaste por abrasão",
+   "citado": "DNER-ME 222/89",
+   "norma": null,
+   "norma_atual": "dner-me-222-94",
+   "frequencia": "Na seleção do material",
+   "criterio": "Conforme classe/grupo da DNER-EM 230",
+   "secao": "2.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado sintético graúdo",
+   "ensaio": "Reatividade potencial (método químico)",
+   "citado": "ANSI/ASTM C 289-71",
+   "norma": null,
+   "frequencia": "Na seleção do material",
+   "criterio": "Agregado inócuo",
+   "condicao": "em estruturas expostas de concreto leve de cimento Portland",
+   "secao": "4.1 Nota 2"
+  }
+ ],
+ "notas": [
+  "A ES apenas indica a classe e o grupo (definidos na DNER-EM 230) conforme o serviço; limites numéricos dos ensaios estão na EM.",
+  "Em tratamentos superficiais o agregado deve ser mantido seco durante a construção."
+ ]
+}

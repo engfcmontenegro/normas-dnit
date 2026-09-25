@@ -1,0 +1,69 @@
+{
+  "eq01": {
+    "page": 10,
+    "clip": [
+      65,
+      95,
+      250,
+      200
+    ],
+    "latex": [
+      "\\overline{X} = \\frac{\\sum X_i}{n}",
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `X Xi n = ∑ ( ) s Xi X n = ∑ − − 2 1`",
+    "de_fim": "- número de determinações.",
+    "para": "$$\n\\overline{X} = \\frac{\\sum X_i}{n}\n$$\n\n$$\ns = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}\n$$\n\nonde:\n\n$X_i$ - valores individuais;\n$\\overline{X}$ - média da amostra;\n$s$ - desvio padrão da amostra;\n$k$ - coeficiente tabelado em função do número de determinações;\n$n$ - número de determinações."
+  },
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo de projeto ou X + ks > valor máximo",
+    "para": "$\\overline{X} - ks$ < valor mínimo de projeto ou $\\overline{X} + ks$ > valor máximo"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo de projeto e X + ks ≤ valor máximo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo de projeto e $\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "± 0,2 λ /m 2",
+    "para": "± 0,2 l/m²",
+    "nota": "'λ/m²' do PDF é o l (litro) da fonte Symbol"
+  },
+  "t04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "± 1,5kg/m 2 .",
+    "para": "± 1,5 kg/m²."
+  },
+  "t05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "3.000m 2 )",
+    "para": "3.000 m²)"
+  },
+  "t06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "700m 2 de pista",
+    "para": "700 m² de pista"
+  },
+  "t07": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n**5.2** Equipamento\n\n![[dner_es_392_99_fig01.png]]",
+    "para": "\n\nCamada Cimento asfáltico Agregado 1ª 1,20 λ /m 2 – 1,80 λ /m 2 20 kg/m² a 25 kg/m² 2ª 0,80 λ /m 2 – 1,20 λ /m 2 10 kg/m² a 12 kg/m²\n\n**5.2** Equipamento",
+    "nota": "tabela de 5.1.4.4 tinha virado figura (fig01) depois do título 5.2: volta ao lugar como texto, que tabelas_dner troca pela tabm01"
+  },
+  "t08": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "0,02 0,01 n = n° de amostras",
+    "para": "0,02 0,01\n\nn = n° de amostras",
+    "nota": "separa a nota da tabela de amostragem (tabm02)"
+  }
+}

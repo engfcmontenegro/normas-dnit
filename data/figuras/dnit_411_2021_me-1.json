@@ -1,0 +1,122 @@
+{
+  "fig01": {
+    "page": 6,
+    "bbox": [
+      72.6,
+      72.6,
+      298.6,
+      199.7
+    ],
+    "legenda": "Figura A1 - Amostra de agregado seco em estufa com molde"
+  },
+  "fig02": {
+    "page": 6,
+    "bbox": [
+      312.0,
+      72.6,
+      538.1,
+      199.8
+    ],
+    "legenda": "Figura A2 - Amostra de agregado saturado por 24 h"
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      125.9,
+      230.5,
+      245.9,
+      443.8
+    ],
+    "legenda": "Figura A3 - Compactação do agregado dentro do molde de"
+  },
+  "fig04": {
+    "page": 6,
+    "bbox": [
+      366.5,
+      230.5,
+      484.0,
+      439.3
+    ],
+    "legenda": "Figura A4 - Nivelamento do material com o topo do molde após"
+  },
+  "fig05": {
+    "page": 6,
+    "bbox": [
+      128.2,
+      474.1,
+      243.5,
+      679.1
+    ],
+    "legenda": "Figura A5 - Limpeza ao redor do molde"
+  },
+  "fig06": {
+    "page": 6,
+    "bbox": [
+      367.3,
+      474.1,
+      483.1,
+      680.0
+    ],
+    "legenda": "Figura A6 - Na posição para levantar o molde verticalmente"
+  },
+  "fig07": {
+    "page": 7,
+    "bbox": [
+      73.6,
+      83.4,
+      297.5,
+      209.4
+    ],
+    "legenda": "Figura A7 - Amostra de agregado com umidade superficial –"
+  },
+  "fig08": {
+    "page": 7,
+    "bbox": [
+      313.0,
+      83.4,
+      536.9,
+      209.4
+    ],
+    "legenda": "Figura A8 - Amostra de agregado sem umidade superficial –"
+  },
+  "fig09": {
+    "page": 7,
+    "bbox": [
+      132.0,
+      255.0,
+      239.0,
+      445.4
+    ],
+    "legenda": "Figura A9 - Massa da amostra saturado superfície seca a ser"
+  },
+  "fig10": {
+    "page": 7,
+    "bbox": [
+      352.9,
+      255.0,
+      496.8,
+      446.2
+    ],
+    "legenda": "Figura A10 - Picnômetro + amostra"
+  },
+  "fig11": {
+    "page": 7,
+    "bbox": [
+      95.3,
+      475.9,
+      275.8,
+      677.0
+    ],
+    "legenda": "Figura A11 - Picnômetro + amostra + água"
+  },
+  "fig12": {
+    "page": 7,
+    "bbox": [
+      344.3,
+      475.9,
+      505.4,
+      682.8
+    ],
+    "legenda": "Figura A12 - Picnômetro + água"
+  }
+}

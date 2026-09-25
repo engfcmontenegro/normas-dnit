@@ -1,0 +1,60 @@
+{
+  "eq01": {
+    "page": 7,
+    "bbox": [
+      103.8,
+      521.4,
+      169.6,
+      552.1
+    ],
+    "raw": "≥ − fc fc 7 Ks",
+    "latex": "fc \\geq fc7 - Ks"
+  },
+  "eq02": {
+    "page": 7,
+    "bbox": [
+      322.1,
+      199.5,
+      393.2,
+      230.2
+    ],
+    "raw": "= − fc fc 7 Ks",
+    "latex": "fc = fc7 - Ks"
+  },
+  "eq03": {
+    "page": 7,
+    "bbox": [
+      336.1,
+      749.7,
+      409.7,
+      780.4
+    ],
+    "raw": "= −",
+    "latex": "",
+    "ignorar": true,
+    "nota": "detector pegou só '= −'; fórmula inteira em m01"
+  },
+  "m01": {
+    "manual": true,
+    "page": 7,
+    "clip": [
+      324,
+      752,
+      430,
+      778
+    ],
+    "latex": "GC = GC\\text{médio} - Ks"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "TABELA 1 AMOSTRAGEM VARIÁVEL\n\n| n | 6 | 7 | 8 | 9 | 10 | 12 | 15 | 18 | 20 | 25 | 30 | 32 | > 32 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| k | 0,92 | 0,906 | 0,896 | 0,889 | 0,883 | 0,876 | 0,868 | 0,863 | 0,861 | 0,857 | 0,854 | 0,842 | 0,842 |\n\n![[dnit_058_2004_es_tab02.png]]\n\na) Aceitação automática\n\nO trecho de sub-base será aceito automaticamente quando à resistência do solo-cimento apresentar a seguinte condição:\n\n$$\nfc \\geq fc7 - Ks\n$$\n\nb) Verificações suplementares\n\nQuando não houver aceitação automática, a decisão sobre o trecho se baseará em verificações suplementares da resistência da sub-base. Constará da retirada de corpos de prova indeformados, com idade mínima de 14 dias, formando uma amostra que pertença ao mesmo trecho em análise e que contenha um número mínimo de 6 exemplares, sendo cada exemplar representado por apenas um corpo de prova. Os exemplares serão submetidos ao ensaio de compressão simples, determinando-se a média aritmética e o desvio padrão das resistências em torno\n\nb) Teor de cimento\n\nDeverá ser feita 1 (uma) determinação por dia.\n\n**7.3** Aceitação e rejeição\n\n**7.3.1** Resistência à compressão\n\nA resistência à compressão do trecho inspecionado compressão será determinada a partir da expressão:\n\n$$\nfc = fc7 - Ks\n$$\n\nonde:\n\n$fc$ = valor da resistência à compressão definida no projeto e estudo de dosagem do solo-cimento.\n\nfc7 = resistência média na idade de 7 dias s = desvio padrão dos resultados.\n\nk = coeficiente que é função da quantidade de exemplares do trecho, obtido na Tabela 1.\n\ndela; calcula-se novamente a resistência média fc7, comparando-a novamente com a fc de projeto.\n\nc) Decisão\n\nCaso a condição fc7 ≥ fc seja satisfeita nesta segunda etapa, a sub-base será aceita;\n\nCaso contrário, de acordo com o parecer da contratante e sem ônus para ela, pode ser tomada uma das seguintes decisões:\n\n- o trecho condenado será demolido e reconstruído;\n- a sub-base será reforçada.\n\n**7.3.2** Grau de compactação\n\nO grau de compactação do trecho inspecionado, a ser confrontado com os valores especificados, será calculado pela fórmula:\n\n$$\nGC = GC\\text{médio} - Ks\n$$\n\nonde:\n\n$GC$ = valor mínimo estatístico do grau de compactação,\n\nGCmédio = grau de compactação médio obtido no trecho inspecionado,\n\nTABELA 2 AMOSTRAGEM VARIÁVEL\n\n| n | 5 | 6 | 7 | 8 | 9 | 10 | 12 | 13 | 14 | 15 | 16 | 17 | 19 | 21 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| K | 1,55 | 1,41 | 1,36 | 1,31 | 1,25 | 1,21 | 1,16 | 1,13 | 1,11 | 1,10 | 1.08 | 1,06 | 1,04 | 1,01 |\n\n![[dnit_058_2004_es_tab03.png]]\n\nA decisão sobre o trecho será a seguinte :\n\na) Aceitação automática\n\nQuando GC ≥ 100% - o trecho será\n\n- aceito\n- Quando GC < 100% - o trecho será rejeitado\n\nb) Verificações suplementares\n\nNo caso da não aceitação automática dos serviços pela análise estatística (GCest <\n\n100%), o trecho será reensaiado, fazendo-se no mínimo 6 determinações em pontos bem espaçados do trecho, sendo feita uma nova análise estatística.\n\nO trecho será dado como aceito, quando no reensaio se tiver GC ≥ 100%, ou então todos os valores individuais forem iguais ou superiores a 100%.\n\nQuando se tiver GC < 100% ou então algum valor individual menor que 100%, o trecho deverá ser rebatido ate que se consiga as condições de aceitação anteriormente citadas.\n\n**7.3.3** Grau de pulverização (GP)\n\nO GP deverá ser maior ou igual a 80%. Caso contrário, os trabalhos de pulverização deverão prosseguir até que se atinja esse limite mínimo.",
+    "para": "b) Teor de cimento\n\nDeverá ser feita 1 (uma) determinação por dia.\n\n**7.3** Aceitação e rejeição\n\n**7.3.1** Resistência à compressão\n\nA resistência à compressão do trecho inspecionado compressão será determinada a partir da expressão:\n\n$$\nfc = fc7 - Ks\n$$\n\nonde:\n\n$fc$ = valor da resistência à compressão definida no projeto e estudo de dosagem do solo-cimento.\n\n$fc7$ = resistência média na idade de 7 dias\n\n$s$ = desvio padrão dos resultados.\n\n$k$ = coeficiente que é função da quantidade de exemplares do trecho, obtido na Tabela 1.\n\nTABELA 1 AMOSTRAGEM VARIÁVEL\n\n| n | 6 | 7 | 8 | 9 | 10 | 12 | 15 | 18 | 20 | 25 | 30 | 32 | > 32 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| k | 0,92 | 0,906 | 0,896 | 0,889 | 0,883 | 0,876 | 0,868 | 0,863 | 0,861 | 0,857 | 0,854 | 0,842 | 0,842 |\n\n![[dnit_058_2004_es_tab02.png]]\n\na) Aceitação automática\n\nO trecho de sub-base será aceito automaticamente quando à resistência do solo-cimento apresentar a seguinte condição:\n\n$$\nfc \\geq fc7 - Ks\n$$\n\nb) Verificações suplementares\n\nQuando não houver aceitação automática, a decisão sobre o trecho se baseará em verificações suplementares da resistência da sub-base. Constará da retirada de corpos de prova indeformados, com idade mínima de 14 dias, formando uma amostra que pertença ao mesmo trecho em análise e que contenha um número mínimo de 6 exemplares, sendo cada exemplar representado por apenas um corpo de prova. Os exemplares serão submetidos ao ensaio de compressão simples, determinando-se a média aritmética e o desvio padrão das resistências em torno dela; calcula-se novamente a resistência média fc7, comparando-a novamente com a fc de projeto.\n\nc) Decisão\n\nCaso a condição fc7 ≥ fc seja satisfeita nesta segunda etapa, a sub-base será aceita;\n\nCaso contrário, de acordo com o parecer da contratante e sem ônus para ela, pode ser tomada uma das seguintes decisões:\n\n- o trecho condenado será demolido e reconstruído;\n- a sub-base será reforçada.\n\n**7.3.2** Grau de compactação\n\nO grau de compactação do trecho inspecionado, a ser confrontado com os valores especificados, será calculado pela fórmula:\n\n$$\nGC = GC\\text{médio} - Ks\n$$\n\nonde:\n\n$GC$ = valor mínimo estatístico do grau de compactação,\n\n$GC\\text{médio}$ = grau de compactação médio obtido no trecho inspecionado,\n\n$s$ = desvio padrão dos resultados.\n\nTABELA 2 AMOSTRAGEM VARIÁVEL\n\n| n | 5 | 6 | 7 | 8 | 9 | 10 | 12 | 13 | 14 | 15 | 16 | 17 | 19 | 21 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| K | 1,55 | 1,41 | 1,36 | 1,31 | 1,25 | 1,21 | 1,16 | 1,13 | 1,11 | 1,10 | 1.08 | 1,06 | 1,04 | 1,01 |\n\n![[dnit_058_2004_es_tab03.png]]\n\nA decisão sobre o trecho será a seguinte:\n\na) Aceitação automática\n\n- Quando GC ≥ 100% - o trecho será aceito\n- Quando GC < 100% - o trecho será rejeitado\n\nb) Verificações suplementares\n\nNo caso da não aceitação automática dos serviços pela análise estatística (GCest < 100%), o trecho será reensaiado, fazendo-se no mínimo 6 determinações em pontos bem espaçados do trecho, sendo feita uma nova análise estatística.\n\nO trecho será dado como aceito, quando no reensaio se tiver GC ≥ 100%, ou então todos os valores individuais forem iguais ou superiores a 100%.\n\nQuando se tiver GC < 100% ou então algum valor individual menor que 100%, o trecho deverá ser rebatido ate que se consiga as condições de aceitação anteriormente citadas.\n\n**7.3.3** Grau de pulverização (GP)\n\nO GP deverá ser maior ou igual a 80%. Caso contrário, os trabalhos de pulverização deverão prosseguir até que se atinja esse limite mínimo.\n\n**7.4** Controle geométrico\n\n## 8 Critérios de medição",
+    "nota": "págs. 7-8: ordem de leitura embaralhada pela tabela de largura total; legendas das fórmulas quebradas; seções 7.4 e 8 (coluna direita da pág. 8) tinham sumido do md — texto transcrito do PDF | trecho restaurado removido: o gerador corrigido já produz a coluna direita"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "- NBR 11578 - Cimento Portland Composto\n\n| PH | Entre 5 e 8 |\n| --- | --- |\n| Matéria orgânica, expressa em oxigênio consumido | 3 mg/l |\n| Resíduo sólido | 5000 mg/l |\n| Sulfatos, expressos em ions SO4 | 600 mg/l |\n| Cloretos, expressos em íons Cl | 1000 mg/l |\n| Açúcar | 5 mg/l |\n\n![[dnit_058_2004_es_tab01.png]]\n\n**5.1.3** Solo\n\nOs solos empregados serão os provenientes de ocorrências de materiais definidas na investigação, devendo, preferencialmente, apresentar as seguintes características:\n\n- passando na peneira ABNT 76 mm - 100%\n- passando na peneira ABNT nº 4 - 50 a 100%\n- passando na peneira ABNT nº 40 - 15 a 100%\n- passando na peneira ABNT nº 200 - 5 a 35%\n- limite liquidez, máximo - 40%\n- índice de plasticidade, máximo - 18%\n\n**5.1.4** Solo-cimento\n\nO solo-cimento deverá apresentar resistência à compressão, avaliada aos 7 dias de idade, em corpos de prova moldados segundo o prescrito na norma NBR\n\n12024 e NBR 12025, igual ou superior resistência característica definida na dosagem.\n\n**5.2** Equipamento\n\nSão indicados os seguintes equipamentos para execução de sub-base de solo-cimento:\n\n- motoniveladora com escarificador;\n- NBR 5735/87 - Cimento Portland de Alto Forno;\n- NBR 5736/86 - Cimento Portland\n- Pozolânico.\n\n**5.1.2** Água\n\nA água devera estar isenta de matéria orgânica ou outras substancias prejudiciais a hidratação do cimento, devendo atender os limites indicados a seguir :\n\n- pulvimisturador;\n- trator de esteiras ou pneumáticos;\n- carro-tanque distribui dor de água;\n- rolos compactadores tipos pé-de-carneiro, liso, 1iso-vibratório e pneumático, – central de mistura.",
+    "para": "- NBR 11578 - Cimento Portland Composto\n- NBR 5735/87 - Cimento Portland de Alto Forno;\n- NBR 5736/86 - Cimento Portland Pozolânico.\n\n**5.1.2** Água\n\nA água devera estar isenta de matéria orgânica ou outras substancias prejudiciais a hidratação do cimento, devendo atender os limites indicados a seguir:\n\n| PH | Entre 5 e 8 |\n| --- | --- |\n| Matéria orgânica, expressa em oxigênio consumido | 3 mg/l |\n| Resíduo sólido | 5000 mg/l |\n| Sulfatos, expressos em ions SO4 | 600 mg/l |\n| Cloretos, expressos em íons Cl | 1000 mg/l |\n| Açúcar | 5 mg/l |\n\n![[dnit_058_2004_es_tab01.png]]\n\n**5.1.3** Solo\n\nOs solos empregados serão os provenientes de ocorrências de materiais definidas na investigação, devendo, preferencialmente, apresentar as seguintes características:\n\n- passando na peneira ABNT 76 mm - 100%\n- passando na peneira ABNT nº 4 - 50 a 100%\n- passando na peneira ABNT nº 40 - 15 a 100%\n- passando na peneira ABNT nº 200 - 5 a 35%\n- limite liquidez, máximo - 40%\n- índice de plasticidade, máximo - 18%\n\n**5.1.4** Solo-cimento\n\nO solo-cimento deverá apresentar resistência à compressão, avaliada aos 7 dias de idade, em corpos de prova moldados segundo o prescrito na norma NBR 12024 e NBR 12025, igual ou superior resistência característica definida na dosagem.\n\n**5.2** Equipamento\n\nSão indicados os seguintes equipamentos para execução de sub-base de solo-cimento:\n\n- motoniveladora com escarificador;\n- pulvimisturador;\n- trator de esteiras ou pneumáticos;\n- carro-tanque distribuidor de água;\n- rolos compactadores tipos pé-de-carneiro, liso, liso-vibratório e pneumático;\n- central de mistura.",
+    "nota": "pág. 3: ordem de leitura embaralhada pela tabela de largura total (5.1.1/5.1.2/5.2)"
+  }
+}

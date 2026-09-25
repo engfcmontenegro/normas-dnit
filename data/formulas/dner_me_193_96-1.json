@@ -1,0 +1,59 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `de vidro resistente ao calor, cilíndrico ou`",
+    "de_fim": "\n\n## 22 mm a\n\n26 mm.",
+    "para": "a) picnômetro de vidro resistente ao calor, cilíndrico ou tronco-cônico, de gargalo cuidadosamente esmerilhado de modo a receber uma tampa de vidro apropriada, de diâmetro de 22 mm a 26 mm.",
+    "nota": "aviso falso: texto da alínea a) de 4 (p. 2)"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "## 22 a 26\n\n22a 26 (aprox.)",
+    "de_fim": "## 1 Von 1\n\n![[dner_me_193_96-1_fig01.png]]\n\nFigura - PICNÔMETROS",
+    "para": "![[dner_me_193_96-1_fig01.png]]\n\nFigura - PICNÔMETROS",
+    "nota": "rótulos da figura (já na imagem) lidos pelo OCR"
+  },
+  "eq01": {
+    "page": 5,
+    "clip": [
+      50,
+      462,
+      125,
+      506
+    ],
+    "latex": [
+      "D_\\ell = \\frac{c - a}{b - a}",
+      "D_s = \\frac{d - a}{(b - a) - (e - d)}"
+    ],
+    "de_inicio": "p= c-a eo b-a",
+    "de_fim": "e = massa do picnômetro com tampa parcialmente preenchido com amostra mais água (caso material semi-sólido).",
+    "para": "$$\nD_\\ell = \\frac{c - a}{b - a}\n$$\n\n**10.1.2** A densidade de material betuminoso semi-sólido é dada pela fórmula:\n\n$$\nD_s = \\frac{d - a}{(b - a) - (e - d)}\n$$\n\n$a$ = massa do picnômetro vazio, com tampa;\n$b$ = massa do picnômetro com tampa cheio d'água destilada ou deionizada;\n$c$ = massa do picnômetro com tampa cheio com amostra (caso material líquido);\n$d$ = massa do picnômetro com tampa parcialmente preenchido com amostra (caso material semi-sólido);\n$e$ = massa do picnômetro com tampa parcialmente preenchido com amostra mais água (caso material semi-sólido)."
+  },
+  "eq02": {
+    "page": 5,
+    "clip": [
+      50,
+      552,
+      170,
+      580
+    ],
+    "latex": [
+      "D_s = \\frac{d - a}{(b - a) - (e - d)}"
+    ]
+  },
+  "eq03": {
+    "page": 6,
+    "clip": [
+      50,
+      98,
+      330,
+      118
+    ],
+    "latex": [
+      "\\text{massa específica} = \\text{densidade} \\times \\text{Ma}"
+    ],
+    "de_inicio": "massa específica = densidade x Ma, expressa em g/cm” onde:",
+    "de_fim": "15,6 0,9990 25,0 0,9971",
+    "para": "$$\n\\text{massa específica} = \\text{densidade} \\times \\text{Ma}\n$$\n\nexpressa em g/cm³\n\nonde:\n\nMa = massa específica da água à temperatura de ensaio (Nota 4)\n\nNota 4: A massa específica da água deve ser conforme indicado em “Handbook of Chemistry Physics”, 47ª Edição.\n\n| Temperatura de ensaio (ºC) | Massa específica da água (g/cm³) |\n|---|---|\n| 15,6 | 0,9990 |\n| 25,0 | 0,9971 |"
+  }
+}

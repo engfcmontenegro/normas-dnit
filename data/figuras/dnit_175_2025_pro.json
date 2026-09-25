@@ -1,0 +1,22 @@
+{
+  "fig01": {
+    "page": 9,
+    "bbox": [
+      78.0,
+      92.9,
+      571.0,
+      379.2
+    ],
+    "legenda": "Figura B1 – Sistema utilizado para a aferição da viga Benkelman"
+  },
+  "fig02": {
+    "page": 9,
+    "bbox": [
+      56.7,
+      428.5,
+      549.2,
+      694.4
+    ],
+    "legenda": "Figura B2 – Esquema da Viga Benkelman"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "deflexões a 90 o , não",
+    "para": "deflexões a 90º, não"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "menos de 1kg/cm 2 . A duração",
+    "para": "menos de 1 kg/cm². A duração"
+  }
+}

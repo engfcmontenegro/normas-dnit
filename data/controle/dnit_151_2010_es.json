@@ -1,0 +1,147 @@
+{
+ "es": "dnit-151-2010-es",
+ "servico": "Acostamentos",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Material da base (sem revestimento)",
+   "ensaio": "Granulometria (passante nº 200)",
+   "citado": "DNER-ME 080/94",
+   "norma": null,
+   "frequencia": "1 amostra por camada a cada 750 m³ ou por jornada de 8 h (2.250 m³ com material homogêneo, a critério da Fiscalização)",
+   "criterio": "≤ 30 % passando na peneira nº 200",
+   "condicao": "acostamento sem revestimento (camada de base)",
+   "secao": "5.1.2 d / 7.1 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material da base (sem revestimento)",
+   "ensaio": "Limite de liquidez",
+   "citado": "DNER-ME 122/94",
+   "norma": "dner-me-122-94",
+   "frequencia": "1 amostra por camada a cada 750 m³ ou por jornada de 8 h (2.250 m³ com material homogêneo, a critério da Fiscalização)",
+   "criterio": "LL ≤ 40 %",
+   "condicao": "acostamento sem revestimento (camada de base)",
+   "secao": "5.1.2 d / 7.1 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material da base (sem revestimento)",
+   "ensaio": "Índice de plasticidade",
+   "citado": "DNER-ME 082/94 e DNER-ME 122/94",
+   "norma": "dner-me-082-94",
+   "outras": [
+    "dner-me-122-94"
+   ],
+   "frequencia": "1 amostra por camada a cada 750 m³ ou por jornada de 8 h (2.250 m³ com material homogêneo, a critério da Fiscalização)",
+   "criterio": "IP ≤ 10 %",
+   "condicao": "acostamento sem revestimento (camada de base)",
+   "secao": "5.1.2 d / 7.1 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material da base (sem revestimento)",
+   "ensaio": "Equivalente de areia",
+   "citado": "DNER-ME 054/97",
+   "norma": null,
+   "norma_atual": "dnit-450-2024-me",
+   "frequencia": "1 amostra por camada a cada 750 m³ ou por jornada de 8 h (2.250 m³ com material homogêneo, a critério da Fiscalização)",
+   "criterio": "EA > 30 %",
+   "condicao": "acostamento sem revestimento (camada de base)",
+   "secao": "5.1.2 d / 7.1 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material coletado na pista",
+   "ensaio": "Compactação (energia de projeto)",
+   "citado": "DNER-ME 129/94",
+   "norma": null,
+   "norma_atual": "dnit-164-2013-me",
+   "frequencia": "1 amostra por camada a cada 250 m³ ou por jornada de 8 h (2.250 m³ com material homogêneo, a critério da Fiscalização)",
+   "criterio": "Define massa específica aparente seca máxima e umidade ótima de referência",
+   "obs": "Com material britado, o nº de golpes pode ser ajustado em trecho experimental",
+   "secao": "7.1 b / 7.1 c"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material coletado na pista",
+   "ensaio": "Índice de Suporte Califórnia (ISC)",
+   "citado": "DNER-ME 049/94 (energia do Método B da DNER-ME 129/94)",
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "1 amostra por camada a cada 250 m³ ou por jornada de 8 h (2.250 m³ com material homogêneo, a critério da Fiscalização)",
+   "criterio": "ISC ≥ 40 %",
+   "condicao": "acostamento sem revestimento (camada de base)",
+   "secao": "5.1.2 d / 7.1 d"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material coletado na pista",
+   "ensaio": "Expansão",
+   "citado": "DNER-ME 049/94",
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "1 amostra por camada a cada 250 m³ ou por jornada de 8 h (2.250 m³ com material homogêneo, a critério da Fiscalização)",
+   "criterio": "≤ 0,5 %",
+   "condicao": "acostamento sem revestimento (camada de base)",
+   "secao": "5.1.2 d / 7.1 d"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da compactação",
+   "ensaio": "Teor de umidade",
+   "citado": "DNER-ME 052/94 ou DNER-ME 088/94",
+   "norma": null,
+   "norma_atual": "dnit-456-2025-me",
+   "frequencia": "1 por camada a cada 250 m³, em locais aleatórios",
+   "criterio": "hót ± 2 %",
+   "secao": "7.2 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Após a compactação",
+   "ensaio": "Massa específica aparente seca in situ → grau de compactação",
+   "citado": "DNER-ME 092/94 e DNER-ME 036/94",
+   "norma": "dner-me-036-94",
+   "norma_atual": "dnit-458-2025-me",
+   "frequencia": "1 por camada a cada 250 m³; mín. 5 determinações em pistas com até 1.200 m³",
+   "criterio": "GC ≥ 100 %",
+   "secao": "7.2 b / 7.2 c"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Largura do acostamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após cada camada (relocação e nivelamento)",
+   "criterio": "± 5 cm",
+   "secao": "7.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Declividade transversal",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após cada camada (relocação e nivelamento)",
+   "criterio": "Até +1 % em excesso; não se tolera falta",
+   "secao": "7.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessura das camadas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após cada camada (relocação e nivelamento)",
+   "criterio": "± 10 % da espessura de projeto",
+   "secao": "7.3"
+  }
+ ],
+ "notas": [
+  "Acostamentos com revestimento: cada camada segue a ES DNIT correspondente da pista (mesmos materiais, controles e tolerâncias).",
+  "Frequências de 7.1 são mínimas; compatibilizar com o Plano de Amostragem Variável (DNER-PRO 277/97); aceitação por X̄ − ks ≥ mín. e X̄ + ks ≤ máx.",
+  "Acostamento de solo melhorado com cimento: materiais com os mesmos requisitos da base de solo melhorado com cimento."
+ ]
+}

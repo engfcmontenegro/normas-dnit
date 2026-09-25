@@ -1,0 +1,113 @@
+{
+  "eq01": {
+    "page": 5,
+    "bbox": [
+      48.7,
+      345.9,
+      294.0,
+      383.5
+    ],
+    "raw": "𝑎 𝐷 𝑛 = 𝑏 (𝐿 𝑛 −𝐿 𝑓 ) (1)",
+    "latex": "D_n = \\frac{a}{b} \\left( L_n - L_f \\right) \\tag{1}"
+  },
+  "eq02": {
+    "page": 5,
+    "bbox": [
+      48.7,
+      401.5,
+      293.8,
+      429.3
+    ],
+    "raw": "𝐷 𝑛 é a deflexão, expressa em centésimos de milímetros;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq03": {
+    "page": 5,
+    "bbox": [
+      48.7,
+      479.8,
+      293.9,
+      507.5
+    ],
+    "raw": "𝐿 𝑛 é a leitura no ponto de distância 𝑛, expressa em",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq04": {
+    "page": 5,
+    "bbox": [
+      48.7,
+      679.0,
+      294.0,
+      707.7
+    ],
+    "raw": "𝐷′ 𝑛 = 𝐷 𝑛 × 𝑘 (2)",
+    "latex": "D'_n = D_n \\times k \\tag{2}"
+  },
+  "eq05": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      61.3,
+      563.2,
+      89.0
+    ],
+    "raw": "𝐷 𝑛 é a deflexão, expressa em centésimos de milímetros;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq06": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      296.6,
+      563.5,
+      335.5
+    ],
+    "raw": "6250 𝑅= 2(𝐷 0 −𝐷 25 ) (3)",
+    "latex": "R = \\frac{6250}{2(D_0 - D_{25})} \\tag{3}"
+  },
+  "eq07": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      360.0,
+      533.5,
+      386.3
+    ],
+    "raw": "𝑅 é o raio de curvatura, expresso em metros (m);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq08": {
+    "page": 8,
+    "bbox": [
+      84.8,
+      578.0,
+      126.7,
+      630.2
+    ],
+    "raw": "𝐿 0 - 𝐿 25 - 𝐿 𝑓 -",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de figura"
+  },
+  "eq09": {
+    "page": 8,
+    "bbox": [
+      84.8,
+      635.2,
+      119.6,
+      674.0
+    ],
+    "raw": "𝑘 - 𝐷 -",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de figura"
+  }
+}

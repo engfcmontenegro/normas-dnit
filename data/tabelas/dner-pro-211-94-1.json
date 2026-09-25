@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 34,
+    "clip": [
+      70,
+      20,
+      575,
+      818
+    ],
+    "md": "| Principais agentes impactantes – causas | Principais efeitos |\n| --- | --- |\n| 1. Precariedade de dispositivo de drenagem superficial da estrada e de contenção geotécnica<br>• manejo inadequado dos solos do entorno<br>• queimadas e eliminação da vegetação no entorno em época de estiagem<br>• transbordamento da drenagem em épocas de cheia | Erosão de encostas e taludes |\n| 2. Idem ao item anterior (erosão), somando-se:<br>• traçado da estrada (tendências a características de subdimensionamento devido à modificação das condições hidráulicas da época de construção)<br>• locação de aglomerações urbanas em encostas e talvegues ao longo da linha<br>• falta de condições de saneamento adequadas e má disposição do lixo urbano ao longo da estrada | • assoreamento de cursos d'água<br>• geração de zonas de acumulação e estagnação de águas<br>• doenças sanitárias<br>• conflitos com áreas de mananciais |\n| 3. Incorporação de áreas pela infra-estrutura de manutenção, ampliação, vias de acesso, etc.<br>• não recuperação de áreas de empréstimo, bota-fora, etc. | • conflito com cobertura vegetal, solos e drenagem<br>• estagnação de águas - doenças sanitárias |\n| 4. Sinergismo entre o traçado da estrada e o traçado de estradas estaduais, vicinais, etc. | • ampliação dos efeitos diagnosticados nos itens 1, 2 e 3 |\n| 5. Travessia de via, pedestre e animais na via, ruído, impacto visual, etc.<br>• estrada como agente indutor de aglomerações urbanas | • conflito com uso urbano<br>• crescimento desordenado de cidades, no entorno da via |",
+    "de_inicio": "@@tabm01@@",
+    "nota": "Anexo C (tabela girada 90° no PDF); bloco posto pelo trecho t08 de data/formulas"
+  }
+}

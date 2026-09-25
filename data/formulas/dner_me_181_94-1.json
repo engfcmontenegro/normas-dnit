@@ -1,0 +1,72 @@
+{
+  "eq01": {
+    "page": 5,
+    "clip": [
+      65,
+      555,
+      250,
+      612
+    ],
+    "latex": [
+      "h\\,\\% = \\frac{(P_h - P_s) \\cdot 100}{P_s}"
+    ],
+    "de_inicio": "**6.4.2** Osteores de umidade devem ser calculados pela seguinte fórmula:\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n",
+    "de_fim": "entre 105 Ce 10C.",
+    "para": "**6.4.2** Os teores de umidade devem ser calculados pela seguinte fórmula:\n\n$$\nh\\,\\% = \\frac{(P_h - P_s) \\cdot 100}{P_s}\n$$\n\nonde:\n\n$h$ - teor de umidade em percentagem;\n$P_h$ - massa da mistura úmida;\n$P_s$ - massa da mistura seca em estufa entre 105 ºC e 110 ºC."
+  },
+  "eq02": {
+    "page": 6,
+    "clip": [
+      65,
+      122,
+      250,
+      170
+    ],
+    "latex": [
+      "n = \\frac{E \\cdot V}{9{,}8 \\cdot P \\cdot H \\cdot N_c}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `por m* ou n = 9 golpes),`",
+    "de_fim": "\n\nnúmero de camadas",
+    "para": "**6.5.1** O material é compactado no molde cilíndrico (ver 5.m) em 5 camadas iguais, de forma a ter-se uma altura total de solo de cerca de 21,5 cm após compactação; recebendo cada camada o número de golpes (n) calculado pela fórmula abaixo, em função da energia de compactação (E) escolhida, a seguir: normal E = 0,59 MN.m por m³ (60 412 kgf.m por m³ ou n = 9 golpes), intermediária E = 1,29 MN.m por m³ (131 813 kgf.m por m³ ou n = 20 golpes) e modificada E = 2,69 MN.m por m³ (274 610 kgf.m por m³ ou n = 41 golpes).\n\nA compactação é efetuada através de um soquete de massa igual a 4,536 kg caindo de uma altura de 45,72 cm, sendo esta energia distribuída uniformemente em toda a superfície de cada camada.\n\n$$\nn = \\frac{E \\cdot V}{9{,}8 \\cdot P \\cdot H \\cdot N_c}\n$$\n\nsendo:\n\n$n$ - número de golpes por camada;\n$E$ - energia de compactação (trabalho por unidade de volume) em N.m por m³;\n$V$ - volume do material compactado em m³;\n$P$ - massa do soquete em kg;\n$H$ - altura do soquete em m;\n$N_c$ - número de camadas.",
+    "nota": "6.5.1 reescrito (texto e energias estavam partidos pelo OCR, com aviso falso no meio)"
+  },
+  "eq03": {
+    "page": 6,
+    "clip": [
+      65,
+      638,
+      250,
+      684
+    ],
+    "latex": [
+      "m_s = \\frac{100 \\cdot m'_s}{(100 + h\\%) \\cdot V}"
+    ],
+    "de_inicio": "**6.5.2** A seguir, destaca-se lentamente o colarinho",
+    "de_fim": "**6.6** Cura de corpo-de-prova p. 07/07",
+    "para": "**6.5.2** A seguir, destaca-se lentamente o colarinho, e retira-se o excesso de altura de material compactado do cilindro com ajuda inicialmente de uma espátula que rasa a parte periférica e depois com uma régua biselada, que rasa o material na altura do molde. A massa específica aparente do material úmido compactada ($m'_s$) deve ser determinada por dedução da massa do cilindro. Essas operações devem ser repetidas para teores crescentes de umidade, tantas vezes quantas necessárias, para caracterizar a curva de compactação correspondente à energia de compactação adotada. Aconselha-se que tal curva seja formada no mínimo por 5 (cinco) pontos, sendo que 3 (três) no ramo seco e 2 (dois) no úmido. Cada ponto será visualizado pela média de 9 (nove) corpos tendo aproximadamente a mesma umidade, correspondendo a um total de 45 corpos-de-prova, os quais nos fornecerão as curvas de resistências para 7, 14 e 28 dias de cura.\n\n**6.5.3** A curva de compactação resulta das massas específicas aparentes secas ($m_s$) marcadas nas ordenadas de um gráfico de dois eixos ortogonais e os correspondentes teores de umidade (h%) nas abscissas.\n\n**6.5.4** O valor da ordenada máxima da curva de compactação correspondente à massa específica aparente seca máxima ($m_{s\\,\\text{máx}}$) e a abscissa correspondente identifica a umidade ótima ($h_{ot}\\%$).\n\n**6.5.5** Massa específica aparente seca da mistura compactada.\n\nA massa específica aparente seca da mistura compactada ($m_s$) é calculada pela seguinte fórmula:\n\n$$\nm_s = \\frac{100 \\cdot m'_s}{(100 + h\\%) \\cdot V}\n$$\n\nsendo:\n\n$m_s$ - massa específica aparente em g/cm³;\n$m'_s$ - massa específica aparente da mistura úmida compactada em g;\nh% - teor de umidade;\n$V$ - volume da mistura compactada (capacidade do molde) em cm³.\n\n**6.6** Cura de corpo-de-prova",
+    "nota": "6.5.2 a 6.5.5 reescritos (6.5.2 truncado pelo OCR; índices perdidos). PDF p. 6: m'_s descrito como 'massa específica aparente ... em g' — pela fórmula é a massa úmida (g); transcrito como está"
+  },
+  "eq04": {
+    "page": 7,
+    "clip": [
+      65,
+      472,
+      200,
+      518
+    ],
+    "latex": [
+      "R_{cd} = \\frac{2 \\cdot F}{100 \\cdot \\pi \\cdot d \\cdot l}"
+    ],
+    "de_inicio": "2.F cd 100.7 d1 onde:",
+    "de_fim": "de cura R. dmá",
+    "para": "$$\nR_{cd} = \\frac{2 \\cdot F}{100 \\cdot \\pi \\cdot d \\cdot l}\n$$\n\nonde:\n\n$R_{cd}$ - resistência à tração por compressão diametral, expressa em MPa, com aproximação de 0,05 MPa;\n$F$ - carga máxima obtida no ensaio, em N;\n$d$ - diâmetro do corpo-de-prova, em cm;\n$l$ - altura do corpo-de-prova, em cm.\n\n## 8 DETERMINAÇÃO DAS CURVAS DE RESISTÊNCIA À TRAÇÃO POR COMPRESSÃO DIAMETRAL\n\n**8.1** Curvas de resistência à tração por compressão diametral ($R_{cd}$), respectivamente para 7, 14 e 28 dias de cura.\n\nMarcam-se nas ordenadas, para cada período de cura, as resistências à tração por compressão diametral ($R_{cd}$) relativas à energia de compactação escolhida e, nas abscissas, os teores de umidade (h%) correspondentes.\n\n**8.2** Resistências à tração por compressão diametral máximas para 7, 14 e 28 dias de cura ($R_{cd\\,\\text{máx}}$).\n\nCorrespondem aos valores das ordenadas máximas das curvas de resistência para 7, 14 e 28 dias de cura, mencionadas em 8.1.",
+    "nota": "seção 8 reescrita (título sem número, 8.2 fora de ordem, R_cd perdido)"
+  },
+  "t01": {
+    "texto": true,
+    "de_inicio": "**7.2** Para cada período de cura (7,\n\n## 14 e 28 dias) devem ser obtidas as resistências\n\nà tração por compressão diametral (Rcd)",
+    "de_fim": "(Rcd)",
+    "para": "**7.2** Para cada período de cura (7, 14 e 28 dias) devem ser obtidas as resistências à tração por compressão diametral ($R_{cd}$)",
+    "nota": "7.2 partido pelo OCR ('## 14 e 28 dias)')"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "fig01": {
+    "page": 7,
+    "bbox": [
+      133.8,
+      79.4,
+      475.0,
+      345.6
+    ],
+    "legenda": "Figura A1 – Forma do pulso de carregamento"
+  },
+  "fig02": {
+    "page": 7,
+    "bbox": [
+      78.1,
+      414.1,
+      531.5,
+      636.9
+    ],
+    "legenda": "Figura A2 – Duração dos tempos de carregamento e repouso"
+  },
+  "fig03": {
+    "page": 8,
+    "bbox": [
+      111.3,
+      63.4,
+      498.3,
+      640.8
+    ],
+    "legenda": "Figura B1 – Aparelhagem para determinação de fadiga em bases estabilizadas quimicamente"
+  }
+}

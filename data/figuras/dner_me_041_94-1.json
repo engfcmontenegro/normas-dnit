@@ -1,0 +1,30 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      123.1,
+      109.0,
+      427.0,
+      718.6
+    ],
+    "legenda": "",
+    "ancora": "de plasticidade e cerca de 50 g para determinação dos fatores de contração.",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `DE AMOSTRA DE SOLOS PARA OS ENSAIOS`",
+      "## INFORMATIVO",
+      "GRANULOMETRIA DAS",
+      "UMIDADE",
+      "## 8 Cem)",
+      "——mas <, amp | SRANULOMETRA DAS AMOSTRA SECAGEM DA ALMOFARIZ — REPARTIDOR DE 1500 g (SOLOS SILTOSOS 250 9",
+      "PEDREGULHOSOS )",
+      "FRAÇÕES < 200 mm",
+      "DENSIDADE",
+      "REAL",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `FRAÇÃO PENEIRA DE == 0,42 mm LIMITE DE LIQUIDEZ DESPREZADA em O uu) +709 LIMITE DE`",
+      ">042mm um",
+      "PLASTICIDADE",
+      "FATORES DE",
+      "CONTRAÇÃO"
+    ]
+  }
+}

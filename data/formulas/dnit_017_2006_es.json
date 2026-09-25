@@ -1,0 +1,27 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "fck, est < fck – não-conformidade;",
+    "para": "$f_{ck,est} < f_{ck}$ – não-conformidade;"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "fck, est ≥ fck – conformidade.",
+    "para": "$f_{ck,est} \\geq f_{ck}$ – conformidade."
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "fck, est = valor estimado",
+    "para": "$f_{ck,est}$ = valor estimado"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "\n\nfck = valor da resistência",
+    "para": "\n\n$f_{ck}$ = valor da resistência"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "(fck; min)",
+    "para": "($f_{ck;\\,min}$)"
+  }
+}

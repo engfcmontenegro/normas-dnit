@@ -1,0 +1,51 @@
+{
+  "t01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "temperaturas de até 80 o C,",
+    "para": "temperaturas de até 80 ºC,",
+    "nota": "4.1"
+  },
+  "t02": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "inferior a 80 o C e não deve ser superior a 110 o C,",
+    "para": "inferior a 80 ºC e não deve ser superior a 110 ºC,",
+    "nota": "5.4"
+  },
+  "t03": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "a 25 o C/25 o C do",
+    "para": "a 25 ºC/25 ºC do",
+    "nota": "5.5"
+  },
+  "t04": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "Taber a 25 o C,",
+    "para": "Taber a 25 ºC,",
+    "nota": "5.7"
+  },
+  "t05": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "600 g/m 2 ;",
+    "para": "600 g/m²;",
+    "nota": "5.8 b)"
+  },
+  "t06": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "Sistema extrusão - 3mm Sistema spray - 1,5mm",
+    "para": "Sistema extrusão - 3mm\nSistema spray - 1,5mm",
+    "nota": "5.10: duas linhas no PDF"
+  },
+  "t07": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "previstos na seção 5 6.3 Ensaios especiais",
+    "para": "previstos na seção 5.\n\n**6.3** Ensaios especiais",
+    "nota": "6.2/6.3 grudados"
+  }
+}

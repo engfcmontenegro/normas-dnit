@@ -1,0 +1,370 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "Reprodução permila desde que citado o DNER como fonte p. 02/16\n\n",
+    "de_fim": "p. 02/16\n\n",
+    "para": "",
+    "nota": "tarja lateral + nº de página"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "Reprodução permitida desde que citado c DNER como fonte\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `04/16",
+    "de_fim": "## 9000 AL OT VS\n\n",
+    "para": "",
+    "nota": "aviso falso + lixo de OCR da Fig. 2 (p. 4)"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "romper-se-á por fadiga.",
+    "de_fim": "Os estudos recomendados",
+    "para": "romper-se-á por fadiga.\n\n## 4 ESTUDOS\n\nOs estudos recomendados",
+    "nota": "título 4 perdido (p. 3)"
+  },
+  "x04": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `TRECHO EM ATERRO",
+    "de_fim": "07/16\n\n",
+    "para": "",
+    "nota": "aviso falso + rótulos da Fig. 3 (p. 6)"
+  },
+  "x05": {
+    "texto": true,
+    "de_inicio": "**42.7** Análise",
+    "de_fim": "**42.7** Análise",
+    "para": "**4.2.7** Análise"
+  },
+  "eq01": {
+    "page": 7,
+    "clip": [
+      200,
+      690,
+      420,
+      750
+    ],
+    "latex": [
+      "D = \\frac{\\sum D_i}{n}",
+      "\\sigma = \\sqrt{\\frac{\\sum (D_i - D)^2}{n - 1}}"
+    ],
+    "de_inicio": "a) tabulam-se os valores individuais das deflexões recuperáveis encontradas (Di);",
+    "de_fim": "apresentada a seguir:",
+    "para": "a) tabulam-se os valores individuais das deflexões recuperáveis encontradas ($D_i$);\n\nb) calcula-se a média aritmética, D, dos valores individuais (média da amostra);\n\n$$\nD = \\frac{\\sum D_i}{n}\n$$\n\nonde n representa o número o número de valores individuais computados (número de indivíduos componentes da amostra);\n\nc) determina-se o valor do desvio-padrão da amostra, σ, através da expressão:\n\n$$\n\\sigma = \\sqrt{\\frac{\\sum (D_i - D)^2}{n - 1}}\n$$\n\nd) estabelece-se o intervalo de aceitação para os valores individuais, definindo-o através dos limites D ± z σ, onde z será estimado em função de n, mediante o critério constante da tabela apresentada a seguir:",
+    "nota": "D (média) sem barra no PDF; 'o número o número' repetido no PDF (p. 7)"
+  },
+  "eq02": {
+    "page": 8,
+    "clip": [
+      230,
+      95,
+      400,
+      142
+    ],
+    "latex": [
+      "\\sigma = \\sqrt{\\frac{\\sum (D_i - D)^2}{n - 1}}"
+    ]
+  },
+  "x06": {
+    "texto": true,
+    "de_inicio": "3 Nota - Os valores constantes da Tabela I originam-se",
+    "de_fim": "originam-se",
+    "para": "Nota - Os valores constantes da Tabela I originam-se"
+  },
+  "eq03": {
+    "page": 8,
+    "clip": [
+      280,
+      536,
+      345,
+      572
+    ],
+    "latex": [
+      "cv = \\frac{\\sigma}{D}",
+      "D_c = D + \\sigma"
+    ],
+    "de_inicio": "e) segue-se a eliminação de todos os valores individuais",
+    "de_fim": "a média aritmética e o desvio-padrão da amostra.\n\n**4.2.8**",
+    "para": "e) segue-se a eliminação de todos os valores individuais da distribuição situados fora do intervalo anteriormente definido, procedendo-se a novo cálculo de D e σ com os valores remanescentes, bem como a fixação dos novos limites do intervalo de aceitação, D ± z σ, para a nova situação. Esse procedimento deve ser repetido, em cada caso, tantas vezes sucessivas quantas forem necessárias para o enquadramento de todos os valores individuais remanescentes no intervalo D ± z σ determinado. Os valores de D e σ assim encontrados são considerados, respectivamente, como a média aritmética e o desvio-padrão da amostra.\n\nf) o valor do coeficiente de variação (cv) é determinado, para cada uma das distribuições, através da expressão:\n\n$$\ncv = \\frac{\\sigma}{D}\n$$\n\ng) o valor da deflexão característica é determinado, para cada uma das distribuições, através da expressão:\n\n$$\nD_c = D + \\sigma\n$$\n\nonde D e σ representam, respectivamente, a média aritmética e o desvio-padrão da amostra.\n\n**4.2.8**"
+  },
+  "eq04": {
+    "page": 8,
+    "clip": [
+      270,
+      598,
+      350,
+      618
+    ],
+    "latex": [
+      "D_c = D + \\sigma"
+    ]
+  },
+  "x07": {
+    "texto": true,
+    "de_inicio": "E A escolha do fator de correção sazonal, Fs, mais",
+    "de_fim": "Fs, mais",
+    "para": "A escolha do fator de correção sazonal, $F_s$, mais"
+  },
+  "eq05": {
+    "page": 9,
+    "clip": [
+      250,
+      422,
+      360,
+      442
+    ],
+    "latex": [
+      "D_p = D_c \\times F_s"
+    ],
+    "de_inicio": "A deflexão característica corrigida ou deflexão de projeto (Dp) é calculada pela fórmula:",
+    "de_fim": "Dç - deflexão característica obtida para a época do levantamento deflectométrico, em 0,01 mm",
+    "para": "A deflexão característica corrigida ou deflexão de projeto ($D_p$) é calculada pela fórmula:\n\n$$\nD_p = D_c \\times F_s\n$$\n\nSendo:\n\n$D_p$ - deflexão característica corrigida ou deflexão de projeto, em 0,01 mm;\n$D_c$ - deflexão característica obtida para a época do levantamento deflectométrico, em 0,01 mm;\n$F_s$ - fator de correção sazonal.",
+    "nota": "a linha de Fs faltava no md (p. 9)"
+  },
+  "x08": {
+    "texto": true,
+    "de_inicio": "Nota - Os valores constantes da Tabela I foram adaptados",
+    "de_fim": "foram adaptados",
+    "para": "Nota - Os valores constantes da Tabela II foram adaptados",
+    "nota": "Tabela II no PDF (p. 9)"
+  },
+  "x09": {
+    "texto": true,
+    "de_inicio": "valor (Dadm). denominado deflexão admissível. aci, SSIIiiiado GUiicisdoO",
+    "de_fim": "GUiicisdoO",
+    "para": "valor ($D_{adm}$), denominado deflexão admissível."
+  },
+  "eq06": {
+    "page": 9,
+    "clip": [
+      200,
+      725,
+      420,
+      750
+    ],
+    "latex": [
+      "\\log D_{adm} = 3{,}01 - 0{,}176 \\log N"
+    ],
+    "de_inicio": "o valor da deflexão admissível (Dadm) em 0,0 mm é dado",
+    "de_fim": "iog Dadm = 3,01 - 0,176 log N",
+    "para": "o valor da deflexão admissível ($D_{adm}$) em 0,01mm é dado pela seguinte expressão correspondente a deflexões medidas com a carga padrão de 8,2 t por eixo:\n\n$$\n\\log D_{adm} = 3{,}01 - 0{,}176 \\log N\n$$",
+    "nota": "o PDF imprime 'iog'; o ábaco da fig. 4 traz 0,175 log N (p. 10)"
+  },
+  "x10": {
+    "texto": true,
+    "de_inicio": "OES ADMISSIVEIS EM 0,01m Dadm\n\n",
+    "de_fim": "TR e CF nr, p. 11/16\n\n",
+    "para": "",
+    "nota": "avisos falsos + rótulos do ábaco da fig. 4 (p. 10)"
+  },
+  "x11": {
+    "texto": true,
+    "de_inicio": "sendo R 2 100 m",
+    "de_fim": "sendo R 2 100 m",
+    "para": "sendo R ≥ 100 m"
+  },
+  "eq07": {
+    "page": 11,
+    "clip": [
+      250,
+      640,
+      360,
+      662
+    ],
+    "latex": [
+      "N_r = N_t - N_s"
+    ],
+    "de_inicio": "Ns - Número de solicitações correspondentes às cargas por eixos",
+    "de_fim": "até o final do período de vida restante do pavimento.",
+    "para": "$N_s$ - Número de solicitações correspondentes às cargas por eixos suportadas pelo pavimento desde sua abertura ao tráfego até a data da avaliação;\n$N_t$ - Número de solicitações indicadas no Gráfico de Deflexões Admissíveis em correspondente à deflexão característica de projeto ($D_p$);\n\ntem-se:\n\n$$\nN_r = N_t - N_s\n$$\n\nSendo:\n\n$N_r$ - Número de solicitações correspondente às cargas por eixo a serem suportadas pelo pavimento desde a data da avaliação até o final do período de vida restante do pavimento."
+  },
+  "x12": {
+    "texto": true,
+    "de_inicio": "os tempos Ti, correspondentes a Ns, e o tempo Tf, correspondente a Nt.",
+    "de_fim": "correspondente a Nt.",
+    "para": "os tempos $T_i$, correspondentes a $N_s$, e o tempo $T_f$, correspondente a $N_t$."
+  },
+  "x13": {
+    "texto": true,
+    "de_inicio": "Reprodução permita desde que citado o DNER como fonte\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `12/16",
+    "de_fim": "DNnlllDoDnnnn nn)\n\n",
+    "para": "",
+    "nota": "aviso falso + lixo de OCR do gráfico N x T (p. 12)"
+  },
+  "eq08": {
+    "page": 12,
+    "clip": [
+      260,
+      368,
+      360,
+      390
+    ],
+    "latex": [
+      "T_r = T_f - T_1"
+    ],
+    "de_inicio": "é dado pela expressão:\n\nTr=Tg-T1",
+    "de_fim": "Tr=Tg-T1",
+    "para": "é dado pela expressão:\n\n$$\nT_r = T_f - T_1\n$$"
+  },
+  "x14": {
+    "texto": true,
+    "de_inicio": "Dp - deflexão de projeto;\n\nR - raio de curvatura;\n\nDadm - deflexão admissível;\n\nIG.G. - Índice",
+    "de_fim": "IG.G. - Índice",
+    "para": "$D_p$ - deflexão de projeto;\n\nR - raio de curvatura;\n\n$D_{adm}$ - deflexão admissível;\n\nI.G.G. - Índice"
+  },
+  "x15": {
+    "texto": true,
+    "de_inicio": "Reprodução permiticla desde que citado o DNER como fonte p. 13/16\n\n",
+    "de_fim": "p. 13/16\n\n",
+    "para": "",
+    "nota": "tarja"
+  },
+  "x16": {
+    "texto": true,
+    "de_inicio": "Reprodução permiticla desde que citado c DNER como fonte p. 14/16\n\n",
+    "de_fim": "p. 14/16\n\n",
+    "para": "",
+    "nota": "tarja"
+  },
+  "x17": {
+    "texto": true,
+    "de_inicio": "## 15 ESPESSURA DE CONCRETO BETUIMINOSO - cm\n\n",
+    "de_fim": "BETUIMINOSO - cm\n\n",
+    "para": "",
+    "nota": "rótulo do ábaco da fig. 6 (p. 14)"
+  },
+  "x18": {
+    "texto": true,
+    "de_inicio": "DEFLEXÃO DE PROJETO 0,01 mm FIG. 6 p. 15/16 a) fixar",
+    "de_fim": "a) fixar",
+    "para": "a) fixar",
+    "nota": "rótulo do ábaco da fig. 6"
+  },
+  "x19": {
+    "texto": true,
+    "de_inicio": "c) fazer recomendações quanto às medidas corretivas.",
+    "de_fim": "**8.1** Critério",
+    "para": "c) fazer recomendações quanto às medidas corretivas.\n\n## 8 DIMENSIONAMENTO DE REFORÇO DO PAVIMENTO\n\n**8.1** Critério",
+    "nota": "título 8 perdido (p. 15)"
+  },
+  "eq09": {
+    "page": 15,
+    "clip": [
+      240,
+      280,
+      380,
+      322
+    ],
+    "latex": [
+      "h = K \\cdot \\log \\frac{D_p}{D_{adm}}"
+    ],
+    "de_inicio": "À espessura necessária de reforço",
+    "de_fim": "K fator de redução de deflexão, próprio do material usado no reforço.",
+    "para": "A espessura necessária de reforço do pavimento deve ser estimada através dos resultados do levantamento deflectométrico executado para a avaliação estrutural, pela expressão ou pelo ábaco apresentado a seguir na figura 6:\n\n$$\nh = K \\cdot \\log \\frac{D_p}{D_{adm}}\n$$\n\nonde:\n\n$h$ - espessura do reforço do pavimento em centímetros;\n$D_p$ - deflexão de projeto determinada para o subtrecho homogêneo, objeto do dimensionamento, em centésimos de milímetro;\n$D_{adm}$ - deflexão admissível após a execução do reforço do pavimento, em centésimos de milímetro;\n$K$ - fator de redução de deflexão, próprio do material usado no reforço."
+  },
+  "eq10": {
+    "page": 15,
+    "clip": [
+      240,
+      515,
+      380,
+      552
+    ],
+    "latex": [
+      "h_{cb} = 40 \\log \\frac{D_p}{D_{adm}}"
+    ],
+    "de_inicio": "Para calcular a espessura de reforço do pavimento, hcb, em termos",
+    "de_fim": "hcb = 40 log Dr.\n\nDadm",
+    "para": "Para calcular a espessura de reforço do pavimento, $h_{cb}$, em termos de concreto betuminoso, deve ser usado o valor 40 para K, tendo-se, portanto:\n\n$$\nh_{cb} = 40 \\log \\frac{D_p}{D_{adm}}\n$$"
+  },
+  "eq11": {
+    "page": 15,
+    "clip": [
+      230,
+      580,
+      380,
+      640
+    ],
+    "latex": [
+      "K = \\frac{h}{\\log \\dfrac{D_0}{D_r}}"
+    ],
+    "de_inicio": "pode ser determinado pela expressão apresentada a seguir:\n\nonde:\nDr h- |",
+    "de_fim": "em centésimos de milímetros.",
+    "para": "pode ser determinado pela expressão apresentada a seguir:\n\n$$\nK = \\frac{h}{\\log \\dfrac{D_0}{D_r}}\n$$\n\nonde:\n\n$K$ - fator de redução de deflexão a ser determinado para o material usado na execução do reforço;\n$h$ - espessura do reforço, em centímetros;\n$D_0$ - deflexão medida na superfície do pavimento existente, antes da execução do reforço, em centésimos de milímetro;\n$D_r$ - deflexão medida na superfície do reforço, em centésimos de milímetros."
+  },
+  "eq12": {
+    "page": 16,
+    "clip": [
+      240,
+      138,
+      370,
+      168
+    ],
+    "latex": [
+      "h_r = \\frac{K}{40} \\times h_{40}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `hr = K x hão`",
+    "de_fim": "hyo- espessura do reforço do pavimento considerando-se K = 40.",
+    "para": "$$\nh_r = \\frac{K}{40} \\times h_{40}\n$$\n\nonde:\n\n$h_r$ - espessura do reforço para material K ≠ 40;\n$K$ - fator de redução de deflexão próprio do material usado no reforço do pavimento;\n$h_{40}$ - espessura do reforço do pavimento considerando-se K = 40."
+  },
+  "eq13": {
+    "page": 16,
+    "clip": [
+      190,
+      393,
+      420,
+      423
+    ],
+    "latex": [
+      "\\frac{2{,}00}{\\text{Coef. equiv. estrutural do material utilizado}}"
+    ],
+    "de_inicio": "2,00 Coef. equiv. estrutural do material utilizado",
+    "de_fim": "do material utilizado",
+    "para": "$$\n\\frac{2{,}00}{\\text{Coef. equiv. estrutural do material utilizado}}\n$$"
+  },
+  "x20": {
+    "texto": true,
+    "de_inicio": "há casos em que o projeto\n\n“| de reforço",
+    "de_fim": "“| de reforço",
+    "para": "há casos em que o projeto de reforço"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "tensão de tração Os,",
+    "para": "tensão de tração $\\sigma_t$,",
+    "nota": "σt (p. 2-3)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "&,,",
+    "para": "$\\varepsilon_t$,",
+    "nota": "εt (p. 2-3)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "do subleito, Padm.",
+    "para": "do subleito, $P_{adm}$."
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "máximo, Dadm, e o raio",
+    "para": "máximo, $D_{adm}$, e o raio"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "9) poligonais",
+    "para": "f) poligonais"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "£g) valores",
+    "para": "g) valores"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "(Dp)",
+    "para": "($D_p$)"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "(Dadm)",
+    "para": "($D_{adm}$)"
+  }
+}

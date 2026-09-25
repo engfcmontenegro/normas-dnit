@@ -1,0 +1,32 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      77.2,
+      83.4,
+      532.2,
+      276.4
+    ],
+    "legenda": "Figura A1 – Seção transversal esquemática de peneira de malha quadrada, onde (H) é a profundidade, (1) é a tela"
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      217.4,
+      319.1,
+      392.1,
+      472.5
+    ],
+    "legenda": "Figura A2 – Esquema visual para abertura da malha e diâmetro do fio, onde w é a abertura da malha e d é o"
+  },
+  "fig03": {
+    "page": 5,
+    "bbox": [
+      98.7,
+      511.2,
+      513.5,
+      676.4
+    ],
+    "legenda": "Figura A3 – Exemplo esquemático de armadura cruzada (a) e de armadura unida (b)."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `utilizando asfalto modificado por polímero, agregados minerais e material de enchimento`",
+    "de_fim": "em usina apropriada, (filer).",
+    "para": "Este documento define a sistemática empregada na execução de camada do pavimento através da confecção de mistura asfáltica a quente em usina apropriada, utilizando asfalto modificado por polímero, agregados minerais e material de enchimento (filer).",
+    "nota": "RESUMO: trecho da frase tinha virado aviso de fórmula"
+  },
+  "eq01": {
+    "page": 14,
+    "clip": [
+      65,
+      100,
+      200,
+      140
+    ],
+    "latex": [
+      "\\overline{X} = \\frac{\\sum X_i}{n}",
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `X Xi n = ∑ ( ) s Xi X n = ∑ − − 2 1`",
+    "de_fim": "- número de determinações.",
+    "para": "$$\n\\overline{X} = \\frac{\\sum X_i}{n}\n$$\n\n$$\ns = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}\n$$\n\nonde:\n\n$X_i$ - valores individuais;\n$\\overline{X}$ - média da amostra;\n$s$ - desvio padrão da amostra;\n$k$ - coeficiente tabelado em função do número de determinações;\n$n$ - número de determinações."
+  },
+  "eq02": {
+    "page": 14,
+    "clip": [
+      65,
+      145,
+      200,
+      200
+    ],
+    "latex": [
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo especificado ou X + ks > valor máximo",
+    "para": "$\\overline{X} - ks$ < valor mínimo especificado ou $\\overline{X} + ks$ > valor máximo"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo especificado e X + ks ≤ valor máximo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo especificado e $\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "Se X - ks",
+    "para": "Se $\\overline{X} - ks$",
+    "nota": "p. 14: para Cantabro/RT o PDF escreve 'X̄ - ks > valor máximo' (e não + ks); transcrito como está"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "700m 2 de pista",
+    "para": "700 m² de pista"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "conforme a tabela seguinte:\n\n| n | 5",
+    "de_fim": "| n | 5",
+    "para": "conforme a tabela seguinte:\n\nTabela de amostragem variável\n\n| n | 5",
+    "nota": "título da tabela de amostragem antes da tabela"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "### Tabela de amostragem variável\n\n1,55 1,41",
+    "de_fim": "α = risco do executante\n\n",
+    "para": "",
+    "nota": "cópia achatada da tabela de amostragem"
+  },
+  "x04": {
+    "texto": true,
+    "de_inicio": "I. Emissão de partículas\n\nII. Emissão de gases\n\nIII. Emissões fugitivas\n\n",
+    "de_fim": "III. Emissões fugitivas\n\n",
+    "para": "",
+    "nota": "1ª coluna da tabela Agentes e fontes poluidoras (tabm04)"
+  },
+  "x05": {
+    "texto": true,
+    "de_inicio": "| Peneira |  | Percentagem passando, em peso (faixas) |",
+    "de_fim": "![[dner_es_386_99_tab01.png]]",
+    "para": "",
+    "nota": "tab01 automática (linhas fundidas, posta no lugar da tabela do filer) sai do md: refeita em tabm02"
+  }
+}

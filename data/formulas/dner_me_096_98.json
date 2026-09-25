@@ -1,0 +1,58 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      65,
+      622,
+      200,
+      668
+    ],
+    "latex": [
+      "F_1\\% = \\frac{M_a - M_1}{M_a} \\times 100"
+    ],
+    "de_inicio": "$$\nF_1\\%= \\frac{M_a - M_1}{M_a} \\times 100\n$$",
+    "de_fim": "$$\nF_1\\%= \\frac{M_a - M_1}{M_a} \\times 100\n$$",
+    "para": "$$\nF_1\\% = \\frac{M_a - M_1}{M_a} \\times 100\n$$"
+  },
+  "eq02": {
+    "page": 4,
+    "clip": [
+      65,
+      142,
+      200,
+      188
+    ],
+    "latex": [
+      "X = \\frac{14 \\times X_1}{F_1 + 4}"
+    ],
+    "de_inicio": "$$\nX = \\frac{14 + X_1}{F_1 + 4}\n$$",
+    "de_fim": "$$\nX = \\frac{14 + X_1}{F_1 + 4}\n$$",
+    "para": "$$\nX = \\frac{14 \\times X_1}{F_1 + 4}\n$$",
+    "nota": "md tinha '14 + X_1'; o PDF traz 14 x X1"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "retida (M 1 ).",
+    "para": "retida ($M_1$)."
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "A percentagem (F 1 %)",
+    "para": "A percentagem ($F_1$%)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "para F 1 % e X 1 os",
+    "para": "para $F_1$% e $X_1$ os"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "da carga X 1 (entre",
+    "para": "da carga $X_1$ (entre"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "carga $X_1$ , pela",
+    "para": "carga $X_1$, pela"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "eq01": {
+    "page": 5,
+    "clip": [
+      64,
+      640,
+      240,
+      690
+    ],
+    "latex": [
+      "h = \\frac{m_{bu} - m_{bs}}{m_{bs} - m} \\times 100"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `m -m p= bs 21499 Ms -m`",
+    "de_fim": "mais amostra seca. bs p. 06/08",
+    "para": "$$\nh = \\frac{m_{bu} - m_{bs}}{m_{bs} - m} \\times 100\n$$\n\nonde:\n\n$h$ - teor de umidade da amostra compactada (em percentagem);\n$m$ - massa do recipiente ou cápsula;\n$m_{bu}$ - massa do recipiente ou cápsula, mais a amostra úmida;\n$m_{bs}$ - massa do recipiente ou cápsula, mais amostra seca."
+  },
+  "eq02": {
+    "page": 6,
+    "clip": [
+      64,
+      118,
+      240,
+      165
+    ],
+    "latex": [
+      "\\gamma_u = \\frac{m_u}{v}"
+    ],
+    "de_inicio": "**6.2** Calcular a massa específica aparente úmida da amostra compactada:",
+    "de_fim": "- volume do molde, mº ou cm.",
+    "para": "**6.2** Calcular a massa específica aparente úmida da amostra compactada:\n\n$$\n\\gamma_u = \\frac{m_u}{v}\n$$\n\nonde:\n\n$\\gamma_u$ - massa específica aparente úmida da amostra compactada, kg/m³ ou g/cm³;\n$m_u$ - massa da amostra compactada úmida, kg ou g;\n$v$ - volume do molde, m³ ou cm³.",
+    "nota": "fórmula ausente no md"
+  },
+  "eq03": {
+    "page": 6,
+    "clip": [
+      64,
+      322,
+      240,
+      372
+    ],
+    "latex": [
+      "\\gamma_s = \\frac{\\gamma_u}{h + 100} \\times 100"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `hu Y.= —— x 100 s h + 100`",
+    "de_fim": "-teor de umidade de amostra compactada (em percentagem).",
+    "para": "$$\n\\gamma_s = \\frac{\\gamma_u}{h + 100} \\times 100\n$$\n\nonde:\n\n$\\gamma_s$ - massa específica aparente seca da amostra compactada, kg/m³ ou g/cm³;\n$h$ - teor de umidade de amostra compactada (em percentagem)."
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "3.2 Umidade ótima (h )",
+    "para": "**3.2** Umidade ótima ($h_o$)",
+    "nota": "3.2"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "Massa específica aparente seca máxima Ya)",
+    "para": "Massa específica aparente seca máxima ($\\gamma_m$)",
+    "nota": "3.3"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "obtém-se a massa da amostra compactada úmida, m.",
+    "para": "obtém-se a massa da amostra compactada úmida, $m_u$.",
+    "nota": "5.1.2.2.3"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "(recipiente mais a amostra úmida), m p Sa seguir, secá-la em estufa elétrica a 105 ºC - 110 ºC, até a massa seca constante, My 5.1.2.2.5 Destorroar",
+    "para": "(recipiente mais a amostra úmida), $m_{bu}$, e, a seguir, secá-la em estufa elétrica a 105 ºC - 110 ºC, até a massa seca constante, $m_{bs}$.\n\n**5.1.2.2.5** Destorroar",
+    "nota": "5.1.2.2.4"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "permitem determinar h e Y, Para cada uma",
+    "para": "permitem determinar h e $\\gamma_s$ para cada uma",
+    "nota": "7.1"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "com h em abscissa e Y, em ordenada",
+    "para": "com h em abscissa e $\\gamma_s$ em ordenada",
+    "nota": "7.1"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "Avumidade ótima, ho e a massa específica aparente seca máxima, Ya são",
+    "para": "A umidade ótima, $h_o$, e a massa específica aparente seca máxima, $\\gamma_m$, são",
+    "nota": "7.2"
+  }
+}

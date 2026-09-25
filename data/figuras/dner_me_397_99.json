@@ -1,0 +1,44 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      70.0,
+      77.9,
+      552.0,
+      703.4
+    ],
+    "legenda": "",
+    "ancora": "Degradação IDW para vários valores de altura de sedimento (H), em polegada.",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `( ) ID H H W = − + 15 15 1 75 100 , x`",
+      "Em que:",
+      "IPR/DNER - PESQUISA DE AGREGADOS -",
+      "RODOVIA - TRECHO - EST. ou km - PEDREIRA -",
+      "REGISTRO Nº",
+      "AMOSTRA Nº",
+      "DETERMINAÇÃO DO ID W - ENSAIO DE DEGRADAÇÃO WASHINGTON",
+      "AMOSTRAS",
+      "PERÍODO DE",
+      "NO PENEIRADOR",
+      "PERÍODO DE",
+      "DE REPOUSO DA SOLUÇÃO",
+      "ALTURA",
+      "DO MATERIAL SEDIMENTADO",
+      "ÍNDICE DE DEGRADAÇÃO",
+      "DO AGREGADO",
+      "INÍCIO (HORAS)",
+      "FIM (HORAS)",
+      "INÍCIO (HORAS)",
+      "FIM (HORAS) (POLEGADAS) (ID W )",
+      "1 2",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `H H W = − + ⋅       15 15 1 75 100 , x`",
+      "FÓRMULA: ID",
+      "Em que: ID",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `H W   `",
+      "OBSERVAÇÕES: ____________________________________________________________________________________",
+      "DATA: _____/_____/_____ OPERADOR: ____________________________________",
+      "- ÍNDICE DE DEGRADAÇÃO WASHINGTON",
+      "- ALTURA DO SEDIMENTO EM POLEGADAS"
+    ]
+  }
+}

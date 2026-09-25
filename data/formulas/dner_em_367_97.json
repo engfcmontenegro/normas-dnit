@@ -1,0 +1,9 @@
+{
+  "t01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "a) tipo de material;\n\nc) fabricante.",
+    "para": "a) tipo de material;\n\nb) peso;\n\nc) fabricante.",
+    "nota": "4.4 b) tinha sido tirado como rótulo da figura (que era a tabela)"
+  }
+}

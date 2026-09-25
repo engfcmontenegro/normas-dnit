@@ -1,0 +1,42 @@
+{
+  "es": "dnit-145-2012-es",
+  "servico": "Pintura de ligação com ligante asfáltico",
+  "itens": [
+    {"etapa": "materiais", "grupo": "Emulsão RR-1C", "ensaio": "Especificação do ligante / certificado de análise",
+     "citado": "DNER-EM 369/97", "norma": null, "norma_atual": "dnit-165-2013-em",
+     "frequencia": "Todo carregamento que chegar à obra", "criterio": "RR-1C conforme DNER-EM 369/97; certificado da data de fabricação ou do carregamento (se > 10 dias entre ambos)", "secao": "4 b / 5.1 a"},
+    {"etapa": "materiais", "grupo": "Emulsão RR-1C", "ensaio": "Viscosidade Saybolt-Furol a 50 °C",
+     "citado": "DNER-ME 004/94", "norma": null,
+     "frequencia": "1 por carregamento que chegar à obra", "criterio": "Conforme DNER-EM 369/97", "secao": "7.1 a"},
+    {"etapa": "materiais", "grupo": "Emulsão RR-1C", "ensaio": "Resíduo por evaporação",
+     "citado": "ABNT NBR 14376:2007", "norma": null,
+     "frequencia": "1 por carregamento que chegar à obra", "criterio": "Conforme DNER-EM 369/97", "secao": "7.1 a"},
+    {"etapa": "materiais", "grupo": "Emulsão RR-1C", "ensaio": "Peneiramento",
+     "citado": "DNER-ME 005/94", "norma": null,
+     "frequencia": "1 por carregamento que chegar à obra", "criterio": "Conforme DNER-EM 369/97", "obs": "Texto de 7.1 grafa DNER-ME 005/95", "secao": "7.1 a"},
+    {"etapa": "materiais", "grupo": "Emulsão RR-1C", "ensaio": "Carga da partícula",
+     "citado": "DNIT 156/2011-ME", "norma": null,
+     "frequencia": "1 por carregamento que chegar à obra", "criterio": "Conforme DNER-EM 369/97 (positiva)", "secao": "7.1 a"},
+    {"etapa": "materiais", "grupo": "Emulsão RR-1C", "ensaio": "Sedimentação",
+     "citado": "DNER-ME 006/00", "norma": "dner-me-006-00",
+     "frequencia": "1 a cada 100 t", "criterio": "Conforme DNER-EM 369/97", "secao": "7.1 b"},
+    {"etapa": "materiais", "grupo": "Emulsão RR-1C", "ensaio": "Viscosidade Saybolt-Furol a várias temperaturas",
+     "citado": "DNER-ME 004/94", "norma": null,
+     "frequencia": "1 a cada 100 t", "criterio": "Estabelecer a relação viscosidade × temperatura", "secao": "7.1 b"},
+
+    {"etapa": "execucao", "grupo": "Aplicação", "ensaio": "Temperatura do ligante (no caminhão distribuidor)",
+     "citado": "DNER-ME 004/94", "norma": null,
+     "frequencia": "Imediatamente antes da aplicação", "criterio": "No intervalo da relação viscosidade × temperatura (viscosidade de espalhamento 20–100 SSF)", "secao": "5.3 d / 7.2.1"},
+    {"etapa": "execucao", "grupo": "Aplicação", "ensaio": "Taxa de aplicação T (bandejas)",
+     "citado": null, "norma": null,
+     "frequencia": "Mín. 5 determinações (área ≤ 4.000 m²); entre 4.000 e 20.000 m² pelo Plano de Amostragem Variável", "criterio": "Residual 0,3–0,4 l/m² (emulsão diluída 1:1 ≈ 0,8–1,0 l/m²); tolerância ± 0,2 l/m² (T obtida de TR = (P₂ − P₁)/A e do % de resíduo)", "secao": "5.1 b / 5.3 f / 7.2.2"},
+
+    {"etapa": "produto", "grupo": "Superfície pintada", "ensaio": "Inspeção visual",
+     "citado": null, "norma": null,
+     "frequencia": "Após a aplicação", "criterio": "Aplicação homogênea e ruptura do ligante", "secao": "7.3"}
+  ],
+  "notas": [
+    "Nº e frequência das determinações de T conforme Plano de Amostragem aprovado pela Fiscalização (DNER-PRO 277/97); conformidade por X̄ − ks ≥ mín. e X̄ + ks ≤ máx.; não conformidades conforme DNIT 011-PRO.",
+    "Não aplicar com temperatura ambiente < 10 °C, chuva ou superfície úmida; aguardar o escoamento da água e a ruptura antes da camada seguinte."
+  ]
+}

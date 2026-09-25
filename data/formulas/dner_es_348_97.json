@@ -1,0 +1,20 @@
+{
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "mínima de 10 o (17,6%)",
+    "para": "mínima de 10° (17,6%)"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "(ângulo de 18 o )",
+    "para": "(ângulo de 18°)"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "(26 o 33’)",
+    "para": "(26°33’)"
+  }
+}

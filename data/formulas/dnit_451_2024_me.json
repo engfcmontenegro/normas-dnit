@@ -1,0 +1,39 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      66.5,
+      447.2,
+      100.5,
+      475.0
+    ],
+    "raw": "𝑚 𝑛 .",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta em texto (m_n.)"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      335.4,
+      567.8,
+      563.4,
+      606.8
+    ],
+    "raw": "𝑚 𝑛 −𝑚′ 𝑛 x 100 𝐴 𝑛 = (1) 𝑚 𝑛",
+    "latex": "A_n = \\frac{m_n - m'_n}{m_n} \\times 100 \\tag{1}"
+  },
+  "eq03": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      641.8,
+      563.4,
+      668.2
+    ],
+    "raw": "graduação 𝑛, com aproximação de 1 %, expresso em",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto comum de parágrafo"
+  }
+}

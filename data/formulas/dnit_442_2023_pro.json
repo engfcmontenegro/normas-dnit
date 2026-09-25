@@ -1,0 +1,55 @@
+{
+  "eq01": {
+    "page": 8,
+    "bbox": [
+      65.7,
+      105.4,
+      305.8,
+      143.0
+    ],
+    "raw": "𝐿 𝑎 +𝐿 𝑏 𝐴𝑇𝑅= 𝐿 𝑐 − ( ) (1) 2",
+    "latex": "ATR = L_c - \\left(\\frac{L_a + L_b}{2}\\right) \\tag{1}"
+  },
+  "eq02": {
+    "page": 8,
+    "bbox": [
+      66.5,
+      172.2,
+      294.0,
+      199.5
+    ],
+    "raw": "𝐴𝑇𝑅 é o afundamento de trilha de roda, expresso em",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: linha da legenda 'onde:'"
+  },
+  "eq03": {
+    "page": 8,
+    "bbox": [
+      66.5,
+      218.2,
+      293.8,
+      246.0
+    ],
+    "raw": "𝐿 𝑎 é o módulo de medição de uma das extremidades",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: linha da legenda 'onde:'"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "![[dnit_442_2023_pro_fig12.png]]",
+    "para": "| Estaca | ATR Trilha Interna (mm) | ATR Trilha Externa (mm) | IRI (m/km) sensor 1 | IRI (m/km) sensor 2 | IRI (m/km) sensor 5 | IRI (m/km) médio | QI (contagem/km) sensor 1 | QI (contagem/km) sensor 2 | QI (contagem/km) sensor 5 | QI (contagem/km) médio | MT (mm) sensor | Velocidade (km/h) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | 2,4 | 3,1 | 3,95 | 3,94 | 3,50 | 3,80 | 51,4 | 51,2 | 45,5 | 49,4 | 0,98 | 62 |\n| 2 | 3,3 | 2,8 | 3,70 | 3,90 | 2,73 | 3,44 | 48,1 | 50,7 | 35,5 | 44,8 | 1,11 | 61 |\n| 3 | 2,5 | 2,9 | 3,60 | 3,13 | 3,20 | 3,31 | 46,8 | 40,7 | 41,6 | 43,0 | 1,03 | 60 |\n| 4 | 2,4 | 2,8 | 3,59 | 3,34 | 3,04 | 3,32 | 46,7 | 43,4 | 39,5 | 43,2 | 1,32 | 69 |\n| 5 | 2,3 | 2,5 | 2,72 | 3,15 | 2,93 | 2,93 | 35,4 | 41,0 | 38,1 | 38,2 | 1,12 | 69 |\n| 6 | 3,0 | 2,7 | 3,01 | 2,85 | 2,83 | 2,90 | 39,1 | 37,1 | 36,8 | 37,7 | 0,99 | 69 |\n| 7 | 2,5 | 2,9 | 2,90 | 2,84 | 2,92 | 2,89 | 37,7 | 36,9 | 38,0 | 37,5 | 1,06 | 60 |\n| 8 | 2,5 | 2,9 | 2,75 | 2,79 | 2,83 | 2,79 | 35,8 | 36,3 | 36,8 | 36,3 | 1,01 | 61 |\n| 9 | 2,7 | 2,8 | 2,25 | 2,75 | 2,96 | 2,65 | 29,3 | 35,8 | 38,5 | 34,5 | 0,94 | 61 |\n| 10 | 2,6 | 2,9 | 2,53 | 2,99 | 2,56 | 2,69 | 32,9 | 38,9 | 33,3 | 35,0 | 1,09 | 61 |\n| 11 | 2,9 | 3,0 | 2,23 | 2,72 | 2,77 | 2,57 | 29,0 | 35,4 | 36,0 | 33,5 | 1,01 | 62 |\n| 12 | 3,3 | 2,5 | 3,44 | 2,54 | 2,77 | 2,92 | 44,7 | 33,0 | 36,0 | 37,9 | 0,98 | 63 |\n| 13 | 2,9 | 3,1 | 2,58 | 2,72 | 2,91 | 2,74 | 33,5 | 35,4 | 37,8 | 35,6 | 0,94 | 62 |\n| 14 | 2,9 | 2,5 | 2,83 | 2,99 | 2,93 | 2,92 | 36,8 | 38,9 | 38,1 | 37,9 | 0,75 | 63 |\n| 15 | 2,5 | 2,5 | 2,82 | 2,76 | 2,82 | 2,80 | 36,7 | 35,9 | 36,7 | 36,4 | 1,05 | 63 |\n| 16 | 2,7 | 2,6 | 2,63 | 2,88 | 3,18 | 2,90 | 34,2 | 37,4 | 41,3 | 37,6 | 1,08 | 63 |\n\n![[dnit_442_2023_pro_fig12.png]]",
+    "nota": "Tabela C1 (p. 15) é imagem: parte de dados em tabela markdown (o cabeçalho do formulário — campos em branco e croqui das distâncias entre sensores — fica só na imagem); a Tabela C2 (p. 16) é o modelo em branco e fica como imagem"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "NOTA 9: A representatividade dos valores obtidos de\n\nATR através",
+    "para": "NOTA 9: A representatividade dos valores obtidos de ATR através"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "requisitos da norma ASTM E\n\n1845 – 15",
+    "para": "requisitos da norma ASTM E 1845 – 15"
+  }
+}

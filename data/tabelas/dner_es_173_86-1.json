@@ -1,0 +1,236 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      106,
+      155,
+      506,
+      323
+    ],
+    "md": "Quadro 1\n\n| Largura da faixa de tráfego (m) | Distância da borda (m) – Alinhamento externo | Distância da borda (m) – Alinhamento interno |\n| --- | --- | --- |\n| 2,70 | 0,45 | 1,85 |\n| 3,00 | 0,60 | 2,00 |\n| 3,30 | 0,75 | 2,15 |\n| 3,50 | 0,90 | 2,30 |",
+    "de_inicio": "Quadro 1\n\n![[dner_es_173_86-1_fig01.png]]",
+    "nota": "Quadro 1 sem fios horizontais internos; tinha virado figura (fig01)"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      126,
+      638,
+      181,
+      699
+    ],
+    "md": "| 1 | 2 |\n| --- | --- |\n| 6 | 5 |",
+    "de_inicio": "1 2 Ex:\n\no. Posição (3-5)",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm03": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      128,
+      148,
+      474,
+      215
+    ],
+    "md": "Ex: alfanumérico, constante na ficha\n\n| 3 | 4 | 5 |\n| --- | --- | --- |\n| R | 1 | 0 |\n\nEx: numérico, não constante na ficha\n\n| 3 | 4 | 5 |\n| --- | --- | --- |\n| 5 | 1 | 2 |",
+    "de_inicio": "R|/1 0 5 1 2",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm04": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      109,
+      296,
+      282,
+      351
+    ],
+    "md": "| 6 | 7 | 8 | 9 | 10 | 11 |\n| --- | --- | --- | --- | --- | --- |\n| 0 | 1 | 1 | 1 | 8 | 3 |",
+    "de_inicio": "617 8 9 10 | 11",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm05": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      120,
+      414,
+      236,
+      609
+    ],
+    "md": "| 12 | 13 | 14 | 15 |\n| --- | --- | --- | --- |\n| Angra dos Reis |  | Rio de Janeiro | km 104 PNV 101 BRJ 1550 |\n| 12 | 13 | 14 | 15 |",
+    "de_inicio": "12 ['S [4 IS",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm06": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      158,
+      711,
+      256,
+      815
+    ],
+    "md": "| 16 | 17 | 18 |\n| --- | --- | --- |\n| 0 | 0 | 1 |\n| 0 | 0 | 2 |\n|  |  |  |",
+    "de_inicio": "16/17 ,18",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm07": {
+    "manual": true,
+    "page": 5,
+    "clip": [
+      178,
+      146.5,
+      273,
+      233
+    ],
+    "md": "| 19 |  | 19 |\n| --- | --- | --- |\n| D | ou | E |\n| D |  | E |",
+    "de_inicio": "`19 19 ou| E E`",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm08": {
+    "manual": true,
+    "page": 5,
+    "clip": [
+      166,
+      266.5,
+      296,
+      332
+    ],
+    "md": "| 20 | 21 | 22 | 23 |\n| --- | --- | --- | --- |\n| 3 | 2 | 1 | 0 |",
+    "de_inicio": "20, 21/22/23",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm09": {
+    "manual": true,
+    "page": 5,
+    "clip": [
+      163,
+      386.5,
+      282,
+      445
+    ],
+    "md": "| 24 | 25 | 26 | 27 |\n| --- | --- | --- | --- |\n| 3 | 2 | 1 | 1 |",
+    "de_inicio": "Ex 24 |25 26 27",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm10": {
+    "manual": true,
+    "page": 5,
+    "clip": [
+      153,
+      509,
+      271,
+      574
+    ],
+    "md": "| 28 | 29 | 30 | 31 |\n| --- | --- | --- | --- |\n| 3 | 2 | 1 | 2 |",
+    "de_inicio": "28/29/3031",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm11": {
+    "manual": true,
+    "page": 5,
+    "clip": [
+      164,
+      626,
+      282,
+      687
+    ],
+    "md": "| 32 | 33 | 34 | 35 |\n| --- | --- | --- | --- |\n| 3 | 2 | 1 | 3 |",
+    "de_inicio": "32/33/34] 35",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm12": {
+    "manual": true,
+    "page": 5,
+    "clip": [
+      164,
+      749,
+      282,
+      814
+    ],
+    "md": "| 36 | 37 | 38 | 39 |\n| --- | --- | --- | --- |\n| 3 | 2 | 1 | 3 |",
+    "de_inicio": "36 137 38 139",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm13": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      214,
+      164,
+      332,
+      229
+    ],
+    "md": "| 40 | 41 | 42 | 43 |\n| --- | --- | --- | --- |\n| 3 | 2 | 1 | 2 |",
+    "de_inicio": "40 |/41/42 43",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm14": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      214,
+      282,
+      332,
+      347
+    ],
+    "md": "| 44 | 45 | 46 | 47 |\n| --- | --- | --- | --- |\n| 3 | 2 | 1 | 2 |",
+    "de_inicio": "44 | 45/46/47",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm15": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      214,
+      400,
+      332,
+      464
+    ],
+    "md": "| 48 | 49 | 50 | 51 |\n| --- | --- | --- | --- |\n| 3 | 2 | 1 | 2 |",
+    "de_inicio": "48 149 50 | 51",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm16": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      214,
+      527,
+      332,
+      591
+    ],
+    "md": "| 52 | 53 | 54 | 55 |\n| --- | --- | --- | --- |\n| 3 | 2 | 1 | 0 |",
+    "de_inicio": "582/53 54 | 55",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm17": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      214,
+      637,
+      332,
+      702
+    ],
+    "md": "| 56 | 57 | 58 | 59 |\n| --- | --- | --- | --- |\n| 3 | 2 | 1 | 1 |",
+    "de_inicio": "56, 57/58] 59",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  },
+  "tabm18": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      215,
+      758,
+      356,
+      819
+    ],
+    "md": "| 60 | 61 | 62 | 63 | 64 |\n| --- | --- | --- | --- | --- |\n| 1 | 2 | 5 | 7 | 3 |",
+    "de_inicio": "1/2 /5/713",
+    "nota": "exemplo de preenchimento (6.4.1); tabela inserida pelo trecho f641 de data/formulas"
+  }
+}

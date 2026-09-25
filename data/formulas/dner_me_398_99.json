@@ -1,0 +1,27 @@
+{
+  "eq01": {
+    "page": 4,
+    "clip": [
+      95,
+      560,
+      160,
+      598
+    ],
+    "latex": [
+      "ID_p = \\frac{\\Sigma D}{6}"
+    ],
+    "de_inicio": "O ID p é dado pela fórmula:",
+    "de_fim": "> `ID D p = Σ 6 /Anexo`",
+    "para": "O $ID_p$ é dado pela fórmula:\n\n$$\nID_p = \\frac{\\Sigma D}{6}\n$$"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "## 6 CÁLCULO DO ID p",
+    "para": "## 6 CÁLCULO DO $ID_p$"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "O Índice de Degradação (ID p ) é",
+    "para": "O Índice de Degradação ($ID_p$) é"
+  }
+}

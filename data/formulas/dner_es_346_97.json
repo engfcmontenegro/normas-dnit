@@ -1,0 +1,33 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "(F ck , “slumps”",
+    "para": "($F_{ck}$, “slumps”",
+    "nota": "5.2.3: F maiúsculo no PDF"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "(f ck )",
+    "para": "($f_{ck}$)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "(175 kgf/cm 2 )",
+    "para": "(175 kgf/cm²)"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "1850 kg/m 3 .",
+    "para": "1850 kg/m³."
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "entre 38 o C e 66 o C",
+    "para": "entre 38 °C e 66 °C"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "25,0 m 3 de concreto",
+    "para": "25,0 m³ de concreto"
+  }
+}

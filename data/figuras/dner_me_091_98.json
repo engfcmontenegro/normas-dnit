@@ -1,0 +1,22 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      141.0,
+      382.0,
+      488.0,
+      564.0
+    ],
+    "legenda": "",
+    "ancora": "A resistência à compressão do corpo-de-prova deve ser calculada, aproximando a 0",
+    "texto_removido": [
+      "Idade de ensaio Tolerância permitida 24 h 3 d 7 d 28 d 60 d 90 d",
+      "± 30 min ou 2,1%",
+      "± 2 h ou 2,8%",
+      "± 6 h ou 3,6%",
+      "± 20 h ou 3,0%",
+      "± 36 h ou 2,5%",
+      "± 2 d ou 2,2%"
+    ]
+  }
+}

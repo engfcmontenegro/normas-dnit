@@ -1,0 +1,37 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      85.0,
+      77.9,
+      559.0,
+      619.3
+    ],
+    "legenda": "",
+    "ancora": "Mr2 = massa da amostra retida na peneira nº 40.",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `M Mr M 10 1 1 1 = − x 100`",
+      "Peneira nº 10 P",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `M Mr Mr M 40 1 1 2 1 = − + ( ) x 100`",
+      "Peneira nº 40 P",
+      "Ficha de ensaio Desgaste em rocha após fervura",
+      "Nome da pedreira Registro Nº",
+      "Tipo litológico",
+      "Classificação visual",
+      "Número da amostra",
+      "Massa inicial",
+      "M 1",
+      "Massa retida",
+      "## 10 Mr 1",
+      "Massa retida",
+      "## 40 Mr 2",
+      "Desgaste",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `M Mr M 10 1 1 1 = − x 100`",
+      "10 40 10 40 10 40 Média",
+      "## 10 Média",
+      "## 40 Peneira nº 10 P",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `M Mr Mr M 40 1 1 2 1 = − + ( ) x 100`",
+      "Peneira nº 40 P"
+    ]
+  }
+}

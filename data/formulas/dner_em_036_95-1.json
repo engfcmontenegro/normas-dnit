@@ -1,0 +1,89 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      240,
+      238,
+      400,
+      282
+    ],
+    "latex": [
+      "\\frac{\\text{CaO} + \\text{MgO} + \\text{Al}_2\\text{O}_3}{\\text{SiO}_2} > 1"
+    ],
+    "de_inicio": "itida desde que citado o DNER como fonte ção perm Reprodu\n\n## BNER-EM 0365/05\n\ntz quê\n\n**3.4.1** Durante a moagem",
+    "de_fim": "4 — Gir —— > SO,\n\n3.6 Cimento Portland pozolânico",
+    "para": "**3.4.1** Durante a moagem é permitido adicionar uma ou mais formas de sulfato de cálcio e materiais carbonáticos, nos teores especificados no Quadro II.\n\n**3.4.2** O conteúdo de escória granulada de alto-forno deve estar compreendido entre 35% a 70% da massa total de aglomerante.\n\n**3.5** Escória granulada de alto-forno\n\nSubproduto do tratamento de minério de ferro em alto-forno, obtido sob forma granulada por resfriamento brusco, constituído em sua maior parte de silicatos e aluminos-silicatos de cálcio. Sua composição deve obedecer a relação:\n\n$$\n\\frac{\\text{CaO} + \\text{MgO} + \\text{Al}_2\\text{O}_3}{\\text{SiO}_2} > 1\n$$\n\n**3.6** Cimento Portland pozolânico",
+    "nota": "3.5 (p. 3); junto: tarja lateral e cabeçalho de página no meio do 3.4.1, 'Quadro II.' perdido, 3.4.2 e 3.6 sem negrito"
+  },
+  "t01": {
+    "texto": true,
+    "de_inicio": "nos teores especificados no Quadro H.",
+    "para": "nos teores especificados no Quadro II.",
+    "todas": true,
+    "nota": "3.2: número do quadro deturpado pelo OCR (conferido no PDF)"
+  },
+  "t02": {
+    "texto": true,
+    "de_inicio": "nos teores especificados no Quadro IT.",
+    "para": "nos teores especificados no Quadro II.",
+    "todas": true,
+    "nota": "3.3: número do quadro deturpado pelo OCR (conferido no PDF)"
+  },
+  "t03": {
+    "texto": true,
+    "de_inicio": "nos teores especificados no Quadro HI.",
+    "para": "nos teores especificados no Quadro II.",
+    "todas": true,
+    "nota": "3.6.1: número do quadro deturpado pelo OCR (conferido no PDF)"
+  },
+  "t04": {
+    "texto": true,
+    "de_inicio": "nos teores especificados no Quadro TI.",
+    "para": "nos teores especificados no Quadro II.",
+    "todas": true,
+    "nota": "3.7: número do quadro deturpado pelo OCR (conferido no PDF)"
+  },
+  "t05": {
+    "texto": true,
+    "de_inicio": "de acordo com o disposto no Quadro [.",
+    "para": "de acordo com o disposto no Quadro I.",
+    "todas": true,
+    "nota": "4.1: número do quadro deturpado pelo OCR (conferido no PDF)"
+  },
+  "t06": {
+    "texto": true,
+    "de_inicio": "limites fixados no Quadro TI.",
+    "para": "limites fixados no Quadro II.",
+    "todas": true,
+    "nota": "4.2: número do quadro deturpado pelo OCR (conferido no PDF)"
+  },
+  "t07": {
+    "texto": true,
+    "de_inicio": "Os cimentos referidos no [Quadro I]devem atender às exigências químicas indicadas no Quadro HI.",
+    "para": "Os cimentos referidos no Quadro I devem atender às exigências químicas indicadas no Quadro III.",
+    "todas": true,
+    "nota": "5.1.1: número do quadro deturpado pelo OCR (conferido no PDF)"
+  },
+  "t08": {
+    "texto": true,
+    "de_inicio": "o permitida desde que citado o DNER como fonte\n\nReproduç:\n\n",
+    "para": "",
+    "todas": true,
+    "nota": "tarja lateral da p. 5"
+  },
+  "t09": {
+    "texto": true,
+    "de_inicio": "R como fonte am tado o DN da desde que ci Reprodução permit\n\n## BNER-EM C36/95\n\n",
+    "para": "",
+    "todas": true,
+    "nota": "tarja lateral e cabeçalho da p. 6"
+  },
+  "x01": {
+    "texto": true,
+    "page": 7,
+    "de_inicio": "[Anexo citado o DNER como fonte",
+    "de_fim": "CP TH-E-40 0-10 6-34 <10 <5`",
+    "para": "## ANEXO NORMATIVO - QUADROS\n\n### Quadro I - Designações e classes de resistência de cimentos Portland\n\n![[dner_em_036_95-1_fig01.png]]\n\n### Quadro II - Teores dos componentes de cimentos Portland\n\n![[dner_em_036_95-1_fig02.png]]\n\nNota: As classes de resistência 25, 32 e 40, citadas no Quadro I, representam os mínimos de resistência à compressão aos 28 dias de idade, em MPa.\n\n### Quadro III - Exigências químicas\n\n![[dner_em_036_95-1_fig03.png]]\n\nNota 1: Determinação química - Limites da massa de SO₃ (%):\n- quando C3A do clinquer ≤ 8%: ≤ 3,5;\n- quando C3A do clinquer > 8%: ≤ 4,5.\n\nNota 2: Nos casos em que o cimento se destine ao emprego em concreto com agregados potencialmente reativos, são necessários estudos específicos para o uso de materiais pozolânicos ou de escória granulada de alto-forno para a inibição da reação, visando garantir a durabilidade do concreto\n\n### Quadro IV - Exigências físicas e mecânicas\n\n![[dner_em_036_95-1_fig04.png]]\n\nNota: A resistência à compressão do CP V-ARI a 1 dia de idade deve ser ≥ 14 MPa.\n\n### Quadro V - Exigências químicas, físicas e mecânicas do cimento (facultativas)\n\n![[dner_em_036_95-1_fig05.png]]",
+    "nota": "Anexo (p. 7-10): Quadros I a V ficam só como imagem (OCR não permite tabela confiável); tirados o texto achatado dos quadros, tarjas laterais e cabeçalhos de página; títulos dos quadros e notas corrigidos pelo PDF (Nota do Quadro IV: '≥ 14 MPa', OCR tinha '>')"
+  }
+}

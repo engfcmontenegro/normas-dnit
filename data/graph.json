@@ -1,0 +1,5753 @@
+{
+  "nodes": [
+    {
+      "id": "dner-pro-002-94",
+      "label": "DNER-PRO 002/94",
+      "titulo": "Coleta de amostras indeformadas de solos - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 2010.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-ter-002-79",
+      "label": "DNER-TER 002/79",
+      "titulo": "Conservação, restauração e melhoramentos - Terminologia",
+      "tipo": "TER",
+      "orgao": "DNER",
+      "x": 906.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dner-pro-003-94",
+      "label": "DNER-PRO 003/94",
+      "titulo": "Coleta de amostras deformadas de solos - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 2286.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-ie-004-94",
+      "label": "DNER-IE 004/94",
+      "titulo": "Solos coesivos - Determinação da compressão simples de amostras indeformadas - Instrução de Ensaio",
+      "tipo": "IE",
+      "orgao": "DNER",
+      "x": 1458.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-pro-005-94",
+      "label": "DNER-PRO 005/94",
+      "titulo": "Coleta de amostras de material de enchimento - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 2562.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-ie-005-94",
+      "label": "DNER-IE 005/94",
+      "titulo": "Solos - Adensamento - Instrução de Ensaio",
+      "tipo": "IE",
+      "orgao": "DNER",
+      "x": 973.8,
+      "y": 869.3
+    },
+    {
+      "id": "dner-me-006-00",
+      "label": "DNER-ME 006/00",
+      "titulo": "Emulsões asfálticas - determinação da sedimentação",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1190.2,
+      "y": 1452.3
+    },
+    {
+      "id": "dner-me-009-98",
+      "label": "DNER-ME 009/98",
+      "titulo": "Petróleo e derivados - determinação da densidade - método do densímetro",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2010.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-pro-010-79",
+      "label": "DNER-PRO 010/79",
+      "titulo": "Avaliação estrutural dos pavimentos flexíveis - Procedimento “A”",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 2838.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-me-011-94",
+      "label": "DNER-ME 011/94",
+      "titulo": "Microesferas de vidro retrorrefletivas para demarcação viária - verificação da resistência à solução de cloreto de cálcio",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2202.9,
+      "y": 996.6
+    },
+    {
+      "id": "dner-pro-011-79",
+      "label": "DNER-PRO 011/79",
+      "titulo": "Avaliação estrutural dos pavimentos flexíveis - Procedimento “B”",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 3114.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-pro-012-95",
+      "label": "DNER-PRO 012/95",
+      "titulo": "Fotointerpretação aplicada à engenharia rodoviária - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 3390.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-me-013-94",
+      "label": "DNER-ME 013/94",
+      "titulo": "Microesferas de vidro retrorrefletivas para demarcação viária - determinação da massa específica",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2193.3,
+      "y": 1053.0
+    },
+    {
+      "id": "dner-pro-013-94",
+      "label": "DNER-PRO 013/94",
+      "titulo": "Coleta de amostra de misturas betuminosas para pavimentação - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 5078.0,
+      "y": 0.0
+    },
+    {
+      "id": "dner-me-014-94",
+      "label": "DNER-ME 014/94",
+      "titulo": "Microesferas de vidro retrorrefletivas para demarcação viária - verificação da resistência ao ácido clorídrico",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2208.9,
+      "y": 1020.2
+    },
+    {
+      "id": "dner-pro-014-95",
+      "label": "DNER-PRO 014/95",
+      "titulo": "Mapeamento geológico - geotécnico para obras viárias - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 3666.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-me-015-94",
+      "label": "DNER-ME 015/94",
+      "titulo": "Microesferas de vidro retrorrefletivas para demarcação viária - resistência à umidade",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2239.6,
+      "y": 1011.4
+    },
+    {
+      "id": "dner-pro-015-94",
+      "label": "DNER-PRO 015/94",
+      "titulo": "Inspeção de usinas para misturas betuminosas - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 4857.4,
+      "y": 217.3
+    },
+    {
+      "id": "dner-me-018-94",
+      "label": "DNER-ME 018/94",
+      "titulo": "Tinta para demarcação viária - verificação do sangramento no asfalto",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2366.5,
+      "y": 1026.8
+    },
+    {
+      "id": "dner-me-019-94",
+      "label": "DNER-ME 019/94",
+      "titulo": "Tinta para demarcação viária - determinação da flexibilidade",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2386.8,
+      "y": 1030.4
+    },
+    {
+      "id": "dner-me-020-94",
+      "label": "DNER-ME 020/94",
+      "titulo": "Tinta para demarcação viária - resistência à água",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2374.4,
+      "y": 1141.2
+    },
+    {
+      "id": "dner-me-022-94",
+      "label": "DNER-ME 022/94",
+      "titulo": "Microesferas de vidro retrorrefletivas para demarcação viária - determinação da resistência à solução de sulfeto de sódio",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2183.5,
+      "y": 1015.6
+    },
+    {
+      "id": "dner-me-023-94",
+      "label": "DNER-ME 023/94",
+      "titulo": "Microesferas de vidro retrorrefletivas para demarcação viária- determinação da resistência à água",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2159.7,
+      "y": 1000.1
+    },
+    {
+      "id": "dner-me-026-98",
+      "label": "DNER-ME 026/98",
+      "titulo": "Poder de cobertura de tinta para demarcação viária",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2286.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-me-027-97",
+      "label": "DNER-ME 027/97",
+      "titulo": "Pigmentos - grau de dispersão no veículo de tinta para demarcação viária",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2562.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-me-028-94",
+      "label": "DNER-ME 028/94",
+      "titulo": "Tinta para demarcação viária - determinação da consistência",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2394.2,
+      "y": 1136.4
+    },
+    {
+      "id": "dner-me-030-94",
+      "label": "DNER-ME 030/94",
+      "titulo": "Solos - determinação das relações sílica-alumina e sílica-sesquióxidos em solos",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 887.9,
+      "y": 1205.6
+    },
+    {
+      "id": "dner-em-033-94",
+      "label": "DNER-EM 033/94",
+      "titulo": "Mourões de eucalipto preservado para cercas",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 1203.7,
+      "y": 1035.8
+    },
+    {
+      "id": "dner-me-036-94",
+      "label": "DNER-ME 036/94",
+      "titulo": "Solo - determinação da massa específica aparente, “in situ”, com emprego do balão de borracha",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1093.5,
+      "y": 1279.6
+    },
+    {
+      "id": "dner-em-036-95",
+      "label": "DNER-EM 036/95",
+      "titulo": "Cimento Portland - recebimento e aceitação",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 1338.2,
+      "y": 1467.6
+    },
+    {
+      "id": "dner-me-037-94",
+      "label": "DNER-ME 037/94",
+      "titulo": "Solo - determinação da massa específica, “in situ”, com emprego do óleo",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1062.1,
+      "y": 1202.1
+    },
+    {
+      "id": "dner-me-038-94",
+      "label": "DNER-ME 038/94",
+      "titulo": "Tinta para demarcação viária - determinação da Estabilidade na armazenagem",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2389.0,
+      "y": 1118.6
+    },
+    {
+      "id": "dner-es-039-71",
+      "label": "DNER-ES 039/71",
+      "titulo": "Muros de arrimo",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 354.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-me-039-94",
+      "label": "DNER-ME 039/94",
+      "titulo": "Pavimento - determinação das deflexões pelo Dynaflect",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2838.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-me-040-95",
+      "label": "DNER-ME 040/95",
+      "titulo": "Prospecção geofísica pelo método de eletrorresistividade",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 3114.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-me-041-94",
+      "label": "DNER-ME 041/94",
+      "titulo": "Solos - preparação de amostras para ensaios de caracterização",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 972.4,
+      "y": 1163.6
+    },
+    {
+      "id": "dner-es-044-71",
+      "label": "DNER-ES 044/71",
+      "titulo": "Proteção do corpo estradal - Revestimento de taludes com solo-cimento",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 630.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-me-045-95",
+      "label": "DNER-ME 045/95",
+      "titulo": "Prospecção geofísica pelo método da sísmica de refração",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 3390.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-me-046-98",
+      "label": "DNER-ME 046/98",
+      "titulo": "Concreto - moldagem e cura de corpos-de-prova cilíndricos ou prismáticos",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 0.0,
+      "y": 2798.9
+    },
+    {
+      "id": "dner-me-053-94",
+      "label": "DNER-ME 053/94",
+      "titulo": "Misturas betuminosas - percentagem de betume",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1179.9,
+      "y": 1526.5
+    },
+    {
+      "id": "dner-me-055-95",
+      "label": "DNER-ME 055/95",
+      "titulo": "Areia - determinação de impurezas orgânicas",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 3666.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-me-057-94",
+      "label": "DNER-ME 057/94",
+      "titulo": "Microesferas de vidro retrorrefletivas para demarcação viária - determinação do teor de sílica",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2181.3,
+      "y": 989.1
+    },
+    {
+      "id": "dner-me-058-94",
+      "label": "DNER-ME 058/94",
+      "titulo": "Microesferas de vidro retrorrefletivas para demarcação viária - determinação da granulometria",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2216.8,
+      "y": 1045.2
+    },
+    {
+      "id": "dner-me-082-94",
+      "label": "DNER-ME 082/94",
+      "titulo": "Solos - determinação do limite de plasticidade",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1115.4,
+      "y": 1202.7
+    },
+    {
+      "id": "dner-me-085-94",
+      "label": "DNER-ME 085/94",
+      "titulo": "Material finamente pulverizado - determinação da massa específica real",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1022.2,
+      "y": 1688.0
+    },
+    {
+      "id": "dner-me-087-94",
+      "label": "DNER-ME 087/94",
+      "titulo": "Solos - determinação dos fatores de contração",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 852.7,
+      "y": 1150.0
+    },
+    {
+      "id": "dner-me-091-98",
+      "label": "DNER-ME 091/98",
+      "titulo": "Concreto - Ensaio de compressão de corpos-de-prova cilíndricos",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 220.6,
+      "y": 2581.6
+    },
+    {
+      "id": "dner-me-093-94",
+      "label": "DNER-ME 093/94",
+      "titulo": "Solos - determinação da densidade real",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 864.8,
+      "y": 1119.8
+    },
+    {
+      "id": "dner-me-096-98",
+      "label": "DNER-ME 096/98",
+      "titulo": "Agregado graúdo - avaliação da resistência mecânica pelo método dos 10% de finos",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 3942.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-pro-102-97",
+      "label": "DNER-PRO 102/97",
+      "titulo": "Sondagem de reconhecimento pelo método rotativo - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 3942.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-pro-103-94",
+      "label": "DNER-PRO 103/94",
+      "titulo": "Coleta de amostras de óleos e graxas lubrificantes - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 4218.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-pro-104-94",
+      "label": "DNER-PRO 104/94",
+      "titulo": "Amostragem de tinta para demarcação viária - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 2351.4,
+      "y": 1081.1
+    },
+    {
+      "id": "dner-me-107-94",
+      "label": "DNER-ME 107/94",
+      "titulo": "Mistura betuminosa a frio, com emulsão asfáltica - ensaio Marshall",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1039.5,
+      "y": 1530.4
+    },
+    {
+      "id": "dner-me-110-94",
+      "label": "DNER-ME 110/94",
+      "titulo": "Microesferas de vidro retrorrefletivas - avaliação do índice de refração",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2121.8,
+      "y": 1076.2
+    },
+    {
+      "id": "dner-pad-111-97",
+      "label": "DNER-PAD 111/97",
+      "titulo": "Fichas - representação de perfis individuais de sondagem a percussão e rotativa - Padronização",
+      "tipo": "PAD",
+      "orgao": "DNER",
+      "x": 1734.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-me-122-94",
+      "label": "DNER-ME 122/94",
+      "titulo": "Solos - determinação do limite de liquidez - método de referência e método expedito",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1109.5,
+      "y": 1207.4
+    },
+    {
+      "id": "dner-pro-132-94",
+      "label": "DNER-PRO 132/94",
+      "titulo": "Inspeção visual de embalagens de microesferas de vidro retrorrefletivas - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 2033.9,
+      "y": 1111.3
+    },
+    {
+      "id": "dner-pro-137-94",
+      "label": "DNER-PRO 137/94",
+      "titulo": "Coleta de amostras de água para ensaios químicos - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 4494.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-me-139-94",
+      "label": "DNER-ME 139/94",
+      "titulo": "Tinta para demarcação viária - determinação da aderência",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2349.6,
+      "y": 1039.2
+    },
+    {
+      "id": "dner-pro-142-94",
+      "label": "DNER-PRO 142/94",
+      "titulo": "Localização e numeração de marcos quilométricos - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 561.2,
+      "y": 2581.6
+    },
+    {
+      "id": "dner-pro-143-94",
+      "label": "DNER-PRO 143/94",
+      "titulo": "Formação de lotes de inspeção - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 4770.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-es-144-85",
+      "label": "DNER-ES 144/85",
+      "titulo": "Defensas metálicas",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 901.9,
+      "y": 2581.6
+    },
+    {
+      "id": "dner-ie-146-94",
+      "label": "DNER-IE 146/94",
+      "titulo": "Defensas metálicas - controle tecnológico durante a fabricação - Instrução de Ensaio",
+      "tipo": "IE",
+      "orgao": "DNER",
+      "x": 1734.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-pro-159-85",
+      "label": "DNER-PRO 159/85",
+      "titulo": "Projeto de restauração de pavimentos flexíveis e semi-rígidos - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 1080.3,
+      "y": 1587.3
+    },
+    {
+      "id": "dner-me-162-94",
+      "label": "DNER-ME 162/94",
+      "titulo": "Solos - ensaio de compactação utilizando amostras trabalhadas",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 4218.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-me-163-98",
+      "label": "DNER-ME 163/98",
+      "titulo": "Materiais betuminosos - determinação da ductilidade",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 4494.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-pro-164-94",
+      "label": "DNER-PRO 164/94",
+      "titulo": "Calibração e controle de sistemas de medidores de irregularidade de superfície de pavimento (Sistemas Integradores IPR/USP e Maysmeter) - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 1200.2,
+      "y": 1581.2
+    },
+    {
+      "id": "dner-es-169-86",
+      "label": "DNER-ES 169/86",
+      "titulo": "Controle de qualidade de levantamento da condição de superfície de pavimentos flexíveis ou semi-rígidos para gerência de pavimentos a nível de rede",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 906.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-es-173-86",
+      "label": "DNER-ES 173/86",
+      "titulo": "Método de nível e mira para calibração de sistemas medidores de irregularidade tipo resposta",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 1176.7,
+      "y": 1712.0
+    },
+    {
+      "id": "dner-em-174-94",
+      "label": "DNER-EM 174/94",
+      "titulo": "Mourões de concreto armado para cercas de arame farpado",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 1271.0,
+      "y": 1025.5
+    },
+    {
+      "id": "dner-pro-179-94",
+      "label": "DNER-PRO 179/94",
+      "titulo": "Guia para avaliação da resistência do concreto em estruturas - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 1242.5,
+      "y": 2581.6
+    },
+    {
+      "id": "dner-me-180-94",
+      "label": "DNER-ME 180/94",
+      "titulo": "determinação da resistência à compressão simples",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1129.9,
+      "y": 1716.7
+    },
+    {
+      "id": "dner-me-181-94",
+      "label": "DNER-ME 181/94",
+      "titulo": "Solos estabilizados com cinza volante e cal hidratada - determinação da resistência à tração por compressão diametral",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1127.6,
+      "y": 1529.4
+    },
+    {
+      "id": "dner-me-183-94",
+      "label": "DNER-ME 183/94",
+      "titulo": "Tinta para demarcação viária - determinação da cor",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2404.7,
+      "y": 1090.9
+    },
+    {
+      "id": "dner-me-184-94",
+      "label": "DNER-ME 184/94",
+      "titulo": "Tinta para demarcação viária - determinação da estabilidade na diluição",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2432.9,
+      "y": 1048.5
+    },
+    {
+      "id": "dner-me-185-94",
+      "label": "DNER-ME 185/94",
+      "titulo": "Tinta para demarcação viária - determinação da formação de nata",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2428.7,
+      "y": 1075.1
+    },
+    {
+      "id": "dner-me-186-94",
+      "label": "DNER-ME 186/94",
+      "titulo": "Tinta para demarcação viária - Determinação do tempo de secagem \"no pick-up time”",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2403.2,
+      "y": 1070.0
+    },
+    {
+      "id": "dner-me-192-97",
+      "label": "DNER-ME 192/97",
+      "titulo": "Agregados - determinação do inchamento de agregado miúdo",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 4770.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-me-193-96",
+      "label": "DNER-ME 193/96",
+      "titulo": "Materiais betuminosos líquidos e semi-sólidos - Determinação da densidade e da massa específica",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 5046.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-me-194-98",
+      "label": "DNER-ME 194/98",
+      "titulo": "Agregados - determinação da massa específica de agregados miúdos por meio do frasco Chapman",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 5322.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-me-195-97",
+      "label": "DNER-ME 195/97",
+      "titulo": "Agregados - determinação da absorção e da massa específica de agregado graúdo",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1362.5,
+      "y": 2798.9
+    },
+    {
+      "id": "dner-me-197-97",
+      "label": "DNER-ME 197/97",
+      "titulo": "Agregados - determinação da resistência ao esmagamento de agregados graúdos",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 78.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-me-201-94",
+      "label": "DNER-ME 201/94",
+      "titulo": "Solo-cimento - compressão axial de corpos-de-prova cilíndricos",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1078.8,
+      "y": 1647.8
+    },
+    {
+      "id": "dner-me-202-94",
+      "label": "DNER-ME 202/94",
+      "titulo": "Solo-cimento - moldagem e cura de corpos-de-prova cilíndricos",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1002.1,
+      "y": 1868.5
+    },
+    {
+      "id": "dner-me-203-94",
+      "label": "DNER-ME 203/94",
+      "titulo": "Solo-cimento - determinação da durabilidade através da perda de massa por molhagem e secagem",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 986.5,
+      "y": 1984.3
+    },
+    {
+      "id": "dner-pro-206-94",
+      "label": "DNER-PRO 206/94",
+      "titulo": "Avaliação da resistência do concreto por ensaio de luva expansível - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 1021.9,
+      "y": 2798.9
+    },
+    {
+      "id": "dner-pro-207-94",
+      "label": "DNER-PRO 207/94",
+      "titulo": "Projeto, execução e retirada de cimbramentos de pontes de concreto armado e protendido - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 5046.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-pro-211-94",
+      "label": "DNER-PRO 211/94",
+      "titulo": "Integração de rodovias com o meio ambiente na região amazônica - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 5322.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-pro-212-94",
+      "label": "DNER-PRO 212/94",
+      "titulo": "Estudos e projetos para integração de rodovias com o meio ambiente - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 78.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dner-me-216-94",
+      "label": "DNER-ME 216/94",
+      "titulo": "Solo-cimento - determinação da relação entre o teor de umidade e a massa específica aparente",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 958.6,
+      "y": 1979.7
+    },
+    {
+      "id": "dner-me-222-94",
+      "label": "DNER-ME 222/94",
+      "titulo": "Agregado sintético fabricado com argila - desgaste por abrasão",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 3525.0,
+      "y": 81.3
+    },
+    {
+      "id": "dner-me-223-94",
+      "label": "DNER-ME 223/94",
+      "titulo": "Argilas para fabricação de agregado sintético de argila calcinada - seleção expedita pelo processo de fervura",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 3470.4,
+      "y": 234.4
+    },
+    {
+      "id": "dner-me-225-94",
+      "label": "DNER-ME 225/94",
+      "titulo": "Agregado sintético de argila calcinada - determinação da perda de massa após fervura",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 3259.9,
+      "y": 178.6
+    },
+    {
+      "id": "dner-es-227-89",
+      "label": "DNER-ES 227/89",
+      "titulo": "Agregados sintéticos graúdos de argila calcinada - emprego em obras rodoviárias",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 3384.3,
+      "y": 0.0
+    },
+    {
+      "id": "dner-pro-229-94",
+      "label": "DNER-PRO 229/94",
+      "titulo": "Manutenção de sistemas medidores de irregularidade de superfície de pavimento - Integrador IPR/USP e Maysmeter - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 1204.6,
+      "y": 1714.0
+    },
+    {
+      "id": "dner-em-230-94",
+      "label": "DNER-EM 230/94",
+      "titulo": "Agregados sintéticos graúdos de argila calcinada",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 3402.7,
+      "y": 126.3
+    },
+    {
+      "id": "dner-pro-231-94",
+      "label": "DNER-PRO 231/94",
+      "titulo": "Inspeção visual de recipientes com tinta para demarcação viária - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 2161.2,
+      "y": 1127.0
+    },
+    {
+      "id": "dner-pro-232-94",
+      "label": "DNER-PRO 232/94",
+      "titulo": "Tinta para demarcação viária - avaliação do comportamento na pista de rolamento - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 354.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dner-me-233-94",
+      "label": "DNER-ME 233/94",
+      "titulo": "Tinta para demarcação viária - determinação do cromato de chumbo no pigmento",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2461.6,
+      "y": 1073.5
+    },
+    {
+      "id": "dner-me-234-94",
+      "label": "DNER-ME 234/94",
+      "titulo": "Tinta para demarcação viária - determinação da resistência ao calor",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2399.8,
+      "y": 1049.9
+    },
+    {
+      "id": "dner-me-235-94",
+      "label": "DNER-ME 235/94",
+      "titulo": "Tinta para de marcação viária - determinação do teor de substâncias voláteis e não voláteis",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2409.0,
+      "y": 1111.1
+    },
+    {
+      "id": "dner-me-236-94",
+      "label": "DNER-ME 236/94",
+      "titulo": "Tinta para demarcação viária - determinação do brilho",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2354.9,
+      "y": 1134.6
+    },
+    {
+      "id": "dner-me-237-94",
+      "label": "DNER-ME 237/94",
+      "titulo": "Tinta para demarcação viária - determinação do teor de pigmento",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2438.1,
+      "y": 1098.9
+    },
+    {
+      "id": "dner-me-238-94",
+      "label": "DNER-ME 238/94",
+      "titulo": "Tinta para demarcação viária - determinação do dióxido de titânio no pigmento",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2461.2,
+      "y": 1110.6
+    },
+    {
+      "id": "dner-me-239-94",
+      "label": "DNER-ME 239/94",
+      "titulo": "Tinta para demarcação viária - determinação da resistência à abrasão",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2377.5,
+      "y": 1049.5
+    },
+    {
+      "id": "dner-me-240-94",
+      "label": "DNER-ME 240/94",
+      "titulo": "Tinta para demarcação viária - determinação qualitativa de breu",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2417.8,
+      "y": 1027.7
+    },
+    {
+      "id": "dner-me-241-94",
+      "label": "DNER-ME 241/94",
+      "titulo": "Material termoplástico para demarcação viária - determinação do dióxido de titânio no pigmento",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 3942.4,
+      "y": 0.0
+    },
+    {
+      "id": "dner-me-242-94",
+      "label": "DNER-ME 242/94",
+      "titulo": "Material termoplástico para demarcação viária - determinação do cromato de chumbo no pigmento",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 3888.1,
+      "y": 312.0
+    },
+    {
+      "id": "dner-me-243-94",
+      "label": "DNER-ME 243/94",
+      "titulo": "Material termoplástico para demarcação viária - determinação da densidade relativa",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2101.9,
+      "y": 1226.7
+    },
+    {
+      "id": "dner-me-244-94",
+      "label": "DNER-ME 244/94",
+      "titulo": "Material termoplástico para demarcação viária - determinação da estabilidade",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 354.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-me-245-94",
+      "label": "DNER-ME 245/94",
+      "titulo": "Material termoplástico para demarcação viária - determinação da cor",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 630.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-me-246-94",
+      "label": "DNER-ME 246/94",
+      "titulo": "Material termoplástico para demarcação viária - determinação da resistência à luz",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2089.0,
+      "y": 1256.8
+    },
+    {
+      "id": "dner-me-247-94",
+      "label": "DNER-ME 247/94",
+      "titulo": "Material termoplástico para demarcação viária - determinação do ponto de amolecimento (método do anel e bola)",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1804.9,
+      "y": 1289.5
+    },
+    {
+      "id": "dner-me-248-94",
+      "label": "DNER-ME 248/94",
+      "titulo": "Material termoplástico para demarcação viária - determinação do teor de ligante",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 3825.2,
+      "y": 140.3
+    },
+    {
+      "id": "dner-me-249-94",
+      "label": "DNER-ME 249/94",
+      "titulo": "Material termoplástico para demarcação viária - determinação do teor de microesferas de vidro",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 3645.0,
+      "y": 109.1
+    },
+    {
+      "id": "dner-pro-250-94",
+      "label": "DNER-PRO 250/94",
+      "titulo": "Cálculo do veículo total e veículo não volátil em tinta para demarcação viária - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 2422.1,
+      "y": 1128.5
+    },
+    {
+      "id": "dner-pro-251-94",
+      "label": "DNER-PRO 251/94",
+      "titulo": "Microesferas de vidros retrorrefletivas para demarcação viária - amostragem - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 2160.1,
+      "y": 1042.8
+    },
+    {
+      "id": "dner-em-260-94",
+      "label": "DNER-EM 260/94",
+      "titulo": "Escórias de alto forno para pavimentos rodoviários",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 1703.1,
+      "y": 2798.9
+    },
+    {
+      "id": "dner-pro-261-94",
+      "label": "DNER-PRO 261/94",
+      "titulo": "Emprego de escórias de alto forno em pavimentos rodoviários - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 1923.7,
+      "y": 2581.6
+    },
+    {
+      "id": "dner-em-262-94",
+      "label": "DNER-EM 262/94",
+      "titulo": "Escórias de aciaria para pavimentos rodoviários",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 2043.7,
+      "y": 2798.9
+    },
+    {
+      "id": "dner-pro-263-94",
+      "label": "DNER-PRO 263/94",
+      "titulo": "Emprego de escórias de aciaria em pavimentos rodoviários - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 2264.3,
+      "y": 2581.6
+    },
+    {
+      "id": "dner-pro-269-94",
+      "label": "DNER-PRO 269/94",
+      "titulo": "Projeto de restauração de pavimentos flexíveis - TECNAPAV - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 987.2,
+      "y": 1687.9
+    },
+    {
+      "id": "dner-me-274-96",
+      "label": "DNER-ME 274/96",
+      "titulo": "Solo-cimento - determinação da absorção d’água",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 934.8,
+      "y": 1963.4
+    },
+    {
+      "id": "dner-pro-273-96",
+      "label": "DNER-PRO 273/96",
+      "titulo": "Determinação de deflexões utilizando deflectômetro de impacto tipo “falling weight deflectometer - FWD” - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 1148.1,
+      "y": 1427.8
+    },
+    {
+      "id": "dner-em-276-00",
+      "label": "DNER-EM 276/00",
+      "titulo": "Tinta para sinalização rodoviária horizontal, à base de resina acrílica emulsionada em água",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 2336.0,
+      "y": 1091.7
+    },
+    {
+      "id": "dner-pro-277-97",
+      "label": "DNER-PRO 277/97",
+      "titulo": "Metodologia para controle estatístico de obras e serviços - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 1174.9,
+      "y": 1410.0
+    },
+    {
+      "id": "dner-es-327-97",
+      "label": "DNER-ES 327/97",
+      "titulo": "Pavimentação - Pavimento com peças pré-moldadas de concreto",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 1182.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-es-344-97",
+      "label": "DNER-ES 344/97",
+      "titulo": "Edificações - Serviços preliminares",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 739.3,
+      "y": 939.3
+    },
+    {
+      "id": "dner-es-345-97",
+      "label": "DNER-ES 345/97",
+      "titulo": "Edificações - Fundações",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 425.3,
+      "y": 789.4
+    },
+    {
+      "id": "dner-es-346-97",
+      "label": "DNER-ES 346/97",
+      "titulo": "Edificações - Estruturas",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 28.5,
+      "y": 693.7
+    },
+    {
+      "id": "dner-es-347-97",
+      "label": "DNER-ES 347/97",
+      "titulo": "Edificações - Alvenarias e painéis",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 9.3,
+      "y": 663.9
+    },
+    {
+      "id": "dner-es-348-97",
+      "label": "DNER-ES 348/97",
+      "titulo": "Edificações - Coberturas",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 73.5,
+      "y": 545.3
+    },
+    {
+      "id": "dner-es-349-97",
+      "label": "DNER-ES 349/97",
+      "titulo": "Edificações - Impermeabilização",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 47.6,
+      "y": 594.2
+    },
+    {
+      "id": "dner-es-350-97",
+      "label": "DNER-ES 350/97",
+      "titulo": "Edificações - Revestimento de pisos",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 22.8,
+      "y": 573.5
+    },
+    {
+      "id": "dner-es-351-97",
+      "label": "DNER-ES 351/97",
+      "titulo": "Edificações - Revestimento de paredes",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 80.4,
+      "y": 582.7
+    },
+    {
+      "id": "dner-es-352-97",
+      "label": "DNER-ES 352/97",
+      "titulo": "Edificações - Forros",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 9.6,
+      "y": 600.3
+    },
+    {
+      "id": "dner-es-353-97",
+      "label": "DNER-ES 353/97",
+      "titulo": "Edificações - Esquadrias",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 46.8,
+      "y": 555.9
+    },
+    {
+      "id": "dner-es-354-97",
+      "label": "DNER-ES 354/97",
+      "titulo": "Edificações - Ferragens",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 0.0,
+      "y": 631.8
+    },
+    {
+      "id": "dner-es-355-97",
+      "label": "DNER-ES 355/97",
+      "titulo": "Edificações - Vidraçaria",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 104.9,
+      "y": 548.3
+    },
+    {
+      "id": "dner-es-356-97",
+      "label": "DNER-ES 356/97",
+      "titulo": "Edificações - Pintura",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 66.1,
+      "y": 699.8
+    },
+    {
+      "id": "dner-es-357-97",
+      "label": "DNER-ES 357/97",
+      "titulo": "Edificações - Instalações elétricas, mecânicas e de telecomunicações",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 62.7,
+      "y": 632.8
+    },
+    {
+      "id": "dner-es-358-97",
+      "label": "DNER-ES 358/97",
+      "titulo": "Edificações - Instalações de água",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 28.0,
+      "y": 630.0
+    },
+    {
+      "id": "dner-es-359-97",
+      "label": "DNER-ES 359/97",
+      "titulo": "Edificações - Instalações de esgoto e águas pluviais",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 120.6,
+      "y": 577.8
+    },
+    {
+      "id": "dner-es-360-97",
+      "label": "DNER-ES 360/97",
+      "titulo": "Edificações - Instalação de gás",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 45.6,
+      "y": 668.0
+    },
+    {
+      "id": "dner-pro-361-97",
+      "label": "DNER-PRO 361/97",
+      "titulo": "Procedimentos para similaridades de materiais de construção - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 120.6,
+      "y": 642.9
+    },
+    {
+      "id": "dner-em-362-97",
+      "label": "DNER-EM 362/97",
+      "titulo": "Asfaltos diluídos tipo cura rápida",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 4506.0,
+      "y": 2659.6
+    },
+    {
+      "id": "dner-em-363-97",
+      "label": "DNER-EM 363/97",
+      "titulo": "Asfaltos diluídos tipo cura média",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 4782.0,
+      "y": 2659.6
+    },
+    {
+      "id": "dner-em-366-97",
+      "label": "DNER-EM 366/97",
+      "titulo": "Arame farpado de aço zincado",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 1239.4,
+      "y": 1024.1
+    },
+    {
+      "id": "dner-em-367-97",
+      "label": "DNER-EM 367/97",
+      "titulo": "Material de enchimento para misturas betuminosas",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 1180.3,
+      "y": 1598.4
+    },
+    {
+      "id": "dner-em-368-00",
+      "label": "DNER-EM 368/00",
+      "titulo": "Tinta para sinalização horizontal rodoviária à base de resina acrílica e/ou vinílica",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 2358.6,
+      "y": 1091.3
+    },
+    {
+      "id": "dner-em-370-97",
+      "label": "DNER-EM 370/97",
+      "titulo": "Defensas metálicas de perfis zincados",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 681.2,
+      "y": 2798.9
+    },
+    {
+      "id": "dner-em-371-00",
+      "label": "DNER-EM 371/00",
+      "titulo": "Tinta para sinalização horizontal rodoviária à base de resina, estireno-acrilato e/ou estireno-butadieno",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 2360.9,
+      "y": 1084.2
+    },
+    {
+      "id": "dner-em-372-00",
+      "label": "DNER-EM 372/00",
+      "titulo": "Material termoplástico para sinalização horizontal rodoviária",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 2024.8,
+      "y": 1195.4
+    },
+    {
+      "id": "dner-em-373-00",
+      "label": "DNER-EM 373/00",
+      "titulo": "Microesferas de vidro retrorrefletivas para sinalização horizontal rodoviária",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 2198.7,
+      "y": 1078.7
+    },
+    {
+      "id": "dner-em-374-97",
+      "label": "DNER-EM 374/97",
+      "titulo": "Fios e barras de aço para concreto armado",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 5058.0,
+      "y": 2659.6
+    },
+    {
+      "id": "dner-em-375-97",
+      "label": "DNER-EM 375/97",
+      "titulo": "Fios de aço para concreto protendido",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 5334.0,
+      "y": 2659.6
+    },
+    {
+      "id": "dner-em-376-97",
+      "label": "DNER-EM 376/97",
+      "titulo": "Cordoalhas de aço para concreto protendido",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 78.0,
+      "y": 3000.3
+    },
+    {
+      "id": "dner-pro-377-97",
+      "label": "DNER-PRO 377/97",
+      "titulo": "Extração e preparação de amostras de cimento - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNER",
+      "x": 630.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dner-em-379-98",
+      "label": "DNER-EM 379/98",
+      "titulo": "Esferas de vidro para sinalização rodoviária horizontal",
+      "tipo": "EM",
+      "orgao": "DNER",
+      "x": 2144.3,
+      "y": 1036.0
+    },
+    {
+      "id": "dner-me-383-99",
+      "label": "DNER-ME 383/99",
+      "titulo": "Desgaste por abrasão de misturas betuminosas com asfalto polímero - ensaio Cantabro",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1072.3,
+      "y": 1716.2
+    },
+    {
+      "id": "dner-es-386-99",
+      "label": "DNER-ES 386/99",
+      "titulo": "Pavimentação - Pré- misturado a quente com asfalto polímero - camada porosa de atrito",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 1129.1,
+      "y": 1585.4
+    },
+    {
+      "id": "dner-es-387-99",
+      "label": "DNER-ES 387/99",
+      "titulo": "Pavimentação - Areia asfalto a quente com asfalto polímero",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 1168.2,
+      "y": 1541.7
+    },
+    {
+      "id": "dner-es-388-99",
+      "label": "DNER-ES 388/99",
+      "titulo": "Pavimentação - Micro pré-misturado a quente com asfalto polímero",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 1150.7,
+      "y": 1528.0
+    },
+    {
+      "id": "dner-es-390-99",
+      "label": "DNER-ES 390/99",
+      "titulo": "Pavimentação - Pré-misturado a frio com emulsão modificada por polímero",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 1087.1,
+      "y": 1506.8
+    },
+    {
+      "id": "dner-es-391-99",
+      "label": "DNER-ES 391/99",
+      "titulo": "Pavimentação - Tratamento superficial simples com asfalto polímero",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 1054.3,
+      "y": 1472.6
+    },
+    {
+      "id": "dner-es-392-99",
+      "label": "DNER-ES 392/99",
+      "titulo": "Pavimentação - Tratamento superficial duplo com asfalto polímero",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 1048.7,
+      "y": 1433.2
+    },
+    {
+      "id": "dner-es-393-99",
+      "label": "DNER-ES 393/99",
+      "titulo": "Pavimentação - Tratamento superficial triplo com asfalto polímero",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 1037.2,
+      "y": 1454.2
+    },
+    {
+      "id": "dner-es-394-99",
+      "label": "DNER-ES 394/99",
+      "titulo": "Pavimentação - Macadame por penetração com asfalto polímero",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 1106.5,
+      "y": 1509.1
+    },
+    {
+      "id": "dner-es-395-99",
+      "label": "DNER-ES 395/99",
+      "titulo": "Pavimentação - Pavimentação - pintura de ligação com asfalto polímero",
+      "tipo": "ES",
+      "orgao": "DNER",
+      "x": 1123.4,
+      "y": 1496.4
+    },
+    {
+      "id": "dner-me-397-99",
+      "label": "DNER-ME 397/99",
+      "titulo": "Agregados - determinação do índice de degradação Washington - IDW",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 906.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-me-398-99",
+      "label": "DNER-ME 398/99",
+      "titulo": "Agregados - índice de degradação após compactação Proctor (IDp)",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1182.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-me-399-99",
+      "label": "DNER-ME 399/99",
+      "titulo": "Agregados - determinação da perda ao choque no aparelho Treton",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1458.0,
+      "y": 3276.3
+    },
+    {
+      "id": "dner-me-400-99",
+      "label": "DNER-ME 400/99",
+      "titulo": "Agregados - desgaste após fervura de agregado pétreo natural",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 3142.9,
+      "y": 221.6
+    },
+    {
+      "id": "dner-me-401-99",
+      "label": "DNER-ME 401/99",
+      "titulo": "Agregados - determinação do índice de degradação de rochas após compactação Marshall, com ligante - IDML e sem ligante - IDM",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 1251.4,
+      "y": 1560.8
+    },
+    {
+      "id": "dner-me-402-00",
+      "label": "DNER-ME 402/00",
+      "titulo": "Concreto - amostragem de concreto fresco",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2384.3,
+      "y": 2798.9
+    },
+    {
+      "id": "dner-ter-403-00",
+      "label": "DNER-TER 403/00",
+      "titulo": "Peneiras de ensaio e ensaio de peneiramento - Terminologia",
+      "tipo": "TER",
+      "orgao": "DNER",
+      "x": 1182.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dner-me-404-00",
+      "label": "DNER-ME 404/00",
+      "titulo": "Concreto - determinação da consistência pelo abatimento do tronco de cone",
+      "tipo": "ME",
+      "orgao": "DNER",
+      "x": 2604.9,
+      "y": 2581.6
+    },
+    {
+      "id": "dnit-001-2023-pro",
+      "label": "DNIT 001/2023-PRO",
+      "titulo": "Estrutura e apresentação de normas técnicas do DNIT - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1009.6,
+      "y": 293.8
+    },
+    {
+      "id": "dnit-002-2023-pro",
+      "label": "DNIT 002/2023-PRO",
+      "titulo": "Estrutura e apresentação de manuais técnicos do DNIT - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 902.3,
+      "y": 216.4
+    },
+    {
+      "id": "dnit-003-2009-pro",
+      "label": "DNIT 003/2009-PRO",
+      "titulo": "Criação e incorporação de acesso, anel ou contorno rodoviário - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 340.6,
+      "y": 2798.9
+    },
+    {
+      "id": "dnit-005-2003-ter",
+      "label": "DNIT 005/2003-TER",
+      "titulo": "Defeitos nos pavimentos flexíveis e semi-rígidos - Terminologia",
+      "tipo": "TER",
+      "orgao": "DNIT",
+      "x": 899.1,
+      "y": 1432.5
+    },
+    {
+      "id": "dnit-010-2024-pro",
+      "label": "DNIT 010/2024-PRO",
+      "titulo": "Inspeções em pontes e viadutos - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1110.0,
+      "y": 273.4
+    },
+    {
+      "id": "dnit-012-2004-pro",
+      "label": "DNIT 012/2004-PRO",
+      "titulo": "Requisitos para a qualidade em projetos rodoviários - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1458.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-013-2004-pro",
+      "label": "DNIT 013/2004-PRO",
+      "titulo": "Requisitos para a qualidade na execução em obras rodoviárias - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1253.7,
+      "y": 1284.2
+    },
+    {
+      "id": "dnit-014-2004-pro",
+      "label": "DNIT 014/2004-PRO",
+      "titulo": "Requisitos para a qualidade em supervisão de obras rodoviárias - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1734.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-015-2006-es",
+      "label": "DNIT 015/2006-ES",
+      "titulo": "Drenagem - Drenos subterrâneos - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 892.2,
+      "y": 532.0
+    },
+    {
+      "id": "dnit-016-2006-es",
+      "label": "DNIT 016/2006-ES",
+      "titulo": "Drenagem - Drenos sub-superficiais - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 808.8,
+      "y": 490.3
+    },
+    {
+      "id": "dnit-017-2006-es",
+      "label": "DNIT 017/2006-ES",
+      "titulo": "Drenagem - Drenos sub-horizontais - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 870.2,
+      "y": 479.4
+    },
+    {
+      "id": "dnit-019-2023-es",
+      "label": "DNIT 019/2023-ES",
+      "titulo": "Drenagem - Transposição de sarjetas e valetas - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1052.0,
+      "y": 203.0
+    },
+    {
+      "id": "dnit-022-2023-es",
+      "label": "DNIT 022/2023-ES",
+      "titulo": "Drenagem - Dissipadores de energia - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 921.1,
+      "y": 312.5
+    },
+    {
+      "id": "dnit-023-2024-es",
+      "label": "DNIT 023/2024-ES",
+      "titulo": "Drenagem - Bueiros tubulares de concreto - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 918.3,
+      "y": 190.0
+    },
+    {
+      "id": "dnit-024-2025-es",
+      "label": "DNIT 024/2025-ES",
+      "titulo": "Drenagem - Bueiros metálicos sem interrupção do tráfego - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 972.2,
+      "y": 194.6
+    },
+    {
+      "id": "dnit-025-2025-es",
+      "label": "DNIT 025/2025-ES",
+      "titulo": "Drenagem - Bueiros celulares de concreto - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1047.2,
+      "y": 172.4
+    },
+    {
+      "id": "dnit-026-2025-es",
+      "label": "DNIT 026/2025-ES",
+      "titulo": "Drenagem - Caixas coletoras, caixas de ligação e passagem e bocas de bueiros - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1024.3,
+      "y": 163.7
+    },
+    {
+      "id": "dnit-027-2004-es",
+      "label": "DNIT 027/2004-ES",
+      "titulo": "Drenagem - Demolição de dispositivos de concreto - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 2010.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-028-2004-es",
+      "label": "DNIT 028/2004-ES",
+      "titulo": "Drenagem - Limpeza e desobstrução de dispositivos de drenagem - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 2286.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-029-2004-es",
+      "label": "DNIT 029/2004-ES",
+      "titulo": "Drenagem - Restauração de dispositivos de drenagem danificados - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 2562.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-030-2004-es",
+      "label": "DNIT 030/2004-ES",
+      "titulo": "Drenagem - Dispositivos de drenagem pluvial urbana - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 2838.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-032-2005-es",
+      "label": "DNIT 032/2005-ES",
+      "titulo": "Pavimentos Flexíveis - Areia-asfalto a quente - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1152.3,
+      "y": 1553.8
+    },
+    {
+      "id": "dnit-033-2021-es",
+      "label": "DNIT 033/2021-ES",
+      "titulo": "Pavimentos flexíveis - Concreto asfáltico reciclado em usina a quente - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 3114.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-034-2005-es",
+      "label": "DNIT 034/2005-ES",
+      "titulo": "Pavimentos Flexíveis - Concreto Asfáltico Reciclado a quente no local - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1199.8,
+      "y": 1545.4
+    },
+    {
+      "id": "dnit-036-2004-me",
+      "label": "DNIT 036/2004-ME",
+      "titulo": "Pavimento Rígido - Água para amassamento do concreto de cimento Portland - Ensaios químicos - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1489.1,
+      "y": 1494.5
+    },
+    {
+      "id": "dnit-037-2004-me",
+      "label": "DNIT 037/2004-ME",
+      "titulo": "Pavimento rígido - Água para amassamento do concreto de cimento portland - Ensaios comparativos - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1450.6,
+      "y": 1532.7
+    },
+    {
+      "id": "dnit-038-2004-me",
+      "label": "DNIT 038/2004-ME",
+      "titulo": "Pavimento Rígido - Selante de juntas - Determinação do índice de fluidez - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1609.0,
+      "y": 1824.6
+    },
+    {
+      "id": "dnit-039-2004-me",
+      "label": "DNIT 039/2004-ME",
+      "titulo": "Pavimento Rígido - Selante de juntas - Tração - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1577.2,
+      "y": 1892.2
+    },
+    {
+      "id": "dnit-040-2004-me",
+      "label": "DNIT 040/2004-ME",
+      "titulo": "Pavimento Rígido - Selante de juntas - Aderência selante x substrato - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1543.4,
+      "y": 1871.9
+    },
+    {
+      "id": "dnit-041-2004-me",
+      "label": "DNIT 041/2004-ME",
+      "titulo": "Pavimento Rígido - Selante de juntas - Deformação permanente à compressão - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1550.6,
+      "y": 1826.8
+    },
+    {
+      "id": "dnit-042-2004-me",
+      "label": "DNIT 042/2004-ME",
+      "titulo": "Pavimento Rígido - Selante de juntas - Rasgamento - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1581.1,
+      "y": 1832.4
+    },
+    {
+      "id": "dnit-043-2004-me",
+      "label": "DNIT 043/2004-ME",
+      "titulo": "Pavimento Rígido - Selante de juntas - Absorção de água - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1520.5,
+      "y": 1851.8
+    },
+    {
+      "id": "dnit-044-2004-me",
+      "label": "DNIT 044/2004-ME",
+      "titulo": "Pavimento Rígido - Selante de juntas - Envelhecimento acelerado em estufa - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1566.9,
+      "y": 1854.1
+    },
+    {
+      "id": "dnit-045-2004-me",
+      "label": "DNIT 045/2004-ME",
+      "titulo": "Pavimento Rígido - Selante de juntas - Envelhecimento acelerado por intemperismo - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1548.6,
+      "y": 1851.5
+    },
+    {
+      "id": "dnit-046-2004-em",
+      "label": "DNIT 046/2004-EM",
+      "titulo": "Pavimento rígido - selante de juntas - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 1515.8,
+      "y": 1738.0
+    },
+    {
+      "id": "dnit-047-2004-es",
+      "label": "DNIT 047/2004-ES",
+      "titulo": "Pavimento Rígido - Execução de pavimento rígido com equipamento de pequeno porte - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1499.7,
+      "y": 1578.4
+    },
+    {
+      "id": "dnit-048-2004-es",
+      "label": "DNIT 048/2004-ES",
+      "titulo": "Pavimento Rígido - Execução de pavimento rígido com equipamento de fôrma-trilho - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1499.1,
+      "y": 1597.9
+    },
+    {
+      "id": "dnit-049-2013-es",
+      "label": "DNIT 049/2013-ES",
+      "titulo": "Pavimento rígido - Execução de pavimento rígido com equipamento de fôrmas deslizantes - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1332.3,
+      "y": 1519.8
+    },
+    {
+      "id": "dnit-050-2004-em",
+      "label": "DNIT 050/2004-EM",
+      "titulo": "Pavimento rígido - cimento portland - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 1347.9,
+      "y": 1456.7
+    },
+    {
+      "id": "dnit-051-2004-me",
+      "label": "DNIT 051/2004-ME",
+      "titulo": "Pavimento Rígido - Selante de juntas - Deformação permanente na tração em alongamento constante - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1623.0,
+      "y": 2002.5
+    },
+    {
+      "id": "dnit-052-2004-me",
+      "label": "DNIT 052/2004-ME",
+      "titulo": "Pavimento Rígido - Selante de juntas - Puncionamento estático - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1609.1,
+      "y": 1797.8
+    },
+    {
+      "id": "dnit-053-2004-me",
+      "label": "DNIT 053/2004-ME",
+      "titulo": "Pavimento rígido - Determinação da retração de concreto por secagem - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1682.3,
+      "y": 1611.7
+    },
+    {
+      "id": "dnit-054-2004-pro",
+      "label": "DNIT 054/2004-PRO",
+      "titulo": "Pavimento Rígido - Estudos de traços de concreto e ensaios de caracterização de materiais - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1575.2,
+      "y": 1565.4
+    },
+    {
+      "id": "dnit-055-2004-me",
+      "label": "DNIT 055/2004-ME",
+      "titulo": "Pavimento Rígido - Prova de carga estática para determinação do coeficiente de recalque de subleito e sub-base em projeto e avaliação de pavimentos - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1507.2,
+      "y": 1531.1
+    },
+    {
+      "id": "dnit-057-2004-es",
+      "label": "DNIT 057/2004-ES",
+      "titulo": "Pavimento Rígido - Execução de sub-base melhorada com cimento - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1207.0,
+      "y": 1309.8
+    },
+    {
+      "id": "dnit-058-2004-es",
+      "label": "DNIT 058/2004-ES",
+      "titulo": "Pavimento Rígido - Execução de sub-base de solo-cimento - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1218.3,
+      "y": 1298.6
+    },
+    {
+      "id": "dnit-060-2004-pro",
+      "label": "DNIT 060/2004-PRO",
+      "titulo": "Pavimento Rígido - Inspeção visual - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1846.2,
+      "y": 1895.7
+    },
+    {
+      "id": "dnit-061-2004-ter",
+      "label": "DNIT 061/2004-TER",
+      "titulo": "Pavimento Rígido Defeitos - Terminologia",
+      "tipo": "TER",
+      "orgao": "DNIT",
+      "x": 1863.3,
+      "y": 1876.0
+    },
+    {
+      "id": "dnit-062-2004-pro",
+      "label": "DNIT 062/2004-PRO",
+      "titulo": "Pavimento Rígido - Avaliação objetiva - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1773.6,
+      "y": 1809.9
+    },
+    {
+      "id": "dnit-063-2004-pro",
+      "label": "DNIT 063/2004-PRO",
+      "titulo": "Pavimento Rígido - Avaliação subjetiva - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1625.7,
+      "y": 1685.8
+    },
+    {
+      "id": "dnit-064-2004-me",
+      "label": "DNIT 064/2004-ME",
+      "titulo": "Pavimento Rígido - Determinação de consistência do concreto pelo consistômetro VeBe - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1560.3,
+      "y": 1614.8
+    },
+    {
+      "id": "dnit-065-2004-es",
+      "label": "DNIT 065/2004-ES",
+      "titulo": "Pavimento Rígido - Sub-base de concreto de cimento Portland adensado por vibração - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1436.2,
+      "y": 1517.1
+    },
+    {
+      "id": "dnit-066-2004-es",
+      "label": "DNIT 066/2004-ES",
+      "titulo": "Pavimento rígido - Construção com peças pré-moldadas de concreto de cimento portland - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 3390.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-067-2004-es",
+      "label": "DNIT 067/2004-ES",
+      "titulo": "Pavimento Rígido - Reabilitação - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1556.2,
+      "y": 1650.2
+    },
+    {
+      "id": "dnit-068-2004-es",
+      "label": "DNIT 068/2004-ES",
+      "titulo": "Pavimento Rígido - Execução de camada superposta de concreto do tipo Whitetopping por meio mecânico - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1472.5,
+      "y": 1587.1
+    },
+    {
+      "id": "dnit-069-2005-me",
+      "label": "DNIT 069/2005-ME",
+      "titulo": "Material termoplástico para sinalização horizontal rodoviária - Determinação da resistência ao óleo diesel - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 3666.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-070-2006-pro",
+      "label": "DNIT 070/2006-PRO",
+      "titulo": "Condicionantes ambientais das áreas de uso de obras - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1302.5,
+      "y": 1313.9
+    },
+    {
+      "id": "dnit-071-2006-es",
+      "label": "DNIT 071/2006-ES",
+      "titulo": "Tratamento ambiental de áreas de uso de obras e do passivo ambiental de áreas consideradas planas ou de pouca declividade por vegetação herbácea - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1218.6,
+      "y": 1105.2
+    },
+    {
+      "id": "dnit-072-2006-es",
+      "label": "DNIT 072/2006-ES",
+      "titulo": "Tratamento ambiental de áreas de uso de obras e do passivo ambiental de áreas íngremes ou de difícil acesso pelo processo de revegetação herbácea - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1390.3,
+      "y": 1311.0
+    },
+    {
+      "id": "dnit-073-2006-es",
+      "label": "DNIT 073/2006-ES",
+      "titulo": "Tratamento ambiental de áreas de uso de obras e do passivo ambiental de áreas consideradas planas ou de pouca declividade por revegetação arbórea e arbustiva - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1233.8,
+      "y": 1061.9
+    },
+    {
+      "id": "dnit-074-2006-es",
+      "label": "DNIT 074/2006-ES",
+      "titulo": "Tratamento ambiental de taludes e encostas por intermédio de dispositivos de controle de processos erosivos - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1329.2,
+      "y": 1154.4
+    },
+    {
+      "id": "dnit-075-2006-es",
+      "label": "DNIT 075/2006-ES",
+      "titulo": "Tratamento ambiental de taludes com solos inconsistentes - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1419.7,
+      "y": 1190.5
+    },
+    {
+      "id": "dnit-076-2006-es",
+      "label": "DNIT 076/2006-ES",
+      "titulo": "Tratamento ambiental acústico das áreas lindeiras da faixa de domínio - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1270.0,
+      "y": 950.7
+    },
+    {
+      "id": "dnit-077-2006-es",
+      "label": "DNIT 077/2006-ES",
+      "titulo": "Cerca viva ou de tela para proteção da fauna - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1242.7,
+      "y": 946.2
+    },
+    {
+      "id": "dnit-078-2006-pro",
+      "label": "DNIT 078/2006-PRO",
+      "titulo": "Condicionantes ambientais pertinentes à segurança rodoviária na fase de obras - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1404.2,
+      "y": 1241.7
+    },
+    {
+      "id": "dnit-079-2006-es",
+      "label": "DNIT 079/2006-ES",
+      "titulo": "Plataformas de trabalho - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 2945.6,
+      "y": 2581.6
+    },
+    {
+      "id": "dnit-080-2006-es",
+      "label": "DNIT 080/2006-ES",
+      "titulo": "Preparação de superfícies de concreto: apicoamento e jateamentos - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 4347.2,
+      "y": 0.0
+    },
+    {
+      "id": "dnit-081-2006-es",
+      "label": "DNIT 081/2006-ES",
+      "titulo": "Remoções no concreto - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 4212.1,
+      "y": 116.0
+    },
+    {
+      "id": "dnit-082-2006-es",
+      "label": "DNIT 082/2006-ES",
+      "titulo": "Furos no concreto para ancoragem de armaduras - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 3942.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-083-2006-es",
+      "label": "DNIT 083/2006-ES",
+      "titulo": "Tratamento de trincas e fissuras - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 2724.9,
+      "y": 2798.9
+    },
+    {
+      "id": "dnit-084-2006-es",
+      "label": "DNIT 084/2006-ES",
+      "titulo": "Tratamento da corrosão - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 4218.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-085-2006-es",
+      "label": "DNIT 085/2006-ES",
+      "titulo": "Demolição e remoção de pavimentos: asfáltico ou concreto - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 4494.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-086-2006-es",
+      "label": "DNIT 086/2006-ES",
+      "titulo": "Recuperação do sistema de drenagem - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 4770.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-087-2006-es",
+      "label": "DNIT 087/2006-ES",
+      "titulo": "Execução e acabamento do concreto projetado - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 5046.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-088-2006-es",
+      "label": "DNIT 088/2006-ES",
+      "titulo": "Dispositivos de segurança lateral: guarda-rodas, guarda-corpos e barreiras - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 3065.6,
+      "y": 2798.9
+    },
+    {
+      "id": "dnit-089-2006-es",
+      "label": "DNIT 089/2006-ES",
+      "titulo": "Execução de pingadeiras por colagem de placas pré-moldadas - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 3286.2,
+      "y": 2581.6
+    },
+    {
+      "id": "dnit-090-2006-es",
+      "label": "DNIT 090/2006-ES",
+      "titulo": "Patologias do concreto - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 4077.0,
+      "y": 232.1
+    },
+    {
+      "id": "dnit-091-2006-es",
+      "label": "DNIT 091/2006-ES",
+      "titulo": "Tratamento de aparelhos de apoio: concreto, neoprene e metálicos - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 5322.0,
+      "y": 3552.3
+    },
+    {
+      "id": "dnit-092-2006-es",
+      "label": "DNIT 092/2006-ES",
+      "titulo": "Juntas de dilatação - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 78.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-093-2016-em",
+      "label": "DNIT 093/2016-EM",
+      "titulo": "Tubo dreno corrugado de polietileno da alta densidade PEAD para drenagem rodoviária - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 354.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-094-2014-em",
+      "label": "DNIT 094/2014-EM",
+      "titulo": "Tubos de poliéster reforçado com fibra de vidro (PRFV) e poliolefínicos (PE e PP) para drenagem em rodovia - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 630.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-095-2006-em",
+      "label": "DNIT 095/2006-EM",
+      "titulo": "Cimentos asfálticos de petróleo - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 1292.7,
+      "y": 1396.0
+    },
+    {
+      "id": "dnit-096-2006-es",
+      "label": "DNIT 096/2006-ES",
+      "titulo": "Drenagem - Bueiros de concreto tipo mini-túnel sem interrupção do tráfego - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 906.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-097-2025-pro",
+      "label": "DNIT 097/2025-PRO",
+      "titulo": "Elaboração de Registro de Diário de Obra do DNIT - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 899.5,
+      "y": 283.2
+    },
+    {
+      "id": "dnit-098-2007-es",
+      "label": "DNIT 098/2007-ES",
+      "titulo": "Pavimentação - base estabilizada granulometricamente com utilização de solo laterítico - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1008.7,
+      "y": 1214.2
+    },
+    {
+      "id": "dnit-099-2009-es",
+      "label": "DNIT 099/2009-ES",
+      "titulo": "Obras complementares - cercas de arame farpado - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1261.6,
+      "y": 1140.0
+    },
+    {
+      "id": "dnit-100-2018-es",
+      "label": "DNIT 100/2018-ES",
+      "titulo": "Obras complementares - Segurança no tráfego rodoviário - Sinalização horizontal - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1777.7,
+      "y": 1198.5
+    },
+    {
+      "id": "dnit-101-2009-es",
+      "label": "DNIT 101/2009-ES",
+      "titulo": "Obras complementares - Segurança no tráfego rodoviário - Sinalização vertical - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1327.4,
+      "y": 1239.1
+    },
+    {
+      "id": "dnit-102-2009-es",
+      "label": "DNIT 102/2009-ES",
+      "titulo": "Proteção do corpo estradal - Proteção vegetal - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1296.9,
+      "y": 1191.2
+    },
+    {
+      "id": "dnit-103-2009-es",
+      "label": "DNIT 103/2009-ES",
+      "titulo": "Proteção do corpo estradal - Estruturas de arrimo com gabião - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1258.4,
+      "y": 1348.8
+    },
+    {
+      "id": "dnit-104-2009-es",
+      "label": "DNIT 104/2009-ES",
+      "titulo": "Terraplenagem - Serviços preliminares - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1263.1,
+      "y": 1234.9
+    },
+    {
+      "id": "dnit-106-2009-es",
+      "label": "DNIT 106/2009-ES",
+      "titulo": "Terraplenagem - Cortes - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1228.7,
+      "y": 1250.5
+    },
+    {
+      "id": "dnit-107-2009-es",
+      "label": "DNIT 107/2009-ES",
+      "titulo": "Terraplenagem - Empréstimos - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1246.3,
+      "y": 1256.1
+    },
+    {
+      "id": "dnit-108-2009-es",
+      "label": "DNIT 108/2009-ES",
+      "titulo": "Terraplenagem - Aterros - Especificação de serviço (com incorporação da Errata 1)",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1179.7,
+      "y": 1261.2
+    },
+    {
+      "id": "dnit-111-2009-em",
+      "label": "DNIT 111/2009-EM",
+      "titulo": "Pavimentação flexível - Cimento asfáltico modificado por borracha de pneus inservíveis pelo processo via úmida, do tipo \"Terminal Blending\" - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 1566.0,
+      "y": 1376.5
+    },
+    {
+      "id": "dnit-112-2009-es",
+      "label": "DNIT 112/2009-ES",
+      "titulo": "Pavimentos flexíveis - Concreto asfáltico com asfalto-borracha, via úmida, do tipo \"Terminal Blending\" - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1298.5,
+      "y": 1456.5
+    },
+    {
+      "id": "dnit-113-2009-me",
+      "label": "DNIT 113/2009-ME",
+      "titulo": "Pavimentação rodoviária - Agregado artificial - Avaliação do potencial de expansão de escória de aciaria - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1132.7,
+      "y": 1153.9
+    },
+    {
+      "id": "dnit-116-2009-es",
+      "label": "DNIT 116/2009-ES",
+      "titulo": "Pontes e viadutos rodoviários - Serviços Preliminares - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1380.5,
+      "y": 1222.6
+    },
+    {
+      "id": "dnit-117-2009-es",
+      "label": "DNIT 117/2009-ES",
+      "titulo": "Pontes e viadutos rodoviários - Concretos, argamassas e calda de cimento para injeção - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1397.5,
+      "y": 1420.5
+    },
+    {
+      "id": "dnit-118-2009-es",
+      "label": "DNIT 118/2009-ES",
+      "titulo": "Pontes e viadutos rodoviários - Armaduras para concreto armado - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1402.6,
+      "y": 1334.4
+    },
+    {
+      "id": "dnit-119-2009-es",
+      "label": "DNIT 119/2009-ES",
+      "titulo": "Pontes e viadutos rodoviários - Armaduras para concreto protendido - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1426.2,
+      "y": 1312.2
+    },
+    {
+      "id": "dnit-120-2009-es",
+      "label": "DNIT 120/2009-ES",
+      "titulo": "Pontes e viadutos rodoviários - Fôrmas - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1430.3,
+      "y": 1288.2
+    },
+    {
+      "id": "dnit-121-2009-es",
+      "label": "DNIT 121/2009-ES",
+      "titulo": "Pontes e viadutos rodoviários - Fundações - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1378.9,
+      "y": 1385.6
+    },
+    {
+      "id": "dnit-122-2009-es",
+      "label": "DNIT 122/2009-ES",
+      "titulo": "Pontes e viadutos rodoviários - Estruturas de concreto armado - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1433.3,
+      "y": 1434.6
+    },
+    {
+      "id": "dnit-123-2009-es",
+      "label": "DNIT 123/2009-ES",
+      "titulo": "Pontes e viadutos rodoviários - Estruturas de concreto protendido - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1420.2,
+      "y": 1349.1
+    },
+    {
+      "id": "dnit-124-2009-es",
+      "label": "DNIT 124/2009-ES",
+      "titulo": "Pontes e viadutos rodoviários - Escoramentos - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1408.5,
+      "y": 1282.9
+    },
+    {
+      "id": "dnit-125-2010-pad",
+      "label": "DNIT 125/2010-PAD",
+      "titulo": "Elaboração de desenhos para apresentação de projetos e para documentos técnicos em geral - Padronização",
+      "tipo": "PAD",
+      "orgao": "DNIT",
+      "x": 3626.8,
+      "y": 2581.6
+    },
+    {
+      "id": "dnit-127-2010-pad",
+      "label": "DNIT 127/2010-PAD",
+      "titulo": "Emissão e revisão de documentos de projeto - Padronização",
+      "tipo": "PAD",
+      "orgao": "DNIT",
+      "x": 3406.2,
+      "y": 2798.9
+    },
+    {
+      "id": "dnit-128-2010-em",
+      "label": "DNIT 128/2010-EM",
+      "titulo": "Emulsões asfálticas catiônicas modificadas por polímeros elastoméricos - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 1182.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-129-2011-em",
+      "label": "DNIT 129/2011-EM",
+      "titulo": "Cimento asfáltico de petróleo modificado por polímero eslastomérico - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 1458.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-130-2010-me",
+      "label": "DNIT 130/2010-ME",
+      "titulo": "Determinação da recuperação elástica de materiais asfálticos pelo ductilômetro - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1734.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-131-2010-me",
+      "label": "DNIT 131/2010-ME",
+      "titulo": "Materiais asfálticos - Determinação do ponto de amolecimento - Método do Anel e Bola - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1297.9,
+      "y": 1547.8
+    },
+    {
+      "id": "dnit-132-2010-pro",
+      "label": "DNIT 132/2010-PRO",
+      "titulo": "Pavimentos - calibração da célula de carga e de sensores de deflexão dos deflectômetros do tipo “falling weight deflectometer (FWD)” - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 2010.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-133-2025-me",
+      "label": "DNIT 133/2025-ME",
+      "titulo": "Pavimentação - Determinação das deflexões pela Viga Benkelman - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1018.8,
+      "y": 209.6
+    },
+    {
+      "id": "dnit-135-2018-me",
+      "label": "DNIT 135/2018-ME",
+      "titulo": "Pavimentação asfáltica - Misturas asfálticas - Determinação do módulo de resiliência - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 2581.6,
+      "y": 0.0
+    },
+    {
+      "id": "dnit-136-2018-me",
+      "label": "DNIT 136/2018-ME",
+      "titulo": "Pavimentação asfáltica - Misturas asfálticas - Determinação da resistência à tração por compressão diametral - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 2772.3,
+      "y": 84.9
+    },
+    {
+      "id": "dnit-137-2010-es",
+      "label": "DNIT 137/2010-ES",
+      "titulo": "Regularização do subleito - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1150.1,
+      "y": 1301.5
+    },
+    {
+      "id": "dnit-138-2010-es",
+      "label": "DNIT 138/2010-ES",
+      "titulo": "Reforço do subleito - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1162.0,
+      "y": 1275.5
+    },
+    {
+      "id": "dnit-139-2010-es",
+      "label": "DNIT 139/2010-ES",
+      "titulo": "Sub-base estabilizada granulometricamente - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1166.4,
+      "y": 1289.1
+    },
+    {
+      "id": "dnit-140-2022-es",
+      "label": "DNIT 140/2022-ES",
+      "titulo": "ES: Pavimentação - Sub-base de solo melhorado com cimento - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1107.5,
+      "y": 1302.9
+    },
+    {
+      "id": "dnit-141-2022-es",
+      "label": "DNIT 141/2022-ES",
+      "titulo": "Base estabilizada granulometricamente - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1080.3,
+      "y": 617.3
+    },
+    {
+      "id": "dnit-142-2022-es",
+      "label": "DNIT 142/2022-ES",
+      "titulo": "Base de solo melhorado com cimento - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 2286.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-143-2025-es",
+      "label": "DNIT 143/2025-ES",
+      "titulo": "Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 996.5,
+      "y": 156.9
+    },
+    {
+      "id": "dnit-144-2014-es",
+      "label": "DNIT 144/2014-ES",
+      "titulo": "Imprimação com ligante asfáltico - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1204.1,
+      "y": 1358.4
+    },
+    {
+      "id": "dnit-145-2012-es",
+      "label": "DNIT 145/2012-ES",
+      "titulo": "Pintura de ligação com ligante asfáltico - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1213.4,
+      "y": 1373.4
+    },
+    {
+      "id": "dnit-146-2012-es",
+      "label": "DNIT 146/2012-ES",
+      "titulo": "Tratamento superficial simples - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1287.6,
+      "y": 1429.7
+    },
+    {
+      "id": "dnit-147-2012-es",
+      "label": "DNIT 147/2012-ES",
+      "titulo": "Tratamento superficial duplo - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1280.6,
+      "y": 1443.5
+    },
+    {
+      "id": "dnit-148-2012-es",
+      "label": "DNIT 148/2012-ES",
+      "titulo": "Tratamento superficial triplo - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1267.4,
+      "y": 1435.4
+    },
+    {
+      "id": "dnit-149-2010-es",
+      "label": "DNIT 149/2010-ES",
+      "titulo": "Macadame betuminoso com ligante asfáltico convencional por penetração - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1261.6,
+      "y": 1453.3
+    },
+    {
+      "id": "dnit-150-2010-es",
+      "label": "DNIT 150/2010-ES",
+      "titulo": "Lama asfáltica - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1237.0,
+      "y": 1393.6
+    },
+    {
+      "id": "dnit-151-2010-es",
+      "label": "DNIT 151/2010-ES",
+      "titulo": "Acostamentos - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1152.6,
+      "y": 1287.8
+    },
+    {
+      "id": "dnit-152-2010-es",
+      "label": "DNIT 152/2010-ES",
+      "titulo": "Macadame hidráulico - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1183.4,
+      "y": 1279.7
+    },
+    {
+      "id": "dnit-153-2010-es",
+      "label": "DNIT 153/2010-ES",
+      "titulo": "Pré - misturado a frio com emulsão catiônica convencional - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1152.2,
+      "y": 1457.0
+    },
+    {
+      "id": "dnit-154-2010-es",
+      "label": "DNIT 154/2010-ES",
+      "titulo": "Pavimentação asfáltica - Recuperação de defeitos em pavimentos asfálticos - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1027.6,
+      "y": 1398.2
+    },
+    {
+      "id": "dnit-159-2011-es",
+      "label": "DNIT 159/2011-ES",
+      "titulo": "Pavimentos asfálticos - Fresagem a frio - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1319.7,
+      "y": 1278.3
+    },
+    {
+      "id": "dnit-160-2012-me",
+      "label": "DNIT 160/2012-ME",
+      "titulo": "Solos - Determinação da expansibilidade - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 2562.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-161-2022-em",
+      "label": "DNIT 161/2022-EM",
+      "titulo": "Geocompostos drenantes e geotêxteis não tecido aplicáveis a dispositivos de drenagem de rodovia - Especificação de material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 816.6,
+      "y": 795.3
+    },
+    {
+      "id": "dnit-162-2012-pro",
+      "label": "DNIT 162/2012-PRO",
+      "titulo": "Pavimentos - determinação de deflexões utilizando o deflectógrafo lacroix - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 3967.4,
+      "y": 2581.6
+    },
+    {
+      "id": "dnit-163-2012-pro",
+      "label": "DNIT 163/2012-PRO",
+      "titulo": "Calibração do deflectógrafo lacroix - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 3746.8,
+      "y": 2798.9
+    },
+    {
+      "id": "dnit-164-2013-me",
+      "label": "DNIT 164/2013-ME",
+      "titulo": "Solos - Compactação utilizando amostras não trabalhadas - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1145.1,
+      "y": 1110.6
+    },
+    {
+      "id": "dnit-165-2013-em",
+      "label": "DNIT 165/2013-EM",
+      "titulo": "Emulsões asfálticas para pavimentação - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 1208.4,
+      "y": 1422.5
+    },
+    {
+      "id": "dnit-166-2013-es",
+      "label": "DNIT 166/2013-ES",
+      "titulo": "Pavimentação - Reciclagem de pavimento a frio \"in situ\" com adição de espuma de asfalto - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1251.6,
+      "y": 1409.4
+    },
+    {
+      "id": "dnit-167-2013-es",
+      "label": "DNIT 167/2013-ES",
+      "titulo": "Pavimentação - Reciclagem profunda de pavimentos \"in situ\" com adição de cimento Portland - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1178.6,
+      "y": 1399.5
+    },
+    {
+      "id": "dnit-168-2013-em",
+      "label": "DNIT 168/2013-EM",
+      "titulo": "Cimento asfáltico de petróleo modificado por asfalto natural do tipo TLA (Trinidad Lake Asphalt) - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 1334.5,
+      "y": 1669.3
+    },
+    {
+      "id": "dnit-169-2014-es",
+      "label": "DNIT 169/2014-ES",
+      "titulo": "Pavimentação - Reciclagem de pavimento em usina com espuma de asfalto - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1235.1,
+      "y": 1325.6
+    },
+    {
+      "id": "dnit-170-2016-pro",
+      "label": "DNIT 170/2016-PRO",
+      "titulo": "Pavimentos -Determinação de deflexões utilizando o Curviâmetro - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 4308.0,
+      "y": 2581.6
+    },
+    {
+      "id": "dnit-171-2016-pro",
+      "label": "DNIT 171/2016-PRO",
+      "titulo": "Calibração dos sensores do deflectógrafo Curviâmetro - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 4087.4,
+      "y": 2798.9
+    },
+    {
+      "id": "dnit-172-2016-me",
+      "label": "DNIT 172/2016-ME",
+      "titulo": "Solos - Determinação do índice de suporte califórnia utilizando amostras não trabalhadas - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1104.1,
+      "y": 1164.2
+    },
+    {
+      "id": "dnit-175-2025-pro",
+      "label": "DNIT 175/2025-PRO",
+      "titulo": "Aferição de viga Benkelman - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1091.0,
+      "y": 195.0
+    },
+    {
+      "id": "dnit-178-2018-pro",
+      "label": "DNIT 178/2018-PRO",
+      "titulo": "Pavimentação asfáltica - Preparação de corpos de prova para ensaios mecânicos usando o compactador giratório Superpave ou o Marshall - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 2719.5,
+      "y": 205.1
+    },
+    {
+      "id": "dnit-180-2018-me",
+      "label": "DNIT 180/2018-ME",
+      "titulo": "Pavimentação - Misturas asfálticas - Determinação do dano por umidade induzida - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 2860.5,
+      "y": 0.8
+    },
+    {
+      "id": "dnit-182-2018-pro",
+      "label": "DNIT 182/2018-PRO",
+      "titulo": "Conservação rodoviária - Determinação do nível de esforço de roçada - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 2838.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-183-2018-me",
+      "label": "DNIT 183/2018-ME",
+      "titulo": "Pavimentação asfáltica - Ensaio de fadiga por compressão diametral à tensão controlada - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 2667.7,
+      "y": 85.3
+    },
+    {
+      "id": "dnit-184-2018-me",
+      "label": "DNIT 184/2018-ME",
+      "titulo": "Pavimentação - Misturas asfálticas - Ensaio uniaxial de carga repetida para determinação da resistência à deformação permanente - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 2814.4,
+      "y": 275.7
+    },
+    {
+      "id": "dnit-198-2021-ter",
+      "label": "DNIT 198/2021-TER",
+      "titulo": "Constituintes geológicos de agregados e solos - Terminologia",
+      "tipo": "TER",
+      "orgao": "DNIT",
+      "x": 4722.7,
+      "y": 97.9
+    },
+    {
+      "id": "dnit-228-2023-me",
+      "label": "DNIT 228/2023-ME",
+      "titulo": "Solos - Ensaio de compactação em equipamento miniatura - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1030.9,
+      "y": 116.2
+    },
+    {
+      "id": "dnit-254-2023-me",
+      "label": "DNIT 254/2023-ME",
+      "titulo": "Solos - Compactação em equipamento miniatura - Mini-CBR e expansão - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 944.2,
+      "y": 200.9
+    },
+    {
+      "id": "dnit-257-2021-pro",
+      "label": "DNIT 257/2021-PRO",
+      "titulo": "Estudo e amostragem de rochas em pedreiras para fins rodoviários - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 4510.2,
+      "y": 270.2
+    },
+    {
+      "id": "dnit-258-2023-me",
+      "label": "DNIT 258/2023-ME",
+      "titulo": "Solos - Compactação em equipamento miniatura - Ensaios Mini-MCV e perda de massa por imersão - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 893.2,
+      "y": 246.7
+    },
+    {
+      "id": "dnit-259-2023-cla",
+      "label": "DNIT 259/2023-CLA",
+      "titulo": "Solos - Classificação de solos finos tropicais para finalidades rodoviárias utilizando corpos de prova compactados em equipamento miniatura - Classificação",
+      "tipo": "CLA",
+      "orgao": "DNIT",
+      "x": 1039.4,
+      "y": 0.0
+    },
+    {
+      "id": "dnit-266-2025-me",
+      "label": "DNIT 266/2025-ME",
+      "titulo": "Agregados - Determinação do teor de materiais pulverulentos - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 930.1,
+      "y": 226.5
+    },
+    {
+      "id": "dnit-380-2022-pro",
+      "label": "DNIT 380/2022-PRO",
+      "titulo": "Utilização de geossintéticos em aterros sobre solos moles para obras viárias - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 891.1,
+      "y": 856.2
+    },
+    {
+      "id": "dnit-381-2022-pro",
+      "label": "DNIT 381/2022-PRO",
+      "titulo": "Projeto de aterros sobre solos moles para obras viárias - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1030.0,
+      "y": 944.2
+    },
+    {
+      "id": "dnit-384-2022-me",
+      "label": "DNIT 384/2022-ME",
+      "titulo": "Estabilidade ao armazenamento de ligantes modificados por polímero - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1305.6,
+      "y": 1676.3
+    },
+    {
+      "id": "dnit-385-2026-es",
+      "label": "DNIT 385/2026-ES",
+      "titulo": "Pavimentação - Concreto asfáltico com ligante modificado por polímeros elastoméricos - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 958.2,
+      "y": 249.4
+    },
+    {
+      "id": "dnit-405-2017-me",
+      "label": "DNIT 405/2017-ME",
+      "titulo": "Controle de compactação em aterros com o equipamento gamadensímetro - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 3114.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-406-2017-es",
+      "label": "DNIT 406/2017-ES",
+      "titulo": "Pavimentação rodoviária - Base estabilizada granulometricamente com Açobrita® - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1171.4,
+      "y": 1228.8
+    },
+    {
+      "id": "dnit-407-2017-es",
+      "label": "DNIT 407/2017-ES",
+      "titulo": "Pavimentação rodoviária - Sub-base estabilizada granulometricamente com Açobrita® - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1161.3,
+      "y": 1234.2
+    },
+    {
+      "id": "dnit-408-2020-pad",
+      "label": "DNIT 408/2020-PAD",
+      "titulo": "Canteiro de Obra Padrão para os diversos tipos de empreendimentos rodoviários - Padronização",
+      "tipo": "PAD",
+      "orgao": "DNIT",
+      "x": 1066.8,
+      "y": 1093.5
+    },
+    {
+      "id": "dnit-409-2017-pro",
+      "label": "DNIT 409/2017-PRO",
+      "titulo": "Medida da retrorrefletividade com uso de equipamento dinâmico - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1857.1,
+      "y": 1170.3
+    },
+    {
+      "id": "dnit-410-2017-me",
+      "label": "DNIT 410/2017-ME",
+      "titulo": "Solos - Prova de carga estática em placa para controle de qualidade na execução de aterros solo-enrocamento - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1437.2,
+      "y": 1414.3
+    },
+    {
+      "id": "dnit-411-2021-me",
+      "label": "DNIT 411/2021-ME",
+      "titulo": "Pavimentação asfáltica - Misturas asfálticas - Massa específica, densidade relativa e absorção de agregado miúdo para misturas asfálticas - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 901.6,
+      "y": 1736.2
+    },
+    {
+      "id": "dnit-412-2025-me",
+      "label": "DNIT 412/2025-ME",
+      "titulo": "Agregados - Análise granulométrica de agregados graúdos e miúdos e misturas de agregados por peneiramento - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1037.7,
+      "y": 243.5
+    },
+    {
+      "id": "dnit-413-2021-me",
+      "label": "DNIT 413/2021-ME",
+      "titulo": "Pavimentação - Misturas asfálticas - Massa específica, densidade relativa e absorção de agregado graúdo para misturas asfálticas - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1583.1,
+      "y": 2581.6
+    },
+    {
+      "id": "dnit-414-2019-me",
+      "label": "DNIT 414/2019-ME",
+      "titulo": "Pavimentação - Solo-Cimento - Dosagem físico-química de solo-cimento - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 3390.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-415-2019-me",
+      "label": "DNIT 415/2019-ME",
+      "titulo": "Pavimentação - Mistura asfáltica - Teor de vazios de agregados miúdos não compactados - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 2597.1,
+      "y": 441.2
+    },
+    {
+      "id": "dnit-416-2019-me",
+      "label": "DNIT 416/2019-ME",
+      "titulo": "Pavimentação asfáltica - Misturas asfálticas - Determinação do módulo dinâmico - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 2649.8,
+      "y": 335.9
+    },
+    {
+      "id": "dnit-417-2019-me",
+      "label": "DNIT 417/2019-ME",
+      "titulo": "Solos - Controle de Compactação com Equipamento Densímetro Eletromagnético - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1126.1,
+      "y": 1265.5
+    },
+    {
+      "id": "dnit-418-2019-em",
+      "label": "DNIT 418/2019-EM",
+      "titulo": "Pavimentação - Solo-Cal - Cal Virgem e Cal Hidratada - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 1061.1,
+      "y": 1329.7
+    },
+    {
+      "id": "dnit-419-2019-me",
+      "label": "DNIT 419/2019-ME",
+      "titulo": "Pavimentação - Solo-Cal - Estimativa do teor mínimo de cal para estabilização química de solo - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1066.5,
+      "y": 1350.7
+    },
+    {
+      "id": "dnit-420-2019-es",
+      "label": "DNIT 420/2019-ES",
+      "titulo": "Pavimentação - Sol-Cal - Adição de cal para Estabilização de camada de Base - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1158.8,
+      "y": 1329.6
+    },
+    {
+      "id": "dnit-421-2019-es",
+      "label": "DNIT 421/2019-ES",
+      "titulo": "Pavimentação - Solo-Cal - Adição de cal para Estabilização de camada de Sub-base - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1157.4,
+      "y": 1338.7
+    },
+    {
+      "id": "dnit-423-2020-me",
+      "label": "DNIT 423/2020-ME",
+      "titulo": "Pavimentação - Ligante asfáltico - Fluência e recuperação de ligante asfáltico determinados sob tensões múltiplas (MSCR) - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 3666.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-424-2020-me",
+      "label": "DNIT 424/2020-ME",
+      "titulo": "Pavimentação - Agregado - Determinação do índice de forma com crivos - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 3942.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-425-2020-me",
+      "label": "DNIT 425/2020-ME",
+      "titulo": "Pavimentação - Agregado - Determinação do índice de forma com paquímetro - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 4218.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-427-2020-me",
+      "label": "DNIT 427/2020-ME",
+      "titulo": "Pavimentação - Misturas asfálticas - Determinação da densidade relativa máxima medida e da massa específica máxima medida em amostras não compactadas - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 4494.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-428-2022-me",
+      "label": "DNIT 428/2022-ME",
+      "titulo": "Pavimentação - Misturas asfálticas - Determinação da densidade relativa aparente e da massa específica aparente de corpos de prova compactados - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 4770.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-429-2020-me",
+      "label": "DNIT 429/2020-ME",
+      "titulo": "Agregados - Determinação da porcentagem de partículas achatadas e alongadas em agregados graúdos - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 5046.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-430-2020-me",
+      "label": "DNIT 430/2020-ME",
+      "titulo": "Agregados - Determinação da porcentagem de partículas fraturadas em agregados graúdos - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 5322.0,
+      "y": 3828.3
+    },
+    {
+      "id": "dnit-431-2020-me",
+      "label": "DNIT 431/2020-ME",
+      "titulo": "Misturas asfálticas - Densidade in situ usando densímetro não nuclear - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 78.0,
+      "y": 4104.3
+    },
+    {
+      "id": "dnit-432-2020-me",
+      "label": "DNIT 432/2020-ME",
+      "titulo": "Agregados - Determinação das propriedades de forma por meio do Processamento Digital de Imagens (PDI) - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 354.0,
+      "y": 4104.3
+    },
+    {
+      "id": "dnit-433-2021-pro",
+      "label": "DNIT 433/2021-PRO",
+      "titulo": "Pavimentação - Levantamento do percentual de área trincada e de afundamento de trilha de roda de pavimento asfáltico em trechos experimentais, monitorados ou trechos homogêneos de curta extensão - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 630.0,
+      "y": 4104.3
+    },
+    {
+      "id": "dnit-434-2022-me",
+      "label": "DNIT 434/2022-ME",
+      "titulo": "Pavimentação - Ensaio de fadiga por compressão diametral à tensão controlada em camadas estabilizadas quimicamente - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 906.0,
+      "y": 4104.3
+    },
+    {
+      "id": "dnit-435-2021-pro",
+      "label": "DNIT 435/2021-PRO",
+      "titulo": "Materiais rochosos usados em rodovias - Análise Petrográfica - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 4467.2,
+      "y": 0.0
+    },
+    {
+      "id": "dnit-436-2022-ter",
+      "label": "DNIT 436/2022-TER",
+      "titulo": "Termos técnicos empregados na utilização de geossintéticos em obras viárias - Terminologia",
+      "tipo": "TER",
+      "orgao": "DNIT",
+      "x": 800.9,
+      "y": 817.0
+    },
+    {
+      "id": "dnit-437-2022-me",
+      "label": "DNIT 437/2022-ME",
+      "titulo": "Agregados - Determinação da massa unitária e do volume de vazios de agregados em estado solto e compactado - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1182.0,
+      "y": 4104.3
+    },
+    {
+      "id": "dnit-438-2022-pro",
+      "label": "DNIT 438/2022-PRO",
+      "titulo": "Pavimentação - Misturas asfálticas - Seleção granulométrica de agregados para concreto asfáltico pelo Método Bailey - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1100.3,
+      "y": 1698.6
+    },
+    {
+      "id": "dnit-439-2022-me",
+      "label": "DNIT 439/2022-ME",
+      "titulo": "Pavimentação - Ligante asfáltico - Avaliação da resistência à fadiga de ligantes asfálticos usando varredura de amplitude linear (LAS - Linear Amplitude Sweep) - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1458.0,
+      "y": 4104.3
+    },
+    {
+      "id": "dnit-441-2023-es",
+      "label": "DNIT 441/2023-ES",
+      "titulo": "Camada granular para fundação de aterros sobre solos moles - Especificação de Serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 996.0,
+      "y": 608.3
+    },
+    {
+      "id": "dnit-442-2023-pro",
+      "label": "DNIT 442/2023-PRO",
+      "titulo": "Pavimentação - Levantamento do perfil longitudinal de pavimentos com perfilômetro inercial - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 962.7,
+      "y": 327.6
+    },
+    {
+      "id": "dnit-443-2023-me",
+      "label": "DNIT 443/2023-ME",
+      "titulo": "Pavimentação - Solos - Ensaio de compactação utilizando moldes tripartidos - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1078.3,
+      "y": 695.2
+    },
+    {
+      "id": "dnit-444-2023-cla",
+      "label": "DNIT 444/2023-CLA",
+      "titulo": "Classificação de solos tropicais de granulação grossa - Classificação",
+      "tipo": "CLA",
+      "orgao": "DNIT",
+      "x": 942.6,
+      "y": 285.9
+    },
+    {
+      "id": "dnit-445-2023-es",
+      "label": "DNIT 445/2023-ES",
+      "titulo": "Terraplenagem - Revestimento primário - Especificação de serviço",
+      "tipo": "ES",
+      "orgao": "DNIT",
+      "x": 1109.5,
+      "y": 218.3
+    },
+    {
+      "id": "dnit-448-2024-me",
+      "label": "DNIT 448/2024-ME",
+      "titulo": "Pavimentação - Ligante asfáltico - Determinação das propriedades reológicas de ligantes asfálticos usando reômetro de cisalhamento dinâmico - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1052.3,
+      "y": 321.9
+    },
+    {
+      "id": "dnit-450-2024-me",
+      "label": "DNIT 450/2024-ME",
+      "titulo": "Equivalente de areia - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1103.9,
+      "y": 244.7
+    },
+    {
+      "id": "dnit-451-2024-me",
+      "label": "DNIT 451/2024-ME",
+      "titulo": "Agregados - Determinação do desgaste por abrasão e impacto no equipamento “Los Angeles” - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1074.9,
+      "y": 224.2
+    },
+    {
+      "id": "dnit-452-2024-me",
+      "label": "DNIT 452/2024-ME",
+      "titulo": "Agregado graúdo - Adesividade ao ligante asfáltico - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 984.8,
+      "y": 227.2
+    },
+    {
+      "id": "dnit-453-2024-em",
+      "label": "DNIT 453/2024-EM",
+      "titulo": "Peneiras de malhas quadradas para análise granulométrica de solos e agregados - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 1088.4,
+      "y": 301.4
+    },
+    {
+      "id": "dnit-454-2025-em",
+      "label": "DNIT 454/2025-EM",
+      "titulo": "Água para argamassa e concreto de cimento portland - Especificação de Material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 1071.1,
+      "y": 265.3
+    },
+    {
+      "id": "dnit-455-2025-pro",
+      "label": "DNIT 455/2025-PRO",
+      "titulo": "Redução de amostra de campo de agregados para ensaio de laboratório - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 1072.3,
+      "y": 174.7
+    },
+    {
+      "id": "dnit-456-2025-me",
+      "label": "DNIT 456/2025-ME",
+      "titulo": "Determinação do teor de umidade de solos e agregados - métodos expeditos e de laboratório - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 918.9,
+      "y": 257.7
+    },
+    {
+      "id": "dnit-458-2025-me",
+      "label": "DNIT 458/2025-ME",
+      "titulo": "Solos - Determinação da massa específica aparente in situ com emprego do frasco de areia - Método de ensaio",
+      "tipo": "ME",
+      "orgao": "DNIT",
+      "x": 1001.4,
+      "y": 185.1
+    },
+    {
+      "id": "dnit-461-2025-pro",
+      "label": "DNIT 461/2025-PRO",
+      "titulo": "Agregados - Coleta de amostras de agregados - Procedimento",
+      "tipo": "PRO",
+      "orgao": "DNIT",
+      "x": 970.0,
+      "y": 162.5
+    },
+    {
+      "id": "dnit-462-2025-em",
+      "label": "DNIT 462/2025-EM",
+      "titulo": "Agregados graúdos e miúdos para concreto de cimento Portland - Especificação de material",
+      "tipo": "EM",
+      "orgao": "DNIT",
+      "x": 943.9,
+      "y": 170.7
+    }
+  ],
+  "edges": [
+    {
+      "from": "dner-em-230-94",
+      "to": "dner-es-227-89"
+    },
+    {
+      "from": "dner-em-230-94",
+      "to": "dner-me-222-94"
+    },
+    {
+      "from": "dner-em-230-94",
+      "to": "dner-me-223-94"
+    },
+    {
+      "from": "dner-em-230-94",
+      "to": "dner-me-225-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-em-373-00"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-018-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-019-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-020-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-028-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-038-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-139-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-183-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-185-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-186-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-234-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-235-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-236-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-me-239-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-pro-231-94"
+    },
+    {
+      "from": "dner-em-276-00",
+      "to": "dner-pro-250-94"
+    },
+    {
+      "from": "dner-em-367-97",
+      "to": "dner-em-036-95"
+    },
+    {
+      "from": "dner-em-367-97",
+      "to": "dner-me-085-94"
+    },
+    {
+      "from": "dner-em-367-97",
+      "to": "dner-me-180-94"
+    },
+    {
+      "from": "dner-em-367-97",
+      "to": "dner-me-181-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-em-373-00"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-018-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-019-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-020-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-028-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-038-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-139-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-183-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-184-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-185-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-186-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-233-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-234-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-235-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-236-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-237-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-238-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-239-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-me-240-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-pro-231-94"
+    },
+    {
+      "from": "dner-em-368-00",
+      "to": "dner-pro-250-94"
+    },
+    {
+      "from": "dner-em-370-97",
+      "to": "dner-es-144-85"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-em-373-00"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-018-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-019-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-020-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-028-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-038-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-139-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-183-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-184-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-185-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-186-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-233-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-234-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-235-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-236-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-237-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-238-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-239-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-me-240-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-pro-231-94"
+    },
+    {
+      "from": "dner-em-371-00",
+      "to": "dner-pro-250-94"
+    },
+    {
+      "from": "dner-em-372-00",
+      "to": "dner-em-373-00"
+    },
+    {
+      "from": "dner-em-372-00",
+      "to": "dner-me-243-94"
+    },
+    {
+      "from": "dner-em-372-00",
+      "to": "dner-me-246-94"
+    },
+    {
+      "from": "dner-em-372-00",
+      "to": "dner-me-247-94"
+    },
+    {
+      "from": "dner-em-372-00",
+      "to": "dner-pro-132-94"
+    },
+    {
+      "from": "dner-em-373-00",
+      "to": "dner-me-011-94"
+    },
+    {
+      "from": "dner-em-373-00",
+      "to": "dner-me-013-94"
+    },
+    {
+      "from": "dner-em-373-00",
+      "to": "dner-me-014-94"
+    },
+    {
+      "from": "dner-em-373-00",
+      "to": "dner-me-015-94"
+    },
+    {
+      "from": "dner-em-373-00",
+      "to": "dner-me-022-94"
+    },
+    {
+      "from": "dner-em-373-00",
+      "to": "dner-me-023-94"
+    },
+    {
+      "from": "dner-em-373-00",
+      "to": "dner-me-057-94"
+    },
+    {
+      "from": "dner-em-373-00",
+      "to": "dner-me-058-94"
+    },
+    {
+      "from": "dner-em-373-00",
+      "to": "dner-me-110-94"
+    },
+    {
+      "from": "dner-em-373-00",
+      "to": "dner-pro-132-94"
+    },
+    {
+      "from": "dner-em-373-00",
+      "to": "dner-pro-251-94"
+    },
+    {
+      "from": "dner-em-379-98",
+      "to": "dner-me-011-94"
+    },
+    {
+      "from": "dner-em-379-98",
+      "to": "dner-me-013-94"
+    },
+    {
+      "from": "dner-em-379-98",
+      "to": "dner-me-014-94"
+    },
+    {
+      "from": "dner-em-379-98",
+      "to": "dner-me-022-94"
+    },
+    {
+      "from": "dner-em-379-98",
+      "to": "dner-me-023-94"
+    },
+    {
+      "from": "dner-em-379-98",
+      "to": "dner-me-057-94"
+    },
+    {
+      "from": "dner-em-379-98",
+      "to": "dner-me-058-94"
+    },
+    {
+      "from": "dner-em-379-98",
+      "to": "dner-me-110-94"
+    },
+    {
+      "from": "dner-em-379-98",
+      "to": "dner-pro-132-94"
+    },
+    {
+      "from": "dner-em-379-98",
+      "to": "dner-pro-251-94"
+    },
+    {
+      "from": "dner-es-345-97",
+      "to": "dner-es-344-97"
+    },
+    {
+      "from": "dner-es-345-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-346-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-347-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-348-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-349-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-350-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-351-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-352-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-353-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-354-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-355-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-356-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-357-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-358-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-359-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-360-97",
+      "to": "dner-pro-361-97"
+    },
+    {
+      "from": "dner-es-386-99",
+      "to": "dner-me-053-94"
+    },
+    {
+      "from": "dner-es-386-99",
+      "to": "dner-me-383-99"
+    },
+    {
+      "from": "dner-es-386-99",
+      "to": "dner-pro-164-94"
+    },
+    {
+      "from": "dner-es-386-99",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dner-es-387-99",
+      "to": "dner-me-053-94"
+    },
+    {
+      "from": "dner-es-387-99",
+      "to": "dner-pro-164-94"
+    },
+    {
+      "from": "dner-es-387-99",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dner-es-388-99",
+      "to": "dner-me-053-94"
+    },
+    {
+      "from": "dner-es-388-99",
+      "to": "dner-pro-164-94"
+    },
+    {
+      "from": "dner-es-388-99",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dner-es-390-99",
+      "to": "dner-me-053-94"
+    },
+    {
+      "from": "dner-es-390-99",
+      "to": "dner-me-107-94"
+    },
+    {
+      "from": "dner-es-390-99",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dner-es-391-99",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dner-es-392-99",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dner-es-393-99",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dner-es-394-99",
+      "to": "dner-me-053-94"
+    },
+    {
+      "from": "dner-es-394-99",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dner-es-395-99",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dner-me-011-94",
+      "to": "dner-pro-251-94"
+    },
+    {
+      "from": "dner-me-013-94",
+      "to": "dner-pro-251-94"
+    },
+    {
+      "from": "dner-me-014-94",
+      "to": "dner-pro-251-94"
+    },
+    {
+      "from": "dner-me-015-94",
+      "to": "dner-pro-251-94"
+    },
+    {
+      "from": "dner-me-018-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-019-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-020-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-022-94",
+      "to": "dner-pro-251-94"
+    },
+    {
+      "from": "dner-me-023-94",
+      "to": "dner-pro-251-94"
+    },
+    {
+      "from": "dner-me-028-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-038-94",
+      "to": "dner-me-028-94"
+    },
+    {
+      "from": "dner-me-038-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-057-94",
+      "to": "dner-pro-251-94"
+    },
+    {
+      "from": "dner-me-058-94",
+      "to": "dner-pro-251-94"
+    },
+    {
+      "from": "dner-me-082-94",
+      "to": "dner-me-041-94"
+    },
+    {
+      "from": "dner-me-087-94",
+      "to": "dner-me-041-94"
+    },
+    {
+      "from": "dner-me-091-98",
+      "to": "dner-me-046-98"
+    },
+    {
+      "from": "dner-me-093-94",
+      "to": "dner-me-041-94"
+    },
+    {
+      "from": "dner-me-110-94",
+      "to": "dner-pro-132-94"
+    },
+    {
+      "from": "dner-me-110-94",
+      "to": "dner-pro-251-94"
+    },
+    {
+      "from": "dner-me-122-94",
+      "to": "dner-me-041-94"
+    },
+    {
+      "from": "dner-me-139-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-183-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-184-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-186-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-201-94",
+      "to": "dner-me-202-94"
+    },
+    {
+      "from": "dner-me-202-94",
+      "to": "dner-me-216-94"
+    },
+    {
+      "from": "dner-me-203-94",
+      "to": "dner-me-202-94"
+    },
+    {
+      "from": "dner-me-233-94",
+      "to": "dner-me-237-94"
+    },
+    {
+      "from": "dner-me-234-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-235-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-236-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-237-94",
+      "to": "dner-me-233-94"
+    },
+    {
+      "from": "dner-me-237-94",
+      "to": "dner-me-238-94"
+    },
+    {
+      "from": "dner-me-237-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-238-94",
+      "to": "dner-me-237-94"
+    },
+    {
+      "from": "dner-me-239-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-240-94",
+      "to": "dner-pro-104-94"
+    },
+    {
+      "from": "dner-me-241-94",
+      "to": "dner-me-248-94"
+    },
+    {
+      "from": "dner-me-242-94",
+      "to": "dner-me-248-94"
+    },
+    {
+      "from": "dner-me-249-94",
+      "to": "dner-me-248-94"
+    },
+    {
+      "from": "dner-me-274-96",
+      "to": "dner-me-202-94"
+    },
+    {
+      "from": "dner-me-400-99",
+      "to": "dner-me-225-94"
+    },
+    {
+      "from": "dner-me-401-99",
+      "to": "dner-me-053-94"
+    },
+    {
+      "from": "dner-me-404-00",
+      "to": "dner-me-402-00"
+    },
+    {
+      "from": "dner-pro-015-94",
+      "to": "dner-pro-013-94"
+    },
+    {
+      "from": "dner-pro-104-94",
+      "to": "dner-pro-231-94"
+    },
+    {
+      "from": "dner-pro-164-94",
+      "to": "dner-es-173-86"
+    },
+    {
+      "from": "dner-pro-164-94",
+      "to": "dner-pro-159-85"
+    },
+    {
+      "from": "dner-pro-206-94",
+      "to": "dner-pro-179-94"
+    },
+    {
+      "from": "dner-pro-229-94",
+      "to": "dner-pro-164-94"
+    },
+    {
+      "from": "dner-pro-250-94",
+      "to": "dner-me-235-94"
+    },
+    {
+      "from": "dner-pro-250-94",
+      "to": "dner-me-237-94"
+    },
+    {
+      "from": "dner-pro-251-94",
+      "to": "dner-pro-132-94"
+    },
+    {
+      "from": "dner-pro-261-94",
+      "to": "dner-em-260-94"
+    },
+    {
+      "from": "dner-pro-263-94",
+      "to": "dner-em-262-94"
+    },
+    {
+      "from": "dner-pro-269-94",
+      "to": "dner-pro-159-85"
+    },
+    {
+      "from": "dner-pro-273-96",
+      "to": "dner-pro-159-85"
+    },
+    {
+      "from": "dnit-002-2023-pro",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-003-2009-pro",
+      "to": "dner-pro-142-94"
+    },
+    {
+      "from": "dnit-010-2024-pro",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-016-2006-es",
+      "to": "dnit-015-2006-es"
+    },
+    {
+      "from": "dnit-017-2006-es",
+      "to": "dnit-015-2006-es"
+    },
+    {
+      "from": "dnit-019-2023-es",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-022-2023-es",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-023-2024-es",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-024-2025-es",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-025-2025-es",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-026-2025-es",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-032-2005-es",
+      "to": "dner-em-367-97"
+    },
+    {
+      "from": "dnit-032-2005-es",
+      "to": "dner-me-053-94"
+    },
+    {
+      "from": "dnit-032-2005-es",
+      "to": "dner-pro-164-94"
+    },
+    {
+      "from": "dnit-032-2005-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-034-2005-es",
+      "to": "dner-em-367-97"
+    },
+    {
+      "from": "dnit-034-2005-es",
+      "to": "dner-me-053-94"
+    },
+    {
+      "from": "dnit-034-2005-es",
+      "to": "dner-me-401-99"
+    },
+    {
+      "from": "dnit-034-2005-es",
+      "to": "dner-pro-164-94"
+    },
+    {
+      "from": "dnit-034-2005-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-037-2004-me",
+      "to": "dnit-050-2004-em"
+    },
+    {
+      "from": "dnit-039-2004-me",
+      "to": "dnit-044-2004-me"
+    },
+    {
+      "from": "dnit-039-2004-me",
+      "to": "dnit-045-2004-me"
+    },
+    {
+      "from": "dnit-040-2004-me",
+      "to": "dnit-039-2004-me"
+    },
+    {
+      "from": "dnit-040-2004-me",
+      "to": "dnit-044-2004-me"
+    },
+    {
+      "from": "dnit-040-2004-me",
+      "to": "dnit-045-2004-me"
+    },
+    {
+      "from": "dnit-041-2004-me",
+      "to": "dnit-044-2004-me"
+    },
+    {
+      "from": "dnit-041-2004-me",
+      "to": "dnit-045-2004-me"
+    },
+    {
+      "from": "dnit-042-2004-me",
+      "to": "dnit-044-2004-me"
+    },
+    {
+      "from": "dnit-042-2004-me",
+      "to": "dnit-045-2004-me"
+    },
+    {
+      "from": "dnit-043-2004-me",
+      "to": "dnit-044-2004-me"
+    },
+    {
+      "from": "dnit-043-2004-me",
+      "to": "dnit-045-2004-me"
+    },
+    {
+      "from": "dnit-046-2004-em",
+      "to": "dnit-038-2004-me"
+    },
+    {
+      "from": "dnit-046-2004-em",
+      "to": "dnit-039-2004-me"
+    },
+    {
+      "from": "dnit-046-2004-em",
+      "to": "dnit-040-2004-me"
+    },
+    {
+      "from": "dnit-046-2004-em",
+      "to": "dnit-041-2004-me"
+    },
+    {
+      "from": "dnit-046-2004-em",
+      "to": "dnit-042-2004-me"
+    },
+    {
+      "from": "dnit-046-2004-em",
+      "to": "dnit-043-2004-me"
+    },
+    {
+      "from": "dnit-046-2004-em",
+      "to": "dnit-044-2004-me"
+    },
+    {
+      "from": "dnit-046-2004-em",
+      "to": "dnit-045-2004-me"
+    },
+    {
+      "from": "dnit-046-2004-em",
+      "to": "dnit-052-2004-me"
+    },
+    {
+      "from": "dnit-047-2004-es",
+      "to": "dnit-036-2004-me"
+    },
+    {
+      "from": "dnit-047-2004-es",
+      "to": "dnit-037-2004-me"
+    },
+    {
+      "from": "dnit-047-2004-es",
+      "to": "dnit-046-2004-em"
+    },
+    {
+      "from": "dnit-047-2004-es",
+      "to": "dnit-050-2004-em"
+    },
+    {
+      "from": "dnit-047-2004-es",
+      "to": "dnit-055-2004-me"
+    },
+    {
+      "from": "dnit-047-2004-es",
+      "to": "dnit-063-2004-pro"
+    },
+    {
+      "from": "dnit-047-2004-es",
+      "to": "dnit-064-2004-me"
+    },
+    {
+      "from": "dnit-048-2004-es",
+      "to": "dnit-036-2004-me"
+    },
+    {
+      "from": "dnit-048-2004-es",
+      "to": "dnit-037-2004-me"
+    },
+    {
+      "from": "dnit-048-2004-es",
+      "to": "dnit-046-2004-em"
+    },
+    {
+      "from": "dnit-048-2004-es",
+      "to": "dnit-050-2004-em"
+    },
+    {
+      "from": "dnit-048-2004-es",
+      "to": "dnit-055-2004-me"
+    },
+    {
+      "from": "dnit-048-2004-es",
+      "to": "dnit-063-2004-pro"
+    },
+    {
+      "from": "dnit-049-2013-es",
+      "to": "dner-em-036-95"
+    },
+    {
+      "from": "dnit-049-2013-es",
+      "to": "dner-pro-164-94"
+    },
+    {
+      "from": "dnit-049-2013-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-049-2013-es",
+      "to": "dnit-037-2004-me"
+    },
+    {
+      "from": "dnit-049-2013-es",
+      "to": "dnit-046-2004-em"
+    },
+    {
+      "from": "dnit-049-2013-es",
+      "to": "dnit-050-2004-em"
+    },
+    {
+      "from": "dnit-049-2013-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-049-2013-es",
+      "to": "dnit-165-2013-em"
+    },
+    {
+      "from": "dnit-051-2004-me",
+      "to": "dnit-039-2004-me"
+    },
+    {
+      "from": "dnit-054-2004-pro",
+      "to": "dnit-036-2004-me"
+    },
+    {
+      "from": "dnit-054-2004-pro",
+      "to": "dnit-037-2004-me"
+    },
+    {
+      "from": "dnit-054-2004-pro",
+      "to": "dnit-053-2004-me"
+    },
+    {
+      "from": "dnit-054-2004-pro",
+      "to": "dnit-064-2004-me"
+    },
+    {
+      "from": "dnit-057-2004-es",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-057-2004-es",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-057-2004-es",
+      "to": "dnit-050-2004-em"
+    },
+    {
+      "from": "dnit-058-2004-es",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-058-2004-es",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-058-2004-es",
+      "to": "dnit-050-2004-em"
+    },
+    {
+      "from": "dnit-060-2004-pro",
+      "to": "dnit-061-2004-ter"
+    },
+    {
+      "from": "dnit-062-2004-pro",
+      "to": "dnit-060-2004-pro"
+    },
+    {
+      "from": "dnit-062-2004-pro",
+      "to": "dnit-061-2004-ter"
+    },
+    {
+      "from": "dnit-063-2004-pro",
+      "to": "dnit-062-2004-pro"
+    },
+    {
+      "from": "dnit-065-2004-es",
+      "to": "dner-em-036-95"
+    },
+    {
+      "from": "dnit-065-2004-es",
+      "to": "dnit-036-2004-me"
+    },
+    {
+      "from": "dnit-065-2004-es",
+      "to": "dnit-037-2004-me"
+    },
+    {
+      "from": "dnit-067-2004-es",
+      "to": "dnit-047-2004-es"
+    },
+    {
+      "from": "dnit-067-2004-es",
+      "to": "dnit-048-2004-es"
+    },
+    {
+      "from": "dnit-068-2004-es",
+      "to": "dner-em-036-95"
+    },
+    {
+      "from": "dnit-068-2004-es",
+      "to": "dnit-036-2004-me"
+    },
+    {
+      "from": "dnit-068-2004-es",
+      "to": "dnit-037-2004-me"
+    },
+    {
+      "from": "dnit-068-2004-es",
+      "to": "dnit-046-2004-em"
+    },
+    {
+      "from": "dnit-068-2004-es",
+      "to": "dnit-047-2004-es"
+    },
+    {
+      "from": "dnit-068-2004-es",
+      "to": "dnit-048-2004-es"
+    },
+    {
+      "from": "dnit-068-2004-es",
+      "to": "dnit-055-2004-me"
+    },
+    {
+      "from": "dnit-068-2004-es",
+      "to": "dnit-064-2004-me"
+    },
+    {
+      "from": "dnit-072-2006-es",
+      "to": "dner-em-036-95"
+    },
+    {
+      "from": "dnit-072-2006-es",
+      "to": "dnit-036-2004-me"
+    },
+    {
+      "from": "dnit-073-2006-es",
+      "to": "dnit-071-2006-es"
+    },
+    {
+      "from": "dnit-074-2006-es",
+      "to": "dnit-071-2006-es"
+    },
+    {
+      "from": "dnit-074-2006-es",
+      "to": "dnit-072-2006-es"
+    },
+    {
+      "from": "dnit-074-2006-es",
+      "to": "dnit-073-2006-es"
+    },
+    {
+      "from": "dnit-075-2006-es",
+      "to": "dnit-072-2006-es"
+    },
+    {
+      "from": "dnit-075-2006-es",
+      "to": "dnit-074-2006-es"
+    },
+    {
+      "from": "dnit-076-2006-es",
+      "to": "dnit-073-2006-es"
+    },
+    {
+      "from": "dnit-077-2006-es",
+      "to": "dnit-073-2006-es"
+    },
+    {
+      "from": "dnit-077-2006-es",
+      "to": "dnit-076-2006-es"
+    },
+    {
+      "from": "dnit-078-2006-pro",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-081-2006-es",
+      "to": "dnit-080-2006-es"
+    },
+    {
+      "from": "dnit-081-2006-es",
+      "to": "dnit-090-2006-es"
+    },
+    {
+      "from": "dnit-083-2006-es",
+      "to": "dnit-079-2006-es"
+    },
+    {
+      "from": "dnit-088-2006-es",
+      "to": "dnit-089-2006-es"
+    },
+    {
+      "from": "dnit-097-2025-pro",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-098-2007-es",
+      "to": "dner-me-030-94"
+    },
+    {
+      "from": "dnit-098-2007-es",
+      "to": "dner-me-036-94"
+    },
+    {
+      "from": "dnit-098-2007-es",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-098-2007-es",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-099-2009-es",
+      "to": "dner-em-033-94"
+    },
+    {
+      "from": "dnit-099-2009-es",
+      "to": "dner-em-174-94"
+    },
+    {
+      "from": "dnit-099-2009-es",
+      "to": "dner-em-366-97"
+    },
+    {
+      "from": "dnit-099-2009-es",
+      "to": "dnit-013-2004-pro"
+    },
+    {
+      "from": "dnit-099-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-100-2018-es",
+      "to": "dner-pro-132-94"
+    },
+    {
+      "from": "dnit-100-2018-es",
+      "to": "dner-pro-231-94"
+    },
+    {
+      "from": "dnit-100-2018-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-100-2018-es",
+      "to": "dnit-409-2017-pro"
+    },
+    {
+      "from": "dnit-101-2009-es",
+      "to": "dnit-013-2004-pro"
+    },
+    {
+      "from": "dnit-101-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-102-2009-es",
+      "to": "dnit-013-2004-pro"
+    },
+    {
+      "from": "dnit-102-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-102-2009-es",
+      "to": "dnit-071-2006-es"
+    },
+    {
+      "from": "dnit-102-2009-es",
+      "to": "dnit-072-2006-es"
+    },
+    {
+      "from": "dnit-102-2009-es",
+      "to": "dnit-073-2006-es"
+    },
+    {
+      "from": "dnit-102-2009-es",
+      "to": "dnit-074-2006-es"
+    },
+    {
+      "from": "dnit-103-2009-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-103-2009-es",
+      "to": "dnit-013-2004-pro"
+    },
+    {
+      "from": "dnit-103-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-104-2009-es",
+      "to": "dnit-013-2004-pro"
+    },
+    {
+      "from": "dnit-104-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-106-2009-es",
+      "to": "dnit-013-2004-pro"
+    },
+    {
+      "from": "dnit-106-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-106-2009-es",
+      "to": "dnit-104-2009-es"
+    },
+    {
+      "from": "dnit-106-2009-es",
+      "to": "dnit-108-2009-es"
+    },
+    {
+      "from": "dnit-107-2009-es",
+      "to": "dnit-013-2004-pro"
+    },
+    {
+      "from": "dnit-107-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-107-2009-es",
+      "to": "dnit-104-2009-es"
+    },
+    {
+      "from": "dnit-107-2009-es",
+      "to": "dnit-106-2009-es"
+    },
+    {
+      "from": "dnit-108-2009-es",
+      "to": "dner-me-037-94"
+    },
+    {
+      "from": "dnit-108-2009-es",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-108-2009-es",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-108-2009-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-108-2009-es",
+      "to": "dnit-013-2004-pro"
+    },
+    {
+      "from": "dnit-108-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-108-2009-es",
+      "to": "dnit-104-2009-es"
+    },
+    {
+      "from": "dnit-108-2009-es",
+      "to": "dnit-106-2009-es"
+    },
+    {
+      "from": "dnit-111-2009-em",
+      "to": "dner-me-247-94"
+    },
+    {
+      "from": "dnit-112-2009-es",
+      "to": "dner-em-367-97"
+    },
+    {
+      "from": "dnit-112-2009-es",
+      "to": "dner-me-053-94"
+    },
+    {
+      "from": "dnit-112-2009-es",
+      "to": "dner-me-401-99"
+    },
+    {
+      "from": "dnit-112-2009-es",
+      "to": "dner-pro-164-94"
+    },
+    {
+      "from": "dnit-112-2009-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-112-2009-es",
+      "to": "dnit-013-2004-pro"
+    },
+    {
+      "from": "dnit-112-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-112-2009-es",
+      "to": "dnit-111-2009-em"
+    },
+    {
+      "from": "dnit-116-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-117-2009-es",
+      "to": "dner-em-036-95"
+    },
+    {
+      "from": "dnit-117-2009-es",
+      "to": "dnit-037-2004-me"
+    },
+    {
+      "from": "dnit-117-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-118-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-119-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-119-2009-es",
+      "to": "dnit-118-2009-es"
+    },
+    {
+      "from": "dnit-120-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-121-2009-es",
+      "to": "dner-em-036-95"
+    },
+    {
+      "from": "dnit-121-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-121-2009-es",
+      "to": "dnit-117-2009-es"
+    },
+    {
+      "from": "dnit-121-2009-es",
+      "to": "dnit-118-2009-es"
+    },
+    {
+      "from": "dnit-122-2009-es",
+      "to": "dnit-047-2004-es"
+    },
+    {
+      "from": "dnit-122-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-123-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-123-2009-es",
+      "to": "dnit-117-2009-es"
+    },
+    {
+      "from": "dnit-123-2009-es",
+      "to": "dnit-118-2009-es"
+    },
+    {
+      "from": "dnit-123-2009-es",
+      "to": "dnit-119-2009-es"
+    },
+    {
+      "from": "dnit-123-2009-es",
+      "to": "dnit-120-2009-es"
+    },
+    {
+      "from": "dnit-123-2009-es",
+      "to": "dnit-122-2009-es"
+    },
+    {
+      "from": "dnit-123-2009-es",
+      "to": "dnit-124-2009-es"
+    },
+    {
+      "from": "dnit-124-2009-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-125-2010-pad",
+      "to": "dnit-127-2010-pad"
+    },
+    {
+      "from": "dnit-127-2010-pad",
+      "to": "dnit-125-2010-pad"
+    },
+    {
+      "from": "dnit-133-2025-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-136-2018-me",
+      "to": "dnit-178-2018-pro"
+    },
+    {
+      "from": "dnit-137-2010-es",
+      "to": "dner-me-036-94"
+    },
+    {
+      "from": "dnit-137-2010-es",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-137-2010-es",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-137-2010-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-137-2010-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-137-2010-es",
+      "to": "dnit-106-2009-es"
+    },
+    {
+      "from": "dnit-137-2010-es",
+      "to": "dnit-107-2009-es"
+    },
+    {
+      "from": "dnit-137-2010-es",
+      "to": "dnit-108-2009-es"
+    },
+    {
+      "from": "dnit-138-2010-es",
+      "to": "dner-me-036-94"
+    },
+    {
+      "from": "dnit-138-2010-es",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-138-2010-es",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-138-2010-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-138-2010-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-138-2010-es",
+      "to": "dnit-108-2009-es"
+    },
+    {
+      "from": "dnit-139-2010-es",
+      "to": "dner-me-036-94"
+    },
+    {
+      "from": "dnit-139-2010-es",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-139-2010-es",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-139-2010-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-139-2010-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-140-2022-es",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-140-2022-es",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-140-2022-es",
+      "to": "dnit-165-2013-em"
+    },
+    {
+      "from": "dnit-143-2025-es",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-144-2014-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-144-2014-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-144-2014-es",
+      "to": "dnit-165-2013-em"
+    },
+    {
+      "from": "dnit-145-2012-es",
+      "to": "dner-me-006-00"
+    },
+    {
+      "from": "dnit-145-2012-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-145-2012-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-146-2012-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-146-2012-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-146-2012-es",
+      "to": "dnit-095-2006-em"
+    },
+    {
+      "from": "dnit-146-2012-es",
+      "to": "dnit-131-2010-me"
+    },
+    {
+      "from": "dnit-147-2012-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-147-2012-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-147-2012-es",
+      "to": "dnit-095-2006-em"
+    },
+    {
+      "from": "dnit-147-2012-es",
+      "to": "dnit-131-2010-me"
+    },
+    {
+      "from": "dnit-148-2012-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-148-2012-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-148-2012-es",
+      "to": "dnit-095-2006-em"
+    },
+    {
+      "from": "dnit-148-2012-es",
+      "to": "dnit-131-2010-me"
+    },
+    {
+      "from": "dnit-149-2010-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-149-2010-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-149-2010-es",
+      "to": "dnit-131-2010-me"
+    },
+    {
+      "from": "dnit-150-2010-es",
+      "to": "dner-me-006-00"
+    },
+    {
+      "from": "dnit-150-2010-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-150-2010-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-151-2010-es",
+      "to": "dner-me-036-94"
+    },
+    {
+      "from": "dnit-151-2010-es",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-151-2010-es",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-151-2010-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-151-2010-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-152-2010-es",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-152-2010-es",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-152-2010-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-152-2010-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-153-2010-es",
+      "to": "dner-me-006-00"
+    },
+    {
+      "from": "dnit-153-2010-es",
+      "to": "dner-me-053-94"
+    },
+    {
+      "from": "dnit-153-2010-es",
+      "to": "dner-me-107-94"
+    },
+    {
+      "from": "dnit-153-2010-es",
+      "to": "dner-pro-164-94"
+    },
+    {
+      "from": "dnit-153-2010-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-153-2010-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-154-2010-es",
+      "to": "dnit-005-2003-ter"
+    },
+    {
+      "from": "dnit-154-2010-es",
+      "to": "dnit-137-2010-es"
+    },
+    {
+      "from": "dnit-154-2010-es",
+      "to": "dnit-153-2010-es"
+    },
+    {
+      "from": "dnit-159-2011-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-161-2022-em",
+      "to": "dnit-380-2022-pro"
+    },
+    {
+      "from": "dnit-161-2022-em",
+      "to": "dnit-436-2022-ter"
+    },
+    {
+      "from": "dnit-162-2012-pro",
+      "to": "dnit-163-2012-pro"
+    },
+    {
+      "from": "dnit-163-2012-pro",
+      "to": "dnit-162-2012-pro"
+    },
+    {
+      "from": "dnit-166-2013-es",
+      "to": "dner-em-036-95"
+    },
+    {
+      "from": "dnit-166-2013-es",
+      "to": "dner-pro-273-96"
+    },
+    {
+      "from": "dnit-166-2013-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-166-2013-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-166-2013-es",
+      "to": "dnit-095-2006-em"
+    },
+    {
+      "from": "dnit-166-2013-es",
+      "to": "dnit-145-2012-es"
+    },
+    {
+      "from": "dnit-167-2013-es",
+      "to": "dner-me-181-94"
+    },
+    {
+      "from": "dnit-167-2013-es",
+      "to": "dner-me-201-94"
+    },
+    {
+      "from": "dnit-167-2013-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-167-2013-es",
+      "to": "dnit-050-2004-em"
+    },
+    {
+      "from": "dnit-167-2013-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-167-2013-es",
+      "to": "dnit-164-2013-me"
+    },
+    {
+      "from": "dnit-167-2013-es",
+      "to": "dnit-165-2013-em"
+    },
+    {
+      "from": "dnit-168-2013-em",
+      "to": "dnit-131-2010-me"
+    },
+    {
+      "from": "dnit-169-2014-es",
+      "to": "dner-em-036-95"
+    },
+    {
+      "from": "dnit-169-2014-es",
+      "to": "dner-pro-273-96"
+    },
+    {
+      "from": "dnit-169-2014-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-169-2014-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-169-2014-es",
+      "to": "dnit-095-2006-em"
+    },
+    {
+      "from": "dnit-169-2014-es",
+      "to": "dnit-145-2012-es"
+    },
+    {
+      "from": "dnit-169-2014-es",
+      "to": "dnit-159-2011-es"
+    },
+    {
+      "from": "dnit-169-2014-es",
+      "to": "dnit-164-2013-me"
+    },
+    {
+      "from": "dnit-170-2016-pro",
+      "to": "dnit-171-2016-pro"
+    },
+    {
+      "from": "dnit-171-2016-pro",
+      "to": "dnit-170-2016-pro"
+    },
+    {
+      "from": "dnit-175-2025-pro",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-180-2018-me",
+      "to": "dnit-136-2018-me"
+    },
+    {
+      "from": "dnit-183-2018-me",
+      "to": "dnit-135-2018-me"
+    },
+    {
+      "from": "dnit-183-2018-me",
+      "to": "dnit-136-2018-me"
+    },
+    {
+      "from": "dnit-183-2018-me",
+      "to": "dnit-178-2018-pro"
+    },
+    {
+      "from": "dnit-184-2018-me",
+      "to": "dnit-178-2018-pro"
+    },
+    {
+      "from": "dnit-228-2023-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-228-2023-me",
+      "to": "dnit-259-2023-cla"
+    },
+    {
+      "from": "dnit-254-2023-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-257-2021-pro",
+      "to": "dnit-198-2021-ter"
+    },
+    {
+      "from": "dnit-257-2021-pro",
+      "to": "dnit-435-2021-pro"
+    },
+    {
+      "from": "dnit-258-2023-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-266-2025-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-380-2022-pro",
+      "to": "dnit-381-2022-pro"
+    },
+    {
+      "from": "dnit-380-2022-pro",
+      "to": "dnit-436-2022-ter"
+    },
+    {
+      "from": "dnit-381-2022-pro",
+      "to": "dner-ie-005-94"
+    },
+    {
+      "from": "dnit-381-2022-pro",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-381-2022-pro",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-381-2022-pro",
+      "to": "dnit-380-2022-pro"
+    },
+    {
+      "from": "dnit-384-2022-me",
+      "to": "dnit-131-2010-me"
+    },
+    {
+      "from": "dnit-385-2026-es",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-406-2017-es",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-406-2017-es",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-406-2017-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-406-2017-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-406-2017-es",
+      "to": "dnit-113-2009-me"
+    },
+    {
+      "from": "dnit-406-2017-es",
+      "to": "dnit-164-2013-me"
+    },
+    {
+      "from": "dnit-406-2017-es",
+      "to": "dnit-172-2016-me"
+    },
+    {
+      "from": "dnit-407-2017-es",
+      "to": "dner-me-082-94"
+    },
+    {
+      "from": "dnit-407-2017-es",
+      "to": "dner-me-122-94"
+    },
+    {
+      "from": "dnit-407-2017-es",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-407-2017-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-407-2017-es",
+      "to": "dnit-113-2009-me"
+    },
+    {
+      "from": "dnit-407-2017-es",
+      "to": "dnit-164-2013-me"
+    },
+    {
+      "from": "dnit-407-2017-es",
+      "to": "dnit-172-2016-me"
+    },
+    {
+      "from": "dnit-408-2020-pad",
+      "to": "dner-es-344-97"
+    },
+    {
+      "from": "dnit-408-2020-pad",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-408-2020-pad",
+      "to": "dnit-071-2006-es"
+    },
+    {
+      "from": "dnit-408-2020-pad",
+      "to": "dnit-073-2006-es"
+    },
+    {
+      "from": "dnit-410-2017-me",
+      "to": "dnit-055-2004-me"
+    },
+    {
+      "from": "dnit-410-2017-me",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-411-2021-me",
+      "to": "dner-me-085-94"
+    },
+    {
+      "from": "dnit-412-2025-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-413-2021-me",
+      "to": "dner-me-195-97"
+    },
+    {
+      "from": "dnit-416-2019-me",
+      "to": "dnit-178-2018-pro"
+    },
+    {
+      "from": "dnit-416-2019-me",
+      "to": "dnit-415-2019-me"
+    },
+    {
+      "from": "dnit-417-2019-me",
+      "to": "dner-pro-277-97"
+    },
+    {
+      "from": "dnit-417-2019-me",
+      "to": "dnit-164-2013-me"
+    },
+    {
+      "from": "dnit-419-2019-me",
+      "to": "dnit-418-2019-em"
+    },
+    {
+      "from": "dnit-420-2019-es",
+      "to": "dner-me-036-94"
+    },
+    {
+      "from": "dnit-420-2019-es",
+      "to": "dner-pro-273-96"
+    },
+    {
+      "from": "dnit-420-2019-es",
+      "to": "dnit-013-2004-pro"
+    },
+    {
+      "from": "dnit-420-2019-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-420-2019-es",
+      "to": "dnit-144-2014-es"
+    },
+    {
+      "from": "dnit-420-2019-es",
+      "to": "dnit-145-2012-es"
+    },
+    {
+      "from": "dnit-420-2019-es",
+      "to": "dnit-417-2019-me"
+    },
+    {
+      "from": "dnit-420-2019-es",
+      "to": "dnit-418-2019-em"
+    },
+    {
+      "from": "dnit-420-2019-es",
+      "to": "dnit-419-2019-me"
+    },
+    {
+      "from": "dnit-421-2019-es",
+      "to": "dner-me-036-94"
+    },
+    {
+      "from": "dnit-421-2019-es",
+      "to": "dner-pro-273-96"
+    },
+    {
+      "from": "dnit-421-2019-es",
+      "to": "dnit-013-2004-pro"
+    },
+    {
+      "from": "dnit-421-2019-es",
+      "to": "dnit-070-2006-pro"
+    },
+    {
+      "from": "dnit-421-2019-es",
+      "to": "dnit-144-2014-es"
+    },
+    {
+      "from": "dnit-421-2019-es",
+      "to": "dnit-145-2012-es"
+    },
+    {
+      "from": "dnit-421-2019-es",
+      "to": "dnit-417-2019-me"
+    },
+    {
+      "from": "dnit-421-2019-es",
+      "to": "dnit-418-2019-em"
+    },
+    {
+      "from": "dnit-421-2019-es",
+      "to": "dnit-419-2019-me"
+    },
+    {
+      "from": "dnit-435-2021-pro",
+      "to": "dnit-198-2021-ter"
+    },
+    {
+      "from": "dnit-438-2022-pro",
+      "to": "dner-em-367-97"
+    },
+    {
+      "from": "dnit-441-2023-es",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-441-2023-es",
+      "to": "dnit-015-2006-es"
+    },
+    {
+      "from": "dnit-441-2023-es",
+      "to": "dnit-381-2022-pro"
+    },
+    {
+      "from": "dnit-442-2023-pro",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-443-2023-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-443-2023-me",
+      "to": "dnit-141-2022-es"
+    },
+    {
+      "from": "dnit-443-2023-me",
+      "to": "dnit-164-2013-me"
+    },
+    {
+      "from": "dnit-444-2023-cla",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-445-2023-es",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-448-2024-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-450-2024-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-451-2024-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-452-2024-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-453-2024-em",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-454-2025-em",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-455-2025-pro",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-456-2025-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-458-2025-me",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-461-2025-pro",
+      "to": "dnit-001-2023-pro"
+    },
+    {
+      "from": "dnit-462-2025-em",
+      "to": "dnit-001-2023-pro"
+    }
+  ]
+}

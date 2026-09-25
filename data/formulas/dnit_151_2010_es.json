@@ -1,0 +1,93 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      80.3,
+      551.8,
+      106.2,
+      578.8
+    ],
+    "raw": "",
+    "latex": "",
+    "ignorar": true,
+    "nota": "travessão de item de lista, não é fórmula"
+  },
+  "eq02": {
+    "page": 5,
+    "bbox": [
+      345.9,
+      136.3,
+      410.6,
+      199.3
+    ],
+    "raw": "n x i i 1 X n",
+    "latex": "\\overline{X} = \\frac{\\sum_{i=1}^{n} x_i}{n}"
+  },
+  "eq03": {
+    "page": 5,
+    "bbox": [
+      345.1,
+      212.5,
+      444.1,
+      265.2
+    ],
+    "raw": "2 ( x X ) i s n 1",
+    "latex": "s = \\sqrt{\\frac{\\sum \\left(x_i - \\overline{X}\\right)^2}{n - 1}}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "\nDevem possuir porcentagem passando",
+    "para": "\n- Devem possuir porcentagem passando"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "\nDeve apresentar o limite de liquidez",
+    "para": "\n- Deve apresentar o limite de liquidez"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "\nO equivalente de areia deve ser superior a 30%",
+    "para": "\n- O equivalente de areia deve ser superior a 30%"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "\nO Índice de Suporte Califórnia não deve ser inferior a 40%",
+    "para": "\n- O Índice de Suporte Califórnia não deve ser inferior a 40%"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "X- ks ≥ valor mínimo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "X+ ks ≤ valor máximo",
+    "para": "$\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "X- ks < valor mínimo",
+    "para": "$\\overline{X} - ks$ < valor mínimo"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "X+ ks > valor máximo",
+    "para": "$\\overline{X} + ks$ > valor máximo"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "$i^{x}$$^{– valores individuais}$",
+    "para": "$x_i$ – valores individuais"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "X – média da amostra s - desvio padrão da amostra k - coeficiente tabelado em função do número de determinações n - número de determinações (tamanho da amostra).",
+    "para": "$\\overline{X}$ – média da amostra\n\ns - desvio padrão da amostra\n\nk - coeficiente tabelado em função do número de determinações\n\nn - número de determinações (tamanho da amostra)."
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "a) BRASIL. Departamento Nacional de Infraestrutura de Transportes. Diretoria de Planejamento e\n\nPesquisa. Coordenação Geral de Estudos e\n\nPesquisa. Instituto de Pesquisas Rodoviárias.\n\nManual de pavimentação. 3. ed. Rio de Janeiro,\n\n2006. (IPR. Publ., 719).",
+    "para": "a) BRASIL. Departamento Nacional de Infraestrutura de Transportes. Diretoria de Planejamento e Pesquisa. Coordenação Geral de Estudos e Pesquisa. Instituto de Pesquisas Rodoviárias. Manual de pavimentação. 3. ed. Rio de Janeiro, 2006. (IPR. Publ., 719).",
+    "nota": "bib: itens partidos juntados; itens da coluna direita da última página (sumidos na extração) transcritos do PDF | trecho restaurado removido: o gerador corrigido já produz a coluna direita"
+  }
+}

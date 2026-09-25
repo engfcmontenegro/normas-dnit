@@ -1,0 +1,232 @@
+{
+  "fig01": {
+    "page": 13,
+    "bbox": [
+      56.0,
+      178.6,
+      291.2,
+      333.9
+    ],
+    "legenda": "Foto 2 - Mesmo talude, já recuperado e protegido com a"
+  },
+  "fig02": {
+    "page": 13,
+    "bbox": [
+      309.2,
+      375.5,
+      543.5,
+      530.0
+    ],
+    "legenda": "Foto 3 - Mesmo local, três meses após a recuperação e"
+  },
+  "fig03": {
+    "page": 13,
+    "bbox": [
+      56.0,
+      580.7,
+      291.2,
+      736.0
+    ],
+    "legenda": ""
+  },
+  "fig04": {
+    "page": 14,
+    "bbox": [
+      303.1,
+      159.1,
+      537.5,
+      313.9
+    ],
+    "legenda": "Foto 5 - A técnica utilizada para a contenção foi o solo"
+  },
+  "fig05": {
+    "page": 14,
+    "bbox": [
+      56.1,
+      358.3,
+      291.2,
+      514.3
+    ],
+    "legenda": "Foto 6 - Mesmo local após a execução da técnica,"
+  },
+  "fig06": {
+    "page": 14,
+    "bbox": [
+      302.3,
+      561.0,
+      537.5,
+      716.3
+    ],
+    "legenda": ""
+  },
+  "fig07": {
+    "page": 15,
+    "bbox": [
+      56.9,
+      159.1,
+      291.2,
+      313.9
+    ],
+    "legenda": "Foto 8 - Após a aplicação dos chumbadores no talude, a"
+  },
+  "fig08": {
+    "page": 15,
+    "bbox": [
+      308.7,
+      364.1,
+      543.8,
+      519.1
+    ],
+    "legenda": "Foto 9 - Após a recuperação da erosão, é aplicada a Tela"
+  },
+  "fig09": {
+    "page": 15,
+    "bbox": [
+      56.1,
+      569.3,
+      290.5,
+      724.2
+    ],
+    "legenda": ""
+  },
+  "fig10": {
+    "page": 16,
+    "bbox": [
+      310.3,
+      167.5,
+      544.6,
+      322.3
+    ],
+    "legenda": "Foto 11 - Vista do local após a aplicação da Tela Vegetal®"
+  },
+  "fig11": {
+    "page": 16,
+    "bbox": [
+      53.8,
+      376.3,
+      543.1,
+      722.5
+    ],
+    "legenda": "Foto 13 - Vista do mesmo local, um ano após as medidas"
+  },
+  "fig12": {
+    "page": 17,
+    "bbox": [
+      52.3,
+      159.1,
+      286.6,
+      314.3
+    ],
+    "legenda": "Foto 15 - Serviços de recuperação já adiantados, com"
+  },
+  "fig13": {
+    "page": 17,
+    "bbox": [
+      53.0,
+      358.1,
+      546.5,
+      708.8
+    ],
+    "legenda": "Foto 16 - Mesmo local após três meses da execução dos"
+  },
+  "fig14": {
+    "page": 18,
+    "bbox": [
+      310.3,
+      169.0,
+      544.6,
+      324.2
+    ],
+    "legenda": "Foto 18 - A área verde na foto foi o teste piloto, e após o"
+  },
+  "fig15": {
+    "page": 18,
+    "bbox": [
+      55.3,
+      385.3,
+      290.5,
+      540.2
+    ],
+    "legenda": "Foto 19 - Vista da mesma área após o desenvolvimento"
+  },
+  "fig16": {
+    "page": 18,
+    "bbox": [
+      307.3,
+      602.5,
+      541.6,
+      757.4
+    ],
+    "legenda": ""
+  },
+  "fig17": {
+    "page": 19,
+    "bbox": [
+      72.2,
+      164.9,
+      286.7,
+      317.2
+    ],
+    "legenda": "Foto 21 – Biomantas Antierosivas (Vista Frontal)"
+  },
+  "fig18": {
+    "page": 19,
+    "bbox": [
+      71.0,
+      332.4,
+      537.5,
+      651.5
+    ],
+    "legenda": "Foto 22 – Biomantas Antierosivas (Bobina Embalagem)"
+  },
+  "fig19": {
+    "page": 20,
+    "bbox": [
+      56.7,
+      123.5,
+      556.4,
+      667.1
+    ],
+    "legenda": "Figura 1 – Esquema demonstrativo da aplicação de bermalonga®"
+  },
+  "fig20": {
+    "page": 21,
+    "bbox": [
+      90.7,
+      157.4,
+      518.8,
+      542.5
+    ],
+    "legenda": "Figura 2 - Corte representativo da aplicação de técnicas de bioengenharia mostrando corte/aterro"
+  },
+  "fig21": {
+    "page": 22,
+    "bbox": [
+      56.7,
+      54.1,
+      553.9,
+      269.2
+    ],
+    "legenda": "Figura 3 – Esquema representativo da instalação das telas e mantas"
+  },
+  "fig22": {
+    "page": 22,
+    "bbox": [
+      110.7,
+      323.4,
+      501.2,
+      757.3
+    ],
+    "legenda": "Figura 4 – Passos na execução dos serviços de preparo do terreno, aplicação"
+  },
+  "fig23": {
+    "page": 23,
+    "bbox": [
+      77.6,
+      110.2,
+      531.8,
+      563.1
+    ],
+    "legenda": "Figura 5 –Detalhe do serviço já executado, mostrando todo o"
+  }
+}

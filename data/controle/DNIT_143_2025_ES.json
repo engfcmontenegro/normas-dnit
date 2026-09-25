@@ -1,0 +1,256 @@
+{
+ "es": "dnit-143-2025-es",
+ "servico": "Base de solo-cimento",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Cimento Portland",
+   "ensaio": "Especificação do cimento (certificado do fabricante)",
+   "citado": "DNER-EM 036/95",
+   "norma": "dner-em-036-95",
+   "frequencia": "Todo carregamento que chegar à obra",
+   "criterio": "Conforme DNER-EM 036/95; mesmo tipo de cimento usado na dosagem",
+   "secao": "4 b / 5.1.1 / 7.1 a, b"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Cimento Portland",
+   "ensaio": "Finura (resíduo na peneira nº 200)",
+   "citado": "ABNT NBR 16372",
+   "norma": null,
+   "frequencia": "≥ 1 por dia de trabalho, antes do uso (central ou pista), ou sempre que houver dúvida sobre a sanidade",
+   "criterio": "Resíduo ≤ 10 % (CP de alto-forno); ≤ 15 % (CP comum)",
+   "secao": "7.1 c, d"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Água",
+   "ensaio": "Qualidade da água",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Potável; isenta de sais, ácidos, álcalis, matéria orgânica",
+   "secao": "5.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Solo / mistura de solo e material granular",
+   "ensaio": "Granulometria",
+   "citado": "DNIT 459-ME",
+   "norma": null,
+   "frequencia": "Na seleção do material",
+   "criterio": "Tabela 1: 2\" 100 %; nº 4 50–100 % (± 5); nº 40 15–100 % (± 2); nº 200 5–35 % (± 2)",
+   "secao": "5.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mistura (projeto empírico)",
+   "ensaio": "Resistência à compressão simples aos 7 dias",
+   "citado": "DNER-ME 201/94",
+   "norma": "dner-me-201-94",
+   "frequencia": "Na dosagem",
+   "criterio": "≥ 2,1 MPa (21 kg/cm²)",
+   "condicao": "projeto dimensionado pelo método empírico",
+   "secao": "5.2 b"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mistura (projeto mecanicista)",
+   "ensaio": "Módulo de resiliência (triplicata)",
+   "citado": "DNIT 181-ME",
+   "norma": null,
+   "frequencia": "1 ensaio antes do início da obra ou a cada mudança significativa dos materiais",
+   "criterio": "Conforme projeto; sem variação significativa em relação ao projeto",
+   "condicao": "se o projeto usar análise mecanicista",
+   "secao": "5.2 a / 7.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mistura (projeto mecanicista)",
+   "ensaio": "Fadiga",
+   "citado": "DNIT 434-ME",
+   "norma": "dnit-434-2022-me",
+   "frequencia": "1 ensaio antes do início da obra ou a cada mudança significativa dos materiais",
+   "criterio": "Conforme projeto; sem variação significativa em relação ao projeto",
+   "condicao": "se o projeto usar análise mecanicista",
+   "secao": "5.2 a / 7.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Preparo da mistura (antes do cimento)",
+   "ensaio": "Grau de pulverização (peneira nº 4)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Aleatória (plano de amostragem)",
+   "criterio": "≥ 80 % do material passando em 4,75 mm; sem grumos",
+   "secao": "5.4.1 b / 7.3.1 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Preparo da mistura (antes do cimento)",
+   "ensaio": "Teor de umidade do solo",
+   "citado": "DNIT 456-ME",
+   "norma": "dnit-456-2025-me",
+   "frequencia": "Aleatória (plano de amostragem)",
+   "criterio": "Referência para a correção de umidade",
+   "secao": "7.3.1 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Preparo da mistura (após o cimento)",
+   "ensaio": "Quantidade de cimento incorporada (peso ou volume)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Aleatória (plano de amostragem)",
+   "criterio": "Teor de cimento de projeto",
+   "secao": "7.3.1 b"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da compactação",
+   "ensaio": "Teor de umidade da mistura",
+   "citado": "DNIT 456-ME",
+   "norma": "dnit-456-2025-me",
+   "frequencia": "Aleatória (plano de amostragem)",
+   "criterio": "hót ± 1 %",
+   "secao": "5.4.4 / 7.3.2 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da compactação",
+   "ensaio": "Compactação e moldagem de corpos de prova (energia normal)",
+   "citado": "DNER-ME 202/94",
+   "norma": "dner-me-202-94",
+   "frequencia": "Aleatória (plano de amostragem)",
+   "criterio": "Energia normal ou a especificada em projeto",
+   "secao": "7.3.2 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da compactação",
+   "ensaio": "Módulo de resiliência (triplicata)",
+   "citado": "DNIT 181-ME",
+   "norma": null,
+   "frequencia": "A cada 1500 m de pista (ou confirmação com equipamento de campo calibrado, após a compactação)",
+   "criterio": "Conforme projeto",
+   "condicao": "se especificado em projeto",
+   "secao": "7.3.2 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da compactação",
+   "ensaio": "Fadiga",
+   "citado": "DNIT 434-ME",
+   "norma": "dnit-434-2022-me",
+   "frequencia": "A cada 2500 m de pista (reduzir se houver variação significativa)",
+   "criterio": "Conforme projeto",
+   "condicao": "se especificado em projeto",
+   "secao": "7.3.2 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da compactação",
+   "ensaio": "Resistência à compressão simples aos 7 dias",
+   "citado": "DNER-ME 201/94",
+   "norma": "dner-me-201-94",
+   "frequencia": "A cada 1500 m de pista",
+   "criterio": "≥ 2,1 MPa (21 kg/cm²)",
+   "condicao": "se especificado em projeto",
+   "secao": "5.2 b / 7.3.2 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Mistura na pista",
+   "ensaio": "Umedecimento progressivo",
+   "citado": null,
+   "norma": null,
+   "frequencia": "A cada passada do caminhão-tanque",
+   "criterio": "Aumento ≤ 2 % de umidade por passada; toda a água incorporada em ≤ 3 h",
+   "secao": "5.4.2 e"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Compactação",
+   "ensaio": "Tempo desde a adição de água",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada frente de trabalho",
+   "criterio": "≤ 1 h até o início do espalhamento; ≤ 3 h até o fim da compactação",
+   "secao": "5.4.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Após a compactação",
+   "ensaio": "Massa específica aparente in situ → grau de compactação",
+   "citado": "DNIT 458-ME, DNER-ME 036/94 ou DNIT 417-ME",
+   "norma": "dnit-458-2025-me",
+   "outras": [
+    "dner-me-036-94",
+    "dnit-417-2019-me"
+   ],
+   "frequencia": "Aleatória (plano de amostragem, DNER-PRO 277/97)",
+   "criterio": "GC ≥ 100 % da massa específica aparente seca máxima (DNER-ME 216/94, energia de projeto)",
+   "secao": "7.3.2 b",
+   "obs": "Densímetro eletromagnético deve ser calibrado conforme DNIT 417-ME"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Cura",
+   "ensaio": "Pintura de cura (emulsão RR-2C ou EAI)",
+   "citado": "DNIT 165-EM; DNIT 144-ES",
+   "norma": "dnit-165-2013-em",
+   "outras": [
+    "dnit-144-2014-es"
+   ],
+   "frequencia": "Logo após a execução da camada; taxa confirmada no segmento experimental",
+   "criterio": "RR-2C ≈ 0,6 l/m²; EAI 0,9 a 1,7 l/m²; cura ≥ 7 dias sem perda de umidade",
+   "secao": "5.4.9"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da camada seguinte",
+   "ensaio": "Deflexão (Viga Benkelman ou FWD)",
+   "citado": "DNER-ME 024/94 ou DNER-PRO 273/96",
+   "norma": "dner-pro-273-96",
+   "frequencia": "Após ≥ 7 dias de cura; a cada 20 m em faixas alternadas (40 m na mesma faixa); mín. 15 determinações por segmento",
+   "criterio": "Dc = D₀médio + k·s ≤ deflexão de projeto (LSE)",
+   "secao": "7.3.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Largura da plataforma",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "Até +10 cm; não se admite largura menor que a de projeto",
+   "secao": "7.4 a"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Abaulamento / declividade transversal",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "Flecha até +20 % ou declividade até +0,5 %; sem falta",
+   "secao": "7.4 b"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessura da camada",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 10 % da espessura de projeto (camada entre 10 e 20 cm)",
+   "secao": "5.4.6 / 7.4 c"
+  }
+ ],
+ "notas": [
+  "Amostragem aleatória segundo Plano de Amostragem Variável (DNER-PRO 277/97); aceitação por X̄ − ks ≥ mín. e X̄ + ks ≤ máx.",
+  "Executar previamente segmento experimental para avaliar dosagem e procedimentos (nº de passadas, taxa de cura); rejeitado, deve ser refeito.",
+  "Não conformidades tratadas conforme DNIT 011-PRO; verificação final conforme DNIT 013-PRO.",
+  "Base só é liberada ao tráfego após o controle de deflexão; antes do revestimento, pintura de ligação (DNIT 145-ES). k tabelado no Anexo A (Amostragem Variável)."
+ ]
+}

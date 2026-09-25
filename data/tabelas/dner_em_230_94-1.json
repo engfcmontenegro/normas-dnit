@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      58,
+      222,
+      571,
+      474
+    ],
+    "md": "| Classe | Grupo | Massa unitária – ABNT MB-1665/1982 (t/m³) – Máx. | Massa unitária – ABNT MB-1665/1982 (t/m³) – Mín. | Perda de massa após fervura % – DNER-ME 225/94 – Máx. | Desgaste por abrasão – DNER-ME 222/94 – Máx. |\n| --- | --- | --- | --- | --- | --- |\n| I | A | 0,880 | 0,560 | 6 | 35 |\n|  | B | 0,880 | 0,560 | 6 | 40 |\n|  | C | 0,880 | 0,560 | 10 | 45 |\n| II | A | - | 0,880 | 6 | 35 |\n|  | B | - | 0,880 | 6 | 40 |\n|  | C | - | 0,880 | 10 | 45 |",
+    "de_inicio": "após fervura % abrasão (t/mº) [[dner_me_225_94-1|DNER-ME 225/94]] [[dner_me_222_94-1|DNER-ME 222/94]]",
+    "nota": "tabela do item 5.1 (escaneada): tinha virado figura fig01 + texto achatado"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "eq01": {
+    "page": 1,
+    "bbox": [
+      318.1,
+      685.4,
+      418.8,
+      711.7
+    ],
+    "raw": "2.1 Abertura (𝒘)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título do item 2.1 Abertura (w)"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      65.7,
+      723.1,
+      296.4,
+      762.7
+    ],
+    "raw": "2 (𝑤 0,75 ) + 4𝑤 0,25 (1) 𝑋= 3",
+    "latex": "X = \\frac{2\\,(w^{0{,}75})}{3} + 4w^{0{,}25} \\tag{1}"
+  },
+  "eq03": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      61.3,
+      563.4,
+      103.7
+    ],
+    "raw": "𝑤 é o tamanho da abertura, expresso em milímetros (mm);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: legenda (w é o tamanho da abertura)"
+  },
+  "eq04": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      194.1,
+      563.4,
+      234.4
+    ],
+    "raw": "𝑤 0,98 𝑌= 27 + 1,6 (2)",
+    "latex": "Y = \\frac{w^{0{,}98}}{27} + 1{,}6 \\tag{2}"
+  },
+  "eq05": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      263.6,
+      344.3,
+      290.0
+    ],
+    "raw": "𝑤",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável da legenda"
+  },
+  "eq06": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      398.6,
+      563.4,
+      436.2
+    ],
+    "raw": "(𝑋+𝑌) 𝑍= (3) 2",
+    "latex": "Z = \\frac{(X+Y)}{2} \\tag{3}"
+  },
+  "eq07": {
+    "page": 9,
+    "bbox": [
+      48.6,
+      98.1,
+      294.0,
+      124.3
+    ],
+    "raw": "Abertura (w) ....................................................... 2.1......1",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: linha do Índice geral"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "| Dimensão (mm) | Peneira n° | Individual Máxima (+𝑿) | Média (± 𝒀) | Máxima até 6 % das malhas (+𝒁) | Recomendado (𝒅) | Mínimo (𝒅 ) 𝒎í𝒏 | Máximo (𝒅 ) 𝒎á𝒙 |",
+    "para": "| Dimensão (mm) | Peneira n° | Individual Máxima (+$X$) | Média (± $Y$) | Máxima até 6 % das malhas (+$Z$) | Recomendado ($d$) | Mínimo ($d_{mín}$) | Máximo ($d_{máx}$) |",
+    "nota": "cabeçalho do Anexo B: variáveis em itálico matemático quebradas"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "2.1\n\nAbertura ($w$)",
+    "para": "**2.1** Abertura ($w$)",
+    "nota": "título do item"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "2.2\n\nAbertura nominal ($X$)",
+    "para": "**2.2** Abertura nominal ($X$)",
+    "nota": "título do item"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "2.3\n\nAbertura média ($Y$)",
+    "para": "**2.3** Abertura média ($Y$)",
+    "nota": "título do item"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "$w$ é o tamanho da abertura, expresso em milímetros\n\n(mm);",
+    "para": "$w$ é o tamanho da abertura, expresso em milímetros (mm);",
+    "nota": "legenda partida"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "e máximo\n\n($d_{máx}$)",
+    "para": "e máximo ($d_{máx}$)",
+    "nota": "parágrafo partido"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "## Anexo A (Normativo) – Peneira e abertura de peneiras . 5\n\n",
+    "para": "",
+    "nota": "linha do Sumário virou título"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "Instituto de\n\nPesquisas",
+    "para": "Instituto de Pesquisas",
+    "nota": "parágrafo partido"
+  }
+}

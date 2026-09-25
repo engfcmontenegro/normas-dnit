@@ -1,0 +1,238 @@
+{
+  "_comentario": "Dúvidas relatadas na transcrição que não ficaram em nenhum campo 'nota' de data/formulas|tabelas|figuras. Chave = stem da norma; cada item: page (ou null) e texto. Lidas por scripts/revisao_duvidas.py.",
+  "dnit_444_2023_cla": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "\"¾ da amostra total (32,5 kg)\": com 50 kg seriam 37,5 kg (32,5 + 12,5 ≠ 50). Transcrito como no PDF."
+    }
+  ],
+  "dnit_381_2022_pro": [
+    {
+      "page": 14,
+      "cat": "erro",
+      "texto": "Tabela 5: \"amostras deformadas e informadas\" — provavelmente \"indeformadas\". Transcrito como no PDF."
+    }
+  ],
+  "dnit_453_2024_em": [
+    {
+      "page": 6,
+      "cat": "erro",
+      "texto": "Anexo B, coluna Média: 0,133 (nº 45), 0,087 (nº 70) e 0,076 (nº 80) parecem ser 0,0133 / 0,0087 / 0,0076; os valores \"até 6 %\" ao lado também destoam (p. 6–7). Transcrito como no PDF."
+    },
+    {
+      "page": null,
+      "cat": "erro",
+      "texto": "Item 3.2.3 a) cita \"Anexo C\" onde o conteúdo está no Anexo B."
+    }
+  ],
+  "dner_em_230_94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Tabela de 5.1, Classe II: massa unitária \"Máx. –\" e \"Mín. 0,880\" — colunas possivelmente trocadas. Transcrito como no PDF."
+    }
+  ],
+  "dner_em_371_00": [
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "Referências: DNER-ME 018/94 aparece três vezes (itens b, c e d)."
+    }
+  ],
+  "dner_em_372_00": [
+    {
+      "page": null,
+      "cat": "erro",
+      "texto": "Referências: DNER-ME 246/94 aparece duas vezes (itens c e f)."
+    }
+  ],
+  "dner_em_374_97": [
+    {
+      "page": null,
+      "cat": "erro",
+      "texto": "Item 4.6 cita \"ver 4.9.1\", item que não existe na norma."
+    }
+  ],
+  "DNIT_409_2017_PRO": [
+    {
+      "page": null,
+      "cat": "erro",
+      "texto": "O índice cita uma \"Tabela 2\" que não existe na norma."
+    }
+  ],
+  "dner-pro-103-94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Tabela 2, segunda linha: \"1 a 75 tambores\" (a primeira já é \"1 a 25\"). Transcrito como no PDF."
+    }
+  ],
+  "dnit_435_2021_pro": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "\"30 mm\" — provavelmente 30 µm. Transcrito como no PDF."
+    }
+  ],
+  "dnit_060_2004_pro": [
+    {
+      "page": 11,
+      "cat": "erro",
+      "texto": "Severidade A = \"20\" — provavelmente > 20. Transcrito como no PDF."
+    }
+  ],
+  "dnit_438_2022_pro": [
+    {
+      "page": null,
+      "cat": "erro",
+      "texto": "4 b) cita \"subseção 3.3\", mas TNM é definido em 3.5; a seção 4 remete aos exemplos no \"Anexo C\" (estão no B) e 5.3 cita \"Anexo D\" (é o C)."
+    }
+  ],
+  "dnit_085_2006_es": [
+    {
+      "page": null,
+      "cat": "erro",
+      "texto": "Seção 8, item g): \"umidade\" — provavelmente \"unidade\". Transcrito como no PDF."
+    }
+  ],
+  "dnit_010_2024_pro": [
+    {
+      "page": null,
+      "cat": "incerto",
+      "texto": "Quadro 1: o título \"Tipo de inspeção\" da 1ª coluna foi criado na transcrição (no PDF a coluna não tem título)."
+    }
+  ],
+  "dnit_097_2025_pro": [
+    {
+      "page": null,
+      "cat": "incerto",
+      "texto": "Tabelas do Anexo A: cabeçalhos como \"Serviço | Situação\" foram criados na transcrição (no PDF não há linha de cabeçalho)."
+    }
+  ],
+  "dnit_182_2018_pro-hiperlink": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "Tabela 1: \"CentroOeste\" do PDF escrito como \"Centro-Oeste\"."
+    }
+  ],
+  "dnit_385_2026_es": [
+    {
+      "page": 9,
+      "cat": "contradicao",
+      "texto": "Estabilidade Marshall: Tabela 4 exige ≥ 700 kgf; o Anexo E (p. 31) indica ≥ 500 kgf. Controle de serviços adotou 700."
+    },
+    {
+      "page": 9,
+      "cat": "contradicao",
+      "texto": "Resistência à tração: texto (7.2.4 c) exige ≥ 0,70 MPa; o Anexo E (p. 31) indica ≥ 0,65 MPa. Adotado 0,70."
+    },
+    {
+      "page": 9,
+      "cat": "contradicao",
+      "texto": "Dano por umidade induzida: texto (7.2.4 d) exige RRT ≥ 0,75 a cada 5 dias; o Anexo E (p. 31) indica ≥ 0,70 com frequência semanal. Adotado o texto."
+    },
+    {
+      "page": 31,
+      "cat": "contradicao",
+      "texto": "Degradação Marshall: o Anexo E inverte os limites de IDm e IDml (IDm ≤ 5 %, IDml ≤ 8 %) em relação ao texto de 5.1.2.1 a. Adotado o texto."
+    }
+  ],
+  "dnit_407_2017_es-1": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "Expansão: 5.1.2 admite ≤ 1 %, mas o controle em 7.4.1 (p. 6) exige < 0,5 %."
+    }
+  ],
+  "dnit_138_2010_es-1": [
+    {
+      "page": 2,
+      "cat": "contradicao",
+      "texto": "Expansão: o preâmbulo de 5.1 remete à DNIT 108-ES (≤ 2 %), mas a alínea 5.1 c fixa ≤ 1 %. Adotado ≤ 1 %."
+    }
+  ],
+  "dnit_153_2010_es-1": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "Teor de betume: a Tabela 2 indica tolerância de ± 2 %; o texto de 7.2.1 (p. 7) indica ± 0,3 %. Adotado ± 0,3 %."
+    }
+  ],
+  "dnit_139_2010_es-1": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Umidade para compactação: 5.3 d admite de −2 a +1 ponto percentual em relação à ótima; 7.2 a admite ± 2 pontos."
+    }
+  ],
+  "dner_es_391_99": [
+    {
+      "page": 8,
+      "cat": "contradicao",
+      "texto": "7.1.2 cita DNER-ME 078 para adesividade, mas as referências (p. 2) listam apenas DNER-ME 079/94."
+    }
+  ],
+  "dner_es_394_99": [
+    {
+      "page": 2,
+      "cat": "contradicao",
+      "texto": "A ES é de macadame com asfalto polímero, mas cita as especificações de ligantes convencionais DNER-EM 204/95 e 369/97."
+    }
+  ],
+  "dnit_098_2007_es": [
+    {
+      "page": 6,
+      "cat": "contradicao",
+      "texto": "7.4.1 remete à alínea \"b\" de 5.3 para LL e IP, mas esses limites estão na alínea \"c\"."
+    }
+  ],
+  "dnit_140_2022_es": [
+    {
+      "page": 8,
+      "cat": "contradicao",
+      "texto": "7.3.2 b exige o grau de compactação \"especificado\", mas a ES não informa o valor mínimo (a DNIT 142-ES, similar, fixa ≥ 100 %)."
+    }
+  ],
+  "dnit_150_2010-es-1": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Tabela 2: a última linha repete o rótulo \"Taxa de aplicação\" (8–13 / 10–16 / 7,5–13,5 % da mistura seca); provavelmente é o teor de emulsão. Não incluída no controle de serviços."
+    }
+  ],
+  "dnit_032_2005_es": [
+    {
+      "page": 9,
+      "cat": "erro",
+      "texto": "7.3 d traz \"VDR = 45\" (provavelmente VDR ≥ 45) e \"0,6 > HS > 1,2 mm (NF P-38)\" (provavelmente 0,6 ≤ HS ≤ 1,2 mm; a referência é NF P 98-216)."
+    },
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.1.2.2 cita \"DNER-ME 367\" para o material de enchimento; trata-se da DNER-EM 367/97."
+    }
+  ],
+  "dnit_034_2005_es": [
+    {
+      "page": 11,
+      "cat": "erro",
+      "texto": "7.3 d: os sinais de VDR e HS aparecem como \"=\" no PDF; interpretados como VDR ≥ 45 e 0,60 ≤ HS ≤ 1,20 mm (como na DNIT 031-ES)."
+    }
+  ],
+  "dner_es_390_99": [
+    {
+      "page": 10,
+      "cat": "erro",
+      "texto": "7.1.1 cita DNER-ME 003 para a desemulsibilidade; o método correto, listado nas referências (p. 2), é DNER-ME 063/94."
+    }
+  ],
+  "dnit_112_2009_es-1": [
+    {
+      "page": 9,
+      "cat": "erro",
+      "texto": "7.2.1 a cita \"DNER-ES 053/94\" para o teor de ligante; trata-se do método DNER-ME 053/94."
+    }
+  ]
+}

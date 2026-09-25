@@ -1,0 +1,72 @@
+{
+  "tab01": {
+    "page": 6,
+    "bbox": [
+      215.6,
+      195.1,
+      449.0,
+      309.4
+    ],
+    "ignorar": true,
+    "nota": "não é tabela: gráfico da Curva Característica de Operação (vira figura fig01)",
+    "texto_removido": [
+      "α = 0,10 = 0,10 p 1 = 0,05 p 2 = 0,25"
+    ]
+  },
+  "tab02": {
+    "page": 6,
+    "bbox": [
+      112.8,
+      666.4,
+      555.3,
+      711.8
+    ],
+    "ignorar": true,
+    "nota": "Tabela 1, posta no lugar da lista de 5.2: refeita em tabm01 (6.1)",
+    "texto_removido": [
+      "α = 0,10 β = 0,10 p 1 = 0,05 ⇒ L (0,05) = 1 - 0,10 = 0,90 p 2 = 0,25 ⇒ L (0,25) = 0,10 n = 12 k = 1,155"
+    ],
+    "nota_tabela": "n = n° de amostras; k = coeficiente multiplicador; α = risco do Executante."
+  },
+  "tab03": {
+    "page": 7,
+    "bbox": [
+      118.8,
+      136.4,
+      516.0,
+      181.9
+    ],
+    "ignorar": true,
+    "nota": "Tabela 2, posta junto do gráfico de 5.2.1: refeita em tabm02 (6.1)",
+    "texto_removido": [
+      "0,02 0,05 0,10 0,15 0,20 0,25 0,30"
+    ],
+    "nota_tabela": "n = n° de amostras; k = coeficiente multiplicador; α = risco do Executante."
+  },
+  "tabm01": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      105,
+      648,
+      560,
+      730
+    ],
+    "md": "| n | 5 | 6 | 7 | 8 | 9 | 10 | 12 | 13 | 14 | 15 | 16 | 17 | 19 | 21 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| k | 1,55 | 1,41 | 1,36 | 1,31 | 1,25 | 1,21 | 1,16 | 1,13 | 1,11 | 1,10 | 1,08 | 1,06 | 1,04 | 1,01 |\n| α | 0,45 | 0,35 | 0,30 | 0,25 | 0,19 | 0,15 | 0,10 | 0,08 | 0,06 | 0,05 | 0,04 | 0,03 | 0,02 | 0,01 |",
+    "de_inicio": "### TABELA 1 AMOSTRAGEM VARIÁVEL",
+    "nota": "Tabela 1 (posta pelo t13 de data/formulas)"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 7,
+    "clip": [
+      105,
+      118,
+      560,
+      202
+    ],
+    "md": "| n | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 15 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| k | 1,32 | 1,26 | 1,15 | 1,14 | 1,05 | 1,03 | 0,99 | 0,97 | 0,95 | 0,92 |\n| α | 0,30 | 0,25 | 0,16 | 0,15 | 0,08 | 0,06 | 0,04 | 0,03 | 0,02 | 0,01 |",
+    "de_inicio": "### TABELA 2 AMOSTRAGEM VARIÁVEL",
+    "nota": "Tabela 2 (posta pelo t16 de data/formulas)"
+  }
+}

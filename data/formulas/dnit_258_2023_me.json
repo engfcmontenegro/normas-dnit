@@ -1,0 +1,459 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      150.2,
+      173.8,
+      178.8
+    ],
+    "raw": "Afundamento (𝒂 𝒏 ) 3.7",
+    "latex": "",
+    "ignorar": true,
+    "nota": "título de seção 3.7"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      267.7,
+      294.0,
+      296.4
+    ],
+    "raw": "𝑎 𝑛 = 𝐴 𝑛 −𝐴 4𝑛 (1)",
+    "latex": "a_n = A_n - A_{4n} \\tag{1}"
+  },
+  "eq03": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      325.9,
+      294.0,
+      369.0
+    ],
+    "raw": "𝑎 𝑛 é o afundamento do golpe n, expresso em milímetros (mm);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq04": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      490.3,
+      294.0,
+      519.0
+    ],
+    "raw": "𝑎 𝑛 = 𝐴 𝑛 −𝐴 𝑓 (2)",
+    "latex": "a_n = A_n - A_f \\tag{2}"
+  },
+  "eq05": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      550.6,
+      294.0,
+      593.0
+    ],
+    "raw": "𝑎 𝑛 é o afundamento do golpe n, expresso em milímetros (mm);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq06": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      144.4,
+      563.4,
+      172.2
+    ],
+    "raw": "𝑀𝑖𝑛𝑖−𝑀𝐶𝑉= 10 ∙𝑙𝑜𝑔 10 (𝐵 𝑛 ) (3)",
+    "latex": "Mini - MCV = 10 \\cdot \\log_{10}(B_n) \\tag{3}"
+  },
+  "eq07": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      336.7,
+      498.4,
+      364.0
+    ],
+    "raw": "Coeficiente de argilosidade (𝒄 ′ ) 3.10",
+    "latex": "",
+    "ignorar": true,
+    "nota": "título de seção 3.10"
+  },
+  "eq08": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      441.6,
+      563.4,
+      479.3
+    ],
+    "raw": "𝑐 ′ = | ∆𝑎 𝑛 ∆(𝑀𝑖𝑛𝑖−𝑀𝐶𝑉) | (4)",
+    "latex": "c' = \\left|\\frac{\\Delta a_n}{\\Delta(Mini - MCV)}\\right| \\tag{4}"
+  },
+  "eq09": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      510.7,
+      563.4,
+      538.0
+    ],
+    "raw": "𝑐 ′ é o coeficiente de argilosidade, expresso em",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq10": {
+    "page": 3,
+    "bbox": [
+      360.4,
+      728.7,
+      560.8,
+      756.4
+    ],
+    "raw": "abscissas na escala 10. 𝑙𝑜𝑔 10 (𝑛), conforme a",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido com expressão inline"
+  },
+  "eq11": {
+    "page": 4,
+    "bbox": [
+      48.6,
+      512.5,
+      155.8,
+      539.8
+    ],
+    "raw": "Coeficiente 𝒅 ′ 3.12",
+    "latex": "",
+    "ignorar": true,
+    "nota": "título de seção 3.12"
+  },
+  "eq12": {
+    "page": 4,
+    "bbox": [
+      48.6,
+      692.7,
+      294.0,
+      731.7
+    ],
+    "raw": "𝑑 ′ = ∆𝑀𝐸𝐴𝑆 (5) ∆ℎ 𝑐",
+    "latex": "d' = \\frac{\\Delta MEAS}{\\Delta h_c} \\tag{5}"
+  },
+  "eq13": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      216.0,
+      563.4,
+      243.7
+    ],
+    "raw": "∆ℎ 𝑐 é a variação do teor de umidade do solo, para a parte",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq14": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      399.8,
+      563.4,
+      439.4
+    ],
+    "raw": "𝑀 𝑑 ×𝐿 𝑐𝑝 𝑃𝑖= 100 × 𝑀 𝑠 ×𝐿 𝑒𝑥 × 𝐹 𝑐 (6)",
+    "latex": "Pi = 100 \\times \\frac{M_d \\times L_{cp}}{M_s \\times L_{ex}} \\times F_c \\tag{6}"
+  },
+  "eq15": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      618.3,
+      563.2,
+      646.0
+    ],
+    "raw": "𝐿 𝑐𝑝 é a altura do CP íntegro, antes da imersão, expressa",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq16": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      712.3,
+      563.4,
+      741.9
+    ],
+    "raw": "𝐹 𝑐 é o fator de correção, adimensional (𝐹 𝑐 = 1 :",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq17": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      449.1,
+      293.9,
+      477.7
+    ],
+    "raw": "g) Calcular a constante de aferição (𝐾 𝑎 ) do conjunto",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido (alínea)"
+  },
+  "eq18": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      514.2,
+      294.0,
+      542.9
+    ],
+    "raw": "𝐾 𝑎 = 𝐴 𝑐 + 𝐿 𝑎 (7)",
+    "latex": "K_a = A_c + L_a \\tag{7}"
+  },
+  "eq19": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      574.7,
+      294.0,
+      617.3
+    ],
+    "raw": "𝐾 𝑎 é a constante de aferição, expressa em milímetros (mm);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq20": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      667.0,
+      294.0,
+      694.7
+    ],
+    "raw": "𝐿 𝑎 é a leitura do extensômetro a que se refere a alínea",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq21": {
+    "page": 7,
+    "bbox": [
+      48.4,
+      712.1,
+      291.5,
+      740.9
+    ],
+    "raw": "NOTA 4: A constante 𝐾 𝑎 depende da posição do",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto de nota"
+  },
+  "eq22": {
+    "page": 7,
+    "bbox": [
+      360.4,
+      154.4,
+      463.6,
+      182.1
+    ],
+    "raw": "uso da constante 𝐾 𝑎 .",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  },
+  "eq23": {
+    "page": 9,
+    "bbox": [
+      65.7,
+      205.9,
+      117.6,
+      233.6
+    ],
+    "raw": "𝐴 1 e 𝐵 1 .",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  },
+  "eq24": {
+    "page": 9,
+    "bbox": [
+      65.7,
+      315.2,
+      233.9,
+      343.6
+    ],
+    "raw": "𝐴 2 −𝐴 1 e 𝐵 2 −𝐵 1 , respectivamente.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  },
+  "eq25": {
+    "page": 9,
+    "bbox": [
+      48.6,
+      668.9,
+      294.0,
+      707.8
+    ],
+    "raw": "(𝑚 ℎ −𝑚 𝑠 )×100 ℎ= (8) 𝑚 𝑠",
+    "latex": "h = \\frac{(m_h - m_s) \\times 100}{m_s} \\tag{8}"
+  },
+  "eq26": {
+    "page": 9,
+    "bbox": [
+      48.6,
+      738.5,
+      286.1,
+      764.9
+    ],
+    "raw": "ℎ é o teor de umidade, expresso em porcentagem (%);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq27": {
+    "page": 9,
+    "bbox": [
+      318.1,
+      253.6,
+      563.4,
+      282.2
+    ],
+    "raw": "𝐴 𝑛 = 𝐾 𝑎 −𝐿 𝑛 (9)",
+    "latex": "A_n = K_a - L_n \\tag{9}"
+  },
+  "eq28": {
+    "page": 9,
+    "bbox": [
+      318.1,
+      312.0,
+      563.4,
+      339.7
+    ],
+    "raw": "𝐴 𝑛 é a altura do corpo de prova, após a aplicação de 𝑛",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq29": {
+    "page": 9,
+    "bbox": [
+      318.1,
+      357.1,
+      347.8,
+      384.8
+    ],
+    "raw": "𝐾 𝑎",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda"
+  },
+  "eq30": {
+    "page": 9,
+    "bbox": [
+      318.1,
+      402.2,
+      563.4,
+      430.0
+    ],
+    "raw": "𝐿 𝑛 é a leitura do extensômetro, após a aplicação de n",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq31": {
+    "page": 9,
+    "bbox": [
+      318.1,
+      649.7,
+      563.4,
+      688.6
+    ],
+    "raw": "𝑀 ℎ ×100 𝑀𝐸𝐴𝑆= (100+ℎ 𝑐 )×𝑉 (10)",
+    "latex": "MEAS = \\frac{M_h \\times 100}{(100 + h_c) \\times V} \\tag{10}"
+  },
+  "eq32": {
+    "page": 10,
+    "bbox": [
+      318.1,
+      59.4,
+      563.3,
+      87.7
+    ],
+    "raw": "e) Calcular o coeficiente 𝑑 ′ para a curva de",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido (alínea)"
+  },
+  "eq33": {
+    "page": 10,
+    "bbox": [
+      318.1,
+      571.9,
+      434.7,
+      599.2
+    ],
+    "raw": "k) coeficientes 𝑐 ′ e 𝑑 ′ ;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido (alínea)"
+  },
+  "eq34": {
+    "page": 19,
+    "bbox": [
+      185.0,
+      709.7,
+      427.0,
+      754.9
+    ],
+    "raw": "∆𝑀𝑖𝑛𝑖−𝑀𝐶𝑉 | = | 8 −2 ∆𝑎 𝑛 𝑐 ′ = | 5 −10 | = 1,20 𝑚𝑚",
+    "latex": "c' = \\left|\\frac{\\Delta a_n}{\\Delta Mini - MCV}\\right| = \\left|\\frac{8 - 2}{5 - 10}\\right| = 1{,}20\\ \\text{mm}"
+  },
+  "eq35": {
+    "page": 20,
+    "bbox": [
+      179.6,
+      396.3,
+      429.9,
+      443.1
+    ],
+    "raw": "𝑑 ′ = ∆𝑀𝐸𝐴𝑆 = 1650 −1575 ∆ℎ 𝑐 15 −14 ⁄ = 75 𝑘𝑔∙𝑚³ %",
+    "latex": "d' = \\frac{\\Delta MEAS}{\\Delta h_c} = \\frac{1650 - 1575}{15 - 14} = 75\\ kg \\cdot m^3/\\%"
+  },
+  "eq36": {
+    "page": 22,
+    "bbox": [
+      48.6,
+      131.7,
+      296.8,
+      157.9
+    ],
+    "raw": "Afundamento (an) ................................................. 3.7......3",
+    "latex": "",
+    "ignorar": true,
+    "nota": "linha do índice"
+  },
+  "eq37": {
+    "page": 22,
+    "bbox": [
+      48.6,
+      246.3,
+      296.8,
+      272.5
+    ],
+    "raw": "Coeficiente d' ..................................................... 3.12......4",
+    "latex": "",
+    "ignorar": true,
+    "nota": "linha do índice"
+  }
+}

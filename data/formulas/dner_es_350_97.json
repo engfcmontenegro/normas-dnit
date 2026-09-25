@@ -1,0 +1,57 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "400,0 cm 2 ,",
+    "para": "400,0 cm²,",
+    "nota": "5.4.3: expoente perdido"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "2.450 kg/cm 2 (",
+    "para": "2.450 kg/cm² (",
+    "nota": "5.13.4 c"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "8,1 x 10 3 megaohms",
+    "para": "8,1 x 10³ megaohms",
+    "nota": "5.13.4 d"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "0,80 m 2 ,",
+    "para": "0,80 m²,",
+    "nota": "5.15"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "medição em m 2 ,",
+    "para": "medição em m²,",
+    "nota": "7"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "para agregado médio\n\n- n os 1, 2 e 3",
+    "para": "para agregado médio - nºs 1, 2 e 3",
+    "nota": "5.15.2: parágrafo partido e nº com sobrescrito perdido"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": " - n os ",
+    "para": " - nºs ",
+    "nota": "5.15.2: sobrescrito de nºs perdido"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "carborundum de n o 30 até o de n o 60",
+    "para": "carborundum de nº 30 até o de nº 60",
+    "nota": "5.15.5"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "5.1 7 O revestimento",
+    "de_fim": "5.1 7 O revestimento",
+    "para": "**5.17** O revestimento",
+    "nota": "número do item 5.17 quebrado"
+  }
+}

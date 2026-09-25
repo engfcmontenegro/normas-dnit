@@ -1,0 +1,55 @@
+{
+  "eq01": {
+    "page": 10,
+    "bbox": [
+      371.5,
+      129.0,
+      468.3,
+      226.4
+    ],
+    "raw": "∑ x = 1 X n = ∑ − 2 ( x x ) 1 S − n 1",
+    "latex": [
+      "\\overline{X} = \\frac{\\sum x_1}{n}",
+      "S = \\sqrt{\\frac{\\sum (x_1 - x)^2}{n - 1}}"
+    ],
+    "nota": "p. 10: o PDF escreve x1 (índice 1, e não i) e (x1 - x) sem barra; transcrito como está"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "x - ks < valor mínimo especificado ou;\n\nx + ks > valor máximo de projeto - Não Conformidade;\n\nx - ks = valor mínimo especificado ou;\n\nx + ks = valor máximo de projeto - Conformidade;",
+    "para": "$\\overline{x} - ks$ < valor mínimo especificado ou;\n\n$\\overline{x} + ks$ > valor máximo de projeto - Não Conformidade;\n\n$\\overline{x} - ks$ = valor mínimo especificado ou;\n\n$\\overline{x} + ks$ = valor máximo de projeto - Conformidade;",
+    "nota": "p. 10: o PDF traz '=' nas condições de conformidade (provavelmente ≥ e ≤ perdidos); transcrito como está"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "$1^{x}$$^{– valores individuais}$\n\nX – média da amostra\n\nS - desvio padrão da amostra.\n\nk - coeficiente tabelado em função do número de determinações.\n\nn - número de determinações.",
+    "para": "$x_1$ – valores individuais\n\n$\\overline{X}$ – média da amostra\n\n$S$ - desvio padrão da amostra.\n\n$k$ - coeficiente tabelado em função do número de determinações.\n\n$n$ - número de determinações.",
+    "nota": "legenda quebrada"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "Se x - ks < valor mínimo especificado - Não Conformidade;\n\nSe x - ks ≥ valor mínimo especificado - Conformidade.",
+    "para": "Se $\\overline{x} - ks$ < valor mínimo especificado - Não Conformidade;\n\nSe $\\overline{x} - ks$ ≥ valor mínimo especificado - Conformidade."
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "**7.5** Condições de Conformidade e Não\n\nConformidade",
+    "para": "**7.5** Condições de Conformidade e Não Conformidade"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "| ∀ |",
+    "para": "| α |",
+    "nota": "p. 10: 'α' da fonte Symbol aparece como '∀' no PDF (risco do executante)"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "∀ = risco do Executante",
+    "para": "α = risco do Executante"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "2,5 Kgf/cm²a 8,4",
+    "para": "2,5 Kgf/cm² a 8,4"
+  }
+}

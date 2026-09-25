@@ -1,0 +1,21 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "51,5 Kg/cm 2 (",
+    "para": "51,5 Kg/cm² (",
+    "nota": "6.2.3: expoente perdido"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "0,093 m 2 (",
+    "para": "0,093 m² (",
+    "nota": "6.2.3: expoente perdido"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "**5.2.1** Marcos 5.2 . 1.1 Os marcos",
+    "de_fim": "1.1 Os marcos",
+    "para": "**5.2.1** Marcos\n\n**5.2.1.1** Os marcos",
+    "nota": "título 5.2.1.1 grudado no 5.2.1"
+  }
+}

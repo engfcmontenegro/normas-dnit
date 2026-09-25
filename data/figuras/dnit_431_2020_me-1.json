@@ -1,0 +1,32 @@
+{
+  "fig01": {
+    "page": 6,
+    "bbox": [
+      87.1,
+      72.6,
+      522.4,
+      236.4
+    ],
+    "legenda": "Figura A1 – Esquema para marcação dos locais de ensaio"
+  },
+  "fig02": {
+    "page": 6,
+    "bbox": [
+      212.2,
+      288.5,
+      397.6,
+      434.3
+    ],
+    "legenda": "Figura A2 – Layout para as cinco leituras no local de ensaio"
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      233.4,
+      486.9,
+      376.1,
+      689.2
+    ],
+    "legenda": "Figura A3 – Densímetro não nuclear de mistura asfáltica"
+  }
+}

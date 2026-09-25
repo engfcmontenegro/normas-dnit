@@ -1,0 +1,63 @@
+{
+  "eq01": {
+    "page": 10,
+    "clip": [
+      65,
+      213,
+      250,
+      318
+    ],
+    "latex": [
+      "\\overline{X} = \\frac{\\sum X_i}{n}",
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `X Xi n = ∑ ( ) s Xi X n = ∑ − − 2 1`",
+    "de_fim": "- número de determinações.",
+    "para": "$$\n\\overline{X} = \\frac{\\sum X_i}{n}\n$$\n\n$$\ns = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}\n$$\n\nonde:\n\n$X_i$ - valores individuais;\n$\\overline{X}$ - média da amostra;\n$s$ - desvio padrão da amostra;\n$k$ - coeficiente tabelado em função do número de determinações;\n$n$ - número de determinações."
+  },
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo de projeto ou X + ks > valor máximo",
+    "para": "$\\overline{X} - ks$ < valor mínimo de projeto ou $\\overline{X} + ks$ > valor máximo"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo de projeto e X + ks ≤ valor máximo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo de projeto e $\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "3.000 m 2 )",
+    "para": "3.000 m²)"
+  },
+  "t04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "700m 2 de pista",
+    "para": "700 m² de pista"
+  },
+  "x01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `ABNT mm A B C D E A A`",
+    "para": "",
+    "nota": "aviso falso: cabeçalho da tabela de 5.1.3 (tabm01)"
+  },
+  "x02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `n 5 6 7 8 9 10 12 13 14 15 16 17 19 21 k`\n\n### Tabela de amostragem variável",
+    "para": "### Tabela de amostragem variável\n\nn 5 6 7 8 9 10 12 13 14 15 16 17 19 21",
+    "nota": "aviso falso: linha n da tabela de amostragem; vira texto que tabelas_dner troca pela tabm02"
+  },
+  "x03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "![[dner_es_394_99_tabm02.png]]\n\nO número mínimo",
+    "para": "![[dner_es_394_99_tabm02.png]]\n\nn = n° de amostras k = coeficiente multiplicador α = risco do executante\n\nO número mínimo",
+    "nota": "repõe a nota da tabela de amostragem (saía junto com a tab02 automática)"
+  }
+}

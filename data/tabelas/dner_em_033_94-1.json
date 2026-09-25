@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      82,
+      498,
+      505,
+      640
+    ],
+    "md": "| Preservativo | Temperatura máxima ºC | Temperatura máxima ºF |\n| --- | --- | --- |\n| Sais de Wolman e Osmosalts | 60 | 140 |\n| Sal de Boliden | 49 | 120 |\n| Chemonite | 66 | 150 |",
+    "de_inicio": "![[dner_em_033_94-1_fig01.png]]",
+    "nota": "tabela de 5.5 (Temperatura máxima da solução na autoclave) tinha virado figura (fig01)"
+  }
+}

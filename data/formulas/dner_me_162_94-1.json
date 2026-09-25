@@ -1,0 +1,76 @@
+{
+  "eq01": {
+    "page": 4,
+    "clip": [
+      70,
+      626,
+      260,
+      682
+    ],
+    "latex": [
+      "h = \\frac{P_h - P_s}{P_s} \\times 100"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `P-P h= 2 8100 P s`",
+    "de_fim": "até constância de peso.",
+    "para": "$$\nh = \\frac{P_h - P_s}{P_s} \\times 100\n$$\n\nonde:\n\n$h$ - teor de umidade em percentagem;\n$P_h$ - peso da amostra úmida, como obtida em 5.3;\n$P_s$ - peso da amostra seca em estufa na temperatura de 110 ºC ± 5 ºC, até constância de peso."
+  },
+  "eq02": {
+    "page": 5,
+    "clip": [
+      70,
+      146,
+      260,
+      212
+    ],
+    "latex": [
+      "\\gamma_h = \\frac{P'_h}{V}"
+    ],
+    "de_inicio": "**7.2** Massa específica aparente do solo seco compactado a) calcular",
+    "de_fim": "em cm3 (capacidade do molde).",
+    "para": "**7.2** Massa específica aparente do solo seco compactado\n\na) calcular primeiramente a massa específica aparente do solo úmido, após cada compactação, pela fórmula:\n\n$$\n\\gamma_h = \\frac{P'_h}{V}\n$$\n\nonde:\n\n$\\gamma_h$ - massa específica aparente do solo úmido, em g/cm³;\n$P'_h$ - peso do solo úmido compactado, obtido como indicado em 5.2, em g;\n$V$ - volume do solo compactado, em cm³ (capacidade do molde)."
+  },
+  "eq03": {
+    "page": 5,
+    "clip": [
+      70,
+      338,
+      260,
+      392
+    ],
+    "latex": [
+      "\\gamma_s = \\gamma_h \\times \\frac{100}{100 + h}"
+    ],
+    "de_inicio": "b) determinar, a seguir, a massa específica aparente do solo seco",
+    "de_fim": "teor de umidade do solo compactado, obtido como indicado em 7.1.",
+    "para": "b) determinar, a seguir, a massa específica aparente do solo seco, após cada compactação, pela fórmula:\n\n$$\n\\gamma_s = \\gamma_h \\times \\frac{100}{100 + h}\n$$\n\nonde:\n\n$\\gamma_s$ - massa específica aparente do solo seco, em g/cm³;\n$\\gamma_h$ - massa específica aparente do solo úmido, em g/cm³;\n$h$ - teor de umidade do solo compactado, obtido como indicado em 7.1."
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "o peso do material úmido compactado, Ph.",
+    "para": "o peso do material úmido compactado, $P'_h$.",
+    "nota": "5.2: P'h lido como Ph"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "aparentes do solo seco Y. e,",
+    "para": "aparentes do solo seco $\\gamma_s$ e,",
+    "nota": "8.1: γs lido como Y."
+  },
+  "anexo": {
+    "de_inicio": "\n\nANEXO NORMATIVO — FIGURAS",
+    "de_fim": "<<FIM>>",
+    "para": "\n\n## ANEXO NORMATIVO — FIGURAS\n\n![[dner_me_162_94-1_fig01.png]]\n\n### Figura 1 - Molde cilíndrico, cilindro complementar e base metálica\n\n![[dner_me_162_94-1_fig02.png]]\n\n### Figura 2 - Disco espaçador\n\n### Figura 3 - Soquete\n\nUnidade de medida: centímetro (cm)\n",
+    "texto": true,
+    "nota": "anexo reescrito: rótulos do OCR removidos, legendas do PDF"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "E desenhada a curva",
+    "para": "É desenhada a curva"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "E o valor da abscissa",
+    "para": "É o valor da abscissa"
+  }
+}

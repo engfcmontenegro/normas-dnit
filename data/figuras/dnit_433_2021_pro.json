@@ -1,0 +1,28 @@
+{
+  "fig01": {
+    "page": 3,
+    "bbox": [
+      56.6,
+      481.0,
+      283.4,
+      590.2
+    ],
+    "legenda": "Figura 1 – Detalhe de divisão em seções de uma"
+  },
+  "fig02": {
+    "page": 6,
+    "bbox": [
+      56.2,
+      47.0,
+      551.8,
+      459.5
+    ],
+    "legenda": "Figura B1 – Treliça para medição das flechas da trilha de roda (Fonte: DNIT 006/2003 – PRO)",
+    "clip": [
+      52,
+      64,
+      556,
+      462
+    ]
+  }
+}

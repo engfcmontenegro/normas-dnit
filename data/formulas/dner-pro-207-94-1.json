@@ -1,0 +1,570 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "Apresentação\n\nObjetivo",
+    "de_fim": "APDECENTAÇÂn uv CRE EREAJEGLN 1a Las",
+    "para": "## 0 APRESENTAÇÃO",
+    "nota": "sumário da capa achatado (com títulos falsos '## 10...') e aviso falso"
+  },
+  "x02": {
+    "todas": true,
+    "de_inicio": "apos se) protendido;",
+    "para": "a) DNER-PRO 207/87 - Projeto, execução e retirada de cimbramentos de pontes de concreto armado e protendido;"
+  },
+  "x03": {
+    "todas": true,
+    "de_inicio": "ermiticla desde que citado o DNER como fonte Reprodução p 2a EN = usos jus ques SÊ eme tJ.1 Valgas lIAdS",
+    "para": "**4.3.1** Cargas fixas"
+  },
+  "eq01": {
+    "page": 5,
+    "clip": [
+      66,
+      348,
+      200,
+      370
+    ],
+    "latex": [
+      "\\gamma = 25\\ \\text{kN/m}^3\\ (2{,}5\\ \\text{tf/m}^3)"
+    ],
+    "de_inicio": "Y=25 kNmº (2,5 tfim?)",
+    "de_fim": "(2,5 tfim?)",
+    "para": "$$\n\\gamma = 25\\ \\text{kN/m}^3\\ (2{,}5\\ \\text{tf/m}^3)\n$$"
+  },
+  "eq02": {
+    "page": 5,
+    "clip": [
+      66,
+      424,
+      340,
+      500
+    ],
+    "latex": [
+      "0 < h < 1\\ \\text{m} \\qquad p = 24\\ \\text{kN/m}^2 \\quad (2400\\,h\\ \\text{kgf/m}^2)",
+      "h > 1\\ \\text{m} \\qquad p = 7 + 17\\,h \\leq 100\\ \\text{kN/m}^2 \\quad (700 + 1\\,700\\,h \\leq 10\\,000\\ \\text{kgf/m}^2)"
+    ],
+    "de_inicio": "0O<h<iIm p=24kN'm? (2400h kgfm?)",
+    "de_fim": "em metros.",
+    "para": "$$\n0 < h < 1\\ \\text{m} \\qquad p = 24\\ \\text{kN/m}^2 \\quad (2400\\,h\\ \\text{kgf/m}^2)\n$$\n\n$$\nh > 1\\ \\text{m} \\qquad p = 7 + 17\\,h \\leq 100\\ \\text{kN/m}^2 \\quad (700 + 1\\,700\\,h \\leq 10\\,000\\ \\text{kgf/m}^2)\n$$\n\nonde:\n\n$h$ - altura do concreto fresco, acima do ponto considerado, em metros.",
+    "nota": "p. 5: '0 < h < 1 m  p = 24 kN/m² (2400 h kgf/m²)' — o h falta no valor em kN/m² (provável erro do PDF: 24 h); transcrito como está"
+  },
+  "eq03": {
+    "page": 5,
+    "clip": [
+      66,
+      662,
+      240,
+      684
+    ],
+    "latex": [
+      "\\Delta = 0{,}0025\\,l \\leq 5\\ \\text{mm} \\quad (l\\ \\text{em mm})"
+    ]
+  },
+  "x04": {
+    "todas": true,
+    "de_inicio": "recaique diferencial À entre dois apoios\n\nA = 0,00251\n\n## 5 mm (lem mm) produzir",
+    "para": "recalque diferencial Δ entre dois apoios\n\n$$\n\\Delta = 0{,}0025\\,l \\leq 5\\ \\text{mm} \\quad (l\\ \\text{em mm})\n$$\n\nproduzir"
+  },
+  "x05": {
+    "todas": true,
+    "de_inicio": "**4.3.2** mobrecargas apíicadas",
+    "para": "**4.3.2** Sobrecargas aplicadas"
+  },
+  "x06": {
+    "todas": true,
+    "de_inicio": "**4.3.4** Variação de temperatura dd taco a eta O ÀAsvariações de temperatura (LAT ) têm efeito muito pequeno sobre a madeira, porém devem ser consideradas na análise de escoramentos metálicos e de concreto, considerando-se os seguintes valores:",
+    "para": "**4.3.4** Variação de temperatura\n\nAs variações de temperatura (ΔT) têm efeito muito pequeno sobre a madeira, porém devem ser consideradas na análise de escoramentos metálicos e de concreto, considerando-se os seguintes valores:"
+  },
+  "x07": {
+    "todas": true,
+    "de_inicio": "a) construções metálicas AT=+15Ka+30K",
+    "para": "a) construções metálicas ΔT = ± 15 K a ± 30 K"
+  },
+  "x08": {
+    "todas": true,
+    "de_inicio": "b) construções em concreto AT=+15K",
+    "para": "b) construções em concreto ΔT = ± 15 K"
+  },
+  "x09": {
+    "todas": true,
+    "de_inicio": "## 4 CONTRAVENTAMENTO TRANSVERSAL\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `A n* o —+8)`\n\n",
+    "para": "",
+    "nota": "rótulos da Figura 5.2.1"
+  },
+  "x10": {
+    "todas": true,
+    "de_inicio": "A palavra escora AG 9 . 2 . provem",
+    "para": "A palavra escora provém"
+  },
+  "x11": {
+    "todas": true,
+    "de_inicio": "ilustram esses dois tipos.\n\nSão escoramentos formados",
+    "para": "ilustram esses dois tipos.\n\n**5.6** Escoramentos mistos\n\nSão escoramentos formados",
+    "nota": "título 5.6 perdido"
+  },
+  "x12": {
+    "todas": true,
+    "de_inicio": "## 44 XX\n\n",
+    "para": ""
+  },
+  "x13": {
+    "todas": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `e £ - ' , ê ê`\n\n",
+    "para": ""
+  },
+  "x14": {
+    "todas": true,
+    "de_inicio": "**1.60** =\n\n**8.50** E) CRIA ape\n\n",
+    "para": ""
+  },
+  "x15": {
+    "todas": true,
+    "de_inicio": "Reprodução permiticia desde que citado o DNER como fonte aídam AX ALXIlAcam n bamanama nam Os GSUULGLIGU(US autu-purtantes podem ser constituídos p por uma associação UG IGYUCS G LUGUIÇAMCIgUuia 5.8.1), arcostreliçados (Figura 7.2.3), outreliças apoiadasnos pilares da estrutura definitiva (Figura 5.8.2).",
+    "para": "Os escoramentos auto-portantes podem ser constituídos por uma associação de leques e treliças (Figura 5.8.1), arcos treliçados (Figura 7.2.3), ou treliças apoiadas nos pilares da estrutura definitiva (Figura 5.8.2)."
+  },
+  "x16": {
+    "todas": true,
+    "de_inicio": "**8.11** Escora\n",
+    "para": "**5.11** Escoramentos superiores\n"
+  },
+  "x17": {
+    "todas": true,
+    "de_inicio": " (1 | cm com cl em cm cm a a nt mm oa em cam hs amo amo mo cado emo cmo eo um",
+    "para": ""
+  },
+  "x18": {
+    "todas": true,
+    "de_inicio": "CONSTITUÍDO POR ASSOCIAÇÃO DE LEQUES E TRELIÇAS peca",
+    "para": "CONSTITUÍDO POR ASSOCIAÇÃO DE LEQUES E TRELIÇAS"
+  },
+  "x19": {
+    "todas": true,
+    "de_inicio": "DE UM TRECHO DE VIGA ty",
+    "para": "DE UM TRECHO DE VIGA"
+  },
+  "x20": {
+    "todas": true,
+    "de_inicio": "Reprodução dias desde que citado o DNER como fonte\n\nU.3 Remvção",
+    "para": "**6.5** Remoção"
+  },
+  "x21": {
+    "todas": true,
+    "de_inicio": "vs\n\nção 1 ansvE\n\na) SÉ é orRENTO: eae em * +1PO pouto, O MV! Ac* VINVUINAIS GW emu rs RVvLIy FUNDAÇÕES EM ESTACA DE MADEIRA, SENDO DUAS ESTACAS PARA CADA MON-TANTE:\n\na) SEÇÃO TRANSVERSAL,\n\nb) VISTA LONGITUDINAL.\n\n",
+    "para": "",
+    "nota": "legenda da Figura 7.2.1 (girada, lida em pedaços no meio da lista); a legenda está na imagem fig15"
+  },
+  "x22": {
+    "todas": true,
+    "de_inicio": "grau de umidade de cerca de 3040;",
+    "para": "grau de umidade de cerca de 30%;"
+  },
+  "x23": {
+    "todas": true,
+    "de_inicio": "c) madeira seca ao ar - evaporação da água da madeira chega a um ponto de equilíbrio com a umidade io a o grau de umidade desse estágio depende da umidade atmosférica, variando geralmente entre 0% a (a",
+    "para": "c) madeira seca ao ar - evaporação da água da madeira chega a um ponto de equilíbrio com a umidade do ar; o grau de umidade desse estágio depende da umidade atmosférica, variando geralmente entre 10% a 20%."
+  },
+  "x24": {
+    "todas": true,
+    "de_inicio": "PARA VÃO ATE 100 m p. 26/62. Entre os estágios de madeira verde e meio seca, as madeiras não soírem alterações de resistencia mecanica, nem penetrações.",
+    "para": "PARA VÃO ATÉ 100 m\n\nEntre os estágios de madeira verde e meio seca, as madeiras não sofrem alterações de resistência mecânica, nem penetrações."
+  },
+  "x25": {
+    "todas": true,
+    "de_inicio": "anto, às Pv aplicam, entret",
+    "para": "As reduções indicadas acima não se aplicam, entretanto, às p[…]",
+    "nota": "p. 26: fim da página em tira desalinhada, resto da frase ilegível"
+  },
+  "x26": {
+    "todas": true,
+    "de_inicio": "a) pinho do paraná Ca = 1,5 MPa (15 kgf/cm?)\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `TA canta Us pvivva`\n\nGo. cm =2,5 MPa (25 kgf/em?), desde que",
+    "para": "a) pinho do paraná $\\overline{\\sigma}_{cn}$ = 1,5 MPa (15 kgf/cm²)\n\nb) peroba $\\overline{\\sigma}_{cn}$ = 2,5 MPa (25 kgf/cm²),\n\ndesde que"
+  },
+  "x27": {
+    "todas": true,
+    "de_inicio": "\n\nOcn, produzindo-se",
+    "para": "\n\n$\\overline{\\sigma}_{cn}$, produzindo-se"
+  },
+  "x28": {
+    "texto": true,
+    "de_inicio": "metade do esforço normal, enda.\n\ncom o que s se garante",
+    "de_fim": "COM QUATRO TALAS LATERAIS",
+    "para": "metade do esforço normal, com o que se garante uma boa resistência à flexão da emenda.",
+    "nota": "7.4.2: fim da frase + rótulos da Figura 7.4.2 (legenda na imagem fig18)"
+  },
+  "eq04": {
+    "page": 29,
+    "clip": [
+      66,
+      328,
+      420,
+      410
+    ],
+    "latex": [
+      "S_i = \\sum_k \\frac{a_k\\, \\text{sen}\\,\\alpha_k \\cos\\alpha_k}{\\dfrac{1}{n_{d,k}\\, C_d} + \\dfrac{\\text{sen}^2\\alpha_k}{n_{h,k}\\, C_h}} \\tag{7.4.1}",
+      "C = \\overline{F}/1{,}5 \\tag{7.4.2}"
+    ],
+    "de_inicio": "tornando-se Y = 2,0 e usando para Si a expressão (ver 2.2.0):",
+    "de_fim": "representa o esforço admissível na ligação.",
+    "para": "tornando-se γ = 2,0 e usando para $S_i$ a expressão (ver 2.2.c):\n\n$$\nS_i = \\sum_k \\frac{a_k\\, \\text{sen}\\,\\alpha_k \\cos\\alpha_k}{\\dfrac{1}{n_{d,k}\\, C_d} + \\dfrac{\\text{sen}^2\\alpha_k}{n_{h,k}\\, C_h}} \\tag{7.4.1}\n$$\n\nonde:\n\n$\\alpha_k$ - ângulo de inclinação da diagonal no vão k (Figura 8.4.4);\n$2a_k$ - espaçamento entre montantes no vão k (Figura 8.4.4);\n$n_d$, $n_k$ - número de ligações, respectivamente, em diagonais e horizontais, em cada seção horizontal do vão k;\n$C_d$, $C_h$ - rigidez da ligação, respectivamente, nas diagonais e horizontais, em kgf/mm ou N/mm.\n\nNas ligações com parafusos, pode utilizar-se a relação:\n\n$$\nC = \\overline{F}/1{,}5 \\tag{7.4.2}\n$$\n\nonde:\n\n$\\overline{F}$ - representa o esforço admissível na ligação.",
+    "nota": "p. 29: legenda diz n_d, n_k (na fórmula n_{d,k}, n_{h,k}) — como no PDF"
+  },
+  "eq05": {
+    "page": 29,
+    "clip": [
+      66,
+      570,
+      260,
+      596
+    ],
+    "latex": [
+      "C = \\overline{F}/1{,}5 \\tag{7.4.2}"
+    ]
+  },
+  "x29": {
+    "todas": true,
+    "de_inicio": "### Tabela 8.3.1 - Fator de redução para área e momento de inércia de perfis com corrosão.",
+    "para": "Tabela 8.3.1 - Fator de redução para área e momento de inércia de perfis com corrosão:",
+    "nota": "marca para a tabm01 (data/tabelas)"
+  },
+  "x30": {
+    "todas": true,
+    "de_inicio": "me seu abeia 8.3.2 Tubos de diâmetro nominal de 38,1 mm (1 1/2\")",
+    "para": "Tabela 8.3.2 - Tubos de diâmetro nominal de 38,1 mm (1 1/2\")"
+  },
+  "x31": {
+    "todas": true,
+    "de_inicio": "fy = 210 N/mm? (2 100 kgf/cm?) a 240 N/mm? (2 400 kgf/cm?).",
+    "para": "$f_y$ = 210 N/mm² (2 100 kgf/cm²) a 240 N/mm² (2 400 kgf/cm²)."
+  },
+  "x32": {
+    "todas": true,
+    "de_inicio": "O aço utilizado para fabricação dos tubos têm um limite de escoamento.",
+    "para": "O aço utilizado para fabricação dos tubos têm um limite de escoamento:"
+  },
+  "x33": {
+    "todas": true,
+    "de_inicio": "limite de escoramento fy = 240 N/mm (2400 kgf/mm?)",
+    "para": "limite de escoramento $f_y$ = 240 N/mm² (2400 kgf/mm²)"
+  },
+  "x34": {
+    "todas": true,
+    "de_inicio": "adotando-se os enchpientes de segurança, respectivamente, Y =3eY 15 Na falta",
+    "para": "adotando-se os coeficientes de segurança, respectivamente, γ = 3 e γ = 15.\n\nNa falta",
+    "nota": "p. 39: 'γ = 15' no PDF (provavelmente 1,5) — transcrito como está"
+  },
+  "x35": {
+    "todas": true,
+    "de_inicio": "de modo que dama «am cania da au da adam a icação seja axial ao tubo",
+    "para": "de modo que a reação seja axial ao tubo"
+  },
+  "x36": {
+    "todas": true,
+    "de_inicio": "ser consiaéragos 1 A entamento podem o valor da Figura é pr ata a ni não o ultrapassarem",
+    "para": "Os nós de contraventamento podem ser considerados pu[…] mais afastadas não ultrapassarem o valor da Figura 8.4.3.",
+    "nota": "p. 39: fim da página em tira desalinhada, trecho ilegível"
+  },
+  "x37": {
+    "todas": true,
+    "de_inicio": "## 1 FIGURA\n\n",
+    "para": ""
+  },
+  "x38": {
+    "texto": true,
+    "de_inicio": "8.4.| - ESQUEMA DE UM ESCORAMENTO TUBULAR",
+    "de_fim": "3-DIAGONAL VERTICAL",
+    "para": "FIGURA 8.4.1 - ESQUEMA DE UM ESCORAMENTO TUBULAR, COM MONTANTES, HORIZONTAIS E DIAGONAIS. COMPRIMENTOS DE FLAMBAGEM ($\\ell_0$) DAS PEÇAS DIVIDIDOS PELO COMPRIMENTO REAL ($\\ell$) ENTRE EIXOS DOS NÓS\n\nFIGURA 8.4.2 - ESQUEMA DE UM NÓ COMPACTO DE ESTRUTURAS TUBULARES: e - EXCENTRICIDADE DE BRAÇADEIRAS MAIS ESPAÇADAS; 1 - MONTANTE, 2 - HORIZONTAL, 3 - DIAGONAL VERTICAL"
+  },
+  "x39": {
+    "todas": true,
+    "de_inicio": "(Ni) e cargashorizontais (NH)",
+    "para": "($N_i$) e cargas horizontais (H)"
+  },
+  "x40": {
+    "todas": true,
+    "de_inicio": "esforço transversal ideal Hyy, definido",
+    "para": "esforço transversal ideal $H_{II}$, definido"
+  },
+  "x41": {
+    "todas": true,
+    "de_inicio": "calculadas com as Ni e as cargasverticaisprovocadas pelo esforço horizontal de segunda ordem Hr, admitindo-se",
+    "para": "calculadas com as $N_i$ e as cargas verticais provocadas pelo esforço horizontal de segunda ordem $H_{II}$, admitindo-se"
+  },
+  "eq06": {
+    "page": 41,
+    "clip": [
+      66,
+      380,
+      420,
+      462
+    ],
+    "latex": [
+      "H_{II} = \\frac{1}{1 + \\gamma \\dfrac{\\sum N_i}{S'_i}} \\left(H_I + \\sum N_i\\, \\Psi\\right) \\tag{8.4.1}",
+      "S'_i = \\frac{1}{1/S_i + 1/F_E} \\tag{8.4.2}",
+      "S_i = \\frac{2 \\sum n_k}{35\\,(1 + n_k)} \\sum n_k\\, E\\, A_k\\, \\text{sen}^2\\alpha_k \\cos\\alpha_k \\tag{8.4.3}"
+    ],
+    "de_inicio": "O esforço de segunda ordem Hyy é dado pela expressão:",
+    "de_fim": "cos Olk (8.4.3)",
+    "para": "O esforço de segunda ordem $H_{II}$ é dado pela expressão:\n\n$$\nH_{II} = \\frac{1}{1 + \\gamma \\dfrac{\\sum N_i}{S'_i}} \\left(H_I + \\sum N_i\\, \\Psi\\right) \\tag{8.4.1}\n$$\n\nonde:\n\n$H_I$ - solicitação horizontal de primeira ordem aplicada no sistema. O esforço $H_I$ é geralmente constituído pelas solicitações de vento acrescidas de 1% das cargas verticais atuantes (1% $\\sum N_i$);\n$N_i$ - cargas verticais atuando sobre os montantes;\n$H_{II}$ - esforço horizontal atuando no sistema deformado (teoria de segunda ordem), na mesma posição de $H_I$;\n$S'_i$ - rigidez do sistema ao cisalhamento, considerando a deformação dos montantes;\n\n$$\nS'_i = \\frac{1}{1/S_i + 1/F_E} \\tag{8.4.2}\n$$\n\nonde:\n\n$S_i$ - rigidez do sistema ao cisalhamento, igual ao esforço que produz no sistema uma deformação angular de cisalhamento igual a 1 rad;\n\n$$\nS_i = \\frac{2 \\sum n_k}{35\\,(1 + n_k)} \\sum n_k\\, E\\, A_k\\, \\text{sen}^2\\alpha_k \\cos\\alpha_k \\tag{8.4.3}\n$$"
+  },
+  "eq07": {
+    "page": 41,
+    "clip": [
+      66,
+      620,
+      300,
+      672
+    ],
+    "latex": [
+      "S'_i = \\frac{1}{1/S_i + 1/F_E} \\tag{8.4.2}"
+    ]
+  },
+  "eq08": {
+    "page": 41,
+    "clip": [
+      66,
+      725,
+      420,
+      780
+    ],
+    "latex": [
+      "S_i = \\frac{2 \\sum n_k}{35\\,(1 + n_k)} \\sum n_k\\, E\\, A_k\\, \\text{sen}^2\\alpha_k \\cos\\alpha_k \\tag{8.4.3}"
+    ]
+  },
+  "x42": {
+    "todas": true,
+    "de_inicio": "FIGURA\n\n**8.4.4** - QUADROS PLANOS FORMADOS POR MONTANTES VERTICAIS, HORIZONTAIS\n\nE DIAGONAIS, COM LIGAÇÕES DEFORMAVEIS onde:",
+    "para": "FIGURA 8.4.4 - QUADROS PLANOS FORMADOS POR MONTANTES VERTICAIS, HORIZONTAIS E DIAGONAIS, COM LIGAÇÕES DEFORMÁVEIS"
+  },
+  "eq09": {
+    "page": 43,
+    "clip": [
+      66,
+      268,
+      280,
+      310
+    ],
+    "latex": [
+      "F_E = \\frac{\\pi^2 E\\, I}{2\\, l^2} \\tag{8.4.4}",
+      "l \\leq 10\\ \\text{m} \\qquad \\text{tg}\\,\\Psi = 0{,}01",
+      "l > 10\\ \\text{m} \\qquad \\text{tg}\\,\\Psi = \\frac{0{,}1}{l} \\quad (l\\ \\text{em metro})"
+    ],
+    "de_inicio": "nk - número de diagonais em cada seção",
+    "de_fim": "tg 'P= (1 em metro",
+    "para": "onde:\n\n$n_k$ - número de diagonais em cada seção horizontal dos vãos k entre montantes;\n$E$ - módulo de elasticidade do tubo diagonal;\n$A_k$ - área de um tubo diagonal;\n$\\alpha_k$ - inclinação das diagonais no vão k;\n$F_E$ - carga crítica (carga de Euler) da coluna ideal formada pelos montantes ligados por paredes rígidas, suposta engastada na base e livre na extremidade superior;\n\n$$\nF_E = \\frac{\\pi^2 E\\, I}{2\\, l^2} \\tag{8.4.4}\n$$\n\n$I$ - momento de inércia da coluna ideal formada pelos montantes ligados por paredes rígidas (considera-se somente as áreas dos montantes);\n\nQuando $F_E \\gg S_i$, pode tornar-se $S'_i = S_i$.\n\n$\\gamma$ - coeficiente de segurança (para o aço γ = 1,7);\n$\\Psi$ - coeficiente de segurança da coluna, que pode ser tomada com os seguintes valores:\n\n$$\nl \\leq 10\\ \\text{m} \\qquad \\text{tg}\\,\\Psi = 0{,}01\n$$\n\n$$\nl > 10\\ \\text{m} \\qquad \\text{tg}\\,\\Psi = \\frac{0{,}1}{l} \\quad (l\\ \\text{em metro})\n$$",
+    "nota": "p. 43: F_E = π²EI/(2l²) aqui e π²EI/l² em 8.4.7 (p. 45) — como no PDF"
+  },
+  "eq10": {
+    "page": 43,
+    "clip": [
+      66,
+      425,
+      300,
+      500
+    ],
+    "latex": [
+      "l \\leq 10\\ \\text{m} \\qquad \\text{tg}\\,\\Psi = 0{,}01",
+      "l > 10\\ \\text{m} \\qquad \\text{tg}\\,\\Psi = \\frac{0{,}1}{l} \\quad (l\\ \\text{em metro})"
+    ]
+  },
+  "x43": {
+    "todas": true,
+    "de_inicio": "Ascargas Nj podem atuar com excentricidade em relação ao eixo de cada coluna, admitindo-senos projetos uma excentricidade acidental de 5 mm. Além disso, admite-se uma falta de linearidade em cada coluna, com uma flecha máxima 3 = 1/500, o que provoca momento fletor N; à na coluna i",
+    "para": "As cargas $N_i$ podem atuar com excentricidade em relação ao eixo de cada coluna, admitindo-se nos projetos uma excentricidade acidental de 5 mm. Além disso, admite-se uma falta de linearidade em cada coluna, com uma flecha máxima δ = l/500, o que provoca momento fletor $N_i\\,\\delta$ na coluna i."
+  },
+  "eq11": {
+    "page": 45,
+    "clip": [
+      66,
+      166,
+      220,
+      196
+    ],
+    "latex": [
+      "\\sum S_i \\geq 0{,}4 \\sum N_i"
+    ],
+    "de_inicio": "segunda (2”) ordem Hr, quando a rigidez do sistema ao cisalhamento (Fórmula 8.4.3) atender à condição:\nLs2042L Ni\n\nN; - cargas",
+    "de_fim": "N; - cargas",
+    "para": "segunda (2ª) ordem $H_{II}$, quando a rigidez do sistema ao cisalhamento (Fórmula 8.4.3) atender à condição:\n\n$$\n\\sum S_i \\geq 0{,}4 \\sum N_i\n$$\n\n$N_i$ - cargas"
+  },
+  "x44": {
+    "todas": true,
+    "de_inicio": "sujeitos aos esforços provocados pela carga HI].",
+    "para": "sujeitos aos esforços provocados pela carga $H_{II}$."
+  },
+  "x45": {
+    "todas": true,
+    "de_inicio": "contraventamentos horizontais é os de tipos D, C, D da Figura",
+    "para": "contraventamentos horizontais e os de tipos B, C, D da Figura"
+  },
+  "eq12": {
+    "page": 45,
+    "clip": [
+      66,
+      335,
+      260,
+      530
+    ],
+    "latex": [
+      "H_I = \\frac{H_I + 5\\, F_c\\, \\delta/l}{1 - \\gamma\\, F_c/S'_i} \\tag{8.4.5}",
+      "S'_i = \\frac{1}{1/S_i + 1/F_E} \\tag{8.4.2}",
+      "F_E = \\frac{\\pi^2 E\\, I}{l^2} \\tag{8.4.4}"
+    ],
+    "de_inicio": "O esforço horizontal de segunda (2*) ordem é dado pela expressão:",
+    "de_fim": "1 - vão dastreliças.",
+    "para": "O esforço horizontal de segunda (2ª) ordem é dado pela expressão:\n\n$$\nH_I = \\frac{H_I + 5\\, F_c\\, \\delta/l}{1 - \\gamma\\, F_c/S'_i} \\tag{8.4.5}\n$$\n\nno qual $S'_i$ é dado pela fórmula 8.4.2:\n\n$$\nS'_i = \\frac{1}{1/S_i + 1/F_E} \\tag{8.4.2}\n$$\n\n$F_E$ - carga de Euler da coluna ideal formada pelos banzos comprimidos das treliças ligadas por paredes rígidas, dada pela fórmula 8.4.4;\n\n$$\nF_E = \\frac{\\pi^2 E\\, I}{l^2} \\tag{8.4.4}\n$$\n\n$I$ - momento de inércia, no plano do contraventamento, da coluna ideal formada pelos flanges comprimidos ligados por paredes rígidas (considera-se somente as áreas dos flanges).\n\nNos sistemas contraventados com tubos e braçadeiras, quando $F_E \\gg S_i$, pode tomar-se $S'_i = S_i$.\n\n$F_c$ - soma da forças de compressão nos banzos comprimidos das treliças;\n$\\delta$ - flecha acidental de não linearidade da treliça; tomada igual a l/500;\n$l$ - vão das treliças.",
+    "nota": "p. 45: (8.4.5) tem H_I no lado esquerdo (o texto fala do esforço de segunda ordem H_II) — provável erro do PDF, transcrito como está"
+  },
+  "x46": {
+    "todas": true,
+    "de_inicio": "## 10 FUNDAÇÕES DE ESCORAMENTOS\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `10, <o> ii o`\n\n## 3 ES\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `2 [eu o ta Q 3 4] ta`",
+    "para": "## 10 FUNDAÇÕES DE ESCORAMENTOS\n\n**10.1** Condições gerais"
+  },
+  "x47": {
+    "todas": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `ur mena 2 o emma reter cerço 0 carreira E á -`\n\ncem aço cmi ii trema a eres cmo p. 47/62.\n\n**9.1.1** — ESQUEMA CONSTRUTIVO DE TORRE DE ESCORAMENTO\n\nb) TORRE COM ESTAI",
+    "para": "FIGURA 9.1.1 - ESQUEMA CONSTRUTIVO DE TORRE DE ESCORAMENTO: a) TORRE SEM ESTAI; b) TORRE COM ESTAI"
+  },
+  "x48": {
+    "todas": true,
+    "de_inicio": "Em fundações feitas com fogueiras de madeira serrada ou lavrada, se o espaço livre entre duas madeiras paralelas for inferior ao dobro da largura de cada peça. a à tensão no terreno pode ser calculada com as stes casos",
+    "para": "Em fundações feitas com fogueiras de madeira serrada ou lavrada, se o espaço livre entre duas madeiras paralelas for inferior ao dobro da largura de cada peça, a tensão no terreno pode ser calculada com as dimensões externas totais em planta. Nestes casos deve-se e[…] extremidades da madeira.",
+    "nota": "p. 48: fim da página em tira desalinhada, trecho ilegível"
+  },
+  "x49": {
+    "todas": true,
+    "de_inicio": "capeado com uma chapa metálica o 11.2.4).",
+    "para": "capeado com uma chapa metálica (Figura 11.2.4)."
+  },
+  "x50": {
+    "todas": true,
+    "de_inicio": "\n\np 51/62\n\n",
+    "para": "\n\n"
+  },
+  "x51": {
+    "todas": true,
+    "de_inicio": "A4 Deficiências ou acidentes provocados",
+    "para": "A.4 Deficiências ou acidentes provocados"
+  },
+  "x52": {
+    "todas": true,
+    "de_inicio": "absorver asrotações decorrentes da flexão dasvigas qutreliças-itida desde que citado o DNER como fonte me ução perm Reprod",
+    "para": "absorver as rotações decorrentes da flexão das vigas ou treliças."
+  },
+  "x53": {
+    "todas": true,
+    "de_inicio": "A.S Deticiências ou acidentes",
+    "para": "A.5 Deficiências ou acidentes"
+  },
+  "x54": {
+    "todas": true,
+    "de_inicio": "Rh Alemanha, verificou-se",
+    "para": "Na Alemanha, verificou-se"
+  },
+  "x55": {
+    "todas": true,
+    "de_inicio": "desde que citado o DNER como fonte am.\n\nução perm Reprod",
+    "para": "desde que citado o DNER como fonte"
+  },
+  "x56": {
+    "todas": true,
+    "de_inicio": "\n\nitida desde que citado o DNER como fonte ução perm Reprod\n\n",
+    "para": "\n\n",
+    "nota": "tarja lateral 'Reprodução permitida...'"
+  },
+  "x57": {
+    "todas": true,
+    "de_inicio": "\n\nitida desde que citado o DNER como fonte ne ução perm Reprod\n\n",
+    "para": "\n\n",
+    "nota": "tarja lateral 'Reprodução permitida...'"
+  },
+  "x58": {
+    "todas": true,
+    "de_inicio": "\n\nitida desde que citado o DNER como fonte me ução perm Reprod\n\n",
+    "para": "\n\n",
+    "nota": "tarja lateral 'Reprodução permitida...'"
+  },
+  "x59": {
+    "todas": true,
+    "de_inicio": "\n\nermitida desde que citado o DNER como fonte Reprodução p:\n\n",
+    "para": "\n\n",
+    "nota": "tarja lateral 'Reprodução permitida...'"
+  },
+  "x60": {
+    "todas": true,
+    "de_inicio": "\n\nReprodução permitida desde que citado o» DNER como fonte\n\n",
+    "para": "\n\n",
+    "nota": "tarja lateral 'Reprodução permitida...'"
+  },
+  "x61": {
+    "todas": true,
+    "de_inicio": "kKN/m?",
+    "para": "kN/m²",
+    "nota": "² lido como ?"
+  },
+  "x62": {
+    "todas": true,
+    "de_inicio": "KN/m?",
+    "para": "kN/m²",
+    "nota": "² lido como ?"
+  },
+  "x63": {
+    "todas": true,
+    "de_inicio": "kN/m?",
+    "para": "kN/m²",
+    "nota": "² lido como ?"
+  },
+  "x64": {
+    "todas": true,
+    "de_inicio": "kgf/m?",
+    "para": "kgf/m²",
+    "nota": "² lido como ?"
+  },
+  "x65": {
+    "todas": true,
+    "de_inicio": "kgf/cm?",
+    "para": "kgf/cm²",
+    "nota": "² lido como ?"
+  },
+  "x66": {
+    "todas": true,
+    "de_inicio": "N/mm?",
+    "para": "N/mm²",
+    "nota": "² lido como ?"
+  },
+  "x67": {
+    "todas": true,
+    "de_inicio": "kgf/mm?",
+    "para": "kgf/mm²",
+    "nota": "² lido como ?"
+  },
+  "x68": {
+    "todas": true,
+    "de_inicio": "kgf/em?",
+    "para": "kgf/cm²",
+    "nota": "² lido como ?"
+  },
+  "y01": {
+    "todas": true,
+    "de_inicio": "\n\nitiia desde que citado o DNER como fonte\n\n",
+    "para": "\n\n",
+    "nota": "tarja lateral"
+  },
+  "y02": {
+    "todas": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `pos, “os 20,00 — A o O A Rca E 1 =——4 er`\n\n",
+    "para": "\n\n",
+    "nota": "aviso falso: rótulos da Figura 8.3.2(b)"
+  },
+  "y03": {
+    "todas": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Pad TI q Ja FIGURA`\n\n6.3.3b - ESCORAMENTO",
+    "para": "FIGURA 6.3.3b - ESCORAMENTO",
+    "nota": "aviso falso: rótulos + início da legenda"
+  },
+  "z01": {
+    "todas": true,
+    "de_inicio": "$$\nH_{II} = \\frac{H_I + 5",
+    "para": "$$\nH_I = \\frac{H_I + 5",
+    "nota": "correção da 1ª transcrição de (8.4.5)"
+  }
+}

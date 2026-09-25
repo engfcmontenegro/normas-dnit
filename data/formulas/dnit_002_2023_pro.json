@@ -1,0 +1,32 @@
+{
+  "eq01": {
+    "page": 7,
+    "bbox": [
+      314.9,
+      321.7,
+      563.4,
+      359.3
+    ],
+    "raw": "𝐺 𝑐 −𝑇 𝑉 (1) 𝑀𝑈 𝑐 =",
+    "latex": "MU_c = \\frac{G_c - T}{V} \\tag{1}"
+  },
+  "m01": {
+    "manual": true,
+    "page": 14,
+    "clip": [
+      140,
+      150,
+      470,
+      316
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Figura G1 (diagrama de numeração, não detectado como figura); tira os números soltos"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "Figura G1 – Numeração progressiva das seções e subseções de um documento",
+    "para": "![[dnit_002_2023_pro_m01.png]]\n\nFigura G1 – Numeração progressiva das seções e subseções de um documento",
+    "nota": "embed da imagem m01 (Figura G1)"
+  }
+}

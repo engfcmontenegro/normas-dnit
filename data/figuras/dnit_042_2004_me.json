@@ -1,0 +1,52 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      148.6,
+      104.0,
+      461.4,
+      222.5
+    ],
+    "legenda": "Figura 1 - Cunho de aço"
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      197.6,
+      271.2,
+      412.3,
+      360.0
+    ],
+    "legenda": ""
+  },
+  "fig03": {
+    "page": 4,
+    "bbox": [
+      187.0,
+      389.1,
+      422.5,
+      523.9
+    ],
+    "legenda": ""
+  },
+  "fig04": {
+    "page": 5,
+    "bbox": [
+      183.5,
+      104.0,
+      425.9,
+      220.2
+    ],
+    "legenda": "Figura 2 - Placa de apoio para moldagem dos corpos-de-prova"
+  },
+  "fig05": {
+    "page": 5,
+    "bbox": [
+      185.1,
+      263.7,
+      424.4,
+      410.6
+    ],
+    "legenda": "Figura 3 - Modelo do corpo-de-prova"
+  }
+}

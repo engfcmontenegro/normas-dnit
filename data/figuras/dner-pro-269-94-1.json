@@ -1,0 +1,73 @@
+{
+  "fig01": {
+    "page": 8,
+    "bbox": [
+      135.0,
+      126.0,
+      448.0,
+      266.0
+    ],
+    "legenda": "",
+    "ancora": "7.7 Espessura da camada granular - Hcg",
+    "texto_removido": [
+      "## CBR %",
+      "S%",
+      "<35 35 a 65",
+      "> 65",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `I K TI 6a9 I H “IM 2as HI HI HI`",
+      ">10"
+    ]
+  },
+  "fig02": {
+    "page": 9,
+    "bbox": [
+      78.0,
+      183.0,
+      548.0,
+      497.5
+    ],
+    "legenda": "Figura 1 - Modelo de Gráfico para Divisão do Trecho em Subtrechos Homogêneos",
+    "ancora": "A restauração deve ser projetada separadamente, para cada subtrecho homogêneo, d",
+    "clip": [
+      80,
+      150,
+      548,
+      800
+    ],
+    "nota": "recorte automático cortava metade inferior da Figura 1",
+    "texto_removido": [
+      "## RECUPERÁVEL (0,01 mm)",
+      "## DEFLEXÃO",
+      "PISTA DE ROLAMENTO",
+      "TRINCAMENTO (%)",
+      "TR",
+      "DE IRREGULARIDADE (Cont / km)",
+      "QUOCIENTE",
+      "Qi"
+    ]
+  },
+  "fig03": {
+    "page": 17,
+    "bbox": [
+      100.0,
+      81.6,
+      550.4,
+      755.0
+    ],
+    "legenda": "",
+    "ancora": "2) HR - Espessura de recapeamento sobre a espessura reciclada (hc)",
+    "texto_removido": [
+      "Anexo Informativo",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Descrição q Automóvel faiz Utilitário 2C gonna Ônibus 2€ — É Caminhão 3C O Ã Caminhão 4C od Caminhão 281 |`",
+      "Símbolo Configuração",
+      "Semi-Reboque",
+      "## 282 oa",
+      "Semi-Reboque",
+      "## 283 ru",
+      "Semi-Reboque",
+      "## 382 oa",
+      "Semi-Reboque 3S3 Semi-Reboque 2C2 Reboque 2C3 Reboque",
+      "UCA UCA satiar"
+    ]
+  }
+}

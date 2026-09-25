@@ -1,0 +1,13 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      319.9,
+      86.9,
+      543.6,
+      143.2
+    ],
+    "raw": "− V V () = máx ( teor ) máx ( 0 %) Δ V % teor V máx ( 0 %) (1)",
+    "latex": "\\Delta V(\\%)_{teor} = \\frac{V_{\\text{máx}(teor)} - V_{\\text{máx}(0\\%)}}{V_{\\text{máx}(0\\%)}} \\tag{1}"
+  }
+}

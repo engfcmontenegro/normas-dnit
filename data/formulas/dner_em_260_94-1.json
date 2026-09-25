@@ -1,0 +1,23 @@
+{
+  "t01": {
+    "texto": true,
+    "de_inicio": "a) SPsonção de água (por cento em peso) 1% a 3%, determinada pela ABNT MB-2698, de 1987 (veritem\n\nAg);\n\nb) massa específica de 2 g/cm” a 3 g/cmº, determinada pela ABNT MB-2698, de 1987 (ver item 2.1.8);\n\nc) massa unitária de 1,10 kg/dm? a 1,24 kg/dmº determinada pela ABNT MB-1665, de 1982 (ver 2.1.f);\n\nd) o desgaste por abrasão Los Angeles das escoriasnão granuladas deve ser no máximo igual a 35% para sub-base, base e revestimento, determinado pela ABNT MB-170, de 1983(ver 2. Lo):\n\ne) a durabilidade ao sulfato de sódio, cinco ciclos, deverá ser de O a 5%, determinada pela ASTM C 88-76 (ver 2.1.b).",
+    "de_fim": "(ver 2.1.b).",
+    "para": "a) absorção de água (por cento em peso) 1% a 3%, determinada pela ABNT MB-2698, de 1987 (ver item 2.1.g);\n\nb) massa específica de 2 g/cm³ a 3 g/cm³, determinada pela ABNT MB-2698, de 1987 (ver item 2.1.g);\n\nc) massa unitária de 1,10 kg/dm³ a 1,24 kg/dm³ determinada pela ABNT MB-1665, de 1982 (ver 2.1.f);\n\nd) o desgaste por abrasão Los Angeles das escorias não granuladas deve ser no máximo igual a 35% para sub-base, base e revestimento, determinado pela ABNT MB-170, de 1983 (ver 2.1.c);\n\ne) a durabilidade ao sulfato de sódio, cinco ciclos, deverá ser de 0 a 5%, determinada pela ASTM C 88-76 (ver 2.1.b).",
+    "nota": "5.1: OCR quebrou unidades (cm³, dm³), 'absorção', '0 a 5%' e as remissões"
+  },
+  "t02": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "1,27 em a 5,08 em (2\")",
+    "para": "1,27 cm a 5,08 cm (2\")",
+    "nota": "4.2: cm lido como em"
+  },
+  "t03": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "ver (2.1.d) e (2. Le)",
+    "para": "ver (2.1.d) e (2.1.e)",
+    "nota": "6.1"
+  }
+}

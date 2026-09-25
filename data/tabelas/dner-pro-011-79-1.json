@@ -1,0 +1,54 @@
+{
+  "tabm01": {
+    "page": 8,
+    "clip": [
+      215,
+      205,
+      395,
+      384
+    ],
+    "md": "### TABELA I\n\n| n | z |\n| --- | --- |\n| 3 | 1 |\n| 4 | 1,5 |\n| 5 - 6 | 2 |\n| 7 - 19 | 2,5 |\n| ≥ 20 | 3 |",
+    "de_inicio": "### TABELA\n\n![[dner-pro-011-79-1_fig04.png]]",
+    "nota": "Tabela I (p. 8), era a fig04",
+    "manual": true
+  },
+  "tabm02": {
+    "page": 9,
+    "clip": [
+      70,
+      100,
+      545,
+      274
+    ],
+    "md": "### TABELA II\n\n| Natureza do Subleito | Fator de Correção Sazonal - $F_s$ – Estação Seca | Fator de Correção Sazonal - $F_s$ – Estação Chuvosa |\n| --- | --- | --- |\n| Arenoso e Permeável | 1,10 - 1,30 | 1,00 |\n| Argiloso e Sensível à Umidade | 1,20 - 1,40 | 1,00 |",
+    "de_inicio": "### TABELA II\n\n![[dner-pro-011-79-1_fig05.png]]",
+    "nota": "Tabela II (p. 9), era a fig05",
+    "manual": true
+  },
+  "tabm03": {
+    "page": 13,
+    "clip": [
+      60,
+      125,
+      558,
+      612
+    ],
+    "md": "### TABELA III\n\nCritérios para Avaliação Estrututral\n\n| Hipótese | Dados Deflectométricos obtidos | Qualidade Estrutural | Necessidade de Estudos Complementares | Critério para Cálculo de Reforço | Medidas Corretivas |\n| --- | --- | --- | --- | --- | --- |\n| I | $D_p \\leq D_{adm}$; $R \\geq 100$ | BOA | NÃO |  | Apenas correções de superfície |\n| II | $D_p > D_{adm}$; $R \\geq 100$ | Se $D_p \\leq 3\\,D_{adm}$: REGULAR | NÃO | Deflectrométrico | Reforço |\n| II | $D_p > D_{adm}$; $R \\geq 100$ | Se $D_p > 3\\,D_{adm}$: MÁ | SIM | Deflectométrico e Resistência | Reforço ou Reconstrução |\n| III | $D_p \\leq D_{adm}$; $R < 100$ | REGULAR PARA MÁ | SIM | Deflectométrico e Resistência | Reforço ou Reconstrução |\n| IV | $D_p > D_{adm}$; $R < 100$ | MÁ | SIM | Resistência | Reforço ou Reconstrução |\n| V | – | MÁ – O pavimento apresenta deformações permanentes e rupturas plásticas generalizadas (IGG>180). | SIM | Resistência | Reconstrução |",
+    "de_inicio": "### TABELA HI\n\nV deformações SIM Resistência Reconstrução permanentes e Tupturas plásticas generalizadas (IGG>180).",
+    "nota": "Tabela III (p. 13), era a fig08; 'Estrututral' e 'Deflectrométrico' como no PDF; linha II dividida em dois casos",
+    "manual": true
+  },
+  "tabm04": {
+    "page": 16,
+    "clip": [
+      65,
+      438,
+      555,
+      598
+    ],
+    "md": "### TABELA IV\n\n| componentes do reforço do pavimento | coeficiente de equivalência estrutural |\n| --- | --- |\n| Concreto Betuminoso | 2,00 |\n| Pré-misturado a quente de graduação densa | 1,70 |\n| Pré-misturado a frio de graduação densa | 1,40 |\n| Macadame betuminoso por penetração | 1,20 |\n| Brita graduada com ISC > 80 | 1,10 |\n| Material granular com ISC ≥ 60 | 1,00 |\n| Solo-cimento com resistência à compressão a 7 dias superior a 45 kg/cm² | 1,70 |\n| Solo-cimento com resistência à compressão a 7 dias entre 45 kg/cm² e 28 kg/cm² | 1,40 |\n| Solo-cimento com resistência à compressão a 7 dias e inferior a 28 kg/cm² | 1,00 |",
+    "de_inicio": "### TABELA IV componentes do reforço do pavimento\n\nConcreto Betuminoso 2,00 Pré-misturado a quente de graduação densa 1,70 Pré-misturado a frio de graduação densa 1,40 Macadame betuminoso por penetração 1,20 Brita graduada com ISC > 80 1,10 Material granular com ISC > 60 1,00 Solo-cimento com resistência à compressão a 7 dias superior a 45 kg/cm? 1,70 Solo-cimento com resistência à compressão a 7 dias entre 45 kg/am? e 28 kg/am? 1,40 Solo-cimento com resistência à compressão a 7 dias e inferior a 28 kg/cm? 1,00",
+    "nota": "Tabela IV (p. 16), era a fig10",
+    "manual": true
+  }
+}

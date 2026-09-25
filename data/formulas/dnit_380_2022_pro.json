@@ -1,0 +1,551 @@
+{
+  "eq01": {
+    "page": 2,
+    "bbox": [
+      318.1,
+      557.5,
+      459.8,
+      583.9
+    ],
+    "raw": "3.5 Fator de redução (𝑭𝑹)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título de definição com símbolo entre parênteses"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      45.2,
+      227.3,
+      71.5
+    ],
+    "raw": "3.7 Módulo de Rigidez à tração (𝑱)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título de definição com símbolo entre parênteses"
+  },
+  "eq03": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      117.9,
+      177.8,
+      144.3
+    ],
+    "raw": "3.8 Permissividade (𝝍)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título de definição com símbolo entre parênteses"
+  },
+  "eq04": {
+    "page": 3,
+    "bbox": [
+      77.0,
+      557.5,
+      183.6,
+      585.3
+    ],
+    "raw": "geossintético (𝑻 𝒅𝒊𝒔𝒑 )",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título de definição com símbolo entre parênteses"
+  },
+  "eq05": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      647.0,
+      267.8,
+      674.7
+    ],
+    "raw": "3.13 Resistência à tração de referência (𝑻 𝒓𝒆𝒇 )",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título de definição com símbolo entre parênteses"
+  },
+  "eq06": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      182.0,
+      468.2,
+      208.4
+    ],
+    "raw": "3.15 Taxa de deformação (𝜺′)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título de definição com símbolo entre parênteses"
+  },
+  "eq07": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      270.2,
+      455.7,
+      296.6
+    ],
+    "raw": "3.16 Transmissividade (𝜽)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título de definição com símbolo entre parênteses"
+  },
+  "eq08": {
+    "page": 4,
+    "bbox": [
+      48.6,
+      299.1,
+      202.2,
+      325.5
+    ],
+    "raw": "c) Taxa de deformação 𝜀′ [%/s];",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: item de lista com símbolo"
+  },
+  "eq09": {
+    "page": 4,
+    "bbox": [
+      48.6,
+      322.8,
+      228.6,
+      349.1
+    ],
+    "raw": "d) Módulo de rigidez à tração 𝐽 [kN/m];",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: item de lista com símbolo"
+  },
+  "eq10": {
+    "page": 4,
+    "bbox": [
+      48.6,
+      649.4,
+      293.3,
+      687.8
+    ],
+    "raw": "𝑇 𝑑𝑖𝑠𝑝 𝐹𝑆 (1) 𝑇 𝑝𝑟𝑜𝑗 =",
+    "latex": "T_{proj} = \\frac{T_{disp}}{FS} \\tag{1}"
+  },
+  "eq11": {
+    "page": 4,
+    "bbox": [
+      48.6,
+      717.0,
+      259.7,
+      744.2
+    ],
+    "raw": "𝐹𝑆 é o fator de Segurança, maior ou igual a 1,2;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: legenda (FS é o fator de segurança...)"
+  },
+  "eq12": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      87.5,
+      562.7,
+      127.3
+    ],
+    "raw": "𝑇 𝑟𝑒𝑓 𝐹𝑅 𝑑𝑚 𝐹𝑅 𝑎𝑚𝑏 (2) 𝑇 𝑑𝑖𝑠𝑝 =",
+    "latex": "T_{disp} = \\frac{T_{ref}}{FR_{dm} FR_{amb}} \\tag{2}"
+  },
+  "eq13": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      479.1,
+      562.7,
+      518.2
+    ],
+    "raw": "𝑇 𝑚𝑎𝑥 𝐹𝑅 𝑓𝑙 (3) 𝑇 𝑟𝑒𝑓 =",
+    "latex": "T_{ref} = \\frac{T_{max}}{FR_{fl}} \\tag{3}"
+  },
+  "eq14": {
+    "page": 5,
+    "bbox": [
+      66.5,
+      178.0,
+      175.2,
+      205.8
+    ],
+    "raw": "área (𝑀 𝐴 ) do geotêxtil.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: texto corrido com símbolo"
+  },
+  "eq15": {
+    "page": 5,
+    "bbox": [
+      66.5,
+      271.8,
+      171.7,
+      299.5
+    ],
+    "raw": "𝐹𝑅 𝑑𝑚 a ser utilizado.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: texto corrido com símbolo"
+  },
+  "eq16": {
+    "page": 5,
+    "bbox": [
+      66.5,
+      469.2,
+      213.5,
+      496.9
+    ],
+    "raw": "de 𝐹𝑅 𝑎𝑚𝑏 a ser utilizado é 1,10.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: texto corrido com símbolo"
+  },
+  "eq17": {
+    "page": 5,
+    "bbox": [
+      151.8,
+      498.8,
+      218.8,
+      526.6
+    ],
+    "raw": "de 𝐹𝑅 𝑎𝑚𝑏",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: texto corrido com símbolo"
+  },
+  "eq18": {
+    "page": 5,
+    "bbox": [
+      48.6,
+      699.8,
+      282.2,
+      726.1
+    ],
+    "raw": "(tipicamente 𝐽 ≥ 800 kN/m) e de resistência à tração.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: texto corrido com símbolo"
+  },
+  "eq19": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      400.2,
+      563.4,
+      451.6
+    ],
+    "raw": "a) Transmissividade 𝜃 [m²/s]; Capacidade de descarga 𝑞 𝑤 [m³/s/m] para o estado b)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: item de lista com símbolo"
+  },
+  "eq20": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      385.3,
+      202.2,
+      411.7
+    ],
+    "raw": "c) Taxa de deformação 𝜀′ [%/s];",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: item de lista com símbolo"
+  },
+  "eq21": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      408.8,
+      228.6,
+      435.2
+    ],
+    "raw": "d) Módulo de rigidez à tração 𝐽 [kN/m];",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: item de lista com símbolo"
+  },
+  "eq22": {
+    "page": 8,
+    "bbox": [
+      318.1,
+      614.1,
+      563.3,
+      656.5
+    ],
+    "raw": "a) Rigidez à tração 𝐽 [kN/m] (tipicamente, superior a 700 kN/m);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: item de lista com símbolo"
+  },
+  "eq23": {
+    "page": 8,
+    "bbox": [
+      318.1,
+      674.7,
+      447.8,
+      701.0
+    ],
+    "raw": "c) Permissividade 𝜓 [s-1];",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: item de lista com símbolo"
+  },
+  "eq24": {
+    "page": 13,
+    "bbox": [
+      335.0,
+      485.6,
+      510.6,
+      514.2
+    ],
+    "raw": "𝑇 𝑚𝑎𝑥 ≤ 50 kN/m 𝑇 𝑚𝑎𝑥 > 50 kN/m",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: cabeçalho da Tabela A3 (tabela markdown em t03)"
+  },
+  "eq25": {
+    "page": 22,
+    "bbox": [
+      314.9,
+      505.8,
+      563.0,
+      533.5
+    ],
+    "raw": "Resistência à tração de referência (T ref ) ............ 3.1.3..... 3",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: linha do índice geral"
+  },
+  "eq26": {
+    "page": 22,
+    "bbox": [
+      314.9,
+      538.9,
+      563.0,
+      566.7
+    ],
+    "raw": "(T disp ) ................................................................. 3.12...... 3",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: linha do índice geral"
+  },
+  "m01": {
+    "manual": true,
+    "page": 13,
+    "clip": [
+      60,
+      298,
+      550,
+      418
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Tabela A2 (a tab01 automática perdeu colunas e deixou sobras de texto); tabela markdown em t-A2"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "3.4\n\nElongação sob tração ($ε$)",
+    "para": "**3.4** Elongação sob tração ($ε$)",
+    "nota": "título de definição partido"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "3.5\n\nFator de redução ($FR$)",
+    "para": "**3.5** Fator de redução ($FR$)",
+    "nota": "título de definição partido"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "3.7\n\nMódulo de Rigidez à tração ($J$)",
+    "para": "**3.7** Módulo de Rigidez à tração ($J$)",
+    "nota": "título de definição partido"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "3.8\n\nPermissividade ($ψ$)",
+    "para": "**3.8** Permissividade ($ψ$)",
+    "nota": "título de definição partido"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "3.13\n\nResistência à tração de referência ($T_{ref}$)",
+    "para": "**3.13** Resistência à tração de referência ($T_{ref}$)",
+    "nota": "título de definição partido"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "3.14\n\nResistência à tração máxima ($T_{max}$)",
+    "para": "**3.14** Resistência à tração máxima ($T_{max}$)",
+    "nota": "título de definição partido"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "3.15\n\nTaxa de deformação ($ε$′)",
+    "para": "**3.15** Taxa de deformação ($ε′$)",
+    "nota": "título de definição partido"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "3.16\n\nTransmissividade ($θ$)",
+    "para": "**3.16** Transmissividade ($θ$)",
+    "nota": "título de definição partido"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "a)\n\nOs valores indicativos de $FR_{fl}$, em função do polímero constituinte do reforço, são apresentados na Tabela A1 do Anexo A.",
+    "para": "a) Os valores indicativos de $FR_{fl}$, em função do polímero constituinte do reforço, são apresentados na Tabela A1 do Anexo A.",
+    "nota": "alínea partida"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "a)\n\nResistência à tração máxima $T_{max}$ [kN/m];",
+    "para": "a) Resistência à tração máxima $T_{max}$ [kN/m];",
+    "nota": "alínea partida"
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "a)\n\nRigidez à tração $J$ [kN/m] (tipicamente, superior a 700 kN/m);",
+    "para": "a) Rigidez à tração $J$ [kN/m] (tipicamente, superior a 700 kN/m);",
+    "nota": "alínea partida"
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "a)\n\nTransmissividade $θ$ [m²/s];",
+    "para": "a) Transmissividade $θ$ [m²/s];",
+    "nota": "alínea partida"
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "b)\n\nElongação sob tração $ε$ [%];",
+    "para": "b) Elongação sob tração $ε$ [%];",
+    "nota": "alínea partida"
+  },
+  "t14": {
+    "todas": true,
+    "de_inicio": "c)\n\nPermissividade $ψ$ [s-1];",
+    "para": "c) Permissividade $ψ$ [s-1];",
+    "nota": "alínea partida"
+  },
+  "t15": {
+    "todas": true,
+    "de_inicio": "c)\n\nResistência à tração máxima $T_{max}$ [kN/m].",
+    "para": "c) Resistência à tração máxima $T_{max}$ [kN/m].",
+    "nota": "alínea partida"
+  },
+  "t16": {
+    "todas": true,
+    "de_inicio": "c)\n\nTaxa de deformação $ε$′ [%/s];",
+    "para": "c) Taxa de deformação $ε′$ [%/s];",
+    "nota": "alínea partida"
+  },
+  "t17": {
+    "todas": true,
+    "de_inicio": "d)\n\nMódulo de rigidez à tração $J$ [kN/m];",
+    "para": "d) Módulo de rigidez à tração $J$ [kN/m];",
+    "nota": "alínea partida"
+  },
+  "t18": {
+    "todas": true,
+    "de_inicio": "d)\n\nO valor de $FR_{amb}$ é função das características do geossintético e do nível de agressividade do meio onde o geossintético será enterrado. O valor mínimo de $FR_{amb}$ a ser utilizado é 1,10.",
+    "para": "d) O valor de $FR_{amb}$ é função das características do geossintético e do nível de agressividade do meio onde o geossintético será enterrado. O valor mínimo de $FR_{amb}$ a ser utilizado é 1,10.",
+    "nota": "alínea partida"
+  },
+  "t19": {
+    "todas": true,
+    "de_inicio": "Capacidade de descarga $q_{w}$ [m³/s/m] para o estado\n\nb) de tensões representativo;",
+    "para": "b) Capacidade de descarga $q_{w}$ [m³/s/m] para o estado de tensões representativo;",
+    "nota": "5.2.1 b) partida"
+  },
+  "t20": {
+    "todas": true,
+    "de_inicio": "Permissividade $ψ$ [s-1];",
+    "para": "Permissividade $ψ$ [s⁻¹];",
+    "nota": "5.4.1 c): expoente"
+  },
+  "t21": {
+    "todas": true,
+    "de_inicio": "$J_{2%}$ ou $J_{5%}$",
+    "para": "$J_{2\\%}$ ou $J_{5\\%}$",
+    "nota": "5.1.4: % sem escape (comentário no KaTeX)"
+  },
+  "t22": {
+    "todas": true,
+    "de_inicio": "(𝑞 ) 𝑤 |",
+    "para": "($q_{w}$) |",
+    "nota": "Tabela F1: símbolo"
+  },
+  "t23": {
+    "todas": true,
+    "de_inicio": "(𝜀′) |",
+    "para": "($ε′$) |",
+    "nota": "Tabela F1: símbolo"
+  },
+  "t24": {
+    "todas": true,
+    "de_inicio": "(𝜀) |",
+    "para": "($ε$) |",
+    "nota": "Tabela F1: símbolo"
+  },
+  "t25": {
+    "todas": true,
+    "de_inicio": "(𝜓) |",
+    "para": "($ψ$) |",
+    "nota": "Tabela F1: símbolo"
+  },
+  "t26": {
+    "todas": true,
+    "de_inicio": "(𝜃) |",
+    "para": "($θ$) |",
+    "nota": "Tabela F1: símbolo"
+  },
+  "t27": {
+    "todas": true,
+    "de_inicio": "(𝑇) |",
+    "para": "($T$) |",
+    "nota": "Tabela F1: símbolo"
+  },
+  "t28": {
+    "todas": true,
+    "de_inicio": "(𝐽) |",
+    "para": "($J$) |",
+    "nota": "Tabela F1: símbolo"
+  },
+  "t29": {
+    "todas": true,
+    "de_inicio": "![[dnit_380_2022_pro_fig01.png]]",
+    "para": "| Polímero constituinte | Valor mínimo de $FR_{fl}$ |\n| --- | --- |\n| Álcool Polivinílico (PVA) | 2,0 |\n| Poliamida (PA) | 2,2 |\n| Poliéster (PET) | 2,2 |\n| Polietileno (PE) | 4,0 |\n| Polipropileno (PP) | 4,5 |\n\n![[dnit_380_2022_pro_fig01.png]]",
+    "nota": "Tabela A1 (p. 13) tinha virado só figura (fig01)"
+  },
+  "t30": {
+    "todas": true,
+    "de_inicio": "| Tamanho máximo do grão (mm) | 140 < MA ≤ 200 (g/m2) | 200 < MA ≤ 400 (g/m2) |\n| --- | --- | --- |\n| < 200 <100 < 4 < 0,06 | 1,50 1,35 1,30 1,20 | 1,45 1,30 1,25 1,15 |\n\n![[dnit_380_2022_pro_tab01.png]]",
+    "para": "| Tipo de material de aterro | Tamanho máximo do grão (mm) | 140 < $M_{A}$ ≤ 200 (g/m²) | 200 < $M_{A}$ ≤ 400 (g/m²) | $M_{A}$ > 400 (g/m²) |\n| --- | --- | --- | --- | --- |\n| Pedras | < 200 | 1,50 | 1,45 | 1,40 |\n| Pedregulhos | <100 | 1,35 | 1,30 | 1,25 |\n| Areias | < 4 | 1,30 | 1,25 | 1,20 |\n| Siltes e argilas | < 0,06 | 1,20 | 1,15 | 1,10 |\n\n![[dnit_380_2022_pro_m01.png]]",
+    "nota": "Tabela A2 (p. 13): tab01 automática sem as colunas 1 e 5; refeita + recorte m01"
+  },
+  "t31": {
+    "todas": true,
+    "de_inicio": "![[dnit_380_2022_pro_fig02.png]]",
+    "para": "| Tipo de material de aterro | Tamanho máximo do grão (mm) | $T_{max}$ ≤ 50 kN/m | $T_{max}$ > 50 kN/m |\n| --- | --- | --- | --- |\n| Pedras | < 200 | 1,20 – 1,70 | 1,10 – 1,50 |\n| Pedregulhos | < 100 | 1,15 – 1,50 | 1,15 – 1,25 |\n| Areias | < 2 | 1,10 – 1,25 | 1,05 – 1,20 |\n| Siltes e argilas | < 0.06 | 1,05 – 1,15 | 1,05 – 1,10 |\n\n![[dnit_380_2022_pro_fig02.png]]",
+    "nota": "Tabela A3 (p. 13) tinha virado só figura (fig02); '< 0.06' com ponto como no PDF"
+  },
+  "u01": {
+    "todas": true,
+    "de_inicio": "-\n\nProteção:",
+    "para": "- Proteção:",
+    "nota": "Anexo E: item de lista partido"
+  },
+  "u02": {
+    "todas": true,
+    "de_inicio": "-\n\nFiltração:",
+    "para": "- Filtração:",
+    "nota": "Anexo E: item de lista partido"
+  },
+  "u03": {
+    "todas": true,
+    "de_inicio": "-\n\nReforço:",
+    "para": "- Reforço:",
+    "nota": "Anexo E: item de lista partido"
+  }
+}

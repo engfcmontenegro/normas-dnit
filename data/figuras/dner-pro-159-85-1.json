@@ -1,0 +1,119 @@
+{
+  "fig01": {
+    "page": 6,
+    "bbox": [
+      88.0,
+      57.4,
+      529.0,
+      807.0
+    ],
+    "legenda": "",
+    "ancora": "7 CÁLCULO DOS PARÂMETROS DO TRECHO",
+    "texto_removido": [
+      "## CAMINHÃO",
+      "## SEMI-REBOQUE",
+      "3s2",
+      "## SEMI-REBOQUE",
+      "## 353 SEI4I-REBOQUE",
+      "2e SE PE",
+      "## REBOQUE",
+      "2C3",
+      "## REBOQUE",
+      "## AUTOMOVEL",
+      "2c",
+      "## ONIBUS",
+      "## UTILITARIO",
+      "2c.",
+      "## CAMINHÃO",
+      "3€",
+      "## CAMINHÃO",
+      "4c",
+      "## DNER— PRO 159/85",
+      "P.. D6/31",
+      "## SIMBOLO",
+      "## CONFIGURAÇÃO",
+      "## DESCRIÇÃO"
+    ]
+  },
+  "fig02": {
+    "page": 11,
+    "bbox": [
+      59.0,
+      54.7,
+      527.0,
+      800.0
+    ],
+    "legenda": "FIGURA 2 - MODELO DE GRÁFICO PARA DIVISÃO",
+    "ancora": "FIGURA 2 - MODELO DE GRÁFICO PARA DIVISÃO",
+    "texto_removido": [
+      "FV= fator de veículo da frota.",
+      "Tipo de Eixo Equações Equações (para P em kN) (para P em tf)",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Fes) = [0 Fcss) = 76,20 7,77 P 4,32 P`",
+      "P 4,32 P",
+      "## 432 Simples de Rodagem Simples",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Fesp = Fo = |— 80,12 8,17 P 4,14 P Nes Fr (DV ra (E) andam`",
+      "## 4432 Simples de Rodagem Dupla",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `CD) (rea ) “O M5,08/ P 4,22 P Vº2 Fm = F`",
+      "Dunla (Rada D (TD) Fandem Duplo (Rodagem Dupla)"
+    ]
+  },
+  "fig03": {
+    "page": 19,
+    "bbox": [
+      53.0,
+      110.0,
+      460.0,
+      246.0
+    ],
+    "legenda": "Figura 3 - Representação",
+    "ancora": "Figura 3 - Representação",
+    "clip": [
+      55,
+      134,
+      556,
+      294
+    ],
+    "nota": "Figura 3 (p. 19); recorte ampliado",
+    "inserir_antes": "**10.2** Equação 1",
+    "texto_removido": [
+      "TMD",
+      "## CONSTITUIÇÃO",
+      "DO PAVIMENTO",
+      "ESPESSURAS(em)",
+      "## OBSERVAÇÕES",
+      "## ESTAQUEAMENTO",
+      "## SUBTRECHO",
+      "## HOMOGENEO",
+      "convENçÕES PARA | [4//7////1] revestimento ma-sasE [o]",
+      "## AS CAMADAS DO",
+      "## PAVIMENTO",
+      "[Err rt] case [CT] [O]",
+      "## DO TRECHO",
+      "## EM SUBTRECHOS HOMOGÊNEOS nr",
+      "“a",
+      "## QUOCIENTE DE",
+      "IRREGULARIDADE",
+      "4 (Cont./mm)",
+      "TR",
+      "## TRINCAMENTO (%)",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `O to < Us = «q`",
+      "## DEFLEXAÃO",
+      "## RECUPERAVEL (0,01mm)",
+      "## DNER--PRO 159/85",
+      "P.o. 11/31"
+    ]
+  },
+  "fig04": {
+    "page": 23,
+    "bbox": [
+      63.9,
+      286.0,
+      314.7,
+      367.0
+    ],
+    "legenda": "",
+    "ancora": "Bp é calculado de forma idêntica à indicada na equação 5.",
+    "ignorar": true,
+    "nota": "é fórmula (A'R e NA'R da equação 6, em LaTeX em eq12)"
+  }
+}

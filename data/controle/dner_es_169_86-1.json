@@ -1,0 +1,50 @@
+{
+ "es": "dner-es-169-86",
+ "servico": "Controle de qualidade do levantamento da condição de superfície (gerência de pavimentos)",
+ "itens": [
+  {
+   "etapa": "produto",
+   "grupo": "Amostra do levantamento",
+   "ensaio": "Formação da amostra",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por Residência",
+   "criterio": "10 % do total de segmentos-testemunha, com máxima representatividade",
+   "secao": "4.2 / 4.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Segmento-testemunha",
+   "ensaio": "Amarração (localização)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Cada segmento-testemunha da amostra",
+   "criterio": "Segmento no marco quilométrico/referência registrada na ficha",
+   "secao": "6.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Segmento-testemunha",
+   "ensaio": "Tipo de revestimento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Cada segmento-testemunha da amostra",
+   "criterio": "Igual ao registrado na ficha",
+   "secao": "6.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Segmento-testemunha",
+   "ensaio": "Quantidade de defeitos (recontagem)",
+   "citado": "DNER-ES 128/83",
+   "norma": null,
+   "frequencia": "Cada segmento-testemunha da amostra",
+   "criterio": "Diferença máx.: 0 (0–4 defeitos); 1 (5–9); 2 (10–18); 3 (19–24); 4 (25–30); 5 (> 30); exclui trincas classe 1",
+   "secao": "6.3"
+  }
+ ],
+ "notas": [
+  "Segmento reprovado: repetir o controle nele e no vizinho do mesmo subtrecho; persistindo, refazer o levantamento do subtrecho.",
+  "Não aceitação em 10 % dos subtrechos do PNV da Residência implica rejeição de todo o levantamento da jurisdição."
+ ]
+}

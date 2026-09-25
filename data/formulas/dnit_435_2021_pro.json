@@ -1,0 +1,14 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "| V | Rocha completamente alterada | Todo material está decomposto, porém ainda preserva sua estrutura original visível. Material não é adequado para agregado ou pavimentação, porém pode ser adequado para aterros. |",
+    "para": "| V | Rocha completamente alterada | Todo material está decomposto, porém ainda preserva sua estrutura original visível. Material não é adequado para agregado ou pavimentação, porém pode ser adequado para aterros. |\n| VI | Solo residual | Toda rocha está convertida em solo. Estrutura e textura originais destruídas. Superfície facilmente penetrável. Há mudança no volume, porém sem transporte significativo. Material pode ser adequado para aterros. |",
+    "nota": "linha VI da Tabela A1 (continuação na p. 7, que ficou só como imagem fig01)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "HCL e H2O2",
+    "para": "HCL e H₂O₂",
+    "nota": "4.1 c): índices perdidos"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "fig01": {
+    "page": 11,
+    "bbox": [
+      85.7,
+      98.2,
+      457.8,
+      518.5
+    ],
+    "legenda": "Figura C1 – Exemplo de curva granulométrica (% passante x abertura da malha das peneiras)"
+  },
+  "fig02": {
+    "page": 11,
+    "bbox": [
+      151.0,
+      549.4,
+      457.8,
+      725.5
+    ],
+    "legenda": "Figura C2 – Exemplo de curva granulométrica (% passante x abertura da malha das peneiras na potência 0,45)"
+  }
+}

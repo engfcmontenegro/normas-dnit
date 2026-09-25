@@ -1,0 +1,45 @@
+{
+  "es": "dnit-154-2010-es",
+  "servico": "Recuperação de defeitos em pavimentos asfálticos",
+  "itens": [
+    {"etapa": "materiais", "grupo": "Recomposição de base e sub-base", "ensaio": "Brita graduada",
+     "citado": "DNIT 139-ES e DNIT 141-ES", "norma": "dnit-139-2010-es", "outras": ["dnit-141-2022-es"],
+     "frequencia": "Conforme as normas de serviço correspondentes", "criterio": "Conforme DNIT 139-ES (sub-base) e DNIT 141-ES (base)", "secao": "5.1.1 / 7.1"},
+    {"etapa": "materiais", "grupo": "Sangrias", "ensaio": "Granulometria da brita",
+     "citado": null, "norma": null,
+     "frequencia": "No recebimento", "criterio": "Tabela 1 (recomendada): 1½\" = 100 %; 1\" = 75–100 %; ¾\" = 25–80 %; ½\" = 0–15 %; ⅜\" = 0–5 %; nº 4 = 0 %", "secao": "5.1.2"},
+    {"etapa": "materiais", "grupo": "Imprimação / pintura de ligação", "ensaio": "Ligante asfáltico",
+     "citado": "DNIT 144-ES e DNIT 145-ES", "norma": "dnit-144-2014-es", "outras": ["dnit-145-2012-es"],
+     "frequencia": "Conforme as normas de serviço correspondentes", "criterio": "Emulsão asfáltica ou CM-30; controle conforme DNIT 144-ES / DNIT 145-ES", "secao": "5.1.3 / 7.1"},
+    {"etapa": "materiais", "grupo": "Revestimento", "ensaio": "Mistura asfáltica (PMF ou CA)",
+     "citado": "DNIT 153/2010-ES ou DNIT 031/2006-ES", "norma": "dnit-153-2010-es",
+     "frequencia": "Conforme as normas de serviço correspondentes", "criterio": "PMF (DNIT 153-ES) em áreas pequenas e independentes; concreto asfáltico (DNIT 031-ES) em serviços de maior porte", "secao": "5.1.4 / 7.1"},
+
+    {"etapa": "execucao", "grupo": "Áreas degradadas (caixa)", "ensaio": "Compactação da camada remanescente / subleito",
+     "citado": "DNIT 137-ES e DNER-ME 037", "norma": "dner-me-037-94", "outras": ["dnit-137-2010-es"],
+     "frequencia": "Em cada caixa aberta", "criterio": "Pelo menos 15 cm compactados a 100 % da massa específica aparente seca máxima", "secao": "5.3.1 d"},
+    {"etapa": "execucao", "grupo": "Áreas degradadas (caixa)", "ensaio": "Espessura das camadas de enchimento",
+     "citado": null, "norma": null,
+     "frequencia": "Em cada caixa / remendo profundo", "criterio": "Camadas ≤ 15 cm, devidamente compactadas", "secao": "5.3.1 e / 7.2 c"},
+    {"etapa": "execucao", "grupo": "Áreas degradadas (caixa)", "ensaio": "Geometria do corte",
+     "citado": null, "norma": null,
+     "frequencia": "Em cada caixa aberta", "criterio": "Perímetro em quadrilátero; paredes com declividade 8 (V) : 1 (H); corte ≥ 30 cm além da área afetada (remendo profundo)", "secao": "5.3.1 a-b / 5.3.3 b"},
+    {"etapa": "execucao", "grupo": "Áreas degradadas (caixa)", "ensaio": "Prazo de caixa aberta",
+     "citado": null, "norma": null,
+     "frequencia": "Em cada caixa aberta", "criterio": "Preenchimento em até 3 dias da abertura, com sinalização", "secao": "5.3.1 j"},
+    {"etapa": "execucao", "grupo": "Remendo superficial", "ensaio": "Taxa de emulsão de ruptura rápida",
+     "citado": null, "norma": null,
+     "frequencia": "Em cada remendo", "criterio": "0,5 l/m² (aumentar se as fendas absorverem mais); capa selante só com trincas ≤ 3 mm", "secao": "5.3.2 b / e"},
+    {"etapa": "execucao", "grupo": "Reparos isolados", "ensaio": "Inspeção visual",
+     "citado": null, "norma": null,
+     "frequencia": "Em cada reparo", "criterio": "Controle visual de remendos, trincas, exsudações e escorregamentos; reposição de revestimento e camadas conforme a ES específica", "secao": "7.2 a / b"},
+
+    {"etapa": "produto", "grupo": "Reparos concluídos", "ensaio": "Inspeção visual do comportamento sob tráfego",
+     "citado": null, "norma": null,
+     "frequencia": "Após exposição ao tráfego (≥ 10 dias antes da pintura de ligação do reforço)", "criterio": "Sem depressões ou defeitos nas áreas reparadas; corrigir às custas da executante", "secao": "5.3.1 h / 7.3"}
+  ],
+  "notas": [
+    "Serviço preparatório ao recapeamento: o controle tecnológico dos materiais segue as ES de cada camada (DNIT 137, 139, 141, 144, 145, 153 e 031-ES).",
+    "Remendo superficial só pode ser aberto ao tráfego após a ruptura da emulsão."
+  ]
+}

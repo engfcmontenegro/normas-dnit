@@ -1,0 +1,35 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      319.1,
+      360.5,
+      378.2,
+      406.7
+    ],
+    "raw": "CR = TR e . l",
+    "latex": "TR = \\frac{CR}{e \\cdot l}"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      320.7,
+      586.9,
+      426.5,
+      634.6
+    ],
+    "raw": "− df di = × AR 100 di",
+    "latex": "AR = \\frac{df - di}{di} \\times 100"
+  },
+  "eq03": {
+    "page": 4,
+    "bbox": [
+      50.9,
+      129.2,
+      158.0,
+      176.9
+    ],
+    "raw": "− df di = × DP 100 di",
+    "latex": "DP = \\frac{df - di}{di} \\times 100"
+  }
+}

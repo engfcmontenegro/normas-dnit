@@ -1,0 +1,46 @@
+{
+  "fig01": {
+    "page": 3,
+    "bbox": [
+      71.0,
+      90.0,
+      544.1,
+      788.6
+    ],
+    "legenda": "",
+    "ancora": "5.1 Dependendo da sua classificação, os CM quando ensaiados devem atender aos re",
+    "clip": [
+      76,
+      85,
+      545,
+      625
+    ],
+    "nota": "gráfico 'TABELA 1' (era tab01); recorte só do gráfico, sem o título da seção 5",
+    "texto_removido": [
+      "## 250 CL - 2",
+      "125 200 100 90",
+      "## 140 CR, CM e",
+      "## 70 CL - 1",
+      "## 100 CR, CM e",
+      "## 50 CL - 70",
+      "70 35 60 30",
+      "CM - 30 CR, CM e CL - 0 30 15",
+      "TIPOS TIPOS ANTIGOS 10 5",
+      "## CONDIÇÕES ESPECÍFICAS",
+      "VISCOSIDADE CINEMÁTICA A 60º C",
+      "10000 8000 4000 6000",
+      "## 3000 CR, CM e",
+      "CR, CM e",
+      "## 4000 CL - 3000",
+      "## 800 CR, CM e",
+      "CR, CM e",
+      "## 1000 CL - 800",
+      "CL - 4 500 800",
+      "## 400 CR, CM e",
+      "CL - 3",
+      "250 500 200 400 CR, CM e CL - 250 CR, CM e",
+      "COMPARAÇÃO DOS NOVOS E ANTIGOS",
+      "TIPOS DE ASFALTOS LÍQUIDOS A 60º C"
+    ]
+  }
+}

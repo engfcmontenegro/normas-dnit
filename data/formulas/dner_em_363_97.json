@@ -1,0 +1,9 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "TABELA 1\n\n## 20 NOVOS",
+    "de_fim": "**5.1** Dependendo",
+    "para": "TABELA 1 - Comparação dos novos e antigos tipos de asfaltos líquidos a 60º C\n\n![[dner_em_363_97_fig01.png]]\n\n## 5 CONDIÇÕES ESPECÍFICAS\n\n**5.1** Dependendo",
+    "nota": "rótulo solto do gráfico; título da seção 5 (dentro da caixa do gráfico) tinha saído como rótulo"
+  }
+}

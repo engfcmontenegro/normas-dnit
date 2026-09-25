@@ -1,0 +1,88 @@
+{
+  "eq01": {
+    "page": 5,
+    "clip": [
+      74,
+      398,
+      200,
+      440
+    ],
+    "latex": [
+      "\\gamma_s = \\frac{A}{B - C}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `γ s A B C = −`",
+    "de_fim": "C = leitura correspondente ao agregado imerso em água, em kg ou g.",
+    "para": "$$\n\\gamma_s = \\frac{A}{B - C}\n$$\n\nonde:\n\n$\\gamma_s$ = massa específica do agregado na condição seca, em kg/dm³ ou em g/cm³;\n$A$ = massa do agregado seco, em kg ou g;\n$B$ = massa do agregado na condição saturada superfície seca, em kg ou em g;\n$C$ = leitura correspondente ao agregado imerso em água, em kg ou g."
+  },
+  "eq02": {
+    "page": 5,
+    "clip": [
+      74,
+      596,
+      200,
+      638
+    ],
+    "latex": [
+      "\\gamma_{sss} = \\frac{A}{B - C}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `γ sss A B C = −`",
+    "de_fim": "aplicado na expressão acima, em dm 3 ou cm 3 .",
+    "para": "$$\n\\gamma_{sss} = \\frac{A}{B - C}\n$$\n\nonde:\n\n$\\gamma_{sss}$ = massa específica do agregado na condição saturada superfície seca, em kg/dm³ ou g/cm³.\n\nNota 4: O valor da diferença numérica B - C é igual ao volume do agregado, aplicado na expressão acima, em dm³ ou cm³.",
+    "nota": "p. 5: numerador A no PDF (fisicamente seria B, massa saturada superfície seca, cf. NBR 9937/NBR NM 53); transcrito como no PDF"
+  },
+  "eq03": {
+    "page": 6,
+    "clip": [
+      74,
+      142,
+      200,
+      184
+    ],
+    "latex": [
+      "a = \\frac{B - A}{A} \\times 100"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `a B A A = − x 100`",
+    "de_fim": "a = absorção do agregado, em porcentagem;",
+    "para": "$$\na = \\frac{B - A}{A} \\times 100\n$$\n\nonde:\n\n$a$ = absorção do agregado, em porcentagem;"
+  },
+  "eq04": {
+    "page": 6,
+    "clip": [
+      74,
+      288,
+      300,
+      348
+    ],
+    "latex": [
+      "\\gamma_s \\text{ ou } \\gamma_{sss} = \\frac{1}{\\dfrac{P_1}{\\gamma_1} + \\dfrac{P_2}{\\gamma_2} + \\cdots + \\dfrac{P_n}{\\gamma_n}} \\times 100",
+      "a = \\frac{1}{100} \\left( P_1 \\cdot a_1 + P_2 \\cdot a_2 + \\cdots + P_n \\cdot a_n \\right)"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `( ) γ γ γ γ γ s sss n n n n P P P a a P a P a ou x P 1 = +`",
+    "de_fim": "valores da absorção de cada fração granulométrica do agregado, em porcentagem.",
+    "para": "$$\n\\gamma_s \\text{ ou } \\gamma_{sss} = \\frac{1}{\\dfrac{P_1}{\\gamma_1} + \\dfrac{P_2}{\\gamma_2} + \\cdots + \\dfrac{P_n}{\\gamma_n}} \\times 100\n$$\n\n$$\na = \\frac{1}{100} \\left( P_1 \\cdot a_1 + P_2 \\cdot a_2 + \\cdots + P_n \\cdot a_n \\right)\n$$\n\nonde:\n\n$P_1, P_2, \\ldots, P_n$ = porcentagens retidas individuais, em massa, das frações granulométricas presentes na amostra original;\n$\\gamma_1, \\gamma_2, \\ldots, \\gamma_n$ = valores de massa específica do agregado nas condições seca ($\\gamma_s$) ou saturada superfície seca ($\\gamma_{sss}$);\n$a_1, a_2, \\ldots, a_n$ = valores da absorção de cada fração granulométrica do agregado, em porcentagem."
+  },
+  "eq05": {
+    "page": 6,
+    "clip": [
+      74,
+      355,
+      300,
+      396
+    ],
+    "latex": [
+      "a = \\frac{1}{100} \\left( P_1 \\cdot a_1 + P_2 \\cdot a_2 + \\cdots + P_n \\cdot a_n \\right)"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "0,02 kg/dm 3 ou g/cm 3 .",
+    "para": "0,02 kg/dm³ ou g/cm³.",
+    "nota": "7.1.5.1"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "0,01 kg/dm 3 ou g/cm 3 .",
+    "para": "0,01 kg/dm³ ou g/cm³.",
+    "nota": "Nota 5"
+  }
+}

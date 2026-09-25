@@ -1,0 +1,75 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      68,
+      676,
+      160,
+      720
+    ],
+    "latex": [
+      "X = \\frac{C \\times A}{1{,}550}"
+    ],
+    "de_inicio": "CxA X=\n\n1,550 onde:",
+    "de_fim": "1,550 kg/dm'.",
+    "para": "$$\nX = \\frac{C \\times A}{1{,}550}\n$$\n\nonde:\n\n$X$ - massa da amostra de agregado sintético a ser ensaiado;\n$C$ - massa do agregado convencional indicado na Tabela 1;\n$A$ - massa específica aparente do agregado sintético.\n\nNota 2:\nA massa específica aparente média do agregado convencional, para efeito da correção, é de 1,550 kg/dm³."
+  },
+  "eq02": {
+    "page": 5,
+    "clip": [
+      68,
+      90,
+      160,
+      135
+    ],
+    "latex": [
+      "Y = \\frac{A \\times E}{1{,}550}"
+    ],
+    "de_inicio": "AxE Y=\n\n1,550 sendo:",
+    "de_fim": "(massa das esferas).",
+    "para": "$$\nY = \\frac{A \\times E}{1{,}550}\n$$\n\nsendo:\n\n$Y$ - massa da carga abrasiva a ser usada no ensaio;\n$A$ - massa específica aparente do agregado sintético;\n$E$ - massa da carga abrasiva indicada no método de acordo com a graduação da amostra (massa das esferas)."
+  },
+  "eq03": {
+    "page": 5,
+    "clip": [
+      68,
+      362,
+      220,
+      402
+    ],
+    "latex": [
+      "A_n = \\frac{P_n - P'_n}{P_n} \\times 100"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `P.- Po A =00 — x100 P n`",
+    "de_fim": "após o ensaio.",
+    "para": "$$\nA_n = \\frac{P_n - P'_n}{P_n} \\times 100\n$$\n\nonde:\n\n$A_n$ - desgaste do agregado por abrasão, ensaiado na graduação n, com aproximação de 1%;\n$n$ - graduação (A, B, C ou D), escolhida para o ensaio;\n$P_n$ - massa total da amostra seca, antes do ensaio;\n$P'_n$ - massa do material retido na peneira de 1,7 mm, após o ensaio."
+  },
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "como a massa total a ensaiar (PD.",
+    "para": "como a massa total a ensaiar ($P_n$).",
+    "nota": "6.1: Pn lido como PD"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "com a aproximação de 5 g (Pr).",
+    "para": "com a aproximação de 5 g ($P'_n$).",
+    "nota": "6.6: P'n lido como Pr"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "é dado pela Tabela 2 Tabela 2 - Determinação",
+    "para": "é dado pela Tabela 2.\n\nTabela 2 - Determinação",
+    "nota": "6.2: título da Tabela 2 grudado"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Graduação Graduação Graduação Graduação mm mm A B C D",
+    "de_fim": "ele pode ser quebrado",
+    "para": "![[dner_me_222_94-1_fig01.png]]\n\nNota 1: Quando o material não se enquadrar em nenhuma das graduações da Tabela 1, ele pode ser quebrado para que o enquadramento seja conseguido.",
+    "nota": "aviso falso: conteúdo da Tabela 1 (já em fig01); Nota 1 recomposta"
+  }
+}

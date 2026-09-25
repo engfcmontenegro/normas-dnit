@@ -1,0 +1,42 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      92.9,
+      277.8,
+      516.0,
+      599.0
+    ],
+    "legenda": "Figura 1 – Esquema das reações solo-cal"
+  },
+  "fig02": {
+    "page": 6,
+    "bbox": [
+      124.8,
+      73.4,
+      484.8,
+      289.4
+    ],
+    "legenda": "Figura 1: Exemplo de resultado do método para um solo"
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      164.3,
+      406.2,
+      445.1,
+      485.6
+    ],
+    "legenda": "Figura 2: Potes com amostras de solo e cal para realização do ensaio do método do pH"
+  },
+  "fig04": {
+    "page": 6,
+    "bbox": [
+      190.0,
+      574.3,
+      419.1,
+      738.5
+    ],
+    "legenda": "Figura 3: Exemplo de Leitura do pH de solo + cal"
+  }
+}

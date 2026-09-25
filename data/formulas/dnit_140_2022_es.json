@@ -1,0 +1,43 @@
+{
+  "eq01": {
+    "page": 8,
+    "bbox": [
+      48.6,
+      681.5,
+      284.2,
+      713.6
+    ],
+    "raw": "𝐷𝑐= 𝐷 0 𝑚é𝑑𝑖𝑜 + 𝑘𝑆≤𝐿𝑆𝐸 (1)",
+    "latex": "Dc = D_{0_{\\text{médio}}} + kS \\leq LSE \\tag{1}"
+  },
+  "eq02": {
+    "page": 9,
+    "bbox": [
+      49.4,
+      452.0,
+      293.2,
+      530.4
+    ],
+    "raw": "𝑛 ∑ 𝑥 𝑖 𝑖=1 𝑋̅ = (2) 𝑛 𝑠= √ ∑(𝑥 𝑖 −𝑋̅)² (3) 𝑛−1",
+    "latex": [
+      "\\bar{X} = \\frac{\\sum_{i=1}^{n} x_i}{n} \\tag{2}",
+      "s = \\sqrt{\\frac{\\sum (x_i - \\bar{X})^2}{n-1}} \\tag{3}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$D_{0}$$m$é$d_{io}$",
+    "para": "$D_{0_{\\text{médio}}}$",
+    "nota": "legenda: D0médio quebrado na extração"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "valores individuais Di levantados",
+    "para": "valores individuais $D_i$ levantados"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "$D_{c}$ – deflexão",
+    "para": "$Dc$ – deflexão"
+  }
+}

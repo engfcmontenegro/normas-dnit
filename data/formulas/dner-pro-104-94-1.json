@@ -1,0 +1,60 @@
+{
+  "t01": {
+    "texto": true,
+    "de_inicio": "O Apresentação 1 Objetivo\n\n",
+    "de_fim": "## 4 Condições gerais\n\n",
+    "para": "",
+    "nota": "sumário da p. 1 lido como títulos falsos"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a DNER-PRO 104/89 à\n\nDNER-PRO 101/93",
+    "para": "a DNER-PRO 104/89 à DNER-PRO 101/93"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\nReprodução permiticla desde que citado o DNER como fonte",
+    "para": "",
+    "nota": "tarja lateral"
+  },
+  "t04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Notas: 1) Parauso da Tabela",
+    "para": "Notas: 1) Para uso da Tabela"
+  },
+  "t05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**4.2.3.1** Formadaaprimeira (1º) amostra ou amostra única, se o número derecipientes",
+    "para": "**4.2.3.1** Formada a primeira (1ª) amostra ou amostra única, se o número de recipientes"
+  },
+  "t06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "deve-se formar uma segunda (2º) amostra (Nota 2)",
+    "para": "deve-se formar uma segunda (2ª) amostra (Nota 2)"
+  },
+  "t07": {
+    "texto": true,
+    "de_inicio": "**2.3.2** Formadaa segunda (2º) amostra, seo número",
+    "de_fim": "*) e segunda (2º) amostras for igual",
+    "para": "**4.2.3.2** Formada a segunda (2ª) amostra, se o número de recipientes defeituosos encontrados nas primeira (1ª) e segunda (2ª) amostras for igual",
+    "nota": "item 4.2.3.2 partido pelo OCR"
+  },
+  "t08": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "número de rejeição da segunda (2º) amostra",
+    "para": "número de rejeição da segunda (2ª) amostra"
+  },
+  "t09": {
+    "texto": true,
+    "de_inicio": "b) nome comercial do material e/ou numeração;\n\n![[dner-pro-104-94-1_fig02.png]]",
+    "de_fim": "n) fim e local a que se destina;",
+    "para": "b) nome comercial do material e/ou numeração;\n\nc) cor;\n\nd) referência quanto à natureza química da resina;\n\ne) quantidade (volume);\n\nf) data de fabricação;\n\ng) prazo de validade;\n\nh) identificação da partida de fabricação;\n\ni) técnico responsável pela fabricação do material;\n\nj) nome e endereço do fabricante;\n\nl) data e local da coleta;\n\nm) responsável pela coleta da amostra;\n\nn) fim e local a que se destina;\n\no) remetente.",
+    "nota": "4.3: alíneas c) a l) e o) (p. 5) tinham virado a figura fig02"
+  }
+}

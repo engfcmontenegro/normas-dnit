@@ -1,0 +1,61 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      258,
+      565,
+      380,
+      610
+    ],
+    "latex": [
+      "h = \\frac{M_i - M_f}{M_f - M_c} \\times 100"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `h Mi Mf =`",
+    "de_fim": "Mc = massa da cápsula, em g.",
+    "para": "$$\nh = \\frac{M_i - M_f}{M_f - M_c} \\times 100\n$$\n\nonde:\n\n$h$ - teor de umidade do agregado, em %;\n$M_i$ - massa da cápsula com o material coletado durante o ensaio, em g;\n$M_f$ - massa final da cápsula com o material coletado após secagem em estufa, em g;\n$M_c$ - massa da cápsula, em g.",
+    "nota": "PDF escreve Mi, Mf, Mc sem subscrito (índices tipográficos)"
+  },
+  "eq02": {
+    "page": 4,
+    "clip": [
+      255,
+      128,
+      370,
+      170
+    ],
+    "latex": [
+      "\\frac{V_h}{V_o} = \\frac{\\gamma_s}{\\gamma_h} \\, \\frac{(100 + h)}{100}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Vh Vo s h = γ γ + h) (100`",
+    "de_fim": "teor de umidade do agregado, em %.",
+    "para": "$$\n\\frac{V_h}{V_o} = \\frac{\\gamma_s}{\\gamma_h} \\, \\frac{(100 + h)}{100}\n$$\n\nonde:\n\n$V_h$ - volume do agregado com h% de umidade, em dm³;\n$V_o$ - volume do agregado seco em estufa, em dm³;\n$V_h/V_o$ - coeficiente de inchamento;\n$\\gamma_s$ - massa unitária do agregado seco em estufa, em kg/dm³;\n$\\gamma_h$ - massa unitária do agregado com h% de umidade, em kg/dm³;\n$h$ - teor de umidade do agregado, em %.",
+    "nota": "PDF escreve Vh, Vo sem subscrito"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `texto próprio do DNER com inserção de`",
+    "de_fim": "ao prescrito na ABNT NBR-6467/87, em aperfeiçoamento técnico,",
+    "para": "Esta Norma decorreu da necessidade de transformar a DNER-ME 192/94, adotada por Processo de Referência ao prescrito na ABNT NBR-6467/87, em texto próprio do DNER com inserção de aperfeiçoamento técnico,",
+    "nota": "aviso falso: trecho do prefácio que o OCR separou; reinserido no parágrafo"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "Coeficiente de inchamento (Vh/Vo)",
+    "para": "Coeficiente de inchamento ($V_h/V_o$)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "úmido (Vh) e seco (Vo)",
+    "para": "úmido ($V_h$) e seco ($V_o$)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "coletada (Mi), bem como a sua massa (Mf),",
+    "para": "coletada ($M_i$), bem como a sua massa ($M_f$),"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "pares de valores (h, Vh/Vo)",
+    "para": "pares de valores (h, $V_h/V_o$)"
+  }
+}

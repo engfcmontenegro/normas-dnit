@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      60,
+      585,
+      590,
+      825
+    ],
+    "md": "| Tipo | Dimensões (cm) |  | Resistência à flexão - Limite mínimo (N) |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | Comprimento | Lado | Engastado – 1ª Fissura | Engastado – Ruptura | Apoiado – 1ª Fissura | Apoiado – Ruptura |\n| Suporte | 210 | 11 | 200 | 300 | 540 | 810 |\n| Esticador | 220 | 15 | 500 | 700 | 1350 | 1890 |\n| Escora | 210 | 11 | 200 | 300 | 540 | 810 |",
+    "de_inicio": "![[dner_em_174_94-1_fig01.png]]",
+    "nota": "Tabela de 8.1 (p. 4): a página inteira tinha virado figura (fig01); só a tabela recortada"
+  }
+}

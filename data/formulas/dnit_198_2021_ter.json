@@ -1,0 +1,139 @@
+{
+  "eq01": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      559.5,
+      527.0,
+      585.8
+    ],
+    "raw": "dirigida) em um eixo de tensões (𝜎1, 𝜎2 e 𝜎3).",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: condição com tensões no texto corrido (tratada com LaTeX inline)"
+  },
+  "eq02": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      733.7,
+      563.3,
+      760.1
+    ],
+    "raw": "𝜎1 = 𝜎2 > 𝜎3. Verifica-se alongamento de minerais e",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: condição com tensões no texto corrido (tratada com LaTeX inline)"
+  },
+  "eq03": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      88.2,
+      293.7,
+      114.5
+    ],
+    "raw": "𝜎1 > 𝜎2 = 𝜎3 e resulta da orientação de argilominerais",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: condição com tensões no texto corrido (tratada com LaTeX inline)"
+  },
+  "eq04": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      151.5,
+      293.8,
+      180.1
+    ],
+    "raw": "designados em 𝑆 1 , 𝑆 2 , 𝑆 3 em diante e a numeração é",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: condição com tensões no texto corrido (tratada com LaTeX inline)"
+  },
+  "m01": {
+    "manual": true,
+    "page": 16,
+    "clip": [
+      60,
+      100,
+      552,
+      770
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Tabela B1 (parte 1, p. 16; tabela sem fios achatada); vai abaixo da tabela markdown (t04)"
+  },
+  "m02": {
+    "manual": true,
+    "page": 17,
+    "clip": [
+      60,
+      50,
+      552,
+      578
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Tabela B1 (parte 2, p. 17); vai abaixo da tabela markdown (t04)"
+  },
+  "m03": {
+    "manual": true,
+    "page": 18,
+    "clip": [
+      55,
+      103,
+      562,
+      735
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Tabela C1 (tabela sem fios achatada); vai abaixo da tabela markdown (t05)"
+  },
+  "m04": {
+    "manual": true,
+    "page": 19,
+    "clip": [
+      60,
+      105,
+      555,
+      710
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Tabela D1 (tabela sem fios achatada); vai abaixo da tabela markdown (t06)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "($σ1$, $σ2$ e $σ3$)",
+    "para": "($\\sigma_{1}$, $\\sigma_{2}$ e $\\sigma_{3}$)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "$σ1$ = $σ2$ > $σ3$",
+    "para": "$\\sigma_{1} = \\sigma_{2} > \\sigma_{3}$"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "$σ1$ > $σ2$ = $σ3$",
+    "para": "$\\sigma_{1} > \\sigma_{2} = \\sigma_{3}$"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "Tabela B1 – Síntese com os tipos de horizontes e seus principais atributos",
+    "para": "Tabela B1 – Síntese com os tipos de horizontes e seus principais atributos\n\n| Horizontes pedogenéticos | Características principais |\n| --- | --- |\n| O | Apresenta cor escura caracterizando o conteúdo de matéria orgânica em vias de decomposição. |\n| A | Elevada atividade biológica. É uma zona com bastante influência do clima e apresenta mistura de matéria orgânica e frações minerais. |\n| B | Em geral, apresenta cor forte avermelhada pela acumulação de argilas procedentes dos horizontes superiores (A e/ou E) e também de óxidos e hidróxidos de ferro e alumínio. |\n| E | Pode ocorrer entre os horizontes A e B. Apresenta pouca ou nenhuma matéria orgânica, argila, óxidos e hidróxidos eluviados. |\n| C | Apresenta mistura de rocha alterada e fragmentada com argilas originadas pelo intemperismo químico. É pouco visível a transição de um horizonte para o outro. |\n| D ou R | Rocha ou substrato rochoso sem alteração. |\n| **Horizontes diagnósticos superficiais** | **Carcacterístcias principais** |\n| Hístico | Essencialmente orgânico, apresenta coloração preta, cinzenta, muito escura . Formado pelo acúmulo de vegetais em diferentes estágios de decomposicção. Identifica os organossolos. |\n| A chernozêmico | Escuro, rico em húmus, cálcio e/ou magnésio com espessuras superiores a 25 cm, saturação por base é 65 % ou mais, carbono orgânico maior ou igual a 0,6 %. |\n| A proeminente | Escuro, pobre em cálcio, com espessura variando entre 25 cm e 75 cm, saturação por base inferior a 65 %. |\n| A húmico | Mais espesso do que o A proeminente, saturação por bases é inferior a 65 % e valores de carbono orgânico variam. |\n| A antrópico | Apresenta cerca de 20 cm. Formado pela atividade humana com característica de seu antigo uso e ocupação por indícios como fragmentos de ossos, conhas, fogueiras, ferramentas, e outros artefatos. Apresenta elevados teores de pentóxido de fósforo. |\n| A fraco | Pouco desenvolvido podendo ter espessura menor que 5 cm, cor varia de castanho a amarelo, reduzido teores orgânico e de coloides minerais, por fatores extrínsecos como vegetação e clima seco e semiárido. |\n| A moderado | Quando é superficial e não apresenta nenhuma característica dos anteriores. |\n| **Horizontes diagnósticos subsuperficiais** | **Carcacterístcias principais** |\n| B textural | Acúmulo de argila iluviada do horizonte pedogenético A ou E. A cerosidade típica dos coloides transportados são seu aspecto lustroso e brilho graxo. |\n| B plânico | Tipo de B textural. Apresenta elevado adensamento, baixa permeabilidade, cores cinza a cinza escura, transição abrupta, estrutura maciça, prismática, colunar ou em blocos angulares e subangulares grandes ou médios. Identifica os planossolos. |\n| B latossólico | Apresenta quantidades variáveis de óxidos de ferro e de alumínio, argilominerais do tipo 1:1 (ex.: caulinita), quartzo e outros minerais mais resistentes ao intemperismo, espessura mínima de 50 cm, cerosidade fraca. |\n| B nítico | Estrutura em blocos subangulares e/ou angulares ou prismática com grau de desenvolvimento moderado a forte associado à cerosidade. Argila de atividade baixa ou atividade alta conjugada com o caráter alumínico. |\n| B incipiente | Possui no mínimo 10 cm de espessura, já passou por alteração física e química em estágios pouco avançados e suficiente para o desenvolvimento de cor ou de unidades estruturais que o diferem da rocha original. Apresenta cores marrons, amareladas e avermelhadas. Não apresenta endurecimento (duripã) ou consistência quebradiça fragipã), se umedecido. |\n| Vértico | Contém elevadas quantidades de argilas. Possui elevada dureza quando seco e elevada plasticidade quando molhado. Essa capacidade de expansão e contração promove feições pedológicas como as superfícies de fricção (slickensides) e fendas. |\n| Plíntico | Possui cerca de 15 cm e 15 % (por volume) de plintita (segregação de óxido de ferro a argilas e grãos de quartzo ou outros minerais e possui forma nódulo). Formado em regiões de clima quente e úmido, em terrenos com lençol freático elevado ou com restrição temporária à percolação da água. Apresenta argila de atividade baixa. |\n| Concrecionário | Possui pelo menos 30 cm e 50 % de volume de material grosso de petroplintita em nódulos ou concreções de ferro ou de ferro e alumínio dentro de uma matriz terrosa ou de um material mais grosso. |\n| Litoplíntico | Sua espessura é de 10 cm ou mais. É bastante consolidado e endurecido por ferro ou ferro e alumínio sem carbono orgânico. Predominam de blocos de petroplintita que podem se interpor ao fluxo das águas e à penetração de raízes. |\n| Cálcico | Apresenta cerca de 15 cm ou mais, é enriquecido e formado com carbonato de cálcio no horizonte pedogenético C, mas pode ocorrer no A e no B. |\n| Glei | A espessura pode ser de 15 cm ou mais. Possui cor acinzentada devido à influência do lençol freático e por regime de redutor, livre de oxigênio dissolvido em razão da saturação por água durante todo o ano. |\n\n![[dnit_198_2021_ter_m01.png]]\n\n![[dnit_198_2021_ter_m02.png]]",
+    "nota": "Tabela B1 (p. 16-17) sem fios: tabela markdown + recortes m01/m02; grafias do PDF mantidas ('Carcacterístcias', 'decomposicção', 'conhas', 'fragipã)')"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "Tabela C1 – Síntese com a classificação atual de solos",
+    "para": "Tabela C1 – Síntese com a classificação atual de solos\n\n| Sistema Brasileiro de Classificação Solos (SiBCS) | Principais horizontes e características | Equivalência em sistemas antigos de classificação |\n| --- | --- | --- |\n| Argissolo | Contém horizonte B Textural e argila de baixa atividade. É bem evoluído e argiloso. | Podzólico (vermelhos-amarelos e vermelhos-escuros) |\n| Cambissolo | Há B incipiente sem A chernozêmico (apenas se houver argila de baixa atividade). É pouco desenvolvido. | Cambissolos |\n| Chernossolo | A chernozêmico e B incipiente, textural ou nítico (contendo argilas de alta atividade e eutrófico). Desenvolvimento moderado. | Brunizems |\n| Espodossolo | B espódico abaixo de horizontes A e E. Apresenta alta eluviação de compostos aluminosos. | Podzóis e Podzóis hidromórficos |\n| Gleissolo | Apresenta horizonte glei nos 50cm da superfície. É altamente hidromórfico com intensa redução dos compostos de ferro. | Glei pouco húmicos e Húmicos, Hidromórficos Cinzentos |\n| Latossolo | Tipicamente há B latossólico abaixo de horizonte A. Solo muito evoluído rico em argilominerais 1:1, óxidos e hidróxidos de ferro e alumínio. | Latossolo |\n| Luvissolo | B textural de acumulação, rico em cátions básicos trocáveis. É um horizonte formado por argila de alta atividade. | Brunos não cálcicos e podzólicos eutróficos e argila de alta atividade |\n| Neossolo | Não apresenta horizonte B diagnóstico (solos jovens). Pouco evoluído e com características do material original. | Litossolo, Regossolo, Solos Aluviais |\n| Nitossolo | Possui B nítico e baixa atividade de argilas. Solo evoluído com argilas cauliníticas, apresenta cerosidade e estruturas em blocos. | Terras Rochas e Terras Brunas Estruturadas |\n| Organossolo | Apresenta horizonte hístico de até 40 cm. Material orgânico original constitui o próprio solo. | Solos orgânicos, Turfosos |\n| Planossolo | B plânico abaixo de horizonte E A. Há forte perda de argila na parte superficial e alta concentração no horizonte subsuperficial. | Planossolos, Solonetz-Solodizados |\n| Plintossolo | Horizonte plíntico, petroplíntico e/ou litoplíntico. Solo com elevada concentração de plintita. | Laterítico, Lateritas hidromórficas, Solos concercionários. |\n| Vertissolo | Típico horizonte vértico com fendas de expansão e mais de 30 % de argila no horizonte A. Apresenta desenvolvimento restrito pela presença de argilas expansivas 2:1. | Vertissolos, Grumossolos |\n\n![[dnit_198_2021_ter_m03.png]]",
+    "nota": "Tabela C1 (p. 18) sem fios: tabela markdown + recorte m03"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "Tabela D1 – Simbologia básica",
+    "para": "Tabela D1 – Simbologia básica\n\n| Símbolos | Significado | Unidades |\n| --- | --- | --- |\n| u | poro pressão, pressão neutra ou pressão intersticial | kPa |\n| $\\sigma$ | tensão total normal | kPa |\n| $\\tau$ | tensão cisalhante | kPa |\n| $\\sigma_{1}$ | tensão principal maior | kPa |\n| $\\sigma_{2}$ | tensão principal intermediária | kPa |\n| $\\sigma_{3}$ | tensão principal menor | kPa |\n| $\\varepsilon$ | deformação específica linear | % |\n| $\\gamma$ | deformação específica cisalhante | % |\n| $\\eta$ | porosidade | % |\n| e | índice de vazios | - |\n| $e_{o}$ | índice de vazios inicial | - |\n| $\\omega$ | teor de umidade | % |\n| $S_{r}$ | grau de saturação | % |\n| G | densidade relativa | - |\n| $\\rho_{d}$ | massa específica seca | kg/m³ |\n| $\\gamma d$ | peso específico seco | kN/m³ |\n| $\\rho_{S}$ | massa específica das partículas | kg/m³ |\n| $\\gamma_{S}$ | peso específico das partículas | kN/m³ |\n| $\\rho_{Sat}$ | massa específica saturada | kg/m³ |\n| $\\gamma_{Sat}$ | peso específico saturado | kN/m³ |\n| $\\rho'$ | massa específica submersa | kg/m³ |\n| $\\gamma'$ | peso específico submerso | kN/m³ |\n| $\\varphi'$ | ângulo de atrito efetivo interno | ° |\n| $c'$ | intercepto de coesão efetiva | kPa |\n| $\\tau_{f}$ | resistência ao cisalhamento | kPa |\n| $\\tau_{R}$ | resistência ao cisalhamento residual | kPa |\n| Cu | intercepto de coesão aparente | kPa |\n| $\\varphi_{u}$ | ângulo de atrito aparente interno | ° |\n| Cr | resistência não drenada remoldada | kPa |\n| $\\varphi_{R}$ | ângulo de atrito interno residual | ° |\n| $I_{D}$ | compacidade relativa | % |\n| $w_{L}$ | limite de liquidez | % |\n| $w_{P}$ | limite de plasticidade | % |\n| $w_{S}$ | limite de contração | % |\n| $I_{P}$ | índice de plasticidade | % |\n| $I_{L}$ | índice de liquidez | % |\n| $I_{C}$ | índice de consistência | % |\n| $e_{\\text{máx.}}$ | índice de vazios máximo | - |\n| $e_{\\text{mín.}}$ | índice de vazios mínimo | - |\n| CG | grau de compactação | % |\n\n![[dnit_198_2021_ter_m04.png]]",
+    "nota": "Tabela D1 (p. 19) sem fios: tabela markdown + recorte m04; unidade 'o' dos ângulos no PDF escrita como °"
+  }
+}

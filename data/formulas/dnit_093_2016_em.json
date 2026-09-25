@@ -1,0 +1,129 @@
+{
+  "eq01": {
+    "page": 2,
+    "bbox": [
+      319.6,
+      41.4,
+      404.4,
+      92.9
+    ],
+    "raw": "( ) E I L / = CR D ³",
+    "latex": "CR = \\frac{E\\left(I/L\\right)}{D^{3}}"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      318.0,
+      409.6,
+      432.3,
+      452.6
+    ],
+    "raw": "L",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: rótulo L da Figura 3 (imagem em m01)"
+  },
+  "eq03": {
+    "page": 3,
+    "bbox": [
+      533.7,
+      484.8,
+      557.8,
+      527.8
+    ],
+    "raw": "D",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: rótulo D da Figura 3 (imagem em m01)"
+  },
+  "eq04": {
+    "page": 5,
+    "bbox": [
+      319.2,
+      558.5,
+      470.9,
+      596.2
+    ],
+    "raw": "( ) ( ) = − TC M M / M x 100 3 0 1",
+    "latex": "TC = \\left(\\left(M_{3} - M_{0}\\right)/M_{1}\\right) \\times 100"
+  },
+  "eq05": {
+    "page": 6,
+    "bbox": [
+      106.7,
+      709.6,
+      232.3,
+      757.2
+    ],
+    "raw": "ϕ − ϕ i f = × V D E . . . 100 ϕ i",
+    "latex": "V.D.E. = \\frac{\\varphi i - \\varphi f}{\\varphi i} \\times 100"
+  },
+  "eq06": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      82.6,
+      348.7,
+      113.2
+    ],
+    "raw": "ϕ f",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável φf da legenda (legenda corrigida em t07)"
+  },
+  "m01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      322,
+      413,
+      562,
+      562
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Figura 3 (Tampão de extremidade), que a extração não pegou; tira os rótulos L e D soltos"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "Figura 2 (Ilustrativa) - Luva de emenda L\n\nD",
+    "para": "Figura 2 (Ilustrativa) - Luva de emenda\n\n![[dnit_093_2016_em_fig02.png]]",
+    "nota": "rótulos L e D da Figura 2 soltos no texto; imagem da figura trazida para junto da legenda"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "Fabricação de tubo, sem interrupção, correspondente a uma partida de fornecimento.\n\n![[dnit_093_2016_em_fig02.png]]",
+    "para": "Fabricação de tubo, sem interrupção, correspondente a uma partida de fornecimento.",
+    "nota": "embed da Figura 2 estava fora do lugar (movido em t01)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "Figura 3 (Ilustrativa) - Tampão de extremidade",
+    "para": "Figura 3 (Ilustrativa) - Tampão de extremidade\n\n![[dnit_093_2016_em_m01.png]]",
+    "nota": "imagem da Figura 3 (recorte m01)"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "de acordo com a\n\nTabela 2.\n\n**4.3** Dimensões e tolerâncias\n\nOs tubos e acessórios devem ser fabricados conforme dimensões indicadas na Tabela 1.\n\nPoderão ser utilizados na obra tubos de até 300 mm de De, em função dos cálculos de vazão de influxo e vazão longitudinal, de acordo com a Norma Complementar integrante do correspondente projeto de engenharia, mantidas as características de material e de desempenho estabelecidas nesta Norma.\n\n",
+    "para": "de acordo com a Tabela 2.\n\n",
+    "nota": "ordem de leitura: 4.3 (coluna direita acima da Tabela 1) tinha ido para depois de 4.4 (movido em t05)"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "Tabela 1 - Dimensões e tolerâncias, em milímetros",
+    "para": "**4.3** Dimensões e tolerâncias\n\nOs tubos e acessórios devem ser fabricados conforme dimensões indicadas na Tabela 1.\n\nPoderão ser utilizados na obra tubos de até 300 mm de De, em função dos cálculos de vazão de influxo e vazão longitudinal, de acordo com a Norma Complementar integrante do correspondente projeto de engenharia, mantidas as características de material e de desempenho estabelecidas nesta Norma.\n\nTabela 1 - Dimensões e tolerâncias, em milímetros",
+    "nota": "4.3 no lugar certo (ver t04)"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "$M$ – massa inicial da navícula, em gramas (g); 0\n$M$ – massa da amostra, em gramas (g);\n$M$ – massa da navícula depois da calcinação, em 3 gramas (g).",
+    "para": "$M_{0}$ – massa inicial da navícula, em gramas (g);\n$M_{1}$ – massa da amostra, em gramas (g);\n$M_{3}$ – massa da navícula depois da calcinação, em gramas (g).",
+    "nota": "índices de M perdidos na legenda"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "V D E é a variação do diâmetro externo em %; . . .\n\nϕ é o diâmetro inicial do tubo, medido no ponto de i impacto, em mm; ϕ f é o diâmetro final do tubo, medido no ponto de impacto, em mm.",
+    "para": "$V.D.E.$ é a variação do diâmetro externo em %;\n\n$\\varphi i$ é o diâmetro inicial do tubo, medido no ponto de impacto, em mm;\n\n$\\varphi f$ é o diâmetro final do tubo, medido no ponto de impacto, em mm.",
+    "nota": "legenda da fórmula eq05 quebrada"
+  }
+}

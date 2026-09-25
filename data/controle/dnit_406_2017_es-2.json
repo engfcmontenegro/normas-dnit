@@ -1,0 +1,260 @@
+{
+ "es": "dnit-406-2017-es",
+ "servico": "Base estabilizada granulometricamente com Açobrita®",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Açobrita®",
+   "ensaio": "Granulometria",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento / seleção do material",
+   "criterio": "Tabela 1: 2\" 100 %; 1\" 80–100; 3/8\" 50–85; nº 4 35–65; nº 10 20–50; nº 40 5–30; nº 200 0–15 %; tolerâncias ± 7 / ± 5 / ± 2",
+   "secao": "5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Açobrita®",
+   "ensaio": "Índice de Suporte Califórnia (ISC)",
+   "citado": "DNIT 172/2016-ME",
+   "norma": "dnit-172-2016-me",
+   "frequencia": "No recebimento / seleção do material",
+   "criterio": "ISC ≥ 80 % (energia do Método C)",
+   "secao": "5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Açobrita®",
+   "ensaio": "Abrasão Los Angeles",
+   "citado": "DNER-ME 035/98",
+   "norma": null,
+   "norma_atual": "dnit-451-2024-me",
+   "frequencia": "No recebimento / seleção do material",
+   "criterio": "Desgaste < 55 % (admite-se maior com desempenho anterior satisfatório)",
+   "secao": "5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Açobrita®",
+   "ensaio": "Potencial de expansão (média de 3 CPs)",
+   "citado": "DNIT 113/2009-ME",
+   "norma": "dnit-113-2009-me",
+   "frequencia": "No recebimento / seleção do material",
+   "criterio": "< 3,0 %",
+   "secao": "5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Açobrita®",
+   "ensaio": "Módulo de resiliência na umidade ótima",
+   "citado": "DNIT 134/2010-ME",
+   "norma": null,
+   "frequencia": "No recebimento / seleção do material",
+   "criterio": "MR ≥ 300 MPa",
+   "secao": "5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Açobrita®",
+   "ensaio": "Índice de forma e partículas lamelares",
+   "citado": "DNER-ME 086/94",
+   "norma": null,
+   "norma_atual": "dnit-424-2020-me",
+   "frequencia": "No recebimento / seleção do material",
+   "criterio": "Índice de forma > 0,5; lamelares ≤ 10 %",
+   "secao": "5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mistura Açobrita® + solo",
+   "ensaio": "Granulometria",
+   "citado": "DNER-ME 080/94",
+   "norma": null,
+   "frequencia": "Na dosagem",
+   "criterio": "Uma das faixas da Tabela 2 (Anexo A): A–D para N > 5×10⁶, E–F para N < 5×10⁶; tolerâncias ± 7 / ± 5 / ± 2",
+   "secao": "5.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mistura Açobrita® + solo",
+   "ensaio": "Limite de liquidez",
+   "citado": "DNER-ME 122/94",
+   "norma": "dner-me-122-94",
+   "frequencia": "Na dosagem",
+   "criterio": "LL ≤ 40 % (solo laterítico); LL ≤ 25 % (solo não laterítico)",
+   "secao": "5.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mistura Açobrita® + solo",
+   "ensaio": "Índice de plasticidade",
+   "citado": "DNER-ME 082/94",
+   "norma": "dner-me-082-94",
+   "frequencia": "Na dosagem",
+   "criterio": "IP ≤ 15 % (solo laterítico); IP ≤ 6 % (solo não laterítico)",
+   "secao": "5.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mistura Açobrita® + solo",
+   "ensaio": "Índice de Suporte Califórnia (ISC)",
+   "citado": "DNIT 164/2013-ME (Método C) e DNIT 172/2016-ME",
+   "norma": "dnit-172-2016-me",
+   "outras": [
+    "dnit-164-2013-me"
+   ],
+   "frequencia": "Na dosagem",
+   "criterio": "ISC > 60 % (N ≤ 5×10⁶); ISC > 80 % (N > 5×10⁶)",
+   "secao": "5.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mistura Açobrita® + solo",
+   "ensaio": "Expansão (ensaio de ISC)",
+   "citado": "DNIT 172/2016-ME",
+   "norma": "dnit-172-2016-me",
+   "frequencia": "Na dosagem",
+   "criterio": "≤ 0,5 %",
+   "secao": "5.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mistura Açobrita® + solo",
+   "ensaio": "Potencial de expansão (média de 3 CPs)",
+   "citado": "DNIT 113/2009-ME",
+   "norma": "dnit-113-2009-me",
+   "frequencia": "Na dosagem",
+   "criterio": "≤ 1,5 % (N ≤ 5×10⁶); ≤ 1,0 % (N > 5×10⁶)",
+   "secao": "5.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Água",
+   "ensaio": "Qualidade da água",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Isenta de teores nocivos de sais, ácidos, álcalis ou matéria orgânica",
+   "secao": "5.1.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Mistura espalhada na pista",
+   "ensaio": "Granulometria",
+   "citado": "DNER-ME 080/94",
+   "norma": null,
+   "frequencia": "1 amostra por camada a cada 200 m de pista ou por jornada diária (400 m com material homogêneo, a critério da Fiscalização); com usina, na saída do misturador; mín. 5 por segmento/camada (área < 4.000 m²)",
+   "criterio": "Faixa de projeto (Tabela 2, Anexo A) ± tolerâncias; X̄ − ks ≥ mín. e X̄ + ks ≤ máx.",
+   "secao": "7.1.1 / 7.4.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Mistura espalhada na pista",
+   "ensaio": "Compactação (Método C)",
+   "citado": "DNIT 164/2013-ME",
+   "norma": "dnit-164-2013-me",
+   "frequencia": "1 amostra por camada a cada 200 m de pista ou por jornada diária (400 m com material homogêneo, a critério da Fiscalização); com usina, na saída do misturador; mín. 5 por segmento/camada (área < 4.000 m²)",
+   "criterio": "Define massa específica aparente seca máxima e umidade ótima de referência",
+   "secao": "7.1.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Mistura espalhada na pista",
+   "ensaio": "Índice de Suporte Califórnia (ISC)",
+   "citado": "DNIT 172/2016-ME",
+   "norma": "dnit-172-2016-me",
+   "frequencia": "1 amostra por camada a cada 200 m de pista ou por jornada diária (400 m com material homogêneo, a critério da Fiscalização); com usina, na saída do misturador; mín. 5 por segmento/camada (área < 4.000 m²)",
+   "criterio": "ISC > 60 % / > 80 % conforme N; X̄ − ks ≥ mín.",
+   "secao": "7.1.1 / 7.4.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da compactação",
+   "ensaio": "Teor de umidade",
+   "citado": "DNER-ME 052/94 ou DNER-ME 088/94",
+   "norma": null,
+   "norma_atual": "dnit-456-2025-me",
+   "frequencia": "Nº definido pela Tabela 3 (amostragem variável)",
+   "criterio": "hót ± 2 %",
+   "secao": "7.2.1 a / 7.2.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da compactação",
+   "ensaio": "ISC com moldagem de CPs (4 dias de embebição)",
+   "citado": "DNER-ME 129/94 (Método C) e DNER-ME 049/94",
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "Nº definido pela Tabela 3 (amostragem variável)",
+   "criterio": "ISC > 60 % / > 80 % conforme N; expansão < 0,5 %",
+   "secao": "7.2.1 b / 7.4.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Após a compactação",
+   "ensaio": "Massa específica aparente seca in situ → grau de compactação",
+   "citado": "DNER-ME 092/94",
+   "norma": null,
+   "norma_atual": "dnit-458-2025-me",
+   "frequencia": "Por camada, a cada 100 m; mín. 5 determinações em áreas ≤ 4.000 m²; nº conforme Tabela 3",
+   "criterio": "GC ≥ 100 % (ref. DNER-ME 129/94)",
+   "secao": "5.3.6–5.3.8 / 7.2.2",
+   "obs": "A ES indica Método B (central/pista) e Método C (canteiro) como referência de GC"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Imprimação",
+   "ensaio": "Taxa de imprimação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Logo após a conclusão da camada, ainda úmida",
+   "criterio": "0,5 a 1,0 l/m² de material betuminoso",
+   "secao": "5.3.6–5.3.8"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Largura da plataforma",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 10 cm",
+   "secao": "7.3.1 a"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Flecha de abaulamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "Até +20 %; sem falta",
+   "secao": "7.3.1 b"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessura da camada",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 10 % da espessura de projeto (mín. 10 cm; camadas ≤ 20 cm)",
+   "secao": "5.3.3 / 7.3.1 c"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Acabamento",
+   "ensaio": "Trincas na base imprimada",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes da colocação do revestimento",
+   "criterio": "Trincas seladas antes do revestimento",
+   "secao": "5.3.5"
+  }
+ ],
+ "notas": [
+  "Nº de ensaios definido pelo executante pela Tabela 3 (amostragem variável, k e α) e informado previamente à Fiscalização; granulometria aceita se X̄ − ks ≥ mín. e X̄ + ks ≤ máx.; ISC e GC se X̄ − ks ≥ mín.",
+  "Mistura processada não deve ficar armazenada por mais de 5 dias (aglomeração e enrijecimento).",
+  "Serviços não conformes devem ser corrigidos, complementados ou refeitos; resultados registrados em relatórios periódicos."
+ ]
+}

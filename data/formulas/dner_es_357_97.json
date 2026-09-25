@@ -1,0 +1,27 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `elétricas, mecânicas, e de`\n\nEste documento estabelece a sistemática utilizada para instalações telecomunicações",
+    "de_fim": "para instalações telecomunicações",
+    "para": "Este documento estabelece a sistemática utilizada para instalações elétricas, mecânicas, e de telecomunicações",
+    "nota": "aviso falso: pedaço do RESUMO (p. 1) separado da frase"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "curvas de 90 o .",
+    "para": "curvas de 90º.",
+    "nota": "5.20"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "10,0 mm 2 poderão",
+    "para": "10,0 mm² poderão",
+    "nota": "5.28"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "70 mm 2 protegida",
+    "para": "70 mm² protegida",
+    "nota": "5.37.5"
+  }
+}

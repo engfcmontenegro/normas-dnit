@@ -1,0 +1,58 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      71.0,
+      77.9,
+      417.0,
+      668.6
+    ],
+    "legenda": "Figura 1 - Vista do aparelho Treton",
+    "ancora": "Figura 1 - Vista do aparelho Treton",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `T M M r =`",
+      "Ficha",
+      "M 1 (g)",
+      "M r (g)",
+      "M p (g)",
+      "T (%)",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `T M M r =`"
+    ]
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      70.0,
+      131.7,
+      559.0,
+      703.9
+    ],
+    "legenda": "",
+    "ancora": "Figura 1 - Vista do aparelho Treton",
+    "texto_removido": [
+      "M 1 – Massa original da amostra, em g;",
+      "## 1 x 100",
+      "## MT – DNER",
+      "Ficha de ensaio Treton",
+      "Estrada :",
+      "Trecho :",
+      "Est. ou km :",
+      "Interessado :",
+      "Registro Nº",
+      "Amostra Nº",
+      "Amostra",
+      "Nº",
+      "Nº de partículas da amostra",
+      "Massa da amostra",
+      "Peneiramento da # Nº 12",
+      "Material retido",
+      "Material que passa",
+      "Perda ao choque",
+      "Média dos ensaios Treton (T)",
+      "M 1 – Massa original da amostra (g);",
+      "M r – Massa retida na # de 1,7 mm de abertura;",
+      "T – Perda ao choque no aparelho Treton, em %;",
+      "## 1 x 100"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "eq01": {
+    "page": 6,
+    "clip": [
+      72,
+      724,
+      295,
+      765
+    ],
+    "latex": [
+      "f_{c\\,\\text{est}} = \\frac{D}{1{,}5 + 1/r} \\times \\text{resultado do testemunho}",
+      "1{,}0 + 1{,}5 \\left(\\frac{\\varnothing_1\\, d}{\\varnothing_t\\, h}\\right)",
+      "1{,}0 + 1{,}5 \\times \\frac{\\sum_{i}^{n} \\varnothing_i\\, d}{\\varnothing_t\\, h}"
+    ],
+    "de_inicio": "**5.1.6** Resistência “in-situ” estimada (£ est)",
+    "de_fim": "- diâmetro da barra de aço.",
+    "para": "**5.1.6** Resistência “in-situ” estimada ($f_{c\\,\\text{est}}$)\n\na) testemunhos sem barra de aço - a resistência pode ser obtida pela seguinte equação:\n\n$$\nf_{c\\,\\text{est}} = \\frac{D}{1{,}5 + 1/r} \\times \\text{resultado do testemunho}\n$$\n\nonde:\n\n$D$ - 2,5 para testemunhos extraídos horizontalmente;\n$D$ - 2,3 para testemunhos extraídos verticalmente;\n$r$ - relação altura/diâmetro do testemunho.\n\nb) testemunhos com barra de aço - uma correção para a equação acima apresentada deve ser aplicada nos casos em que o testemunho contenha barras de aço perpendiculares ao eixo da altura do testemunho. O fator de correção que multiplicará o valor de $f_{c\\,\\text{est}}$ será obtido por:\n\n$$\n1{,}0 + 1{,}5 \\left(\\frac{\\varnothing_1\\, d}{\\varnothing_t\\, h}\\right)\n$$\n\nonde:\n\n$\\varnothing_1$ - diâmetro da barra de aço;\n$\\varnothing_t$ - diâmetro do testemunho;\n$d$ - distância da barra ao mais próximo topo do testemunho;\n$h$ - altura do testemunho.\n\nSe o testemunho contiver mais de uma barra, o fator de correção será:\n\n$$\n1{,}0 + 1{,}5 \\times \\frac{\\sum_{i}^{n} \\varnothing_i\\, d}{\\varnothing_t\\, h}\n$$\n\nonde:\n\n$\\varnothing_i$ - diâmetro da barra de aço."
+  },
+  "eq02": {
+    "page": 7,
+    "clip": [
+      72,
+      238,
+      262,
+      285
+    ],
+    "latex": [
+      "1{,}0 + 1{,}5 \\left(\\frac{\\varnothing_1\\, d}{\\varnothing_t\\, h}\\right)"
+    ]
+  },
+  "eq03": {
+    "page": 7,
+    "clip": [
+      72,
+      444,
+      272,
+      516
+    ],
+    "latex": [
+      "1{,}0 + 1{,}5 \\times \\frac{\\sum_{i}^{n} \\varnothing_i\\, d}{\\varnothing_t\\, h}"
+    ],
+    "nota": "somatório escrito no PDF com i embaixo e n em cima (sem '=1')"
+  },
+  "eq04": {
+    "page": 7,
+    "clip": [
+      72,
+      665,
+      165,
+      686
+    ],
+    "latex": [
+      "E \\leq 4\\ \\text{N/mm}^2",
+      "E = t\\, S_d"
+    ],
+    "de_inicio": "E s 4 N/mm?",
+    "de_fim": "Recomenda-se",
+    "para": "$$\nE \\leq 4\\ \\text{N/mm}^2\n$$\n\nonde:\n\n$$\nE = t\\, S_d\n$$\n\nsendo:\n\n$t$ - o valor de Student para o número de ensaios realizados, o nível de 5% de erro e o grau de liberdade;\n$S_d$ - é o desvio padrão dos resíduos para a curva de correlação quando na dimensão de N/mm².\n\nRecomenda-se"
+  },
+  "eq05": {
+    "page": 7,
+    "clip": [
+      72,
+      712,
+      135,
+      734
+    ],
+    "latex": [
+      "E = t\\, S_d"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "quando fçk est não satisfizer ao fok de projeto",
+    "para": "quando $f_{ck,\\text{est}}$ não satisfizer ao $f_{ck}$ de projeto",
+    "nota": "1 (p. 2)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "fator de segurança G m.",
+    "para": "fator de segurança $\\sigma_m$.",
+    "nota": "6.3 (p. 10): o PDF traz σm (provavelmente γm, coeficiente de minoração) — transcrito como está"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `” Tara VIA II a o`\n",
+    "de_fim": "## O APRESENTAÇÃO",
+    "para": "## 0 APRESENTAÇÃO",
+    "nota": "aviso falso (tarja da capa) + sumário achatado com título falso '## 1 Objetivo'"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "tab01": {
+    "page": 3,
+    "bbox": [
+      98.4,
+      557.1,
+      503.7,
+      697.3
+    ],
+    "texto_removido": [
+      "Tolerância na curva de",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Abertura A B (%) 1/2” 12,5 100 - - 3/8” 9,5 85-100 100 ± 7 Nº 4 4,8 10-30 85-100 ± 5 Nº 10 2,0 0-10 10-40 ± 5 Nº 200 0,075 0-2 0-2 ± 2`",
+      "projeto",
+      "## ABNT"
+    ]
+  },
+  "tab02": {
+    "page": 8,
+    "bbox": [
+      96.2,
+      685.8,
+      556.0,
+      731.9
+    ],
+    "texto_removido": [
+      "5 6 7 8 9 10 11 12 13 14 15 16 17 19",
+      "## 21 k",
+      "1,55 1,41 1,36 1,31 1,25 1,21 1,19 1,16 1,13 1,11 1,10 1,08 1,06 1,04 1,01 0,45 0,35 0,30 0,25 0,19 0,15 0,13 0,10 0,08 0,06 0,05 0,04 0,03 0,02 0,01 n = n° de amostras k = coeficiente multiplicador α = risco do executante"
+    ],
+    "nota_tabela": "n = n° de amostras k = coeficiente multiplicador α = risco do executante"
+  },
+  "tabm01": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      190,
+      272,
+      435,
+      322
+    ],
+    "md": "| Taxas |  |\n| --- | --- |\n| Cimento Asfáltico | Agregado |\n| 0,8 l/m² a 1,2 l/m² | 8 kg/m² a 12 kg/m² |",
+    "de_inicio": "Taxas Cimento Asfáltico Agregado 0,8 λ /m 2 a 1,2 λ /m 2 8 kg/m 2 a 12 kg/m 2",
+    "nota": "sem fios verticais; tinha virado figura; 'λ/m²' do PDF é o l (litro) da fonte Symbol"
+  }
+}

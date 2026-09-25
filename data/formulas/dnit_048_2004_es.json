@@ -1,0 +1,96 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 12,
+    "clip": [
+      322,
+      203,
+      560,
+      221
+    ],
+    "latex": "f_{ctM,est} = f_{ctM28} - Ks",
+    "nota": "7.4.1.1; 'Ks' maiúsculo como no PDF (legenda usa k)"
+  },
+  "m02": {
+    "manual": true,
+    "page": 12,
+    "clip": [
+      322,
+      242,
+      560,
+      260
+    ],
+    "latex": "f_{ck,est} = f_{c28} - Ks"
+  },
+  "m03": {
+    "manual": true,
+    "page": 12,
+    "clip": [
+      53,
+      705,
+      290,
+      723
+    ],
+    "latex": "f_{ctM,est} \\geq f_{ctM,k}",
+    "nota": "7.4.1.2"
+  },
+  "m04": {
+    "manual": true,
+    "page": 12,
+    "clip": [
+      53,
+      744,
+      290,
+      762
+    ],
+    "latex": "f_{ck,est} \\geq f_{ck}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "fctM, est = valor estimado",
+    "para": "$f_{ctM,est}$ = valor estimado",
+    "nota": "legenda 7.4.1.1"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "f ctM28 = resistência média",
+    "para": "$f_{ctM28}$ = resistência média",
+    "nota": "legenda 7.4.1.1"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "f ck, est = valor estimado",
+    "para": "$f_{ck,est}$ = valor estimado",
+    "nota": "legenda 7.4.1.1"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "f c28 = resistência média",
+    "para": "$f_{c28}$ = resistência média",
+    "nota": "legenda 7.4.1.1"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "à tração na flexão (fctM,k) definida",
+    "para": "à tração na flexão ($f_{ctM,k}$) definida",
+    "nota": "5.1.10 a"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "axial equivalente (fck), desde",
+    "para": "axial equivalente ($f_{ck}$), desde",
+    "nota": "5.1.10 a"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "de acordo com o parecer da\n\nFiscalização e sem ônus para o\n\nContratante, uma das",
+    "para": "de acordo com o parecer da Fiscalização e sem ônus para o Contratante, uma das",
+    "nota": "7.4.1.3 c: parágrafo partido"
+  },
+  "t99": {
+    "todas": true,
+    "de_inicio": "Tabela 1 – Coeficiente de distribuição de Student\n\n| Amostragem Variável |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| n | 6 | 7 | 8 | 9 | 10 | 12 | 15 | 18 | 20 | 25 | 30 | 32 | > 32 |\n| k | 0,920 | 0,906 | 0,896 | 0,889 | 0,883 | 0,876 | 0,868 | 0,863 | 0,861 | 0,857 | 0,854 | 0,842 | 0,842 |\n\n![[dnit_048_2004_es_tab02.png]]\n\n**7.4.1.2** Aceitação automática\n\nO pavimento será aceito automaticamente quanto à resistência do concreto, quando se obtiver uma das seguintes condições:\n\n$$\nf_{ctM,est} \\geq f_{ctM,k}\n$$\n\nou\n\n$$\nf_{ck,est} \\geq f_{ck}\n$$\n\n**7.4** Condições de conformidade e não-conformidade\n\n**7.4.1** Resistência do concreto\n\n**7.4.1.1** Determinação da resistência característica\n\nA resistência característica estimada do concreto do trecho inspecionado à tração na flexão ou à compressão axial será determinada a partir das expressões:\n\n$$\nf_{ctM,est} = f_{ctM28} - Ks\n$$\n\nou\n\n$$\nf_{ck,est} = f_{c28} - Ks\n$$\n\nonde:\n\n$f_{ctM,est}$ = valor estimado da resistência característica do concreto à tração na flexão;\n\n$f_{ctM28}$ = resistência média do concreto á tração na flexão, na idade de 28 dias;\n\n$f_{ck,est}$ = valor estimado da resistência característica do concreto à compressão axial;\n\n$f_{c28}$ = resistência média do concreto à compressão axial, na idade de 28 dias;\n\ns = desvio padrão dos resultados;\n\nk = coeficiente de distribuição de Student;\n\nn = número de exemplares.\n\nO valor do coeficiente k é função da quantidade de exemplares do lote, sendo obtido na Tabela 1.\n",
+    "para": "**7.4** Condições de conformidade e não-conformidade\n\n**7.4.1** Resistência do concreto\n\n**7.4.1.1** Determinação da resistência característica\n\nA resistência característica estimada do concreto do trecho inspecionado à tração na flexão ou à compressão axial será determinada a partir das expressões:\n\n$$\nf_{ctM,est} = f_{ctM28} - Ks\n$$\n\nou\n\n$$\nf_{ck,est} = f_{c28} - Ks\n$$\n\nonde:\n\n$f_{ctM,est}$ = valor estimado da resistência característica do concreto à tração na flexão;\n\n$f_{ctM28}$ = resistência média do concreto á tração na flexão, na idade de 28 dias;\n\n$f_{ck,est}$ = valor estimado da resistência característica do concreto à compressão axial;\n\n$f_{c28}$ = resistência média do concreto à compressão axial, na idade de 28 dias;\n\ns = desvio padrão dos resultados;\n\nk = coeficiente de distribuição de Student;\n\nn = número de exemplares.\n\nO valor do coeficiente k é função da quantidade de exemplares do lote, sendo obtido na Tabela 1.\n\nTabela 1 – Coeficiente de distribuição de Student\n\n| Amostragem Variável |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| n | 6 | 7 | 8 | 9 | 10 | 12 | 15 | 18 | 20 | 25 | 30 | 32 | > 32 |\n| k | 0,920 | 0,906 | 0,896 | 0,889 | 0,883 | 0,876 | 0,868 | 0,863 | 0,861 | 0,857 | 0,854 | 0,842 | 0,842 |\n\n![[dnit_048_2004_es_tab02.png]]\n\n**7.4.1.2** Aceitação automática\n\nO pavimento será aceito automaticamente quanto à resistência do concreto, quando se obtiver uma das seguintes condições:\n\n$$\nf_{ctM,est} \\geq f_{ctM,k}\n$$\n\nou\n\n$$\nf_{ck,est} \\geq f_{ck}\n$$\n",
+    "nota": "ordem da p. 12: Tabela 1 e 7.4.1.2 (rodapé da página) vinham antes de 7.4; movidos para depois de 7.4.1.1"
+  }
+}

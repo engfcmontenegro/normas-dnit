@@ -1,0 +1,63 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      107.0,
+      190.5,
+      234.1,
+      240.3
+    ],
+    "raw": "+ + CaO MgO Al O 〉 2 3 1 SiO 2",
+    "latex": "\\frac{\\mathrm{CaO} + \\mathrm{MgO} + \\mathrm{Al_2O_3}}{\\mathrm{SiO_2}} > 1",
+    "nota": "o PDF usa o sinal 〉 (ângulo) como 'maior que'"
+  },
+  "m01": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      355,
+      52,
+      520,
+      158
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da tabela Idade de ensaio / Prazo máximo (6 f), tabela sem fios achatada; vai abaixo da tabela markdown (t01)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "- fornecimento dos resultados de resistência à compressão:",
+    "para": "- fornecimento dos resultados de resistência à compressão:\n\n| Idade de ensaio | Prazo máximo |\n| --- | --- |\n| 1 dia | 11 dias |\n| 3 dias | 13 dias |\n| 7 dias | 17 dias |\n| 28 dias | 38 dias |\n| 91 dias | 101 dias |\n\n![[dnit_050_2004_em_m01.png]]",
+    "nota": "tabela sem fios de 6 f)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "( teor mínimo de CaCOз = 85%) – Escória Granulada de Alto Forno",
+    "para": "( teor mínimo de CaCO₃ = 85%)\n- Escória Granulada de Alto Forno",
+    "nota": "3.6: CaCO3 com 'з' cirílico; itens da lista grudados"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "| MgO | SO 3 | CO 2 | S |",
+    "para": "| MgO | SO₃ | CO₂ | S |",
+    "nota": "cabeçalho da Tabela 2"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "(2) O teor de $SO_{3}$ igual a 3,5 aplica-se quando $C_{3}$A ≤ 8,0% e 4,5% quando $C_{3}$A > 8,0%.\n\n-\n\nAs exigências químicas do cimento Portland resistentes a sulfatos e do cimento Portland de baixo calor de\n\nNota: hidratação constam das normas NBR 5737 e NBR 13116, respectivamente.",
+    "para": "- (2) O teor de SO₃ igual a 3,5 aplica-se quando C₃A ≤ 8,0% e 4,5% quando C₃A > 8,0%.\n\nNota: As exigências químicas do cimento Portland resistentes a sulfatos e do cimento Portland de baixo calor de hidratação constam das normas NBR 5737 e NBR 13116, respectivamente.",
+    "nota": "notas da Tabela 2 embaralhadas"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "Área específica (m2/kg)",
+    "para": "Área específica (m²/kg)",
+    "nota": "Tabela 3"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "≥•40,0",
+    "para": "≥40,0",
+    "nota": "Tabela 3: caractere espúrio"
+  }
+}

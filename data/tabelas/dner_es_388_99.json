@@ -1,0 +1,71 @@
+{
+  "tab01": {
+    "page": 4,
+    "bbox": [
+      106.1,
+      91.8,
+      525.7,
+      299.2
+    ],
+    "ignorar": true,
+    "nota": "detecção automática incompleta (cabeçalho e linha do ligante cortados) e posta no lugar da tabela do filer; refeita em tabm02",
+    "texto_removido": [
+      "Abertura, mm passando, em peso N° 40 N° 80",
+      "N° 200",
+      "0,42 0,18 0,075",
+      "100 95-100 65-100"
+    ]
+  },
+  "tabm01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      140,
+      583,
+      480,
+      664
+    ],
+    "md": "| Peneira de malha quadrada |  | Percentagem passando, em peso |\n| --- | --- | --- |\n| ABNT | Abertura, mm |  |\n| Nº 40 | 0,42 | 100 |\n| Nº 80 | 0,18 | 95-100 |\n| Nº 200 | 0,075 | 65-100 |",
+    "de_inicio": "Peneira de malha quadrada ABNT Abertura, mm Percentagem passando, em peso N° 40 0,42 100 N° 80 0,18 95-100 N° 200 0,075 65-100",
+    "nota": "granulometria do filer (5.1.2.3)"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      100,
+      88,
+      530,
+      300
+    ],
+    "md": "| Peneira de malha quadrada |  | Porcentagem passando, em peso (faixas) |  | Tolerância na curva de projeto (%) |\n| --- | --- | --- | --- | --- |\n| ABNT | Abertura, mm | A | B |  |\n| 3/8” | 9,5 | 100 | 100 | - |\n| nº 4 | 4,8 | 50-90 | 65-92 | ± 5 |\n| nº 10 | 2,0 | 30-75 | 40-80 | ± 5 |\n| nº 40 | 0,42 | 15-40 | 15-48 | ± 5 |\n| nº 80 | 0,18 | 8-30 | 6-35 | ± 3 |\n| nº 200 | 0,075 | 5-10 | 2-15 | ± 2 |\n| Ligante polimerizado solúvel no tricloroetileno, % |  | 4 - 7 |  | ± 0,3 |",
+    "de_inicio": "Peneira de malha quadrada Porcentagem passando, em peso (faixas)\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Abertura, mm A B (%) 3/8” 9,5 100 100 - nº 4 4,8 50-90 65-92 ± 5 nº 10 2,0 30-75 40-80 ± 5 nº 40 0,42 15-40 15-48 ± 5 nº 80 0,18 8-30 6-35 ± 3 nº 200 0,075 5-10 2-15 ± 2`\n\nTolerância na curva de projeto\n\nLigante polimerizado solúvel no tricloroetileno, %\n\n4 - 7 ± 0,3",
+    "nota": "5.2.1; '4 - 7' ocupa as colunas A e B (célula mesclada)"
+  },
+  "tabm03": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      90,
+      438,
+      520,
+      540
+    ],
+    "md": "| Características | Camada de ligação |\n| --- | --- |\n| Percentagem de vazios | 8 a 14 |\n| Estabilidade | 200 a 700 kgf (75 golpes) |\n| Fluência, mm. | 2,0 a 5,0 |",
+    "de_inicio": "![[dner_es_388_99_fig02.png]]",
+    "nota": "5.2.2 a) valores Marshall (era a figura fig02)"
+  },
+  "tabm04": {
+    "manual": true,
+    "page": 11,
+    "clip": [
+      95,
+      232,
+      555,
+      314
+    ],
+    "md": "### Tabela de amostragem variável\n\n| n | 5 | 6 | 7 | 8 | 9 | 10 | 12 | 13 | 14 | 15 | 16 | 17 | 19 | 21 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| k | 1,55 | 1,41 | 1,36 | 1,31 | 1,25 | 1,21 | 1,16 | 1,13 | 1,11 | 1,10 | 1,08 | 1,06 | 1,04 | 1,01 |\n| α | 0,45 | 0,35 | 0,30 | 0,25 | 0,19 | 0,15 | 0,10 | 0,08 | 0,06 | 0,05 | 0,04 | 0,03 | 0,02 | 0,01 |",
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `n 5 6 7 8 9 10 12 13 14 15 16 17 19 21 k`\n\n### Tabela de amostragem variável\n\n1,55 1,41 1,36 1,31 1,25 1,21 1,16 1,13 1,11 1,10 1,08 1,06 1,04 1,01 0,45 0,35 0,30 0,25 0,19 0,15 0,10 0,08 0,06 0,05 0,04 0,03 0,02 0,01",
+    "nota": "7.2.1.5; o PDF não tem a coluna n = 11 (k 1,19 / α 0,13) presente em outras ES"
+  }
+}

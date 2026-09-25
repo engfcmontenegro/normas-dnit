@@ -1,0 +1,44 @@
+{
+  "tab01": {
+    "page": 4,
+    "bbox": [
+      102.3,
+      91.8,
+      555.8,
+      259.6
+    ],
+    "texto_removido": [
+      "Peneira de malha quadrada Percentagem passando, em peso (faixas)",
+      "Tolerância na curva de",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `projeto ABNT Abertura A 1ª Camada B 2ª Camada C 3ª Camada (%) 1 ½” 28,1 100 - - - 1” 25,4 90-100 - - ± 7 3/4” 19,1 20-55 - - ± 7 1/2” 12,5 0-15 100 - ± 7 3/8” 9,5 0-15 85-100 100 ± 7 Nº 4 4,8 - 10-30 85-100 ± 5 Nº 10 2,0 - 0-10 10-40 ± 5 Nº 200 0,075 0-2 0-2 0-2 ± 2`"
+    ]
+  },
+  "tab02": {
+    "page": 9,
+    "bbox": [
+      96.2,
+      192.0,
+      556.0,
+      238.1
+    ],
+    "texto_removido": [
+      "5 6 7 8 9 10 11 12 13 14 15 16 17 19",
+      "## 21 k",
+      "1,55 1,41 1,36 1,31 1,25 1,21 1,19 1,16 1,13 1,11 1,10 1,08 1,06 1,04 1,01 0,45 0,35 0,30 0,25 0,19 0,15 0,13 0,10 0,08 0,06 0,05 0,04 0,03 0,02 0,01 n = n° de amostras k = coeficiente multiplicador α = risco do executante"
+    ],
+    "nota_tabela": "n = n° de amostras k = coeficiente multiplicador α = risco do executante"
+  },
+  "tabm01": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      60,
+      450,
+      565,
+      540
+    ],
+    "md": "| Camada | Cimento asfáltico | Agregado |\n| --- | --- | --- |\n| 1ª | 1,00 l/m² – 1,50 l/m² | 20 kg/m² a 25 kg/m² |\n| 2ª | 0,60 l/m² – 0,90 l/m² | 10 kg/m² a 12 kg/m² |\n| 3ª | 0,40 l/m² – 0,60 l/m² | 5 kg/m² a 7 kg/m² |",
+    "de_inicio": "Camada Cimento asfáltico Agregado 1ª 1,0 0 λ /m 2 – 1,50 λ /m 2 20 kg/m² a 25 kg/m² 2ª 0,60 λ /m 2 – 0,90 λ /m 2 10 kg/m² a 12 kg/m² 3ª 0,40 λ /m 2 – 0,60 λ /m 2 0 5 kg/m² a 0 7 kg/m²",
+    "nota": "sem fios verticais; 'λ/m²' do PDF é o l (litro) da fonte Symbol"
+  }
+}

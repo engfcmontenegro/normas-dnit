@@ -1,0 +1,31 @@
+{
+  "eq01": {
+    "page": 4,
+    "bbox": [
+      70.0,
+      94.5,
+      297.2,
+      136.9
+    ],
+    "raw": "• Consumo mínimo de cimento: Cmín = 320 kg/m 3 .",
+    "latex": "",
+    "ignorar": true,
+    "nota": "item de lista com texto (Consumo mínimo de cimento: Cmín = 320 kg/m³); corrigido como texto"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "Consumo mínimo de cimento: Cmín = 320 kg/m³.",
+    "para": "Consumo mínimo de cimento: $C_{mín}$ = 320 kg/m³."
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "Resistência característica à compressão, $f_{ck}$ ≥\n\n-\n\n30 MPa na idade de 28 dias, determinada em corpos de prova cilíndricos, moldados e rompidos conforme as Normas ABNT NBR\n\n5738:2008",
+    "para": "- Resistência característica à compressão, $f_{ck}$ ≥ 30 MPa na idade de 28 dias, determinada em corpos de prova cilíndricos, moldados e rompidos conforme as Normas ABNT NBR 5738:2008"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "a) AMERICAN CONCRETE INSTITUTE.\n\nManual of concrete practice. Detroit, 2007.\n\nb) ANDRIOLO, Francisco Rodrigues.\n\nConstruções de concreto: manual de práticas para controle e execução. São Paulo: PINI,\n\n1984.\n\nc) BRASIL. Departamento Nacional de Estradas de Rodagem. Manual de construção de obras-de-arte especiais. 2.ed. Rio de Janeiro:\n\nIPR, 1995. (IPR. Publ. 602).\n\nd) ______. Manual de projeto de obras-de-arte especiais. Rio de Janeiro: IPR, 1996. (IPR.\n\nPubl. 698).\n\ne) LEONHARDT, F.; MÖNNIG, E. Construções de concreto. Rio de Janeiro: Interciência,\n\n1977.",
+    "para": "a) AMERICAN CONCRETE INSTITUTE. Manual of concrete practice. Detroit, 2007.\n\nb) ANDRIOLO, Francisco Rodrigues. Construções de concreto: manual de práticas para controle e execução. São Paulo: PINI, 1984.\n\nc) BRASIL. Departamento Nacional de Estradas de Rodagem. Manual de construção de obras-de-arte especiais. 2.ed. Rio de Janeiro: IPR, 1995. (IPR. Publ. 602).\n\nd) ______. Manual de projeto de obras-de-arte especiais. Rio de Janeiro: IPR, 1996. (IPR. Publ. 698).\n\ne) LEONHARDT, F.; MÖNNIG, E. Construções de concreto. Rio de Janeiro: Interciência, 1977.",
+    "nota": "bib: itens partidos juntados; itens da coluna direita da última página (sumidos na extração) transcritos do PDF | trecho restaurado removido: o gerador corrigido já produz a coluna direita"
+  }
+}

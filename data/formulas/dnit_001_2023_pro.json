@@ -1,0 +1,42 @@
+{
+  "eq01": {
+    "page": 7,
+    "bbox": [
+      318.1,
+      306.2,
+      563.4,
+      343.8
+    ],
+    "raw": "𝐺 𝑐 −𝑇 𝑉 (1) 𝑀𝑈 𝑐 =",
+    "latex": "MU_c = \\frac{G_c - T}{V} \\tag{1}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "| Tipo | Força (N) | Pressão (Pa) | Potência (W) |\n| --- | --- | --- | --- |\n| NOTA 1: Nota de tabela NOTA 2: Nota de tabela |  |  |  |\n| a Nota de rodapé b Nota de rodapé c Nota de rodapé |  |  |  |",
+    "para": "| Tipo | Força (N) | Pressão (Pa) | Potência (W) |\n| --- | --- | --- | --- |\n|  |  |  |  |\n|  |  |  |  |\n| NOTA 1: Nota de tabela<br>NOTA 2: Nota de tabela |  |  |  |\n| ᵃ Nota de rodapé<br>ᵇ Nota de rodapé<br>ᶜ Nota de rodapé |  |  |  |",
+    "nota": "Anexo C, Exemplo 1 (p. 11): modelo de tabela; linhas vazias e notas como no PDF"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "![[dnit_001_2023_pro_fig02.png]]",
+    "para": "| Peneira \\ Tipo | A | B | C |\n| --- | --- | --- | --- |\n|  |  |  |  |\n\n![[dnit_001_2023_pro_fig02.png]]",
+    "nota": "Anexo C, Exemplo 2 (p. 11): modelo de tabela (cabeçalho com diagonal Peneira/Tipo)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "![[dnit_001_2023_pro_fig03.png]]",
+    "para": "| Peneira | Tipo A | Tipo B | Tipo C |\n| --- | --- | --- | --- |\n|  |  |  |  |\n\n![[dnit_001_2023_pro_fig03.png]]",
+    "nota": "Anexo C, Exemplo 3 (p. 11): 'Tipo' é cabeçalho agrupado sobre A, B, C"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "Ex.:\n\nAo final",
+    "para": "Ex.: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_/Anexo A\n\nAo final",
+    "nota": "5.10 (p. 8): exemplo do sinal de finalização perdido na extração"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "\n\nAnexo A (normativo) – Numeração progressiva",
+    "para": "\n\n## Anexo A (normativo) – Numeração progressiva"
+  }
+}

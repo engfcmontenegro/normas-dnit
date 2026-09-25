@@ -1,0 +1,48 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      55,
+      232,
+      290,
+      268
+    ],
+    "latex": [
+      "f_{ck,est} < f_{ck}\\text{ – não-conformidade;}",
+      "f_{ck,est} \\geq f_{ck}\\text{ – conformidade.}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "(fck, $min^{), aos 28 dias, de 15Mpa. Concluída a}$ concretagem",
+    "para": "(fck,min), aos 28 dias, de 15Mpa. Concluída a concretagem",
+    "nota": "5.3.3: índice 'mín' quebrado na extração"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "à compressão\n\nDNIT 030/2004-ES mínima (fck,min)",
+    "para": "à compressão mínima (fck,min)",
+    "nota": "cabeçalho de página no meio do parágrafo"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "dos itens 4 e 5 desta\n\nNorma, respectivamente.",
+    "para": "dos itens 4 e 5 desta Norma, respectivamente."
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "fck, est = valor estimado",
+    "para": "$f_{ck,est}$ = valor estimado"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "\n\nfck = valor da resistência",
+    "para": "\n\n$f_{ck}$ = valor da resistência"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "de projeto.\n\nDNIT 030/2004-ES\n\n**7.4**",
+    "para": "de projeto.\n\n**7.4**"
+  }
+}

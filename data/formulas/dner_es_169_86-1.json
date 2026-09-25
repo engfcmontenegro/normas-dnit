@@ -1,0 +1,22 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "## ACEITAÇÃO E REJEIÇÃO",
+    "de_fim": "## ACEITAÇÃO E REJEIÇÃO",
+    "para": "## 7 ACEITAÇÃO E REJEIÇÃO",
+    "nota": "número da seção perdido no lixo de OCR da tabela de 6.3"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "## MT — DNER\n\n### QUADRO DE CONTROLE",
+    "de_fim": "## N=NÃO oNER- ES 69/86 p-04//04",
+    "para": "",
+    "nota": "Anexo: rótulos de OCR do quadro de controle (formulário em branco, já na imagem fig01)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "dos itens 6.1, 62 e 63,0 levantamento",
+    "para": "dos itens 6.1, 6.2 e 6.3, o levantamento",
+    "nota": "7.2.2: OCR"
+  }
+}

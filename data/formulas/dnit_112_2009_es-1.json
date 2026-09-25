@@ -1,0 +1,92 @@
+{
+  "eq01": {
+    "page": 7,
+    "bbox": [
+      84.1,
+      316.1,
+      278.8,
+      345.5
+    ],
+    "raw": "de 2,5 kgf/cm² a 9,8 kgf/cm² (35 a 140 psi).",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: texto '2,5 kgf/cm² a 9,8 kgf/cm² (35 a 140 psi)'"
+  },
+  "eq02": {
+    "page": 11,
+    "bbox": [
+      78.8,
+      122.4,
+      144.5,
+      185.2
+    ],
+    "raw": "n ∑ x 1 = = X i 1 n",
+    "latex": "\\bar{X} = \\frac{\\sum_{i=1}^{n} x_1}{n}",
+    "nota": "o PDF traz x_1 no somatório (provável erro, deveria ser x_i); transcrito como está"
+  },
+  "eq03": {
+    "page": 11,
+    "bbox": [
+      79.0,
+      198.6,
+      178.0,
+      251.0
+    ],
+    "raw": "= ∑ − 2 ( x X ) i s − n 1",
+    "latex": "s = \\sqrt{\\frac{\\sum (x_i - \\bar{X})^2}{n-1}}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo especificado ou X + ks > valor máximo de projeto: Não-conformidade;",
+    "para": "$\\bar{X} - ks$ < valor mínimo especificado ou $\\bar{X} + ks$ > valor máximo de projeto: Não-conformidade;"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo especificado ou X + ks ≤ valor máximo de projeto:\n\nConformidade;",
+    "para": "$\\bar{X} - ks$ ≥ valor mínimo especificado ou $\\bar{X} + ks$ ≤ valor máximo de projeto: Conformidade;"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "$ix$ – valores individuais\n$X$ – média da amostra s - desvio padrão da amostra k - coeficiente tabelado em função do número de determinações (tamanho da amostra) n - número de determinações.",
+    "para": "$x_i$ – valores individuais\n\n$\\bar{X}$ – média da amostra\n\n$s$ - desvio padrão da amostra\n\n$k$ - coeficiente tabelado em função do número de determinações (tamanho da amostra)\n\n$n$ - número de determinações.",
+    "nota": "legenda achatada"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "Se x - ks < valor mínimo especificado: Não-conformidade;\n\nx - ≥\n\nSe ks valor mínimo especificado:\n\nConformidade.",
+    "para": "Se $\\bar{x} - ks$ < valor mínimo especificado: Não-conformidade;\n\nSe $\\bar{x} - ks$ ≥ valor mínimo especificado: Conformidade.",
+    "nota": "7.5 b): condições partidas na extração"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "Se x + ks > valor máximo especificado: Não-conformidade;\n\nespecificado:\n\nSe x + ks ≤ valor máximo\n\nConformidade.",
+    "para": "Se $\\bar{x} + ks$ > valor máximo especificado: Não-conformidade;\n\nSe $\\bar{x} + ks$ ≤ valor máximo especificado: Conformidade.",
+    "nota": "7.5 c): condições partidas na extração"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "“Nãoconformidades”",
+    "para": "“Não-conformidades”"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "IDml",
+    "para": "$ID_{ml}$",
+    "nota": "índice subscrito no PDF"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "sem ligante IDm",
+    "para": "sem ligante $ID_m$"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "e IDm ≤ 8%",
+    "para": "e $ID_m$ ≤ 8%"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "no CS2 (%)",
+    "para": "no CS₂ (%)"
+  }
+}

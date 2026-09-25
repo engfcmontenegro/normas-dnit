@@ -1,0 +1,45 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      71.0,
+      98.0,
+      559.0,
+      360.0
+    ],
+    "legenda": "",
+    "ancora": "5.2.1.2 Quando a leitura do densímetro for usada para determinar fatores de corr",
+    "texto_removido": [
+      "Tipo de amostra P.I. ebulição Outros limites Temperatura do ensaio",
+      "Altamente voláteis __ P.V.Reid abaixo de 1,8 kg Resfriar, no recipiente fechado, a 2ºC ou menos",
+      "Moderadamente voláteis 120ºC ou menos __ Resfriar, no recipiente fechado, a 18ºC ou menos",
+      "Moderadamente voláteis e viscosos 120ºC ou menos Viscosidade demasiadamente alta a 18ºC",
+      "Aquecer à temperatura mínima para obter fluidez suficiente",
+      "Não-voláteis Acima de 120ºC __ Usar a temperatura que convier entre - 18ºC e + 90ºC",
+      "Misturas com produtos não-derivados de petróleo",
+      "__ __ Ensaiar a (20 ± 0,2)ºC"
+    ]
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      226.0,
+      402.0,
+      369.0,
+      714.0
+    ],
+    "legenda": "Figura 1 - Leitura da escala do densímetro para líquidos transparentes",
+    "ancora": "Figura 1 - Leitura da escala do densímetro para líquidos transparentes"
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      223.0,
+      265.0,
+      372.0,
+      577.0
+    ],
+    "legenda": "",
+    "ancora": "Figura 2 - Leitura da escala do densímetro para líquidos opacos"
+  }
+}

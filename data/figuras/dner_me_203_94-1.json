@@ -1,0 +1,16 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      74.0,
+      315.0,
+      555.0,
+      445.0
+    ],
+    "legenda": "",
+    "ancora": "6.2 Calcular a perda de massa do corpo-de-prova, Pm, pela fórmula:",
+    "texto_removido": [
+      "| Classificação grupal do solo, segundo AASHTO M 145-73 | Porcentagem média de água absorvida pelo corpo-de-prova, após secagem a 110 ºC, A |\n| ----------------------------------------------------- | --------------------------------------------------------------------------------- |\n| A-1, A-3                                              | 1,5                                                                               |\n| A-2,                                                  | 2,5                                                                               |\n| A-4, A-5                                              | 3,0                                                                               |\n| A-6, A-7                                              | 3,5                                                                               |"
+    ]
+  }
+}

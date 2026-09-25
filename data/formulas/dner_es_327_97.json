@@ -1,0 +1,8 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "inferior a ! 10% em relação",
+    "para": "inferior a ± 10% em relação",
+    "nota": "p. 5, 6.2.1 a): glifo sem mapeamento no PDF (caixa vazia), lido como '!' — provável ±"
+  }
+}

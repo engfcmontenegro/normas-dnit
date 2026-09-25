@@ -1,0 +1,24 @@
+{
+  "eq01": {
+    "page": 6,
+    "bbox": [
+      322.1,
+      707.5,
+      452.6,
+      740.1
+    ],
+    "raw": "= − f f 1( ,0 842 v ) ck est c 28",
+    "latex": "f_{ck\\,est} = f_{c28}\\,(1 - 0{,}842\\,v)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$f_{ck}$est = valor estimado da resistência característica do concreto à compressão axial f c28 = resistência média do concreto à compressão axial, na idade de 28 dias ν =coeficiente de variação dos resultados",
+    "para": "$f_{ck\\,est}$ = valor estimado da resistência característica do concreto à compressão axial\n\n$f_{c28}$ = resistência média do concreto à compressão axial, na idade de 28 dias\n\n$v$ = coeficiente de variação dos resultados",
+    "nota": "legenda de 7.3.1 quebrada; no PDF o coeficiente é 'v' na fórmula e 'ν' na legenda"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "$f_{ck,est}$≥ 7,5 MPa",
+    "para": "$f_{ck,est}$ ≥ 7,5 MPa"
+  }
+}

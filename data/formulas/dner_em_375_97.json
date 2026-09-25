@@ -1,0 +1,23 @@
+{
+  "t01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "## 5 CP-170 RN4\n\n4 1700 1490 5 (A) Os três",
+    "para": "(A) Os três",
+    "nota": "última linha da Tabela 1 (p. 2) grudada na nota (A) e virada título"
+  },
+  "t02": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "## 5 CP-170 RB4\n\n4 1700 1580 5 (A) Os três",
+    "para": "(A) Os três",
+    "nota": "última linha da Tabela 2 (p. 3) grudada na nota (A) e virada título"
+  },
+  "t03": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "kgf/mm 2 . Para efeitos desta Norma, considera-se 1 kgf/mm 2 = 10 MPa.",
+    "para": "kgf/mm². Para efeitos desta Norma, considera-se 1 kgf/mm² = 10 MPa.",
+    "nota": "notas (A) das Tabelas 1 e 2: expoente perdido"
+  }
+}

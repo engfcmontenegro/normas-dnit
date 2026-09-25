@@ -1,0 +1,59 @@
+{
+  "eq01": {
+    "page": 4,
+    "clip": [
+      64,
+      294,
+      258,
+      342
+    ],
+    "latex": [
+      "LC = \\left( \\frac{V_s}{P_s}\\,\\mu_a - \\frac{1}{\\delta} \\right) \\times 100"
+    ],
+    "de_inicio": "V 1 2. LC = ) x 100 onde:",
+    "de_fim": "P. - peso da pastilha de solo, seco, em g.",
+    "para": "$$\nLC = \\left( \\frac{V_s}{P_s}\\,\\mu_a - \\frac{1}{\\delta} \\right) \\times 100\n$$\n\nonde:\n\n$\\mu_a$ - massa específica da água, em g/cm³;\n$\\delta$ - densidade real do solo;\n$V_s$ - volume da pastilha de solo, seco, em cm³;\n$P_s$ - peso da pastilha de solo, seco, em g."
+  },
+  "eq02": {
+    "page": 4,
+    "clip": [
+      64,
+      510,
+      150,
+      560
+    ],
+    "latex": [
+      "RC = \\frac{P_s}{V_s}"
+    ],
+    "de_inicio": "**7.2** Arazão de contração (RC) é calcula pela fórmula:\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `P RC= $ vV s`",
+    "de_fim": "> `P RC= $ vV s`",
+    "para": "**7.2** A razão de contração (RC) é calcula pela fórmula:\n\n$$\nRC = \\frac{P_s}{V_s}\n$$"
+  },
+  "eq03": {
+    "page": 4,
+    "clip": [
+      64,
+      595,
+      170,
+      614
+    ],
+    "latex": [
+      "MV = (h_1 - LC)\\,RC"
+    ],
+    "de_inicio": "MV = (h,\n\n- LC) RC onde:",
+    "de_fim": "h, - teor de água.",
+    "para": "$$\nMV = (h_1 - LC)\\,RC\n$$\n\nonde:\n\n$h_1$ - teor de água."
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "contido na cápsula de contração (PQ.",
+    "para": "contido na cápsula de contração ($P_s$).",
+    "nota": "6.4: Ps lido como PQ"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "como volume de solo seco (V. ).",
+    "para": "como volume de solo seco ($V_s$).",
+    "nota": "6.5.2: Vs lido como V."
+  }
+}

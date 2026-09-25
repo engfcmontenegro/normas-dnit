@@ -1,0 +1,100 @@
+{
+ "es": "dner-es-327-97",
+ "servico": "Pavimento com peças pré-moldadas de concreto",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Peças pré-moldadas",
+   "ensaio": "Conformidade das peças",
+   "citado": "ABNT NBR 9781",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Atender à NBR 9781; formato regular; dimensões mín.: comprimento 40 cm, largura 10 cm, altura 6 cm",
+   "secao": "5.1.1 / 6.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Areia do colchão",
+   "ensaio": "Especificação da areia",
+   "citado": "DNER-EM 038/97",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme DNER-EM 038/97",
+   "secao": "5.1.2 / 6.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Asfalto de rejuntamento",
+   "ensaio": "Tipo de ligante",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "CAP 40/50 ou 50/60",
+   "secao": "5.1.3 / 6.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Subleito",
+   "ensaio": "Regularização / reforço do subleito",
+   "citado": "DNER-ES 299/97 e DNER-ES 300/97",
+   "norma": null,
+   "frequencia": "Antes da sub-base",
+   "criterio": "Conforme DNER-ES 299/97 (e DNER-ES 300/97, se necessário reforço)",
+   "secao": "5.3.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Sub-base",
+   "ensaio": "Espessura da sub-base",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Conforme projeto, ≥ 15 cm; material não expansivo nem bombeável",
+   "secao": "4.1 / 5.3.2.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Colchão de areia",
+   "ensaio": "Espessura do colchão compactado",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Uniforme e igual a 4 cm; confinado por guias e sarjetas",
+   "secao": "5.3.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Assentamento",
+   "ensaio": "Alinhamento e nivelamento das fileiras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante o assentamento (linhas de referência com ponteiros a ≤ 10 m)",
+   "criterio": "Juntas alinhadas sob o cordel; nível conforme abaulamento de projeto (régua e esquadro)",
+   "secao": "5.3.4.2 / 5.3.4.3.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Largura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordos a cada 20 m",
+   "criterio": "Variação < ± 10 % da largura de projeto",
+   "secao": "6.2 / 6.2.1 a"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordos a cada 20 m",
+   "criterio": "Média ≥ espessura de projeto; diferença entre maior e menor valor ≤ 1 cm",
+   "secao": "6.2 / 6.2.1 b"
+  }
+ ],
+ "notas": [
+  "Rejuntamento com pedrisco (≈ ¾ da altura da junta) seguido de compressão com rolo liso de 10 a 12 t e derrame de asfalto aquecido até aflorar.",
+  "Sem tráfego sobre a pista durante toda a construção; valetas provisórias para desvio das águas pluviais."
+ ]
+}

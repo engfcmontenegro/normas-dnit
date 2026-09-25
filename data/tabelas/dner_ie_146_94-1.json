@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      125,
+      186,
+      455,
+      402
+    ],
+    "md": "| Componentes | Produção |\n| --- | --- |\n| calço | 150 |\n| cinta | 150 |\n| espaçador | 200 |\n| lâmina | 200 |\n| travessa | 200 |\n| poste | 50 |\n| garra | 200 |\n| plaqueta | 500 |\n| terminal | 50 |",
+    "de_inicio": "![[dner_ie_146_94-1_fig01.png]]",
+    "nota": "tabela sem fios verticais que tinha virado figura (fig01)"
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "eq01": {
+    "page": 2,
+    "clip": [
+      68,
+      698,
+      200,
+      748
+    ],
+    "latex": [
+      "n = \\left[1 + \\frac{k^{2}}{2}\\right] \\left[\\frac{Z_{\\alpha} + Z_{\\beta}}{Z_{1} - Z_{2}}\\right]^{2}",
+      "k = \\frac{Z_{\\alpha} \\cdot Z_{2} + Z_{\\beta} \\cdot Z_{1}}{Z_{\\alpha} + Z_{\\beta}}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `n = 1 2 2 1 2 2 +",
+    "de_fim": "sendo X a média da amostra e s o desvio padrão.",
+    "para": "$$\nn = \\left[1 + \\frac{k^{2}}{2}\\right] \\left[\\frac{Z_{\\alpha} + Z_{\\beta}}{Z_{1} - Z_{2}}\\right]^{2}\n$$\n\nOnde:\n\n$$\nk = \\frac{Z_{\\alpha} \\cdot Z_{2} + Z_{\\beta} \\cdot Z_{1}}{Z_{\\alpha} + Z_{\\beta}}\n$$\n\nVer Errata\n\n**4.2.3** As expressões de n e k foram estabelecidas sob a hipótese de que a variável aleatória $\\overline{X} \\pm ks$ é aproximadamente normal, sendo $\\overline{X}$ a média da amostra e s o desvio padrão.",
+    "nota": "4.2.2; 'Ver Errata' é anotação (em vermelho no PDF) ao lado da fórmula de k"
+  },
+  "eq02": {
+    "page": 3,
+    "clip": [
+      68,
+      102,
+      240,
+      145
+    ],
+    "latex": [
+      "k = \\frac{Z_{\\alpha} \\cdot Z_{2} + Z_{\\beta} \\cdot Z_{1}}{Z_{\\alpha} + Z_{\\beta}}"
+    ]
+  },
+  "eq03": {
+    "page": 3,
+    "clip": [
+      98,
+      343,
+      170,
+      380
+    ],
+    "latex": [
+      "\\overline{X} = \\frac{1}{n} \\sum_{J=1}^{n} X_{Xi}",
+      "s = \\sqrt{\\frac{\\sum_{J=1}^{n} X_{Xi}^{2}}{n - 1} - \\frac{\\left(\\sum_{J=1}^{n} X_{Xi}\\right)^{2}}{n(n - 1)}}",
+      "s = \\sqrt{\\frac{\\sum (Xi - \\overline{X})^{2}}{n - 1}}"
+    ],
+    "de_inicio": "X = 1\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `X J n Xi",
+    "de_fim": "Caso contrário, aceita-se o serviço.\n\nVer Errata",
+    "para": "$$\n\\overline{X} = \\frac{1}{n} \\sum_{J=1}^{n} X_{Xi}\n$$\n\n$$\ns = \\sqrt{\\frac{\\sum_{J=1}^{n} X_{Xi}^{2}}{n - 1} - \\frac{\\left(\\sum_{J=1}^{n} X_{Xi}\\right)^{2}}{n(n - 1)}}\n$$\n\nou:\n\n$$\ns = \\sqrt{\\frac{\\sum (Xi - \\overline{X})^{2}}{n - 1}}\n$$\n\nc) a partir dos valores $\\overline{X}$ e s obtidos através da amostra e de n e k, calculados de acordo com os riscos admitidos para o caso de valor mínimo especificado, as alternativas de decisão são as seguintes:\n\nSe $\\overline{X}$ - ks < valor mínimo especificado - rejeita-se o serviço;\n\nSe $\\overline{X}$ - ks ≥ valor mínimo especificado - aceita-se o serviço.\n\nPara o caso de valor máximo especificado, a decisão será:\n\nSe $\\overline{X}$ + ks > valor máximo especificado ⇒ rejeita-se o serviço;\n\nSe $\\overline{X}$ + ks ≤ valor máximo especificado ⇒ aceita-se o serviço.\n\nPara o caso de valor especificado entre mínimo e máximo, a decisão será:\n\nSe $\\overline{X}$ - ks < valor mínimo especificado ou $\\overline{X}$ + ks > valor máximo especificado - rejeita-se o serviço.\n\nCaso contrário, aceita-se o serviço.",
+    "nota": "4.3 b); o PDF escreve o somatório como X com índice 'Xi' (X_{Xi}) e índice J=1..n: transcrito como está"
+  },
+  "eq04": {
+    "page": 3,
+    "clip": [
+      98,
+      392,
+      225,
+      452
+    ],
+    "latex": [
+      "s = \\sqrt{\\frac{\\sum_{J=1}^{n} X_{Xi}^{2}}{n - 1} - \\frac{\\left(\\sum_{J=1}^{n} X_{Xi}\\right)^{2}}{n(n - 1)}}"
+    ]
+  },
+  "eq05": {
+    "page": 3,
+    "clip": [
+      310,
+      405,
+      400,
+      452
+    ],
+    "latex": [
+      "s = \\sqrt{\\frac{\\sum (Xi - \\overline{X})^{2}}{n - 1}}"
+    ]
+  },
+  "eq06": {
+    "page": 4,
+    "clip": [
+      70,
+      145,
+      197,
+      224
+    ],
+    "latex": [
+      "L(p) = p\\left\\{ t \\ge \\frac{k - Zp}{\\sqrt{\\dfrac{1}{n} + \\dfrac{k^{2}}{2n}}} \\right\\}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `L p p t k Zp",
+    "de_fim": "\n\n2 Assim, através da Curva (CCO),",
+    "para": "$$\nL(p) = p\\left\\{ t \\ge \\frac{k - Zp}{\\sqrt{\\dfrac{1}{n} + \\dfrac{k^{2}}{2n}}} \\right\\}\n$$\n\nAssim, através da Curva (CCO),"
+  },
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "L(p 1 ) = 1 - α ; e L(p 2 ) = β",
+    "para": "$L(p_1) = 1 - \\alpha$; e $L(p_2) = \\beta$",
+    "nota": "4.4.2 ('L(o)' como no PDF)"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\np 1 = nível de qualidade aceitável",
+    "para": "\n$p_1$ = nível de qualidade aceitável"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\np 2 = nível de qualidade inaceitável",
+    "para": "\n$p_2$ = nível de qualidade inaceitável"
+  },
+  "t04": {
+    "texto": true,
+    "de_inicio": "onde se fixam os seguintes elementos do plano:\n\n| 1,0 0,9 |",
+    "de_fim": "![[dner_pro_277_97_tab01.png]]",
+    "para": "onde se fixam os seguintes elementos do plano:\n\nα = 0,10\nβ = 0,10\n$p_1$ = 0,05\n$p_2$ = 0,25",
+    "nota": "5.1.1: a lista tinha sido trocada pelo gráfico da CCO lido como tabela (tab01)"
+  },
+  "t05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "(p 1 ) possa ser rejeitado",
+    "para": "($p_1$) possa ser rejeitado"
+  },
+  "t06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "b)admite-se que em 10% dos casos (( β = 0,10)",
+    "para": "b) admite-se que em 10% dos casos ((β = 0,10)"
+  },
+  "t07": {
+    "texto": true,
+    "de_inicio": "a) um serviço será considerado de boa qualidade",
+    "de_fim": "p 2 = 0,25 ⇒ Z 2 = 0,67",
+    "para": "a) um serviço será considerado de boa qualidade, ou de qualidade aceitável, quando apresenta 5% ou menos de defeitos ($p_1$ = 0,05).\n\nb) um serviço será considerado de má qualidade, ou de qualidade inaceitável, quando apresentar 25% ou mais de defeitos ($p_2$ = 0,25). Assim, para o plano de amostragem adotado, tem-se:\n\nα = 0,10 ⇒ $Z_\\alpha$ = 1,28\nβ = 0,10 ⇒ $Z_\\beta$ = 1,28\n$p_1$ = 0,05 ⇒ $Z_1$ = 1,64\n$p_2$ = 0,25 ⇒ $Z_2$ = 0,67"
+  },
+  "t08": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "k = 1,155 n = 11,6 ~ 12",
+    "para": "k = 1,155\nn = 11,6 ≅ 12",
+    "nota": "5.1.4: '~' sublinhado no PDF"
+  },
+  "t09": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "X - 1,155s",
+    "para": "$\\overline{X}$ - 1,155s"
+  },
+  "t10": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "X -1,155s",
+    "para": "$\\overline{X}$ -1,155s"
+  },
+  "t11": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "X + 1,155s",
+    "para": "$\\overline{X}$ + 1,155s"
+  },
+  "t12": {
+    "texto": true,
+    "de_inicio": "No caso do plano de amostragem recomendado, temos:\n\n| n | 5 |",
+    "de_fim": "n = n° de amostras; k = coeficiente multiplicador; α = risco do Executante.\n\nL(p)",
+    "para": "No caso do plano de amostragem recomendado, temos:\n\nα = 0,10\nβ = 0,10\n$p_1$ = 0,05 ⇒ L (0,05) = 1 - 0,10 = 0,90\n$p_2$ = 0,25 ⇒ L (0,25) = 0,10\nn = 12\nk = 1,155\n\n**5.2.1** Variando-se p, obtêm-se os diversos valores de L(p) que nos permitem traçar a Curva Característica de Operação, conforme segue:",
+    "nota": "5.2: lista restaurada (tinha sido trocada pela Tabela 1); rótulos do gráfico removidos (o gráfico é a figura fig01)"
+  },
+  "t13": {
+    "texto": true,
+    "de_inicio": "α = Probabilidade de rejeição de um serviço de boa qualidade",
+    "de_fim": "0,02 0,01 n = n° de amostras; k = coeficiente multiplicador; α = risco do Executante.",
+    "para": "α = Probabilidade de rejeição de um serviço de boa qualidade\nβ = Probabilidade de aceitação de um serviço de má qualidade\n$p_1$ = % de “defeitos” máxima admitida em um serviço de boa qualidade\n$p_2$ = % de “defeitos” mínima admitida em um serviço de má qualidade\n\n### TABELA 1 - AMOSTRAGEM VARIÁVEL\n\n| n | 5 | 6 | 7 | 8 | 9 | 10 | 12 | 13 | 14 | 15 | 16 | 17 | 19 | 21 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| k | 1,55 | 1,41 | 1,36 | 1,31 | 1,25 | 1,21 | 1,16 | 1,13 | 1,11 | 1,10 | 1,08 | 1,06 | 1,04 | 1,01 |\n| α | 0,45 | 0,35 | 0,30 | 0,25 | 0,19 | 0,15 | 0,10 | 0,08 | 0,06 | 0,05 | 0,04 | 0,03 | 0,02 | 0,01 |\n\n![[dner_pro_277_97_tabm01.png]]\n\nn = n° de amostras; k = coeficiente multiplicador; α = risco do Executante.",
+    "nota": "6.1: Tabela 1 (tabm01)"
+  },
+  "t14": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "valores de p 1 e p 2 tiveram",
+    "para": "valores de $p_1$ e $p_2$ tiveram"
+  },
+  "t15": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "para β , p 1 e p 2 , adotando-se",
+    "para": "para β, $p_1$ e $p_2$, adotando-se"
+  },
+  "t16": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `n 5 6 7 8 9 10 11 12 13 15 k",
+    "de_fim": "### TABELA 2 AMOSTRAGEM VARIÁVEL\n\nn = n° de amostras; k = coeficiente multiplicador; α = risco do Executante.",
+    "para": "### TABELA 2 - AMOSTRAGEM VARIÁVEL\n\n| n | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 15 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| k | 1,32 | 1,26 | 1,15 | 1,14 | 1,05 | 1,03 | 0,99 | 0,97 | 0,95 | 0,92 |\n| α | 0,30 | 0,25 | 0,16 | 0,15 | 0,08 | 0,06 | 0,04 | 0,03 | 0,02 | 0,01 |\n\n![[dner_pro_277_97_tabm02.png]]\n\nn = n° de amostras; k = coeficiente multiplicador; α = risco do Executante.",
+    "nota": "6.1: Tabela 2 (tabm02)"
+  },
+  "t17": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Se X - ks",
+    "para": "Se $\\overline{X}$ - ks"
+  },
+  "t18": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Se X + ks",
+    "para": "Se $\\overline{X}$ + ks"
+  },
+  "t19": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo admitido ou X + ks > valor máximo admitido - rejeita-se o serviço;\nX - ks ≥ valor mínimo admitido e X + ks ≤ valor máximo admitido - aceita-se o serviço.",
+    "para": "$\\overline{X}$ - ks < valor mínimo admitido ou $\\overline{X}$ + ks > valor máximo admitido - rejeita-se o serviço;\n$\\overline{X}$ - ks ≥ valor mínimo admitido e $\\overline{X}$ + ks ≤ valor máximo admitido - aceita-se o serviço."
+  },
+  "eq07": {
+    "page": 7,
+    "clip": [
+      70,
+      488,
+      125,
+      528
+    ],
+    "latex": [
+      "\\overline{X} = \\frac{\\sum Xi}{n}",
+      "s = \\sqrt{\\frac{\\sum \\left(Xi - \\overline{X}\\right)^{2}}{n - 1}}"
+    ],
+    "de_inicio": "Sendo:\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `",
+    "de_fim": "- tamanho da amostra.",
+    "para": "Sendo:\n\n$$\n\\overline{X} = \\frac{\\sum Xi}{n}\n$$\n\n$$\ns = \\sqrt{\\frac{\\sum \\left(Xi - \\overline{X}\\right)^{2}}{n - 1}}\n$$\n\nOnde:\n\n$Xi$ - valores individuais;\n$\\overline{X}$ - média da amostra;\n$s$ - desvio padrão da amostra;\n$k$ - coeficiente em função do tamanho da amostra;\n$n$ - tamanho da amostra."
+  },
+  "eq08": {
+    "page": 7,
+    "clip": [
+      70,
+      535,
+      160,
+      585
+    ],
+    "latex": [
+      "s = \\sqrt{\\frac{\\sum \\left(Xi - \\overline{X}\\right)^{2}}{n - 1}}"
+    ]
+  }
+}

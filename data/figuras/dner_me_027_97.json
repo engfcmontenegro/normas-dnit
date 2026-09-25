@@ -1,0 +1,87 @@
+{
+  "fig01": {
+    "page": 2,
+    "bbox": [
+      120.0,
+      434.0,
+      523.0,
+      643.0
+    ],
+    "legenda": "",
+    "ancora": "Formada do mesmo material do bloco medidor de aço medindo 95 mm de comprimento p",
+    "texto_removido": [
+      "Hegman Micrômetros Mils 0 1 2 3 4 5 6 7 8 100 90 75 65 50 40 25 15 0"
+    ]
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      165.0,
+      89.8,
+      474.0,
+      669.0
+    ],
+    "legenda": "",
+    "ancora": "Devem ser aceitos resultados que apresentarem reprodutibilidade ± 10 µm.",
+    "texto_removido": [
+      "/Anexo normativo",
+      "### Anexo Normativo",
+      "Figuras 2 e 3"
+    ]
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      90.0,
+      105.0,
+      548.0,
+      472.5
+    ],
+    "legenda": "Figura 2 - Cunha",
+    "ancora": "Figura 2 - Cunha"
+  },
+  "fig04": {
+    "page": 6,
+    "bbox": [
+      89.0,
+      490.0,
+      560.0,
+      769.0
+    ],
+    "legenda": "Figura 3 - Ângulo de visão",
+    "ancora": "Figura 3 - Ângulo de visão"
+  },
+  "fig05": {
+    "page": 7,
+    "bbox": [
+      84.0,
+      109.0,
+      553.0,
+      688.0
+    ],
+    "legenda": "",
+    "ancora": "Devem ser aceitos resultados que apresentarem reprodutibilidade ± 10 µm."
+  },
+  "fig06": {
+    "page": 8,
+    "bbox": [
+      84.0,
+      108.0,
+      553.0,
+      688.0
+    ],
+    "legenda": "",
+    "ancora": "Devem ser aceitos resultados que apresentarem reprodutibilidade ± 10 µm."
+  },
+  "fig07": {
+    "page": 9,
+    "bbox": [
+      80.0,
+      111.0,
+      548.0,
+      690.0
+    ],
+    "legenda": "",
+    "ancora": "Devem ser aceitos resultados que apresentarem reprodutibilidade ± 10 µm."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": ": m 2 de ",
+    "para": ": m² de ",
+    "nota": "8.2.1–8.2.5"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": ": m 3 de ",
+    "para": ": m³ de ",
+    "nota": "8.2.6–8.2.8"
+  }
+}

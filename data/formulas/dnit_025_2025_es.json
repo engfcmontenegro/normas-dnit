@@ -1,0 +1,47 @@
+{
+  "eq01": {
+    "page": 5,
+    "bbox": [
+      66.5,
+      654.6,
+      293.9,
+      682.0
+    ],
+    "raw": "(𝑓𝑐𝑘 𝑚í𝑛 .), aos 28 dias, de 15 MPa, e espessura de",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido com fck mín inline (5.3.2 b)"
+  },
+  "eq02": {
+    "page": 8,
+    "bbox": [
+      48.6,
+      236.5,
+      200.8,
+      264.2
+    ],
+    "raw": "𝑓 𝑐𝑘,𝑒𝑠𝑡 < 𝑓 𝑐𝑘 , não conformidade",
+    "latex": "f_{ck,est} < f_{ck}\\text{, não conformidade}"
+  },
+  "eq03": {
+    "page": 8,
+    "bbox": [
+      48.6,
+      271.4,
+      182.8,
+      299.2
+    ],
+    "raw": "𝑓 𝑐𝑘,𝑒𝑠𝑡 ≥ 𝑓 𝑐𝑘 , conformidade",
+    "latex": "f_{ck,est} \\geq f_{ck}\\text{, conformidade}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "condições gerais e específicas das seções 4 e 5 desta\n\nNorma, respectivamente.",
+    "para": "condições gerais e específicas das seções 4 e 5 desta Norma, respectivamente."
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "de acordo com a norma\n\nDNIT 011 – PRO,",
+    "para": "de acordo com a norma DNIT 011 – PRO,"
+  }
+}

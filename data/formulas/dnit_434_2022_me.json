@@ -1,0 +1,115 @@
+{
+  "eq01": {
+    "page": 1,
+    "bbox": [
+      48.6,
+      575.4,
+      193.4,
+      601.8
+    ],
+    "raw": "número 𝑁 avaliado em projeto.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      206.0,
+      293.9,
+      233.7
+    ],
+    "raw": "com duração de 0,9 s, onde é mantida a 𝑃 𝑐 , conforme",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  },
+  "eq03": {
+    "page": 4,
+    "bbox": [
+      66.5,
+      197.0,
+      188.8,
+      224.7
+    ],
+    "raw": "máxima de ensaio (𝑃 𝑚á𝑥 ).",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  },
+  "eq04": {
+    "page": 5,
+    "bbox": [
+      66.5,
+      729.8,
+      294.0,
+      756.1
+    ],
+    "raw": "do ensaio o número de ciclos de carregamento (𝑁)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  },
+  "eq05": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      253.0,
+      561.2,
+      283.9
+    ],
+    "raw": "𝑁 𝑓𝑎𝑑 = 10 (𝐾 1 +𝐾 2 .%𝑅𝐹) (1)",
+    "latex": "N_{fad} = 10^{(K_1 + K_2 \\cdot \\%RF)} \\tag{1}"
+  },
+  "eq06": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      542.5,
+      563.4,
+      580.1
+    ],
+    "raw": "2𝐹 𝜋𝑑𝑡 (2) 𝜎 𝑡 =",
+    "latex": "\\sigma_t = \\frac{2F}{\\pi d t} \\tag{2}"
+  },
+  "eq07": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      684.9,
+      563.4,
+      711.2
+    ],
+    "raw": "𝑑 é o diâmetro do corpo de prova, expresso em",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq08": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      730.0,
+      563.4,
+      756.3
+    ],
+    "raw": "𝑡 é a espessura do corpo de prova, expressa em",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável de legenda (texto)"
+  },
+  "eq09": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      90.8,
+      293.7,
+      118.1
+    ],
+    "raw": "determinação (𝑅 2 ) da curva, resultante de 12 corpos de",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  }
+}

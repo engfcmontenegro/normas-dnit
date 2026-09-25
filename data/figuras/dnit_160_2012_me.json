@@ -1,0 +1,32 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      108.0,
+      79.8,
+      552.7,
+      785.5
+    ],
+    "legenda": "Figura 1 – Aparelho para determinação da expansibilidade"
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      87.8,
+      94.9,
+      521.5,
+      717.6
+    ],
+    "legenda": "Figura 2 – Soquete de compactação"
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      58.1,
+      149.5,
+      552.7,
+      582.5
+    ],
+    "legenda": "Figura 3 – Montagem do ensaio"
+  }
+}

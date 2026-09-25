@@ -1,0 +1,25 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      62,
+      214,
+      250,
+      256
+    ],
+    "latex": [
+      "\\%\\ \\text{de microesferas} = \\frac{A}{M} \\times 1{,}30"
+    ],
+    "de_inicio": "S\n\n## RESULTADO\n\nO resultado será dado pela seguinte fórmula:",
+    "de_fim": "fator usado para determinar a porcentagem total de microesferas.",
+    "para": "## 5 RESULTADO\n\nO resultado será dado pela seguinte fórmula:\n\n$$\n\\%\\ \\text{de microesferas} = \\frac{A}{M} \\times 1{,}30\n$$\n\nonde:\n\n$A$ - massa de material recolhido, em gramas;\n$M$ - massa da amostra, em gramas;\n1,30 - fator usado para determinar a porcentagem total de microesferas.",
+    "nota": "p. 3: a fórmula não tem o fator 100, embora o resultado seja em % — transcrito como no PDF; título '5 RESULTADO' quebrado pelo OCR ('S')"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "TO\n\n**4.7** Aplaca deve ser submetidaà vibração",
+    "de_fim": "TO\n\n**4.7** Aplaca deve ser submetidaà vibração",
+    "para": "**4.7** A placa deve ser submetida à vibração",
+    "nota": "lixo de OCR 'TO' antes de 4.7"
+  }
+}

@@ -1,0 +1,155 @@
+{
+ "es": "dnit-139-2010-es",
+ "servico": "Sub-base estabilizada granulometricamente",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Material",
+   "ensaio": "Índice de grupo (caracterização)",
+   "citado": "DNER-ME 080/94, DNER-ME 082/94 e DNER-ME 122/94",
+   "norma": "dner-me-082-94",
+   "outras": [
+    "dner-me-122-94"
+   ],
+   "frequencia": "Na seleção do material",
+   "criterio": "IG = 0; fração retida na nº 10 com partículas duras, sem fragmentos moles ou matéria orgânica",
+   "secao": "5.1 b"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material",
+   "ensaio": "Índice de Suporte Califórnia (ISC)",
+   "citado": "DNER-ME 049/94",
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "Na seleção do material",
+   "criterio": "ISC ≥ 20 % (compactação DNER-ME 129/94, Método B ou maior)",
+   "secao": "5.1 c"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material",
+   "ensaio": "Expansão",
+   "citado": "DNER-ME 049/94",
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "Na seleção do material",
+   "criterio": "≤ 1 %",
+   "secao": "5.1 c"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material (solo laterítico)",
+   "ensaio": "Expansibilidade",
+   "citado": "DNER-ME 029/94",
+   "norma": null,
+   "norma_atual": "dnit-160-2012-me",
+   "frequencia": "Na seleção do material",
+   "criterio": "< 10 % (permite IG ≠ 0 e expansão > 1 %)",
+   "condicao": "solos lateríticos",
+   "secao": "5.1 d"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material espalhado na pista",
+   "ensaio": "Caracterização (granulometria, LL, LP → IG)",
+   "citado": "DNER-ME 080/94, DNER-ME 082/94 e DNER-ME 122/94",
+   "norma": "dner-me-082-94",
+   "outras": [
+    "dner-me-122-94"
+   ],
+   "frequencia": "1 amostra por camada a cada 200 m de pista ou por jornada diária (400 m com material homogêneo, a critério da Fiscalização); mín. 5 amostras em pistas até 4.000 m²",
+   "criterio": "IG = 0 (exceto lateríticos, 5.1 d)",
+   "secao": "7.1 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material espalhado na pista",
+   "ensaio": "Compactação (Método B ou maior)",
+   "citado": "DNER-ME 129/94",
+   "norma": null,
+   "norma_atual": "dnit-164-2013-me",
+   "frequencia": "1 amostra por camada a cada 200 m de pista ou por jornada diária (400 m com material homogêneo, a critério da Fiscalização); mín. 5 amostras em pistas até 4.000 m²",
+   "criterio": "Define massa específica aparente seca máxima e umidade ótima de referência",
+   "secao": "7.1 b, c",
+   "obs": "Com material britado, energia pode ser ajustada em trecho experimental"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material espalhado na pista",
+   "ensaio": "ISC e expansão",
+   "citado": "DNER-ME 049/94",
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "1 amostra a cada 400 m, nos pontos das amostras de compactação (800 m com material homogêneo); mín. 5 amostras em pistas até 4.000 m²",
+   "criterio": "ISC ≥ 20 %; expansão ≤ 1 %",
+   "secao": "7.1 d"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da compactação",
+   "ensaio": "Teor de umidade",
+   "citado": "DNER-ME 052/94 ou DNER-ME 088/94",
+   "norma": null,
+   "norma_atual": "dnit-456-2025-me",
+   "frequencia": "Por camada, a cada 100 m de pista, imediatamente antes da compactação",
+   "criterio": "hót −2 a +1 ponto percentual (5.3 d); tolerância de controle ± 2 pontos (7.2 a)",
+   "secao": "5.3 d / 7.2 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Compactação",
+   "ensaio": "Segmento experimental (nº de passadas)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No início da obra e a cada mudança de material ou equipamento",
+   "criterio": "Nº de passadas que atinja o GC especificado",
+   "secao": "5.3 g"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Após a compactação",
+   "ensaio": "Massa específica aparente seca in situ → grau de compactação",
+   "citado": "DNER-ME 092/94 ou DNER-ME 036/94",
+   "norma": "dner-me-036-94",
+   "frequencia": "Por camada, a cada 100 m de pista; mín. 5 por camada em áreas até 4.000 m²",
+   "criterio": "GC ≥ 100 %",
+   "secao": "7.2 b, c"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Largura da plataforma",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 10 cm",
+   "secao": "7.3 a"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Flecha de abaulamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "Até +20 %; sem falta",
+   "secao": "7.3 b"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessura da camada",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 10 % da espessura de projeto (camadas de 10 a 20 cm)",
+   "secao": "5.3 f / 7.3 c"
+  }
+ ],
+ "notas": [
+  "Amostragem aleatória segundo Plano de Amostragem Variável (DNER-PRO 277/97); aceitação por X̄ − ks ≥ mín. e X̄ + ks ≤ máx.",
+  "Não conformidades tratadas conforme DNIT 011-PRO.",
+  "A sub-base não deve receber tráfego; executar só a extensão que possa ser coberta de imediato pela camada seguinte."
+ ]
+}

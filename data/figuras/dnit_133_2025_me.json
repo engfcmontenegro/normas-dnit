@@ -1,0 +1,82 @@
+{
+  "fig01": {
+    "page": 6,
+    "bbox": [
+      92.9,
+      83.4,
+      516.6,
+      312.2
+    ],
+    "legenda": "Figura A1 – Esquema da Viga Benkelman"
+  },
+  "fig02": {
+    "page": 6,
+    "bbox": [
+      78.0,
+      513.2,
+      566.9,
+      753.8
+    ],
+    "legenda": "Figura A2 – Exemplo de sistema de referência na Viga e no caminhão"
+  },
+  "fig03": {
+    "page": 7,
+    "bbox": [
+      85.0,
+      95.4,
+      523.9,
+      525.4
+    ],
+    "legenda": "Figura B1 – Gráfico do fator de correção em função da temperatura"
+  },
+  "fig04": {
+    "page": 9,
+    "bbox": [
+      178.3,
+      67.9,
+      431.6,
+      739.0
+    ],
+    "legenda": "Figura C2 – Exemplo de formulário de Linha de Influência Longitudinal da Bacia de Deformação"
+  },
+  "fig05": {
+    "page": 10,
+    "bbox": [
+      91.8,
+      83.4,
+      517.2,
+      359.1
+    ],
+    "legenda": "Figura D1 – Elementos da Viga Benkelman"
+  },
+  "fig06": {
+    "page": 10,
+    "bbox": [
+      168.2,
+      402.2,
+      441.2,
+      760.8
+    ],
+    "legenda": "Figura D2 – Viga Benkelman montada"
+  },
+  "fig07": {
+    "page": 11,
+    "bbox": [
+      195.1,
+      67.9,
+      414.4,
+      438.3
+    ],
+    "legenda": "Figura D3 – Vista superior da Viga Benkelman"
+  },
+  "fig08": {
+    "page": 11,
+    "bbox": [
+      115.5,
+      475.8,
+      493.5,
+      646.0
+    ],
+    "legenda": "Figura D4 – Aferição das deflexões do pavimento utilizando a Viga Benkelman"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "eq01": {
+    "page": 2,
+    "bbox": [
+      318.0,
+      314.6,
+      563.4,
+      360.3
+    ],
+    "raw": "b) a massa da amostra 1 e 𝑀 2 para a massa da",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto comum de item de lista (M_1, M_2)"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      66.4,
+      92.2,
+      131.5,
+      120.2
+    ],
+    "raw": "seca (𝑀 1𝑓 ).",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto comum (M_1f)"
+  },
+  "eq03": {
+    "page": 3,
+    "bbox": [
+      55.9,
+      426.9,
+      289.3,
+      466.9
+    ],
+    "raw": "𝑚 𝑖 −𝑚 𝑓 𝑚= 𝑥 100 (1) 𝑚 𝑓",
+    "latex": "m = \\frac{m_i - m_f}{m_f} \\times 100 \\tag{1}"
+  }
+}

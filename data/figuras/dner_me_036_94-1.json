@@ -1,0 +1,38 @@
+{
+  "fig01": {
+    "page": 3,
+    "bbox": [
+      186.0,
+      594.0,
+      456.0,
+      706.0
+    ],
+    "legenda": "",
+    "ancora": "Notas: 1) Somente será admitido volume abaixo do mínimo especificado na Tabela, ",
+    "texto_removido": [
+      "Diâmetro máximo Volume Altura das partículas do mínimo da | mínima da solo cavidade cavidade (om?) (cm)",
+      "Nº 4 (peneira) 450 6",
+      "1/2 pol 600 8",
+      "## 1 pol"
+    ]
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      74.0,
+      71.0,
+      566.0,
+      783.4
+    ],
+    "legenda": "FIGURA 2",
+    "ancora": "FIGURA 2",
+    "texto_removido": [
+      "Ne",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `N o AL Lo`",
+      "## 2 o",
+      "## 155 r",
+      "VISTA",
+      "UNIDADE DE MEDIDA : MILÍMETRO (mm)"
+    ]
+  }
+}

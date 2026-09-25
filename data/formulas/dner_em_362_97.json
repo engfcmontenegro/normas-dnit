@@ -1,0 +1,9 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "### Tabela 1 - Especificações para asfaltos diluídos (tipo cura rápida)",
+    "de_fim": "Nota: No caso da ductilidade",
+    "para": "### Tabela 1 - Especificações para asfaltos diluídos (tipo cura rápida)\n\n| Características | Unidades | Métodos de Ensaios | Tipos de CR – CR-70 | Tipos de CR – CR-250 |\n| --- | --- | --- | --- | --- |\n| **Asfalto diluído** |  |  |  |  |\n| Viscosidade cinemática a 60ºC | cSt | ME 151 | 70-140 | 250-500 |\n| ou |  |  |  |  |\n| Viscosidade Saybolt-Furol, a |  | ME 004 |  |  |\n| 50ºC | s |  | 60-120 | - |\n| 60ºC | s |  | - | 125-250 |\n| Ponto de Fulgor (V. A. Tag), mínimo | ºC | NBR-5765 | - | 27 |\n| Destilação até 360ºC |  | NBR-9619 |  |  |\n| % volume do total destilado, mínimo a: |  |  |  |  |\n| 190ºC |  |  | 10 | - |\n| 225ºC | % |  | 50 | 35 |\n| 260ºC |  |  | 70 | 60 |\n| 316ºC |  |  | 85 | 80 |\n| Resíduo a 360ºC, por diferença, % volume mínimo | % |  | 55 | 65 |\n| Água % volume, máximo | % | MB 37 | 0,2 | 0,2 |\n| **Resíduo de destilação** |  |  |  |  |\n| Penetração (100g, 5s, 25 °C) | 0,1mm | ME 003 | 80-120 | 80-120 |\n| Betume, % peso, mínimo | % | ME 010 | 99 | 99 |\n| Ductibilidade a 25ºC, mínimo | cm | ME 163 | 100 | 100 |\n\n![[dner_em_362_97_tabm01.png]]\n\nNota: No caso da ductilidade",
+    "nota": "Tabela 1: cabeçalho 'Tipos de CR' partido na tab01 automática e restos achatados + figura de página (fig01); refeita em tabm01 (mesmo bloco)"
+  }
+}

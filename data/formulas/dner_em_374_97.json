@@ -1,0 +1,82 @@
+{
+  "x01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "Resistência de escoamento (f y )",
+    "para": "Resistência de escoamento ($f_y$)"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "P = força aplicada A = área da seção em cada instante Ao = área inicial da seção = é o ponto",
+    "de_fim": "= é o ponto da curva correspondente à resistência real à ruptura",
+    "para": "P = força aplicada\nA = área da seção em cada instante\nAo = área inicial da seção\na = é o ponto da curva correspondente à resistência convencional à ruptura\nb = é o ponto da curva correspondente à resistência aparente à ruptura\nc = é o ponto da curva correspondente à resistência real à ruptura",
+    "nota": "legenda da Figura 1: letras a, b, c perdidas"
+  },
+  "x03": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "curva ! x !",
+    "para": "curva σ x ε",
+    "nota": "no PDF os símbolos da fonte MSOutlook saem como caixas/'!': lidos pelo contexto (σ x ε, φ, ±, ≥) conforme a NBR 7480/85"
+  },
+  "x04": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "Diâmetro ( ! )",
+    "para": "Diâmetro ( φ )",
+    "nota": "no PDF os símbolos da fonte MSOutlook saem como caixas/'!': lidos pelo contexto (σ x ε, φ, ±, ≥) conforme a NBR 7480/85"
+  },
+  "x05": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "7,85kg/dm 3 .",
+    "para": "7,85kg/dm³."
+  },
+  "x06": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "0,1 kgf/mm 2 .",
+    "para": "0,1 kgf/mm²."
+  },
+  "x07": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "de ! 6%",
+    "para": "de ± 6%",
+    "nota": "no PDF os símbolos da fonte MSOutlook saem como caixas/'!': lidos pelo contexto (σ x ε, φ, ±, ≥) conforme a NBR 7480/85"
+  },
+  "x08": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "de ! 10%",
+    "para": "de ± 10%",
+    "nota": "no PDF os símbolos da fonte MSOutlook saem como caixas/'!': lidos pelo contexto (σ x ε, φ, ±, ≥) conforme a NBR 7480/85"
+  },
+  "x09": {
+    "texto": true,
+    "de_inicio": "respectivamente, nas seguintes categorias:\n\nNotas 2:",
+    "de_fim": "Notas 2:",
+    "para": "respectivamente, nas seguintes categorias:\n\nCA-25;CA-32;CA-40;CA-50 E CA-60\n\nNotas 2:",
+    "nota": "linha de 4.1.1 tinha sido tirada pela tabela automática tab03 (posta no lugar errado)"
+  },
+  "x10": {
+    "texto": true,
+    "de_inicio": "introdução nesta\n\nNorma;",
+    "de_fim": "Norma;",
+    "para": "introdução nesta Norma;"
+  },
+  "x11": {
+    "texto": true,
+    "de_inicio": "Ensaio de tração ( A ) Ensaio de dobra-Aderência Distintivo da",
+    "de_fim": "(D) f st mínimo de 660 MPa.",
+    "para": "(A) Segundo a NBR 6152, as notações são: $\\sigma_s = f_{yk}$ $\\sigma_t = f_{st}$\n(B) φ é o diâmetro definido em 3.10.\n(C) As barras de diâmetro φ ≥ 32 mm das categorias CA-40 e CA-50 serão dobradas sobre 3 pinos de φ 8 (em mm).\n(D) $f_{st}$ mínimo de 660 MPa.",
+    "nota": "cabeçalho achatado da Tabela 3 (vai em tabm03) + notas (A)-(D); no PDF os símbolos da fonte MSOutlook saem como caixas/'!': lidos pelo contexto (σ x ε, φ, ±, ≥) conforme a NBR 7480/85"
+  },
+  "x12": {
+    "texto": true,
+    "de_inicio": "1 3 2 1 2 2 houve um lote rejeitado 3 3 3 1 3 2 houve mais de um lote 3 3 rejeitado 3 Nota 6:",
+    "de_fim": "Nota 6:",
+    "para": "Nota 6:",
+    "nota": "texto achatado da Tabela 4 (tabm04)"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "fig01": {
+    "page": 6,
+    "bbox": [
+      164.3,
+      165.0,
+      445.1,
+      690.1
+    ],
+    "legenda": "",
+    "clip": [
+      140,
+      150,
+      462,
+      702
+    ],
+    "nota": "recorte automático cortava a borda esquerda do gráfico do Anexo A"
+  },
+  "fig02": {
+    "page": 8,
+    "bbox": [
+      57.2,
+      104.5,
+      553.7,
+      743.3
+    ],
+    "legenda": ""
+  },
+  "fig03": {
+    "page": 18,
+    "bbox": [
+      57.2,
+      104.5,
+      553.9,
+      626.0
+    ],
+    "legenda": ""
+  },
+  "fig04": {
+    "page": 21,
+    "bbox": [
+      57.2,
+      104.5,
+      554.1,
+      648.4
+    ],
+    "legenda": ""
+  }
+}

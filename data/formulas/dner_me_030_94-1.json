@@ -1,0 +1,104 @@
+{
+  "eq01": {
+    "page": 4,
+    "clip": [
+      60,
+      508,
+      252,
+      560
+    ],
+    "latex": [
+      "f = \\frac{\\text{peso da amostra seca ao ar}}{\\text{peso da amostra seca em estufa}}"
+    ],
+    "de_inicio": "**5.1** Determinação do fator de correção (f) para 100 ºC a 105 €",
+    "de_fim": "peso da amostra seca ao ar peso da amostra seca em estufa",
+    "para": "**5.1** Determinação do fator de correção (f) para 100 ºC a 105 ºC\n\nPesar exatamente quantidade próxima de 10 gramas de amostra seca ao ar, em pesa-filtro tarado, de forma baixa. Deixar durante a noite em estufa de 100 ºC a 105 ºC, resfriar em dessecador e pesar a amostra seca em estufa.\n\n$$\nf = \\frac{\\text{peso da amostra seca ao ar}}{\\text{peso da amostra seca em estufa}}\n$$"
+  },
+  "eq02": {
+    "page": 5,
+    "clip": [
+      60,
+      226,
+      180,
+      249
+    ],
+    "latex": [
+      "\\%\\ \\text{SiO}_2 = 200 \\times p \\times f"
+    ],
+    "de_inicio": "% SiO, = 200 xp xf onde:",
+    "de_fim": "f = fator de correção para 100 ºC a 105 “C.",
+    "para": "$$\n\\%\\ \\text{SiO}_2 = 200 \\times p \\times f\n$$\n\nonde:\n\n$p$ = peso do resíduo calcinado;\n$f$ = fator de correção para 100 ºC a 105 ºC."
+  },
+  "eq03": {
+    "page": 5,
+    "clip": [
+      60,
+      522,
+      192,
+      545
+    ],
+    "latex": [
+      "\\%\\ \\text{Al}_2\\text{O}_3 = 2{,}55\\,(t_1 - t_2)\\,f"
+    ],
+    "de_inicio": "% ALO, = 2,55 (t, - t)f onde:",
+    "de_fim": "t, =ml de solução de ZnSO, 0,05 M;\n\nf = fator de correção para 100 ºC a 105 ºC.",
+    "para": "$$\n\\%\\ \\text{Al}_2\\text{O}_3 = 2{,}55\\,(t_1 - t_2)\\,f\n$$\n\nonde:\n\n$t_1$ = ml de solução de EDTA 0,05 M;\n$t_2$ = ml de solução de ZnSO₄ 0,05 M;\n$f$ = fator de correção para 100 ºC a 105 ºC."
+  },
+  "eq04": {
+    "page": 6,
+    "clip": [
+      62,
+      88,
+      148,
+      109
+    ],
+    "latex": [
+      "\\%\\,\\text{Fe}_2\\text{O}_3 = n \\times f"
+    ],
+    "de_inicio": "Y%Fe,O, =n x f onde:",
+    "de_fim": "n= ml de dicromato de potássio 0,050 1 N;\n\nf = fator de correção para 100 ºC a 105 ºC.",
+    "para": "$$\n\\%\\,\\text{Fe}_2\\text{O}_3 = n \\times f\n$$\n\nonde:\n\n$n$ = ml de dicromato de potássio 0,050 1 N;\n$f$ = fator de correção para 100 ºC a 105 ºC."
+  },
+  "eq05": {
+    "page": 6,
+    "clip": [
+      62,
+      266,
+      182,
+      312
+    ],
+    "latex": [
+      "K_i = \\frac{\\%\\ \\text{SiO}_2 \\div 60}{\\%\\ \\text{Al}_2\\text{O}_3 \\div 102}",
+      "K_i = \\frac{\\%\\ \\text{SiO}_2}{\\%\\ \\text{Al}_2\\text{O}_3} \\times 1{,}7",
+      "K_r = \\frac{\\%\\ \\text{SiO}_2 \\div 60}{\\%\\ \\text{Al}_2\\text{O}_3 \\div 102 + \\%\\,\\text{Fe}_2\\text{O}_3 \\div 160}"
+    ],
+    "de_inicio": "**6.1** Relação molecular entre sílica e alumina (K.)",
+    "de_fim": "% ALO, + 102 + %Fe,O, + 160\n\nDNER-ME 030/%4,",
+    "para": "**6.1** Relação molecular entre sílica e alumina ($K_i$)\n\n$$\nK_i = \\frac{\\%\\ \\text{SiO}_2 \\div 60}{\\%\\ \\text{Al}_2\\text{O}_3 \\div 102}\n$$\n\nou\n\n$$\nK_i = \\frac{\\%\\ \\text{SiO}_2}{\\%\\ \\text{Al}_2\\text{O}_3} \\times 1{,}7\n$$\n\n**6.2** Relação molecular entre sílica, sesquióxidos de ferro e alumínio ($K_r$)\n\n$$\nK_r = \\frac{\\%\\ \\text{SiO}_2 \\div 60}{\\%\\ \\text{Al}_2\\text{O}_3 \\div 102 + \\%\\,\\text{Fe}_2\\text{O}_3 \\div 160}\n$$",
+    "nota": "título do 6.1 no PDF mostra K com índice parecido com 1; nas fórmulas é Ki"
+  },
+  "eq06": {
+    "page": 6,
+    "clip": [
+      62,
+      338,
+      185,
+      384
+    ],
+    "latex": [
+      "K_i = \\frac{\\%\\ \\text{SiO}_2}{\\%\\ \\text{Al}_2\\text{O}_3} \\times 1{,}7"
+    ]
+  },
+  "eq07": {
+    "page": 6,
+    "clip": [
+      62,
+      430,
+      262,
+      480
+    ],
+    "latex": [
+      "K_r = \\frac{\\%\\ \\text{SiO}_2 \\div 60}{\\%\\ \\text{Al}_2\\text{O}_3 \\div 102 + \\%\\,\\text{Fe}_2\\text{O}_3 \\div 160}"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `- ução perm Reprod e)`\n\nitida desde que citado o DNER como fonte coleta em poços - À coleta",
+    "de_fim": "coleta em poços - À coleta",
+    "para": "e) coleta em poços - A coleta",
+    "nota": "aviso falso: tarja lateral 'Reprodução permitida...' misturada com o início da alínea e) (p. 3)"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "**5.2** Procedimento a) cada amostra",
+    "de_fim": "a) cada amostra",
+    "para": "**5.2** Procedimento\n\na) cada amostra",
+    "nota": "título 5.2 grudado na alínea a)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "1 000 cm? de",
+    "para": "1 000 cm³ de",
+    "nota": "4 a): cm³"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "1 000 cm”,",
+    "para": "1 000 cm³,",
+    "nota": "5.2 a): cm³"
+  }
+}

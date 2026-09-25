@@ -1,0 +1,23 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      52.6,
+      55.0,
+      576.2,
+      800.2
+    ],
+    "legenda": "",
+    "ancora": "A absorção de água pelo concreto deverá ser, no máximo, de 7%.",
+    "ignorar": true,
+    "nota": "é a página 4 inteira (texto + tabela): tabela refeita em tabm01",
+    "texto_removido": [
+      "Dimensões Resistência à flexão - Limite mínimo",
+      "Tipo (cm) (N)",
+      "Comprimento | Lado Engastado Apoiado 1º Fissura Ruptura 1º Fissura Ruptura",
+      "Suporte 210 11 200 300 540 810",
+      "Esticador 220 15 500 700 1350 1890",
+      "Escora 210 1 200 300 540 810"
+    ]
+  }
+}

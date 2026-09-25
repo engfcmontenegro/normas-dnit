@@ -1,0 +1,64 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "recehimento de recinientes fechadas contendo tinta nara demarcação",
+    "de_fim": "tinta nara demarcação",
+    "para": "recebimento de recipientes fechados contendo tinta para demarcação",
+    "nota": "1.1 (p. 1)"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "## 1 a\n\nmex tem me desiniiça",
+    "de_fim": "Páia ÚUILa vação vímira.",
+    "para": "DNER-PRO 231/89, designada Inspeção visual de recipientes com tinta para demarcação viária.",
+    "nota": "2.1: linha ilegível no OCR (p. 2)"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "Rprodução permitida desde que citado o DNER como fonte\n\n",
+    "de_fim": "como fonte\n\n",
+    "para": "",
+    "nota": "tarja lateral"
+  },
+  "x04": {
+    "texto": true,
+    "de_inicio": " Nota 1: Quando o tamanho",
+    "de_fim": " Nota 1: Quando o tamanho",
+    "para": "\n\nNota 1: Quando o tamanho",
+    "nota": "separa a Nota 1 do resto da Tabela 1"
+  },
+  "x05": {
+    "texto": true,
+    "de_inicio": "(coluna 7 da Tabela 1), o lote deve ser rejeitado.",
+    "de_fim": "Os lotes rejeitados",
+    "para": "(coluna 7 da Tabela 1), o lote deve ser rejeitado.\n\n**4.4** Reinspeção\n\nOs lotes rejeitados",
+    "nota": "título 4.4 perdido (p. 4); o embed fig01 (falsa figura) sai junto"
+  },
+  "x06": {
+    "texto": true,
+    "de_inicio": "Jeprodução permitida desde que citado o DNER como fonte p. 05/05\n\n",
+    "de_fim": "p. 05/05\n\n",
+    "para": "",
+    "nota": "tarja lateral + cabeçalho"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "4.2€ 4.3",
+    "para": "4.2 e 4.3"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "(1º)",
+    "para": "(1ª)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "(2º)",
+    "para": "(2ª)"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "(2”)",
+    "para": "(2ª)"
+  }
+}

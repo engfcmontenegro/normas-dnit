@@ -1,0 +1,54 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 14,
+    "clip": [
+      80,
+      110,
+      572,
+      762
+    ],
+    "md": "| Unidade homogênea | Modelado | Solos, materiais e hidrologia | Cobertura vegetal |\n| --- | --- | --- | --- |\n| 1 | Superfície de crostas lateríticas: Superfície horizontal ou de suaves mergulhos. Ocorrências variam em tamanho de 100 m² a 2 km². Ocorre em interflúvios planos e em superfícies de mesetas isoladas | Crostas lateríticas de até 15 cm de espessura capeando arenitos, cuja parte superior é frequentemente muito ferruginosa. O material aflorante se constitui de crostas descobertas e solos rasos pedregosos. Onde as crostas foram removidas solos pedregosos recobrem o arenito | Cerrado grosso misto, quando a espessura de solo é suficiente |\n| 2 | Vertentes escarpadas: Topografia de encostas acidentadas, geralmente mais ingremes na parte superior das vertentes logo abaixo dos limites da unidade 1. Taludes côncavos na parte inferior com micro relevo acidentados. Fendas rochosas ingremes, esporões e ravinas entalhados profundamente, são comuns | Crostas lateríticas e rochas areníticas em formato de talús e solos pedregosos rasos sujeito a erosão pelas águas superficiais que descem as encostas | Cerrado, quando a espessura de solo é suficiente |\n| 3 | Superfície arenítica: Superfície horizontal até moderadamente inclinada, correspondente aos terraços formados pela dissecação do arenito de estratificação horizontal | Rocha e solos pedregosos rasos | Como acima |\n| 4 | Terraços de arenito ferruginoso: Como a unidade acima, mas mais persistente e desenvolvida marcada pela presença de um horizonte de arenito ferruginoso com 0,8 m de espessura entre as unidades 1 e 5 | Rocha e solos pedregosos rasos. O arenito ferruginoso endurecido protege o arenito inferior mais friável e forma um banco proveniente frequentemente de rocha viva, mas às vezes cobertos de cascalhos e pedregulhos |  |\n| 5 | Fundo do vale: Horizontal mas com transição suavemente acidentada com a unidade. Varia em largura desde 20 m até 1000 m. O comportamento pode ser maior que 15 km | Os solos são moderadamente espessos, constituídos por depósitos aluviais e coluviais cinza claro a marrom avermelhado. Permeáveis e sem linhas de drenagem bem definidas. O entalhamento ativo das ravinas está paralizado | Campos nativos (savanas) intensamente aproveitados |",
+    "de_inicio": "—eeeeesemeeo /Anexo",
+    "nota": "Tabela 1 (p. 14) sem fios, texto achatado; posta pelo t07 de data/formulas"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 15,
+    "clip": [
+      78,
+      60,
+      562,
+      836
+    ],
+    "md": "| Unidades homogêneas | Material dominante | Profundidade espessura | Drenagem interna | Class SUCS | LL (%) | IP (%) | Dmax PM (t/m³) | HOT (%) | CBR P.N. (%) | Pedregulho Gros | Pedregulho Med | Pedregulho Fina | Areia Gros | Areia Med | Areia Fina | Silte Argila |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1. Crostas lateríticas com pedregulho residual | Rocha ferrífera com pedregulho bem graduado | Variável 1,5 m - 4,5 m | Geralmente bem drenado local e intermitente devido às crostas lateríticas | GW | N | P | 2,21 | 10 | 36 | 5 | 20 | 35 | 10 | 10 | 8 | 12 |\n| 2. Vertentes escarpadas | Amplo espectro de materiais de construção (arenitos, detríticos mal selecionados) bolsões de material fino |  | Bem drenado, mas altamente suscetível à erosão | GP<br>GW | N<br>39 | P<br>17 |  |  |  | 42 | 35<br>2 | 7<br>7 | 3<br>8 | 7<br>11 | 4<br>15 | 2<br>57 |\n| 3. Superfície arenítica | areia, silte, rocha arenítica | Variável 0,2 m - 1,0 m | Geralmente bem drenado ocasionais lençóis suspensos na presença de lentes argilosas | SM | N | P | 1,95 | 9 | 37 |  |  | 2 | 11 | 12 | 17 | 58 |\n| 4. Terraços | Rocha cimentada |  |  | Rock |  |  |  |  |  |  |  |  |  |  |  |  |\n| 5. Fundo de Vale | Areias siltosas e areias argilosas com alguns fragmentos de arenitos pobremente graduada |  | Bem drenada, mas com consideráveis extensões de nascentes lavadas nas vizinhanças das escarpas | SM/SC<br>SP | N<br>23-26<br>N | P<br>6-11<br>P |  |  |  |  |  | 5 | 23<br>15 | 32<br>45 | 15<br>32 | 25<br>8 |",
+    "de_inicio": "—eeeeesemeeo /Anexo",
+    "nota": "Tabela 2 (p. 15, girada); era a figura fig01; posta pelo t07 de data/formulas"
+  },
+  "tabm03": {
+    "manual": true,
+    "page": 16,
+    "clip": [
+      78,
+      58,
+      564,
+      806
+    ],
+    "md": "| Nº | Unidade homogênea - Denominação | Abastecimento de água | Areia para concreto | Agregado para concreto | Formas de madeira | Pavimentação: Sub-base | Pavimentação: Base | Pavimentação: Revestimentos |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1. | Crostas lateríticas com cascalhos lateríticos residuais | Suprimento muito fraco de poços rasos na estação seca, contaminado por fluxos superficiais na estação de chuvas |  | Crostas endurecidas após a britagem e peneiramento |  | Apto, mas anti-econômico<br>Apto, suprimento abundante | Apto como crosta requer “rippagem” e britagem<br>Apto mas requer estabilização com cal ou cimento | Apto após a britagem e peneiramento<br>Apto após peneiramento |\n| 2. | Vertentes escarpadas |  |  | arenitos meio-duros aptos para britagem |  | Cascalhos aptos mas a rocha é antieconômica | Rocha apta após britagem, mas cascalhos só com cal ou cimento | Apto, após britagem e peneiramento do material |\n| 3. | Superfície arenítica | Poços profundos em geral<br>Ocasionais cacimbas sobre lençóis suspensos |  |  |  | apto |  |  |\n| 4. | Terraços de arenito ferruginoso |  |  | Rocha cimentada apta à britagem |  | apto | Apto, após britagem | Apto após a britagem e peneiramento |\n| 5. | Fundo de Vale | Abastecimento perene de água potável em poços profundos. Possível contaminação superficial na estação úmida | Suprimento limitado em bolsões locais depositados por enxurradas |  | Ramagem arbustiva. Apta para carvão, não para construção |  |  |  |",
+    "de_inicio": "—eeeeesemeeo /Anexo",
+    "nota": "Tabela 3 (p. 16, girada); era a figura fig02; posta pelo t07 de data/formulas"
+  },
+  "tabm04": {
+    "manual": true,
+    "page": 17,
+    "clip": [
+      100,
+      76,
+      576,
+      810
+    ],
+    "md": "| Nº | Unidade homogênea - Denominação | Avaliação | Feições características |\n| --- | --- | --- | --- |\n| 1. | Crosta laterítica com cascalhos lateríticos residuais | Inapta devido à situação isolada da unidade. Quando este tipo de unidade tem continuidade em outros domínios geomórficos então é bastante apta para implantação viária | Plana a suavemente ondulada<br>Suprimento abundante de cascalho<br>Geralmente bem drenada |\n| 2. | Vertentes escarpadas | Geralmente inapta devido ao escarpamento íngreme | Despenhadeiros, com desmoronamentos e erosão |\n| 3. | Superfície arenítica | Apta quando desenvolve-se por grandes extensões | Solos arenosos e bem drenados com poucos cursos d'água bem definidos |\n| 4. | Terraços de arenito ferruginoso | Inapta por causa da situação isolada da unidade | Situação isolada e acesso difícil devido à altitude, mergulho da camada é favorável |\n| 5. | Fundo de Vale | Apta | Solos usualmente profundos e bem drenados. Não há rampas excessivas. Localmente o escoamento superficial da unidade 2 provoca problemas de erosão e podem ser necessárias obras de controle (valas, bueiros) |",
+    "de_inicio": "—eeeeesemeeo /Anexo",
+    "nota": "Tabela 4 (p. 17, girada); era a figura fig03; posta pelo t07 de data/formulas"
+  }
+}

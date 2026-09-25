@@ -1,0 +1,59 @@
+{
+  "fig01": {
+    "page": 10,
+    "bbox": [
+      107.5,
+      90.0,
+      544.0,
+      765.0
+    ],
+    "legenda": "",
+    "ancora": "e resistência à compressão simples, para a mistura ensaiada (A.1). .",
+    "texto_removido": [
+      "## 2 - RESILIÊNCIA",
+      "## COMPRESSÃO",
+      "## SIMPLES",
+      "(Res)",
+      "UMIDADE MASSA ESPECIFICA Res 7 | Res I4 Res 28",
+      "## APARENTE SECA",
+      "## UMIDADE",
+      "## ÓTIMA",
+      "Res7 Resl4 Res 28 (4%) SD (MPa) (MPa) (MPa) (9g/cm 5,80 2,153 4,10 6,21 9,30",
+      "## COMPRESSÃO",
+      "## 4 s",
+      "O",
+      "COMPRESSÃO SIMPLES"
+    ]
+  },
+  "fig02": {
+    "page": 11,
+    "bbox": [
+      135.3,
+      55.0,
+      552.7,
+      744.5
+    ],
+    "legenda": "",
+    "ancora": "e resistência à compressão simples, para a mistura ensaiada (A.1). .",
+    "texto_removido": [
+      "## MASSA ESPECÍFICA",
+      "SIMPLES(Rçç, MP) A RESISTÊNCIA (g/cm?) MASSA ESPECIFICA APARENTE SECA",
+      "2A7o 2,180",
+      "2,180",
+      "2,140",
+      "2,130",
+      "2,120",
+      "2o 2,100",
+      "2090 2,080",
+      "2,070",
+      "2,060",
+      "## 7 dios",
+      "I4 dias",
+      "## 28 dias",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `pr Ls 5 6 7 8`",
+      "DE UMIDADE (%) od",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Lo Lo Lo É 5 6 7 8`",
+      "DE UMIDADE (%)"
+    ]
+  }
+}

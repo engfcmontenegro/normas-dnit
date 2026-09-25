@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      75,
+      255,
+      535,
+      552
+    ],
+    "md": "| diâmetro máximo nominal do agregado passando na peneira | peso mínimo da amostra de mistura não compactada | área mínima da amostra de mistura compactada |\n| --- | --- | --- |\n| mm | kg | cm² |\n| 2,4 | 1,8 | 230 |\n| 4,8 | 1,8 | 230 |\n| 9,5 | 3,6 | 230 |\n| 12,5 | 5,4 | 410 |\n| 19,5 | 7,3 | 650 |\n| 25,4 | 8,1 | 930 |\n| 38,1 | 11,3 | 930 |\n| 50,8 | 15,9 | 1450 |",
+    "de_inicio": "![[dner-pro-013-94-1_fig01.png]]",
+    "nota": "Tabela de 4.3 (p. 3), sem fios verticais: tinha virado a figura fig01"
+  }
+}

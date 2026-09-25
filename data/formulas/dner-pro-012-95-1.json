@@ -1,0 +1,159 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `mo PETI a “ asma vw`",
+    "de_fim": "sulte o original\n> `mo PETI a “ asma vw`",
+    "para": "## 1 OBJETIVO",
+    "nota": "aviso falso: título '1 OBJETIVO' (p. 2) ilegível"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "c) na seleção da diretriz mais econômica;\n\n## 2 Sa\n\naf.\n\n3) no cstudo",
+    "de_fim": "UU platalUrina OTONAL.",
+    "para": "c) na seleção da diretriz mais econômica;\n\nd) no estudo de materiais de construção, mais adequados ao projeto geotécnico adotado e que provoquem o menor impacto no meio ambiente;\n\ne) na identificação de áreas de potencial risco geotécnico.\n\n**3.4** Imagem orbital\n\nImagem obtida por sensor remoto instalado em satélite artificial orbital, ou plataforma orbital.",
+    "nota": "3.3 d) e 3.4 (p. 5): faixas da imagem ilegíveis no OCR"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `AR Dacnlhanãa mew yr`\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `tantes NA a aaa mm A St al SU p.U6/Z9`",
+    "de_fim": "p.U6/Z9`",
+    "para": "**4.3** Resolução",
+    "nota": "avisos falsos: título '4.3 Resolução' (p. 5) e cabeçalho de página"
+  },
+  "x04": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `+ vb A bneda da CDAT am do & dma da balnc Ato non 4 80 o`\n",
+    "de_fim": "non 4 80 o`\n",
+    "para": "",
+    "nota": "aviso falso: faixa de texto de 4.10.2 (p. 9), refeita em x05"
+  },
+  "x05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "recursos tormestros. À voras GS 51 Vi, Edo operando instrumentos Ge teremetria S gravação, 6 QUIS SGUSVITS UU alta resolução HRV.",
+    "para": "recursos terrestres. A bordo do SPOT, estão operando instrumentos de telemetria e gravação, e dois sensores de alta resolução HRV."
+  },
+  "x06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Sua faixa de cobertura é de 185\n\n## 5 km, e atua em sete\n\ncanais espectrais:",
+    "para": "Sua faixa de cobertura é de 185 km, e atua em sete canais espectrais:"
+  },
+  "x07": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "## S CONDIÇÕES GERAIS",
+    "para": "## 5 CONDIÇÕES GERAIS"
+  },
+  "x08": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "de fotografias aéreas com escala variando entre 1:10 000 <S E < 1:5 000.",
+    "para": "de fotografias aéreas com escala variando entre 1:10 000 ≤ E ≤ 1:5 000."
+  },
+  "x09": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "mediante utilização de fotos com 1:60 000 < E < 1:20 000.",
+    "para": "mediante utilização de fotos com 1:60 000 ≤ E ≤ 1:20 000."
+  },
+  "x10": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "escalas variando entre 1:25 000 S Es 1:10 000.",
+    "para": "escalas variando entre 1:25 000 ≤ E ≤ 1:10 000."
+  },
+  "x11": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a) escala adequada aos propósitos (E < 1:250 000);",
+    "para": "a) escala adequada aos propósitos (E ≤ 1:250 000);"
+  },
+  "x12": {
+    "texto": true,
+    "de_inicio": "**6.5** Fase de projeto de engenharia mm Em mm não\n\n- do Nora faco",
+    "de_fim": "vas ur Vvpcaçau",
+    "para": "**6.5** Fase de projeto de engenharia\n\nNesta fase são detalhados os estudos e recomendações constantes do anteprojeto, conforme o Manual de Serviços de Consultoria para Estudos e Projetos Rodoviários, (EB - 01 e EB - 02 do DNER).\n\nPode-se utilizar produtos de sensoriamento remoto que têm alto poder de resolução, tanto espacial (tamanho do objeto imageado) quanto espectral (diferentes bandas espectrais), isto é, identificação de objetos de até 3,0m em mais de um canal e fotografias aéreas com escala menores que 1:5 000.\n\n**6.6** Fase de operação",
+    "nota": "aviso falso: título '6.6 Fase de operação' (p. 12)"
+  },
+  "x13": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "## 7 METODOLOGIA DA FOTOINTERPRETAÇÃO DOS PRODUTOS DE SENSORIAMENTO\n\n## KEMU TU",
+    "para": "## 7 METODOLOGIA DA FOTOINTERPRETAÇÃO DOS PRODUTOS DE SENSORIAMENTO REMOTO"
+  },
+  "x14": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "multiespectral do satélite\n\n## LANDSAT\n\n5, é recomendado na interpretação, e estudos da imagem na fase de Plano Diretor e...\n\n## 0 é\n\nRodoviário, e estudos ambientais iniciais, pelos motivos abaixo relacionados:",
+    "para": "multiespectral do satélite LANDSAT 5, é recomendado na interpretação, e estudos da imagem na fase de Plano Diretor Rodoviário, e estudos ambientais iniciais, pelos motivos abaixo relacionados:"
+  },
+  "x15": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "h) nosicionamento seográfico das imagens",
+    "para": "b) posicionamento geográfico das imagens"
+  },
+  "x16": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Sua resolução é de 120 m.\n\nR aprodução permitida desde que citado o DNER como fonte\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `— 4 Atam Pesitimr f)`\n\npossibilidade de estereoscopia",
+    "para": "Sua resolução é de 120 m.\n\nf) possibilidade de estereoscopia"
+  },
+  "x17": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Reprodução permitida desde que citado o [/INER como fonte am tam a\n\n## 4 paoas\n\n",
+    "para": ""
+  },
+  "x18": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "e) 45º- 75º;\n\n## 1 f)\n\n> 75º (subvertical e vertical);",
+    "para": "e) 45º - 75º;\n\nf) > 75º (subvertical e vertical);"
+  },
+  "x19": {
+    "texto": true,
+    "de_inicio": "**9.3** Interpretação litológica Refere-se",
+    "de_fim": "— toOlan pras",
+    "para": "**9.3** Interpretação litológica\n\nRefere-se ao reconhecimento dos tipos de rochas baseado, apenas, nos dados fotogeológicos, produto da combinação da análise geomorfológica e estrutural [...] recomenda a seguinte rotina:",
+    "nota": "aviso falso; fim de 9.3 (p. 17) está rasgado no próprio PDF: '[...]' = trecho ilegível"
+  },
+  "x20": {
+    "texto": true,
+    "de_inicio": "## 4 Er AnDAanAsninna nana\n\nsa ICO LA MIL RIPI EN/AN ZA PU LDVIADAA LULAS",
+    "de_fim": "LDVIADAA LULAS",
+    "para": "## 11 ELABORAÇÃO DO MAPA GEOLÓGICO"
+  },
+  "x21": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\nReprodução permitida desde que citado o EL NER como fonte psálras\n\n",
+    "para": "\n\n"
+  },
+  "x22": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Enschede, Holanda, 1973,\n\nReprodução permitida jesde que citado o LNER como fonte o am\n\n## 6 Pvvias\n\nn) Petri",
+    "para": "Enschede, Holanda, 1973;\n\nn) Petri"
+  },
+  "x23": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "s) PVE? A.D. - Drainage alas in geologic interpretation - Summation Amer. Assoc. Petr. Geol.\n\n(81111\n\n## 1067 t)\n\nOliveira, C",
+    "para": "s) Howard, A.D. - Drainage analysis in geologic interpretation - Summation Amer. Assoc. Petr. Geol. (51) 11, 1967;\n\nt) Oliveira, C"
+  },
+  "x24": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**3.1.1** Formato das fotografias aéreas 1, constante do Anexo.",
+    "para": "**3.1.1** Formato das fotografias aéreas\n\nConforme o esquema da Figura 1, constante do Anexo."
+  },
+  "x25": {
+    "texto": true,
+    "de_inicio": "ANEXO NORMATIVO A - FIGURAS\n\n## 0 CENTRO DE PERSPECTIVA",
+    "de_fim": "![[dner-pro-012-95-1_fig07.png]]",
+    "para": "## ANEXO NORMATIVO A - FIGURAS\n\n![[dner-pro-012-95-1_fig01.png]]\n\n![[dner-pro-012-95-1_fig02.png]]\n\n![[dner-pro-012-95-1_fig03.png]]\n\n## ANEXO NORMATIVO B - TABELA - SIMBOLOGIAS DE ESTRUTURAS\n\nPara as fases de Plano Diretor e de Viabilidade devem ser utilizadas as seguintes simbologias:\n\n![[dner-pro-012-95-1_fig04.png]]\n\n![[dner-pro-012-95-1_fig05.png]]\n\nPara as fases de anteprojeto e projeto executivo deverão ser adotadas as seguintes simbologias:\n\n![[dner-pro-012-95-1_fig06.png]]\n\n![[dner-pro-012-95-1_fig07.png]]",
+    "nota": "anexos: rótulos das figuras e avisos falsos removidos (as figuras e as tabelas de simbologia ficam como imagem: símbolos desenhados)"
+  }
+}

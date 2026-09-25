@@ -1,0 +1,31 @@
+{
+  "eq01": {
+    "page": 2,
+    "clip": [
+      86,
+      722,
+      195,
+      764
+    ],
+    "latex": [
+      "A = \\frac{m_u - m_s}{m_s} \\times 100"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `A m m m x 100 u s s = −`",
+    "de_fim": "> `A m m m x 100 u s s = −`",
+    "para": "$$\nA = \\frac{m_u - m_s}{m_s} \\times 100\n$$"
+  },
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "massa seca constante (m s ), em gramas.",
+    "para": "massa seca constante ($m_s$), em gramas.",
+    "nota": "4.2: índice perdido"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "corpo-de-prova úmido m u , em gramas.",
+    "para": "corpo-de-prova úmido $m_u$, em gramas.",
+    "nota": "4.4: índice perdido"
+  }
+}

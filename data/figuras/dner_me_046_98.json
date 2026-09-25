@@ -1,0 +1,119 @@
+{
+  "fig01": {
+    "page": 3,
+    "bbox": [
+      99.0,
+      165.4,
+      722.0,
+      574.2
+    ],
+    "legenda": "",
+    "ancora": "4.1.2 Equipamentos de adensamento",
+    "texto_removido": [
+      "± 1,0",
+      "1,0",
+      "± 1,5",
+      "- Desvio máximo da placa de base do molde em relação a um plano",
+      "- Desvio máximo de qualquer geratriz em relação a um plano 0,05",
+      "0,03",
+      "0,05",
+      "0,3",
+      "Tolerâncias",
+      "Base 4,5",
+      "- Dimensões nominais (diâmetro e altura)",
+      "- Diferença máxima entre as dimensões de dois diâmetros ortogonais, um deles passando pela geratriz cortada do molde"
+    ]
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      113.0,
+      72.0,
+      490.0,
+      776.0
+    ],
+    "legenda": "",
+    "ancora": "4.1.2 Equipamentos de adensamento"
+  },
+  "fig03": {
+    "page": 5,
+    "bbox": [
+      135.0,
+      76.0,
+      558.0,
+      667.0
+    ],
+    "legenda": "",
+    "ancora": "4.1.2 Equipamentos de adensamento"
+  },
+  "fig04": {
+    "page": 6,
+    "bbox": [
+      271.0,
+      269.0,
+      355.0,
+      583.0
+    ],
+    "legenda": "",
+    "ancora": "4.1.2.2.1 Deve ter freqüência de, no mínimo, 7200 vibrações/min."
+  },
+  "fig05": {
+    "page": 7,
+    "bbox": [
+      190.0,
+      283.0,
+      433.0,
+      748.0
+    ],
+    "legenda": "",
+    "ancora": "Dispositivo de aço ou outro material rígido e não corrosível, que deve ser acopl"
+  },
+  "fig06": {
+    "page": 9,
+    "bbox": [
+      63.0,
+      98.0,
+      559.0,
+      485.0
+    ],
+    "legenda": "",
+    "ancora": "A altura das camadas não deve exceder 100 mm, quando o adensamento for manual, e",
+    "texto_removido": [
+      "## 75 Vibratório (penetração",
+      "da agulha até 200 mm)",
+      "100 150",
+      "250 450",
+      "1 2",
+      "3 5",
+      "Manual 150 250",
+      "2 3",
+      "17 golpes a cada 10000 mm 2 de área",
+      "Vibratório 150 250",
+      "450 1",
+      "2 3",
+      "Cilíndrico",
+      "Prismático",
+      "Tipo de molde Tipo de adensamento Dimensão básica d (mm) Número de camadas Número de golpes por camada",
+      "Manual 100 150",
+      "250 2",
+      "4 5",
+      "15 30"
+    ]
+  },
+  "fig07": {
+    "page": 10,
+    "bbox": [
+      106.0,
+      98.0,
+      474.0,
+      235.0
+    ],
+    "legenda": "",
+    "ancora": "Após a moldagem, os corpos-de-prova devem ser imediatamente cobertos com materia",
+    "texto_removido": [
+      "Abatimento a (mm) Processo de adensamento a < 20",
+      "20 ≤ a < 60",
+      "60 ≤ a < 180 a > 180 vibratório manual ou vibratório manual manual"
+    ]
+  }
+}

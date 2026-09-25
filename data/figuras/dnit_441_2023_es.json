@@ -1,0 +1,32 @@
+{
+  "fig01": {
+    "page": 9,
+    "bbox": [
+      77.4,
+      86.9,
+      532.0,
+      236.2
+    ],
+    "legenda": "Figura B1 – Substituição parcial de solo mole por camada granular como fundação de aterro de rodovias"
+  },
+  "fig02": {
+    "page": 9,
+    "bbox": [
+      76.0,
+      286.4,
+      532.8,
+      414.1
+    ],
+    "legenda": "Figura B2 – Substituição parcial de solo mole por camada granular como fundação de aterro de rodovias"
+  },
+  "fig03": {
+    "page": 9,
+    "bbox": [
+      72.7,
+      464.3,
+      536.8,
+      633.3
+    ],
+    "legenda": "Figura B3 – Substituição de solo mole por camada granular como fundação de aterro de rodovias quando não for"
+  }
+}

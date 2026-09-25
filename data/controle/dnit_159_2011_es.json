@@ -1,0 +1,39 @@
+{
+  "es": "dnit-159-2011-es",
+  "servico": "Fresagem a frio de pavimentos asfálticos",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Antes da fresagem", "ensaio": "Marcação das áreas e parâmetros de corte",
+     "citado": null, "norma": null,
+     "frequencia": "Antes do início do serviço", "criterio": "Áreas delimitadas; profundidade de corte e rugosidade conforme projeto", "secao": "4 a / 5.3 a"},
+    {"etapa": "execucao", "grupo": "Equipamento", "ensaio": "Espaçamento dos dentes do cilindro fresador",
+     "citado": null, "norma": null,
+     "frequencia": "Antes do início do serviço", "criterio": "Padrão ≈ 15 mm; fina ≈ 8 mm; microfresagem 2 a 3 mm, conforme tipo de fresagem de projeto", "secao": "5.1 a"},
+    {"etapa": "execucao", "grupo": "Superfície fresada", "ensaio": "Textura",
+     "citado": null, "norma": null,
+     "frequencia": "Durante a execução", "criterio": "Textura rugosa e uniforme; sem falhas de corte por dentes defeituosos nem depressões", "secao": "7.1"},
+    {"etapa": "execucao", "grupo": "Superfície fresada", "ensaio": "Desníveis entre passadas",
+     "citado": null, "norma": null,
+     "frequencia": "Durante a execução", "criterio": "Ausência de desníveis entre passadas do equipamento", "secao": "7.1"},
+    {"etapa": "execucao", "grupo": "Superfície fresada", "ensaio": "Desempeno (declividade transversal)",
+     "citado": null, "norma": null,
+     "frequencia": "Durante a execução", "criterio": "Declividade transversal de projeto", "secao": "7.1"},
+    {"etapa": "execucao", "grupo": "Superfície fresada", "ensaio": "Tempo de exposição sem recobrimento",
+     "citado": null, "norma": null,
+     "frequencia": "Por área fresada", "criterio": "≤ 3 dias sem recobrimento", "condicao": "quando a fresagem for etapa preliminar de reciclagem", "secao": "4 c"},
+
+    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Profundidade / espessura de corte",
+     "citado": null, "norma": null,
+     "frequencia": "Média de ≥ 3 medidas a cada 100 m² fresados (régua ou trena nas bordas; topografia no centro)", "criterio": "Média ± 5 % da espessura de projeto (corte > 5 cm); ± 10 % (corte < 5 cm)", "secao": "7.2.1 / 7.3"},
+    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Declividade transversal",
+     "citado": null, "norma": null,
+     "frequencia": "Por área tratada", "criterio": "Pontos isolados podem diferir até 20 % da inclinação de projeto; sem depressões que acumulem água", "secao": "7.3"},
+    {"etapa": "produto", "grupo": "Condições de tráfego", "ensaio": "Segurança da pista fresada",
+     "citado": null, "norma": null,
+     "frequencia": "Antes da liberação ao tráfego", "criterio": "Pista livre de material solto, degraus, buracos e descolamento de placas; sinalização de degraus inevitáveis", "secao": "4 b, f / 7.2.2"}
+  ],
+  "notas": [
+    "Serviço sem ensaios de laboratório: o controle é visual e geométrico.",
+    "Material fresado depositado em local inadequado (reaproveitamento ou dano ambiental) torna o serviço não conforme até correção (CONAMA 307/2002).",
+    "Buracos ou desagregações remanescentes devem ser reparados conforme a ES específica, medidos à parte."
+  ]
+}

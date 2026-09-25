@@ -1,0 +1,32 @@
+{
+  "fig01": {
+    "page": 7,
+    "bbox": [
+      149.0,
+      55.0,
+      429.4,
+      326.7
+    ],
+    "legenda": "FIGURA | - DIMENSÕES",
+    "ancora": "FIGURA | - DIMENSÕES",
+    "texto_removido": [
+      "Ed",
+      "## 4 e",
+      "METÁLICO CILINDRICO"
+    ]
+  },
+  "fig02": {
+    "page": 7,
+    "bbox": [
+      177.6,
+      366.0,
+      524.6,
+      797.6
+    ],
+    "legenda": "FIGURA 2 - DIMENSOES DO",
+    "ancora": "FIGURA 2 - DIMENSOES DO",
+    "texto_removido": [
+      "DE MEDIDA : MILIMETRO (mm)"
+    ]
+  }
+}

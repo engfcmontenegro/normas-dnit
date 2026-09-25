@@ -1,0 +1,67 @@
+{
+  "eq01": {
+    "page": 2,
+    "bbox": [
+      339.6,
+      188.1,
+      365.4,
+      215.1
+    ],
+    "raw": "",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: travessão de lista (–)"
+  },
+  "eq02": {
+    "page": 2,
+    "bbox": [
+      362.1,
+      568.2,
+      386.3,
+      595.2
+    ],
+    "raw": "",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: travessão de lista (–)"
+  },
+  "eq03": {
+    "page": 4,
+    "bbox": [
+      339.6,
+      122.0,
+      365.4,
+      149.0
+    ],
+    "raw": "",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: travessão de lista (–)"
+  },
+  "eq04": {
+    "page": 4,
+    "bbox": [
+      339.6,
+      388.6,
+      365.4,
+      415.7
+    ],
+    "raw": "",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: travessão de lista (–)"
+  },
+  "eq05": {
+    "page": 5,
+    "bbox": [
+      80.9,
+      63.4,
+      106.8,
+      90.4
+    ],
+    "raw": "",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: travessão de lista (–)"
+  }
+}

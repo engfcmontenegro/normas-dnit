@@ -1,0 +1,18 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      66,
+      370,
+      160,
+      412
+    ],
+    "latex": [
+      "T = \\frac{M_r}{M_1} \\times 100"
+    ],
+    "de_inicio": "(Ver Anexo).\n\nM r – Massa do material retido",
+    "de_fim": "T – Perda ao choque (Treton), expresso em porcentagem.",
+    "para": "(Ver Anexo).\n\n$M_1$ - massa original da amostra, em g;\n$M_r$ - massa do material retido na peneira de 1,7 mm, em g;\n$T$ - perda ao choque (Treton), expresso em porcentagem.\n\n$$\nT = \\frac{M_r}{M_1} \\times 100\n$$",
+    "nota": "legenda vem antes da fórmula no PDF; linha M1 faltava no md"
+  }
+}

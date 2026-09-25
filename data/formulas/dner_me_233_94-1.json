@@ -1,0 +1,17 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      60,
+      543,
+      300,
+      588
+    ],
+    "latex": [
+      "\\%\\ \\text{PbCrO}_4 = \\frac{B \\times N \\times 0{,}1077 \\times 100}{A}"
+    ],
+    "de_inicio": "Bx Nx 0,1077 x 100 % PbCroO, = DD",
+    "de_fim": "N - normalidade da solução de Na SO,",
+    "para": "$$\n\\%\\ \\text{PbCrO}_4 = \\frac{B \\times N \\times 0{,}1077 \\times 100}{A}\n$$\n\nonde:\n\n$A$ - peso da amostra de pigmento;\n$B$ - número de mililitros gastos na titulação;\n$N$ - normalidade da solução de Na₂S₂O₃."
+  }
+}

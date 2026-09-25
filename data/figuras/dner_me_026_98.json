@@ -1,0 +1,31 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      70.0,
+      77.9,
+      559.0,
+      492.2
+    ],
+    "legenda": "",
+    "ancora": "O poder de cobertura em m2/L é calculado pela fórmula:",
+    "inserir_antes": "### Tabela",
+    "texto_removido": [
+      "PC L x K",
+      "Avanço (L) Poder de Cobertura (PC)",
+      "Avanço (L) Poder de Cobertura"
+    ]
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      93.0,
+      98.0,
+      529.0,
+      798.2
+    ],
+    "legenda": "",
+    "ancora": "Avanço (L) Poder de Cobertura",
+    "inserir_antes": "### Tabela"
+  }
+}

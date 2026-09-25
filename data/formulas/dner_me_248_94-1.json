@@ -1,0 +1,17 @@
+{
+  "eq01": {
+    "page": 2,
+    "clip": [
+      60,
+      612,
+      330,
+      658
+    ],
+    "latex": [
+      "\\text{Teor de ligante } \\% = \\frac{C + A - B}{C} \\times 100"
+    ],
+    "de_inicio": "\n\nS\n\n## RESULTADO",
+    "de_fim": "C massa da amostra de material termoplástico, em gramas.",
+    "para": "\n\n## 5 RESULTADO\n\nO resultado será dado pela seguinte fórmula:\n\n$$\n\\text{Teor de ligante } \\% = \\frac{C + A - B}{C} \\times 100\n$$\n\nonde:\n\n$A$ - massa do tubo centrifugador vazio, em gramas;\n$B$ - massa do tubo centrifugador com material após extração, em gramas;\n$C$ - massa da amostra de material termoplástico, em gramas."
+  }
+}

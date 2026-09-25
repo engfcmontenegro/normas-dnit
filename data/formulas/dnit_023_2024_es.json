@@ -1,0 +1,38 @@
+{
+  "eq01": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      748.6,
+      479.3,
+      777.3
+    ],
+    "raw": "𝑓 𝑐𝑘,𝑒𝑠𝑡 < 𝑓 𝑐𝑘 , não conformidade;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "condição em linha de texto: vira LaTeX inline (t01)"
+  },
+  "eq02": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      45.7,
+      192.2,
+      74.3
+    ],
+    "raw": "𝑓 𝑐𝑘,𝑒𝑠𝑡 ≥ 𝑓 𝑐𝑘 , conformidade.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "condição em linha de texto: vira LaTeX inline (t02)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$f_{ck,est}$ < $f_{ck}$ , não conformidade;",
+    "para": "$f_{ck,est} < f_{ck}$, não conformidade;"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "$f_{ck,est}$ ≥ $f_{ck}$ , conformidade.",
+    "para": "$f_{ck,est} \\geq f_{ck}$, conformidade."
+  }
+}

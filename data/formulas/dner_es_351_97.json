@@ -1,0 +1,22 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "Efetuar a medição em m 2 ,",
+    "para": "Efetuar a medição em m²,"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "ferro n o 4 x",
+    "para": "ferro nº 4 x"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "( φ de 3,0 mm a 5,0 mm, com predominância de 5,0 mm)\n\n1:3;",
+    "para": "(φ de 3,0 mm a 5,0 mm, com predominância de 5,0 mm) 1:3;"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "( φ máximo 3,0 mm)",
+    "para": "(φ máximo 3,0 mm)"
+  }
+}

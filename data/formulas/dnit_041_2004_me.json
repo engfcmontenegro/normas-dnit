@@ -1,0 +1,13 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      320.1,
+      154.8,
+      397.4,
+      206.4
+    ],
+    "raw": "− h h = i f DP − h h i e",
+    "latex": "DP = \\frac{h_i - h_f}{h_i - h_e}"
+  }
+}

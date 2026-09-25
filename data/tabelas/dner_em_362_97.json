@@ -1,0 +1,31 @@
+{
+  "tab01": {
+    "page": 2,
+    "bbox": [
+      70.9,
+      478.6,
+      552.9,
+      775.0
+    ],
+    "ignorar": true,
+    "nota": "cabeçalho 'Tipos de CR' partido: refeita em tabm01",
+    "texto_removido": [
+      "Características Unidades Métodos de Tipos de CR Ensaios CR-70 CR-250 Asfalto diluído",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `ME 004 50ºC s 60-120 - 60ºC s - 125-250`",
+      "Viscosidade cinemática a 60ºC cSt ME 151 70-140 250-500 ou Viscosidade Saybolt-Furol, a Ponto de Fulgor (V. A. Tag), mínimo ºC NBR-5765"
+    ]
+  },
+  "tabm01": {
+    "manual": true,
+    "page": 2,
+    "clip": [
+      68,
+      470,
+      556,
+      778
+    ],
+    "md": "| Características | Unidades | Métodos de Ensaios | Tipos de CR – CR-70 | Tipos de CR – CR-250 |\n| --- | --- | --- | --- | --- |\n| **Asfalto diluído** |  |  |  |  |\n| Viscosidade cinemática a 60ºC | cSt | ME 151 | 70-140 | 250-500 |\n| ou |  |  |  |  |\n| Viscosidade Saybolt-Furol, a |  | ME 004 |  |  |\n| 50ºC | s |  | 60-120 | - |\n| 60ºC | s |  | - | 125-250 |\n| Ponto de Fulgor (V. A. Tag), mínimo | ºC | NBR-5765 | - | 27 |\n| Destilação até 360ºC |  | NBR-9619 |  |  |\n| % volume do total destilado, mínimo a: |  |  |  |  |\n| 190ºC |  |  | 10 | - |\n| 225ºC | % |  | 50 | 35 |\n| 260ºC |  |  | 70 | 60 |\n| 316ºC |  |  | 85 | 80 |\n| Resíduo a 360ºC, por diferença, % volume mínimo | % |  | 55 | 65 |\n| Água % volume, máximo | % | MB 37 | 0,2 | 0,2 |\n| **Resíduo de destilação** |  |  |  |  |\n| Penetração (100g, 5s, 25 °C) | 0,1mm | ME 003 | 80-120 | 80-120 |\n| Betume, % peso, mínimo | % | ME 010 | 99 | 99 |\n| Ductibilidade a 25ºC, mínimo | cm | ME 163 | 100 | 100 |",
+    "de_inicio": "@@tabm01@@",
+    "nota": "Tabela 1; bloco posto pelo trecho x01 de data/formulas"
+  }
+}

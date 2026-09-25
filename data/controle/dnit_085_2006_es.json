@@ -1,0 +1,41 @@
+{
+  "es": "dnit-085-2006-es",
+  "servico": "Demolição e remoção de pavimentos em obras de arte especiais",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Inspeção prévia", "ensaio": "Inspeção do pavimento e da laje estrutural",
+     "citado": null, "norma": null,
+     "frequencia": "Antes da intervenção", "criterio": "Coleta de dados (tipo, idade, tráfego, cargas); mapeamento de fissuras longitudinais e transversais; estado junto às juntas; descontinuidades na laje; infiltrações e eflorescências", "secao": "5.1"},
+    {"etapa": "execucao", "grupo": "Inspeção prévia", "ensaio": "Escolha da alternativa",
+     "citado": null, "norma": null,
+     "frequencia": "Após a inspeção", "criterio": "Adiar a intervenção, recuperar ou demolir e reconstituir, conforme análise dos dados", "secao": "5.2"},
+    {"etapa": "execucao", "grupo": "Demolição", "ensaio": "Equipamento de demolição",
+     "citado": null, "norma": null,
+     "frequencia": "Em cada trecho", "criterio": "Equipamento leve quando não houver separação definida entre pavimento e laje (não danificar a laje); trechos delimitados por juntas serradas com altura igual à do pavimento", "secao": "4 / 5.3 e / 5.4 e"},
+    {"etapa": "execucao", "grupo": "Tráfego durante a obra", "ensaio": "Restrição de carga e velocidade",
+     "citado": null, "norma": null,
+     "frequencia": "Durante os serviços em meia pista", "criterio": "Veículos ≤ 24 t e velocidade ≤ 20 km/h; após 48 h da última concretagem (reconstituição), carga até 36 t", "secao": "5.3 h, i / 5.4 j, k, o"},
+    {"etapa": "execucao", "grupo": "Laje estrutural", "ensaio": "Condição de aderência da superfície",
+     "citado": null, "norma": null,
+     "frequencia": "Antes do lançamento do concreto", "criterio": "Superfície áspera, com agregado graúdo aparente e isenta de detritos; anomalias da laje tratadas", "secao": "5.3 f, g / 5.4 f, h"},
+    {"etapa": "execucao", "grupo": "Armadura", "ensaio": "Posicionamento da armadura",
+     "citado": null, "norma": null,
+     "frequencia": "Antes da concretagem", "criterio": "Armadura de projeto (sobre-laje armada) ou tela soldada leve a 4 cm do topo", "secao": "5.4 i"},
+    {"etapa": "execucao", "grupo": "Concretagem", "ensaio": "Recuperação localizada",
+     "citado": null, "norma": null,
+     "frequencia": "Em cada trecho demolido", "criterio": "Concreto de pega rápida e sem retração; próxima etapa após 8 h da última concretagem", "secao": "5.3 j, k"},
+    {"etapa": "execucao", "grupo": "Concretagem", "ensaio": "Sequência de concretagem (reconstituição)",
+     "citado": null, "norma": null,
+     "frequencia": "Em cada meia pista", "criterio": "Faixas de ≈ 20 m com intervalos de ≈ 5 m definidos por juntas de construção", "secao": "5.4 l"},
+    {"etapa": "execucao", "grupo": "Juntas", "ensaio": "Juntas de contração",
+     "citado": null, "norma": null,
+     "frequencia": "Em cada concretagem", "criterio": "Executadas no concreto fresco ou serradas de 8 a 12 h após a cura", "secao": "5.4 m"},
+    {"etapa": "execucao", "grupo": "Cura", "ensaio": "Cura do concreto",
+     "citado": null, "norma": null,
+     "frequencia": "Após cada concretagem", "criterio": "Cura cuidadosa por 7 dias; outra meia pista só após 7 dias da última concretagem", "secao": "5.4 n, p"}
+  ],
+  "notas": [
+    "A ES não prevê ensaios tecnológicos: o controle é por acompanhamento contínuo, com conformidade avaliada em cada etapa.",
+    "Serviços não conformes devem ser refeitos.",
+    "Material demolido deve ser removido para locais previamente determinados."
+  ]
+}

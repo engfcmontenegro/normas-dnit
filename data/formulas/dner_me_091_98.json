@@ -1,0 +1,39 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      74,
+      350,
+      152,
+      385
+    ],
+    "latex": [
+      "\\left(0{,}2 + \\frac{h}{20}\\right)\\ \\text{mm}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `0 2 20 , + mm, h",
+    "de_fim": "no ensaio considerado.",
+    "para": "$$\n\\left(0{,}2 + \\frac{h}{20}\\right)\\ \\text{mm}\n$$\n\nsendo h a distância entre pratos expressa em milímetros, no ensaio considerado."
+  },
+  "eq02": {
+    "page": 5,
+    "clip": [
+      74,
+      660,
+      125,
+      692
+    ],
+    "latex": [
+      "f_c = \\frac{4Q}{\\pi d^2}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `f Q d c = 4 2 π`",
+    "de_fim": "é o diâmetro do corpo-de-prova, em milímetros.",
+    "para": "$$\nf_c = \\frac{4Q}{\\pi d^2}\n$$\n\nonde:\n\n$f_c$ - é a resistência à compressão, em megapascais;\n$Q$ - é a carga máxima alcançada, em Newtons;\n$d$ - é o diâmetro do corpo-de-prova, em milímetros."
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "### Tabela 1 - Tolerância de tempo para o ensaio\n\nde compressão em função da idade de ruptura\n\n## 6 CÁLCULOS\n\n![[dner_me_091_98_fig01.png]]",
+    "de_fim": "![[dner_me_091_98_fig01.png]]",
+    "para": "### Tabela 1 - Tolerância de tempo para o ensaio de compressão em função da idade de ruptura\n\n![[dner_me_091_98_fig01.png]]\n\n## 6 CÁLCULOS",
+    "nota": "título da Tabela 1 quebrado; tabela (imagem) estava depois do título da seção 6"
+  }
+}

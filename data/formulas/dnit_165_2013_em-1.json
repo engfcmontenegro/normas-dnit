@@ -1,0 +1,20 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "7 Condições de conformidade e não conformi- dade . 3\n\n",
+    "para": "",
+    "nota": "linha do Sumário solta no texto"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "## 7 Condições de conformidade e não\n\nconformidade",
+    "para": "## 7 Condições de conformidade e não conformidade",
+    "nota": "título partido"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "esta\n\nNorma não devem",
+    "para": "esta Norma não devem",
+    "nota": "parágrafo partido"
+  }
+}

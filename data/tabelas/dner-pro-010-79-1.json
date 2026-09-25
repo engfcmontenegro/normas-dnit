@@ -1,0 +1,54 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 7,
+    "clip": [
+      190,
+      398,
+      425,
+      520
+    ],
+    "md": "| n | z |\n| --- | --- |\n| 3 | 1 |\n| 4 | 1,5 |\n| 5 - 6 | 2 |\n| 7 - 19 | 2,5 |\n| ≥ 20 | 3 |",
+    "de_inicio": "@@tabm01@@",
+    "nota": "Tabela I; bloco posto por data/formulas"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 8,
+    "clip": [
+      130,
+      248,
+      478,
+      366
+    ],
+    "md": "| Natureza do subleito | Fator de correção sazonal - $F_s$: estação seca | Fator de correção sazonal - $F_s$: estação chuvosa |\n| --- | --- | --- |\n| Arenoso e permeável | 1,10-1,30 | 1,00 |\n| Argiloso e sensível à umidade | 1,20-1,40 | 1,00 |",
+    "de_inicio": "@@tabm02@@",
+    "nota": "Tabela II; bloco posto por data/formulas"
+  },
+  "tabm03": {
+    "manual": true,
+    "page": 11,
+    "clip": [
+      50,
+      60,
+      570,
+      815
+    ],
+    "md": "| IGG | $\\overline{F}$ e AP % | $d_0$ e $d_{\\text{adm}}$ | Decisão quanto ao aproveitamento da estrutura existente e quanto às medidas corretivas a serem levadas em conta no Projeto |\n| --- | --- | --- | --- |\n| IGG ≤ 180 | $\\overline{F}$ ≤ 30 mm e AP % ≤ 33 % | $d_0 \\le d_{\\text{adm}}$ | 1. Aproveitamento total do valor residual do pavimento existente.<br>2. Programação de reparos locais, se necessário.<br>3. Programação de tratamento de rejuvenescimento, se necessário. |\n| IGG ≤ 180 | $\\overline{F}$ ≤ 30 mm e AP % ≤ 33 % | $3d_{\\text{adm}} \\ge d_a > d_{\\text{adm}}$ | 1. Aproveitamento total do valor residual do pavimento existente.<br>2. Programação de reparos locais, se necessário.<br>3. Projeto de reforço com base no critério de deformabilidade. |\n| IGG ≤ 180 | $\\overline{F}$ ≤ 30 mm e AP % ≤ 33 % | $d_0 > 3d_{\\text{adm}}$ | 1. Aproveitamento total ou parcial do valor residual do pavimento existente.<br>2. Programação de reparos locais, se necessário.<br>3. Projeto de reforço com base no critério de deformabilidade e Projeto de reforço com base no critério de resistência, no caso de aproveitamento total do valor residual do pavimento existente.<br>Projeto de nova estrutura com base no critério de resistência, no caso de aproveitamento total do valor residual do pavimento existente. |\n| IGG ≤ 180 | $\\overline{F}$ > 30 mm ou AP % > 33 % | – | 1. Aproveitamento total do valor residual do pavimento existente.<br>2. Programação de reparos locais.<br>3. Projeto de reforço com base no critério de resistência, no caso de aproveitamento total do valor residual do pavimento existente.<br>Projeto de nova estrutura com base no critério de resistência, no caso de aproveitamento total do valor residual do pavimento existente. |\n| IGG > 180 | – | – | Remoção parcial ou total do pavimento existente e sua substituição parcial ou total por nova estrutura projetada com base no critério de resistência. |",
+    "de_inicio": "@@tabm03@@",
+    "nota": "Critério para o estabelecimento das diretrizes do projeto (página girada); bloco posto por data/formulas"
+  },
+  "tabm04": {
+    "manual": true,
+    "page": 24,
+    "clip": [
+      55,
+      305,
+      550,
+      662
+    ],
+    "md": "| Material (revestimento ou base) | Fator de equivalência (f) |\n| --- | --- |\n| Macadame hidráulico | 1,10 |\n| Solo-cimento ($RCS_{7\\,\\text{dias}} \\ge 21$ kg/cm²) | 1,10 |\n| Tratamento superficial | 1,10 |\n| Macadame betuminoso por penetração | 1,20 |\n| Pré-misturado a frio aberto (% $V_V$ > 8%) | 1,33 |\n| Pré-misturado a quente aberto (% $V_V$ > 8%) | 1,35 |\n| Pré-misturado a frio semi-denso (5% < % $V_V$ ≤ 8%) | 1,36 |\n| Areia-asfalto a quente (% $V_V$ ≤ 8%) | 1,42 |\n| Pré-misturado a quente semi-denso (5 % < % $V_V$ ≤ 8%) | 1,58 |\n| Concreto betuminoso (% $V_V$ ≤ 5%) | 1,70 |",
+    "de_inicio": "@@tabm04@@",
+    "nota": "Fatores de equivalência estrutural com referência ao pedregulho; bloco posto por data/formulas"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "fig01": {
+    "page": 6,
+    "bbox": [
+      144.7,
+      97.4,
+      467.5,
+      271.9
+    ],
+    "legenda": "Foto 1 – Veículo e mecanismos"
+  },
+  "fig02": {
+    "page": 6,
+    "bbox": [
+      59.5,
+      337.2,
+      572.2,
+      585.9
+    ],
+    "legenda": "Figura 1 – Detalhes do mecanismo"
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      115.4,
+      628.2,
+      496.7,
+      755.0
+    ],
+    "legenda": "Foto 2- Corrente e vista geral do mecanismo"
+  },
+  "fig04": {
+    "page": 7,
+    "bbox": [
+      141.0,
+      73.7,
+      468.4,
+      579.7
+    ],
+    "legenda": "Figura 2- Superfície de contato dos pneus das rodas duplas do eixo traseiro"
+  },
+  "fig05": {
+    "page": 7,
+    "bbox": [
+      144.4,
+      602.1,
+      467.9,
+      759.1
+    ],
+    "legenda": "Foto 6 -Tela touch-screen na cabine do motorista para inserção de dados"
+  },
+  "fig06": {
+    "page": 9,
+    "bbox": [
+      67.2,
+      114.5,
+      542.2,
+      366.6
+    ],
+    "legenda": "Figura 3 - Equipamento de medição"
+  },
+  "fig07": {
+    "page": 9,
+    "bbox": [
+      73.2,
+      401.8,
+      536.0,
+      502.8
+    ],
+    "legenda": "Figura 4- Posicionamento nas trilhas de rodas internas e externas (tanto nos segmentos em tangente"
+  },
+  "fig08": {
+    "page": 9,
+    "bbox": [
+      76.4,
+      534.7,
+      532.9,
+      718.1
+    ],
+    "legenda": "Figura 5- Medição da deflexão na trilha de roda externa"
+  },
+  "fig09": {
+    "page": 10,
+    "bbox": [
+      72.3,
+      125.0,
+      537.0,
+      398.7
+    ],
+    "legenda": "Figura 6 - Ciclo de medição do Curviâmetro"
+  },
+  "fig10": {
+    "page": 10,
+    "bbox": [
+      68.8,
+      432.1,
+      540.5,
+      722.1
+    ],
+    "legenda": "Figura 7- Registro da deflexão máxima e da bacia de deflexão"
+  },
+  "fig11": {
+    "page": 11,
+    "bbox": [
+      57.3,
+      101.6,
+      553.3,
+      326.0
+    ],
+    "legenda": ""
+  },
+  "fig12": {
+    "page": 12,
+    "bbox": [
+      56.7,
+      336.6,
+      552.6,
+      718.4
+    ],
+    "legenda": ""
+  }
+}

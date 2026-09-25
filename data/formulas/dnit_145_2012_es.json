@@ -1,0 +1,51 @@
+{
+  "eq01": {
+    "page": 4,
+    "bbox": [
+      77.5,
+      639.6,
+      144.3,
+      685.8
+    ],
+    "raw": "P P 2 − TR = 1 A",
+    "latex": "TR = \\frac{P_2 - P_1}{A}"
+  },
+  "eq02": {
+    "page": 4,
+    "bbox": [
+      344.9,
+      690.5,
+      409.5,
+      755.1
+    ],
+    "raw": "n ∑ x i X = i = 1 n",
+    "latex": "\\bar{X} = \\frac{\\sum_{i=1}^{n} x_i}{n}"
+  },
+  "eq03": {
+    "page": 5,
+    "bbox": [
+      79.1,
+      44.5,
+      178.0,
+      98.0
+    ],
+    "raw": "= ∑ 2 ( x − X ) i s n − 1",
+    "latex": "s = \\sqrt{\\frac{\\sum (x_i - \\bar{X})^2}{n-1}}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo especificado ou\n\na)\n\nX + ks > valor máximo de projeto ⇒ Não-conformidade;\n\nX - ks ≥ valor mínimo especificado\n\nb) ou X + ks ≤ valor máximo de projeto ⇒ Conformidade.",
+    "para": "a) $\\bar{X} - ks$ < valor mínimo especificado ou $\\bar{X} + ks$ > valor máximo de projeto ⇒ Não-conformidade;\n\nb) $\\bar{X} - ks$ ≥ valor mínimo especificado ou $\\bar{X} + ks$ ≤ valor máximo de projeto ⇒ Conformidade.",
+    "nota": "7.5: critérios embaralhados na extração; X com barra perdida"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X - média da amostra.\n\ns - desvio padrão da amostra.\n\nk - coeficiente tabelado em função do número de determinações.\n\nn - número de determinações (tamanho da amostra).",
+    "para": "$\\bar{X}$ - média da amostra.\n\n$s$ - desvio padrão da amostra.\n\n$k$ - coeficiente tabelado em função do número de determinações.\n\n$n$ - número de determinações (tamanho da amostra)."
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "acompanhamento, de acordo com a Norma\n\nDNIT 011/2004-PRO",
+    "para": "acompanhamento, de acordo com a Norma DNIT 011/2004-PRO"
+  }
+}

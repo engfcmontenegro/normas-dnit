@@ -1,0 +1,30 @@
+{
+  "t01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "b) massa específica de 3 g/cm? a 3,5 g/cmº, determinada pela ABNT MB-2698, de 1987 (ver item 2.1.º);",
+    "para": "b) massa específica de 3 g/cm³ a 3,5 g/cm³, determinada pela ABNT MB-2698, de 1987 (ver item 2.1.f);",
+    "nota": "5.1 b): OCR (cm³, 2.1.f)"
+  },
+  "t02": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "c) massa unitária de 1,5 kg/dm” a 1,7 kg/dm? determinada pela ABNT MB-1665, de 1982 (ver 2.1.8);",
+    "para": "c) massa unitária de 1,5 kg/dm³ a 1,7 kg/dm³ determinada pela ABNT MB-1665, de 1982 (ver 2.1.g);",
+    "nota": "5.1 c): OCR (dm³, 2.1.g)"
+  },
+  "t03": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "e) adurabilidade ao sulfato de sódio, cinco ciclos, deverá ser de O a 5%, determinada pela ASTM C 88-76 (ver 2. 1.b).",
+    "para": "e) a durabilidade ao sulfato de sódio, cinco ciclos, deverá ser de 0 a 5%, determinada pela ASTM C 88-76 (ver 2.1.b).",
+    "nota": "5.1 e): OCR"
+  },
+  "t04": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "na faixa de até 1,27 em (1/2\")",
+    "para": "na faixa de até 1,27 cm (1/2\")",
+    "nota": "4.3: OCR (cm)"
+  }
+}

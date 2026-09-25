@@ -1,0 +1,47 @@
+{
+  "tab01": {
+    "page": 5,
+    "bbox": [
+      74.4,
+      76.2,
+      554.3,
+      189.2
+    ],
+    "ignorar": true,
+    "nota": "Tabela 2: marcadores de lista sem glifo no PDF viraram '!' e o título pegou '50 100' da Figura 1: refeita em tabm02",
+    "texto_removido": [
+      "Tipo de ensaio Freqüência de amostragem Freqüência de ensaios",
+      "Determinação da massa do revestimento (zinco em g/m²).",
+      "Um elemento por grupo de 300 peças.",
+      "! Três determinações por peça a ensaiar (guia de deslizamento). ! Uma determinação por peça a ensaiar (demais elementos). Determinação da espessura da camada.",
+      "Dois elementos por grupo de 50 peças.",
+      "De 2 determinações por metro quadrado."
+    ]
+  },
+  "tabm01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      165,
+      553,
+      475,
+      673
+    ],
+    "md": "|  |  |  |\n| --- | --- | --- |\n| Limite de resistência à tração - LR (mínimo em N/mm²) |  | 370 |\n| Limite de escoamento - LE (mínimo em N/mm²) |  | 240 |\n| Alongamento mínimo, após ruptura Lo = 50 mm, dado em %, para espessura de | e < 3,0 mm | 20 |\n|  | e > 3,0 mm | 23 |\n| Dobramento a 180º (calço 1,5 vezes a espessura do corpo de prova) |  | não deve apresentar trincas |",
+    "de_inicio": "Limite de resistência à tração - LR 370 (mínimo em N/mm²) Limite de escoamento - LE 240 (mínimo em N/mm²) Alongamento mínimo, após ruptura e < 3,0 mm\n\n## 20 Lo = 50 mm, dado em %, para es-\n\ne > 3,0 mm\n\n## 23 pessura de\n\nDobramento a 180º (calço 1,5 vezes a espessura não deve apre-do corpo de prova) sentar trincas",
+    "nota": "Tabela 1 (p. 3) sem cabeçalho no PDF (linha de cabeçalho vazia); tinha ficado achatada"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 5,
+    "clip": [
+      65,
+      70,
+      555,
+      192
+    ],
+    "md": "### Tabela 2 - Revestimento\n\n| Tipo de ensaio | Freqüência de amostragem | Freqüência de ensaios |\n| --- | --- | --- |\n| Determinação da massa do revestimento (zinco em g/m²). | Um elemento por grupo de 300 peças. | • Três determinações por peça a ensaiar (guia de deslizamento). • Uma determinação por peça a ensaiar (demais elementos). |\n| Determinação da espessura da camada. | Dois elementos por grupo de 50 peças. | De 2 determinações por metro quadrado. |",
+    "de_inicio": "### Tabela 2 - Revestimento 50 100",
+    "nota": "título (p. 4) com '50 100' da Figura 1; tabela na p. 5; marcadores sem glifo no PDF"
+  }
+}

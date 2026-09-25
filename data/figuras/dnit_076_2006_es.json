@@ -1,0 +1,19 @@
+{
+  "fig01": {
+    "page": 8,
+    "bbox": [
+      94.9,
+      549.7,
+      514.6,
+      788.6
+    ],
+    "legenda": "",
+    "clip": [
+      93,
+      234,
+      517,
+      792
+    ],
+    "nota": "clip ampliado para incluir o gráfico do Anexo A (lido como tabela tab02)"
+  }
+}

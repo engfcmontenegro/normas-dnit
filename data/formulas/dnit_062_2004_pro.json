@@ -1,0 +1,90 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      319.8,
+      322.4,
+      419.3,
+      386.8
+    ],
+    "raw": "2 N x S = n 2 e − + 2 ( N )1 S 4",
+    "latex": "n = \\frac{N \\times S^2}{\\dfrac{e^2}{4}(N - 1) + S^2}"
+  },
+  "eq02": {
+    "page": 4,
+    "bbox": [
+      50.9,
+      238.5,
+      252.2,
+      286.6
+    ],
+    "raw": "m p ∑ i ∑ = − ICP 100 A ( T , S , D ) F ( t , q ) i j ij = = i j j i",
+    "latex": "ICP = 100 - \\sum_{i=j}^{p} \\sum_{j=i}^{m_i} A(T_i, S_j, D_{ij})\\,F(t, q)",
+    "nota": "limites dos somatórios 'i=j' e 'j=i' como no PDF (p. 4); provavelmente i=1 e j=1"
+  },
+  "eq03": {
+    "page": 5,
+    "bbox": [
+      50.9,
+      43.2,
+      203.2,
+      90.8
+    ],
+    "raw": "− N A A = + ICP t ICP ICP 1 2 N N",
+    "latex": "ICP_t = \\frac{N - A}{N} ICP_1 + \\frac{A}{N} ICP_2"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$S$ = desvio padrão e = erro admitido quando da inspeção.",
+    "para": "$S$ = desvio padrão;\n$e$ = erro admitido quando da inspeção.",
+    "nota": "legenda da eq01 (p. 3)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "do tipo do defeito (Ti), do grau de severidade (Sj) e da densidade de defeitos (Dij);",
+    "para": "do tipo do defeito ($T_i$), do grau de severidade ($S_j$) e da densidade de defeitos ($D_{ij}$);",
+    "nota": "legenda da eq02"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "$mi$ = número de graus",
+    "para": "$m_i$ = número de graus",
+    "nota": "legenda da eq02"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "\n\nF (t,q) = uma função de ajustamento",
+    "para": "\n$F(t,q)$ = uma função de ajustamento",
+    "nota": "legenda da eq02"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "corrigir o somatório dos valores deduzíveis obtendo o VDC. Para isso, o avaliador deverá utilizar o gráfico do\n\nc) item 7 deste Anexo;",
+    "para": "c) corrigir o somatório dos valores deduzíveis obtendo o VDC. Para isso, o avaliador deverá utilizar o gráfico do item 7 deste Anexo;",
+    "nota": "alínea c) fora de lugar (p. 4)"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "não há amostras adicionais. Nesse caso, o valor do ICP do trecho será a média aritmética dos ICP obtidos\n\na) para amostras;",
+    "para": "a) não há amostras adicionais. Nesse caso, o valor do ICP do trecho será a média aritmética dos ICP obtidos para amostras;",
+    "nota": "alínea a) fora de lugar (p. 4)"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "há amostras adicionais inspecionadas. O ICP do trecho será obtido por meio da seguinte fórmula:\n\nb)\n\n",
+    "para": "b) há amostras adicionais inspecionadas. O ICP do trecho será obtido por meio da seguinte fórmula:\n\n",
+    "nota": "alínea b) fora de lugar (p. 4)"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "$ICPt$ = ICP do trecho;\n\nICP1 = ICP médio das amostras aleatórias;\n\nICP2 = ICP médio das amostras adicionais;\n\nN = número total de amostras do trecho;\n\nA = número de amostras adicionais inspecionadas.",
+    "para": "$ICP_t$ = ICP do trecho;\n$ICP_1$ = ICP médio das amostras aleatórias;\n$ICP_2$ = ICP médio das amostras adicionais;\n$N$ = número total de amostras do trecho;\n$A$ = número de amostras adicionais inspecionadas.",
+    "nota": "legenda da eq03 (p. 5)"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "![[dnit_062_2004_pro_fig20.png]]",
+    "para": "| Conceito | ICP |\n| --- | --- |\n| Excelente | 85 a 100 |\n| Muito Bom | 70 a 85 |\n| Bom | 55 a 70 |\n| Razoável | 40 a 55 |\n| Ruim | 25 a 40 |\n| Muito Ruim | 10 a 25 |\n| Destruído | 0 a 10 |\n\n![[dnit_062_2004_pro_fig20.png]]",
+    "nota": "Anexo B: escala de avaliação do ICP (figura girada) também como tabela"
+  }
+}

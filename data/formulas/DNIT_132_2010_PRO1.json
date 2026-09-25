@@ -1,0 +1,64 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      75,
+      346,
+      290,
+      363
+    ],
+    "latex": "Y = mX + b \\tag{Equação 1}"
+  },
+  "m02": {
+    "manual": true,
+    "page": 7,
+    "clip": [
+      88,
+      404,
+      290,
+      421
+    ],
+    "latex": "Y = mX \\tag{Equação 2}"
+  },
+  "m03": {
+    "manual": true,
+    "page": 9,
+    "clip": [
+      88,
+      632,
+      290,
+      649
+    ],
+    "latex": "Y = mX \\tag{Equação 3}"
+  },
+  "m04": {
+    "manual": true,
+    "page": 11,
+    "clip": [
+      130,
+      624,
+      290,
+      641
+    ],
+    "latex": "R_i = x_o / x_i \\quad (x_o \\text{ sobre } x_i) \\tag{Equação 4}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "## 6 Procedimentos para as calibrações\n\n## 7 Procedimento para calibração relativa dos\n\n## Anexo A (Informativo) – Recomendações para o Relatório de calibração do Deflectômetro\n\n",
+    "para": "",
+    "nota": "linhas do Sumário (p. 1) que viraram títulos antes do Prefácio"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "## 4 Instalações, equipamentos e pessoal para as\n\ncalibrações",
+    "para": "## 4 Instalações, equipamentos e pessoal para as calibrações",
+    "nota": "título partido em duas linhas"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "## 7 Procedimentos para calibração relativa dos\n\nsensores de deflexão",
+    "para": "## 7 Procedimentos para calibração relativa dos sensores de deflexão",
+    "nota": "título partido em duas linhas"
+  }
+}

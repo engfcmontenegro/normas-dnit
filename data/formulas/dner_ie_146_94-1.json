@@ -1,0 +1,130 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "## 1 Oia\n\nB won\n\n",
+    "de_fim": "Liberação das peças para transporte\n\n",
+    "para": "",
+    "nota": "resto do SUMÁRIO da p. 1 (lixo de OCR)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "Instruí quanto",
+    "para": "Instrui quanto",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "tendo em vista aaceitação ourejeição",
+    "para": "tendo em vista a aceitação ou rejeição",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "a DNER-TE 146/85 à DNER-PRO",
+    "para": "a DNER-IE 146/85 à DNER-PRO",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "**3.2** Anotificação",
+    "para": "**3.2** A notificação",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "**3.3** Ocontroletecnológico",
+    "para": "**3.3** O controle tecnológico",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "permita a verificação gal imensões",
+    "para": "permita a verificação das dimensões",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "5.1 Gabarito\n\nPeçarí sida de material",
+    "para": "**5.1** Gabarito\n\nPeça rígida de material",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "**5.1.2** Osgabaritos aserem",
+    "para": "**5.1.2** Os gabaritos a serem",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "\n\n5.2 Paquímetro metálico",
+    "para": "\n\n**5.2** Paquímetro metálico",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "funcionando em 110€e 220 v etambém",
+    "para": "funcionando em 110 e 220 v e também",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "a) sigladasiderúrgica;",
+    "para": "a) sigla da siderúrgica;",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "(ver 2.1) eos valores",
+    "para": "(ver 2.1) e os valores",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "**6.3** Seos valores",
+    "para": "**6.3** Se os valores",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t14": {
+    "todas": true,
+    "de_inicio": "Ofiscal deve verificar, através",
+    "para": "O fiscal deve verificar, através",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t15": {
+    "todas": true,
+    "de_inicio": "50 7.2 Demais dimensões 7.2.1, O fiscal deve verificar",
+    "para": "**7.2** Demais dimensões\n\n**7.2.1** O fiscal deve verificar",
+    "nota": "7.2/7.2.1: '50' é resto da tabela (p. 4) e o título 7.2 estava colado"
+  },
+  "t16": {
+    "todas": true,
+    "de_inicio": "(ver 2.1)o fiscal aprovará",
+    "para": "(ver 2.1) o fiscal aprovará",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t17": {
+    "todas": true,
+    "de_inicio": "122 No caso das porcas e parafusos, o procedimento para o seu controle deve ser realizado da seguinte orma:",
+    "para": "**7.2.2** No caso das porcas e parafusos, o procedimento para o seu controle deve ser realizado da seguinte forma:",
+    "nota": "7.2.2 lido como '122'"
+  },
+  "t18": {
+    "todas": true,
+    "de_inicio": "**7.2.3** Asdimensões",
+    "para": "**7.2.3** As dimensões",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "t19": {
+    "todas": true,
+    "de_inicio": "A medida que as peças, após verificação",
+    "para": "À medida que as peças, após verificação",
+    "nota": "OCR (palavras coladas/itens perdidos), conferido no PDF"
+  },
+  "n01": {
+    "texto": true,
+    "de_inicio": "a sistmática do controle tecnológico de defesas metálicas",
+    "de_fim": "a sistmática do controle tecnológico de defesas metálicas",
+    "para": "a sistmática do controle tecnológico de defesas metálicas",
+    "nota": "possíveis erros do PDF (p. 2, item 1 e p. 3, 5.1): 'sistmática', 'defesas' (defensas) e 'indefórmável' mantidos como no PDF"
+  }
+}

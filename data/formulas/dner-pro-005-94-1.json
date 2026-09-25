@@ -1,0 +1,23 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "## 2 REFERÊNCIA p. 02/03:\n\n9 1 Referência bibliográfica",
+    "de_fim": "Referência bibliográfica",
+    "para": "## 2 REFERÊNCIA\n\n**2.1** Referência bibliográfica",
+    "nota": "título de seção com cabeçalho de página grudado"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "## 4 IDENTIFICAÇÃO DAS AMOSTRAS\n\na) natureza do material;",
+    "de_fim": "a) natureza do material;",
+    "para": "## 4 IDENTIFICAÇÃO DAS AMOSTRAS\n\nCada amostra deverá ser acompanhada de uma ficha onde deve constar:\n\na) natureza do material;",
+    "nota": "frase introdutória da seção 4 foi parar no título da seção 5"
+  },
+  "x03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "## 5 EMBALAGEM E REMESSA da amostra deverá ser acompanhada de uma ficha onde dev",
+    "para": "## 5 EMBALAGEM E REMESSA",
+    "nota": "resto da frase de 4 grudado no título"
+  }
+}

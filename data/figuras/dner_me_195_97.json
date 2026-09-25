@@ -1,0 +1,56 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      113.0,
+      112.0,
+      523.0,
+      324.0
+    ],
+    "legenda": "",
+    "ancora": "5.1.4 Em muitos casos pode ser desejável ensaiar o agregado graúdo em frações se",
+    "texto_removido": [
+      "64 76",
+      "100 125",
+      "152 2,0",
+      "3,0",
+      "4,0",
+      "5,0",
+      "8,0",
+      "12,0",
+      "18,0",
+      "40,0",
+      "75,0",
+      "125,0",
+      "76 100",
+      "125 152",
+      "38 50",
+      "64 76",
+      "100 125",
+      "3,0",
+      "4,0",
+      "6,0",
+      "Dimensão máxima característica do agregado (mm) Massa mínima da amostra de ensaio (kg)",
+      "12,5 ou menor 19 25",
+      "38 50"
+    ]
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      113.0,
+      423.0,
+      523.0,
+      582.0
+    ],
+    "legenda": "",
+    "ancora": "Lavar a amostra sobre a peneira 4,8 mm e secar até constância de massa, à temper",
+    "texto_removido": [
+      "22,0",
+      "35,0",
+      "50,0",
+      "Peneira (mm) Massa mínima por fração (kg)",
+      "Passa Retida 50 64"
+    ]
+  }
+}

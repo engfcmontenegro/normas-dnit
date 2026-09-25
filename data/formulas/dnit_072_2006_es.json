@@ -1,0 +1,45 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      58,
+      490,
+      290,
+      612
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: recorte da Tabela 1 – Gramíneas (tira o texto achatado; imagem usada em t01)"
+  },
+  "m02": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      326,
+      68,
+      558,
+      162
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: recorte da Tabela 2 – Leguminosas (tira o texto achatado; imagem usada em t02)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "Tabela 1 – Gramíneas",
+    "para": "Tabela 1 – Gramíneas\n\n| Espécies selecionadas: |\n| --- |\n| Braquiaria Humidícola, Decumbens ou Brizantha |\n| Paspalum notatum (grama Batatais) |\n| Axonopus Obtuzífolius |\n| Eragrostis Curvula (capim chorão) |\n| Milinis Minitiflora (capim gordura ou meloso) |\n| Lolium Multiflorum (azevêm) |\n| Setária anceps (capim sectária) |\n\n![[dnit_072_2006_es_m01.png]]",
+    "nota": "Tabela 1 não detectada (achatada)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "Tabela 2 - Leguminosas",
+    "para": "Tabela 2 - Leguminosas\n\n| Espécies selecionadas: |\n| --- |\n| Puerária Phaseolóides (kudzu tropical) |\n| Calopogonium Muconoides (calopo) |\n| Cajanus Cajan (Feijão guandu) |\n| Centrocema Pubescens (Centrosema) |\n| Estizolobium anterrinum (Mucuna) |\n\n![[dnit_072_2006_es_m02.png]]",
+    "nota": "Tabela 2 não detectada (achatada)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "2.500 m²de talude",
+    "para": "2.500 m² de talude"
+  }
+}

@@ -1,0 +1,817 @@
+{
+  "eq01": {
+    "page": 2,
+    "bbox": [
+      318.1,
+      393.2,
+      446.1,
+      419.6
+    ],
+    "raw": "3.5 Ângulo de fase (𝜹)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "título de seção (3.5 Ângulo de fase)"
+  },
+  "eq02": {
+    "page": 2,
+    "bbox": [
+      318.1,
+      717.0,
+      468.4,
+      744.4
+    ],
+    "raw": "Pseudodeformação (𝛄 𝐑 ) 3.8",
+    "latex": "",
+    "ignorar": true,
+    "nota": "título de seção (3.8 Pseudodeformação)"
+  },
+  "eq03": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      692.2,
+      563.4,
+      719.5
+    ],
+    "raw": "uma das 12 frequências, registrar os valores de |𝐺 ∗ | e de",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido com |G*|"
+  },
+  "eq04": {
+    "page": 4,
+    "bbox": [
+      48.6,
+      292.0,
+      294.0,
+      337.0
+    ],
+    "raw": "A cada 10 ciclos de carga, registrar o |𝐺 ∗ |, o pico de tensão, o pico de deformação, o tempo e o 𝛿.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  },
+  "eq05": {
+    "page": 4,
+    "bbox": [
+      48.6,
+      511.0,
+      294.0,
+      539.8
+    ],
+    "raw": "𝐺 ′ (𝜔) = |𝐺 ∗ |(𝜔) × 𝑐𝑜𝑠𝛿(𝜔) (1)",
+    "latex": "G'(\\omega) = |G^*|(\\omega) \\times \\cos\\delta(\\omega) \\tag{1}"
+  },
+  "eq06": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      100.5,
+      563.4,
+      129.3
+    ],
+    "raw": "𝐿𝑜𝑔 𝐺 ′ (𝜔) = 𝑚× 𝐿𝑜𝑔 𝜔+ 𝑛 (2)",
+    "latex": "\\operatorname{Log}\\, G'(\\omega) = m \\times \\operatorname{Log}\\, \\omega + n \\tag{2}"
+  },
+  "eq07": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      160.6,
+      457.6,
+      187.0
+    ],
+    "raw": "𝐿𝑜𝑔 é o logaritmo na base 10;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variável (Log)"
+  },
+  "eq08": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      280.5,
+      478.2,
+      336.4
+    ],
+    "raw": "𝑚 é a inclinação da linha de ajuste; 𝑛 é o intercepto da linha de ajuste.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variáveis (m, n)"
+  },
+  "eq09": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      381.8,
+      563.4,
+      410.2
+    ],
+    "raw": "𝛼= 1/𝑚 (3)",
+    "latex": "\\alpha = 1/m \\tag{3}"
+  },
+  "eq10": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      441.6,
+      478.2,
+      468.0
+    ],
+    "raw": "𝑚 é a inclinação da linha de ajuste;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variável (m)"
+  },
+  "eq11": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      602.5,
+      563.0,
+      643.6
+    ],
+    "raw": "|𝐺 ∗ | 𝑖 |𝐺 ∗ | 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 (4) 𝐶 𝑖 =",
+    "latex": "C_i = \\frac{|G^*|_i}{|G^*|_{inicial}} \\tag{4}"
+  },
+  "eq12": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      703.7,
+      563.4,
+      730.1
+    ],
+    "raw": "𝐶 é a integridade da amostra em um ponto, adimensional;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variável (C)"
+  },
+  "eq13": {
+    "page": 5,
+    "bbox": [
+      91.0,
+      100.8,
+      293.5,
+      129.8
+    ],
+    "raw": "|𝐺 ∗ | 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 é igual ao valor de |𝐺 ∗ | para o",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido (legenda |G*|inicial)"
+  },
+  "eq14": {
+    "page": 5,
+    "bbox": [
+      48.6,
+      188.8,
+      294.0,
+      226.2
+    ],
+    "raw": "𝛼 1 2 (𝐶 𝑖−1 −𝐶 𝑖 )] 1+𝛼 (5) ∆𝐷 𝑖 = [𝜋𝛾 𝑖 1+𝛼 (𝑡 𝑖 −𝑡 𝑖−1 )",
+    "latex": "\\Delta D_i = \\left[\\pi \\gamma_i^2 (C_{i-1} - C_i)\\right]^{\\frac{\\alpha}{1+\\alpha}} (t_i - t_{i-1})^{\\frac{1}{1+\\alpha}} \\tag{5}"
+  },
+  "eq15": {
+    "page": 5,
+    "bbox": [
+      48.6,
+      315.3,
+      293.2,
+      341.7
+    ],
+    "raw": "∆𝐷 é o incremento de dano em um ponto, adimensional;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variável (ΔD)"
+  },
+  "eq16": {
+    "page": 5,
+    "bbox": [
+      48.6,
+      419.6,
+      294.0,
+      475.6
+    ],
+    "raw": "𝐶 é a integridade da amostra em um ponto, adimensional; 𝑡 é o tempo em um ponto, em segundos (s);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variáveis (C, t)"
+  },
+  "eq17": {
+    "page": 5,
+    "bbox": [
+      48.6,
+      566.1,
+      294.0,
+      626.4
+    ],
+    "raw": "Se 𝐶 𝑖 ≥ 𝐶 𝑖−1 , 𝐷 𝑖 = 𝐷 𝑖−1 ∆𝐷 𝑖 (6) Se 𝐶 𝑖 < 𝐶 𝑖−1 ,𝐷 𝑖 = 𝐷 𝑖−1 + ∆𝐷 𝑖 (7)",
+    "latex": [
+      "\\text{Se } C_i \\geq C_{i-1},\\ D_i = D_{i-1}\\ \\Delta D_i \\tag{6}",
+      "\\text{Se } C_i < C_{i-1},\\ D_i = D_{i-1} + \\Delta D_i \\tag{7}"
+    ]
+  },
+  "eq18": {
+    "page": 5,
+    "bbox": [
+      48.6,
+      711.5,
+      294.0,
+      767.5
+    ],
+    "raw": "𝐶 é a Integridade da amostra em um ponto, adimensional; ∆𝐷 é o Incremento de dano em um ponto, adimensional;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variáveis (C, ΔD)"
+  },
+  "eq19": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      73.4,
+      563.4,
+      147.8
+    ],
+    "raw": "ponto, o dano é igual a zero (𝐷 = 0) e a integridade é igual a um (𝐶 = 1). Plotar em um gráfico a curva 𝐶(𝑡) versus 𝐷(𝑡), com a",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  },
+  "eq20": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      181.1,
+      563.4,
+      212.2
+    ],
+    "raw": "𝐶(𝑡) = 𝐶 0 −𝐶 1 (𝐷(𝑡)) 𝐶 2 (8)",
+    "latex": "C(t) = C_0 - C_1 (D(t))^{C_2} \\tag{8}"
+  },
+  "eq21": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      241.3,
+      563.0,
+      297.3
+    ],
+    "raw": "𝑡 é o tempo, em segundos (s); 𝐶(𝑡) é a integridade em função do tempo, adimensional;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variáveis (t, C(t))"
+  },
+  "eq22": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      330.1,
+      538.8,
+      387.4
+    ],
+    "raw": "𝐷(𝑡) é o dano em função do tempo, adimensional; 𝐶 1 e 𝐶 2 são coeficientes de regressão.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variáveis (D(t), C1, C2)"
+  },
+  "eq23": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      446.8,
+      563.4,
+      477.6
+    ],
+    "raw": "𝑙𝑜𝑔(𝐶 0 −𝐶(𝑡)) = 𝑙𝑜𝑔(𝐶 1 ) + 𝐶 2 𝑙𝑜𝑔(𝐷(𝑡)) (9)",
+    "latex": "\\log(C_0 - C(t)) = \\log(C_1) + C_2 \\log(D(t)) \\tag{9}"
+  },
+  "eq24": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      506.6,
+      563.0,
+      562.6
+    ],
+    "raw": "𝑡 é o tempo, em segundos (s); 𝐶(𝑡) é a integridade em função do tempo, adimensional;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variáveis (t, C(t))"
+  },
+  "eq25": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      595.4,
+      563.3,
+      682.4
+    ],
+    "raw": "𝐷(𝑡) é o dano em função do tempo, adimensional; 𝐶 1 e 𝐶 2 são coeficientes de regressão. Usando a Equação 9, 𝐶 1 é igual ao inverso do logaritmo",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variáveis e texto corrido"
+  },
+  "eq26": {
+    "page": 5,
+    "bbox": [
+      450.3,
+      689.8,
+      563.4,
+      718.2
+    ],
+    "raw": "𝐿𝑜𝑔(𝐶 0 −𝐶(𝑡)) versus",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  },
+  "eq27": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      309.1,
+      269.2,
+      347.4
+    ],
+    "raw": "𝛾 𝑖 𝑅 = 100 × |𝐺 ∗ | 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 (10) 𝛾 𝑖",
+    "latex": "\\gamma_i^R = \\frac{\\gamma_i}{100} \\times |G^*|_{inicial} \\tag{10}"
+  },
+  "eq28": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      405.5,
+      294.0,
+      432.9
+    ],
+    "raw": "𝛾 𝑅 é a pseudodeformação em um ponto, expressa em",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variável (γR)"
+  },
+  "eq29": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      573.0,
+      292.2,
+      635.4
+    ],
+    "raw": "dados (𝑖), utilizando a Equação 11: 2 (11) 𝑅 = 0,5 × 𝐶 𝑖 × (𝛾 𝑖 𝑅 ) 𝑊 𝑖",
+    "latex": [
+      {
+        "texto": "dados (i), utilizando a Equação 11:"
+      },
+      "W_i^R = 0{,}5 \\times C_i \\times \\left(\\gamma_i^R\\right)^2 \\tag{11}"
+    ]
+  },
+  "eq30": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      694.7,
+      293.7,
+      722.0
+    ],
+    "raw": "𝑊 𝑅 é a pseudoenergia de deformação em um ponto,",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variável (WR)"
+  },
+  "eq31": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      739.8,
+      294.0,
+      767.1
+    ],
+    "raw": "𝛾 𝑅 é a pseudodeformação em um ponto, expressa em",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variável (γR)"
+  },
+  "eq32": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      43.3,
+      563.4,
+      69.6
+    ],
+    "raw": "𝐶 é a Integridade da amostra em um ponto, adimensional.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variável (C)"
+  },
+  "eq33": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      219.7,
+      563.4,
+      266.2
+    ],
+    "raw": "1 𝐶 2 ⁄ 𝐶 0 −𝐶 𝑓 (12) 𝐷 𝑓 = ( 𝐶 1 )",
+    "latex": "D_f = \\left(\\frac{C_0 - C_f}{C_1}\\right)^{1/C_2} \\tag{12}"
+  },
+  "eq34": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      295.4,
+      547.4,
+      353.9
+    ],
+    "raw": "𝐷 𝑓 é o dano na ruptura; 𝐶 𝑓 é a integridade do ponto em que ocorre a ruptura;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variáveis (Df, Cf)"
+  },
+  "eq35": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      386.6,
+      563.3,
+      442.6
+    ],
+    "raw": "𝐶 1 e 𝐶 2 são coeficientes de regressão da Equação 8. Calcular os coeficientes 𝐴 e 𝐵 da curva de fadiga do",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variáveis e texto corrido"
+  },
+  "eq36": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      461.2,
+      563.4,
+      567.4
+    ],
+    "raw": "𝑘 𝐹.(𝐷 𝑓 ) 𝑘.(𝜋.𝐶 1 .𝐶 2 ) 𝛼 (13) 𝐴= 𝑘= 1 + (1 + 𝐶 2 )𝛼 (14) 𝐵= −2𝛼 (15)",
+    "latex": [
+      "A = \\frac{F \\cdot (D_f)^k}{k \\cdot (\\pi \\cdot C_1 \\cdot C_2)^\\alpha} \\tag{13}",
+      "k = 1 + (1 + C_2)\\alpha \\tag{14}",
+      "B = -2\\alpha \\tag{15}"
+    ]
+  },
+  "eq37": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      598.8,
+      547.8,
+      656.1
+    ],
+    "raw": "𝐴 e 𝐵 são coeficientes da curva de fadiga; 𝐶 1 e 𝐶 2 são coeficientes de regressão da Equação 8;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variáveis (A, B, C1, C2)"
+  },
+  "eq38": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      703.1,
+      563.3,
+      729.5
+    ],
+    "raw": "𝐹 é a frequência de carregamento, expresso em Hertz",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variável (F)"
+  },
+  "eq39": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      779.7,
+      430.7,
+      807.4
+    ],
+    "raw": "𝐷 𝑓 é o dano na ruptura.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variável (Df)"
+  },
+  "eq40": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      43.3,
+      293.9,
+      69.6
+    ],
+    "raw": "Com os coeficientes 𝐴 e 𝐵, obtém-se a curva de fadiga",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  },
+  "eq41": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      87.4,
+      294.0,
+      117.8
+    ],
+    "raw": "𝑁 𝑓 = 𝐴× (𝛾) 𝐵 (16)",
+    "latex": "N_f = A \\times (\\gamma)^B \\tag{16}"
+  },
+  "eq42": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      148.9,
+      248.6,
+      175.2
+    ],
+    "raw": "𝐴 e 𝐵 são os coeficientes da curva de fadiga;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variáveis (A, B)"
+  },
+  "eq43": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      400.9,
+      294.0,
+      439.2
+    ],
+    "raw": "𝐿𝑜𝑔(𝑁 𝑓1,25 ×𝑁 𝑓2,5 ) 0,0250 0,0125 ) (17) 𝐹𝐹𝐿= × 𝐿𝑜𝑔( 2",
+    "latex": "FFL = \\frac{\\operatorname{Log}(N_{f1{,}25} \\times N_{f2{,}5})}{2} \\times \\operatorname{Log}\\left(\\frac{0{,}0250}{0{,}0125}\\right) \\tag{17}"
+  },
+  "eq44": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      470.4,
+      236.3,
+      526.4
+    ],
+    "raw": "𝐹𝐹𝐿 é o fator de fadiga do ligante a 19 ºC; 𝐿𝑜𝑔 é o logaritmo na base 10;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "legenda de variáveis (FFL, Log)"
+  },
+  "eq45": {
+    "page": 7,
+    "bbox": [
+      318.1,
+      226.0,
+      528.5,
+      252.3
+    ],
+    "raw": "O |𝐺 ∗ | do ligante na temperatura do ensaio; c)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "item de lista (texto)"
+  },
+  "eq46": {
+    "page": 7,
+    "bbox": [
+      318.1,
+      454.3,
+      563.4,
+      480.5
+    ],
+    "raw": "i) Os coeficientes 𝐴 e 𝐵 da curva de fadiga, com quatro",
+    "latex": "",
+    "ignorar": true,
+    "nota": "item de lista (texto)"
+  },
+  "eq47": {
+    "page": 10,
+    "bbox": [
+      48.6,
+      416.5,
+      329.7,
+      477.0
+    ],
+    "raw": "𝐺 ′ (𝜔) = |𝐺 ∗ |(𝜔) × 𝑐𝑜𝑠𝛿(𝜔) 𝐺 ′ (0,20) = (5,69 × 10 6 ) × 𝑐𝑜𝑠(50,6°) = 3,61 × 10 6 (Pa)",
+    "latex": [
+      "G'(\\omega) = |G^*|(\\omega) \\times \\cos\\delta(\\omega)",
+      "G'(0{,}20) = (5{,}69 \\times 10^6) \\times \\cos(50{,}6^\\circ) = 3{,}61 \\times 10^6 \\text{ (Pa)}"
+    ]
+  },
+  "eq48": {
+    "page": 10,
+    "bbox": [
+      48.6,
+      539.8,
+      268.8,
+      599.7
+    ],
+    "raw": "𝜔= 2𝜋𝐹 𝐿𝑜𝑔 10 (𝜔) = 𝐿𝑜𝑔 10 (2. 𝜋. 0,20) = 0,10 (rad/s)",
+    "latex": [
+      "\\omega = 2\\pi F",
+      "\\operatorname{Log}_{10}(\\omega) = \\operatorname{Log}_{10}(2 \\cdot \\pi \\cdot 0{,}20) = 0{,}10 \\text{ (rad/s)}"
+    ]
+  },
+  "eq49": {
+    "page": 10,
+    "bbox": [
+      48.6,
+      643.4,
+      270.2,
+      674.3
+    ],
+    "raw": "𝐿𝑜𝑔 10 (𝐺′) = 𝐿𝑜𝑔 10 (3,61 × 10 6 ) = 6,56 (Pa)",
+    "latex": "\\operatorname{Log}_{10}(G') = \\operatorname{Log}_{10}(3{,}61 \\times 10^6) = 6{,}56 \\text{ (Pa)}"
+  },
+  "eq50": {
+    "page": 11,
+    "bbox": [
+      48.6,
+      310.9,
+      202.5,
+      339.7
+    ],
+    "raw": "𝐿𝑜𝑔( 𝐺 ′ ) = 𝑚× 𝐿𝑜𝑔 (𝜔) + 𝑛",
+    "latex": "\\operatorname{Log}(G') = m \\times \\operatorname{Log}(\\omega) + n"
+  },
+  "eq51": {
+    "page": 11,
+    "bbox": [
+      48.6,
+      370.1,
+      191.7,
+      413.0
+    ],
+    "raw": "𝛼= 1 1 𝑚 = 0,5168 = 1,9350",
+    "latex": "\\alpha = \\frac{1}{m} = \\frac{1}{0{,}5168} = 1{,}9350"
+  },
+  "eq52": {
+    "page": 11,
+    "bbox": [
+      48.6,
+      559.4,
+      258.9,
+      639.5
+    ],
+    "raw": "|𝐺 ∗ | 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 = 3,825 × 10 7 |𝐺 ∗ | 1 = 3,867 × 10 7 3,825 × 10 7 = 1,01 𝐶 1 = |𝐺 ∗ | 𝑖𝑛𝑖𝑐𝑖𝑎𝑙",
+    "latex": [
+      "|G^*|_{inicial} = 3{,}825 \\times 10^7",
+      "C_1 = \\frac{|G^*|_1}{|G^*|_{inicial}} = \\frac{3{,}867 \\times 10^7}{3{,}825 \\times 10^7} = 1{,}01"
+    ]
+  },
+  "eq53": {
+    "page": 11,
+    "bbox": [
+      48.6,
+      727.2,
+      248.1,
+      764.3
+    ],
+    "raw": "𝛼 1 2 (𝐶 2 −𝐶 3 )] 1+𝛼 ∆𝐷 3 = [𝜋𝛾 3 1+𝛼 (𝑡 3 −𝑡 2 )",
+    "latex": "\\Delta D_3 = \\left[\\pi \\gamma_3^2 (C_2 - C_3)\\right]^{\\frac{\\alpha}{1+\\alpha}} (t_3 - t_2)^{\\frac{1}{1+\\alpha}}"
+  },
+  "eq54": {
+    "page": 12,
+    "bbox": [
+      48.6,
+      42.4,
+      374.1,
+      139.5
+    ],
+    "raw": "1,935 1+1,935 = 0,049 ∆𝐷 3 = [𝜋. 0,31 2 (1,0 −0,992)] 1+1,935 (5,98 −3,81) C 3 < C 2 , portanto 𝐷 3 = 𝐷 2 + ∆𝐷 3 = 0,0 + 0,049 = 0,049 1",
+    "latex": [
+      "\\Delta D_3 = \\left[\\pi \\cdot 0{,}31^2 (1{,}0 - 0{,}992)\\right]^{\\frac{1{,}935}{1+1{,}935}} (5{,}98 - 3{,}81)^{\\frac{1}{1+1{,}935}} = 0{,}049",
+      {
+        "texto": "Então, calcula-se o dano acumulado pela seguinte expressão:"
+      },
+      "\\mathrm{C}_3 < \\mathrm{C}_2,\\ \\text{portanto } D_3 = D_2 + \\Delta D_3 = 0{,}0 + 0{,}049 = 0{,}049"
+    ]
+  },
+  "eq55": {
+    "page": 13,
+    "bbox": [
+      48.6,
+      562.6,
+      177.6,
+      593.7
+    ],
+    "raw": "𝐶(𝑡) = 𝐶 0 −𝐶 1 (𝐷(𝑡)) 𝐶 2",
+    "latex": "C(t) = C_0 - C_1 (D(t))^{C_2}"
+  },
+  "eq56": {
+    "page": 13,
+    "bbox": [
+      48.6,
+      631.4,
+      238.6,
+      661.5
+    ],
+    "raw": "𝑙𝑜𝑔(𝐶 0− 𝐶(𝑡)) = 𝑙𝑜𝑔(𝐶 1 ) + 𝐶 2 𝑙𝑜𝑔(𝐷)",
+    "latex": "\\log(C_0 - C(t)) = \\log(C_1) + C_2 \\log(D)"
+  },
+  "eq57": {
+    "page": 14,
+    "bbox": [
+      48.6,
+      346.5,
+      125.8,
+      416.0
+    ],
+    "raw": "𝐶 0 = 1,0 𝐶 1 = 0,1136 𝐶 2 = 0,4187",
+    "latex": "\\begin{aligned} C_0 &= 1{,}0 \\ C_1 &= 0{,}1136 \\ C_2 &= 0{,}4187 \\end{aligned}"
+  },
+  "eq58": {
+    "page": 14,
+    "bbox": [
+      48.6,
+      727.8,
+      286.7,
+      806.4
+    ],
+    "raw": "𝑅 = 𝛾 3 100 × |𝐺 ∗ | 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 𝛾 3 100 × 3,825 × 10 7 = 1,988 × 10 5 (Pa) 0,52 𝑅 = 𝛾 3",
+    "latex": [
+      "\\gamma_3^R = \\frac{\\gamma_3}{100} \\times |G^*|_{inicial}",
+      "\\gamma_3^R = \\frac{0{,}52}{100} \\times 3{,}825 \\times 10^7 = 1{,}988 \\times 10^5 \\text{ (Pa)}"
+    ]
+  },
+  "eq59": {
+    "page": 15,
+    "bbox": [
+      48.6,
+      87.5,
+      329.3,
+      144.0
+    ],
+    "raw": "𝑅 = 0,5 × 𝐶 3 × (𝛾 3 𝑅 ) 2 𝑊 3 𝑅 = 0,5 × 0,99 × (1,988 × 10 5 ) 2 = 1,961 × 10 10 (Pa 2 ) 𝑊 3",
+    "latex": [
+      "W_3^R = 0{,}5 \\times C_3 \\times (\\gamma_3^R)^2",
+      "W_3^R = 0{,}5 \\times 0{,}99 \\times (1{,}988 \\times 10^5)^2 = 1{,}961 \\times 10^{10} \\text{ (Pa}^2\\text{)}"
+    ]
+  },
+  "eq60": {
+    "page": 15,
+    "bbox": [
+      48.6,
+      477.0,
+      252.8,
+      569.7
+    ],
+    "raw": "1 𝐶 2 ⁄ 𝐷 𝑓 = ( 𝐶 0 −𝐶 𝑓 ) 𝐶 1 1 0,4187 ⁄ 𝐷 𝑓 = ( 1,0 −0,1717 ) = 115,1 0,1136",
+    "latex": [
+      "D_f = \\left(\\frac{C_0 - C_f}{C_1}\\right)^{1/C_2}",
+      "D_f = \\left(\\frac{1{,}0 - 0{,}1717}{0{,}1136}\\right)^{1/0{,}4187} = 115{,}1"
+    ]
+  },
+  "eq61": {
+    "page": 15,
+    "bbox": [
+      48.6,
+      587.0,
+      434.8,
+      702.3
+    ],
+    "raw": "𝑘= 1 + (1 + 𝐶 2 )𝛼= 1 + (1 + 0,4187)1,9350 = 2,1246 𝑘 10. (115,1) 2,1246 𝐹. (𝐷 𝑓 ) 2,1246(𝜋× 0,1136 × 0,1717) 1,935 = 4,4630 × 10 6 𝐴= 𝑘. (𝜋. 𝐶 1 . 𝐶 2 ) 𝛼 = 𝐵= −2𝛼= −3,8700",
+    "latex": [
+      "k = 1 + (1 + C_2)\\alpha = 1 + (1 + 0{,}4187)1{,}9350 = 2{,}1246",
+      "A = \\frac{F \\cdot (D_f)^k}{k \\cdot (\\pi \\cdot C_1 \\cdot C_2)^\\alpha} = \\frac{10 \\cdot (115{,}1)^{2{,}1246}}{2{,}1246(\\pi \\times 0{,}1136 \\times 0{,}1717)^{1{,}935}} = 4{,}4630 \\times 10^6",
+      "B = -2\\alpha = -3{,}8700"
+    ]
+  },
+  "eq62": {
+    "page": 16,
+    "bbox": [
+      326.2,
+      106.2,
+      491.5,
+      136.8
+    ],
+    "raw": "Nf = 4.462.979,1756(g) -3,8700",
+    "latex": "",
+    "ignorar": true,
+    "nota": "rótulo dentro de figura (equação da linha de tendência do gráfico)"
+  },
+  "eq63": {
+    "page": 16,
+    "bbox": [
+      48.6,
+      358.7,
+      406.7,
+      453.7
+    ],
+    "raw": "𝐹𝐹𝐿= 𝐿𝑜𝑔(𝑁 𝑓1,25 × 𝑁 𝑓2,5 ) × 𝐿𝑜𝑔( 0,0250 0,0125 ) 2 𝐹𝐹𝐿= 𝐿𝑜𝑔(1,882 × 10 6 × 1,287 × 10 5 ) × 𝐿𝑜𝑔( 0,0250 2 0,0125 ) = 1,7135",
+    "latex": [
+      "FFL = \\frac{\\operatorname{Log}(N_{f1{,}25} \\times N_{f2{,}5})}{2} \\times \\operatorname{Log}\\left(\\frac{0{,}0250}{0{,}0125}\\right)",
+      "FFL = \\frac{\\operatorname{Log}(1{,}882 \\times 10^6 \\times 1{,}287 \\times 10^5)}{2} \\times \\operatorname{Log}\\left(\\frac{0{,}0250}{0{,}0125}\\right) = 1{,}7135"
+    ]
+  },
+  "eq64": {
+    "page": 18,
+    "bbox": [
+      314.9,
+      302.7,
+      563.1,
+      328.9
+    ],
+    "raw": "Pseudodeformação (γR) ...................................... 3.8……3",
+    "latex": "",
+    "ignorar": true,
+    "nota": "linha do sumário"
+  }
+}

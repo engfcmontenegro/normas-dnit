@@ -1,0 +1,104 @@
+{
+  "eq01": {
+    "page": 5,
+    "bbox": [
+      136.1,
+      185.3,
+      276.7,
+      239.6
+    ],
+    "raw": "n • • 1 1 •• •• = N k (1) 1 σ • • t",
+    "latex": "N = k_1 \\left( \\frac{1}{\\sigma_t} \\right)^{n_1} \\tag{1}"
+  },
+  "eq02": {
+    "page": 5,
+    "bbox": [
+      136.1,
+      242.8,
+      276.7,
+      297.1
+    ],
+    "raw": "n • • 2 1 • • • • = N k (2) 2 ε • • i",
+    "latex": "N = k_2 \\left( \\frac{1}{\\varepsilon_i} \\right)^{n_2} \\tag{2}"
+  },
+  "eq03": {
+    "page": 5,
+    "bbox": [
+      130.5,
+      300.4,
+      271.2,
+      354.6
+    ],
+    "raw": "n • • 3 1 = •• •• N k (3) 3 Δ • • σ",
+    "latex": "N = k_3 \\left( \\frac{1}{\\Delta_\\sigma} \\right)^{n_3} \\tag{3}"
+  },
+  "eq04": {
+    "page": 5,
+    "bbox": [
+      130.5,
+      358.1,
+      271.2,
+      412.2
+    ],
+    "raw": "n • • σ 4 •• •• = N k t (4) 4 σ • • r",
+    "latex": "N = k_4 \\left( \\frac{\\sigma_t}{\\sigma_r} \\right)^{n_4} \\tag{4}"
+  },
+  "eq05": {
+    "page": 5,
+    "bbox": [
+      316.9,
+      40.5,
+      431.1,
+      88.9
+    ],
+    "raw": "ε = i σ t (5) MR",
+    "latex": "\\varepsilon_i = \\frac{\\sigma_t}{MR} \\tag{5}"
+  },
+  "eq06": {
+    "page": 5,
+    "bbox": [
+      320.1,
+      294.1,
+      546.2,
+      340.5
+    ],
+    "raw": "F μ MR = ( 0,9976 + 0,2692 ) (6) Δ .t",
+    "latex": "MR = \\frac{F}{\\Delta . t} \\left( 0{,}9976\\,\\mu + 0{,}2692 \\right) \\tag{6}"
+  },
+  "eq07": {
+    "page": 5,
+    "bbox": [
+      346.4,
+      691.8,
+      488.9,
+      774.7
+    ],
+    "raw": "2 F σ = (7) t π td − 6 F σ = (8) c π td",
+    "latex": [
+      "\\sigma_t = \\frac{2F}{\\pi t d} \\tag{7}",
+      "\\sigma_c = \\frac{-6F}{\\pi t d} \\tag{8}"
+    ]
+  },
+  "eq08": {
+    "page": 6,
+    "bbox": [
+      78.8,
+      41.8,
+      276.7,
+      74.6
+    ],
+    "raw": "Δ σ − σ = (9) σ c t",
+    "latex": "\\Delta_\\sigma = \\sigma_c - \\sigma_t \\tag{9}"
+  },
+  "eq09": {
+    "page": 6,
+    "bbox": [
+      78.8,
+      77.1,
+      283.7,
+      109.9
+    ],
+    "raw": "Δ σ − σ = σ − − σ = σ = 3 ( ) 4 (10) σ c t t t t",
+    "latex": "\\Delta_\\sigma = \\sigma_c - \\sigma_t = 3\\sigma_t - (-\\sigma_t) = 4\\sigma_t \\tag{10}"
+  }
+}

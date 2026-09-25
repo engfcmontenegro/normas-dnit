@@ -1,0 +1,26 @@
+{
+  "eq01": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      111.9,
+      546.7,
+      149.5
+    ],
+    "raw": "𝐿𝑒𝑖𝑡𝑢𝑟𝑎 𝑛𝑜 𝑡𝑜𝑝𝑜 𝑑𝑎 𝑎𝑟𝑒𝑖𝑎 𝐿𝑒𝑖𝑡𝑢𝑟𝑎 𝑛𝑜 𝑡𝑜𝑝𝑜 𝑑𝑎 𝑎𝑟𝑔𝑖𝑙𝑎 𝑥 100 (1) 𝐸𝐴=",
+    "latex": "EA = \\frac{\\text{Leitura no topo da areia}}{\\text{Leitura no topo da argila}} \\times 100 \\tag{1}"
+  },
+  "eq02": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      174.2,
+      349.3,
+      200.6
+    ],
+    "raw": "𝐸𝐴",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda (EA)"
+  }
+}

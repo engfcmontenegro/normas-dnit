@@ -1,0 +1,38 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      66.7,
+      105.0,
+      513.8,
+      300.7
+    ],
+    "legenda": "Figura A1 – Redução de amostras: (a) Separador de amostras e (b) Introdução da amostra no separador de",
+    "clip": [
+      62,
+      100,
+      518,
+      324
+    ]
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      117.6,
+      116.5,
+      491.4,
+      259.3
+    ],
+    "legenda": "Figura B1 – Visão em plano da divisão da amostra pelo método de quarteamento"
+  },
+  "fig03": {
+    "page": 5,
+    "bbox": [
+      117.6,
+      301.0,
+      509.3,
+      715.9
+    ],
+    "legenda": "Figura B2 – Divisão de amostra sobre superfície"
+  }
+}

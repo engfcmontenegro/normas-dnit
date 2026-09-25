@@ -1,0 +1,38 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "## 7 Condições de conformidade e\n\n## Prefácio",
+    "para": "## Prefácio",
+    "nota": "linha do sumário solta como título"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "## 7 Condições de conformidade e não-\n\nconformidade",
+    "para": "## 7 Condições de conformidade e não-conformidade",
+    "nota": "título partido"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "**3.2** Processo Via Úmida, do tipo “Terminal\n\nBlending” (estocável)",
+    "para": "**3.2** Processo Via Úmida, do tipo “Terminal Blending” (estocável)",
+    "nota": "título partido"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "(partículas passantes na peneira $n^{o}$ 40)",
+    "para": "(partículas passantes na peneira nº 40)",
+    "nota": "nº"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "- Ensaios no resíduo do material resultante do ensaio NBR 15235:2006",
+    "para": "\\* Ensaios no resíduo do material resultante do ensaio NBR 15235:2006",
+    "nota": "nota da Tabela 1 começa com asterisco no PDF, não é item de lista"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "de acordo com a Norma NBR\n\n14883/2002.",
+    "para": "de acordo com a Norma NBR 14883/2002.",
+    "nota": "parágrafo partido"
+  }
+}

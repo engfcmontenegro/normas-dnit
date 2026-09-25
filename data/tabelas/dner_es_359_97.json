@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 2,
+    "clip": [
+      85,
+      688,
+      330,
+      785
+    ],
+    "md": "| Diâmetro do tubo (mm) | declividade, % |\n| --- | --- |\n| ≤ 100 | 2,0 |\n| 125 | 1,2 |\n| 150 | 0,7 |\n| 200 | 0,5 |\n| ≥ 250 | 0,4 |",
+    "de_inicio": "Diâmetro do tubo (mm) declividade, % ≤ 100 2,0 125 1,2 150 0,7 200 0,5 ≥ 250 0,4",
+    "nota": "5.4.2: tabela sem fios"
+  }
+}

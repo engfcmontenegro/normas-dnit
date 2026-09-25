@@ -1,0 +1,62 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      55,
+      457,
+      476,
+      474
+    ],
+    "latex": "\\Delta M,\\% = \\left[(M_{\\text{inicial}} - M_{\\text{final}}) / M_{\\text{inicial}}\\right] \\times 100",
+    "nota": "fórmula da nota (1) da Tabela 1 (o retângulo pega a linha toda; o início da nota volta pelo t08)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "M inicial – massa antes do ensaio RTFOT",
+    "para": "$M_{\\text{inicial}}$ – massa antes do ensaio RTFOT",
+    "nota": "legenda"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "M final – massa após o ensaio RTFOT",
+    "para": "$M_{\\text{final}}$ – massa após o ensaio RTFOT",
+    "nota": "legenda"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "## Prefácio\n\n## Prefácio",
+    "para": "## Prefácio",
+    "nota": "título repetido"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "## 7 Condições de conformidade e não-\n\nconformidade",
+    "para": "## 7 Condições de conformidade e não-conformidade",
+    "nota": "título partido"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "Norma NBR\n\n14883:2005.",
+    "para": "Norma NBR 14883:2005.",
+    "nota": "parágrafo partido"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "nesta\n\nNorma, correspondente",
+    "para": "nesta Norma, correspondente",
+    "nota": "parágrafo partido"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "| Características |  |  | Unidade |  |  | 55/75-E |  |  | 60/85-E |  |  | 65/90-E |  |  | Método de Ensaio |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  | Limite da Especificação |  |  |  |  |  |  |  | ABNT / NBR |  |  | DNIT- ME |  |  |\n| Penetração 25ºC, 5s, 100g |  |  | 0,1 mm |  |  | 45 – 70 |  |  | 40-70 |  |  | 40-70 |  |  | - |  |  | 155/2010 |  |  |\n| Ponto de Amolecimento, mín. |  |  | ºC |  |  | 55 |  |  | 60 |  |  | 65 |  |  | - |  |  | 131/2010 |  |  |\n| Ponto de Fulgor, mín. |  |  | ºC |  |  | 235 |  |  | 235 |  |  | 235 |  |  | 11341 |  |  | - |  |  |\n| Viscosidade Brookfield a 135ºC, spíndle 21, 20 rpm, máx. |  |  | cP |  |  | 3000 |  |  | 3000 |  |  | 3000 |  |  | 15184 |  |  | - |  |  |\n| Viscosidade Brookfield a 150ºC, spíndle 21, 50 rpm, máx. |  |  | cP |  |  | 2000 |  |  | 2000 |  |  | 2000 |  |  | 15184 |  |  | - |  |  |\n| Viscosidade Brookfield a 177ºC, spíndle 21, 100 rpm, máx. |  |  | cP |  |  | 1000 |  |  | 1000 |  |  | 1000 |  |  | 15184 |  |  | - |  |  |\n| Ensaio de Separação de Fase, máx. |  |  | ºC |  |  | 5 |  |  | 5 |  |  | 5 |  |  | 15166 |  |  | - |  |  |\n| Recuperação Elástica a 25ºC, 20 cm, mín. |  |  | % |  |  | 75 |  |  | 85 |  |  | 90 |  |  | - |  |  | 130/2010 |  |  |\n|  | Efeito do calor e do ar - RTFOT , 163 ºC, 85 minutos |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| Variação de massa, máx., (1) |  |  | % massa |  |  | 1,0 |  |  | 1,0 |  |  | 1,0 |  |  | 15235 |  |  | - |  |  |\n| Variação do PA, máx. |  |  | ºC |  |  | - 5 a +7 |  |  | - 5 a +7 |  |  | - 5 a +7 |  |  | - |  |  | 131/2010 |  |  |\n| Percentagem de Penetração Original, mín. |  |  | % |  |  | 60 |  |  | 60 |  |  | 60 |  |  | - |  |  | 155/2010 |  |  |\n| Percentagem de Recuperação Elástica Original a 25ºC, mín. |  |  | % |  |  | 80 |  |  | 80 |  |  | 80 |  |  | - |  |  | 130/2010 |  |  |",
+    "para": "| Características | Unidade | 55/75-E | 60/85-E | 65/90-E | Método de Ensaio: ABNT / NBR | Método de Ensaio: DNIT- ME |\n| --- | --- | --- | --- | --- | --- | --- |\n|  |  | Limite da Especificação | Limite da Especificação | Limite da Especificação |  |  |\n| Penetração 25ºC, 5s, 100g | 0,1 mm | 45 – 70 | 40-70 | 40-70 | - | 155/2010 |\n| Ponto de Amolecimento, mín. | ºC | 55 | 60 | 65 | - | 131/2010 |\n| Ponto de Fulgor, mín. | ºC | 235 | 235 | 235 | 11341 | - |\n| Viscosidade Brookfield a 135ºC, spíndle 21, 20 rpm, máx. | cP | 3000 | 3000 | 3000 | 15184 | - |\n| Viscosidade Brookfield a 150ºC, spíndle 21, 50 rpm, máx. | cP | 2000 | 2000 | 2000 | 15184 | - |\n| Viscosidade Brookfield a 177ºC, spíndle 21, 100 rpm, máx. | cP | 1000 | 1000 | 1000 | 15184 | - |\n| Ensaio de Separação de Fase, máx. | ºC | 5 | 5 | 5 | 15166 | - |\n| Recuperação Elástica a 25ºC, 20 cm, mín. | % | 75 | 85 | 90 | - | 130/2010 |\n| **Efeito do calor e do ar - RTFOT , 163 ºC, 85 minutos** |  |  |  |  |  |  |\n| Variação de massa, máx., (1) | % massa | 1,0 | 1,0 | 1,0 | 15235 | - |\n| Variação do PA, máx. | ºC | - 5 a +7 | - 5 a +7 | - 5 a +7 | - | 131/2010 |\n| Percentagem de Penetração Original, mín. | % | 60 | 60 | 60 | - | 155/2010 |\n| Percentagem de Recuperação Elástica Original a 25ºC, mín. | % | 80 | 80 | 80 | - | 130/2010 |",
+    "nota": "Tabela 1 (Anexo A) saiu com 21 colunas (células vazias duplicadas): refeita; a imagem tab01 continua logo abaixo"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "![[dnit_129_2011_em_tab01.png]]\n\n$$",
+    "para": "![[dnit_129_2011_em_tab01.png]]\n\n(1) A variação em massa, em porcentagem, é definida como:\n\n$$",
+    "nota": "texto da nota (1) antes da fórmula m01"
+  }
+}

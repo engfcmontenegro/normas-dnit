@@ -1,0 +1,65 @@
+{
+  "eq01": {
+    "page": 4,
+    "bbox": [
+      344.6,
+      570.4,
+      409.2,
+      633.2
+    ],
+    "raw": "n ∑ x i = = X i 1 n",
+    "latex": "\\overline{X} = \\frac{\\sum_{i=1}^{n} x_i}{n}"
+  },
+  "eq02": {
+    "page": 4,
+    "bbox": [
+      344.8,
+      646.4,
+      443.8,
+      698.8
+    ],
+    "raw": "= ∑ − 2 ( x X ) i s − n 1",
+    "latex": "s = \\sqrt{\\frac{\\sum \\left(x_i - \\overline{X}\\right)^2}{n - 1}}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X- ks ≥ valor mínimo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X+ ks ≤ valor máximo",
+    "para": "$\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "X- ks < valor mínimo",
+    "para": "$\\overline{X} - ks$ < valor mínimo"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "X+ ks > valor máximo",
+    "para": "$\\overline{X} + ks$ > valor máximo"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "$i^{x}$$^{– valores individuais}$",
+    "para": "$x_i$ – valores individuais"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "X – média da amostra s - desvio padrão da amostra k - coeficiente tabelado em função do número de determinações n - número de determinações (tamanho da amostra).",
+    "para": "$\\overline{X}$ – média da amostra\n\ns - desvio padrão da amostra\n\nk - coeficiente tabelado em função do número de determinações\n\nn - número de determinações (tamanho da amostra)."
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "de acordo com a norma DNIT\n\n011/2004-PRO",
+    "para": "de acordo com a norma DNIT 011/2004-PRO"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "a) BRASIL. Departamento Nacional de Infraestrutura de Transportes. Diretoria de Planejamento e\n\nPesquisa. Coordenação Geral de Estudos e\n\nPesquisa. Instituto de Pesquisas Rodoviárias.\n\nManual de pavimentação. 3. ed. Rio de Janeiro,\n\n2006. (IPR. Publ., 719).",
+    "para": "a) BRASIL. Departamento Nacional de Infraestrutura de Transportes. Diretoria de Planejamento e Pesquisa. Coordenação Geral de Estudos e Pesquisa. Instituto de Pesquisas Rodoviárias. Manual de pavimentação. 3. ed. Rio de Janeiro, 2006. (IPR. Publ., 719).",
+    "nota": "bib: itens partidos juntados; itens da coluna direita da última página (sumidos na extração) transcritos do PDF | trecho restaurado removido: o gerador corrigido já produz a coluna direita"
+  }
+}

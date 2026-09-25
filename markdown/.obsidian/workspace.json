@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "9bf0e34039847623",
+    "type": "split",
+    "children": [
+      {
+        "id": "c45394f64727f141",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13e54cb131a6f4b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "procedimento-pro/dnit_001_2023_pro.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dnit_001_2023_pro"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ac7bf4df37e6c74b",
+    "type": "split",
+    "children": [
+      {
+        "id": "0fc397b8ecca4143",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0dd9d572eda7d53",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "1322a6f2006f7fdc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "38b2ee1c4b6bb443",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3b7e2487262e0e14",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba5518617350a35d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed3245fddca8d43a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "metodo-de-ensaio-me/dnit_036_2004_me.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "e934180e97333347",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "bf6c8382f8dc2625",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "e83be04c5b0fd3e5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "da2aaa3a318343ee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "13e54cb131a6f4b2",
+  "lastOpenFiles": [
+    "_figuras/dnit-456_2025_me_fig03.png",
+    "_figuras/dnit-456_2025_me_fig02.png",
+    "_figuras/dnit-456_2025_me_fig01.png",
+    "_formulas/dnit-456_2025_me_eq04.png",
+    "_formulas/dnit-456_2025_me_eq03.png",
+    "_formulas/dnit-456_2025_me_eq02.png",
+    "_formulas/dnit-456_2025_me_eq01.png",
+    "_figuras/dnit-412_2025_me_fig02.png",
+    "_figuras/dnit-412_2025_me_fig01.png",
+    "_formulas/dner_ie_005_94-1_eq11.png",
+    "_formulas/dner_ie_005_94-1_eq10.png",
+    "procedimento-pro/dner-pro-206-94-1.md",
+    "procedimento-pro/dner-pro-142-94-1.md",
+    "procedimento-pro/dner_pro_361_97.md",
+    "especificacao-de-material-em/dner_em_174_94-1.md",
+    "especificacao-de-servico-es/dnit_047_2004_es.md",
+    "padronizacao-pad/dnit_125_2010_pad.md",
+    "dnit_198_2021_ter.md",
+    "classificacao-cla/dnit_259_2023_cla-1.md",
+    "especificacao-de-material-em/dnit_046_2004_em.md",
+    "especificacao-de-material-em/dner_em_367_97.md",
+    "especificacao-de-material-em/dner_em_036_95-1.md",
+    "especificacao-de-material-em/dner_em_262_94-1.md",
+    "especificacao-de-material-em/dner_em_230_94-1.md",
+    "especificacao-de-material-em/dner_em_260_94-1.md",
+    "procedimento-pro/dnit_060_2004_pro.md",
+    "procedimento-pro/dnit_002_2023_pro.md",
+    "procedimento-pro/dnit_001_2023_pro.md",
+    "procedimento-pro/dner-pro-263-94-1.md",
+    "procedimento-pro/dner-pro-261-94-1.md",
+    "procedimento-pro/dner-pro-251-94-1.md",
+    "procedimento-pro/dner-pro-250-94-1.md",
+    "procedimento-pro/dner-pro-231-94-1-1.md",
+    "procedimento-pro/dner-pro-164-94-1.md",
+    "procedimento-pro/dner-pro-179-94-1.md",
+    "procedimento-pro/dner-pro-211-94-1.md",
+    "_figuras",
+    "_formulas"
+  ]
+}

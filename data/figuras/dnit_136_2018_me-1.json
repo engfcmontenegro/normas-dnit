@@ -1,0 +1,42 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      208.4,
+      107.8,
+      401.2,
+      738.5
+    ],
+    "legenda": "Figura 1 – Ensaio de Compressão Diametral de Corpo de Prova Cilíndrico"
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      100.5,
+      79.6,
+      509.2,
+      573.4
+    ],
+    "legenda": "Figura 2 – Dispositivo de colocação do corpo de prova na prensa"
+  },
+  "fig03": {
+    "page": 7,
+    "bbox": [
+      96.7,
+      106.9,
+      512.9,
+      416.1
+    ],
+    "legenda": ""
+  },
+  "fig04": {
+    "page": 7,
+    "bbox": [
+      111.3,
+      496.2,
+      498.1,
+      728.4
+    ],
+    "legenda": ""
+  }
+}

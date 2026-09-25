@@ -1,0 +1,84 @@
+{
+  "fig01": {
+    "page": 3,
+    "bbox": [
+      107.0,
+      101.0,
+      475.2,
+      247.0
+    ],
+    "legenda": "",
+    "ancora": "4.2 Devem ser preparadas três (3) amostras para cada ensaio.",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `D p = = ∑`"
+    ]
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      78.0,
+      99.0,
+      559.0,
+      356.0
+    ],
+    "legenda": "",
+    "ancora": "a) calcular a percentagem passando para cada peneira das 3 amostras;",
+    "texto_removido": [
+      "Granulometria após compactação",
+      "AM 1 AM 2 AM 3",
+      "## MÉDIA",
+      "D 19 mm 85 9,5 mm",
+      "## 65 nº 4",
+      "## 50 nº 10",
+      "## 35 nº 40",
+      "## 20 nº 200",
+      "## 5 ID",
+      "## 6 D =",
+      "Peneiras % passando nas peneiras",
+      "Granulometria original padronizada"
+    ]
+  },
+  "fig03": {
+    "page": 5,
+    "bbox": [
+      71.0,
+      77.9,
+      507.3,
+      740.0
+    ],
+    "legenda": "Figura 1 - Molde cilíndrico: Cilindro complementar e base metálica",
+    "ancora": "Figura 1 - Molde cilíndrico: Cilindro complementar e base metálica",
+    "texto_removido": [
+      "0,63",
+      "1,00",
+      "UNIDADE DE MEDIDA: CENTÍMETRO (cm)",
+      "16,51",
+      "15,24 0,05",
+      "15,00 0,05",
+      "15,87",
+      "23,81",
+      "REBAIXO 1,60 21,27",
+      "17,78 0,02 5,08",
+      "6,35 0,02",
+      "9,89",
+      "Unidade de medida:\ncentímetro (cm)",
+      "Unidade de medida:\ncentímetro (cm)",
+      "VISTA SUPERIOR",
+      "ORIFÍCIO DE 0,32 NO PRATO DE BASE",
+      "BRONZE",
+      "OU LATÃO",
+      "CORTE"
+    ]
+  },
+  "fig04": {
+    "page": 6,
+    "bbox": [
+      78.0,
+      152.0,
+      471.0,
+      604.0
+    ],
+    "legenda": "Figura 2 - Disco espaçador",
+    "ancora": "Figura 2 - Disco espaçador"
+  }
+}

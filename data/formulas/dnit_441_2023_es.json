@@ -1,0 +1,81 @@
+{
+  "eq01": {
+    "page": 4,
+    "bbox": [
+      360.4,
+      679.0,
+      424.6,
+      705.4
+    ],
+    "raw": "≥ 50 kN/m.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto (≥ 50 kN/m) da NOTA 4"
+  },
+  "eq02": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      489.1,
+      551.4,
+      529.3
+    ],
+    "raw": "𝑛 ∑ 𝑥 𝑖 (1) 𝑖=1 𝑋= 𝑛",
+    "latex": "\\bar{X} = \\frac{\\sum_{i=1}^{n} x_i}{n} \\tag{1}"
+  },
+  "eq03": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      537.2,
+      552.3,
+      575.2
+    ],
+    "raw": "𝑠= √ ∑(𝑥 𝑖 −𝑋̅)² (2) 𝑛−1",
+    "latex": "s = \\sqrt{\\frac{\\sum (x_i - \\bar{X})^2}{n-1}} \\tag{2}"
+  },
+  "eq04": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      639.0,
+      435.4,
+      665.4
+    ],
+    "raw": "𝑋 é a média da amostra;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável da legenda"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "$X$− $k_{s}$ ≥ valor mínimo especificado;",
+    "para": "$\\bar{X} - ks$ ≥ valor mínimo especificado;"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "$X$+ $k_{s}$ ≤ $^{valor máximo especificado.}$",
+    "para": "$\\bar{X} + ks$ ≤ valor máximo especificado."
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "$X$− $k_{s}$ $<^{valor mínimo especificado;}$",
+    "para": "$\\bar{X} - ks$ < valor mínimo especificado;"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "$X$+ $k_{s}$ $>^{valor máximo especificado.}$",
+    "para": "$\\bar{X} + ks$ > valor máximo especificado."
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "$X$ é a média da amostra;",
+    "para": "$\\bar{X}$ é a média da amostra;"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "1000 m3 ou quando alterar",
+    "para": "1000 m³ ou quando alterar",
+    "nota": "Tabela 1: m³"
+  }
+}

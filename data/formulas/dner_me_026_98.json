@@ -1,0 +1,38 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      70,
+      442,
+      140,
+      480
+    ],
+    "latex": [
+      "PC = \\frac{1}{L \\times K}"
+    ],
+    "de_inicio": "**6.2.1** O poder de cobertura em m 2 /L é calculado pela fórmula:",
+    "de_fim": "**6.2.1** O poder de cobertura em m 2 /L é calculado pela fórmula:",
+    "para": "**6.2.1** O poder de cobertura em m²/L é calculado pela fórmula:\n\n$$\nPC = \\frac{1}{L \\times K}\n$$",
+    "nota": "fórmula ausente no md (PDF digital, fração não extraída)"
+  },
+  "t01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "em m 2 /L.",
+    "para": "em m²/L."
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Esta Norma apresenta as condições para a`\n\ndeterminação",
+    "de_fim": "determinação",
+    "para": "Esta Norma apresenta as condições para a determinação",
+    "nota": "aviso falso: texto do prefácio"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "## 1 DNER-ME 026/98\n\n### Tabela\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `(PC) mm m 2 /L",
+    "de_fim": "15 9,5 / Anexo`",
+    "para": "### Tabela\n\n| Avanço (L) mm | Poder de Cobertura (PC) m²/L | Avanço (L) mm | Poder de Cobertura (PC) m²/L |\n|:---:|:---:|:---:|:---:|\n| 5 | 28,6 | 16 | 8,9 |\n| 6 | 23,8 | 17 | 8,4 |\n| 7 | 20,4 | 18 | 7,9 |\n| 8 | 17,9 | 19 | 7,5 |\n| 9 | 15,9 | 20 | 7,1 |\n| 10 | 14,3 | 21 | 6,8 |\n| 11 | 13,0 | 22 | 6,5 |\n| 12 | 11,9 | 23 | 6,2 |\n| 13 | 11,0 | 24 | 6,0 |\n| 14 | 10,2 | 25 | 5,7 |\n| 15 | 9,5 |  |  |",
+    "nota": "aviso falso: Tabela (p. 4) reconstruída; cabeçalho de página '## 1 DNER-ME 026/98' removido"
+  }
+}

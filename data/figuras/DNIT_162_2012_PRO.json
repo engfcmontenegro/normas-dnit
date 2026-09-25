@@ -1,0 +1,52 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      56.9,
+      392.6,
+      294.8,
+      531.4
+    ],
+    "legenda": ""
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      57.1,
+      98.7,
+      560.2,
+      697.8
+    ],
+    "legenda": ""
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      56.9,
+      109.1,
+      563.4,
+      448.5
+    ],
+    "legenda": "Foto 01 – Veículo com os equipamentos e dispositivos."
+  },
+  "fig04": {
+    "page": 6,
+    "bbox": [
+      59.6,
+      502.7,
+      550.2,
+      693.3
+    ],
+    "legenda": "Foto 02 – Mecanismo sob o veículo."
+  },
+  "fig05": {
+    "page": 7,
+    "bbox": [
+      91.1,
+      95.1,
+      518.8,
+      748.6
+    ],
+    "legenda": ""
+  }
+}

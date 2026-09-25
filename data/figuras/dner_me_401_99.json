@@ -1,0 +1,133 @@
+{
+  "fig01": {
+    "page": 3,
+    "bbox": [
+      104.1,
+      384.0,
+      484.2,
+      550.0
+    ],
+    "legenda": "",
+    "ancora": "e) a temperatura dos corpos-de-prova é aquela na qual apresenta uma viscosidade ",
+    "texto_removido": [
+      "Peneiras Porcentagem de material retido",
+      "Quantidade 25,4 mm – 19 mm 15 180"
+    ]
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      70.0,
+      155.0,
+      559.0,
+      403.0
+    ],
+    "legenda": "",
+    "ancora": "5 DETERMINAÇÃO DO IDM - ÍNDICE DE DEGRADAÇÃO APÓS COMPACTAÇÃO",
+    "inserir_antes": "## 5 DETERMINAÇÃO DO",
+    "texto_removido": [
+      "Peneiras Granulometria Granulometria após compactação",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `D = = ∑`",
+      "original AM 1 AM 2 AM 3",
+      "## MÉDIA",
+      "D 19 mm 85 9,5 mm",
+      "## 65 nº 4",
+      "## 50 nº 10",
+      "## 35 nº 40",
+      "## 20 nº 200",
+      "## 5 ID",
+      "## 6 D =",
+      "ID D = Σ",
+      "% Passando nas peneiras",
+      "1 6",
+      "9,5"
+    ]
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      71.0,
+      77.9,
+      511.0,
+      714.0
+    ],
+    "legenda": "",
+    "ancora": "UNIDADE DE MEDIDA: MILÍMETRO (mm)",
+    "texto_removido": [
+      "6,3",
+      "9,5",
+      "6 6,3",
+      "5"
+    ]
+  },
+  "fig04": {
+    "page": 7,
+    "bbox": [
+      68.0,
+      74.0,
+      527.0,
+      691.4
+    ],
+    "legenda": "",
+    "ancora": "Para o cálculo do IDM proceder de acordo com a Sub-Seção 4.3 e a Tabela 2.",
+    "texto_removido": [
+      "UNIDADE DE MEDIDA: MILÍMETRO (mm)",
+      "RELAÇÃO DAS PEÇAS",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `ITEM 1 2 3 4 5 6 7 8 MATERIAL AÇO “ “ “ “ “ “ “ QUANTIDADE 1 “ “ “ “ “ “ “`",
+      "DESCRIMINAÇÃO",
+      "PÉ",
+      "LUVA",
+      "HASTE",
+      "PUNHO",
+      "SOQUETE",
+      "GUIA DA MOLA",
+      "MOLA",
+      "PARAFUSO PAR FIXAÇÃO DA LUVA",
+      "DO CONJUNTO",
+      "7850 g 7 2",
+      "## 8 PÉ",
+      "1 15,9",
+      "57,1",
+      "98,4",
+      "44,9",
+      "26,6",
+      "12,7",
+      "LUVA",
+      "2 15,9",
+      "15,9",
+      "46,9",
+      "44,4",
+      "34,1",
+      "57,1",
+      "GUIA DA MOLA",
+      "31,7",
+      "23,8",
+      "15,9",
+      "26,6",
+      "12,7",
+      "PUNHO",
+      "4 18,0",
+      "25,0",
+      "65,5",
+      "45º",
+      "139,7",
+      "50,8",
+      "12,7",
+      "HASTE",
+      "3 816,0",
+      "12,7",
+      "38,1",
+      "15,9",
+      "190,5",
+      "45º 40º",
+      "40º",
+      "114,3",
+      "304,8",
+      "4540 g 76,9",
+      "28,5",
+      "44,4",
+      "12,7",
+      "SOQUETE"
+    ]
+  }
+}

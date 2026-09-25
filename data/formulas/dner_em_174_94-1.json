@@ -1,0 +1,44 @@
+{
+  "t01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "## 2 O\n\ntn Boy IN\n\nAceitação e rejeição\n\n",
+    "para": "",
+    "nota": "lixo de OCR do sumário (p. 1)"
+  },
+  "t02": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "deve ter 0,5 cm + 0,2 cm e a face do chanfro deve ter 0,5 cm + 0,2 cem.",
+    "para": "deve ter 0,5 cm ± 0,2 cm e a face do chanfro deve ter 0,5 cm ± 0,2 cm.",
+    "nota": "4.2 (p. 3): ± lido como +"
+  },
+  "t03": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "furos de 0,5 cm + 0,1 cm de diâmetro",
+    "para": "furos de 0,5 cm ± 0,1 cm de diâmetro",
+    "nota": "4.3.1 (p. 3): ± lido como +"
+  },
+  "t04": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "é 5.2 Osestribos devem ser debarras de aço de, no mínimo, 0,4 cm de diâmetro, espaçados de, no máximo, e 15 cm.",
+    "para": "**4.5.2** Os estribos devem ser de barras de aço de, no mínimo, 0,4 cm de diâmetro, espaçados de, no máximo, 15 cm.",
+    "nota": "4.5.2 (p. 3): número do item e texto quebrados pelo OCR"
+  },
+  "t05": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "tolerância de + 2 cm no comprimento e de + 0,5 cm nas dimensões",
+    "para": "tolerância de ± 2 cm no comprimento e de ± 0,5 cm nas dimensões",
+    "nota": "5 (p. 3): ± lido como +"
+  },
+  "t06": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "Tabela - Limite da resistência à flexão de mourões\n\n**8.2** Absorção\n\n![[dner_em_174_94-1_fig01.png]]",
+    "para": "Tabela - Limite da resistência à flexão de mourões\n\n![[dner_em_174_94-1_fig01.png]]\n\n**8.2** Absorção",
+    "nota": "embed da fig01 (página 4 inteira) estava depois do título 8.2: levado para depois do título da tabela, onde tabm01 o substitui"
+  }
+}

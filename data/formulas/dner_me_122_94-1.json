@@ -1,0 +1,65 @@
+{
+  "eq01": {
+    "page": 4,
+    "clip": [
+      65,
+      678,
+      300,
+      730
+    ],
+    "latex": [
+      "h = \\frac{P_h - P_s}{P_s} \\times 100"
+    ],
+    "de_inicio": "Determinar a umidade pela fórmula:\n\nP,-P ph=",
+    "de_fim": "até constância de massa.",
+    "para": "Determinar a umidade pela fórmula:\n\n$$\nh = \\frac{P_h - P_s}{P_s} \\times 100\n$$\n\nem que:\n\n$h$ - teor da umidade, em percentagem;\n$P_h$ - massa do solo úmido;\n$P_s$ - massa do solo seco em estufa a 105 ºC - 110 ºC, até constância de massa."
+  },
+  "eq02": {
+    "page": 6,
+    "clip": [
+      65,
+      140,
+      260,
+      182
+    ],
+    "latex": [
+      "LL = h \\left( \\frac{N}{25} \\right)^{0{,}156}",
+      "LL = h \\times K_{(N)}",
+      "K_{(N)} = \\left( \\frac{N}{25} \\right)^{0{,}156}"
+    ],
+    "de_inicio": "### Tabela - Valores de K (ny em função do número de golpes",
+    "de_fim": "<<FIM>>",
+    "para": "### Tabela - Valores de $K_{(N)}$ em função do número de golpes\n\n![[dner_me_122_94-1_fig01.png]]\n\n**8.2** Resultado\n\nO limite de liquidez é determinado pela fórmula:\n\n$$\nLL = h \\left( \\frac{N}{25} \\right)^{0{,}156}\n$$\n\nou\n\n$$\nLL = h \\times K_{(N)}\n$$\n\nem que:\n\n$h$ - teor de umidade (%), correspondente a N golpes;\n$N$ - número de golpes na determinação de um ponto do ensaio;\n$LL$ - limite de liquidez (%)\n\n$$\nK_{(N)} = \\left( \\frac{N}{25} \\right)^{0{,}156}\n$$\n\nNo caso de os valores encontrados nas duas determinações (ver 8.1) diferirem de mais de 1%, o ensaio deve ser repetido.\n\nO limite de liquidez é a média das duas determinações.\n\n## ANEXO NORMATIVO - FIGURAS\n\n![[dner_me_122_94-1_fig02.png]]\n\n### Figura 1 - Aparelho de Casagrande para determinação do limite de liquidez\n\n### Figura 2\n\nUnidade de medida: centímetro (cm)\n",
+    "nota": "8.2: no PDF o 0,156 está impresso na linha de base, sem sobrescrito; é expoente (confere com a tabela de K(N): (20/25)^0,156 = 0,966). Tabela movida para 8.1 e anexo reescrito."
+  },
+  "eq03": {
+    "page": 6,
+    "clip": [
+      65,
+      205,
+      200,
+      235
+    ],
+    "latex": [
+      "LL = h \\times K_{(N)}"
+    ]
+  },
+  "eq04": {
+    "page": 6,
+    "clip": [
+      65,
+      340,
+      200,
+      380
+    ],
+    "latex": [
+      "K_{(N)} = \\left( \\frac{N}{25} \\right)^{0{,}156}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "## MÉTODO EXPEDITO",
+    "para": "## 8 MÉTODO EXPEDITO",
+    "nota": "título sem número"
+  }
+}

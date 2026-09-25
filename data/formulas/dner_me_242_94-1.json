@@ -1,0 +1,81 @@
+{
+  "eq01": {
+    "page": 4,
+    "clip": [
+      60,
+      168,
+      335,
+      218
+    ],
+    "latex": [
+      "\\%\\ \\text{PbCrO}_4\\ \\text{na matéria mineral} = \\frac{B \\times N \\times 0{,}1077 \\times 100}{A}",
+      "\\%\\ \\text{matéria mineral} = 100 - \\text{teor de ligante}",
+      "\\%\\ \\text{PbCrO}_4\\ \\text{no material termoplástico} = \\frac{\\%\\ \\text{PbCrO}_4\\ \\text{na matéria mineral} \\times \\%\\ \\text{matéria mineral}}{100}"
+    ],
+    "de_inicio": "**5.6** Anotar o número de mililitros gastos na titulação.\n\nme\n\n## 6 CÁLCULOS",
+    "de_fim": "## RESULTADO",
+    "para": "**5.6** Anotar o número de mililitros gastos na titulação.\n\n## 6 CÁLCULOS\n\n**6.1** Percentagem de PbCrO₄ na matéria mineral:\n\n$$\n\\%\\ \\text{PbCrO}_4\\ \\text{na matéria mineral} = \\frac{B \\times N \\times 0{,}1077 \\times 100}{A}\n$$\n\nonde:\n\n$A$ - gramas da amostra;\n$B$ - mililitros gastos na titulação;\n$N$ - normalidade da solução de Na₂S₂O₃.\n\n**6.2** Percentagem de matéria mineral no material termoplástico:\n\n$$\n\\%\\ \\text{matéria mineral} = 100 - \\text{teor de ligante}\n$$\n\n**6.3** Percentagem de PbCrO₄ no material termoplástico:\n\n$$\n\\%\\ \\text{PbCrO}_4\\ \\text{no material termoplástico} = \\frac{\\%\\ \\text{PbCrO}_4\\ \\text{na matéria mineral} \\times \\%\\ \\text{matéria mineral}}{100}\n$$\n\n## 7 RESULTADO",
+    "nota": "0,107 7 no PDF (espaço de agrupamento de dígitos)"
+  },
+  "eq02": {
+    "page": 4,
+    "clip": [
+      60,
+      380,
+      270,
+      402
+    ],
+    "latex": [
+      "\\%\\ \\text{matéria mineral} = 100 - \\text{teor de ligante}"
+    ]
+  },
+  "eq03": {
+    "page": 4,
+    "clip": [
+      60,
+      450,
+      490,
+      500
+    ],
+    "latex": [
+      "\\%\\ \\text{PbCrO}_4\\ \\text{no material termoplástico} = \\frac{\\%\\ \\text{PbCrO}_4\\ \\text{na matéria mineral} \\times \\%\\ \\text{matéria mineral}}{100}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "\n\nCo\n\nL\n\n## 1 OBJETIVO",
+    "para": "\n\n## 1 OBJETIVO",
+    "nota": "lixo de OCR"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "**4.1.3** Bicromato de potássio pa. -K CrO..\n\nitida desde que citado o DNER como fonte ução perm Reprod\n\n**4.1.4** Carbonato de sódio anidro p.a. - Na CO,.",
+    "para": "**4.1.3** Bicromato de potássio p.a. - K₂Cr₂O₇.\n\n**4.1.4** Carbonato de sódio anidro p.a. - Na₂CO₃.",
+    "nota": "fórmulas químicas; tarja lateral no meio do texto"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "Tiossulfato de sódio p.a. - Na,S,0,.5HO",
+    "para": "Tiossulfato de sódio p.a. - Na₂S₂O₃.5H₂O"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "24,9 g de Na,S,0,.SH,O puro",
+    "para": "24,9 g de Na₂S₂O₃.5H₂O puro"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "**42.2** Solução de iodeto de potássio (KI) a 300 g/1:.",
+    "para": "**4.2.2** Solução de iodeto de potássio (KI) a 300 g/l:"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "**42.4** Solução",
+    "para": "**4.2.4** Solução"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "HCI",
+    "para": "HCl"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      100,
+      384,
+      350,
+      424
+    ],
+    "latex": [
+      "\\text{Peneira n}^{\\text{o}}\\ 10 \\qquad P_{10} = \\frac{M_1 - Mr_1}{M_1} \\times 100",
+      "\\text{Peneira n}^{\\text{o}}\\ 40 \\qquad P_{40} = \\frac{M_1 - (Mr_1 + Mr_2)}{M_1} \\times 100"
+    ],
+    "de_inicio": "pelas seguintes fórmulas:\n\nEm que:",
+    "de_fim": "Mr 2 = massa da amostra retida na peneira nº 40.",
+    "para": "pelas seguintes fórmulas:\n\n$$\n\\text{Peneira n}^{\\text{o}}\\ 10 \\qquad P_{10} = \\frac{M_1 - Mr_1}{M_1} \\times 100\n$$\n\n$$\n\\text{Peneira n}^{\\text{o}}\\ 40 \\qquad P_{40} = \\frac{M_1 - (Mr_1 + Mr_2)}{M_1} \\times 100\n$$\n\nEm que:\n\n$P_{10}$ = perda de massa do agregado (desgaste) em percentagem; na peneira nº 10;\n$P_{40}$ = perda de massa do agregado (desgaste) em percentagem; na peneira nº 40;\n$M_1$ = massa inicial da amostra (ver Seção 4);\n$Mr_1$ = massa da amostra retida na peneira nº 10;\n$Mr_2$ = massa da amostra retida na peneira nº 40.",
+    "nota": "fórmulas ausentes no md (PDF digital, fórmulas em objeto); a ficha do Anexo (p. 4) as repete, já na imagem fig01"
+  },
+  "eq02": {
+    "page": 3,
+    "clip": [
+      100,
+      430,
+      350,
+      474
+    ],
+    "latex": [
+      "\\text{Peneira n}^{\\text{o}}\\ 40 \\qquad P_{40} = \\frac{M_1 - (Mr_1 + Mr_2)}{M_1} \\times 100"
+    ]
+  }
+}

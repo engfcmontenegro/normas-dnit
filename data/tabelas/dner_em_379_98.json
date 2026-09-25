@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      136,
+      244,
+      525,
+      369
+    ],
+    "md": "| Peneiras nº | Abertura mm | % em peso, passando |\n| --- | --- | --- |\n| 12 | 1,7 | 100 |\n| 14 | 1,4 | 95-100 |\n| 16 | 1,2 | 80-95 |\n| 18 | 1,0 | 10-40 |\n| 20 | 0,84 | 0-5 |\n| 25 | 0,70 | 0-2 |",
+    "de_inicio": "![[dner_em_379_98_fig01.png]]",
+    "nota": "Tabela 1 - Faixa granulométrica (tabela sem fios; tinha virado figura fig01)"
+  }
+}

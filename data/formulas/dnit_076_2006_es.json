@@ -1,0 +1,8 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "| 82,50 |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 74,00 | 74,50 |  |  |  |  |  |  |\n|  | 67,00 | 68,50 66,00 |  |  |  |  |  |  |\n|  |  | 62,00 |  | 60,00 | 65,00 62,50 60,00 |  |  |  |\n|  |  |  |  | 57,00 | 57,00 |  | 58,50 |  |\n|  |  |  |  |  | 53,00 | 54,50 51,00 | 52,50 | 51,00 |\n|  |  |  |  |  |  |  | 49,00 | 47,00 |\n\n![[dnit_076_2006_es_tab02.png]]\n\n65 dB(A)\n\n50 75 100\n\n20 distância do eixo da rodovia (m) sem barreira\n\nTransmissão sonora\n\n![[dnit_076_2006_es_fig01.png]]\n\n150 200 250 300 barreira c/ 2m barreira c/ 4m",
+    "para": "![[dnit_076_2006_es_fig01.png]]",
+    "nota": "Anexo A (p. 8): o gráfico de nível de ruído foi lido como tabela (tab02) e seus rótulos como texto; o gráfico e a figura 'Transmissão sonora' ficam na imagem fig01 (clip ampliado)"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      66,
+      543,
+      140,
+      562
+    ],
+    "latex": [
+      "D = L \\times 2{,}54"
+    ],
+    "de_inicio": "Tabela 1 - Localização dos pontos\n\n## 5 RESULTADOS\n\n**5.1** Cálculo das deflexões\n\n![[dner_me_039_94-1_fig01.png]]",
+    "de_fim": "- fator de conversão",
+    "para": "### Tabela 1 - Localização dos pontos\n\n![[dner_me_039_94-1_fig01.png]]\n\n## 5 RESULTADOS\n\n**5.1** Cálculo das deflexões\n\nAs deflexões devem ser calculadas em centésimos de milímetros, pela aplicação da fórmula:\n\n$$\nD = L \\times 2{,}54\n$$\n\nonde:\n\n$D$ - deflexão, em centésimos de milímetros\n$L$ - leitura do sensor, em milímetros de polegadas\n2,54 - fator de conversão",
+    "nota": "tabela 1 (imagem) estava depois do título 5.1; legenda 'milímetros de polegadas' transcrita como no PDF (provavelmente 'milésimos de polegada')"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "amplitude de 127 x 10% m e",
+    "para": "amplitude de $127 \\times 10^{-6}$ m e",
+    "nota": "4.1: 10^-6 lido como 10%"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "atinja o valor de 5 x 10º polegadas.",
+    "para": "atinja o valor de $5 \\times 10^{-3}$ polegadas.",
+    "nota": "4.1: 10^-3 lido como 10º"
+  },
+  "t03": {
+    "texto": true,
+    "de_inicio": "Afastamentos: x(m) | O 0,30/0,60 /0,90] 1,20 Deflexões:\nD (0,01 mm)| DI D2 | D3 D4 | D5",
+    "de_fim": "D (0,01 mm)| DI D2 | D3 D4 | D5",
+    "para": "| Afastamentos: x (m) | 0 | 0,30 | 0,60 | 0,90 | 1,20 |\n|---|---|---|---|---|---|\n| Deflexões: D (0,01 mm) | D1 | D2 | D3 | D4 | D5 |",
+    "nota": "Tabela 2 reconstruída do PDF (p. 3)"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "(abscissa) e = deflexões dos geofones",
+    "para": "(abscissa) e das deflexões dos geofones"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "\nTabela 2 - Elementos para desenhar",
+    "para": "\n### Tabela 2 - Elementos para desenhar"
+  }
+}

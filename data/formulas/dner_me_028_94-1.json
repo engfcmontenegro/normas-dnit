@@ -1,0 +1,9 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `lios os HZ He`",
+    "de_fim": "`lios os HZ He`\n\n3e.. e2 | 68 ve",
+    "para": "3e.. e2 | 68 ve",
+    "nota": "aviso falso: pedaço da Tabela I (Anexo B, OCR da tabela); para não-vazio porque o script trata para='' como já aplicado"
+  }
+}

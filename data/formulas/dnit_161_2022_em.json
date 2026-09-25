@@ -1,0 +1,33 @@
+{
+  "eq01": {
+    "page": 4,
+    "bbox": [
+      336.0,
+      376.2,
+      563.4,
+      402.5
+    ],
+    "raw": "resultado o valor de permeabilidade “𝑘” de mesma",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável 𝑘 no texto de 4.2.1 b)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "| m2/s | 2,00 x 10-3 |",
+    "para": "| m²/s | 2,00 x 10⁻³ |",
+    "nota": "Tabela 4: expoentes perdidos"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "| g/m2 |",
+    "para": "| g/m² |",
+    "nota": "Tabela 4"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "| 15 X 10-4 |",
+    "para": "| 15 X 10⁻⁴ |",
+    "nota": "Tabela 5"
+  }
+}

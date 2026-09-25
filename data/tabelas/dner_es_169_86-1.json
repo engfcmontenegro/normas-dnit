@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      62,
+      268,
+      460,
+      435
+    ],
+    "md": "| Quantidade de defeitos no levantamento | Diferença máxima admissível |\n| --- | --- |\n| 0 - 4 | 0 |\n| 5 - 9 | 1 |\n| 10 - 18 | 2 |\n| 19 - 24 | 3 |\n| 25 - 30 | 4 |\n| 30 | 5 |",
+    "de_inicio": "Quantidade de defeitos Diferença máxima no levantamento admissível 0-4 ree re eaan er ee nana eraaaa aeee cre naaaaa cer aacaanoa\n\n## 0 DD irem reremereeeemeenerereerererreneeneeeeeenereneermteno\n\n1 10-18 erre eres cera narra ne cara ca renaeeeaa 2 19124; a 3 25-30 ir iirs rena ae eeearecearaaen araras areeaaaaananeaea\n\nir reeereeaenereaca eee aerenane rena eanacacenacerenaaieaaneta 5 7",
+    "nota": "tabela sem fios (linhas pontilhadas); última linha '30' como no PDF (provavelmente > 30)"
+  }
+}

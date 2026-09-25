@@ -1,0 +1,28 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 5,
+    "clip": [
+      82,
+      184,
+      542,
+      477
+    ],
+    "md": "| Requisitos | Mínimo | Máximo |\n| --- | --- | --- |\n| Consistência, UK | 75,00 | 90,00 |\n| Estabilidade na armazenagem |  |  |\n| - alteração de consistência, UK | - | 5,00 |\n| Matéria não volátil, porcentagem em massa de tinta | 65,90 | - |\n| Pigmento, porcentagem em massa da tinta | 45,00 | - |\n| Para tinta branca: |  |  |\n| - Dióxido de titânio (TiO₂), porcentagem em massa no pigmento. | 22,00 | - |\n| Para tinta amarela: |  |  |\n| - Cromato de chumbo (PbCrO₄), porcentagem em massa no pigmento, sendo permitido substituir até 15% do teor utilizado, por TiO₂. | 22,00 | - |\n| Veículo não volátil, porcentagem em massa no veículo. | 38,00 | - |\n| Veículo total, porcentagem em massa na tinta. | - | 55,00 |\n| Tempo de secagem, \"no pick-up time\", minutos. | - | 15,00 |\n| Resistência à abrasão, litros de óxido de alumínio. | 65,00 | - |\n| Massa específica, g/cm³. | 1,35 | 1,45 |\n| Brilho a 60º, unidades. | - | 20,00 |",
+    "de_inicio": "- alteração de consistência, UK 5,00 Matéria não volátil, porcentagem em massa de tinta 65,90 Pigmento, porcentagem em massa da tinta 45,00 Para tinta branca:\n\n- Cromato de chumbo (PbCrO 4 ), porcentagem em massa no pigmento, sendo permitido substituir até 15% do teor utilizado, por TiO 2 . 22,00 Veículo não volátil, porcentagem em massa no veículo. 38,00 Veículo total, porcentagem em massa na tinta. 55,00 Tempo de secagem, \"no pick-up time\", minutos. 15,00 Resistência à abrasão, litros de óxido de alumínio. 65,00",
+    "nota": "Tabela 1 sem fios verticais: tinha virado a figura de página inteira fig01 e texto achatado"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 5,
+    "clip": [
+      108,
+      580,
+      542,
+      790
+    ],
+    "md": "| Cor (notação Munsell Highway) |  |\n| --- | --- |\n| - tinta branca | N 9.5 (Tolerância N 9.0) ou padrão branco do DNER |\n| - tinta amarela | 10YR 7,5/14 e suas tolerâncias exceto notações 2,0Y 7,5/14 e10YR 6,5/14 |\n| Estabilidade na diluição | Satisfatória |\n| Flexibilidade | Satisfatória |\n| Aderência | Satisfatória |\n| Resistência à água | Satisfatória |\n| Resistência ao calor | Satisfatória |\n| Sangramento | Ausência |\n| Formação de nata | Ausência |\n| Breu e derivados | Ausência |\n| Resina | Estireno-acrilato e/ou estireno-butadieno |",
+    "de_inicio": "N 9.5 (Tolerância N 9.0) ou padrão branco do DNER 10YR 7,5/14 e suas tolerâncias exceto notações 2,0Y 7,5/14 e10YR 6,5/14 Estabilidade na diluição Satisfatória Flexibilidade Satisfatória Aderência Satisfatória Resistência à água Satisfatória Resistência ao calor Satisfatória Sangramento Ausência Formação de nata Ausência Breu e derivados Ausência Resina Estireno-acrilato e/ou estireno-butadieno",
+    "nota": "Tabela 2 sem cabeçalho no PDF: a 1ª linha (Cor) vai no cabeçalho"
+  }
+}

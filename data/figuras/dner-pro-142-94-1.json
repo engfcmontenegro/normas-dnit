@@ -1,0 +1,56 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      113.0,
+      52.3,
+      544.6,
+      761.7
+    ],
+    "legenda": "FIGURA 2",
+    "ancora": "FIGURA 2",
+    "texto_removido": [
+      "- FIGURAS",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `—— cc DERCIRO tIRRANA NEFIMINA TT eU ares VIVER`",
+      "PELO DRF— EXTENSÃO - 6,8 km",
+      "4 . TÉRMINO DA JURISDIÇÃO FEDERAL",
+      "INTERRUPÇÃO DA MARCAÇÃO",
+      "REINÍCIO DA JURISDIÇÃO FEDERAL",
+      "REINÍCIO DA MARCAÇÃO",
+      "## 2 TT",
+      "4 “km O",
+      "## 2 A"
+    ]
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      131.0,
+      71.0,
+      559.7,
+      777.0
+    ],
+    "legenda": "FIGURA 2",
+    "ancora": "FIGURA 2"
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      97.7,
+      51.6,
+      546.5,
+      747.6
+    ],
+    "legenda": "",
+    "ancora": "REINÍCIO DA JURISDIÇÃO FEDERAL",
+    "texto_removido": [
+      "TMD BR-136",
+      "TRECHO COMUM",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `pf à eai , v xm iz um 4 km |6 L 25 km`",
+      "1º PASSAGEM km 74 km O",
+      "U. E",
+      "TD é km 78",
+      "2º PASSAGEM"
+    ]
+  }
+}

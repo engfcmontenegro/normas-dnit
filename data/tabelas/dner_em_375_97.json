@@ -1,0 +1,120 @@
+{
+  "tab01": {
+    "page": 2,
+    "bbox": [
+      71.0,
+      446.1,
+      559.7,
+      761.5
+    ],
+    "ignorar": true,
+    "nota": "cabeçalho complexo desmontado e linhas trocadas: refeita em tabm01",
+    "texto_removido": [
+      "Diâme-tro nominal do fio",
+      "Tolerância no diâmetro",
+      "Área da seção nominal",
+      "Massa nominal",
+      "Limite de resistência à tração mín. (A)",
+      "Tensão a 1% de alongamento mín. (B)",
+      "Alongamento após ruptura (em 10d)",
+      "Número de dobramentos (C)",
+      "Relação máxima após 1000h a 20ºC para tensão inicial de 70% e 80% do limite de resistência mínima especificado (%) (mm) (mm) (mm 2 ) (kg/1000m) (MPa) (MPa)",
+      "Total",
+      "Zona de estricção (min) (%) (mín.)",
+      "70% 80%",
+      "CP-150 RN8 8 50,3 395 1500 1280 6",
+      "CP-160 RN8 8 1600 1360 5",
+      "CP-150 RN7 7 38,5 302 1500 1280 6",
+      "CP-160 RN7 7 1600 1360 5",
+      "CP-150 RN6 6 ! 0,05 28,3 222 1500 1280 6 2 3 5 8,5",
+      "CP-160 RN6 6 1600 1360 5",
+      "CP-150 RN5 5 19,6 154 1500 1280 6",
+      "CP-160 RN5 5 1600 1360 5",
+      "CP-160 RN4 4 12,6 98,7 1600 1360"
+    ],
+    "nota_tabela": "kgf/mm2. Para efeitos desta Norma, considera-se 1 kgf/mm2 = 10 MPa."
+  },
+  "tab02": {
+    "page": 3,
+    "bbox": [
+      85.2,
+      86.6,
+      560.3,
+      308.7
+    ],
+    "ignorar": true,
+    "nota": "cabeçalho complexo desmontado e designações fundidas: refeita em tabm02",
+    "texto_removido": [
+      "Diâmetro nominal do fio",
+      "Tolerância no diâmetro",
+      "Área da seção nominal",
+      "Massa nominal",
+      "Limite de resistência à tração min. (A)",
+      "Tensão a 1% de alongamento mín. (B)",
+      "Alongamento após ruptura (em 10d) Número de dobramentos (C)",
+      "Relação máxima após 1000h a 20ºC para tensão inicial de 70% e 80% do limite de resistência mínima especificada (%) (mm) (mm) (mm 2 ) (kg/1000m) (MPa) (MPa) Total Zona de estricção (mín.)",
+      "70% 80% (min) (%)",
+      "CP-150 RB8 8 50,3 395 1500 1350 6",
+      "CP-160 RB8 8 1600 1440 5",
+      "CP-150 RB7 7 38,5 302 1500 1350 6",
+      "CP-160 RB7 7 1600 1440 5",
+      "CP-150 RB6 6 ! 0,05 28,3 222 1500 1350 6 2 3 2 3",
+      "CP-160 RB6 6 1600 1440 5",
+      "CP-150 RB5 5 19,6 154 1500 1350 6",
+      "CP-160 RB5 5 1600 1440 5",
+      "CP-160 RB4 4 12,6 98,7 1600 1440"
+    ]
+  },
+  "tabm01": {
+    "manual": true,
+    "page": 2,
+    "clip": [
+      68,
+      443,
+      563,
+      696
+    ],
+    "md": "### Tabela 1 - Características dos fios com relaxação normal - RN\n\n| Designação (A) | Diâmetro nominal do fio (mm) | Tolerância no diâmetro (mm) | Área da seção nominal (mm²) | Massa nominal (kg/1000m) | Limite de resistência à tração mín. (A) (MPa) | Tensão a 1% de alongamento mín. (B) (MPa) | Alongamento após ruptura (em 10d) |  | Número de dobramentos (C) (mín.) | Relação máxima após 1000h a 20ºC para tensão inicial de 70% e 80% do limite de resistência mínima especificado (%) |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  | Total | Zona de estricção (min) (%) |  | 70% | 80% |\n| CP-150 RN8 | 8 | ± 0,05 | 50,3 | 395 | 1500 | 1280 | 6 | 2 | 3 | 5 | 8,5 |\n| CP-160 RN8 | 8 | ± 0,05 | 50,3 | 395 | 1600 | 1360 | 5 | 2 | 3 | 5 | 8,5 |\n| CP-150 RN7 | 7 | ± 0,05 | 38,5 | 302 | 1500 | 1280 | 6 | 2 | 3 | 5 | 8,5 |\n| CP-160 RN7 | 7 | ± 0,05 | 38,5 | 302 | 1600 | 1360 | 5 | 2 | 3 | 5 | 8,5 |\n| CP-150 RN6 | 6 | ± 0,05 | 28,3 | 222 | 1500 | 1280 | 6 | 2 | 3 | 5 | 8,5 |\n| CP-160 RN6 | 6 | ± 0,05 | 28,3 | 222 | 1600 | 1360 | 5 | 2 | 3 | 5 | 8,5 |\n| CP-150 RN5 | 5 | ± 0,05 | 19,6 | 154 | 1500 | 1280 | 6 | 2 | 3 | 5 | 8,5 |\n| CP-160 RN5 | 5 | ± 0,05 | 19,6 | 154 | 1600 | 1360 | 5 | 2 | 3 | 5 | 8,5 |\n| CP-160 RN4 | 4 | ± 0,05 | 12,6 | 98,7 | 1600 | 1360 | 5 | 2 | 3 | 5 | 8,5 |\n| CP-170 RN4 | 4 | ± 0,05 | 12,6 | 98,7 | 1700 | 1490 | 5 | 2 | 3 | 5 | 8,5 |",
+    "de_inicio": "### Tabela 1 - Características dos fios com relaxação normal - RN\n\nDesignação (A)",
+    "nota": "Tabela 1 (p. 2): células mescladas no PDF (tolerância, área/massa de cada par de linhas, estricção, dobramentos e relaxação) repetidas em cada linha; '±' sem glifo no PDF; 'Relação máxima' como no PDF (provavelmente 'Relaxação')"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      82,
+      84,
+      563,
+      311
+    ],
+    "md": "### Tabela 2 - Características dos fios com relaxação baixa - RB\n\n| Designação (A) | Diâmetro nominal do fio (mm) | Tolerância no diâmetro (mm) | Área da seção nominal (mm²) | Massa nominal (kg/1000m) | Limite de resistência à tração min. (A) (MPa) | Tensão a 1% de alongamento mín. (B) (MPa) | Alongamento após ruptura (em 10d) |  | Número de dobramentos (C) (mín.) | Relação máxima após 1000h a 20ºC para tensão inicial de 70% e 80% do limite de resistência mínima especificada (%) |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  | Total (min) (%) | Zona de estricção (min) (%) |  | 70% | 80% |\n| CP-150 RB8 | 8 | ± 0,05 | 50,3 | 395 | 1500 | 1350 | 6 | 2 | 3 | 2 | 3 |\n| CP-160 RB8 | 8 | ± 0,05 | 50,3 | 395 | 1600 | 1440 | 5 | 2 | 3 | 2 | 3 |\n| CP-150 RB7 | 7 | ± 0,05 | 38,5 | 302 | 1500 | 1350 | 6 | 2 | 3 | 2 | 3 |\n| CP-160 RB7 | 7 | ± 0,05 | 38,5 | 302 | 1600 | 1440 | 5 | 2 | 3 | 2 | 3 |\n| CP-150 RB6 | 6 | ± 0,05 | 28,3 | 222 | 1500 | 1350 | 6 | 2 | 3 | 2 | 3 |\n| CP-160 RB6 | 6 | ± 0,05 | 28,3 | 222 | 1600 | 1440 | 5 | 2 | 3 | 2 | 3 |\n| CP-150 RB5 | 5 | ± 0,05 | 19,6 | 154 | 1500 | 1350 | 6 | 2 | 3 | 2 | 3 |\n| CP-160 RB5 | 5 | ± 0,05 | 19,6 | 154 | 1600 | 1440 | 5 | 2 | 3 | 2 | 3 |\n| CP-160 RB4 | 4 | ± 0,05 | 12,6 | 98,7 | 1600 | 1440 | 5 | 2 | 3 | 2 | 3 |\n| CP-170 RB4 | 4 | ± 0,05 | 12,6 | 98,7 | 1700 | 1580 | 5 | 2 | 3 | 2 | 3 |",
+    "de_inicio": "### Tabela 2 - Características dos fios com relaxação baixa - RB\n\nDesignação (A)",
+    "nota": "Tabela 2 (p. 3): células mescladas no PDF (tolerância, área/massa de cada par de linhas, estricção, dobramentos e relaxação) repetidas em cada linha; '±' sem glifo no PDF; 'Relação máxima' como no PDF (provavelmente 'Relaxação'); aqui '(min) (%)' abrange Total e Zona de estricção"
+  },
+  "tabm03": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      215,
+      662,
+      410,
+      750
+    ],
+    "md": "| Diâmetro nominal do fio (mm) | Diâmetro interno dos rolos (m) |\n| --- | --- |\n| 6 ; 7 ; 8 | 1,8 - 2,2 |\n| 5 | 1,5 - 1,8 |\n| 4 | 1,2 - 1,5 |",
+    "de_inicio": "Diâmetro nominal Diâmetro interno do fio dos rolos (mm) (m) 6 ; 7 ; 8 1,8 - 2,2 5 1,5 - 1,8 4 1,2 - 1,5",
+    "nota": "Tabela 3 (p. 3) tinha ficado achatada"
+  },
+  "tabm04": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      205,
+      386,
+      431,
+      514
+    ],
+    "md": "| Diâmetro nominal do fio (mm) | Diâmetro do mandril (mm) |\n| --- | --- |\n| 8 | 50 |\n| 7 | 40 |\n| 6 | 35 |\n| 5 | 30 |\n| 4 | 25 |",
+    "de_inicio": "![[dner_em_375_97_fig01.png]]",
+    "nota": "Tabela 4 (p. 6) tinha virado figura (fig01)"
+  }
+}

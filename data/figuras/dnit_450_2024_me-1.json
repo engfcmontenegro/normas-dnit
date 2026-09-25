@@ -1,0 +1,42 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      160.8,
+      95.4,
+      448.1,
+      339.3
+    ],
+    "legenda": "Figura A1 – Aparelhagem específica usada no ensaio de determinação de Equivalente de Areia. (1) Provetas"
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      193.6,
+      414.0,
+      415.8,
+      546.3
+    ],
+    "legenda": "Figura A2 – Exemplo de agitador de proveta mecanizado"
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      165.2,
+      95.4,
+      443.5,
+      368.4
+    ],
+    "legenda": "Figura B1 – Exemplo ilustrativo para visualização de leitura do topo da argila e da areia para posterior cálculo do"
+  },
+  "fig04": {
+    "page": 6,
+    "bbox": [
+      198.2,
+      432.1,
+      410.7,
+      668.1
+    ],
+    "legenda": "Figura B2 – Exemplo visual da realização do ensaio de equivalente de areia"
+  }
+}

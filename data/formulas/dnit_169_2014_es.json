@@ -1,0 +1,64 @@
+{
+  "eq01": {
+    "page": 8,
+    "bbox": [
+      320.8,
+      222.7,
+      385.0,
+      285.1
+    ],
+    "raw": "n ∑ x i = X i = 1 n",
+    "latex": "\\bar{X} = \\frac{\\sum_{i=1}^{n} x_i}{n}"
+  },
+  "eq02": {
+    "page": 8,
+    "bbox": [
+      320.1,
+      297.5,
+      419.1,
+      350.1
+    ],
+    "raw": "= ∑ − 2 ( x X ) i s − n 1",
+    "latex": "s = \\sqrt{\\frac{\\sum (x_i - \\bar{X})^2}{n-1}}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo especificado;",
+    "para": "$\\bar{X} - ks$ ≥ valor mínimo especificado;"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X + ks ≤ valor máximo especificado.",
+    "para": "$\\bar{X} + ks$ ≤ valor máximo especificado."
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo especificado;",
+    "para": "$\\bar{X} - ks$ < valor mínimo especificado;"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "X + ks > valor máximo especificado.",
+    "para": "$\\bar{X} + ks$ > valor máximo especificado."
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "Xi - valores individuais.",
+    "para": "$X_i$ - valores individuais."
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "X - média da amostra. s - desvio padrão da amostra.",
+    "para": "$\\bar{X}$ - média da amostra.\n\n$s$ - desvio padrão da amostra."
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "\n\nk - coeficiente tabelado em função",
+    "para": "\n\n$k$ - coeficiente tabelado em função"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "\n\nn - número de determinações (tamanho da amostra).",
+    "para": "\n\n$n$ - número de determinações (tamanho da amostra)."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "[Prática\n\nRecomendada]",
+    "para": "[Prática Recomendada]",
+    "nota": "parágrafo partido"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "(“Computer\n\nAided Design”). Exemplo: AutoCad®,\n\nMicroStation® .",
+    "para": "(“Computer Aided Design”). Exemplo: AutoCad®, MicroStation®.",
+    "nota": "parágrafo partido"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "usar as\n\nFiguras A-2 e A-4",
+    "para": "usar as Figuras A-2 e A-4",
+    "nota": "parágrafo partido"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "\nAnexo A – Dimensões e disposição geral",
+    "para": "\n## Anexo A – Dimensões e disposição geral",
+    "nota": "título do anexo"
+  }
+}

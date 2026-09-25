@@ -1,0 +1,36 @@
+{
+  "eq01": {
+    "page": 5,
+    "clip": [
+      75,
+      128,
+      190,
+      172
+    ],
+    "latex": [
+      "R = \\frac{M_i - M_f}{M_i} \\times 100"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `R M M M i f i = − x 100`",
+    "de_fim": "retido na peneira 2,4 mm, em gramas.",
+    "para": "$$\nR = \\frac{M_i - M_f}{M_i} \\times 100\n$$\n\nonde:\n\n$R$ - resistência do agregado ao esmagamento, em %;\n$M_i$ - massa inicial da amostra seca antes do ensaio, em gramas;\n$M_f$ - massa final do material retido na peneira 2,4 mm, em gramas."
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `035/95 - Peneiras de malhas`\n\na) DNER-EM quadradas para análise granulométrica de solos;",
+    "de_fim": "a) DNER-EM quadradas para análise granulométrica de solos;",
+    "para": "a) DNER-EM 035/95 - Peneiras de malhas quadradas para análise granulométrica de solos;",
+    "nota": "aviso falso: pedaço da referência 2.1 a) (p. 1), reconstituída"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "(M i )",
+    "para": "($M_i$)",
+    "nota": "5.3"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "(M f )",
+    "para": "($M_f$)",
+    "nota": "5.8"
+  }
+}

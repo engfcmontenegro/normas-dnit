@@ -1,0 +1,91 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 5,
+    "clip": [
+      320,
+      742,
+      560,
+      761
+    ],
+    "latex": "F = \\frac{S_i}{S_r} \\times (P \\times r) \\tag{Eq1}",
+    "nota": "no PDF em texto corrido: 'Eq1: F = Si/Sr x (P x r)'"
+  },
+  "m02": {
+    "manual": true,
+    "page": 5,
+    "clip": [
+      320,
+      766,
+      560,
+      787
+    ],
+    "latex": "F = 4{,}0 \\times (P \\times r) \\tag{Eq2}"
+  },
+  "m03": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      50,
+      168,
+      290,
+      186
+    ],
+    "latex": "r = \\frac{D_e - e}{2}",
+    "nota": "no PDF 'r = (De - e) / 2'; De e e não definidos na legenda (diâmetro externo e espessura)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$S_{i}$ = tensão circunferencial inicial de ruptura, em KN/m². Sr = tensão circunferencial na classe de pressão, em KN/m².\n$P$ = classe de pressão especificada, em KN/m². r = raio médio do tubo, em metros, em que:",
+    "para": "$S_i$ = tensão circunferencial inicial de ruptura, em KN/m².\n$S_r$ = tensão circunferencial na classe de pressão, em KN/m².\n$P$ = classe de pressão especificada, em KN/m².\n$r$ = raio médio do tubo, em metros, em que:",
+    "nota": "legenda de 5.7 (p. 6) com Sr e r grudados na linha anterior"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "Os valores de Si e Sr devem",
+    "para": "Os valores de $S_i$ e $S_r$ devem"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "O valor de Si deve",
+    "para": "O valor de $S_i$ deve"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "O valor de Sr é determinado",
+    "para": "O valor de $S_r$ é determinado"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "Mínima força de com- pressão axial",
+    "para": "Mínima força de compressão axial",
+    "nota": "Tabela 2: cabeçalho diz 'compressão axial' no PDF, embora a tabela seja de tração axial"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "| Classe de Rigidez (N/m2) |",
+    "para": "| Classe de Rigidez (N/m²) |"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "| 1a amostragem | 2a amostragem | 1a amostragem |  | 2a amostragem |",
+    "para": "| 1ª amostragem | 2ª amostragem | 1ª amostragem |  | 2ª amostragem |"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "![[dnit_094_2014_em_fig02.png]]\n\n(1b)\n\n",
+    "para": "![[dnit_094_2014_em_fig02.png]]\n\n",
+    "nota": "rótulo (1b) da Figura 1 ficou fora do recorte"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "![[dnit_094_2014_em_fig05.png]]\n\ncomprimento útil\n\n",
+    "para": "![[dnit_094_2014_em_fig05.png]]\n\n",
+    "nota": "rótulo da Figura 5 ficou fora do recorte"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "circunferencial para tubos\n\nPRFV\n\n",
+    "para": "circunferencial para tubos PRFV\n\n"
+  }
+}

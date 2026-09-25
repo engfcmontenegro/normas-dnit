@@ -1,0 +1,55 @@
+{
+  "eq01": {
+    "page": 2,
+    "clip": [
+      68,
+      692,
+      200,
+      713
+    ],
+    "latex": [
+      "V_t = 100 - P"
+    ],
+    "de_inicio": "V,=100-P onde:",
+    "de_fim": "P - teor de pigmento.",
+    "para": "$$\nV_t = 100 - P\n$$\n\nonde:\n\n$V_t$ - veículo total, porcentagem em massa na tinta;\nP - teor de pigmento."
+  },
+  "eq02": {
+    "page": 3,
+    "clip": [
+      68,
+      124,
+      250,
+      145
+    ],
+    "latex": [
+      "R = NV - P \\quad \\text{ou} \\quad R = 100 - (P + V)"
+    ],
+    "de_inicio": "R=NV-PouR=100-(P+V) onde:",
+    "de_fim": "V - matéria volátil.",
+    "para": "$$\nR = NV - P \\quad \\text{ou} \\quad R = 100 - (P + V)\n$$\n\nonde:\n\nR - veículo não volátil, porcentagem em massa na tinta;\nNV - matéria não volátil;\nP - teor de pigmento;\nV - matéria volátil."
+  },
+  "eq03": {
+    "page": 3,
+    "clip": [
+      68,
+      298,
+      170,
+      348
+    ],
+    "latex": [
+      "S = \\frac{R}{V_t} \\times 100"
+    ],
+    "de_inicio": "é dado pela fórinuia.\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `R S = x 100 Ve`",
+    "de_fim": "V. - veículo total na tinta.",
+    "para": "é dado pela fórmula:\n\n$$\nS = \\frac{R}{V_t} \\times 100\n$$\n\nonde:\n\nS - veículo não total, porcentagem em massa no veículo;\nR - veículo não volátil na tinta;\n$V_t$ - veículo total na tinta.",
+    "nota": "legenda de S como no PDF ('veículo não total'; provavelmente 'veículo não volátil')"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "mão 5 2) [[dner_me_235_94-1|DNER-ME 235/94]], designada Tinta para demarcação viária - determinação do teor de sub voláteis e não voláteis;",
+    "de_fim": "e não voláteis;",
+    "para": "a) [[dner_me_235_94-1|DNER-ME 235/94]], designada Tinta para demarcação viária - determinação do teor de substâncias voláteis e não voláteis;",
+    "nota": "lixo de OCR na alínea a) de 2.1"
+  }
+}

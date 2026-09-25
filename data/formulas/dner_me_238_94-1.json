@@ -1,0 +1,39 @@
+{
+  "t01": {
+    "texto": true,
+    "de_inicio": "**4.6** Permanganato de potássio - solução padrão (0,1 N,\n\n## 1 ml= 0,008 g Tio,)",
+    "de_fim": "## 1 ml= 0,008 g Tio,)",
+    "para": "**4.6** Permanganato de potássio - solução padrão (0,1 N, 1 ml = 0,008 g TiO₂)",
+    "nota": "título do 4.6 quebrado pelo OCR"
+  },
+  "eq01": {
+    "page": 3,
+    "clip": [
+      64,
+      376,
+      250,
+      426
+    ],
+    "latex": [
+      "T = \\frac{W \\times 1{,}192}{V_p}"
+    ],
+    "de_inicio": "**4.7.1** Calcula-se a equivalência da solução de KMnO,, mediante a seguinte fórmula:",
+    "de_fim": "Vp - mililitros de solução de KMnoO, usado na padronização.",
+    "para": "**4.7.1** Calcula-se a equivalência da solução de KMnO₄, mediante a seguinte fórmula:\n\n$$\nT = \\frac{W \\times 1{,}192}{V_p}\n$$\n\nonde:\n\n$T$ - equivalente em gramas de TiO₂ por mililitro de solução de KMnO₄;\n$W$ - massa de Na₂C₂O₄, em gramas;\n$V_p$ - mililitros de solução de KMnO₄ usado na padronização."
+  },
+  "eq02": {
+    "page": 4,
+    "clip": [
+      64,
+      486,
+      330,
+      527
+    ],
+    "latex": [
+      "\\text{TiO}_2\\ \\% = \\frac{(V - B) \\times T}{S} \\times 100"
+    ],
+    "de_inicio": "**7.1** Percentagem de TiO, na matéria mineral:",
+    "de_fim": "S - gramas da amostra usada.",
+    "para": "**7.1** Percentagem de TiO₂ na matéria mineral:\n\n$$\n\\text{TiO}_2\\ \\% = \\frac{(V - B) \\times T}{S} \\times 100\n$$\n\nonde:\n\n$V$ - mililitros de solução de KMnO₄ usados na titulação da amostra;\n$B$ - mililitros de solução de KMnO₄ usados na titulação da prova em branco;\n$T$ - equivalente em TiO₂ da solução de KMnO₄, em gramas por mililitro;\n$S$ - gramas da amostra usada."
+  }
+}

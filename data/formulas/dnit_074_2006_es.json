@@ -1,0 +1,24 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 10,
+    "clip": [
+      100,
+      96,
+      290,
+      112
+    ],
+    "latex": "V = 0{,}4 \\times A \\times h",
+    "nota": "fórmula em texto comum ('V = 0,4 x A x h ,onde'), não detectada"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "através da expressão a seguir: -",
+    "para": "através da expressão a seguir:"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "\n\nV = volume da bacia, em m³\n\nA = superfície da área de contribuição, em m²;\n\nh = altura máxima, em m.",
+    "para": "\n\nonde:\n\n$V$ = volume da bacia, em m³\n\n$A$ = superfície da área de contribuição, em m²;\n\n$h$ = altura máxima, em m."
+  }
+}

@@ -1,0 +1,188 @@
+{
+ "es": "dnit-421-2019-es",
+ "servico": "Solo-cal – camada de sub-base estabilizada com cal",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Cal",
+   "ensaio": "Certificado do fabricante (caracterização)",
+   "citado": "DNIT 418/2019-EM",
+   "norma": "dnit-418-2019-em",
+   "frequencia": "Todo carregamento que chegar à obra",
+   "criterio": "Cal calcítica (virgem ou hidratada) conforme DNIT 418/2019-EM; mesmo tipo usado na dosagem",
+   "secao": "4 b / 5.1.1 / 7.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Cal",
+   "ensaio": "Teor de óxido de cálcio disponível",
+   "citado": "ABNT NBR 6473",
+   "norma": null,
+   "frequencia": "1 determinação por carregamento (amostra de 5 kg retirada aleatoriamente)",
+   "criterio": "Conforme certificado / DNIT 418/2019-EM",
+   "secao": "7.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Solo",
+   "ensaio": "Ensaios de caracterização",
+   "citado": null,
+   "norma": null,
+   "frequencia": "A cada 100 m de pista; mín. 5 amostras em pistas de até 4.000 m²",
+   "criterio": "Conforme projeto da mistura e tolerâncias do projetista (solo argiloso e/ou siltoso)",
+   "secao": "5.1.3 / 7.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Dosagem",
+   "ensaio": "Teor mínimo de cal (método do pH)",
+   "citado": "DNIT 419/2019-ME",
+   "norma": "dnit-419-2019-me",
+   "frequencia": "Na dosagem",
+   "criterio": "Teor ≥ mínimo que estabiliza quimicamente o solo; teor que dá o ganho de ISC, RCS ou MR previsto no dimensionamento",
+   "secao": "3.2 / 5.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Dosagem",
+   "ensaio": "ISC, resistência à compressão simples e módulo de resiliência da mistura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem",
+   "criterio": "Conforme projeto de dimensionamento do pavimento",
+   "secao": "5.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Compactação",
+   "ensaio": "Segmento experimental (número de passadas)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na fase inicial da obra e a cada mudança de material ou equipamento",
+   "criterio": "Nº de passadas que atinge o grau de compactação especificado",
+   "secao": "5.4.4 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da aplicação da cal",
+   "ensaio": "Grau de pulverização (peneira nº 4)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Aleatória (Plano de Amostragem Variável)",
+   "criterio": "≥ 50 % do material com partículas < 4,8 mm",
+   "obs": "Dispensável a pulverização prévia se usada recicladora",
+   "secao": "5.4.1 b / 7.2.1 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da aplicação da cal",
+   "ensaio": "Teor de umidade",
+   "citado": "DNER-ME 052/94 ou DNER-ME 088/94",
+   "norma": null,
+   "norma_atual": "dnit-456-2025-me",
+   "frequencia": "Aleatória (Plano de Amostragem Variável)",
+   "criterio": "Conforme teor de umidade do projeto",
+   "secao": "7.2.1 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Depois da adição da cal",
+   "ensaio": "Quantidade de cal incorporada (peso ou volume)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Aleatória (Plano de Amostragem Variável)",
+   "criterio": "Teor de cal da dosagem",
+   "secao": "7.2.1 b"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Após recicladora/pulvimisturadora",
+   "ensaio": "Teor de umidade",
+   "citado": "DNER-ME 052/94 ou DNER-ME 088/94",
+   "norma": null,
+   "norma_atual": "dnit-456-2025-me",
+   "frequencia": "Aleatória (Plano de Amostragem Variável)",
+   "criterio": "hót ± 1 ponto percentual para início da compactação",
+   "secao": "5.4.3 / 7.2.1 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Após recicladora/pulvimisturadora",
+   "ensaio": "Espessura da camada solta",
+   "citado": null,
+   "norma": null,
+   "frequencia": "A cada 50 m",
+   "criterio": "Que resulte na espessura compactada de projeto (12 a 20 cm por camada)",
+   "secao": "5.4.5 / 7.2.1 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Imediatamente antes da compactação",
+   "ensaio": "ISC e expansão (amostras da pista)",
+   "citado": null,
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "A cada 300 m de pista",
+   "criterio": "Conforme projeto",
+   "secao": "7.2.1 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Após a compactação",
+   "ensaio": "Massa específica aparente in situ → grau de compactação",
+   "citado": "DNER-ME 092/94, DNER-ME 036/94 ou DNIT 417/2019-ME",
+   "norma": "dner-me-036-94",
+   "outras": [
+    "dnit-417-2019-me"
+   ],
+   "frequencia": "Aleatória (Plano de Amostragem Variável)",
+   "criterio": "GC ≥ 100 % (energia normal ou intermediária) e atender aos requisitos deflectométricos do projeto",
+   "secao": "7.2.1 d"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da camada seguinte",
+   "ensaio": "Deflexão (Viga Benkelman ou FWD)",
+   "citado": "DNER-ME 024/94 ou DNER-PRO 273/96",
+   "norma": "dner-pro-273-96",
+   "frequencia": "Após ≥ 7 dias de cura; a cada 20 m por faixa alternada; mín. 15 determinações por segmento",
+   "criterio": "X = D₀médio + k·s ≤ LSE (deflexão de projeto)",
+   "secao": "7.2.2 / 7.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Largura da plataforma",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 10 cm",
+   "secao": "7.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Flecha de abaulamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "Até +20 %; não se tolera falta",
+   "secao": "7.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessura da camada",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 10 % da espessura de projeto (camada entre 12 e 20 cm)",
+   "secao": "5.4.5 / 7.3"
+  }
+ ],
+ "notas": [
+  "Amostragem aleatória segundo Plano de Amostragem Variável aprovado pela Fiscalização (DNIT 013/2004-PRO); aceitação por X̄ − ks ≥ mín. e X̄ + ks ≤ máx.",
+  "Não executar em dias de chuva. Cura com emulsão asfáltica (DNIT 144-ES ou DNIT 145-ES), protegida por no mínimo 7 dias.",
+  "Tráfego só após a cura e a liberação pelo controle de deflexão; não conformidades tratadas conforme DNIT 011/2004-PRO."
+ ]
+}

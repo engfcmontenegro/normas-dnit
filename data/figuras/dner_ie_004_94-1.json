@@ -1,0 +1,94 @@
+{
+  "fig01": {
+    "page": 9,
+    "bbox": [
+      138.0,
+      101.0,
+      599.8,
+      834.4
+    ],
+    "legenda": "FIGURA 2 - A PARTIR DA ESQUERDA: GABARITO,",
+    "ancora": "FIGURA 2 - A PARTIR DA ESQUERDA: GABARITO,",
+    "clip": [
+      80,
+      90,
+      590,
+      700
+    ],
+    "nota": "Figuras 1 e 2 (p. 9) numa imagem; recorte sem cabeçalho e marca de página",
+    "texto_removido": [
+      "DE AMOSTRAS INDEFORMADAS DO TUBO DE PAREDE FINA (SHELBY), EM OPERAÇÃO"
+    ]
+  },
+  "fig02": {
+    "page": 10,
+    "bbox": [
+      116.6,
+      68.3,
+      589.2,
+      828.0
+    ],
+    "legenda": "FIGURA 4",
+    "ancora": "FIGURA 4",
+    "clip": [
+      100,
+      62,
+      565,
+      780
+    ],
+    "nota": "Figura 3 (p. 10); recorte com título, eixos e legenda",
+    "texto_removido": [
+      "## DE DEFORMAÇÃO CONTROLADA",
+      "## ENSAIO",
+      "4",
+      "DE FORMAÇÃO ESPECÍFICA, & (%)",
+      "## À COMPRESSÃO",
+      "Pm corsÃo: c: R. -6,9kPa",
+      "## 2 R=13,8 kPa áx.* 13,8 kPa",
+      "ENSAIO DE COMPRESSÃO SIMPLES",
+      "## DEFORMAÇÃO CONTROLADA"
+    ]
+  },
+  "fig03": {
+    "page": 11,
+    "bbox": [
+      61.0,
+      55.0,
+      576.2,
+      766.4
+    ],
+    "legenda": "FIGURA 4 - FOLHA DE ENSAIO",
+    "ancora": "FIGURA 4 - FOLHA DE ENSAIO",
+    "nota": "Figura 4: folha de ensaio preenchida (fica imagem)",
+    "texto_removido": [
+      "0,5 20 0,508 3 450 0,00508 | 0,5! [0,994922 | I9,74 | 22,80 40 1,016 6 900 0,0 1016 1,02 [0,98984 19,84 | 45,36",
+      "1,5 60 1,524 9 1350 0,01524 1,52 0,98476 | 19,94 | 67,70",
+      "2 80 2,032 13 1900 0,02032 203 0,97968 | 20,05 94 76",
+      "2,5 100 2,540 15 2200 0,02540 254 [097460 | 20,15 [109,18",
+      "3 120 3,048 17 2500 0,03048 305 [|0,96952 | 20,26 [123,40",
+      "3,5 140 3,556 18 2650 0,03566 3,56 0,96434 | 20,37 [130,09",
+      "4 160 4,064 E 2800 0,04064 406 [095936 2047 [i36,78 45 180 4,572 19 2800 0,04572 457 [095428 | 20,58 [136,05",
+      "5 200 5,080 19 2800 0,05080 5,08 [0,94920 | 20,69 [135,33",
+      "- OBS.: ENSAIO",
+      "VISTO:\nDATA:",
+      "## CROQUIS",
+      "## CÁPSULA",
+      "Nº 40 5 39;",
+      "## AMOSTRA ÚMIDA + TARA (9).",
+      "## UMIDADE (%)",
+      "107,75 106,04 107,25 UMIDADE MÉDIA (%) : 107,0] oBS.:",
+      "ao DEFORMAÇ; ko VERTICAL LEITURA DA CARGA | DEFORMAÇÃO ESPECÍFICA CORRISIDA PRESSÃO",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `mm POL x10 4 9 £ E ja`",
+      "MINUTOS | POL xIO? I- E. cm? e kPa)",
+      "INTERESSADO:\n16º D.R.F.",
+      "## PROFUNDIDADE: 7,00",
+      "—- 7,50 m PESO DO CORPO-DE-PROVA (g)",
+      "OPERADOR:",
+      "## DETERMINAÇÃO",
+      "## DA UMIDADE",
+      "PAZ ENSAIO DE COMPRESSÃO SIMPLES",
+      "LOCAL:\nBANHADO DO RIO CUBÍCULO-SANTA CATARINA REGISTRO:\nII.l27",
+      "SONDAGEM:"
+    ]
+  }
+}

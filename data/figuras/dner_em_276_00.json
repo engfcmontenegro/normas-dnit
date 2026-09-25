@@ -1,0 +1,30 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      71.0,
+      76.0,
+      562.0,
+      777.0
+    ],
+    "legenda": "",
+    "ancora": "A tinta deve estar conforme a Tabela 3.",
+    "ignorar": true,
+    "nota": "página 5 inteira (texto + Tabelas 1 e 2: tabm01, tabm02)",
+    "texto_removido": [
+      "Sólidos por volume, porcentagem 62,00",
+      "Finura de moagem, Hegmann 4,00",
+      "Resistência à abrasão, litros",
+      "- tinta branca",
+      "- tinta amarela",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `100,00 90,00 - -`",
+      "Poder de cobertura Conforme Tabela 2",
+      "Cor de Tinta Nº da Placa Cristal Máxima Leitura, em mm",
+      "Branca 7 10",
+      "Amarela 7 16",
+      "- tinta branca",
+      "- tinta amarela",
+      "Brilho a 60º, unidades 20,00"
+    ]
+  }
+}

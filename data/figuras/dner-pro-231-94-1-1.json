@@ -1,0 +1,20 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      43.0,
+      333.3,
+      571.0,
+      732.0
+    ],
+    "legenda": "",
+    "ancora": "Tabela 2 - Amostragem e número de aceitação e rejeição para inspeção rigorosa",
+    "ignorar": true,
+    "nota": "falsa figura (cabeçalho/pedaço da Tabela 1, texto corrido ou Tabela 2 = tabm02)",
+    "texto_removido": [
+      "4 5 6 7",
+      "## 2 a",
+      "## 2 a"
+    ]
+  }
+}

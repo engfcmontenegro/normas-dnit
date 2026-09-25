@@ -1,0 +1,99 @@
+{
+  "eq01": {
+    "page": 4,
+    "bbox": [
+      318.5,
+      527.7,
+      485.4,
+      579.3
+    ],
+    "raw": "Δ L ε = p i (1) p i H ir",
+    "latex": "\\varepsilon_{p_i} = \\frac{\\Delta L_{p_i}}{H_{ri}} \\tag{1}"
+  },
+  "eq02": {
+    "page": 4,
+    "bbox": [
+      318.5,
+      596.5,
+      350.1,
+      631.5
+    ],
+    "raw": "ε p i",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda (ε_pi é ...)"
+  },
+  "eq03": {
+    "page": 4,
+    "bbox": [
+      320.0,
+      643.5,
+      356.7,
+      677.8
+    ],
+    "raw": "Δ L i p",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda (ΔL_pi é ...)"
+  },
+  "eq04": {
+    "page": 5,
+    "bbox": [
+      49.1,
+      109.9,
+      236.9,
+      172.1
+    ],
+    "raw": "n ∑ ε p i ε = i = 1 (2) p NS",
+    "latex": "\\varepsilon_p = \\frac{\\sum_{i=1}^{n} \\varepsilon_{p_i}}{NS} \\tag{2}"
+  },
+  "eq05": {
+    "page": 5,
+    "bbox": [
+      48.8,
+      188.0,
+      77.5,
+      223.0
+    ],
+    "raw": "ε p",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda (ε_p é ...)"
+  },
+  "eq06": {
+    "page": 5,
+    "bbox": [
+      51.6,
+      441.7,
+      237.0,
+      493.4
+    ],
+    "raw": "Δ ε ε − ε p = p p − i i 1 (3) Δ − N N N − i i 1",
+    "latex": "\\frac{\\Delta \\varepsilon_p}{\\Delta N} = \\frac{\\varepsilon_{p_i} - \\varepsilon_{p_{i-1}}}{N_i - N_{i-1}} \\tag{3}"
+  },
+  "eq07": {
+    "page": 5,
+    "bbox": [
+      49.1,
+      566.9,
+      238.3,
+      607.1
+    ],
+    "raw": "( )1 ε = + − B DN AN C e (4) p",
+    "latex": "\\varepsilon_p = A N^{B} + C \\left( e^{DN} - 1 \\right) \\tag{4}"
+  },
+  "eq08": {
+    "page": 5,
+    "bbox": [
+      320.9,
+      191.8,
+      537.6,
+      286.4
+    ],
+    "raw": "ε d p = −1 + ABN B CDe DN (5) dN ε 2 d ( ) p = − − + B 2 2 DN AB B 1 N CD e (6) 2 dN",
+    "latex": [
+      "\\frac{d\\varepsilon_p}{dN} = ABN^{B-1} + CDe^{DN} \\tag{5}",
+      "\\frac{d^2 \\varepsilon_p}{dN^2} = AB(B-1)N^{B-2} + CD^2 e^{DN} \\tag{6}"
+    ]
+  }
+}

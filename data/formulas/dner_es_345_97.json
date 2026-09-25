@@ -1,0 +1,13 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "previstas em projeto (F ck , “slumps”",
+    "para": "previstas em projeto ($F_{ck}$, “slumps”",
+    "nota": "5.2.4: Fck com índice quebrado"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "300,0 kg/m3 de concreto",
+    "para": "300,0 kg/m³ de concreto"
+  }
+}

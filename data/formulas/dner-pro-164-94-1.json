@@ -1,0 +1,143 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      75,
+      176,
+      260,
+      218
+    ],
+    "latex": [
+      "\\text{QI} = a + b\\,L \\tag{a}",
+      "\\text{QI} = a + b\\,L + c\\,L^2 \\tag{b}"
+    ],
+    "de_inicio": "a) QI=a+bL\n\nb) QI=a+bL+cL?",
+    "de_fim": "b) QI=a+bL+cL?",
+    "para": "$$\n\\text{QI} = a + b\\,L \\tag{a}\n$$\n\n$$\n\\text{QI} = a + b\\,L + c\\,L^2 \\tag{b}\n$$",
+    "nota": "3.3: alíneas a) e b) viraram \\tag"
+  },
+  "t01": {
+    "texto": true,
+    "de_inicio": "conteúdo técnico.\n\nEsta Norma fixa as condições exigíveis",
+    "de_fim": "Esta Norma fixa as condições exigíveis",
+    "para": "conteúdo técnico.\n\n## 1 OBJETIVO\n\nEsta Norma fixa as condições exigíveis",
+    "nota": "título perdido (p. 2)"
+  },
+  "t02": {
+    "texto": true,
+    "de_inicio": "Alex T. Visser.\n\nPara os efeitos desta Norma, são adotadas as seguintes definições\n",
+    "de_fim": "seguintes definições\n",
+    "para": "Alex T. Visser.\n\n## 3 DEFINIÇÕES\n\nPara os efeitos desta Norma, são adotadas as seguintes definições:\n",
+    "nota": "título perdido (p. 2)"
+  },
+  "t03": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "calculado a partir do nivelamento canms mata topogi áfico de um tr echo, obtendo-se cotas com espaçamento de 0, sm m de cada trilha de roda.",
+    "para": "calculado a partir do nivelamento topográfico de um trecho, obtendo-se cotas com espaçamento de 0,5 m de cada trilha de roda.",
+    "nota": "3.1 (p. 2): OCR quebrado"
+  },
+  "t04": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "(ver Anexos A, Be €).",
+    "para": "(ver Anexos A, B e C)."
+  },
+  "t05": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "hodômetro (ver\n\n### Anexo A).",
+    "para": "hodômetro (ver Anexo A)."
+  },
+  "t06": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "carga de 883 +9,8 N (90+ 1 kgf)",
+    "para": "carga de 883 ± 9,8 N (90 ± 1 kgf)",
+    "nota": "4.2: ± lido como +"
+  },
+  "t07": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "\n6+ 0,5 mm.\n",
+    "para": "\n6 ± 0,5 mm.\n"
+  },
+  "t08": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "12,06 a 12,36 N/cm? (1 230 a 1 260 gf/em?).",
+    "para": "12,06 a 12,36 N/cm³ (1 230 a 1 260 gf/cm³).",
+    "nota": "4.7 (p. 5): cm³ lido como cm?"
+  },
+  "t09": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "comprimento de320+0,1 m",
+    "para": "comprimento de 320 ± 0,1 m"
+  },
+  "t10": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "viagem de 100 + 5 km",
+    "para": "viagem de 100 ± 5 km"
+  },
+  "t11": {
+    "texto": true,
+    "de_inicio": ">>\nrroceder ao levantamento",
+    "de_fim": "de referência de acordo com as disposições",
+    "para": "**5.3** Proceder ao levantamento da irregularidade dos trechos de referência de acordo com as disposições constantes na Norma [[dner_es_173_86-1|DNER-ES 173/86]] (ver item 2.1).",
+    "nota": "5.3 (p. 5): linha em tira mal lida"
+  },
+  "t12": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "coeficiente de determinação r? for",
+    "para": "coeficiente de determinação r² for"
+  },
+  "t13": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "organizando-se novo\n\n### Quadro Resumo dos resultados de calibração . Havendo repetição da não satisfação do limite, eliminar o\n\ntrecho de referência",
+    "para": "organizando-se novo Quadro Resumo dos resultados de calibração. Havendo repetição da não satisfação do limite, eliminar o trecho de referência"
+  },
+  "t14": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "exemplo constante no Anexo 1.",
+    "para": "exemplo constante no Anexo I."
+  },
+  "t15": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "itens 4.2, 4.3, 4.5 € 4.6.",
+    "para": "itens 4.2, 4.3, 4.5 e 4.6."
+  },
+  "t16": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "dentro do limite 2,11 x V, o",
+    "para": "dentro do limite $2{,}11 \\times \\overline{V}$, o",
+    "nota": "6.2.3 (p. 7): V com barra"
+  },
+  "t17": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "dentro dos limites + 0,58 x V, o",
+    "para": "dentro dos limites ± 0,58 x V, o",
+    "nota": "6.2.4 (p. 7): ± lido como +; no PDF o V está sem barra (nos Anexos E/I é V̄) — mantido como no PDF"
+  },
+  "t18": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "“Quociente de lrregularidade” (QN)",
+    "para": "“Quociente de Irregularidade” (QI)",
+    "nota": "3.1 (p. 2): QI lido como QN"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "equação de calibração. TT TTEATOFITA TT]",
+    "de_fim": "<<FIM>>",
+    "para": "equação de calibração.\n\n### Anexo normativo A - Sistema Integrador IPR/USP\n\n![[dner-pro-164-94-1_fig01.png]]\n\n### Anexo normativo B - Sistema Integrador IPR/USP - Veículo\n\n![[dner-pro-164-94-1_fig02.png]]\n\n### Anexo normativo C - Montagem dos magnetos no Sistema Integrador IPR/USP, para medição eletrônica de distância\n\n![[dner-pro-164-94-1_fig03.png]]\n\n### Anexo normativo D - Resumo dos resultados de calibração\n\n![[dner-pro-164-94-1_fig04.png]]\n\n### Anexo normativo E - Resumo dos resultados de calibração\n\nEstado: DF — SMI nº: 0562 IPR — Data: 19/12/79\n\n| Trecho teste | L1 | L2 | L3 | L4 | L5 | $\\overline{L}$ | V |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| M-10 | 194 | 198 | 202 | – | 205 | 200 | 11 |\n| M-11 | 314 | 304 | 309 | 328 | 314 | 314 | 24 |\n| M-12 | 201 | 199 | 215 | 199 | 203 | 203 | 16 |\n| M-13 | 379 | 379 | 380 | 376 | 406 | 384 | 30 |\n| M-14 | 341 | 327 | 328 | 327 | 333 | 331 | 14 |\n| M-15 | 367 | 367 | 376 | 369 | 399 | 376 | 32 |\n| M-17 | 153 | 177 | 177 | 177 | 177 | 172 | 24 |\n| M-18 | 167 | 185 | 188 | 189 | 196 | 185 | 29 |\n| M-19 | 130 | 134 | 137 | 145 | 142 | 138 | 15 |\n| M-20 | 170 | 172 | 160 | 172 | 190 | 173 | 30 |\n| M-23 | 145 | 148 | 153 | 153 | 159 | 152 | 14 |\n| M-27 | 250 | 252 | 255 | 258 | 244 | 252 | 14 |\n| M-28 | 329 | 307 | 324 | 321 | 312 | 319 | 22 |\n| M-29 | 399 | 398 | 396 | 414 | 386 | 399 | 28 |\n| M-30 | 413 | 411 | 413 | 413 | 411 | 412 | 2 |\n| M-31 | 395 | 391 | 419 | 396 | 396 | 399 | 28 |\n| M-32 | 207 | 226 | 205 | 216 | 208 | 212 | 21 |\n| M-33 | 345 | 334 | 327 | 345 | 333 | 337 | 18 |\n| M-34 | 373 | 383 | 379 | 391 | 402 | 386 | 29 |\n| M-35 | 414 | 415 | 414 | 414 | 413 | 414 | 2 |\n| M-36 | 360 | 348 | 311 | 344 | 343 | 341 | 49 |\n| M-37 | 381 | 408 | 416 | 392 | 384 | 396 | 35 |\n| M-38 | 610 | 631 | 625 | 633 | 625 | 625 | 23 |\n\n![[dner-pro-164-94-1_tabm01.png]]\n\nLimite sup. de controle da variação $= 2{,}11 \\times \\overline{V} = 46{,}78$\n$V_{total} = 510{,}00$\n$\\overline{V} = \\dfrac{V_{total}}{23} = 22{,}17$\nLimites de controle da média $= \\pm\\, 0{,}58\\,\\overline{V} = 12{,}85$\n\n### Anexo normativo F - Gráfico de controle da variação das leituras\n\n![[dner-pro-164-94-1_fig05.png]]\n\n### Anexo normativo G - Gráfico de controle da variação das leituras\n\n![[dner-pro-164-94-1_fig06.png]]\n\n### Anexo normativo H - Gráfico de controle das médias das leituras\n\n![[dner-pro-164-94-1_fig07.png]]\n\n### Anexo normativo I - Gráfico de controle das médias das leituras\n\n![[dner-pro-164-94-1_fig08.png]]\n\n### Anexo normativo J - Controle das medições\n\n![[dner-pro-164-94-1_fig09.png]]\n\n### Anexo normativo L - Controle das medições\n\nEstado: DF — SMI nº: 0562 IPR — Data: ilegível (…/01/80) — Operador: Henrique — Motorista: Dirceu\n\n| Seção | M-10 | M-14 | M-19 | M-35 | M-38 |\n| --- | --- | --- | --- | --- | --- |\n| $\\overline{L}$ inicial | 200 | 331 | 138 | 414 | 625 |\n| Percurso 1 | 191 | 352 | 115 | 437 | 635 |\n| Percurso 2 | 203 | 331 | 123 | 436 | 621 |\n| Percurso 3 | 217 | 347 | 137 | 413 | 609 |\n| Percurso 4 | 209 | 333 | 119 | 450 | 497 |\n| Percurso 5 | 192 | 316 | 112 | 399 | 618 |\n| Soma | 1012 | 1679 | 606 | 2135 | 3080 |\n| $\\overline{L}$ atual | 202 | 336 | 121 | 427 | 616 |\n| Δ | 26 | 36 | 25 | 51 | 38 |\n| $\\Delta\\overline{L}$ | -2 | -5 | 17 | -13 | 9 |\n\n![[dner-pro-164-94-1_tabm02.png]]\n",
+    "nota": "Anexos A–L (p. 8–18) reescritos: lixo de OCR dos formulários removido; Anexo E (p. 12) e Anexo L (p. 18) são tabelas preenchidas (tabm01, tabm02); Anexo L não tinha imagem. Anexo L (p. 18): M-38 percurso 4 = 497 no PDF, mas soma 3080 e Δ = 38 implicam 597 — transcrito como no PDF"
+  }
+}

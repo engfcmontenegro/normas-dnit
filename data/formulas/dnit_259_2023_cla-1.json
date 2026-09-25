@@ -1,0 +1,320 @@
+{
+  "eq01": {
+    "page": 2,
+    "bbox": [
+      314.5,
+      119.4,
+      456.2,
+      147.1
+    ],
+    "raw": "umidade de compactação (ℎ 𝑐 ).",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq02": {
+    "page": 2,
+    "bbox": [
+      314.5,
+      149.0,
+      494.2,
+      175.3
+    ],
+    "raw": "3.4 Coeficiente de argilosidade (𝒄’)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título 3.4 com variável"
+  },
+  "eq03": {
+    "page": 2,
+    "bbox": [
+      314.5,
+      479.0,
+      421.0,
+      505.4
+    ],
+    "raw": "3.6 Coeficiente 𝒅’",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título 3.6 com variável"
+  },
+  "eq04": {
+    "page": 2,
+    "bbox": [
+      314.5,
+      719.6,
+      425.2,
+      745.9
+    ],
+    "raw": "3.8 Coeficiente 𝑷𝒊’",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título 3.8 com variável"
+  },
+  "eq05": {
+    "page": 3,
+    "bbox": [
+      65.7,
+      103.8,
+      177.8,
+      131.5
+    ],
+    "raw": "ℎ 𝑐 , 𝐴 𝐹 , Mini-MCV e 𝑃𝑖;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq06": {
+    "page": 3,
+    "bbox": [
+      65.7,
+      184.1,
+      297.5,
+      211.8
+    ],
+    "raw": "densidade. Se 𝐴 𝐹 > 48,0 mm, o solo é classificado",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq07": {
+    "page": 3,
+    "bbox": [
+      66.5,
+      291.0,
+      297.6,
+      335.9
+    ],
+    "raw": "− solos de baixa densidade (𝐴 𝐹 ≥ 48,0 mm) - 𝑃𝑖’ = 𝑃𝑖 correspondente a Mini-MCV = 10;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq08": {
+    "page": 3,
+    "bbox": [
+      48.7,
+      384.2,
+      196.3,
+      410.6
+    ],
+    "raw": "3.9 Índice de laterização 𝒆’",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título 3.9 com variável"
+  },
+  "eq09": {
+    "page": 3,
+    "bbox": [
+      48.7,
+      479.4,
+      297.6,
+      517.8
+    ],
+    "raw": "𝑆 𝑒 ′ = √ 𝑃𝑖´ 20 100 + (1) 𝑑´",
+    "latex": "e' = \\sqrt[S]{\\frac{P_{i}'}{100} + \\frac{20}{d'}} \\tag{1}",
+    "nota": "índice da raiz transcrito como no PDF ('S'); na metodologia MCT a raiz é cúbica (possível erro do PDF, p. 3)"
+  },
+  "eq10": {
+    "page": 3,
+    "bbox": [
+      48.7,
+      544.3,
+      177.3,
+      570.7
+    ],
+    "raw": "𝑒′ é o índice de laterização;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: item da legenda"
+  },
+  "eq11": {
+    "page": 3,
+    "bbox": [
+      48.7,
+      664.1,
+      165.2,
+      690.5
+    ],
+    "raw": "𝑛 é o número de golpes.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: item da legenda"
+  },
+  "eq12": {
+    "page": 3,
+    "bbox": [
+      331.5,
+      284.7,
+      563.3,
+      312.0
+    ],
+    "raw": "determinar os coeficientes 𝑐′, 𝑑′ e 𝑃𝑖′ , e",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq13": {
+    "page": 3,
+    "bbox": [
+      506.3,
+      559.7,
+      534.5,
+      587.4
+    ],
+    "raw": "ℎ 𝑐",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq14": {
+    "page": 8,
+    "bbox": [
+      48.7,
+      206.4,
+      301.2,
+      232.5
+    ],
+    "raw": "Coeficiente de argilosidade (c’) ............................... 3.4......2",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: linha do índice geral"
+  },
+  "eq15": {
+    "page": 8,
+    "bbox": [
+      48.7,
+      237.8,
+      301.2,
+      263.9
+    ],
+    "raw": "Coeficiente d’ .......................................................... 3.6......2",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: linha do índice geral"
+  },
+  "eq16": {
+    "page": 8,
+    "bbox": [
+      311.0,
+      82.2,
+      563.4,
+      108.6
+    ],
+    "raw": "Índice de laterização (e’) ........................................ 3.9......3",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: linha do índice geral"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "3.4\n\nCoeficiente de argilosidade ($c$’)",
+    "para": "**3.4** Coeficiente de argilosidade ($c'$)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "3.6\n\nCoeficiente $d$’",
+    "para": "**3.6** Coeficiente $d'$"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "3.7\n\nPerda de massa por imersão ($P_{i}$)",
+    "para": "**3.7** Perda de massa por imersão ($P_{i}$)"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "3.8\n\nCoeficiente $P_{i}$’",
+    "para": "**3.8** Coeficiente $P_{i}'$"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "3.9\n\nÍndice de laterização $e$’",
+    "para": "**3.9** Índice de laterização $e'$"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "$P_{i}$′é o valor",
+    "para": "$P_{i}'$ é o valor"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "$e$′descrito",
+    "para": "$e'$ descrito"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "$P_{i}$′ , e posteriormente",
+    "para": "$P_{i}'$, e posteriormente"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "para n = 10 golpes; (Série Simplificada) ou n = 12 golpes\n\n( Série de Parsons);",
+    "para": "para $n$ = 10 golpes; (Série Simplificada) ou $n$ = 12 golpes (Série de Parsons);"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "$P_{i}$’",
+    "para": "$P_{i}'$"
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "$P_{i}$′",
+    "para": "$P_{i}'$"
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "$c$′",
+    "para": "$c'$"
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "$d$′",
+    "para": "$d'$"
+  },
+  "t14": {
+    "todas": true,
+    "de_inicio": "$e$′",
+    "para": "$e'$"
+  },
+  "t15": {
+    "todas": true,
+    "de_inicio": "$d$’",
+    "para": "$d'$"
+  },
+  "t16": {
+    "todas": true,
+    "de_inicio": "![[dnit_259_2023_cla-1_fig02.png]]",
+    "para": "| Classes |  | N - Solos de comportamento \"não laterítico\" |  |  |  | L - Solos de comportamento laterítico |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Grupos |  | NA<br>Areias | NA'<br>Arenosos | NS'<br>Siltosos | NG'<br>Argilosos | LA<br>Areias | LA'<br>Arenosos | LG'<br>Argilosos |\n| Granulometrias Típicas (Minerais) (1) |  | Areias<br>Areias Siltosas<br>Siltes (q) | Areias Siltosas<br>Areias Argilosas | Siltes (k,m)<br>Siltes Arenosos e Argilosos | Argilas, Argilas Arenosas, Argilas Siltosas | Areias com pouca argila | Areias Argilosas<br>Argilas Arenosas | Argilas, Argilas Arenosas |\n| Capacidade de Suporte: Mini-CBR sem Embebição | Muito Alto > 30<br>Alto 12 - 30<br>Médio 4 - 12<br>Baixo < 4 | Alta a Média | Alta | Alta a Média | Alta | Alta | Alta a Muito Alta | Alta |\n| Capacidade de Suporte: Perda de Suporte por Embebição | Alta > 70<br>Média 40 - 70<br>Baixa < 40 | Baixa a Média | Baixa | Alta | Alta | Baixa | Baixa | Baixa |\n| Expansão (%) (2) | Alta > 3<br>Média 0,5 - 3<br>Baixa < 0,5 | Baixa | Baixa | Alta | Alta a Média | Baixa | Baixa | Baixa |\n| Contração (%) (2) | Alta > 3<br>Média 0,5 - 3<br>Baixa < 0,5 | Baixa a Média | Baixa a Média | Média | Alta a Média | Baixa | Baixa a Média | Baixa a Alta |\n| Permeabilidade log k (cm/s) | Alta > (-3)<br>Média (-3) a (-6)<br>Baixa < (-6) | Alta a Média | Baixa | Média a Alta | Baixa a Média | Baixa a Média | Baixa | Baixa |\n| Plasticidade | IP (%) / LL (%):<br>Alta > 30 / > 70<br>Média 7 - 30 / 30 - 70<br>Baixa < 7 / < 30 | Baixa a NP | Média a NP | Média a Alta | Alta | NP a Baixa | Baixa a Média | Média a Alta |\n\n(1) q - quartzo, m - micas, k - caolinita (2) Corpos-de-prova compactados na umidade ótima, energia normal, com sobrecarga padrão quando pertinente\n\n![[dnit_259_2023_cla-1_fig02.png]]",
+    "nota": "Anexo B: quadro só em imagem no PDF (p. 5); tabela markdown + imagem"
+  },
+  "t17": {
+    "todas": true,
+    "de_inicio": "\nAnexo C (Normativo) – Quadro com Breves",
+    "para": "\n## Anexo C (Normativo) – Quadro com Breves"
+  },
+  "t18": {
+    "todas": true,
+    "de_inicio": "| LA ' |",
+    "para": "| LA' |"
+  },
+  "t19": {
+    "todas": true,
+    "de_inicio": "| LG ‘ |",
+    "para": "| LG' |"
+  },
+  "t20": {
+    "todas": true,
+    "de_inicio": "| NS ' |",
+    "para": "| NS' |"
+  },
+  "t21": {
+    "todas": true,
+    "de_inicio": "| NG ' |",
+    "para": "| NG' |"
+  },
+  "t22": {
+    "todas": true,
+    "de_inicio": "ESTRADAS DE\n\nRODAGEM. DNER – CLA",
+    "para": "ESTRADAS DE RODAGEM. DNER – CLA"
+  }
+}

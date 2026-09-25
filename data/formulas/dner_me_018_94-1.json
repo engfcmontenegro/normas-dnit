@@ -1,0 +1,9 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "PENEIRA - ABERTURA % EM PESO, PASSANDO",
+    "de_fim": "(ver 2.1.b.).",
+    "para": "| PENEIRA - ABERTURA | % EM PESO, PASSANDO |\n|---|---|\n| 19 mm (3/4\") | 100 |\n| 12,7 mm (1/2\") | 85 - 100 |\n| 9,5 mm (3/8\") | 75 - 100 |\n| 4,8 mm (nº 4) | 50 - 85 |\n| 2,00 mm (nº 10) | 30 - 75 |\n| 0,42 mm (nº 40) | 15 - 40 |\n| 0,30 mm (nº 80) | 8 - 30 |\n| 0,075 mm (nº 200) | 5 - 10 |\n\n**6.2** Preparar o corpo-de-prova de acordo com o prescrito na DNER ME 043/64 (ver 2.1.b.).",
+    "nota": "aviso falso: tabela granulométrica de 6.1 (p. 3) reescrita como tabela"
+  }
+}

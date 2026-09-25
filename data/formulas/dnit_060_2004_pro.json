@@ -1,0 +1,99 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      115.4,
+      624.4,
+      222.3,
+      688.6
+    ],
+    "raw": "2 NS = n e 2 − + 2 ( N )1 S 4",
+    "latex": "n = \\frac{N S^2}{\\frac{e^2}{4}(N - 1) + S^2}"
+  },
+  "eq02": {
+    "page": 7,
+    "bbox": [
+      52.1,
+      398.9,
+      167.2,
+      445.1
+    ],
+    "raw": "N 25 = = ∴ = 5,2 i 2 n 10",
+    "latex": "\\frac{N}{n} = \\frac{25}{10} = 2{,}5 \\therefore i = 2"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "## Anexo B (normativo) Método de Amostragem\n\n## Anexo D (normativo)\n\n## Anexo G (normativo)\n\n## Anexo J (normativo)\n\n## Prefácio",
+    "para": "## Prefácio",
+    "nota": "títulos falsos vindos do sumário da p. 1"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "| Severidade da maioria das fissuras | Número de pedaços em que a placa está dividida |  |  |\n| --- | --- | --- | --- |\n|  | 4 a 5 | 6 a 8 | Mais de 8 |\n| B M A | B M M | B M A | M A A |",
+    "para": "| Severidade da maioria das fissuras | Número de pedaços em que a placa está dividida: 4 a 5 | 6 a 8 | Mais de 8 |\n| --- | --- | --- | --- |\n| B | B | B | M |\n| M | M | M | A |\n| A | M | A | A |",
+    "nota": "Anexo E, 3 (p. 10): linhas B/M/A fundidas numa célula"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "| Grau de severidade | Desnível (mm) |\n| --- | --- |\n| B M A | 3 a 10 >10 a 20 20 |",
+    "para": "| Grau de severidade | Desnível (mm) |\n| --- | --- |\n| B | 3 a 10 |\n| M | >10 a 20 |\n| A | 20 |",
+    "nota": "Anexo E, 4 (p. 11): linhas fundidas; grau A = '20' no PDF (provavelmente '> 20', como no item 18) — mantido como no PDF"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "| Grau de severidade | Desnível (mm) |\n| --- | --- |\n| B M A | 25 a 50 >50 a 100 >100 |",
+    "para": "| Grau de severidade | Desnível (mm) |\n| --- | --- |\n| B | 25 a 50 |\n| M | >50 a 100 |\n| A | >100 |",
+    "nota": "Anexo E, 6 (p. 11)"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "| Severidade da maioria das fissuras | Número de pedaços em que a placa está dividida |  |  |\n| --- | --- | --- | --- |\n|  | 2 a 3 | 4 a 5 | Mais que 5 |\n| B M A | B B M | B M A | M A A |",
+    "para": "| Severidade da maioria das fissuras | Número de pedaços em que a placa está dividida: 2 a 3 | 4 a 5 | Mais que 5 |\n| --- | --- | --- | --- |\n| B | B | B | M |\n| M | B | M | A |\n| A | M | A | A |",
+    "nota": "Anexo E, 12 (p. 13)"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "| Profundidade da quebra (mm) | Dimensões dos lados da quebra (cm) |  |\n| --- | --- | --- |\n|  | 13 x 13 a 30 x 30 | Mais que 30 x 30 |\n| ≤ 25 > 25 a 50 > 50 | B B M | B M A |",
+    "para": "| Profundidade da quebra (mm) | Dimensões dos lados da quebra (cm): 13 x 13 a 30 x 30 | Mais que 30 x 30 |\n| --- | --- | --- |\n| ≤ 25 | B | B |\n| > 25 a 50 | B | M |\n| > 50 | M | A |",
+    "nota": "Anexo E, 16 (p. 14)"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "| Grau de severidade | Desnível (mm) |\n| --- | --- |\n| B M A | 3 a 10 > 10 a 20 > 20 |",
+    "para": "| Grau de severidade | Desnível (mm) |\n| --- | --- |\n| B | 3 a 10 |\n| M | > 10 a 20 |\n| A | > 20 |",
+    "nota": "Anexo E, 18 (p. 15)"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "Defeito: Grandes Reparos (área > 0$,45m^{2)}$",
+    "para": "## 8 Defeito: Grandes Reparos (área > 0,45 m²)",
+    "nota": "título do item 8 do Anexo E quebrado"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "Defeito: Pequenos Reparos (Área ≤ 0,45m2)",
+    "para": "## 9 Defeito: Pequenos Reparos (Área ≤ 0,45 m²)",
+    "nota": "título do item 9 do Anexo E"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "o desnível em uma fissura não é tido como defeito isolado, mas é levado em conta para se definir o grau de\n\nNota: severidade dessa fissura.",
+    "para": "Nota: o desnível em uma fissura não é tido como defeito isolado, mas é levado em conta para se definir o grau de severidade dessa fissura."
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "A partir do grau de severidade M recomenda-se que o reparo seja feito imediatamente, para evitar o\n\nNota: comprometimento da segurança de rolamento.",
+    "para": "Nota: A partir do grau de severidade M recomenda-se que o reparo seja feito imediatamente, para evitar o comprometimento da segurança de rolamento."
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "-  quebras cujos lados tenham menos do que 13 cm ou que possuam área inferior a 65cm² são desprezadas\n\nNota:",
+    "para": "Nota: quebras cujos lados tenham menos do que 13 cm ou que possuam área inferior a 65 cm² são desprezadas."
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "fissuras capilares, curtas e que não atingem toda a espessura da placa são tidas como “fissuras de\n\nNota: retração plástica”.\n\nfissuras com médio e alto de graus de severidade são normalmente consideradas como defeitos – estruturais.",
+    "para": "Nota: fissuras capilares, curtas e que não atingem toda a espessura da placa são tidas como “fissuras de retração plástica”; fissuras com médio e alto de graus de severidade são normalmente consideradas como defeitos estruturais.",
+    "nota": "Anexo E, 7 (p. 12): nota partida"
+  }
+}

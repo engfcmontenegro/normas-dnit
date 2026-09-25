@@ -1,0 +1,41 @@
+{
+  "fig01": {
+    "page": 8,
+    "bbox": [
+      29.0,
+      57.0,
+      801.0,
+      601.2
+    ],
+    "legenda": "",
+    "ancora": "RIODEFANENRO —ANGRA DOS REIS",
+    "nota": "Anexo A (p. 8)",
+    "inserir_antes": "Exemplo de Aplicação do Método de Nível"
+  },
+  "fig02": {
+    "page": 9,
+    "bbox": [
+      23.0,
+      57.0,
+      823.0,
+      593.1
+    ],
+    "legenda": "",
+    "ancora": "Exemplo de Aplicação do Método de Nível e Mira no Cálculo do Quociente de Irregu",
+    "nota": "Anexo B (p. 9): ficha preenchida (exemplo), mantida como figura",
+    "inserir_antes": "Exemplo de Aplicação do Método de Nível"
+  },
+  "fig03": {
+    "page": 10,
+    "bbox": [
+      23.0,
+      62.0,
+      728.0,
+      644.7
+    ],
+    "legenda": "",
+    "ancora": "Exemplo de Aplicação do Método de Nível e Mira no Cálculo do Quociente de Irregu",
+    "nota": "Anexo C (p. 10): ficha em branco",
+    "inserir_antes": "Exemplo de Aplicação do Método de Nível"
+  }
+}

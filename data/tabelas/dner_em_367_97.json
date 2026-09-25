@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 2,
+    "clip": [
+      196,
+      662,
+      492,
+      776
+    ],
+    "md": "| Abertura de malha (mm) | %, em peso, passando |\n| --- | --- |\n| 0,42 | 100 |\n| 0,18 | 95-100 |\n| 0,075 | 65-100 |",
+    "de_inicio": "![[dner_em_367_97_fig01.png]]",
+    "nota": "Tabela - Granulometria (tabela sem fios verticais externos; tinha virado figura fig01)"
+  }
+}

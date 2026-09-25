@@ -1,0 +1,490 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "5) de 138/94",
+    "de_fim": "1 ABNT-EB 22/88 (NBR 5734) - Peneiras para ensaio.",
+    "para": "j) DNER-ME 138/94 - Misturas betuminosas - determinação da resistência a tração por compressão diametral;\n\nl) ABNT-EB 22/88 (NBR 5734) - Peneiras para ensaio.",
+    "nota": "2.1 j) e l): OCR"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "\n\nReprodução permitida desde que citado » DNER como fonte p.04/17 |",
+    "de_fim": "p.04/17 |",
+    "para": "",
+    "nota": "tarja lateral/rodapé no meio do texto"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "b) as trincas classe\n\n## 1 não devem",
+    "de_fim": "(ver item 2.1.g).",
+    "para": "b) as trincas classe 1 não devem ser levantadas. Pode ser utilizado também o procedimento DNER-PRO-08/94 (ver item 2.1.g).",
+    "nota": "5.3.1 b) partida pelo OCR"
+  },
+  "x04": {
+    "texto": true,
+    "de_inicio": "A deflexão recuperável deve ser calculada individualmente »parac",
+    "de_fim": "Pusitr",
+    "para": "A deflexão recuperável deve ser calculada individualmente, para cada determinação feita, conforme indicado no item 5.2, segundo o Método DNER-ME 024/94 (ver item 2.1.c).",
+    "nota": "7.1: última linha meio apagada no PDF (p. 6) e lixo de OCR/tarja"
+  },
+  "eq01": {
+    "page": 7,
+    "clip": [
+      70,
+      178,
+      200,
+      212
+    ],
+    "latex": [
+      "\\text{TR} = \\frac{\\text{TRI}}{S} \\times 100"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `TR = TRI x1M s`",
+    "de_fim": "área da superfície de avaliação, em m?;",
+    "para": "$$\n\\text{TR} = \\frac{\\text{TRI}}{S} \\times 100\n$$\n\nonde:\n\nTR = trincamento, em %;\nTRI = total das áreas com trincamento de classes 2 e 3, bem como eventuais buracos e remendos contidos na superfície de avaliação, em m²;\nS = área da superfície de avaliação, em m²."
+  },
+  "eq02": {
+    "page": 7,
+    "clip": [
+      70,
+      546,
+      190,
+      580
+    ],
+    "latex": [
+      "S = 100 - \\frac{P_1}{P_2} \\times 100"
+    ],
+    "de_inicio": "S =100- P1 x 100\n\nP2 onde:",
+    "de_fim": "WENSIS AINZITIAS",
+    "para": "$$\nS = 100 - \\frac{P_1}{P_2} \\times 100\n$$\n\nonde:\n\nS = silte, em %;\n$P_1$ = percentagem, em peso, de material cujas partículas tenham diâmetro inferior a 0,005mm, determinada na curva de distribuição granulométrica;\n$P_2$ = percentagem, em peso, de material cujas partículas tenham diâmetro inferior a 0,075mm, determinada na curva de distribuição granulométrica.\n\n**7.6** Classificação dos solos",
+    "nota": "inclui o título 7.6 (ilegível no OCR)"
+  },
+  "x05": {
+    "texto": true,
+    "de_inicio": "Jeprodução permitida desde que citado o DNER como fonte\n\nTabela 1 - Grupos de Solos",
+    "de_fim": "![[dner-pro-269-94-1_fig01.png]]",
+    "para": "Tabela 1 - Grupos de Solos\n\n| CBR % | S% ≤ 35 | S% 35 a 65 | S% > 65 |\n| --- | --- | --- | --- |\n| ≥ 10 | I | II | III |\n| 6 a 9 | II | II | III |\n| 2 a 5 | III | III | III |\n\n![[dner-pro-269-94-1_fig01.png]]",
+    "nota": "Tabela 1 (p. 8) só existia como imagem (fig01): tabela markdown + a imagem abaixo"
+  },
+  "x06": {
+    "texto": true,
+    "de_inicio": "R&3 Inicialmente",
+    "de_fim": "R&3 Inicialmente",
+    "para": "**8.3** Inicialmente",
+    "nota": "8.3: número do item"
+  },
+  "x07": {
+    "texto": true,
+    "de_inicio": "valores de Qle trincamento",
+    "de_fim": "valores de Qle trincamento",
+    "para": "valores de QI e trincamento",
+    "nota": "8.4"
+  },
+  "x08": {
+    "texto": true,
+    "de_inicio": "oc A\n\n## 1 ndienA\n\n**3.8** Osvaloresindividuais",
+    "de_fim": "faiva definida nela média aritmética",
+    "para": "**8.5** Os valores individuais do trincamento, que não se enquadrarem na faixa definida pela média aritmética",
+    "nota": "8.5: linha meio apagada no PDF (p. 8)"
+  },
+  "x09": {
+    "texto": true,
+    "de_inicio": "\n\nitida desde que citado o DINER como fonte ução perm Reprod",
+    "de_fim": "ução perm Reprod",
+    "para": "",
+    "nota": "tarja lateral"
+  },
+  "x10": {
+    "texto": true,
+    "de_inicio": "### Figura 1 - Modelo de Gráfico para Divisão do Trecho em Subtrechos Homogêneos",
+    "de_fim": "![[dner-pro-269-94-1_fig02.png]]",
+    "para": "### Figura 1 - Modelo de Gráfico para Divisão do Trecho em Subtrechos Homogêneos\n\n![[dner-pro-269-94-1_fig02.png]]\n\n## 9 PROJETO DE RESTAURAÇÃO",
+    "nota": "rótulos soltos da Figura 1 removidos; embed da figura antes do capítulo 9"
+  },
+  "x11": {
+    "texto": true,
+    "de_inicio": "$.1.i Pavimento existente",
+    "de_fim": "$.1.i Pavimento existente",
+    "para": "**9.1.1** Pavimento existente",
+    "nota": "9.1.1"
+  },
+  "x12": {
+    "texto": true,
+    "de_inicio": "1) custos unitários de restauração - compreedem",
+    "de_fim": "1) custos unitários de restauração - compreedem",
+    "para": "f) custos unitários de restauração - compreedem",
+    "nota": "9.1.2 f)"
+  },
+  "eq03": {
+    "page": 10,
+    "clip": [
+      60,
+      612,
+      160,
+      652
+    ],
+    "latex": [
+      "C_o = \\frac{C_n}{(1 + i)^n}"
+    ],
+    "de_inicio": "-—Cn o= d+” onde:",
+    "de_fim": "Reprodução permitia desde que citado o DNER como fonte",
+    "para": "$$\nC_o = \\frac{C_n}{(1 + i)^n}\n$$\n\nonde:\n\n$C_o$ - Custo unitário da restauração a ser realizada no ano n, atualizado para o início do período de análise;\n$C_n$ - custo unitário da restauração;\ni - taxa de oportunidade de capital, estimada pelo projetista ou fixada pelo Órgão Rodoviário, em percentagem sobre 100 (%/100);\nn - ano previsto para execução da restauração, considerando o início do período de análise como ano zero."
+  },
+  "x13": {
+    "texto": true,
+    "de_inicio": "Global (166)",
+    "de_fim": "Global (166)",
+    "para": "Global (IGG)",
+    "nota": "9.2.1"
+  },
+  "x14": {
+    "texto": true,
+    "de_inicio": "**9.3** Dimensionamento do reforço do pavimento nanaanávio",
+    "de_fim": "fu uses fa va A espessura necessária",
+    "para": "**9.3** Dimensionamento do reforço do pavimento\n\nA espessura necessária",
+    "nota": "9.3: linha meio apagada no PDF (p. 11)"
+  },
+  "eq04": {
+    "page": 11,
+    "clip": [
+      62,
+      342,
+      150,
+      365
+    ],
+    "latex": [
+      "D_c = \\overline{D} + \\sigma"
+    ],
+    "de_inicio": "Dc =D+o onde:",
+    "de_fim": "GS - desvio padrão, 0,0Imm.",
+    "para": "$$\nD_c = \\overline{D} + \\sigma\n$$\n\nonde:\n\n$D_c$ - deflexão de projeto, 0,01mm;\n$\\overline{D}$ - média aritmética das deflexões de campo, 0,01mm;\nσ - desvio padrão, 0,01mm."
+  },
+  "d01": {
+    "texto": true,
+    "de_inicio": "respectivas espessuras, ou seja:\nE",
+    "de_fim": "camada de solo, item 7.6. 3º camada",
+    "para": "respectivas espessuras, ou seja:\n\n1ª camada - camada betuminosa, item 5.5;\n2ª camada - camada granular, item 7.7;\n3ª camada - camada de solo, item 7.6.\n\n![[dner-pro-269-94-1_d01.png]]",
+    "nota": "9.3.2: esquema das três camadas (espessuras he e Hcg) como recorte d01",
+    "page": 11,
+    "clip": [
+      305,
+      530,
+      420,
+      622
+    ]
+  },
+  "x15": {
+    "texto": true,
+    "de_inicio": "classificado de acordo com a Tabela 1, item 7.6, em solo Tipo Iou Tipo lou Tipo HI.",
+    "de_fim": "classificado de acordo com a Tabela 1, item 7.6, em solo Tipo Iou Tipo lou Tipo HI.",
+    "para": "classificado de acordo com a Tabela 1, item 7.6, em solo Tipo I ou Tipo II ou Tipo III.",
+    "nota": "9.3.3"
+  },
+  "eq05": {
+    "page": 11,
+    "clip": [
+      60,
+      715,
+      300,
+      752
+    ],
+    "latex": [
+      "\\text{hef} = -5{,}737 + \\frac{807{,}961}{D_c} + 0{,}972\\, I_1 + 4{,}101\\, I_2"
+    ],
+    "de_inicio": "807,961 hef =-5737+",
+    "de_fim": "he - espessura da camada betuminosa existente, em cm.",
+    "para": "$$\n\\text{hef} = -5{,}737 + \\frac{807{,}961}{D_c} + 0{,}972\\, I_1 + 4{,}101\\, I_2\n$$\n\nonde:\n\nhef - espessura efetiva, em cm;\n$I_1$, $I_2$ - constantes relacionadas às características resilientes da terceira camada da estrutura de referência.\n\nCaso 1 - Espessura da camada granular (Hcg) é menor ou igual a 45cm\n\n3ª camada Tipo I: $I_1 = 0$ e $I_2 = 0$;\n3ª camada Tipo II: $I_1 = 1$ e $I_2 = 0$;\n3ª camada Tipo III: $I_1 = 0$ e $I_2 = 1$.\n\nCaso 2 - Espessura da camada granular (Hcg) é maior do que 45cm, adotar:\n\n$I_1 = 0$ e $I_2 = 1$\n\nCaso 3 - O hef calculado deve estar compreendido entre os intervalos:\n\n0 ≤ hef ≤ he\nSe hef < 0, adotar hef = 0;\nSe hef > he, adotar hef = he.\n\nonde:\n\nhe - espessura da camada betuminosa existente, em cm.",
+    "nota": "inclui os casos 1 a 3 (valores de I1/I2 destruídos pelo OCR)"
+  },
+  "x16": {
+    "texto": true,
+    "de_inicio": "FC-2+FC-3>80%eFC-3>30% podeser",
+    "de_fim": "FC-2+FC-3>80%eFC-3>30% podeser",
+    "para": "FC-2 + FC-3 > 80% e FC-3 > 30% pode ser",
+    "nota": "9.3.4 Caso 4"
+  },
+  "eq06": {
+    "page": 12,
+    "clip": [
+      55,
+      592,
+      210,
+      620
+    ],
+    "latex": [
+      "\\log \\overline{\\overline{D}} = 3{,}148 - 0{,}188 \\log N_p"
+    ],
+    "de_inicio": "**9.3.5** Critério de fadiga log D",
+    "de_fim": "para o período de projeto.",
+    "para": "**9.3.5** Critério de fadiga\n\n$$\n\\log \\overline{\\overline{D}} = 3{,}148 - 0{,}188 \\log N_p\n$$\n\nonde:\n\n$\\overline{\\overline{D}}$ - deflexão máxima admissível, 0,01mm;\n$N_p$ - número cumulativo de solicitações de eixos equivalentes ao eixo padrão de 80,12 kN (8,17 tf), para o período de projeto.",
+    "nota": "D com dois traços (D̿)"
+  },
+  "eq07": {
+    "page": 12,
+    "clip": [
+      55,
+      752,
+      345,
+      790
+    ],
+    "latex": [
+      "\\text{HR} = -19{,}015 + \\frac{238{,}14}{\\sqrt{\\overline{\\overline{D}}}} - 1{,}357\\, \\text{hef} + 1{,}016\\, I_1 + 3{,}893\\, I_2"
+    ],
+    "de_inicio": "**9.3.6** Cálculo da espessura de reforço em concreto asfáltico 238,14",
+    "de_fim": "HR - espessura da camada de reforço em concreto asfáltico, em cm.",
+    "para": "**9.3.6** Cálculo da espessura de reforço em concreto asfáltico\n\n$$\n\\text{HR} = -19{,}015 + \\frac{238{,}14}{\\sqrt{\\overline{\\overline{D}}}} - 1{,}357\\, \\text{hef} + 1{,}016\\, I_1 + 3{,}893\\, I_2\n$$\n\nonde:\n\nHR - espessura da camada de reforço em concreto asfáltico, em cm."
+  },
+  "x17": {
+    "texto": true,
+    "de_inicio": "**9.3.7** Solução de recapeamento única de CBUQ",
+    "de_fim": "Caso 2: Para 12,5 < HR < 25cm",
+    "para": "**9.3.7** Solução de recapeamento\n\nCaso 1: Para 3 < HR ≤ 12,5cm a subdivisão em camadas integradas de CBUQ e pré-misturado ou camada única de CBUQ (binder e capa), são alternativas que podem ser consideradas a partir das condições de superfície existente, contemplando as características de deformabilidade das misturas betuminosas a serem utilizadas;\n\nCaso 2: Para 12,5 < HR ≤ 25cm",
+    "nota": "9.3.7: título e Caso 1 embaralhados pelo OCR"
+  },
+  "eq08": {
+    "page": 13,
+    "clip": [
+      80,
+      272,
+      180,
+      320
+    ],
+    "latex": [
+      "H_{pm} = 0{,}60\\, \\text{HR}",
+      "H_{CA} = \\text{HR} - H_{pm}"
+    ],
+    "de_inicio": "TU. =n4nNnHWD A*pil Myrna AL",
+    "de_fim": "HR - espessura de reforço em concreto asfáltico, calculada no item 9.3.6, em cm.",
+    "para": "$$\nH_{pm} = 0{,}60\\, \\text{HR}\n$$\n\n$$\nH_{CA} = \\text{HR} - H_{pm}\n$$\n\nonde:\n\n$H_{pm}$ - espessura de pré-misturado, em cm;\n$H_{CA}$ - espessura de concreto asfáltico, em cm;\nHR - espessura de reforço em concreto asfáltico, calculada no item 9.3.6, em cm."
+  },
+  "x18": {
+    "texto": true,
+    "de_inicio": "Caso 4: Para HR <3cme a partir",
+    "de_fim": "Caso 4: Para HR <3cme a partir",
+    "para": "Caso 4: Para HR ≤ 3cm e a partir",
+    "nota": "9.3.7 Caso 4"
+  },
+  "x19": {
+    "texto": true,
+    "de_inicio": "deve ser avaliada a deflexão D e determinado o valor de Nt correspondente",
+    "de_fim": "deve ser avaliada a deflexão D e determinado o valor de Nt correspondente",
+    "para": "deve ser avaliada a deflexão $\\overline{\\overline{D}}$ e determinado o valor de $N_t$ correspondente",
+    "nota": "9.3.7 Caso 5"
+  },
+  "eq09": {
+    "page": 13,
+    "clip": [
+      100,
+      570,
+      235,
+      609
+    ],
+    "latex": [
+      "\\log N_t = \\frac{3{,}148 - \\log \\overline{\\overline{D}}}{0{,}188}",
+      "\\sum_{i=1}^{A} \\frac{N_i}{N_t} \\le 1{,}0"
+    ],
+    "de_inicio": "3,148 - log D\n\n0,188 log Nt =",
+    "de_fim": "> `A Ni L— <1,0 i=1 Nt`",
+    "para": "$$\n\\log N_t = \\frac{3{,}148 - \\log \\overline{\\overline{D}}}{0{,}188}\n$$\n\nA vida fadiga em anos (A) da solução proposta será definida pela condição:\n\n$$\n\\sum_{i=1}^{A} \\frac{N_i}{N_t} \\le 1{,}0\n$$"
+  },
+  "eq10": {
+    "page": 13,
+    "clip": [
+      100,
+      645,
+      180,
+      700
+    ],
+    "latex": [
+      "\\sum_{i=1}^{A} \\frac{N_i}{N_t} \\le 1{,}0"
+    ],
+    "nota": "aplicada junto com eq09"
+  },
+  "x20": {
+    "texto": true,
+    "de_inicio": "Ni - número anual de solicitações",
+    "de_fim": "Ni - número anual de solicitações",
+    "para": "$N_i$ - número anual de solicitações",
+    "nota": "9.3.7 Caso 5"
+  },
+  "eq11": {
+    "page": 14,
+    "clip": [
+      60,
+      125,
+      385,
+      396
+    ],
+    "latex": [
+      "V = -\\left(\\frac{\\text{he} - \\text{hef}_1}{\\text{TR}}\\right) 50 + \\text{he} \\ ; \\quad \\text{TR} > 50\\%",
+      "V = -\\left(\\frac{\\text{hef}_1}{80 - \\text{TR}}\\right) 50 + \\text{hef}_1 + \\left(\\frac{\\text{hef}_1}{80 - \\text{TR}}\\right) \\text{TR} \\ ; \\quad \\text{TR} \\le 50\\%",
+      "T_i = -\\left(\\frac{\\text{hef}_{i-1} + \\text{HR}_{i-1}}{80}\\right) 50 + \\text{hef}_{i-1} + \\text{HR}_{i-1} \\ ; \\quad i = 2 \\text{ e } 3",
+      "\\text{hef}_2 = \\frac{T_2 + V}{2}",
+      "\\text{hef}_3 = \\frac{\\text{hef}_2 + T_3}{2}"
+    ],
+    "de_inicio": "iticla desde que citado o DNER como fonte ução perm Reprod\n\n= (becheti",
+    "de_fim": "hef,- espessura efetiva da segunda camada de reforço.",
+    "para": "$$\nV = -\\left(\\frac{\\text{he} - \\text{hef}_1}{\\text{TR}}\\right) 50 + \\text{he} \\ ; \\quad \\text{TR} > 50\\%\n$$\n\n$$\nV = -\\left(\\frac{\\text{hef}_1}{80 - \\text{TR}}\\right) 50 + \\text{hef}_1 + \\left(\\frac{\\text{hef}_1}{80 - \\text{TR}}\\right) \\text{TR} \\ ; \\quad \\text{TR} \\le 50\\%\n$$\n\n$$\nT_i = -\\left(\\frac{\\text{hef}_{i-1} + \\text{HR}_{i-1}}{80}\\right) 50 + \\text{hef}_{i-1} + \\text{HR}_{i-1} \\ ; \\quad i = 2 \\text{ e } 3\n$$\n\n$$\n\\text{hef}_2 = \\frac{T_2 + V}{2}\n$$\n\n$$\n\\text{hef}_3 = \\frac{\\text{hef}_2 + T_3}{2}\n$$\n\nonde:\n\nhe - espessura do revestimento original (sem reforço);\n$\\text{hef}_1$ - espessura efetiva do revestimento original (sem reforço);\nTR - percentagem de área trincada do pavimento original (sem reforço);\n$\\text{HR}_{i-1}$ - espessura da camada de reforço na etapa anterior (i - 1);\n$\\text{hef}_2$ - espessura efetiva da primeira camada de reforço;\n$\\text{hef}_3$ - espessura efetiva da segunda camada de reforço.",
+    "nota": "TR〉50% no PDF lido como >; 1ª fórmula de V transcrita como está"
+  },
+  "x21": {
+    "texto": true,
+    "de_inicio": "ou seja, N,- N, procede-se",
+    "de_fim": "ou seja, N,- N, procede-se",
+    "para": "ou seja, $N_p$ - $N_t$, procede-se",
+    "nota": "9.3.8"
+  },
+  "x22": {
+    "texto": true,
+    "de_inicio": "com\n\nA E a finalidade de otimizar",
+    "de_fim": "com\n\nA E a finalidade de otimizar",
+    "para": "com a finalidade de otimizar",
+    "nota": "9.3.9"
+  },
+  "x23": {
+    "texto": true,
+    "de_inicio": "onde a 3º camada for classificado como do Tipo Iou Tipo II",
+    "de_fim": "Reprodução permitid a desde que citado o DNER como fonte",
+    "para": "onde a 3ª camada for classificado como do Tipo I ou Tipo II devem ser contempladas também soluções de restauração por critérios de resistência, bem como verificada a necessidade de remoção e reconstrução de uma nova estrutura de pavimento. No caso do solo da 3ª camada ser do Tipo III, valem as mesmas considerações anteriores, porém para valores de deflexões superiores a 1,60mm. Nos demais casos a aplicação de critérios de resistência ficará a cargo de considerações do projetista.",
+    "nota": "9.4: linha meio apagada no PDF (p. 14) e tarja"
+  },
+  "eq12": {
+    "page": 15,
+    "clip": [
+      60,
+      192,
+      385,
+      214
+    ],
+    "latex": [
+      "\\log M_{ef} = 11{,}19 - 2{,}753 \\log D_c - 1{,}714 \\log \\text{he} - 0{,}0053\\, I_1 + 0{,}2766\\, I_2"
+    ],
+    "de_inicio": "**9.5.1** Módulo de resiliência efetivo do revestimento existente logMer",
+    "de_fim": "módulo de resiliência efetivo do revestimento existente, kgf/cm?.",
+    "para": "**9.5.1** Módulo de resiliência efetivo do revestimento existente\n\n$$\n\\log M_{ef} = 11{,}19 - 2{,}753 \\log D_c - 1{,}714 \\log \\text{he} - 0{,}0053\\, I_1 + 0{,}2766\\, I_2\n$$\n\nonde:\n\n$M_{ef}$ ≥ 1000 kgf/cm²;\n$D_c$ - deflexão de projeto, 0,01mm, item 9.3.1;\n$I_1$, $I_2$ - constantes relacionadas às características resilientes da terceira camada da estrutura de referência, item 9.3.4;\nhe - espessura da camada betuminosa existente, cm;\n$M_{ef}$ - módulo de resiliência efetivo do revestimento existente, kgf/cm²."
+  },
+  "eq13": {
+    "page": 15,
+    "clip": [
+      60,
+      466,
+      125,
+      508
+    ],
+    "latex": [
+      "\\mu = \\frac{MR_c}{M_{ef}}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `MRc L — Mef`",
+    "de_fim": "M, + - módulo de resiliência efetivo do revestimento existente, kgf/cm?.",
+    "para": "$$\n\\mu = \\frac{MR_c}{M_{ef}}\n$$\n\nonde:\n\nμ - relação modular;\n$MR_c$ - módulo de resiliência da mistura betuminosa reciclada, kgf/cm²;\n$M_{ef}$ - módulo de resiliência efetivo do revestimento existente, kgf/cm²."
+  },
+  "eq14": {
+    "page": 15,
+    "clip": [
+      60,
+      630,
+      280,
+      672
+    ],
+    "latex": [
+      "\\overline{D_c} = D_c \\left[\\frac{\\text{hc}}{\\text{he}}\\left(\\mu^{\\frac{1}{3}} - 1\\right) + 1\\right]^{-1{,}324}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `o Ei no Tiga Dc = Dc he E`",
+    "de_fim": "0,0 Imm.",
+    "para": "$$\n\\overline{D_c} = D_c \\left[\\frac{\\text{hc}}{\\text{he}}\\left(\\mu^{\\frac{1}{3}} - 1\\right) + 1\\right]^{-1{,}324}\n$$\n\nonde:\n\n$D_c$ - deflexão de projeto, 0,01mm, item 9.3.1;\nhe - espessura da camada betuminosa existente, cm;\nhc - espessura da camada betuminosa existente reciclada-espessura de corte, cm;\nμ - relação modular, item 9.5.3;\n$\\overline{D_c}$ - deflexão de projeto característica do pavimento reciclado correspondente à espessura hc, 0,01mm."
+  },
+  "x24": {
+    "texto": true,
+    "de_inicio": "hc>3,0cm e, hc < he - 2",
+    "de_fim": "hc>3,0cm e, hc < he - 2",
+    "para": "hc ≥ 3,0cm e,\n\nhc ≤ he - 2",
+    "nota": "9.5.4"
+  },
+  "x25": {
+    "texto": true,
+    "de_inicio": "Caso |: Para u < 1,0 a solução",
+    "de_fim": "Caso |: Para u < 1,0 a solução",
+    "para": "Caso 1: Para μ ≤ 1,0 a solução",
+    "nota": "9.5.5"
+  },
+  "x26": {
+    "texto": true,
+    "de_inicio": "no caso em que D, < D ou HR < 3cm",
+    "de_fim": "no caso em que D, < D ou HR < 3cm",
+    "para": "no caso em que $D_c$ ≤ $\\overline{\\overline{D}}$ ou HR ≤ 3cm",
+    "nota": "9.5.5 Caso 1 (D_c sem barra, como no PDF)"
+  },
+  "x27": {
+    "texto": true,
+    "de_inicio": "Caso 2: Para u > 1,0",
+    "de_fim": "Caso 2: Para u > 1,0",
+    "para": "Caso 2: Para μ > 1,0",
+    "nota": "9.5.5"
+  },
+  "x28": {
+    "texto": true,
+    "de_inicio": "- calcular D, para",
+    "de_fim": "- calcular D, para",
+    "para": "- calcular $\\overline{D_c}$ para",
+    "nota": "9.5.5"
+  },
+  "x29": {
+    "texto": true,
+    "de_inicio": "- para D, <D D a soiução",
+    "de_fim": "uma aiternativa de restauração;",
+    "para": "- para $\\overline{D_c}$ ≤ $\\overline{\\overline{D}}$ a solução por reciclagem com espessura de corte hc constitui uma alternativa de restauração;",
+    "nota": "9.5.5"
+  },
+  "x30": {
+    "texto": true,
+    "de_inicio": "- para D, > D dimensionar",
+    "de_fim": "considerando D, = D, Esta",
+    "para": "- para $\\overline{D_c}$ > $\\overline{\\overline{D}}$ dimensionar a camada de reforço a partir do item 9.3.4, considerando $D_c$ = $\\overline{D_c}$. Esta",
+    "nota": "9.5.5"
+  },
+  "eq15": {
+    "page": 16,
+    "clip": [
+      120,
+      582,
+      205,
+      608
+    ],
+    "latex": [
+      "MR_c = 5000\\, \\sigma_R"
+    ],
+    "de_inicio": "MRe = 5000 6, onde:",
+    "de_fim": "## DNER-ME 138/94.",
+    "para": "$$\nMR_c = 5000\\, \\sigma_R\n$$\n\nonde:\n\n$\\sigma_R$ - Resistência à tração por compressão diametral, kgf/cm², determinada pelo Método DNER-ME 138/94."
+  },
+  "x31": {
+    "texto": true,
+    "de_inicio": "![[dner-pro-269-94-1_fig03.png]]\n\nQuadro I - Classificação dos Veículos",
+    "de_fim": "Quadro I - Classificação dos Veículos",
+    "para": "## Anexo Informativo\n\nQuadro I - Classificação dos Veículos\n\n| Símbolo | Descrição |\n| --- | --- |\n|  | Automóvel |\n|  | Utilitário |\n| 2C | Ônibus |\n| 2C | Caminhão |\n| 3C | Caminhão |\n| 4C | Caminhão |\n| 2S1 | Semi-Reboque |\n| 2S2 | Semi-Reboque |\n| 2S3 | Semi-Reboque |\n| 3S2 | Semi-Reboque |\n| 3S3 | Semi-Reboque |\n| 2C2 | Reboque |\n| 2C3 | Reboque |\n\n![[dner-pro-269-94-1_fig03.png]]",
+    "nota": "Anexo (p. 17): Quadro I só existia como imagem (fig03); tabela markdown (a coluna Configuração são desenhos: ver imagem)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "**3.3** Número Np",
+    "para": "**3.3** Número $N_p$",
+    "nota": "3.3"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "**3.4** Vida de fadiga - Nt",
+    "para": "**3.4** Vida de fadiga - $N_t$",
+    "nota": "3.4"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "O solo da 3º camada",
+    "para": "O solo da 3ª camada",
+    "nota": "9.3.3"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "Classificação do solo da 3a camada",
+    "para": "Classificação do solo da 3ª camada",
+    "nota": "9.3.3"
+  }
+}

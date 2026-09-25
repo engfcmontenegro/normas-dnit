@@ -1,0 +1,76 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "atendam à seguinte granulometria (DNER-ME 083):\n\n| Peneira de |",
+    "de_fim": "5-8 5-8,5 5-9 ± 0,3",
+    "para": "atendam à seguinte granulometria (DNER-ME 083):\n\n| Peneira ABNT | Abertura, mm | Percentagem passando, em peso |\n| --- | --- | --- |\n| N° 40 | 0,42 | 100 |\n| N° 80 | 0,18 | 95-100 |\n| N° 200 | 0,075 | 65-100 |\n\n![[dner_es_387_99_tabm01.png]]\n\n**5.1.4** Composição da mistura\n\nA composição da mistura de areia asfalto deve satisfazer os requisitos do quadro seguinte com as respectivas tolerâncias no que diz respeito à granulometria e aos percentuais de cimento asfáltico.\n\n| Peneira de |  | Percentagem passando, em peso (faixas) |  |  | Tolerância |\n| --- | --- | --- | --- | --- | --- |\n| ABNT | Abertura, mm | A | B | C | na curva de projeto (%) |\n| nº 4 | 4,8 | 100 | 100 | 100 | - |\n| nº 10 | 2,0 | 90-100 | 90-100 | 85-100 | ± 5 |\n| nº 40 | 0,42 | 40-90 | 30-95 | 25-100 | ± 5 |\n| nº 80 | 0,18 | 10-47 | 5-60 | 0-62 | ± 3 |\n| nº 200 | 0,075 | 0-7 | 0-10 | 0-12 | ± 2 |\n| Ligante |  | 5-8 | 5-8,5 | 5-9 | ± 0,3 |\n\n![[dner_es_387_99_tab01.png]]",
+    "nota": "tabela da composição (tab01) estava no lugar da tabela do filer; filer vira tabm01; texto achatado da composição removido"
+  },
+  "eq01": {
+    "page": 13,
+    "clip": [
+      68,
+      100,
+      130,
+      140
+    ],
+    "latex": [
+      "\\overline{X} = \\frac{\\sum X_i}{n}",
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `X Xi n = ∑ ( ) s Xi X n = ∑ − − 2 1`\n\nOnde:",
+    "de_fim": "- número de determinações.",
+    "para": "$$\n\\overline{X} = \\frac{\\sum X_i}{n}\n$$\n\n$$\ns = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}\n$$\n\nonde:\n\n$X_i$ - valores individuais;\n$\\overline{X}$ - média da amostra;\n$s$ - desvio padrão da amostra;\n$k$ - coeficiente tabelado em função do número de determinações;\n$n$ - número de determinações."
+  },
+  "eq02": {
+    "page": 13,
+    "clip": [
+      68,
+      145,
+      165,
+      200
+    ],
+    "latex": [
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo especificado ou X + ks > valor máximo",
+    "para": "$\\overline{X} - ks$ < valor mínimo especificado ou $\\overline{X} + ks$ > valor máximo"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo especificado e X + ks ≤ valor máximo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo especificado e $\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "Se X - ks <",
+    "para": "Se $\\overline{X} - ks$ <"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "Se X - ks ≥",
+    "para": "Se $\\overline{X} - ks$ ≥"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "700m 2 de pista",
+    "para": "700 m² de pista"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "### Tabela de amostragem variável\n\n1,55 1,41",
+    "de_fim": "α = risco do executante",
+    "para": "",
+    "nota": "resto achatado da tabela de amostragem (já em tab02)"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "conforme tabela do item\n\n**7.2.1.5** DNER-ES 387/99",
+    "de_fim": "DNER-ES 387/99",
+    "para": "conforme tabela do item 7.2.1.5.",
+    "nota": "7.2.2.3: fim de frase virou título + cabeçalho de página"
+  }
+}

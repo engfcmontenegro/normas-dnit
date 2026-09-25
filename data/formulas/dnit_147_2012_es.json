@@ -1,0 +1,83 @@
+{
+  "eq01": {
+    "page": 6,
+    "bbox": [
+      77.6,
+      613.9,
+      145.8,
+      664.3
+    ],
+    "raw": "P P 2 − T = 1 A",
+    "latex": "T = \\frac{P_2 - P_1}{A}"
+  },
+  "eq02": {
+    "page": 6,
+    "bbox": [
+      381.8,
+      137.2,
+      452.2,
+      185.1
+    ],
+    "raw": "P P 2 − TR = 1 A",
+    "latex": "TR = \\frac{P_2 - P_1}{A}"
+  },
+  "eq03": {
+    "page": 7,
+    "bbox": [
+      79.9,
+      638.3,
+      144.4,
+      703.2
+    ],
+    "raw": "n ∑ x i X = i = 1 n",
+    "latex": "\\bar{X} = \\frac{\\sum_{i=1}^{n} x_i}{n}"
+  },
+  "eq04": {
+    "page": 7,
+    "bbox": [
+      79.1,
+      715.4,
+      178.0,
+      768.9
+    ],
+    "raw": "= ∑ x X 2 ( − ) i s n − 1",
+    "latex": "s = \\sqrt{\\frac{\\sum (x_i - \\bar{X})^2}{n-1}}"
+  },
+  "t_c1": {
+    "todas": true,
+    "de_inicio": "X- ks ≥",
+    "para": "$\\bar{X} - ks$ ≥"
+  },
+  "t_c2": {
+    "todas": true,
+    "de_inicio": "X+ ks ≤",
+    "para": "$\\bar{X} + ks$ ≤"
+  },
+  "t_c3": {
+    "todas": true,
+    "de_inicio": "X- ks <",
+    "para": "$\\bar{X} - ks$ <"
+  },
+  "t_c4": {
+    "todas": true,
+    "de_inicio": "X+ ks >",
+    "para": "$\\bar{X} + ks$ >"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "Onde: $i^{x}$$^{– valores individuais}$\n\nX – média da amostra s - desvio padrão da amostra k - coeficiente tabelado em função do número de determinações n - número de determinações (tamanho da amostra).",
+    "para": "Onde:\n\n$x_i$ – valores individuais\n\n$\\bar{X}$ – média da amostra\n\n$s$ - desvio padrão da amostra\n\n$k$ - coeficiente tabelado em função do número de determinações\n\n$n$ - número de determinações (tamanho da amostra).",
+    "nota": "legenda do controle estatístico quebrada na extração"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "massa (P1) e área (A)",
+    "para": "massa ($P_1$) e área (A)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "ℓ m2 |",
+    "para": "ℓ m² |",
+    "nota": "Tabela 2: PDF escreve 'ℓ m²' (sem barra)"
+  }
+}

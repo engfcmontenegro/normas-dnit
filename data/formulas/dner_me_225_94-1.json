@@ -1,0 +1,17 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      64,
+      660,
+      215,
+      714
+    ],
+    "latex": [
+      "P = \\frac{P_1}{P_1 + P_2} \\times 100"
+    ],
+    "de_inicio": "P= 0 ————— x 100 sendo:",
+    "de_fim": "massa do material retido na peneira de 0,42 mm de abertura (ver 6.10).",
+    "para": "$$\nP = \\frac{P_1}{P_1 + P_2} \\times 100\n$$\n\nsendo:\n\n$P$ - perda de massa do agregado, em %;\n$P_1$ - massa do material que passa na peneira de 0,42 mm de abertura (ver 6.10);\n$P_2$ - massa do material retido na peneira de 0,42 mm de abertura (ver 6.10)."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "previamente avaliados por um\n\nProjeto, resultante",
+    "para": "previamente avaliados por um Projeto, resultante"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "de acordo com o\n\nSICRO 2;\n\nplataformas suspensas de trabalho: por m²\n\nc)\n\n",
+    "para": "de acordo com o SICRO 2;\n\nc) plataformas suspensas de trabalho: por m²\n\n"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "com o CO2 presente",
+    "para": "com o CO₂ presente"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "não maiores que 0,5 m2;",
+    "para": "não maiores que 0,5 m²;"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "concreto fck = 30 MPa;",
+    "para": "concreto $f_{ck}$ = 30 MPa;"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "projetado, fck = 30 MPa;",
+    "para": "projetado, $f_{ck}$ = 30 MPa;"
+  }
+}

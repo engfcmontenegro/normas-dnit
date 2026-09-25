@@ -1,0 +1,317 @@
+{
+  "eq01": {
+    "page": 6,
+    "clip": [
+      62,
+      540,
+      230,
+      602
+    ],
+    "latex": [
+      "h = \\frac{P_h - P_s}{P_s} \\times 100",
+      "H_s = \\frac{P_s}{\\gamma_g \\times A}",
+      "\\varepsilon = \\frac{H}{H_s} - 1",
+      "S\\ \\% = \\frac{h \\times \\gamma_g}{\\varepsilon \\times \\gamma_a}",
+      "H = H_1 - \\Delta H",
+      "H = H_1 + \\Delta H",
+      "C_v = \\frac{T \\left( \\dfrac{H_m}{2} \\right)^2}{t}"
+    ],
+    "de_inicio": "**6.1** Calcula-se as umidades",
+    "de_fim": "levando em consideração a existência de duas faces de drenagem.",
+    "para": "**6.1** Calcula-se as umidades inicial e final do corpo-de-prova a partir dos itens 4.10 e 5.11, pela fórmula:\n\n$$\nh = \\frac{P_h - P_s}{P_s} \\times 100\n$$\n\nonde:\n\n$h$ - teor de umidade, em porcentagem;\n$P_h$ - peso do solo úmido, em g;\n$P_s$ - peso do solo seco, em g.\n\n**6.2** Calcula-se a altura sólida do corpo-de-prova pela fórmula:\n\n$$\nH_s = \\frac{P_s}{\\gamma_g \\times A}\n$$\n\nonde:\n\n$H_s$ - altura sólida do corpo-de-prova, em cm;\n$P_s$ - peso do corpo-de-prova seco, em g;\n$\\gamma_g$ - massa específica real dos grãos de solo, em g/cm³ ou (10³ kg/m³);\n$A$ - área do corpo-de-prova, em cm².\n\n**6.3** Calcula-se o índice de vazios pela fórmula:\n\n$$\n\\varepsilon = \\frac{H}{H_s} - 1\n$$\n\nonde:\n\n$\\varepsilon$ - índice de vazios;\n$H$ - altura do corpo-de-prova, em cm;\n$H_s$ - altura sólida do corpo-de-prova, em cm.\n\n**6.4** Calcula-se o grau de saturação do corpo-de-prova pela fórmula:\n\n$$\nS\\ \\% = \\frac{h \\times \\gamma_g}{\\varepsilon \\times \\gamma_a}\n$$\n\nonde:\n\n$\\gamma_g$ - massa específica real dos grãos de solo, em g/cm³ ou (10³ kg/m³);\n$h$ - umidade, em percentagem;\n$\\varepsilon$ - índice de vazio;\n$\\gamma_a$ - massa específica da água, considerada 1 g/cm³ ou (10³ kg/m³).\n\n**6.5** A altura do corpo-de-prova para a carga aplicada é:\n\n$$\nH = H_1 - \\Delta H\n$$\n\nonde:\n\n$H$ - altura do corpo-de-prova, em cm;\n$H_1$ - altura do corpo-de-prova antes da aplicação da carga, em cm;\n$\\Delta H$ - decréscimo da altura do corpo-de-prova, em cm, ou seja a diferença das leituras do defletômetro antes da aplicação da carga e após a estabilização do corpo-de-prova sob a mesma.\n\n**6.6** A altura do corpo-de-prova após a retirada de uma carga é:\n\n$$\nH = H_1 + \\Delta H\n$$\n\nonde:\n\n$H$ - altura do corpo-de-prova, em cm;\n$H_1$ - altura do corpo-de-prova antes da retirada da carga;\n$\\Delta H$ - acréscimo de altura do corpo-de-prova, ou seja a diferença de leituras do defletômetro antes da retirada da carga após a última leitura da expansão.\n\n**6.7** Calcula-se o coeficiente de adensamento pela fórmula:\n\n$$\nC_v = \\frac{T \\left( \\dfrac{H_m}{2} \\right)^2}{t}\n$$\n\nonde:\n\n$C_v$ - coeficiente de adensamento, em cm²/s ou 10⁻⁴ m²/s;\n$H_m$ - altura média do corpo-de-prova, isto é, a média das alturas antes da aplicação de uma carga e ao final desta, em cm;\n$t$ - tempo para que se dêem 50% de adensamento ou 90% de adensamento, em segundos;\n$T$ - fator tempo;\n\nsendo:\n\n$T$ = 0,197 para 50% de adensamento;\n$T$ = 0,848 para 90% de adensamento.\n\nNota:\nOs valores dados de T somente são válidos para as condições normais de carregamento do ensaio e também levando em consideração a existência de duas faces de drenagem.",
+    "nota": "6.1 a 6.7: três avisos 'Fórmula ausente' e fórmulas quebradas; transcrito pelo PDF (p. 6-8). Unidade de Cv: '10⁻⁴ m²/s' em 6.7 e '(10³m²/s)' em 6.12, como no PDF (possível erro, p. 8-9)"
+  },
+  "eq02": {
+    "page": 6,
+    "clip": [
+      62,
+      735,
+      230,
+      805
+    ],
+    "latex": [
+      "H_s = \\frac{P_s}{\\gamma_g \\times A}"
+    ]
+  },
+  "eq03": {
+    "page": 7,
+    "clip": [
+      62,
+      268,
+      200,
+      338
+    ],
+    "latex": [
+      "\\varepsilon = \\frac{H}{H_s} - 1"
+    ]
+  },
+  "eq04": {
+    "page": 7,
+    "clip": [
+      62,
+      470,
+      200,
+      514
+    ],
+    "latex": [
+      "S\\ \\% = \\frac{h \\times \\gamma_g}{\\varepsilon \\times \\gamma_a}"
+    ]
+  },
+  "eq05": {
+    "page": 7,
+    "clip": [
+      62,
+      675,
+      160,
+      692
+    ],
+    "latex": [
+      "H = H_1 - \\Delta H"
+    ]
+  },
+  "eq06": {
+    "page": 8,
+    "clip": [
+      62,
+      120,
+      160,
+      140
+    ],
+    "latex": [
+      "H = H_1 + \\Delta H"
+    ]
+  },
+  "eq07": {
+    "page": 8,
+    "clip": [
+      62,
+      285,
+      250,
+      345
+    ],
+    "latex": [
+      "C_v = \\frac{T \\left( \\dfrac{H_m}{2} \\right)^2}{t}"
+    ]
+  },
+  "eq08": {
+    "page": 9,
+    "clip": [
+      62,
+      268,
+      160,
+      312
+    ],
+    "latex": [
+      "a_v = \\frac{\\Delta \\varepsilon}{\\Delta p}",
+      "m_v = \\frac{a_v}{1 + \\varepsilon_m}",
+      "K = C_v \\cdot m_v \\cdot \\gamma_a"
+    ],
+    "de_inicio": "**6.10** Calcula-se o coeficiente de compressibilidade",
+    "de_fim": "inferior a 1 X 107 cm/s ou (10º m/s).",
+    "para": "**6.10** Calcula-se o coeficiente de compressibilidade pela fórmula:\n\n$$\na_v = \\frac{\\Delta \\varepsilon}{\\Delta p}\n$$\n\nonde:\n\n$a_v$ - coeficiente de compressibilidade, em cm²/g ou (10³ kPa⁻¹);\n$\\Delta \\varepsilon$ - decréscimo de índice de vazios;\n$\\Delta p$ - acréscimo de pressão, isto é, a diferença entre a pressão que atuava anteriormente no corpo-de-prova e a pressão atuante, em g/cm² ou (10⁻³ kPa).\n\n**6.11** Denomina-se coeficiente de deformação volumétrica ao valor:\n\n$$\nm_v = \\frac{a_v}{1 + \\varepsilon_m}\n$$\n\nonde:\n\n$m_v$ - coeficiente de decréscimo de volume, em cm²/g ou (10³ kPa⁻¹);\n$a_v$ - coeficiente de compressibilidade, em cm²/g ou (10³ kPa⁻¹);\n$\\varepsilon_m$ - índice de vazios médio.\n\n**6.12** Calcula-se o coeficiente de permeabilidade pela fórmula:\n\n$$\nK = C_v \\cdot m_v \\cdot \\gamma_a\n$$\n\nonde:\n\n$C_v$ - coeficiente de adensamento, em cm²/s ou (10³m²/s);\n$K$ - coeficiente de permeabilidade em cm/s ou (10⁻² m/s);\n$m_v$ - coeficiente de decréscimo de volume, em cm²/g ou (10³ kPa⁻¹);\n$\\gamma_a$ - massa específica da água, considerada igual a 1 g/cm³ ou (10³ kg/m³).\n\nNota: O coeficiente de permeabilidade K, calculado pelo ensaio de adensamento só dá valores coerentes para solos de baixa permeabilidade, isto é, de coeficiente de permeabilidade inferior a 1 X 10⁻⁷ cm/s ou (10⁻⁹ m/s).",
+    "nota": "6.10 a 6.12 (p. 9); unidades transcritas como no PDF"
+  },
+  "eq09": {
+    "page": 9,
+    "clip": [
+      62,
+      468,
+      170,
+      510
+    ],
+    "latex": [
+      "m_v = \\frac{a_v}{1 + \\varepsilon_m}"
+    ]
+  },
+  "eq10": {
+    "page": 9,
+    "clip": [
+      62,
+      648,
+      160,
+      665
+    ],
+    "latex": [
+      "K = C_v \\cdot m_v \\cdot \\gamma_a"
+    ]
+  },
+  "eq11": {
+    "page": 10,
+    "clip": [
+      62,
+      220,
+      160,
+      282
+    ],
+    "latex": [
+      "I_e = \\frac{\\varepsilon_1 - \\varepsilon_2}{\\log \\dfrac{P_2}{P_1}}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `E -E 1 2 Te = P`",
+    "de_fim": "P, -pressão correspondente ao segundo índice de vazios.",
+    "para": "$$\nI_e = \\frac{\\varepsilon_1 - \\varepsilon_2}{\\log \\dfrac{P_2}{P_1}}\n$$\n\nonde:\n\n$I_e$ - índice de compressão;\n$\\varepsilon_1$ - um valor do índice de vazios;\n$\\varepsilon_2$ - outro valor do índice de vazios;\n$P_1$ - pressão correspondente ao primeiro índice de vazios;\n$P_2$ - pressão correspondente ao segundo índice de vazios.",
+    "nota": "7.2 (p. 10): 'Ie' do PDF escrito como I_e"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "f Anexo\n\n005/94 po l/19",
+    "de_fim": "Il - FICHA DE ENSAIO DE ADENSAMENTO",
+    "para": "## ANEXO NORMATIVO\n\n![[dner_ie_005_94-1_fig01.png]]\n\n### FIGURA 1 - CÉLULA DE ADENSAMENTO COM ANEL FIXO\n\n![[dner_ie_005_94-1_fig02.png]]\n\n### FIGURA 2 - CÉLULA DE ADENSAMENTO COM ANEL FLUTUANTE\n\n![[dner_ie_005_94-1_fig03.png]]\n\n### FIGURA 3 - EXTRATOR DE AMOSTRAS INDEFORMADAS DO TUBO DE PAREDE FINA (SHELBY) EM OPERAÇÃO\n\n### FIGURA 4 - MÁQUINA DE ADENSAMENTO DA DIVISÃO DE PESQUISAS E DESENVOLVIMENTO\n\n![[dner_ie_005_94-1_fig04.png]]\n\n### FIGURA 5 - A PARTIR DA ESQUERDA: APARELHO PARA TORNEAR A AMOSTRA, FERRAMENTA CORTANTE E CÉLULA DE ADENSAMENTO DE ANEL FIXO, DESMONTADA\n\n![[dner_ie_005_94-1_fig05.png]]\n\n### FIGURA 6\n\n![[dner_ie_005_94-1_fig06.png]]\n\n### FIGURA 7 - FOLHA DE ENSAIO\n\n![[dner_ie_005_94-1_fig07.png]]\n\n### FIGURA 8 - CURVA DE ADENSAMENTO\n\n![[dner_ie_005_94-1_fig08.png]]\n\n### FIGURA 9\n\n![[dner_ie_005_94-1_fig09.png]]\n\n### FIGURA 10\n\n![[dner_ie_005_94-1_fig10.png]]\n\n### FIGURA 11 - FICHA DE ENSAIO DE ADENSAMENTO",
+    "nota": "anexo (p. 11-19): lixo de OCR das figuras e 8 avisos [!warning] falsos (rótulos de desenho, gráficos e fichas); ficam as imagens com as legendas do PDF. Figuras 7 e 11 são fichas preenchidas (imagem)."
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "à DNER-PRO 10 1/93",
+    "para": "à DNER-PRO 101/93",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "entre 2 4” (6,350 em) e 4 4/4” (10,795 cm). A altura do anel de adensamento é cerca detrês a quatro vezesmenor",
+    "para": "entre 2 ½” (6,350 cm) e 4 ¼” (10,795 cm). A altura do anel de adensamento é cerca de três a quatro vezes menor",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "diâmetro inferior a 2 4” (6,350 cm), porquanto sempre há um amolgamento da face extema",
+    "para": "diâmetro inferior a 2 ½” (6,350 cm), porquanto sempre há um amolgamento da face externa",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "Sendo menor o diâmetro do corpo-de-, prova ensaiado",
+    "para": "Sendo menor o diâmetro do corpo-de-prova ensaiado",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "g) aparelho para tomnear a amostra",
+    "para": "g) aparelho para tornear a amostra",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "h): ferramenta cortante",
+    "para": "h) ferramenta cortante",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "J) régua de metal;",
+    "para": "j) régua de metal;",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "\n\nD espátula;\n\n",
+    "para": "\n\nl) espátula;\n\n",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "r) estufa capaz de manter a temperatura a 105 “C - 110 ºC.",
+    "para": "r) estufa capaz de manter a temperatura a 105 ºC - 110 ºC.",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "Nota: As Figuras 3, 4 5 representam parte da aparelhagem em uso na Divisão de Pesquisas Desenvolvimento.",
+    "para": "Nota: As Figuras 3, 4 e 5 representam parte da aparelhagem em uso na Divisão de Pesquisas e Desenvolvimento.",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "compreendido entre 2 >” (6,350 cm) e 4 4” (10,795 cm)",
+    "para": "compreendido entre 2 ½” (6,350 cm) e 4 ¼” (10,795 cm)",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "pesa-se com precisão de 0,01 ge põe-sena estufa a 105ºC- 110ºC,",
+    "para": "pesa-se com precisão de 0,01 g e põe-se na estufa a 105 ºC - 110 ºC,",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "Separaa carga inicial o corpo-de-prova",
+    "para": "Se para a carga inicial o corpo-de-prova",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t14": {
+    "todas": true,
+    "de_inicio": "usualmenteutilizadano ensaio de adensamento elos diversos laboratórios é: 20; 40; 80: 160;",
+    "para": "usualmente utilizada no ensaio de adensamento pelos diversos laboratórios é: 20; 40; 80; 160;",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t15": {
+    "todas": true,
+    "de_inicio": "\n\ndispositivo de aplicação de cargas da máquina",
+    "para": "\n\nO dispositivo de aplicação de cargas da máquina",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t16": {
+    "todas": true,
+    "de_inicio": "contrapesos colocadosno pendural",
+    "para": "contrapesos colocados no pendural",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t17": {
+    "todas": true,
+    "de_inicio": "corpo-de-prova de 33,2 cm?, deve-se",
+    "para": "corpo-de-prova de 33,2 cm², deve-se",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t18": {
+    "todas": true,
+    "de_inicio": "1, 2, 4,8, 15 minutos, 1,2,\n\n4, 8, 24 horas",
+    "para": "1, 2, 4, 8, 15 minutos, 1, 2, 4, 8, 24 horas",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t19": {
+    "todas": true,
+    "de_inicio": "antes da aplicação de carga e o zero\n\n% de adensamento",
+    "para": "antes da aplicação de carga e o zero % de adensamento",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t20": {
+    "todas": true,
+    "de_inicio": "em função de Jt deve-se continuar",
+    "para": "em função de √t, deve-se continuar",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t21": {
+    "todas": true,
+    "de_inicio": "**5.10** Sefornecessário que sejam conhecidas ascaracterísticas",
+    "para": "**5.10** Se for necessário que sejam conhecidas as características",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t22": {
+    "todas": true,
+    "de_inicio": "retirada de cargas em segiiências diferentes",
+    "para": "retirada de cargas em seqüências diferentes",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t23": {
+    "todas": true,
+    "de_inicio": "“Soil Testingfor Civil Engineers” \"recomenda » quando o carregamento produz a segiiência de pressões de 25 kPa até 800 kPa que se reduza a carga de modo que apressão",
+    "para": "“Soil Testing for Civil Engineers” recomenda, quando o carregamento produz a seqüência de pressões de 25 kPa até 800 kPa que se reduza a carga de modo que a pressão",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t24": {
+    "todas": true,
+    "de_inicio": "primeiro 34 da cargatotale, após, que se vá reduzindo à metade as cargasrestantes",
+    "para": "primeiro ¾ da carga total e, após, que se vá reduzindo à metade as cargas restantes",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t25": {
+    "todas": true,
+    "de_inicio": "pesa-se e põe-se em estufa a 105 *C - 110ºC,",
+    "para": "pesa-se e põe-se em estufa a 105 ºC - 110 ºC,",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  },
+  "t26": {
+    "todas": true,
+    "de_inicio": "**7.2** Otrechoreto da curva pressão X índice de vazios é denominado dereta virgem",
+    "para": "**7.2** O trecho reto da curva pressão X índice de vazios é denominado de reta virgem",
+    "nota": "OCR (½, ¼, ¾, √t, ², ºC, alíneas, palavras coladas), conferido no PDF"
+  }
+}

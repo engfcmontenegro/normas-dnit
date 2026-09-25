@@ -1,0 +1,25 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      71.0,
+      76.0,
+      545.0,
+      793.0
+    ],
+    "legenda": "",
+    "ancora": "6.1 Inspeção visual de recipientes",
+    "ignorar": true,
+    "nota": "é a página 5 inteira com as Tabelas 1 e 2 (tabm01, tabm02)",
+    "texto_removido": [
+      "- Dióxido de titânio (TiO 2 ), porcentagem em massa no pigmento. 22,00",
+      "Para tinta amarela:",
+      "Massa específica, g/cm 3 . 1,35 1,45 Brilho a 60º, unidades. 20,00",
+      "Cor (notação Munsell Highway)",
+      "- tinta branca",
+      "- tinta amarela",
+      "Requisitos Mínimo Máximo",
+      "Consistência, UK 75,00 90,00 Estabilidade na armazenagem"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "eq01": {
+    "page": 12,
+    "bbox": [
+      48.6,
+      529.8,
+      144.6,
+      559.3
+    ],
+    "raw": "ƒctMk, est ≥ ƒctM,k",
+    "latex": "f_{ctMk,est} \\geq f_{ctM,k}"
+  },
+  "eq02": {
+    "page": 13,
+    "bbox": [
+      79.7,
+      216.7,
+      142.9,
+      278.8
+    ],
+    "raw": "n å x i = X i = 1 n",
+    "latex": "\\overline{X} = \\frac{\\sum_{i=1}^{n} x_i}{n}"
+  },
+  "eq03": {
+    "page": 13,
+    "bbox": [
+      79.0,
+      292.1,
+      177.7,
+      344.4
+    ],
+    "raw": "= å - 2 ( x X ) i s - n 1",
+    "latex": "s = \\sqrt{\\frac{\\sum \\left(x_i - \\overline{X}\\right)^2}{n - 1}}"
+  },
+  "m01": {
+    "manual": true,
+    "page": 12,
+    "clip": [
+      52,
+      162,
+      290,
+      184
+    ],
+    "latex": "f_{ctMk,est} = f_{ctM28} - ks"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "fctMk,est = valor estimado",
+    "para": "$f_{ctMk,est}$ = valor estimado"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "fctM28 = resistência média",
+    "para": "$f_{ctM28}$ = resistência média"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "ƒctM,k = valor da resistência",
+    "para": "$f_{ctM,k}$ = valor da resistência"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "(fctM, k) definida no projeto",
+    "para": "($f_{ctM,k}$) definida no projeto"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "Cmin = 350 kg/m³.",
+    "para": "$C_{min}$ = 350 kg/m³."
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "X + ks ≤ valor máximo",
+    "para": "$\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo",
+    "para": "$\\overline{X} - ks$ < valor mínimo"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "X + ks > valor máximo",
+    "para": "$\\overline{X} + ks$ > valor máximo"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "Xi - valores individuais.",
+    "para": "$X_i$ - valores individuais."
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "\nX - média da amostra.",
+    "para": "\n$\\overline{X}$ - média da amostra."
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "de acordo com a Tabela 1 da\n\nNorma DNER – PRO 277/97.",
+    "para": "de acordo com a Tabela 1 da Norma DNER – PRO 277/97."
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "Norma DNIT\n\n011/2004-PRO, a qual prescreve",
+    "para": "Norma DNIT 011/2004-PRO, a qual prescreve"
+  }
+}

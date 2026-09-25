@@ -1,0 +1,68 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      41.0,
+      55.0,
+      562.3,
+      803.0
+    ],
+    "legenda": "FIGURA 2",
+    "ancora": "FIGURA 2",
+    "texto_removido": [
+      "PALHETA",
+      "RECIPIENTE",
+      "CoM TINTA",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `— (e e'ib L`",
+      "LINHA DE GRADUAÇÃO",
+      "62",
+      "6'z 27,0",
+      "TOLERÂNCIA +0,1",
+      "—— pl. 4H",
+      "PARA USO COM VISCOSÍMETRO STORMER",
+      "— —|— — —",
+      "FIGURAS",
+      "3,4,8"
+    ]
+  },
+  "fig02": {
+    "page": 6,
+    "bbox": [
+      164.9,
+      170.0,
+      422.0,
+      460.3
+    ],
+    "legenda": "FIGURA 4",
+    "ancora": "FIGURA 4",
+    "texto_removido": [
+      "## 3 AM"
+    ]
+  },
+  "fig03": {
+    "page": 7,
+    "bbox": [
+      190.0,
+      266.0,
+      570.0,
+      806.5
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO B —- TABELAS",
+    "texto_removido": [
+      "TEMPO, SEGUNDOS",
+      "## 30 ot"
+    ]
+  },
+  "fig04": {
+    "page": 9,
+    "bbox": [
+      43.0,
+      55.0,
+      569.0,
+      801.0
+    ],
+    "legenda": "",
+    "ancora": "| g97ig9 |O |io3l]iosjiorjio|iiz"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      60,
+      512,
+      290,
+      560
+    ],
+    "latex": [
+      "P = \\frac{\\text{peso do betume extraído}}{\\text{peso da amostra total}} \\times 100"
+    ],
+    "de_inicio": "A porcentagem de betume é calculada pela fórmula:",
+    "de_fim": "<<FIM>>",
+    "para": "A porcentagem de betume é calculada pela fórmula:\n\n$$\nP = \\frac{\\text{peso do betume extraído}}{\\text{peso da amostra total}} \\times 100\n$$\n\n## ANEXO NORMATIVO — FIGURAS\n\n![[dner_me_053_94-1_fig01.png]]\n\n### Figura 1 - Aparelho para extração de betumes\n\n![[dner_me_053_94-1_fig02.png]]\n\n### Figura 2\n\nUnidade de medida: centímetro (cm)\n",
+    "nota": "fórmula passada para antes das figuras; anexo reescrito (avisos falsos de rótulos de figura removidos)"
+  }
+}

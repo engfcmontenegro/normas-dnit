@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 2,
+    "clip": [
+      150,
+      645,
+      470,
+      805
+    ],
+    "md": "| Tamanho do lote | Tamanho da amostra |\n| --- | --- |\n| 2 a 90 | 2 |\n| 91 a 275 | 4 |\n| 276 a 610 | 8 |\n| 611 a 1160 | 10 |",
+    "de_inicio": "Tabeia - Correspondência entre os sacos de material. Tamanho do lote Tamanho da amostra 2a 90 2",
+    "nota": "Tabela de 4.2 (p. 2), sem fios: tinha virado figura; posta pelo t06 de data/formulas"
+  }
+}

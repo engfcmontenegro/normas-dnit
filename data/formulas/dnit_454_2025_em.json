@@ -1,0 +1,62 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "| Cloretos (Cl-) |",
+    "para": "| Cloretos (Cl⁻) |",
+    "nota": "Tabela 2: índices químicos perdidos; NaO transcrito como no PDF (seria Na₂O?)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "| Sulfatos (SO4 2-) |",
+    "para": "| Sulfatos (SO₄²⁻) |",
+    "nota": "Tabela 2: índices químicos perdidos"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "| Fosfatos (P2O5) |",
+    "para": "| Fosfatos (P₂O₅) |",
+    "nota": "Tabela 2: índices químicos perdidos"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "| Nitratos (NO3-) |",
+    "para": "| Nitratos (NO₃⁻) |",
+    "nota": "Tabela 2: índices químicos perdidos"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "| Chumbo (Pb2+) |",
+    "para": "| Chumbo (Pb²⁺) |",
+    "nota": "Tabela 2: índices químicos perdidos"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "| Zinco (Zn2+) |",
+    "para": "| Zinco (Zn²⁺) |",
+    "nota": "Tabela 2: índices químicos perdidos"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "Instrução\n\nNormativa",
+    "para": "Instrução Normativa",
+    "nota": "parágrafo partido"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "boa qualidade\n\n(água de referência).",
+    "para": "boa qualidade (água de referência).",
+    "nota": "parágrafo partido"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "indicado na\n\nTabela 4.",
+    "para": "indicado na Tabela 4.",
+    "nota": "parágrafo partido"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "Concreto de cimento\n\nPortland",
+    "para": "Concreto de cimento Portland",
+    "nota": "parágrafo partido"
+  }
+}

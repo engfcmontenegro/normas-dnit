@@ -1,0 +1,219 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      75,
+      385,
+      200,
+      420
+    ],
+    "latex": [
+      "\\rho_a = K \\cdot \\frac{\\Delta v}{I}",
+      "K = \\frac{2\\pi}{\\dfrac{1}{\\overline{AM}} - \\dfrac{1}{\\overline{AN}} - \\dfrac{1}{\\overline{BM}} + \\dfrac{1}{\\overline{BN}}}"
+    ],
+    "de_inicio": "pa =K. de",
+    "de_fim": "II ds A AM AN BM BN",
+    "para": "$$\n\\rho_a = K \\cdot \\frac{\\Delta v}{I}\n$$\n\n$K$ (m)\n$V$ (miliVolt)\n$I$ (miliAmpère)\n\nonde:\n\n$$\nK = \\frac{2\\pi}{\\dfrac{1}{\\overline{AM}} - \\dfrac{1}{\\overline{AN}} - \\dfrac{1}{\\overline{BM}} + \\dfrac{1}{\\overline{BN}}}\n$$"
+  },
+  "eq02": {
+    "page": 3,
+    "clip": [
+      75,
+      476,
+      262,
+      546
+    ],
+    "latex": [
+      "K = \\frac{2\\pi}{\\dfrac{1}{\\overline{AM}} - \\dfrac{1}{\\overline{AN}} - \\dfrac{1}{\\overline{BM}} + \\dfrac{1}{\\overline{BN}}}"
+    ]
+  },
+  "eq03": {
+    "page": 4,
+    "clip": [
+      75,
+      636,
+      245,
+      662
+    ],
+    "latex": [
+      "\\overline{AM} = \\overline{MN} = \\overline{NB} = \\tfrac{1}{3}\\,\\overline{AB}"
+    ],
+    "de_inicio": "AM = MN=NB= 1/3 ÀB",
+    "de_fim": "AM = MN=NB= 1/3 ÀB",
+    "para": "$$\n\\overline{AM} = \\overline{MN} = \\overline{NB} = \\tfrac{1}{3}\\,\\overline{AB}\n$$"
+  },
+  "eq04": {
+    "page": 4,
+    "clip": [
+      75,
+      684,
+      205,
+      724
+    ],
+    "latex": [
+      "\\rho_a = \\frac{\\Delta v}{I} \\cdot K",
+      "K = 2\\pi \\cdot 2b = 4\\pi \\cdot b"
+    ],
+    "de_inicio": "pa = A.",
+    "de_fim": "itida desde que citado o DNER como fonte ução perm Reprod",
+    "para": "$$\n\\rho_a = \\frac{\\Delta v}{I} \\cdot K\n$$\n\nonde:\n\n$$\nK = 2\\pi \\cdot 2b = 4\\pi \\cdot b\n$$"
+  },
+  "eq05": {
+    "page": 4,
+    "clip": [
+      75,
+      742,
+      205,
+      763
+    ],
+    "latex": [
+      "K = 2\\pi \\cdot 2b = 4\\pi \\cdot b"
+    ]
+  },
+  "eq06": {
+    "page": 5,
+    "clip": [
+      75,
+      190,
+      205,
+      220
+    ],
+    "latex": [
+      "\\rho_a = \\frac{\\Delta v}{I} \\cdot K",
+      "K = 2\\pi \\cdot \\frac{a^2 - b^2}{4b}"
+    ],
+    "de_inicio": "> [!warning] Fórmula ausente na extração do PDF — consulte o original",
+    "de_fim": "K=2m.(42-b)\n\n4b",
+    "para": "$$\n\\rho_a = \\frac{\\Delta v}{I} \\cdot K\n$$\n\nonde:\n\n$$\nK = 2\\pi \\cdot \\frac{a^2 - b^2}{4b}\n$$"
+  },
+  "eq07": {
+    "page": 5,
+    "clip": [
+      75,
+      236,
+      205,
+      272
+    ],
+    "latex": [
+      "K = 2\\pi \\cdot \\frac{a^2 - b^2}{4b}"
+    ]
+  },
+  "eq08": {
+    "page": 5,
+    "clip": [
+      75,
+      468,
+      205,
+      507
+    ],
+    "latex": [
+      "\\rho_a = \\frac{\\Delta v}{I} \\cdot K",
+      "K = 6\\pi \\cdot a"
+    ],
+    "de_inicio": "Av pa = + K onde:",
+    "de_fim": "K=6.71.a",
+    "para": "$$\n\\rho_a = \\frac{\\Delta v}{I} \\cdot K\n$$\n\nonde:\n\n$$\nK = 6\\pi \\cdot a\n$$"
+  },
+  "eq09": {
+    "page": 5,
+    "clip": [
+      75,
+      524,
+      205,
+      546
+    ],
+    "latex": [
+      "K = 6\\pi \\cdot a"
+    ]
+  },
+  "eq10": {
+    "page": 5,
+    "clip": [
+      75,
+      660,
+      230,
+      745
+    ],
+    "latex": [
+      "\\rho_a = \\frac{\\Delta v}{I} \\cdot K",
+      "K = 4\\pi \\, \\frac{r_1 \\cdot r_2}{r_1 - r_2}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `pa = Av p e !`",
+    "de_fim": "itida desde que citado o DNER como fonte ução perm Reprod",
+    "para": "$$\n\\rho_a = \\frac{\\Delta v}{I} \\cdot K\n$$\n\ne\n\n$$\nK = 4\\pi \\, \\frac{r_1 \\cdot r_2}{r_1 - r_2}\n$$"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "Resistividade Aparente pa (ohm.metro)",
+    "para": "Resistividade Aparente ρa (ohm.metro)",
+    "nota": "ρ lido como p no OCR"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "(pa)",
+    "para": "(ρa)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "potenciais(Av)",
+    "para": "potenciais (Δv)"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "(Av)",
+    "para": "(Δv)"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "cálculo de pa usa-se",
+    "para": "cálculo de ρa usa-se"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "valores da pa (em ohm.m)",
+    "para": "valores da ρa (em ohm.m)"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "\n\nitida desde que citado o DNER como fonte ução perm Reprod\n\n",
+    "para": "\n\n",
+    "nota": "tarja lateral 'Reprodução permitida...' lida pelo OCR"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "\n\nitida desde que citado o DNER como fonte ção perm Reprod\n\n",
+    "para": "\n\n"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "relação AB/MN > 5",
+    "para": "relação AB/MN ≥ 5"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "\n\nS\n\n## EXECUÇÃO DO ENSAIO",
+    "para": "\n\n## 5 EXECUÇÃO DO ENSAIO"
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "(Ver Anexo Informativo; Figuras\n\n## 1 e Tabela de\n\nresistividade).",
+    "para": "(Ver Anexo Informativo; Figura 1 e Tabela de resistividade)."
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "**3.4** | O Arranjo de Lee",
+    "para": "**3.4** O Arranjo de Lee"
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "(Anexo A\n\n- Figura 7)",
+    "para": "(Anexo A - Figura 7)"
+  },
+  "anexo": {
+    "de_inicio": "\n\nANEXO NORMATIVO A - FIGURAS",
+    "de_fim": "<<FIM>>",
+    "para": "\n\n## ANEXO NORMATIVO A - FIGURAS\n\n![[dner_me_040_95-1_fig01.png]]\n\n### Figura 1\n\n![[dner_me_040_95-1_fig02.png]]\n\n### Figura 2 - Arranjo Wenner\n\n![[dner_me_040_95-1_fig03.png]]\n\n### Figura 3 - Arranjo Schllumberger\n\n### Figura 4 - Configuração de Embreagem\n\n![[dner_me_040_95-1_fig04.png]]\n\n### Figura 5 - Perfil de eletrorresistividade\n\n![[dner_me_040_95-1_fig05.png]]\n\n### Figura 6 - Perfil do terreno\n\n![[dner_me_040_95-1_fig06.png]]\n\n### Figura 7 - Resistividade em furo de sondagem\n\n## ANEXO NORMATIVO B - TABELAS\n\n![[dner_me_040_95-1_fig07.png]]\n\n### Tabela 1 - Sondagem geoelétrica: arranjos Schllumberger / Retângulo\n\n![[dner_me_040_95-1_fig08.png]]\n\n### Tabela 2 - Prospecção geofísica: sondagem geoelétrica\n\n![[dner_me_040_95-1_fig09.png]]\n\n### Tabela 3 - Prospecção geofísica: retângulo de resistividade\n\n## ANEXO INFORMATIVO\n\n![[dner_me_040_95-1_fig10.png]]\n\n### Figura 1 - Sondagem geoelétrica\n\n### Tabela 1 - Tabela orientativa de resistividade\n\n| Material | Resistividade |\n|---|---|\n| Mica | 10⁸ a 10¹³ |\n| Salgema Seca | 10³ a 10¹³ |\n| Salgema Úmida | 5 x 10⁻² a 20 x 10⁻² |\n| Calcita | 5 a 10¹² |\n| Quartzo | 10¹² |\n| Granito Seco | 10⁶ a 10⁹ |\n| Granitos | 5 x 10³ a 10⁶ |\n| Arenito Seco | 10⁴ a 10⁸ |\n| Arenitos | 35 a 4 x 10³ |\n| Limonita | 10⁵ |\n| Calcários | 12 x 10 a 4 x 10² |\n| Calcários Secos | 10³ a 10⁴ |\n| Calcários Úmidos | 5 x 10 a 5 x 10² |\n| Mineral de Pirita Seco | 10 a 10² |\n| Mineral de Pirita Úmido | 10⁻³ a 10 |\n| Calcopirita | 10⁻³ a 10⁻² |\n| Calcopirita Úmida | 10⁻⁵ a 10⁻⁴ |\n| Magnetita | 1 a 10³ |\n| Galena | 1 a 3 x 10⁴ |\n| Marga Seca | 5 x 10 a 10² |\n| Marga Úmida | 1 a 10 |\n| Argilas | 50 x 10 a 10² |\n| Argila Seca | 8 x 10 |\n| Argila Úmida | 10⁻¹ a 1 |\n| Grafita | 3 x 10⁻⁴ |\n| Cobre | 1,7 x 10⁻⁸ |\n| Prata | 10⁻⁸ |\n| Água Pura de Montanha | 10² a 2 x 10³ |\n| Água de Rio | 2 x 10 a 6 x 10 |\n| Água com 3% de Sal | 5 x 10⁻² a 10⁻¹ |\n| Água com 20% de Sal | 3 x 10⁻² |\n| Água do Mar | 0,18 x 10⁻² a 0,24 x 10⁻² |\n\n![[dner_me_040_95-1_fig11.png]]\n\n### Figura 2 - Arranjo Wenner / Lee\n\n![[dner_me_040_95-1_fig12.png]]\n\n### Figura 3 - Arranjo Wenner / Lee\n",
+    "texto": true,
+    "nota": "anexos reescritos: folhas como imagem + tabela orientativa transcrita (p. 15)"
+  }
+}

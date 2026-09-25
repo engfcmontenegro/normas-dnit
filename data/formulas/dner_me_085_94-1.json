@@ -1,0 +1,23 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      64,
+      176,
+      345,
+      220
+    ],
+    "latex": [
+      "\\text{Massa específica real} = \\mu = \\frac{\\text{massa do material}}{\\text{volume do líquido deslocado}}"
+    ],
+    "de_inicio": "## CÁLCULOS E RESULTADOS\n\n**5.1**",
+    "de_fim": "massa do material Massa específica real = = volume do líquido deslocado",
+    "para": "## 5 CÁLCULOS E RESULTADOS\n\n**5.1** A diferença entre as leituras inicial e final representa o volume do líquido deslocado pelo material ensaiado. A massa específica real é calculada pela fórmula:\n\n$$\n\\text{Massa específica real} = \\mu = \\frac{\\text{massa do material}}{\\text{volume do líquido deslocado}}\n$$"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "não devem diferir de mais de 0,009 g/crrê.",
+    "para": "não devem diferir de mais de 0,009 g/cm³.",
+    "nota": "5.3: cm³ lido como crrê"
+  }
+}

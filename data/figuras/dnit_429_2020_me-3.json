@@ -1,0 +1,42 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      154.8,
+      78.6,
+      454.1,
+      188.2
+    ],
+    "legenda": "Figura A1 – Definição das dimensões de uma partícula de agregado graúdo."
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      175.0,
+      220.8,
+      434.2,
+      352.8
+    ],
+    "legenda": "Figura A2 – Cálibre proporcional para medir partículas achatadas e alongadas."
+  },
+  "fig03": {
+    "page": 5,
+    "bbox": [
+      148.8,
+      401.0,
+      460.7,
+      533.5
+    ],
+    "legenda": "Figura A3 – Foto de dois agregados: Agregado (1) partícula não achatada e alongada e"
+  },
+  "fig04": {
+    "page": 5,
+    "bbox": [
+      151.0,
+      585.2,
+      458.5,
+      747.2
+    ],
+    "legenda": "Figura A4 – Uso do cálibre proporcional para definir partículas achatadas e alongadas."
+  }
+}

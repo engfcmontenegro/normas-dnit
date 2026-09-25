@@ -1,0 +1,331 @@
+{
+  "fig01": {
+    "page": 8,
+    "bbox": [
+      146.0,
+      152.0,
+      572.0,
+      807.0
+    ],
+    "legenda": "FIGURA | - SENSOR DE",
+    "ancora": "FIGURA | - SENSOR DE",
+    "clip": [
+      64,
+      20,
+      575,
+      818
+    ],
+    "nota": "clip: página inteira do anexo (a caixa detectada cortava o desenho/formulário)",
+    "texto_removido": [
+      "ROLDANAS",
+      "BOBINA Do mao mA mm (, E O arte PS IR O TARA REA q HODÔ METRO:\nCHAVE SELETORA ALTO",
+      "I otuigleis, \"compr. lance\" FALANTES",
+      "CONTADOR DO GERADOR HODÔMETRO DE TOM:",
+      "ED--",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `na DE LANCES! -=-———-— A`",
+      "CONTADOR DE Bi LANCES",
+      "TOTALIZADOR",
+      "ADS \"TOTAL DO LANCE”",
+      "CONTADOR rorauizaont ==\") NARRA!",
+      "DE IRREGULARIDADE"
+    ]
+  },
+  "fig02": {
+    "page": 9,
+    "bbox": [
+      110.0,
+      55.0,
+      576.0,
+      807.0
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO C - MONTAGEM DOS MAGNETOS",
+    "clip": [
+      64,
+      20,
+      575,
+      818
+    ],
+    "nota": "clip: página inteira do anexo (a caixa detectada cortava o desenho/formulário)",
+    "texto_removido": [
+      "ABO TRANSMISSOR",
+      "CABOO SENSOR",
+      "PAI",
+      "VEL DIGITAL DE LEITI"
+    ]
+  },
+  "fig03": {
+    "page": 10,
+    "bbox": [
+      99.4,
+      56.7,
+      571.0,
+      583.0
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO D - RESUMO DOS RESULTADOS: DE CALIBRAÇÃO",
+    "clip": [
+      64,
+      20,
+      575,
+      818
+    ],
+    "nota": "clip: página inteira do anexo (a caixa detectada cortava o desenho/formulário)",
+    "texto_removido": [
+      "- MONTAGEM DOS MAGNETOS NO SISTEMA INTEGRADOR IPR/USP, PARA MEDIÇÃO .ELETRÔNICA DE DISTÂNCIA",
+      "V",
+      "- SISTEMA INTEGRADOR IPR/USP"
+    ]
+  },
+  "fig04": {
+    "page": 11,
+    "bbox": [
+      70.0,
+      96.0,
+      576.0,
+      807.0
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO E - RESUMO DOS RESULTADOS",
+    "clip": [
+      64,
+      20,
+      575,
+      818
+    ],
+    "nota": "clip: página inteira do anexo (a caixa detectada cortava o desenho/formulário)",
+    "texto_removido": [
+      "L3",
+      "LIMITE SUP. DE",
+      "## CONTROLE",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `= 2,llx V <| <`",
+      "## DA VARIAÇÃO",
+      "## LIMITES",
+      "DE",
+      "## CONTROLE",
+      "DA",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `= + 0,58 V = ANEXO E *`",
+      "## MÉDIA",
+      "## ESTADO",
+      "## DATA .!9",
+      "## TRECHO",
+      "## LEITURAS",
+      "L V",
+      "## TESTE",
+      "## ESTADO |",
+      "SM NS:",
+      "## LL DATA LS",
+      "## TRECHO",
+      "## LEITURAS",
+      "## TESTE"
+    ]
+  },
+  "fig05": {
+    "page": 13,
+    "bbox": [
+      106.6,
+      63.6,
+      565.9,
+      814.4
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO 6 - GRÁFICO DE CONTROLE DA VARIAÇÃO DAS LEITURAS",
+    "clip": [
+      64,
+      20,
+      575,
+      818
+    ],
+    "nota": "clip: página inteira do anexo (a caixa detectada cortava o desenho/formulário)",
+    "texto_removido": [
+      "SUP",
+      "## DE CONTROLE",
+      "V ental 510,00",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `= 2,llx V 46,78 v Vrotal 22,17 É`",
+      "## DA VARIAÇÃO",
+      "DE",
+      "## CONTROLE",
+      "DA",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `+ 0,58 V = 12,85 ANEXO F`",
+      "## MÉDIA =",
+      "ESTADO",
+      "## 21 M-33",
+      "345 334 327 345 333 337",
+      "## 18 M-34",
+      "373 383 379 391 402 386",
+      "## 29 M-35",
+      "414 415 sq 414 413 414 2",
+      "M-36 360 348 311 344 343 34!",
+      "## 49 M-37",
+      "38! 408 416 392 384 396 35",
+      "M-38 610 63! 625 633 625 625",
+      "9 3 12/79",
+      "## 4 M-28",
+      "329 307 324 321 312 319",
+      "## 22 M-29",
+      "399 398 396 414 386 399",
+      "## 28 M-30",
+      "413 411 413 413 411 412",
+      "## 2 M-31",
+      "395 39] 419 396:\n396 399",
+      "## 28 M-32",
+      "207 226. 205 216 208 212",
+      "167 185 188 189 196 185",
+      "## 29 M-I9",
+      "130 134 137 145 142 138",
+      "## 15 M-20",
+      "ITO I72 160 172",
+      "## 190 I73",
+      "## 30 M-23",
+      "145 148 153 153 “59",
+      "## 152 I4",
+      "M-27 25 252 255 258 244 2s2",
+      "## 24 mi-iz",
+      "20i 99 215 99 205 20s i6",
+      "M- 13 379 379 380 376 406 384",
+      "## 30 M-I4",
+      "341 327 328 327 333 331",
+      "## 14 M-I5",
+      "367 367 376 369 399 376",
+      "## 32 M=I7",
+      "153 177 77 177 177 172",
+      "## 2 M-I8",
+      "DF SMI Nº",
+      "## 0562 IPR",
+      "q I2 py 79.",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `LI L2 L3 L4 LS M-IO 194 198 202 - 205 200`",
+      "## 7 M- dl",
+      "314 304 309 328 314 314"
+    ]
+  },
+  "fig06": {
+    "page": 14,
+    "bbox": [
+      114.1,
+      139.0,
+      520.9,
+      798.9
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO H - GRÁFICO DE CONTROLE DAS MÉDIAS DAS LEITURAS",
+    "clip": [
+      64,
+      20,
+      575,
+      818
+    ],
+    "nota": "clip: página inteira do anexo (a caixa detectada cortava o desenho/formulário)",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `/ ão DATA DA`",
+      "## CALIBRAÇÃO",
+      "## OVÍVINVA",
+      "## DATA DO TESTE",
+      "DATA",
+      "## DA CALIBRAÇÃO",
+      "## DO TESTE",
+      "## DATA-DA CALIBRAÇÃO. /."
+    ]
+  },
+  "fig07": {
+    "page": 15,
+    "bbox": [
+      84.9,
+      83.0,
+      562.0,
+      807.0
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO 1 - GRÁFICO DE CONTROLE DAS MÉDIAS",
+    "clip": [
+      64,
+      20,
+      575,
+      818
+    ],
+    "nota": "clip: página inteira do anexo (a caixa detectada cortava o desenho/formulário)",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Nº£ DF ESTADO sv “90 21xV & é S o = oydvisva” LATA`",
+      "IPR",
+      "## 0562 SMI",
+      "-—",
+      "TESTE",
+      "DATA DO TESTE"
+    ]
+  },
+  "fig08": {
+    "page": 16,
+    "bbox": [
+      85.4,
+      87.0,
+      568.0,
+      807.0
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO J - CONTROLE DAS MEDIÇÕES",
+    "clip": [
+      64,
+      20,
+      575,
+      818
+    ],
+    "nota": "clip: página inteira do anexo (a caixa detectada cortava o desenho/formulário)",
+    "texto_removido": [
+      "## DATA",
+      "TRECHO",
+      "S4I Nº \"ISTADO",
+      "Trote topete 31S31 1- YVIdINI 1 TO"
+    ]
+  },
+  "fig09": {
+    "page": 17,
+    "bbox": [
+      76.4,
+      53.1,
+      558.0,
+      807.0
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO L - CONTROLE DAS MEDIÇÕES",
+    "clip": [
+      64,
+      20,
+      575,
+      818
+    ],
+    "nota": "clip: página inteira do anexo (a caixa detectada cortava o desenho/formulário)",
+    "texto_removido": [
+      "M-33",
+      "M-34 386 337",
+      "M-35",
+      "## 414 M-36",
+      "M-37",
+      "## 396 M-38",
+      "625 341",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `31S31L 1 - 9YVIdINI T -12,85 * DATA DO TESTE`",
+      "## ESTADO",
+      "## 152 M-27",
+      "## 252 M-28",
+      "## 319 M-29",
+      "## 399 M-30",
+      "4i2",
+      "M-3I",
+      "## 399 M-32",
+      "2i2",
+      "## 384 M-I4",
+      "## 331 M-I5",
+      "M-I7 I72",
+      "## 376 M-I8",
+      "i85",
+      "M-I9",
+      "## 138 M-20",
+      "## 173 M-23",
+      "## MÉDIA INCIAL",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `TRECHO TESTE t M-IO 200 314 DF`",
+      "## SNI N£",
+      "## 0862 IPR",
+      "12,85",
+      "M-I2",
+      "## 203 M-I3"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      85,
+      393,
+      210,
+      452
+    ],
+    "latex": [
+      "h = \\frac{P_h - P_s}{P_s}"
+    ],
+    "de_inicio": "$$\nh = \\frac{P_h - P_s}{P_s}\n$$\n\nonde:\n\n$h$ -teor",
+    "de_fim": "respectiva média de",
+    "para": "$$\nh = \\frac{P_h - P_s}{P_s}\n$$\n\nonde:\n\n$h$ - teor de umidade, em percentagem;\n$P_h$ - peso do material úmido;\n$P_s$ - peso do material seco em estufa a 105 ºC - 110 ºC, até constância de peso.\n\nFazem-se as pesagens com a aproximação de 0,01 g;\n\nd) repetem-se as operações anteriores até que se obtenham três valores que não difiram da respectiva média de mais 5%.",
+    "nota": "fórmula já existia no md e confere com o PDF (p. 3); PDF não tem o fator x 100 embora h seja 'em percentagem' — transcrito como está. Legenda corrigida (105 ºC) e 'mais 5%.' do item d) restaurado"
+  }
+}

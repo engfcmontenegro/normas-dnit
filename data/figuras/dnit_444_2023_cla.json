@@ -1,0 +1,22 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      134.7,
+      71.4,
+      475.1,
+      727.3
+    ],
+    "legenda": "Figura A1 – Fluxograma esquemático das espatas necessárias para a classificação G-MCT"
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      196.0,
+      94.9,
+      412.8,
+      304.9
+    ],
+    "legenda": "Figura B1 – Gráfico para classificação de tipos granulométricos do G-MCT"
+  }
+}

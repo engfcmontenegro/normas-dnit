@@ -1,0 +1,27 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      317.7,
+      438.0,
+      447.8,
+      486.2
+    ],
+    "raw": "h L L 1 0 100 100 15 h 0",
+    "latex": "\\frac{\\Delta h}{h_0} \\times 100 = \\frac{L_1 - L_0}{15} \\times 100",
+    "nota": "No PDF renderizado o \"1\" de 100 não aparece (glifo faltando), mas a camada de texto tem \"100\"."
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      316.7,
+      504.7,
+      347.0,
+      534.4
+    ],
+    "raw": "",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda (Δh - variação da altura)"
+  }
+}

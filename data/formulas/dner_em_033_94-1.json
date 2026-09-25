@@ -1,0 +1,9 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "- Sais de Wolman e Osmosalts cc 50 kgnê",
+    "de_fim": "- Chemonite 7,2 kg/m?",
+    "para": "- Sais de Wolman e Osmosalts: 5,0 kg/m³\n- Sal de Boliden: 6,4 kg/m³\n- Chemonite: 7,2 kg/m³",
+    "nota": "6.1 (p. 4): OCR leu '5,0 kg/m³' como 'cc 50 kgnê' e ³ como '?'"
+  }
+}

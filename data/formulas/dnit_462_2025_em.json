@@ -1,0 +1,28 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      353.8,
+      286.7,
+      563.4,
+      312.8
+    ],
+    "raw": "alcalino (Na₂Oₑq) inferior a 0,6 % e forem",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: texto com Na₂Oeq (equivalente alcalino)"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      336.0,
+      469.8,
+      379.2,
+      495.9
+    ],
+    "raw": "Na₂O.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: texto 'Na₂O.'"
+  }
+}

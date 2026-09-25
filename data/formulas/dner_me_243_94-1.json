@@ -1,0 +1,17 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      65,
+      225,
+      330,
+      278
+    ],
+    "latex": [
+      "D_{25\\,^\\circ\\text{C}/25\\,^\\circ\\text{C}} = \\frac{(C - A)}{(B - A) - (P - C)}"
+    ],
+    "de_inicio": "(C-A) Dos ec/25 ºC = [DT (B-A) -(P-C) onde:",
+    "de_fim": "P massa do picnômetro + material termoplástico + água, em gramas.",
+    "para": "$$\nD_{25\\,^\\circ\\text{C}/25\\,^\\circ\\text{C}} = \\frac{(C - A)}{(B - A) - (P - C)}\n$$\n\nonde:\n\n$A$ - massa do picnômetro, em gramas;\n$B$ - massa do picnômetro + água, em gramas;\n$C$ - massa do picnômetro + material termoplástico, em gramas;\n$P$ - massa do picnômetro + material termoplástico + água, em gramas."
+  }
+}

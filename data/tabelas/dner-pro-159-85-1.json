@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "page": 10,
+    "clip": [
+      60,
+      355,
+      560,
+      650
+    ],
+    "md": "### TABELA 1 -  Fatores de Equivalência\n\n| Tipo de Eixo | Equações (para P em kN) | Equações (para P em tf) |\n| --- | --- | --- |\n| Simples de Rodagem Simples | $F_{(SS)} = \\left(\\dfrac{P}{76{,}20}\\right)^{4{,}32}$ | $F_{(SS)} = \\left(\\dfrac{P}{7{,}77}\\right)^{4{,}32}$ |\n| Simples de Rodagem Dupla | $F_{(SD)} = \\left(\\dfrac{P}{80{,}12}\\right)^{4{,}32}$ | $F_{(SD)} = \\left(\\dfrac{P}{8{,}17}\\right)^{4{,}32}$ |\n| Tandem Duplo (Rodagem Dupla) | $F_{(TD)} = \\left(\\dfrac{P}{147{,}88}\\right)^{4{,}14}$ | $F_{(TD)} = \\left(\\dfrac{P}{15{,}08}\\right)^{4{,}14}$ |\n| Tandem Triplo (Rodagem Dupla) | $F_{(TT)} = \\left(\\dfrac{P}{225{,}06}\\right)^{4{,}22}$ | $F_{(TT)} = \\left(\\dfrac{P}{22{,}95}\\right)^{4{,}22}$ |",
+    "de_inicio": "### TABELA 1 - Fatores de Equivalência",
+    "nota": "Tabela 1 (p. 10), era a fig02",
+    "manual": true
+  }
+}

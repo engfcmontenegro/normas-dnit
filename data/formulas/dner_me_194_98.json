@@ -1,0 +1,32 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      76,
+      255,
+      170,
+      297
+    ],
+    "latex": [
+      "\\gamma = \\frac{500}{L - 200}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `γ = − 500 200 L`",
+    "de_fim": "(volume ocupado pelo conjunto água-agregado miúdo).",
+    "para": "$$\n\\gamma = \\frac{500}{L - 200}\n$$\n\nonde:\n\nγ = massa específica do agregado miúdo, expressa em g/cm³;\nL = leitura no frasco (volume ocupado pelo conjunto água-agregado miúdo)."
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "cm 3 ,",
+    "para": "cm³,"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "cm 3 a 450",
+    "para": "cm³ a 450"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "g/cm 3 .",
+    "para": "g/cm³."
+  }
+}

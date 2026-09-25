@@ -1,0 +1,19 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "![[DNIT_162_2012_PRO_fig01.png]]",
+    "para": "| Localização (m) | Deflexão TRE (1/100 mm) | Deflexão TRI (1/100 mm) | Raio de Curvatura TRE (m) | Raio de Curvatura TRI (m) | Área Sob a Bacia de Deformação TRE (mm²) | Área Sob a Bacia de Deformação TRI (mm²) | Temp. Pav. |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 0,0 | 22 | 14 | 285 | 660 | 95 | 57 | 50 |\n| 4,7 | 33 | 22 | 254 | 278 | 131 | 90 | 53 |\n| 9,4 | 25 | 29 | 173 | 412 | 99 | 146 | 53 |\n| 14,1 | 29 | 23 | 332 | 388 | 128 | 95 | 53 |\n| 39,6 | 27 | 28 | 405 | 284 | 134 | 134 | 52 |\n| 44,3 | 28 | 28 | 251 | 268 | 118 | 123 | 53 |\n\n![[DNIT_162_2012_PRO_fig01.png]]",
+    "nota": "7.1 (p. 4): 'Exemplo de apresentação dos resultados' é tabela em imagem: tabela markdown + a imagem"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "5.1\n\nCaminhão de dois eixos",
+    "para": "**5.1** Caminhão de dois eixos"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "(5,6kgf/cm² ou lb/pol²), carregado com 8,2 tf, em 80 conformidade",
+    "para": "(5,6 kgf/cm² ou 80 lb/pol²), carregado com 8,2 tf, em conformidade",
+    "nota": "5.1 (p. 2): o '80' de '80 lb/pol²' saiu fora do lugar"
+  }
+}

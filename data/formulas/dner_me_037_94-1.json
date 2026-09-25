@@ -1,0 +1,81 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      62,
+      198,
+      200,
+      222
+    ],
+    "latex": [
+      "V = V_1 - V_2"
+    ],
+    "de_inicio": "V= V,\n\n- Y",
+    "de_fim": "- Y",
+    "para": "$$\nV = V_1 - V_2\n$$"
+  },
+  "eq02": {
+    "page": 3,
+    "clip": [
+      62,
+      256,
+      180,
+      300
+    ],
+    "latex": [
+      "\\gamma_h = \\frac{P_h}{V}"
+    ],
+    "de_inicio": "**5.2** Massa específica aparente do solo úmido, “in situ” Yo) Vo onde:",
+    "de_fim": "P - peso do solo úmido retirado da cavidade.",
+    "para": "**5.2** Massa específica aparente do solo úmido, “in situ” ($\\gamma_h$):\n\n$$\n\\gamma_h = \\frac{P_h}{V}\n$$\n\nonde:\n\n$P$ - peso do solo úmido retirado da cavidade.",
+    "nota": "p. 3: legenda traz 'P' (sem índice), embora a fórmula use P_h; transcrito como no PDF"
+  },
+  "eq03": {
+    "page": 3,
+    "clip": [
+      62,
+      390,
+      180,
+      436
+    ],
+    "latex": [
+      "\\gamma_s = \\gamma_h \\, \\frac{100}{100 + h}"
+    ],
+    "de_inicio": "**5.3** Massa específica aparente do solo seco, “in situ” (Yo 100 17h oo+h onde:",
+    "de_fim": "h - percentagem de umidade do solo retirado da cavidade.",
+    "para": "**5.3** Massa específica aparente do solo seco, “in situ” ($\\gamma_s$):\n\n$$\n\\gamma_s = \\gamma_h \\, \\frac{100}{100 + h}\n$$\n\nonde:\n\n$h$ - percentagem de umidade do solo retirado da cavidade."
+  },
+  "eq04": {
+    "page": 3,
+    "clip": [
+      62,
+      550,
+      180,
+      598
+    ],
+    "latex": [
+      "GC = \\frac{\\gamma_s}{\\gamma_{sl}} \\times 100"
+    ],
+    "de_inicio": "GC = LÊ x 100\n\nVa onde:",
+    "de_fim": "de acordo com o método exigido para a obra.",
+    "para": "$$\nGC = \\frac{\\gamma_s}{\\gamma_{sl}} \\times 100\n$$\n\nonde:\n\n$\\gamma_{sl}$ - massa específica aparente do solo, obtida em laboratório, de acordo com o método exigido para a obra."
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "pesando-o (P,).",
+    "para": "pesando-o ($P_h$).",
+    "nota": "4.3"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "indicativo de 1 000 ml (V p-",
+    "para": "indicativo de 1 000 ml ($V_1$).",
+    "nota": "4.5"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "Verter o Óleo da proveta na cavidade, rapidamente e determinar o volume do óleo (V5)",
+    "para": "Verter o óleo da proveta na cavidade, rapidamente e determinar o volume do óleo ($V_2$)",
+    "nota": "4.6"
+  }
+}

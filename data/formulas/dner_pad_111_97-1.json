@@ -1,0 +1,37 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "### ANEXO NORMATIVO A - FICHA PARA REPRESENTAÇÃO DE PERFIL DE SONDAGEM A\n\nReprodu ermitida",
+    "de_fim": "### ANEXO NORMATIVO €\n\n![[dner_pad_111_97-1_fig02.png]]",
+    "para": "### ANEXO NORMATIVO A - FICHA PARA REPRESENTAÇÃO DE PERFIL DE SONDAGEM A PERCUSSÃO\n\n![[dner_pad_111_97-1_fig01.png]]\n\n### ANEXO NORMATIVO B - FICHA PARA REPRESENTAÇÃO DE PERFIL DE SONDAGEM ROTATIVA OU MISTA\n\n![[dner_pad_111_97-1_fig02.png]]\n\n### ANEXO NORMATIVO C",
+    "nota": "títulos dos anexos A, B e C quebrados pelo OCR (tarja lateral, 'ANEXO €'); refeitos pelo PDF (p. 3-5)"
+  },
+  "eq01": {
+    "page": 5,
+    "clip": [
+      68,
+      186,
+      185,
+      228
+    ],
+    "latex": [
+      "\\text{IR} = \\frac{\\text{Tb}}{\\text{Mp}} \\times 100"
+    ],
+    "de_inicio": "barrilete (Tb)\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Tb IR =———— x 100 Mp`",
+    "de_fim": "`Tb IR =———— x 100 Mp`",
+    "para": "barrilete (Tb)\n\n$$\n\\text{IR} = \\frac{\\text{Tb}}{\\text{Mp}} \\times 100\n$$"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "a) DNER-PAD 111/94\n\n- Fichas",
+    "de_fim": "Glossário, 1985.",
+    "para": "a) DNER-PAD 111/94 - Fichas - Representação de perfis individuais de sondagem a percussão e rotativa;\n\nb) ABGE - Associação Brasileira de Geologia de Engenharia - Glossário de Termos Técnicos de Geologia de Engenharia - Equipamentos de Sondagens, 1980;\n\nc) ABGE - Associação Brasileira de Geologia de Engenharia - Glossário de Termos Técnicos de Geologia de Engenharia - Glossário, 1985.",
+    "nota": "2.1: referências partidas em itens de lista pelos hífens; juntadas como no PDF (p. 2)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "de comprimento > 10 cm",
+    "para": "de comprimento ≥ 10 cm",
+    "nota": "Anexo C: ≥ lido como >"
+  }
+}

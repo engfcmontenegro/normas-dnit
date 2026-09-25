@@ -1,0 +1,118 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      66.5,
+      326.7,
+      197.3,
+      398.3
+    ],
+    "raw": "pesada e registrada (𝑚𝑚 𝑡𝑡+𝑎𝑎 ).",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável no texto corrido"
+  },
+  "eq02": {
+    "page": 4,
+    "bbox": [
+      66.6,
+      217.5,
+      115.4,
+      289.1
+    ],
+    "raw": "(𝑚𝑚 𝑡𝑡+𝑎𝑎 ).",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável no texto corrido"
+  },
+  "eq03": {
+    "page": 4,
+    "bbox": [
+      336.0,
+      372.3,
+      490.9,
+      443.9
+    ],
+    "raw": "registrando-se sua massa (𝑚𝑚 𝑡𝑡+𝑎𝑎 ).",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável no texto corrido"
+  },
+  "eq04": {
+    "page": 5,
+    "bbox": [
+      45,
+      225,
+      300,
+      262
+    ],
+    "raw": "𝑤𝑤= 𝑚𝑚 𝑡𝑡+𝑎𝑎𝑎𝑎 −𝑚𝑚 𝑡𝑡 × 100 𝑚𝑚 𝑡𝑡+𝑎𝑎 −𝑚𝑚 𝑡𝑡+𝑎𝑎𝑎𝑎 (1) 𝑤𝑤 é o teor de umidade, expresso em porcentagem (%); 𝑚𝑚 𝑡𝑡 é a massa da tara, expressa em gramas (g);",
+    "latex": "w = \\frac{m_{t+a} - m_{t+as}}{m_{t+as} - m_t} \\times 100 \\tag{1}",
+    "clip": [
+      45,
+      225,
+      300,
+      262
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "**5.1.1** Método da frigideira espátula utilizado ($mm_{tt}$), considerando-a como tara.\n\na) Determina-se a massa do conjunto frigideira e",
+    "para": "**5.1.1** Método da frigideira\n\na) Determina-se a massa do conjunto frigideira e espátula utilizado ($m_t$), considerando-a como tara.",
+    "nota": "fonte matemática com letras duplicadas (𝑚𝑚 𝑡𝑡+𝑎𝑎) embaralhou a alínea; refeita conforme o PDF"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "d) A massa corresponde ao somatório das massas do pesada e registrada ($mm_{tt+aa}$). conjunto frigideira, espátula e amostra que deve ser",
+    "para": "d) A massa corresponde ao somatório das massas do conjunto frigideira, espátula e amostra que deve ser pesada e registrada ($m_{t+a}$).",
+    "nota": "fonte matemática com letras duplicadas (𝑚𝑚 𝑡𝑡+𝑎𝑎) embaralhou a alínea; refeita conforme o PDF"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "frigideira, espátula e amostra seca ($mm_{tt+aaaa}$).\n\ni) Deve-se pesar e registrar a massa do conjunto",
+    "para": "i) Deve-se pesar e registrar a massa do conjunto frigideira, espátula e amostra seca ($m_{t+as}$).",
+    "nota": "fonte matemática com letras duplicadas (𝑚𝑚 𝑡𝑡+𝑎𝑎) embaralhou a alínea; refeita conforme o PDF"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "valor de massa ($mm_{tt}$), considerando-a como tara.\n\nb) Pesar o conjunto cápsula mais tampa e registrar o",
+    "para": "b) Pesar o conjunto cápsula mais tampa e registrar o valor de massa ($m_t$), considerando-a como tara.",
+    "nota": "fonte matemática com letras duplicadas (𝑚𝑚 𝑡𝑡+𝑎𝑎) embaralhou a alínea; refeita conforme o PDF"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "c) Adicionar a amostra natural à cápsula, fechando-a ($mm_{tt+aa}$). com a tampa imediatamente e pesar o conjunto",
+    "para": "c) Adicionar a amostra natural à cápsula, fechando-a com a tampa imediatamente e pesar o conjunto ($m_{t+a}$).",
+    "nota": "fonte matemática com letras duplicadas (𝑚𝑚 𝑡𝑡+𝑎𝑎) embaralhou a alínea; refeita conforme o PDF"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "pesado e sua massa registrada ($mm_{tt+aaaa}$).\n\ng) Após o resfriamento do conjunto, este deve ser",
+    "para": "g) Após o resfriamento do conjunto, este deve ser pesado e sua massa registrada ($m_{t+as}$).",
+    "nota": "fonte matemática com letras duplicadas (𝑚𝑚 𝑡𝑡+𝑎𝑎) embaralhou a alínea; refeita conforme o PDF"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "**5.2.2** Agregados massa registrada ($mm_{tt}$), considerando-a como tara.\n\na) O recipiente metálico utilizado deve ser pesado e sua",
+    "para": "**5.2.2** Agregados\n\na) O recipiente metálico utilizado deve ser pesado e sua massa registrada ($m_t$), considerando-a como tara.",
+    "nota": "fonte matemática com letras duplicadas (𝑚𝑚 𝑡𝑡+𝑎𝑎) embaralhou a alínea; refeita conforme o PDF"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "c) A amostra de agregado úmido deve ser depositada registrando-se sua massa ($mm_{tt+aa}$). no recipiente metálico e o conjunto pesado,",
+    "para": "c) A amostra de agregado úmido deve ser depositada no recipiente metálico e o conjunto pesado, registrando-se sua massa ($m_{t+a}$).",
+    "nota": "fonte matemática com letras duplicadas (𝑚𝑚 𝑡𝑡+𝑎𝑎) embaralhou a alínea; refeita conforme o PDF"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "A massa de amostra seca mais tara ($mm_{tt+aaaa}$) é obtida\n\nf) quando duas pesagens",
+    "para": "f) A massa de amostra seca mais tara ($m_{t+as}$) é obtida quando duas pesagens",
+    "nota": "fonte matemática com letras duplicadas (𝑚𝑚 𝑡𝑡+𝑎𝑎) embaralhou a alínea; refeita conforme o PDF"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "$mm_{tt+aa}$ é a massa da tara mais amostra úmida, expressa em gramas (g);\n\n$mm_{tt+aaaa}$ é a massa da tara mais amostra seca, expressa em gramas (g).",
+    "para": "$w$ é o teor de umidade, expresso em porcentagem (%);\n\n$m_t$ é a massa da tara, expressa em gramas (g);\n\n$m_{t+a}$ é a massa da tara mais amostra úmida, expressa em gramas (g);\n\n$m_{t+as}$ é a massa da tara mais amostra seca, expressa em gramas (g).",
+    "nota": "fonte matemática com letras duplicadas (𝑚𝑚 𝑡𝑡+𝑎𝑎) embaralhou a alínea; refeita conforme o PDF"
+  }
+}

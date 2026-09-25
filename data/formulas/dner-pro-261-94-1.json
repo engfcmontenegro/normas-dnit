@@ -1,0 +1,22 @@
+{
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "(ver item 2.1.9).\n\nReprodução permitida desde que citado « DNER como fonte",
+    "para": "(ver item 2.1.a).",
+    "nota": "5.1: '2.1.9' lido errado e tarja lateral"
+  },
+  "t02": {
+    "texto": true,
+    "de_inicio": "**5.5** Revestimento (caso de pavimento rígido) (ver item 2.1.a).\n\nengenharia em causa.",
+    "de_fim": "Serão ÚETINIÃOS PEIO PIVJCIO US",
+    "para": "**5.5** Revestimento (caso de pavimento rígido)\n\nAs escórias devem ser dos tipos granulado e não granulado, itens 3.4 e 3.5 da Norma [[dner_em_260_94-1|DNER-EM 260/94]] (ver item 2.1.a).\n\nNota:\nOs valores e informações contidos nesta Norma constituem condições gerais. Em consequência, as especificações particulares, bem como dados complementares, serão definidos pelo projeto de engenharia em causa.",
+    "nota": "5.5 e Nota (p. 3) embaralhados pelo OCR"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "para navimentos rodoviários",
+    "para": "para pavimentos rodoviários"
+  }
+}

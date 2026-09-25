@@ -1,0 +1,81 @@
+{
+  "tab01": {
+    "page": 4,
+    "bbox": [
+      110.1,
+      266.8,
+      506.6,
+      493.1
+    ],
+    "ignorar": true,
+    "nota": "detecção juntou linhas (3/8\" + Nº 4) e ficou no lugar da tabela do filer; substituída pela tabm02",
+    "texto_removido": [
+      "Abertura, mm passando, em peso N° 40 N° 80 N° 200"
+    ]
+  },
+  "tabm01": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      135,
+      86,
+      495,
+      170
+    ],
+    "md": "| Peneira de malha quadrada ABNT | Abertura, mm | Percentagem passando, em peso |\n| --- | --- | --- |\n| N° 40 | 0,42 | 100 |\n| N° 80 | 0,18 | 95-100 |\n| N° 200 | 0,075 | 65-100 |",
+    "de_inicio": "@@TABM01@@",
+    "nota": "tabela do filer (5.1.2.3) sem fios verticais; tinha virado figura fig01"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      105,
+      260,
+      545,
+      512
+    ],
+    "md": "| Peneira de malha quadrada ABNT | Abertura, mm | A | B | C | D | Tolerância na curva de projeto, (%) |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1” | 25,4 | 100 | - | 100 | - | - |\n| 3/4” | 19,1 | 75-100 | 100 | 95-100 | 100 | ± 7 |\n| 1/2” | 12,5 | - | 75-100 | - | 95-100 | ± 7 |\n| 3/8” | 9,5 | 30-60 | 35-70 | 40-70 | 45-80 | ± 7 |\n| N° 4 | 4,8 | 10-35 | 15-40 | 20-40 | 25-45 | ± 5 |\n| N° 10 | 2,0 | 5-20 | 10-24 | 10-25 | 14-30 | ± 5 |\n| N° 200 | 0,075 | 0-5 | 0-5 | 0-8 | 0-8 | ± 2 |\n| Ligante polimerizado solúvel no tricloroetileno, %, em peso |  | 4-6 | 4-6 | 4-7 | 4-7 | ± 0,3 |",
+    "de_inicio": "Percentagem passando, em peso (faixas)\n\nTolerância\n\n## ABNT na curva de\n\nprojeto, (%)\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `1” 25,4 100 - 100 - - 3/4” 19,1 75-100 100 95-100 100 ± 7 1/2” 12,5 - 75-100 - 95-100 ± 7 3/8” 9,5 30-60 35-70 40-70 45-80 ± 7 N° 4 4,8 10-35 15-40 20-40 25-45 ± 5 N° 10 2,0 5-20 10-24 10-25 14-30 ± 5 N° 200 0,075 0-5 0-5 0-8 0-8 ± 2`\n\nLigante polimerizado solúvel no tricloroetileno, %, em peso 4-6 4-6 4-7 4-7 ± 0,3",
+    "nota": "faixas granulométricas (5.2.1); a detecção automática (tab01) juntou linhas"
+  },
+  "tabm03": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      135,
+      686,
+      505,
+      772
+    ],
+    "md": "| Características | Camada de pré-misturado |\n| --- | --- |\n| Percentagem de vazios | 5 a 25 |\n| Estabilidade, mínima | 250 kgf (75 golpes) |\n| Fluência, mm | 2,0 a 4,5 |",
+    "de_inicio": "@@TABM03@@",
+    "nota": "valores Marshall (5.2.3) sem fios verticais; tinha virado figura fig02"
+  },
+  "tabm04": {
+    "manual": true,
+    "page": 8,
+    "clip": [
+      95,
+      440,
+      548,
+      632
+    ],
+    "md": "| Agente poluidor | Fontes poluidoras |\n| --- | --- |\n| I. Emissão de partículas | As fontes são: peneiramento, transferência e manuseio de agregados, balança, pilhas de estocagem e tráfego de veículos e vias de acesso. |\n| II. Emissão de gases | Combustão do óleo: óxido de enxofre, óxido de nitrogênio, monóxido de carbono e hidrocarbonetos.<br>Aquecimento de emulsão asfáltica: hidrocarbonetos.<br>Tanques de estocagem de óleo combustível e de cimento asfáltico: hidrocarbonetos. |\n| III. Emissões fugitivas | As principais fontes são pilhas de estocagem ao ar livre, carregamento dos silos frios, vias de tráfego, área de peneiramento, pesagem e mistura.<br>São quaisquer lançamentos ao ambiente, sem passar primeiro por alguma chaminé ou duto projetados para corrigir ou controlar o seu fluxo. |",
+    "de_inicio": "Agente poluidor Fontes poluidoras As fontes são: peneiramento, transferência e manuseio de agregados, balança, pilhas de estocagem e tráfego de veículos e vias de acesso. Combustão do óleo: óxido de enxofre, óxido de nitrogênio, monóxido de carbono e hidrocarbonetos. Aquecimento de emulsão asfáltica: hidrocarbonetos. Tanques de estocagem de óleo combustível e de cimento asfáltico:\nhidrocarbonetos. As principais fontes são pilhas de estocagem ao ar livre, carregamento dos silos frios, vias de tráfego, área de peneiramento, pesagem e mistura. São quaisquer lançamentos ao ambiente, sem passar primeiro por alguma chaminé ou duto projetados para corrigir ou controlar o seu fluxo.",
+    "nota": "Agentes e fontes poluidoras (6.2)"
+  },
+  "tabm05": {
+    "manual": true,
+    "page": 11,
+    "clip": [
+      110,
+      400,
+      556,
+      484
+    ],
+    "md": "**Tabela de amostragem variável**\n\n| n | 5 | 6 | 7 | 8 | 9 | 10 | 12 | 13 | 14 | 15 | 16 | 17 | 19 | 21 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| k | 1,55 | 1,41 | 1,36 | 1,31 | 1,25 | 1,21 | 1,16 | 1,13 | 1,11 | 1,10 | 1,08 | 1,06 | 1,04 | 1,01 |\n| α | 0,45 | 0,35 | 0,30 | 0,25 | 0,19 | 0,15 | 0,10 | 0,08 | 0,06 | 0,05 | 0,04 | 0,03 | 0,02 | 0,01 |\n\nn = n° de amostras; k = coeficiente multiplicador; α = risco do executante",
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `n 5 6 7 8 9 10 12 13 14 15 16 17 19 21 k`\n\n### Tabela de amostragem variável\n\n1,55 1,41 1,36 1,31 1,25 1,21 1,16 1,13 1,11 1,10 1,08 1,06 1,04 1,01 0,45 0,35 0,30 0,25 0,19 0,15 0,10 0,08 0,06 0,05 0,04 0,03 0,02 0,01 n = n° de amostras k = coeficiente multiplicador α = risco do executante",
+    "nota": "Tabela de amostragem variável (7.2.1.4)"
+  }
+}

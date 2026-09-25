@@ -1,0 +1,15 @@
+{
+  "x01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "200 g/m 2 a 400 g/m 2 ;",
+    "para": "200 g/m² a 400 g/m²;"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "### Tabela 1 - Requisitos quantitativos",
+    "de_fim": "**6.3.1**",
+    "para": "### Tabela 1 - Requisitos quantitativos\n\n| Requisitos | Mínimo | Máximo |\n| --- | --- | --- |\n| Consistência, UK | 75,00 | 95,00 |\n| Estabilidade na armazenagem |  |  |\n| - alteração de consistência, UK | - | 10,00 |\n| Não volátil, porcentagem em massa | 77,00 | - |\n| Veículo não volátil, porcentagem em massa no veículo | 44,00 | - |\n| Tempo de secagem, “No Pick-up Time” (com umidade relativa entre 50% e 60%), minutos | - | 12,00 |\n| Massa específica, g/cm³ | 1,59 | - |\n| Brilho a 60º, unidades | - | 20,00 |\n| Sólidos por volume, porcentagem | 62,00 | - |\n| Finura de moagem, Hegmann | 4,00 | - |\n| Resistência à abrasão, litros |  |  |\n| - tinta branca | 100,00 | - |\n| - tinta amarela | 90,00 | - |\n| Poder de cobertura | Conforme Tabela 2 |  |\n\n![[dner_em_276_00_tabm01.png]]\n\n### Tabela 2 – Poder de Cobertura\n\n| Cor de Tinta | Nº da Placa Cristal | Máxima Leitura, em mm |\n| --- | --- | --- |\n| Branca | 7 | 10 |\n| Amarela | 7 | 16 |\n\n![[dner_em_276_00_tabm02.png]]\n\n**5.2** Requisitos qualitativos\n\nA tinta deve estar conforme a Tabela 3.\n\n### Tabela 3 - Requisitos qualitativos\n\n|  |  |\n| --- | --- |\n| Cor (notação Munsell Highway) |  |\n| - tinta branca | N.9.5 (Tolerância N9.0) ou padrão branco do DNER |\n| - tinta amarela | 10YR 7,5/14 e suas tolerâncias exceto notações 2,0Y 7,5/14 e 10YR 6,5/14 |\n| Flexibilidade | Satisfatória |\n| Resistência ao calor | Satisfatória |\n| Resistência à água | Satisfatória |\n| Estabilidade na diluição | Satisfatória |\n| Aderência | Satisfatória |\n| Formação de nata | Ausência |\n| Identificação do veículo não volátil | O espectograma de absorção de radiações infravermelhas deve apresentar bandas características de resinas acrílicas sem outro tipo de copolímero. |\n| Resistência à gasolina, 2h | Inalterada |\n| Resistência ao intemperismo (400h) |  |\n| - cor | Satisfatória |\n| - integridade | Satisfatória |\n\n![[dner_em_276_00_tabm03.png]]\n\n## 6 INSPEÇÃO\n\n**6.1** Inspeção visual de recipientes\n\nDeve ser feita em conformidade com a Norma DNER-PRO 231/94.\n\n**6.2** Amostragem\n\nDeve ser feita em conformidade com a Norma DNER-PRO 104/94.\n\n**6.3** Ensaios de laboratório\n\n**6.3.1**",
+    "nota": "páginas 5 e 6 tinham virado figuras de página inteira (fig01, fig02) e a Tabela 1 automática saiu com linhas trocadas; tabelas refeitas (tabm01-tabm03, mesmo bloco) e textos de 6.1/6.2 restaurados"
+  }
+}

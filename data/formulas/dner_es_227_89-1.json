@@ -1,0 +1,31 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "Perda de Massa após\n\nFervura;\n\n## DNER-ES 227/89 p.\n\n02/03",
+    "de_fim": "02/03",
+    "para": "Perda de Massa após Fervura;",
+    "nota": "cabeçalho da p. 2 no meio das referências"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "1) O material deve ser mantido seco durante a construção.\n\n2) Nasestruturas",
+    "de_fim": "(Reapproved 1976)].",
+    "para": "Nota: 1) O material deve ser mantido seco durante a construção.\n\n2) Nas estruturas de concreto leve, o agregado sintético graúdo de argila calcinada deve também ser inócuo de acordo com o ensaio de reatividade potencial [Standard Test Method for Potential Reactivity of Aggregate (Chemical Method) ANSI/ASTM C289-71 (Reapproved 1976)].",
+    "nota": "notas do QUADRO (p. 3): 'Nota:' tinha saído como rótulo da figura; OCR 'Nasestruturas', 'ANSV'"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "Avutilização do agregado",
+    "para": "A utilização do agregado"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "Potential Reactivity of\n\nAggregates (Chemical Method).",
+    "para": "Potential Reactivity of Aggregates (Chemical Method)."
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "Região Amazônica,\n\nRelatório Final",
+    "para": "Região Amazônica, Relatório Final"
+  }
+}

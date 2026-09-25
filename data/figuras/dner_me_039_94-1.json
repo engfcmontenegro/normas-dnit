@@ -1,0 +1,17 @@
+{
+  "fig01": {
+    "page": 3,
+    "bbox": [
+      181.0,
+      364.0,
+      464.0,
+      475.0
+    ],
+    "legenda": "",
+    "ancora": "As deflexões devem ser calculadas em centésimos de milímetros, pela aplicação da",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `m m 2,70 0,45 3,00 0,60 3,30 0,75`",
+      "Largura da faixa Distância à borda o tráfego do revestimento 3,50 ou mais 0,90"
+    ]
+  }
+}

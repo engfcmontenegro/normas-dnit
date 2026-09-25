@@ -1,0 +1,44 @@
+{
+  "eq01": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      466.4,
+      399.2,
+      544.8
+    ],
+    "raw": "𝑛 ∑ 𝑋1 𝑖=1 𝑋= 𝑛 𝑠= √∑(𝑥𝑖−𝑋)² 𝑛−1",
+    "latex": [
+      "X = \\frac{\\sum_{i=1}^{n} X1}{n}",
+      "s = \\sqrt{\\frac{\\sum (x_i - X)^2}{n - 1}}"
+    ],
+    "nota": "fiel ao PDF: X sem barra e 'X1' no numerador da média (provavelmente X_i)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "Onde: xi – valores individuais\n\nX – média da amostra s - desvio padrão da amostra k - coeficiente tabelado em função do número de determinações (tamanho da amostra) n - número de determinações",
+    "para": "Onde:\n\n$x_i$ – valores individuais\n\n$X$ – média da amostra\n\n$s$ - desvio padrão da amostra\n\n$k$ - coeficiente tabelado em função do número de determinações (tamanho da amostra)\n\n$n$ - número de determinações"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "→ Îconformidade.",
+    "para": "→ conformidade.",
+    "nota": "7.4.3: caractere espúrio 'Î' (símbolo quebrado no próprio PDF)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "| Para N › 5 x 106 |",
+    "para": "| Para N > 5 x 10⁶ |",
+    "nota": "Tabela 2: expoente 10⁶ perdido"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "| Para N ‹ 5 x 106 |",
+    "para": "| Para N < 5 x 10⁶ |"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "| % em peso pas- sando |",
+    "para": "| % em peso passando |"
+  }
+}

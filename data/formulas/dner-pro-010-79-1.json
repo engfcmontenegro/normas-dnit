@@ -1,0 +1,564 @@
+{
+  "eq01": {
+    "page": 7,
+    "clip": [
+      262,
+      194,
+      338,
+      233
+    ],
+    "latex": [
+      "\\overline{d} = \\frac{\\sum d_i}{n}"
+    ]
+  },
+  "eq02": {
+    "page": 7,
+    "clip": [
+      250,
+      296,
+      356,
+      332
+    ],
+    "latex": [
+      "\\sigma = \\sqrt{\\frac{\\sum (d_i - \\overline{d})^2}{n - 1}}"
+    ]
+  },
+  "eq03": {
+    "page": 7,
+    "clip": [
+      285,
+      695,
+      342,
+      725
+    ],
+    "latex": [
+      "\\text{cv} = \\frac{\\sigma}{\\overline{d}}"
+    ]
+  },
+  "eq04": {
+    "page": 7,
+    "clip": [
+      283,
+      769,
+      342,
+      788
+    ],
+    "latex": [
+      "d_c = \\overline{d} + \\sigma"
+    ]
+  },
+  "eq05": {
+    "page": 8,
+    "clip": [
+      266,
+      549,
+      336,
+      569
+    ],
+    "latex": [
+      "d_p = d_c \\times F_s"
+    ]
+  },
+  "eq06": {
+    "page": 10,
+    "clip": [
+      266,
+      246,
+      336,
+      268
+    ],
+    "latex": [
+      "d_0 = 0{,}7 \\times d_p"
+    ]
+  },
+  "eq07": {
+    "page": 10,
+    "clip": [
+      262,
+      420,
+      336,
+      441
+    ],
+    "latex": [
+      "N_t = N_s + N_p"
+    ]
+  },
+  "eq08": {
+    "page": 10,
+    "clip": [
+      226,
+      489,
+      376,
+      510
+    ],
+    "latex": [
+      "\\log IT_t = 0{,}127 \\log N_t + 0{,}166"
+    ]
+  },
+  "eq09": {
+    "page": 10,
+    "clip": [
+      250,
+      547,
+      352,
+      566
+    ],
+    "latex": [
+      "IT = 1{,}30\\,(EWL)^{0{,}12}"
+    ]
+  },
+  "eq10": {
+    "page": 12,
+    "clip": [
+      75,
+      140,
+      165,
+      182
+    ],
+    "latex": [
+      "h_{CB} = h_e"
+    ]
+  },
+  "eq11": {
+    "page": 12,
+    "clip": [
+      75,
+      184,
+      165,
+      225
+    ],
+    "latex": [
+      "d_{\\text{adm}} = d_0"
+    ]
+  },
+  "eq12": {
+    "page": 12,
+    "clip": [
+      215,
+      293,
+      385,
+      314
+    ],
+    "latex": [
+      "\\log N_{\\text{máx}} = 7{,}874 \\log IT_{\\text{máx}} - 1{,}307"
+    ]
+  },
+  "eq13": {
+    "page": 12,
+    "clip": [
+      262,
+      358,
+      338,
+      383
+    ],
+    "latex": [
+      "N_{\\text{máx}} > N_s"
+    ]
+  },
+  "eq14": {
+    "page": 12,
+    "clip": [
+      262,
+      409,
+      338,
+      431
+    ],
+    "latex": [
+      "N_r = N_{\\text{máx}} - N_s"
+    ]
+  },
+  "eq15": {
+    "page": 13,
+    "clip": [
+      228,
+      154,
+      380,
+      174
+    ],
+    "latex": [
+      "\\log IT_p = 0{,}127 \\log N_p + 0{,}166"
+    ]
+  },
+  "eq16": {
+    "page": 13,
+    "clip": [
+      262,
+      386,
+      336,
+      406
+    ],
+    "latex": [
+      "d_0 = 0{,}7 \\times d_p"
+    ]
+  },
+  "eq17": {
+    "page": 15,
+    "clip": [
+      185,
+      165,
+      422,
+      184
+    ],
+    "latex": [
+      "IF = 0{,}250 \\times (FC\\text{-}1) + 0{,}625 \\times (FC\\text{-}2) + (FC\\text{-}3)"
+    ]
+  },
+  "eq18": {
+    "page": 15,
+    "clip": [
+      255,
+      246,
+      345,
+      265
+    ],
+    "latex": [
+      "(FC\\text{-}2) + (FC\\text{-}3)"
+    ]
+  },
+  "eq19": {
+    "page": 16,
+    "clip": [
+      240,
+      329,
+      360,
+      354
+    ],
+    "latex": [
+      "h_{ef} = h_e \\times f_r"
+    ]
+  },
+  "eq20": {
+    "page": 16,
+    "clip": [
+      185,
+      421,
+      360,
+      439
+    ],
+    "latex": [
+      "f_r = 1{,}000 - 0{,}007 \\times IF"
+    ]
+  },
+  "eq21": {
+    "page": 16,
+    "clip": [
+      262,
+      455,
+      338,
+      471
+    ],
+    "latex": [
+      "\\Delta h = h_c - h_{ef}"
+    ]
+  },
+  "eq22": {
+    "page": 16,
+    "clip": [
+      262,
+      501,
+      338,
+      520
+    ],
+    "latex": [
+      "(h_{CB})_{\\text{mín}} = \\Delta h"
+    ]
+  },
+  "eq23": {
+    "page": 16,
+    "clip": [
+      255,
+      559,
+      345,
+      578
+    ],
+    "latex": [
+      "(h_{CB})_{\\text{mín}} = 4{,}0\\ \\text{cm}"
+    ]
+  },
+  "eq24": {
+    "page": 16,
+    "clip": [
+      262,
+      664,
+      338,
+      683
+    ],
+    "latex": [
+      "\\Delta h = h_c - h_{ef}"
+    ]
+  },
+  "eq25": {
+    "page": 16,
+    "clip": [
+      262,
+      710,
+      338,
+      730
+    ],
+    "latex": [
+      "(h_{CB})_{\\text{mín}} = \\Delta h"
+    ]
+  },
+  "eq26": {
+    "page": 16,
+    "clip": [
+      255,
+      756,
+      345,
+      776
+    ],
+    "latex": [
+      "(h_{CB})_{\\text{mín}} = 10{,}0\\ \\text{cm}"
+    ]
+  },
+  "eq27": {
+    "page": 17,
+    "clip": [
+      262,
+      467,
+      335,
+      487
+    ],
+    "latex": [
+      "h_{CB} + h_e = h_t"
+    ]
+  },
+  "eq28": {
+    "page": 18,
+    "clip": [
+      190,
+      255,
+      292,
+      278
+    ],
+    "latex": [
+      "(d_h)_{\\text{máx}} \\le (d_{\\text{adm}})_{\\text{máx}}"
+    ]
+  },
+  "eq29": {
+    "page": 18,
+    "clip": [
+      190,
+      326,
+      292,
+      349
+    ],
+    "latex": [
+      "(d_h)_{\\text{máx}} > (d_{\\text{adm}})_{\\text{máx}}"
+    ]
+  },
+  "eq30": {
+    "page": 18,
+    "clip": [
+      242,
+      456,
+      365,
+      477
+    ],
+    "latex": [
+      "(h_{CB})_{\\text{mín}} \\le h_{CB} \\le (h_{CB})_{\\text{máx}}"
+    ]
+  },
+  "eq31": {
+    "page": 18,
+    "clip": [
+      267,
+      526,
+      338,
+      547
+    ],
+    "latex": [
+      "h_{CB} = (h_{CB})_{\\text{mín}}"
+    ]
+  },
+  "eq32": {
+    "page": 19,
+    "clip": [
+      190,
+      511,
+      292,
+      533
+    ],
+    "latex": [
+      "(d_h)_{\\text{máx}} \\le (d_{\\text{adm}})_{\\text{máx}}"
+    ]
+  },
+  "eq33": {
+    "page": 19,
+    "clip": [
+      190,
+      579,
+      292,
+      601
+    ],
+    "latex": [
+      "(d_h)_{\\text{máx}} > (d_{\\text{adm}})_{\\text{máx}}"
+    ]
+  },
+  "eq34": {
+    "page": 19,
+    "clip": [
+      244,
+      698,
+      368,
+      720
+    ],
+    "latex": [
+      "(h_{CB})_{\\text{mín}} \\le h_{CB} \\le (h_{CB})_{\\text{máx}}"
+    ]
+  },
+  "eq35": {
+    "page": 19,
+    "clip": [
+      265,
+      754,
+      345,
+      779
+    ],
+    "latex": [
+      "h_{CB} = (h_{CB})_{\\text{mín}}"
+    ]
+  },
+  "eq36": {
+    "page": 21,
+    "clip": [
+      262,
+      317,
+      380,
+      337
+    ],
+    "latex": [
+      "H_{CB} = h_{CB} \\times f_{CB}"
+    ]
+  },
+  "eq37": {
+    "page": 21,
+    "clip": [
+      280,
+      480,
+      332,
+      499
+    ],
+    "latex": [
+      "d_h = d_{\\text{adm}}"
+    ]
+  },
+  "eq38": {
+    "page": 21,
+    "clip": [
+      230,
+      523,
+      375,
+      557
+    ],
+    "latex": [
+      "\\Delta(\\%) = \\frac{d_0 - d_h}{d_0} \\times 100"
+    ]
+  },
+  "eq39": {
+    "page": 21,
+    "clip": [
+      268,
+      654,
+      336,
+      673
+    ],
+    "latex": [
+      "H_i = H - H_{CB}"
+    ]
+  },
+  "eq40": {
+    "page": 21,
+    "clip": [
+      244,
+      745,
+      325,
+      776
+    ],
+    "latex": [
+      "h_i = \\frac{H_i}{f_i}"
+    ]
+  },
+  "eq41": {
+    "page": 24,
+    "clip": [
+      283,
+      177,
+      318,
+      203
+    ],
+    "latex": [
+      "f = \\frac{H}{h}"
+    ]
+  },
+  "img01": {
+    "texto": true,
+    "de_inicio": "## TEMPO DE EXPOSIÇÃO",
+    "de_fim": "Reprodução permitida: desde que citado o DNER como fonte",
+    "para": "![[dner-pro-010-79-1_img01.png]]",
+    "nota": "Figura 1 (p. 1): gráfico não detectado como figura; imagem img01 (recorte desta entrada); rótulos do gráfico e rodapé de aprovação removidos",
+    "page": 1,
+    "clip": [
+      55,
+      494,
+      548,
+      745
+    ]
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "O modo como as solicitações das cargas de roda",
+    "de_fim": "romper-se-á por fadiga.",
+    "para": "O modo como as solicitações das cargas de roda atuam em um pavimento flexível, pode ser ilustrado conforme é mostrado na fig. 2, que representa, esquematicamente, um pavimento flexível, constituído de revestimento betuminoso, base e sub-base granulares, construído sobre um subleito suposto homogêneo. A ação de uma carga de roda, P, aplicada sobre a superfície da estrutura promoverá, na face inferior do revestimento, o desenvolvimento de uma tensão de tração $\\sigma_t$, responsável pela decorrente deformação de tração $\\varepsilon_t$, e na superfície do subleito, uma pressão vertical $\\sigma_z$.\n\n![[dner-pro-010-79-1_fig01.png]]\n\nFigura 2 - Efeito da carga sobre o pavimento\n\nAdmitindo-se que os materiais integrantes das camadas do pavimento atendam às especificações, no que concerne à respectiva resistência ao cisalhamento, a possibilidade de deformações plásticas, ou rupturas, restringir-se-á ao subleito. Tais rupturas são evitadas sempre que o valor da pressão vertical atuante, $\\sigma_t$, for mantido abaixo do valor da pressão vertical admissível pelo material do subleito, $\\sigma_{\\text{adm}}$. Para garantir essa condição, o pavimento deve ter espessura igual ou superior à dimensionada, por exemplo, em função do ISC (Índice de Suporte Califórnia) do subleito.\n\nPara que não surjam trincas no revestimento, é necessário manter a deflexão, d, abaixo de um valor máximo, $d_{\\text{adm}}$, e o raio de curvatura, R, do pavimento, acima de um certo valor mínimo. Isto garante que a tensão de tração $\\sigma_t$, correspondente à deformação $\\varepsilon_t$, na face inferior do revestimento, não ultrapasse um determinado valor, acima do qual o revestimento betuminoso romper-se-á por fadiga.",
+    "nota": "p. 2–3: σ_t, ε_t, σ_z, σ_adm, d_adm. p. 3: o PDF escreve 'pressão vertical atuante, σ_t' (possível erro — seria σ_z); mantido"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "a) tabulam-se os valores individuais",
+    "de_fim": "respectivamente, a média aritmética e o desvio-padrão da amostra.",
+    "para": "a) tabulam-se os valores individuais das deflexões recuperáveis encontradas ($d_i$);\n\nb) calcula-se a média aritmética, $\\overline{d}$, dos valores individuais (média da amostra);\n\n$$\n\\overline{d} = \\frac{\\sum d_i}{n}\n$$\n\nonde n representa o número de valores individuais computados (número de indivíduos componentes da amostra);\n\nc) determina-se o valor do desvio-padrão da amostra σ, através da expressão:\n\n$$\n\\sigma = \\sqrt{\\frac{\\sum (d_i - \\overline{d})^2}{n - 1}}\n$$\n\nd) estabelece-se o intervalo de aceitação para os valores individuais, definindo-o através dos limites $\\overline{d} \\pm z\\sigma$, onde z é estimado em função de n mediante o critério constante da tabela a seguir apresentada:\n\n### Tabela I\n\n| n | z |\n| --- | --- |\n| 3 | 1 |\n| 4 | 1,5 |\n| 5 - 6 | 2 |\n| 7 - 19 | 2,5 |\n| ≥ 20 | 3 |\n\n![[dner-pro-010-79-1_tabm01.png]]\n\ne) segue-se a eliminação de todos os valores individuais da distribuição situados fora do intervalo anteriormente definido, procedendo-se o novo cálculo de $\\overline{d}$ e σ com os valores remanescentes, bem como a fixação dos novos limites do intervalo de aceitação, $\\overline{d} \\pm z\\sigma$, para a nova situação. Esse procedimento deve ser repetido, em cada caso, tanta vezes quantas forem necessárias para o enquadramento de todos os valores individuais remanescentes no intervalo $\\overline{d} \\pm z\\sigma$ determinado. Os valores de $\\overline{d}$ e σ assim encontrados são considerados, respectivamente, como a média aritmética e o desvio-padrão da amostra. Aos pontos correspondentes aos valores desprezados maiores que $\\overline{d} + z\\sigma$, será dado tratamento especial.\n\nf) o valor do coeficiente de variação (cv) é determinado, para cada uma das distribuições através da expressão:\n\n$$\n\\text{cv} = \\frac{\\sigma}{\\overline{d}}\n$$\n\ng) o valor da deflexão característica é determinado, para cada uma das distrubuições, através da expressão:\n\n$$\nd_c = \\overline{d} + \\sigma\n$$\n\nonde $\\overline{d}$ e σ representam, respectivamente, a média aritmética e o desvio-padrão da amostra.",
+    "nota": "4.2.8 (p. 7–8): fórmulas + Tabela I (tabm01)"
+  },
+  "x04": {
+    "texto": true,
+    "de_inicio": "Tabela H",
+    "de_fim": "## CÁLCULO DA VIDA RESTANTE",
+    "para": "### Tabela II\n\n| Natureza do subleito | Fator de correção sazonal - $F_s$: estação seca | Fator de correção sazonal - $F_s$: estação chuvosa |\n| --- | --- | --- |\n| Arenoso e permeável | 1,10-1,30 | 1,00 |\n| Argiloso e sensível à umidade | 1,20-1,40 | 1,00 |\n\n![[dner-pro-010-79-1_tabm02.png]]\n\nA escolha do fator de correção sazonal, $F_s$, mais adequado para a correção das medidas de deflexão deve ser feita levando-se em conta as seguintes informações;\n\na) distribuição das precipitações mensais médias correspondentes à região onde se acha implantado o trecho em estudo;\n\nb) as precipitações mensais ocorridas nos meses durante os quais foi efetuado o levantamento deflectométrico e nos três meses que antecederam o levantamento;\n\nc) as características da estrutura do pavimento existente e de seu subleito.\n\nA deflexão característica corrigida, ou deflexão de projeto, ($d_p$), é calculada pela fórmula:\n\n$$\nd_p = d_c \\times F_s\n$$\n\nonde:\n\n$d_p$ - deflexão característica corrigida, ou deflexão de projeto, em centésimos de milímetro;\n$d_c$ - deflexão característica referida à época do levantamento deflectométrico, em centésimos de milímetro;\n$F_s$ - fator de correção sazonal.\n\nNota - Os valores constantes da Tabela I originam-se do “Highway Research Board” - Report 17.\n\nNota - Os valores constantes da Tabela II foram adaptados de um relatório do “Centre Experimental de Recherches et d’Etudes du Batiment et des Travaux Publiques - Paris, France” para reforços dos pavimentos flexíveis na África Tropical e Madagascar, e da publicação nº 428 do IPR “Variações Mensais de Deflexões Medidas com a Viga Benkelman”, a respeito de pesquisas realizadas no Estado do Rio de Janeiro.\n\n## 5 CONSIDERAÇÕES SOBRE OS CRÍTERIOS DE PROJETO DO REFORÇO DO PAVIMENTO EXISTENTE - CÁLCULO DA VIDA RESTANTE",
+    "nota": "4.2.9 (p. 8): Tabela II (tabm02) + fórmula + título da seção 5"
+  },
+  "x05": {
+    "texto": true,
+    "de_inicio": "F - valor médio das flechas",
+    "de_fim": "## DEFORMABILIDADE",
+    "para": "$\\overline{F}$ - valor médio das flechas nas trilhas de roda da extensão considerada.\n\nAP% - porcentagem de estações inventariadas na extensão considerada, apresentando afundamentos plásticos (locais e/ou nas trilhas de roda) de reconhecida gravidade.\n\n$d_0$ - deflexão de projeto, correspondente à extensão considerada, referida à carga de eixo de 6,8 t.\n\n$d_{\\text{adm}}$ - deflexão admissível pelo pavimento existente, referida à carga de eixo de 6,8 t, em se considerando o tráfego que ele suportaria durante o período compreendido entre a data de sua colocação em serviço e a data correspondente ao final do período de projeto, estabelecido para efeito de análise.\n\nO valor de $d_0$ será considerado a partir do conhecimento do valor da deflexão de projeto correspondente à extensão considerada, referida à carga de eixo de 8,2 t, $d_p$, através de:\n\n$$\nd_0 = 0{,}7 \\times d_p\n$$\n\nA determinação do valor de $d_{\\text{adm}}$, por sua vez, será feita a partir da estimativa dos seguintes valores do número “N” (número de solicitações de eixos equivalentes ao eixo-padrão de 8,2 t, na faixa de tráfego de projeto, calculado com base nos fatores de equivalência de carga do DNER):\n\n$N_s$ - número “N” correspondente ao tráfego suportado pelo pavimento existente desde a sua colocação em serviço até a data correspondente ao início do período de projeto assumido.\n\n$N_p$ - número “N” correspondente ao tráfego previsto ao longo do período de projeto considerado.\n\nO valor do número “N”, que expressa o efeito do tráfego incidente sobre o pavimento existente, desde a sua colocação em serviço até o final do período de projeto arbitrado para efeito de análise, é:\n\n$$\nN_t = N_s + N_p\n$$\n\nO valor do “índice de tráfego” californiano, $IT_t$, correspondente ao valor de $N_t$ encontrado, é estimado, de forma aproximada, através da equação:\n\n$$\n\\log IT_t = 0{,}127 \\log N_t + 0{,}166\n$$\n\nNota - O “índice de tráfego” californiano, IT, é definido através de:\n\n$$\nIT = 1{,}30\\,(EWL)^{0{,}12}\n$$\n\nonde:\n\nEWL - número de solicitações de eixos equivalentes ao eixo-padrão de 4,54 t, na faixa de projeto, calculado com base nos fatores de equivalência de carga californianos.\n\nDesde que a camada crítica do pavimento existente, no que concerne à flexibilidade, seja constituída por concreto betuminoso, a avaliação de $d_{\\text{adm}}$ será efetuada através do nomograma 1 (vide Apêndice A).\n\nPara tanto, será selecionada no referido nomograma a curva correspondente ao valor do IT igual a $IT_t$, seguindo-se a determinação da sua ordenada que corresponde à abscissa igual ao valor da espessura da camada de concreto betuminoso do pavimento existente ($h_{CB} = h_e$). A ordenada em questão expressará o valor de $d_{\\text{adm}}$ procurado.\n\nO nomograma 1 constitui, também, recurso bastante para permitir que seja feita uma estimativa da vida restante do pavimento existente, no que diz respeito à fadiga, nos casos em que a estrutura em estudo esteja ainda funcionando na fase elástica.\n\n### Critério para o Estabelecimento das Diretrizes do Projeto\n\n| IGG | $\\overline{F}$ e AP % | $d_0$ e $d_{\\text{adm}}$ | Decisão quanto ao aproveitamento da estrutura existente e quanto às medidas corretivas a serem levadas em conta no Projeto |\n| --- | --- | --- | --- |\n| IGG ≤ 180 | $\\overline{F}$ ≤ 30 mm e AP % ≤ 33 % | $d_0 \\le d_{\\text{adm}}$ | 1. Aproveitamento total do valor residual do pavimento existente.<br>2. Programação de reparos locais, se necessário.<br>3. Programação de tratamento de rejuvenescimento, se necessário. |\n| IGG ≤ 180 | $\\overline{F}$ ≤ 30 mm e AP % ≤ 33 % | $3d_{\\text{adm}} \\ge d_a > d_{\\text{adm}}$ | 1. Aproveitamento total do valor residual do pavimento existente.<br>2. Programação de reparos locais, se necessário.<br>3. Projeto de reforço com base no critério de deformabilidade. |\n| IGG ≤ 180 | $\\overline{F}$ ≤ 30 mm e AP % ≤ 33 % | $d_0 > 3d_{\\text{adm}}$ | 1. Aproveitamento total ou parcial do valor residual do pavimento existente.<br>2. Programação de reparos locais, se necessário.<br>3. Projeto de reforço com base no critério de deformabilidade e Projeto de reforço com base no critério de resistência, no caso de aproveitamento total do valor residual do pavimento existente.<br>Projeto de nova estrutura com base no critério de resistência, no caso de aproveitamento total do valor residual do pavimento existente. |\n| IGG ≤ 180 | $\\overline{F}$ > 30 mm ou AP % > 33 % | – | 1. Aproveitamento total do valor residual do pavimento existente.<br>2. Programação de reparos locais.<br>3. Projeto de reforço com base no critério de resistência, no caso de aproveitamento total do valor residual do pavimento existente.<br>Projeto de nova estrutura com base no critério de resistência, no caso de aproveitamento total do valor residual do pavimento existente. |\n| IGG > 180 | – | – | Remoção parcial ou total do pavimento existente e sua substituição parcial ou total por nova estrutura projetada com base no critério de resistência. |\n\n![[dner-pro-010-79-1_tabm03.png]]\n\nO primeiro passo em direção ao objetivo visado, consiste na determinação do ponto do nomograma 1 de coordenadas respectivamente iguais a:\n\n$$\nh_{CB} = h_e\n$$\n\ne\n\n$$\nd_{\\text{adm}} = d_0\n$$\n\nO valor do IT correspondente à curva do nomograma que passa pelo ponto retromencionado expressa, teoricamente, o máximo tráfego que o pavimento existente pode suportar, $IT_{\\text{máx}}$, antes que os efeitos da fadiga se façam sentir.\n\nO valor $IT_{\\text{máx}}$ poderá ser convertido ao do número “N” correspondente, $N_{\\text{máx}}$, mediante a equação:\n\n$$\n\\log N_{\\text{máx}} = 7{,}874 \\log IT_{\\text{máx}} - 1{,}307\n$$\n\nSe o pavimento existente estiver funcionando ainda na fase elástica, o tráfego correspondente ao valor $N_{\\text{máx}}$ deve ser superior ao tráfego já suportado pela estrutura, ao qual corresponde um valor de N igual a $N_s$. Nessas condições, verifica-se a desigualdade:\n\n$$\nN_{\\text{máx}} > N_s\n$$\n\ne o tráfego que o pavimento pode ainda suportar, $N_r$, deve ser avaliado através da diferença:\n\n$$\nN_r = N_{\\text{máx}} - N_s\n$$\n\nDesde que se disponha da curva que representa a variação do número “N” acumulado em função do tempo de exposição do pavimento ao tráfego, é possível estimar-se a sua vida restante. Basta, para tal, determinarem-se, na curva mencionada, as abscissas $t_r$ e $t_i$, dos pontos de ordenadas respectivamente iguais a $N_s + N_r$ e $N_s$. A diferença entre as duas abscissas, $t_r - t_i$, representa, na unidade de tempo utilizada, a expectativa da vida restante do pavimento em estudo no que respeita à fadiga (vide figura 3).\n\nO nomograma 2, incluído no Apêndice A, possibilita, por sua vez, a determinação de $d_{\\text{adm}}$ e dos demais elementos requeridos para a avaliação da vida restante de pavimentos flexíveis constituídos por um tratamento superficial sobreposto a camadas granulares.\n\n## 6 PROJETO DO REFORÇO DO PAVIMENTO EXISTENTE COM BASE NO CRITÉRIO DE DEFORMABILIDADE",
+    "nota": "p. 9–12: fórmulas; quadro 'Critério para o estabelecimento das diretrizes do projeto' (p. 11, girado) = tabm03. Quadro: o PDF traz '3d_adm ≥ d_a > d_adm' (d_a, possivelmente d_0) — mantido. O PDF alterna d_o/d_0: usado d_0"
+  },
+  "x06": {
+    "texto": true,
+    "de_inicio": "**6.1.1** Definição",
+    "de_fim": "(os) = 10,0cm",
+    "para": "**6.1.1** Definição ou Cálculo dos Elementos a seguir Relacionados, cujo Conhecimento Decorre dos Estudos Precedentes\n\na) $N_p$ - número “N” calculado para o período de projeto assumido.\n\nb) $IT_p$ - “índice de tráfego” correspondente ao período de projeto assumido.\n\nO valor de $IT_p$ pode ser estimado em função de $N_p$ através da equação:\n\n$$\n\\log IT_p = 0{,}127 \\log N_p + 0{,}166\n$$\n\nc) Espessura da camada crítica do pavimento existente, no que concerne à flexibilidade, $h_e$.\n\nEm se tratando de pavimentos flexíveis cujo revestimento é constituído por misturas betuminosas densas, a espessura $h_e$ deve ser considerada igual à da camada (ou camadas) integrada por esse material.\n\nNo caso de pavimentos flexíveis cujo revestimento é constituído por tratamentos superficiais, por macadames betuminosos por penetração ou por misturas betuminosas abertas, a espessura $h_e$ deve ser considerada, para efeito de análise, igual a zero.\n\nd) Nível de deflexão sobre o pavimento existente, $d_0$, referido à carga de eixo de 6,8 t, e determinado pelo processo californiano.\n\nO valor de $d_0$ deve ser estimado, em cada caso, a partir da deflexão do projeto, $d_p$.\n\nComo esse último valor é calculado com base em determinações efetuadas sob carga de eixo de 8,2 t e com tempo de aplicação diferente do adotado no processo californiano, a estimativa de $d_0$ deve ser feita através da expressão:\n\n$$\nd_0 = 0{,}7 \\times d_p\n$$\n\ne) Porcentagem da área do revestimento existente, na qual o estágio de fissuração mais severo é o correspondente à classe 1.\n\nA porcentagem em apreço, FC-1, deve ser considerada como igual à freqüência relativa da ocorrência do tipo 1, calculada de acordo com o disposto no item 5.4 da norma “Execução da Avaliação Objetiva da Superfície de Pavimentos Flexíveis e Semi-Rígidos”.\n\nf) Porcentagem da área do revestimento existente, na qual o estágio de fissuração mais severo é o correspondente à classe 2.\n\nA porcentagem em apreço, FC-2, deve ser considerada como igual à freqüência relativa da ocorrência do tipo 2, calculada de acordo com o disposto no item 5.4 da norma “Execução da Avaliação Objetiva da Superfície de Pavimentos Flexíveis e Semi-Rígidos”.\n\ng) Porcentagem da área do revestimento existente, na qual o estágio de fissuração mais severo é o correspondente à classe 3.\n\nA percentagem em apreço, FC-3, deve ser considerada como igual à freqüência relativa da ocorrência do tipo 3, calculada de acordo com o disposto no item 5.4 da norma “Execução da Avaliação Objetiva da Superfície de Pavimentos Flexíveis e Semi-Rígidos”.\n\n![[dner-pro-010-79-1_fig02.png]]\n\nFigura 3\n\n$t_0$ - data de colocação em serviço do pavimento;\n$t_i$ - data de início do período de projeto;\n$t_f$ - data do fim do período de projeto.\n\nh) “Índice de Fissuração” do revestimento existente, IF.\n\nO “Índice de Fissuração” deve ser definido e calculado através da equação:\n\n$$\nIF = 0{,}250 \\times (FC\\text{-}1) + 0{,}625 \\times (FC\\text{-}2) + (FC\\text{-}3)\n$$\n\ni) Porcentagem da área do revestimento existente, cuja continuidade se acha comprometida pela presença de trincas interligadas.\n\nA porcentagem em questão deve ser considerada como igual ao somatório:\n\n$$\n(FC\\text{-}2) + (FC\\text{-}3)\n$$\n\nNota - Não se pode deixar de levar em conta, que um intervalo de tempo significativo pode separar a data em que é realizado o inventário do estado da superfície do pavimento existente, daquela em que será sobreposto a esse último o reforço projetado. Nessas circunstâncias, cabe ao projetista decidir se é, ou não, conveniente proceder à avaliação das porcentagens FC-1, FC-2 e FC-3, a partir das respectivas freqüências relativas, previamente, afetadas por um fator de expansão subjetivamente arbitrado.\n\n**6.1.2** Estabelecimento da Condição de Fissuração do Revestimento do Pavimento Existente, no que se Refere às Trincas Interligadas, Através da Análise dos Valores de FC-3 e do Somatório (FC-2) + (FC-3).\n\nDevem ser levadas em consideração as quatro condições alternativas seguintes:\n\nCondição (a)\n\nQuando: FC-3 < 20 % e (FC-2) + (FC-3) ≥ 80%\n\nCondição (b)\n\nQuando: FC-3 < 20 % e (FC-2) + (FC-3) < 80%\n\nCondição (c)\n\nQuando: FC-3 ≥ 20 % e (FC-2) + (FC-3) ≥ 80%\n\nCondição (d)\n\nQuando: FC-3 ≥ 20 % e (FC-2) + (FC-3) < 80%\n\n**6.1.3** Determinação da Espessura Mínima de Reforço a ser Levada em Conta na Análise das Condições de Deformabilidade\n\nA determinação da espessura mínima de reforço, suposto constituído exclusivamente por concreto betuminoso, a ser considerada na análise das condições de deformabilidade, deve ser efetuada tomando-se como ponto de partida a estimativa da porcentagem da área do revestimento existente afetada por trincas de classe 3. Dois casos distintos devem ser considerados:\n\n**6.1.3.1** 1º Caso: FC-3 < 20 % (condições (a) e (b)).\n\nQuando FC-3 < 20%, não é levada em conta a possibilidade de ocorrência, no reforço, de trincas de reflexão. Neste caso, se no pavimento existente a camada subjacente à constituída por mistura betuminosa densa for integrada por material granular, por macadame betuminoso por penetração ou por pré-misturado aberto, a menor espessura de reforço, $(h_{CB})_{\\text{mín}}$, a ser considerada na análise de deformabilidade, deve ser determinada com o procedimento seguinte:\n\na) Seleciona-se, no nomograma 3, incluso no Apêndice A, a linha correspondente ao material constituinte da camada do pavimento existente, subjacente à integrada por mistura betuminosa densa.\n\nb) Determina-se a menor espessura de concreto betuminoso, $h_c$, suposta suficiente para proteger o material constituinte da camada do pavimento existente, subjacente à integrada por mistura betuminosa densa. A espessura em apreço é igual à ordenada do ponto da linha referida no item anterior, cuja abscissa corresponde ao valor do IT assumido para efeito do projeto reforço, ou seja, $IT_p$.\n\nc) Determina-se a espessura efetiva da camada do pavimento existente constituída por mistura betuminosa densa, $h_{ef}$, através de:\n\n$$\nh_{ef} = h_e \\times f_r\n$$\n\nonde:\n\n$h_e$ - espessura real da camada do pavimento existente, constituída por mistura betuminosa densa;\n$f_r$ - fator de redução, avaliado em função do “índice de fissuração”, IF, do pavimento existente, através da equação:\n\n$$\nf_r = 1{,}000 - 0{,}007 \\times IF\n$$\n\nd) calcula-se a diferença:\n\n$$\n\\Delta h = h_c - h_{ef}\n$$\n\nSe Δh > 4,0 cm, a espessura mínima de reforço a ser levada em conta na análise de deformabilidade é:\n\n$$\n(h_{CB})_{\\text{mín}} = \\Delta h\n$$\n\nSe Δh ≤ 4,0 cm, a espessura mínima de reforço a ser levada em conta na análise de deformabilidade é:\n\n$$\n(h_{CB})_{\\text{mín}} = 4{,}0\\ \\text{cm}\n$$\n\n**6.1.3.2** 2º Caso: FC-3 ≥ 20%, é levada em conta a possibilidade de ocorrência de trincas de reflexão no reforço. Nesse caso, considera-se que a prevenção do fenômeno exige uma espessura de reforço não inferior a 10,0 cm.\n\nCalcula-se, adotando o mesmo procedimento sugerido para o 1º caso, a diferença:\n\n$$\n\\Delta h = h_c - h_{ef}\n$$\n\nSe Δh > 10,0 cm, a espessura mínima de reforço a ser submetida à análise de deformabilidade é:\n\n$$\n(h_{CB})_{\\text{mín}} = \\Delta h\n$$\n\nSe Δh ≤ 10,0 cm, a espessura mínima de reforço a ser objeto de análise de deformabilidade é:\n\n$$\n(h_{CB})_{\\text{mín}} = 10{,}0\\ \\text{cm}\n$$",
+    "nota": "6.1.1–6.1.3 (p. 12–16): fórmulas; Figura 3 (p. 14)"
+  },
+  "x07": {
+    "texto": true,
+    "de_inicio": "**6.1.4** Estabelecimento do Critério",
+    "de_fim": "> emo os",
+    "para": "**6.1.4** Estabelecimento do Critério de Avaliação da Deflexão Admissível Sobre o Reforço\n\nA avaliação da deflexão admissível deve ser levada a efeito com base na estimativa da porcentagem da área do revestimento existente afetada por trincas interligadas.\n\nDevem ser considerados dois casos:\n\n**6.1.4.1** 1º Caso: (FC-2) + (FC-3) ≥ 80%, condições (a) e (c)\n\nQuando (FC-2) + (FC-3) ≥ 80%, considera-se que a intensidade de fissuração do revestimento do pavimento justifica considerar o reforço como funcionando, no que diz respeito à flexibilidade, independentemente do revestimento existente. Em outras palavras, admite-se que a deformação de tração crítica ocorra na face inferior do próprio reforço.\n\nNessas condições, a deflexão admissível sobre o reforço, para o parâmetro de tráfego considerado, deve ser determinada pela sua própria espessura, $h_{CB}$.\n\n**6.1.4.2** 2º Caso: (FC-2) + (FC-3) < 80% (condições (b) e (d))\n\nQuando (FC-2) + (FC-3) < 80%, admite-se que a intensidade de fissuração do revestimento do pavimento existente não é suficiente para considerá-lo como atuando independentemente do reforço, no que concerne à flexibilidade.\n\nSupõe-se, no caso, que as duas camadas operem em conjunto, ou seja, que a deformação de tração crítica se desenvolva na face inferior do revestimento existente.\n\nAssim sendo, a deflexão admissível sobre o reforço, para o parâmetro de tráfego considerado, deve ser determinada pela soma das espessuras do revestimento existente e do próprio reforço:\n\n$$\nh_{CB} + h_e = h_t\n$$\n\n**6.1.5** Pesquisa dos Valores Extremos Permissíveis para a Espessura do Reforço, Suposto Constituído Exclusivamente por Concreto Betuminoso, à Luz das Condições de Deformabilidade.\n\nDe acordo com a condição de fissuração do revestimento existente, duas possibilidades distintas são consideradas:\n\n**6.1.5.1** 1ª Possibilidade\n\nO revestimento do pavimento existente encontra-se na condição de fissuração (a), ou na condição de fissuração (c).\n\n![[dner-pro-010-79-1_fig03.png]]\n\nA pesquisa dos valores extremos permissíveis para a espessura do reforço envolve as seguintes etapas:\n\na) Determinação de $(h_{CB})_{\\text{mín}}$, de acordo com o procedimento detalhado anteriormente em 6.1.3.\n\nb) Através da utilização do nomograma 4 (ver apêndice A), determinam-se, para o valor de $(h_{CB})_{\\text{mín}}$ encontrado, os valores de $(d_h)_{\\text{máx}}$ e $(d_{\\text{adm}})_{\\text{máx}}$ correspondentes.\n\nO nomograma 4 foi elaborado com base na consideração de um valor para o fator de equivalência estrutural do concreto betuminoso, com relação ao pedregulho, igual a 1,70.\n\nc) Cotejam-se os valores de $(d_h)_{\\text{máx}}$ e $(d_{\\text{adm}})_{\\text{máx}}$. Duas hipóteses podem ocorrer:\n\n1ª Hipótese:\n\n$$\n(d_h)_{\\text{máx}} \\le (d_{\\text{adm}})_{\\text{máx}}\n$$\n\nNesse caso, é viável a proposição de um reforço constituído exclusivamente por concreto betuminoso, e a espessura mínima exeqüível é igual a $(h_{CB})_{\\text{mín}}$.\n\n2ª Hipótese:\n\n$$\n(d_h)_{\\text{máx}} > (d_{\\text{adm}})_{\\text{máx}}\n$$\n\nNessas circunstâncias, considera-se impraticável a proposição de um reforço integrado exclusivamente por concreto betuminoso.\n\nd) Caso tenha se verificado a 1ª hipótese, determina-se, por intermédio do nomograma 4, os valores de $(d_h)_{\\text{mín}}$ e $(h_{CB})_{\\text{máx}}$, o que é possível, sempre que $(d_h)_{\\text{mín}}$ for menor que $(d_h)_{\\text{máx}}$.\n\nSão consideradas satisfatórias as espessuras de reforço que atendam à condição:\n\n$$\n(h_{CB})_{\\text{mín}} \\le h_{CB} \\le (h_{CB})_{\\text{máx}}\n$$\n\nA solução mais econômica é a que corresponde à tomada da menor espessura de reforço praticável, ou seja:\n\n$$\nh_{CB} = (h_{CB})_{\\text{mín}}\n$$\n\n![[dner-pro-010-79-1_fig05.png]]\n\n**6.1.5.2** 2ª Possibilidade\n\nO revestimento do pavimento existente encontra-se na condição de fissuração (b), ou na condição de fissuração (d).\n\n![[dner-pro-010-79-1_fig06.png]]\n\nA pesquisa dos valores extremos permissíveis para a espessura do reforço, suposto constituído exclusivamente por concreto betuminoso, envolve, no caso, as etapas seguintes:\n\na) Determinação do valor de $(h_{CB})_{\\text{mín}}$, de acordo com o procedimento anteriormente estabelecido em 6.1.3.\n\nb) Traça-se no nomograma 4, uma curva auxiliar, cujas ordenadas devem ser respectivamente iguais às da curva correspondente ao IT assumido, para efeito de projeto de reforço, $IT_p$ menos o valor de $h_e$.\n\nc) Determinam-se, para o valor de $(h_{CB})_{\\text{mín}}$ considerado, os valores de $(d_h)_{\\text{máx}}$ e de $(d_{\\text{adm}})_{\\text{máx}}$ correspondentes, utilizando a curva auxiliar previamente desenhada no nomograma 4.\n\nd) Cotejam-se os valores de $(d_h)_{\\text{máx}}$ e $(d_{\\text{adm}})_{\\text{máx}}$.\n\nDuas hipóteses podem ocorrer:\n\n1ª Hipótese:\n\n$$\n(d_h)_{\\text{máx}} \\le (d_{\\text{adm}})_{\\text{máx}}\n$$\n\nNessas circunstâncias, é viável a consideração de um reforço integrado exclusivamente por concreto betuminoso, e a espessura mínima exeqüível é igual a $(h_{CB})_{\\text{mín}}$.\n\n2ª Hipótese:\n\n$$\n(d_h)_{\\text{máx}} > (d_{\\text{adm}})_{\\text{máx}}\n$$\n\nNeste caso, está configurada a impossibilidade de constituição do reforço exclusivamente à custa de concreto betuminoso.\n\ne) Caso seja verificada a 1ª Hipótese, determinam-se os valores de $(d_h)_{\\text{mín}}$ e $(h_{CB})_{\\text{máx}}$, através da curva auxiliar desenhada no nomograma 4, que é possível sempre que $(d_h)_{\\text{mín}}$ for menor que $(d_h)_{\\text{máx}}$.\n\nSão consideradas satisfatórias as espessuras de reforço que atendam à condição:\n\n$$\n(h_{CB})_{\\text{mín}} \\le h_{CB} \\le (h_{CB})_{\\text{máx}}\n$$\n\nA solução mais econômica é a correspondente à tomada da menor espessura de reforço praticável, ou seja:\n\n$$\nh_{CB} = (h_{CB})_{\\text{mín}}\n$$\n\n![[dner-pro-010-79-1_fig07.png]]",
+    "nota": "6.1.4–6.1.5 (p. 17–20): fórmulas; fig04 (p. 18) era trecho de texto corrido (ignorada). 6.1.5.1 d) e 6.1.5.2 e): 'sempre que (d_h)mín for menor que (d_h)máx' como no PDF"
+  },
+  "x08": {
+    "texto": true,
+    "de_inicio": "a) Tabulagem dos elementos seguintes:",
+    "de_fim": "com relação ao pedregulho.",
+    "para": "a) Tabulagem dos elementos seguintes:\n\n- “Índice de tráfego”, referente à vida de projeto, $IT_p$.\n- Nível de deflexão sobre o pavimento existente, referido à carga de eixo de 6,8 t, $d_0$.\n- Fator de equivalência estrutural do concreto betuminoso, em relação ao pedregulho, $f_{CB}$.\n\nb) Estabelecimento da espessura de concreto betuminoso para a camada de rolamento, $h_{CB}$.\n\nA espessura em apreço deve ser considerada em função, tanto do parâmetro de tráfego previsto, $IT_p$, como do material selecionado para a camada subjacente à de rolamento.\n\nPara tal, deve ser escolhida, no nomograma 3, a linha correspondente ao material cogitado para a camada subjacente à de rolamento.\n\nO valor da espessura $h_{CB}$ é o da ordenada $h_c$ da linha em questão, correspondente à abscissa igual ao valor do IT levado em conta para efeito de projeto, isto é, $IT_p$.\n\nc) Cálculo da espessura de pedregulho, $H_{CB}$, equivalente à espessura de concreto betuminoso constituinte da camada de rolamento.\n\nA espessura em questão deve ser calculada através do produto:\n\n$$\nH_{CB} = h_{CB} \\times f_{CB}\n$$\n\nd) Avaliação da deflexão admissível sobre a superfície do reforço, $d_{\\text{adm}}$.\n\nO valor de $d_{\\text{adm}}$, levando-se em conta as premissas de constituição do reforço, depende exclusivamente da espessura prefixada para a camada de concreto betuminoso e do parâmetro de tráfego, $IT_p$.\n\nO valor de $d_{\\text{adm}}$, nessas circunstâncias, deve ser determinado mediante utilização do nomograma 1.\n\ne) Determinação do nível de deflexão desejado sobre a superfície do reforço, $d_h$.\n\nPor razões óbvias, admite-se que:\n\n$$\nd_h = d_{\\text{adm}}\n$$\n\nf) Cálculo da redução porcentual da deflexão requerida, Δ (%):\n\n$$\n\\Delta(\\%) = \\frac{d_0 - d_h}{d_0} \\times 100\n$$\n\ng) Avaliação da espessura total do reforço requerido, H, expressa em termos de pedregulho. O valor de H deve ser determinado através do nomograma 5 (ver Apêndice A), em função do valor de Δ (%) previamente calculado.\n\nh) Cálculo da espessura requerida para a camada subjacente à de rolamento, $H_i$, expressa em termos de pedregulho.\n\nEvidentemente:\n\n$$\nH_i = H - H_{CB}\n$$\n\nSendo: $H > H_{CB}$\n\ni) Cálculo da espessura real requerida para a camada subjacente à de rolamento, $h_i$:\n\nA avaliação de $h_i$ deve ser feita de acordo com a fórmula:\n\n$$\nh_i = \\frac{H_i}{f_i}\n$$\n\nOnde $f_i$ representa o fator de equivalência do material selecionado para a camada subjacente à de rolamento com relação ao pedregulho.",
+    "nota": "6.2 (p. 20–21): fórmulas"
+  },
+  "x09": {
+    "texto": true,
+    "de_inicio": "Reprodução permitid: à desde que citado oDNER como fonte\n\nOs fatores de equivalência",
+    "de_fim": "<<FIM>>",
+    "para": "Os fatores de equivalência estrutural dos materiais mobilizados podem ser inferidos a partir do quadro e dos diagramas correspondentes às figuras 2, 3 e 4, incluídas no Apêndice A.\n\n## 7 PALAVRAS-CHAVE\n\nDeflexão, Deformação, Pavimento, Recalque.\n\nFigura 1 - Avaliação do pavimento existente (Apêndice A)\n\n![[dner-pro-010-79-1_fig08.png]]\n\n### Fatores de Equivalência Estrutural com Referência ao Pedregulho\n\nO Fator de Equivalência Estrutural, com relação ao pedregulho, de um dado material, é definido pela relação:\n\n$$\nf = \\frac{H}{h}\n$$\n\nonde:\n\n$h$ - espessura real do material considerado;\n$H$ - espessura do pedregulho equivalente, ou seja, a espessura de pedregulho capaz de proporcionar uma distribuição de carga e um efeito sobre a superfície subjacente, idênticos aos suscitados pela ação de placa desenvolvida pela espessura “h” do material considerado.\n\n| Material (revestimento ou base) | Fator de equivalência (f) |\n| --- | --- |\n| Macadame hidráulico | 1,10 |\n| Solo-cimento ($RCS_{7\\,\\text{dias}} \\ge 21$ kg/cm²) | 1,10 |\n| Tratamento superficial | 1,10 |\n| Macadame betuminoso por penetração | 1,20 |\n| Pré-misturado a frio aberto (% $V_V$ > 8%) | 1,33 |\n| Pré-misturado a quente aberto (% $V_V$ > 8%) | 1,35 |\n| Pré-misturado a frio semi-denso (5% < % $V_V$ ≤ 8%) | 1,36 |\n| Areia-asfalto a quente (% $V_V$ ≤ 8%) | 1,42 |\n| Pré-misturado a quente semi-denso (5 % < % $V_V$ ≤ 8%) | 1,58 |\n| Concreto betuminoso (% $V_V$ ≤ 5%) | 1,70 |\n\n![[dner-pro-010-79-1_tabm04.png]]\n\n$RCS_{7\\,\\text{dias}}$ - resistência à compressão simples aos 7 dias;\n$\\%\\,V_V$ - porcentagem de vazios.\n\nFigura 2 - Fatores de equivalência estrutural para bases granulares\nFigura 3 - Fatores de equivalência estrutural para sub-bases granulares e reforços do subleito\n\n![[dner-pro-010-79-1_fig09.png]]\n\nFigura 4 - Fatores de equivalência estrutural para bases granulares tratadas com cimento\n\n![[dner-pro-010-79-1_fig10.png]]\n\nNomograma 1 - Variação da deflexão admissível em função da espessura da camada crítica e da intensidade do tráfego\n\n![[dner-pro-010-79-1_fig11.png]]\n\nNomograma 2 - Variação da deflexão admissível em função da intensidade do tráfego\n\n![[dner-pro-010-79-1_fig12.png]]\n\nNomograma 3 - Espessuras mínimas de concreto betuminoso suficientes para a proteção do material subjacente contra deformações plásticas e/ou degradação granulométrica\n\n![[dner-pro-010-79-1_fig13.png]]\n\nNomograma 4 - Cálculo do reforço, suposto constituído por concreto betuminoso\n\n![[dner-pro-010-79-1_fig14.png]]\n\nNomograma 5 - Redução percentual de deflexão\n\n![[dner-pro-010-79-1_fig15.png]]\n",
+    "nota": "7 e Apêndice A (p. 22–31): lixo de OCR dos gráficos removido; quadro de fatores de equivalência (p. 24) = tabm04"
+  }
+}

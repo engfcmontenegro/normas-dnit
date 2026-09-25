@@ -1,0 +1,32 @@
+{
+  "fig01": {
+    "page": 6,
+    "bbox": [
+      153.2,
+      85.7,
+      455.8,
+      378.7
+    ],
+    "legenda": "Figura A1 – Secagem do solo pelo método da frigideira"
+  },
+  "fig02": {
+    "page": 6,
+    "bbox": [
+      121.8,
+      426.8,
+      487.6,
+      701.2
+    ],
+    "legenda": "Figura A2 – Estufa com amostras de solo"
+  },
+  "fig03": {
+    "page": 7,
+    "bbox": [
+      138.7,
+      98.9,
+      470.1,
+      639.3
+    ],
+    "legenda": "Figura A3 – Conjunto do aparelho “Speedy”"
+  }
+}

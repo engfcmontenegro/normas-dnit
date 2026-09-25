@@ -1,0 +1,76 @@
+{
+  "eq01": {
+    "page": 12,
+    "clip": [
+      68,
+      728,
+      130,
+      768
+    ],
+    "latex": [
+      "\\overline{X} = \\frac{\\sum X_i}{n}",
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `X Xi n = ∑`",
+    "de_fim": "- número de determinações.",
+    "para": "$$\n\\overline{X} = \\frac{\\sum X_i}{n}\n$$\n\n$$\ns = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}\n$$\n\nonde:\n\n$X_i$ - valores individuais;\n$\\overline{X}$ - média da amostra;\n$s$ - desvio padrão da amostra;\n$k$ - coeficiente tabelado em função do número de determinações;\n$n$ - número de determinações."
+  },
+  "eq02": {
+    "page": 13,
+    "clip": [
+      68,
+      76,
+      162,
+      124
+    ],
+    "latex": [
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ]
+  },
+  "x01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "| Peneira de |  | Porcentagem passando, em peso (faixas) |  | Tolerância na curva de projeto |\n| --- | --- | --- | --- | --- |\n| ABNT | Abertura, mm | A | B | (%) |\n| 3/8” | 9,5 | 100 | 100 | - |\n| nº 4 | 4,8 | 50-90 | 65-92 | ± 5 |\n| nº 10 | 2,0 | 30-75 | 40-80 | ± 5 |\n| nº 40 | 0,42 | 15-40 | 15-48 | ± 5 |\n| nº 80 | 0,18 | 8-30 | 6-35 | ± 3 |\n| nº 200 | 0,075 | 5-10 | 2-15 | ± 2 |\n| Ligante no |  | 4 - 7 |  | ± 0,3 |\n\n![[dner_es_388_99_tab01.png]]\n\n**5.2** Composição da mistura\n\n![[dner_es_388_99_fig01.png]]",
+    "para": "Peneira de malha quadrada ABNT Abertura, mm Percentagem passando, em peso N° 40 0,42 100 N° 80 0,18 95-100 N° 200 0,075 65-100\n\n**5.2** Composição da mistura",
+    "nota": "tab01 automática caiu no lugar da tabela do filer (5.1.2.3) e a do filer virou fig01 depois de 5.2; tabelas refeitas à mão (tabm01, tabm02)"
+  },
+  "x02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "0,02 0,01 n = n° de amostras k = coeficiente multiplicador α = risco do executante",
+    "para": "0,02 0,01\n\nn = nº de amostras; k = coeficiente multiplicador; α = risco do executante.",
+    "nota": "nota da tabela de amostragem separada (a tabela entra em tabm04)"
+  },
+  "x03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "conforme tabela do item\n\n**7.2.1.5** DNER-ES 388 /99",
+    "para": "conforme tabela do item 7.2.1.5.",
+    "nota": "fim do item 7.2.2.3 lido como título + cabeçalho de página"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo especificado ou X + ks > valor máximo especificado",
+    "para": "$\\overline{X} - ks$ < valor mínimo especificado ou $\\overline{X} + ks$ > valor máximo especificado"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo especificado e X + ks ≤ valor máximo especificado",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo especificado e $\\overline{X} + ks$ ≤ valor máximo especificado"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "Se X - ks < valor mínimo especificado",
+    "para": "Se $\\overline{X} - ks$ < valor mínimo especificado"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "Se X - ks ≥ valor mínimo especificado",
+    "para": "Se $\\overline{X} - ks$ ≥ valor mínimo especificado"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "700m 2 de pista",
+    "para": "700 m² de pista"
+  }
+}

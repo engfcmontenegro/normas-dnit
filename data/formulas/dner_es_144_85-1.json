@@ -1,0 +1,256 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "descarga livre mínima de 3,5mº/min.",
+    "para": "descarga livre mínima de 3,5 m³/min.",
+    "nota": "3.1.1: m³ lido como mº"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "a) Relação l:n> 1: 6;",
+    "para": "a) Relação l : n > 1 : 6;",
+    "nota": "3.2.3"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "no espaçamento (d; ) entre",
+    "para": "no espaçamento ($d_i$) entre",
+    "nota": "3.2.5: d com índice i"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "compreendida entre + 40 mm.",
+    "para": "compreendida entre ± 40 mm.",
+    "nota": "3.3.5: ± lido como +"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "compreendido entre + 30 mm.",
+    "para": "compreendido entre ± 30 mm.",
+    "nota": "3.3.6: ± lido como +"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "**3.1** Equipamento mínimo 3.1.1 Compressor",
+    "de_fim": "3.1.1 Compressor",
+    "para": "**3.1** Equipamento mínimo\n\n**3.1.1** Compressor",
+    "nota": "título 3.1.1 grudado no 3.1"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "4.2. 14 Preço de cinta",
+    "de_fim": "4.2. 14 Preço de cinta",
+    "para": "**4.2.1.4** Preço de cinta",
+    "nota": "número do item 4.2.1.4 quebrado"
+  },
+  "x11": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `A “ —+ I7O 4 - T`",
+    "de_fim": "> `A “ —+ I7O 4 - T`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x12": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Pág. 06/24 red cr e rm [ TO dam b 5 8m c ancoragem`",
+    "de_fim": "> `Pág. 06/24 red cr e rm [ TO dam b 5 8m c ancoragem`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x13": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `up di 1 — — = — Om - É mA , 4-— —+ !`",
+    "de_fim": "> `up di 1 — — = — Om - É mA , 4-— —+ !`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x14": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `' T «cet o bi me mea du FIGURA - 4`",
+    "de_fim": "> `' T «cet o bi me mea du FIGURA - 4`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x15": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `E sm pime pi TS duo av`",
+    "de_fim": "> `E sm pime pi TS duo av`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x16": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `h [> 1] 3 500 Ê`",
+    "de_fim": "> `h [> 1] 3 500 Ê`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x17": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `El DES REA NZ a ES F k ANA entes a ZA S`",
+    "de_fim": "> `El DES REA NZ a ES F k ANA entes a ZA S`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x18": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `mms A NA 2N E 4 «`",
+    "de_fim": "> `mms A NA 2N E 4 «`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x19": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `S/A Ia Lo m a no H tod uy ==\"`",
+    "de_fim": "> `S/A Ia Lo m a no H tod uy ==\"`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x20": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Faixa de segurança sm Foixas`",
+    "de_fim": "> `Faixa de segurança sm Foixas`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x21": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `' PREV a o Nada da ZA ZA l Ep L`",
+    "de_fim": "> `' PREV a o Nada da ZA ZA l Ep L`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x22": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Oro % Dr ZA`",
+    "de_fim": "> `Oro % Dr ZA`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x23": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `e 12,00 VIA LATERAL A a —4— 4,00 4,00 a 8,00 - *`",
+    "de_fim": "> `e 12,00 VIA LATERAL A a —4— 4,00 4,00 a 8,00 - *`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x24": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `e.” “q E N`",
+    "de_fim": "> `e.” “q E N`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x25": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `N SIZA AR A`",
+    "de_fim": "> `N SIZA AR A`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x26": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `1 1 t 1 1 ! h t E! 3 24 Za`",
+    "de_fim": "> `1 1 t 1 1 ! h t E! 3 24 Za`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x27": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `e sei 5%, ? ie Ss ISS , SB a`",
+    "de_fim": "> `e sei 5%, ? ie Ss ISS , SB a`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x28": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Z 4000 4090 mm mf hmm —+— —— —4— —+— o uam = POSIÇÃO DA GUIA EM RELAÇÃO`",
+    "de_fim": "> `Z 4000 4090 mm mf hmm —+— —— —4— —+— o uam = POSIÇÃO DA GUIA EM RELAÇÃO`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x29": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Pág. 16/24 CISO cada 4000 CaLço , ESPAÇADOR ! a`",
+    "de_fim": "> `Pág. 16/24 CISO cada 4000 CaLço , ESPAÇADOR ! a`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x30": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `o e q e rimas rm $i9 FI ' Detalhe do furo`",
+    "de_fim": "> `o e q e rimas rm $i9 FI ' Detalhe do furo`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x31": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `1:14 ASS NO A`",
+    "de_fim": "> `1:14 ASS NO A`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x32": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Ra ben tl ar eião E Sa é e`",
+    "de_fim": "> `Ra ben tl ar eião E Sa é e`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x33": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Pág. 20/24 2000 “ Mo fada me e Me o Ep é`",
+    "de_fim": "> `Pág. 20/24 2000 “ Mo fada me e Me o Ep é`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x34": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `s mm ———os m mçtea —+`",
+    "de_fim": "> `s mm ———os m mçtea —+`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "x35": {
+    "texto": true,
+    "de_inicio": "\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Pág. 22/24 h v tt/2 ATERRO 1:2-1/2 -FALUDE DO “`",
+    "de_fim": "> `Pág. 22/24 h v tt/2 ATERRO 1:2-1/2 -FALUDE DO “`",
+    "para": "",
+    "nota": "aviso falso: rótulos de desenho (figuras)"
+  },
+  "anexo": {
+    "texto": true,
+    "de_inicio": "\n\n![[dner_es_144_85-1_fig01.png]]\n\n![[dner_es_144_85-1_fig02.png]]",
+    "de_fim": "<<FIM>>",
+    "para": "\n\n## FIGURAS\n\n![[dner_es_144_85-1_fig01.png]]\n\n### Figura 1 - Acessos a obras-de-arte – pista simples\n\n![[dner_es_144_85-1_fig02.png]]\n\n### Figura 2 - Acessos a obras-de-arte – pista dupla\n\n![[dner_es_144_85-1_fig03.png]]\n\n### Figura 3 - Defensas em calçadas de obras-de-arte\n\n![[dner_es_144_85-1_fig04.png]]\n\n### Figura 4 - Substituição de guarda-corpo por defensa\n\n![[dner_es_144_85-1_fig05.png]]\n\n### Figura 5 - Defensas em bordas de aterro\n\n![[dner_es_144_85-1_fig06.png]]\n\n### Figura 6 - Defensa em canteiro central\n\n![[dner_es_144_85-1_fig07.png]]\n\n### Figura 7 - Defensa em canteiro separador – pista principal com rua lateral – largura de 4,00 a 8,00 m, com obstáculos\n\n![[dner_es_144_85-1_fig08.png]]\n\n### Figura 8 - Defensa em canteiro separador – pista principal com rua lateral – largura de 4,00 a 8,00 m, sem obstáculos\n\n![[dner_es_144_85-1_fig09.png]]\n\n### Figura 9 - Defensa em canteiro separador – pista principal com rua lateral – largura de 8,00 a 12,00 m\n\n![[dner_es_144_85-1_fig10.png]]\n\n### Figura 10 - Passagem de pedestre – canteiro central\n\n![[dner_es_144_85-1_fig11.png]]\n\n### Figura 11 - Obstáculos às margens da rodovia\n\n![[dner_es_144_85-1_fig12.png]]\n\n### Figura 12 - Cortes em rocha – proteção de sarjetas\n\n![[dner_es_144_85-1_fig13.png]]\n\n### Figura 13 - Ancoragem – defensa simples semi-rígida\n\n![[dner_es_144_85-1_fig14.png]]\n\n### Figura 14 - Ancoragem – defensa simples semi-maleável\n\n![[dner_es_144_85-1_fig15.png]]\n\n### Figura 15 - Ancoragem – defensa dupla semi-maleável\n\n![[dner_es_144_85-1_fig16.png]]\n\n### Figura 16 - Ancoragem – defensa simples maleável\n\n![[dner_es_144_85-1_fig17.png]]\n\n### Figura 17 - Ancoragem – defensa dupla maleável\n\n![[dner_es_144_85-1_fig18.png]]\n\n### Figura 18 - Necessidade de defensas – aterros\n\n![[dner_es_144_85-1_fig19.png]]\n\n### Figura 19 - Necessidade de defensas – canteiros centrais\n",
+    "nota": "páginas 6-24 só de desenhos: rótulos do OCR removidos, legendas lidas das figuras"
+  },
+  "cab01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n## DNER-ES 144/85 p.\n\n02/24\n\n",
+    "para": "\n\n",
+    "nota": "cabeçalho de página no meio do texto"
+  },
+  "cab02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n## DNER-ES 144/85 p.\n\n03/24\n\n",
+    "para": "\n\n",
+    "nota": "cabeçalho de página no meio do texto"
+  },
+  "cab03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n## DNER-ES 144/85 p.\n\n04/24\n\n",
+    "para": "\n\n",
+    "nota": "cabeçalho de página no meio do texto"
+  },
+  "cab04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n## DNER-ES 144/85 p.\n\n05/24\n\n",
+    "para": "\n\n",
+    "nota": "cabeçalho de página no meio do texto"
+  }
+}

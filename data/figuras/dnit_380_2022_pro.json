@@ -1,0 +1,92 @@
+{
+  "fig01": {
+    "page": 13,
+    "bbox": [
+      63.4,
+      108.7,
+      545.6,
+      230.8
+    ],
+    "legenda": ""
+  },
+  "fig02": {
+    "page": 13,
+    "bbox": [
+      93.7,
+      488.5,
+      515.1,
+      609.9
+    ],
+    "legenda": ""
+  },
+  "fig03": {
+    "page": 14,
+    "bbox": [
+      146.4,
+      80.2,
+      463.0,
+      184.8
+    ],
+    "legenda": "Figura B1 – Aplicação de reforço com geossintético na base de aterro sobre solo mole"
+  },
+  "fig04": {
+    "page": 14,
+    "bbox": [
+      141.2,
+      229.1,
+      467.8,
+      386.4
+    ],
+    "legenda": "Figura B2 – Reforço de geossintético na base de aterro Classe I (encontro de ponte)"
+  },
+  "fig05": {
+    "page": 14,
+    "bbox": [
+      164.5,
+      430.5,
+      445.0,
+      628.9
+    ],
+    "legenda": "Figura B3 – Emendas da camada de reforço"
+  },
+  "fig06": {
+    "page": 15,
+    "bbox": [
+      148.4,
+      85.7,
+      461.0,
+      283.3
+    ],
+    "legenda": "Figura C1 – Aplicação em aterro estaqueado"
+  },
+  "fig07": {
+    "page": 15,
+    "bbox": [
+      171.0,
+      330.8,
+      438.5,
+      481.6
+    ],
+    "legenda": "Figura C2 – Arranjo das estacas em planta"
+  },
+  "fig08": {
+    "page": 15,
+    "bbox": [
+      148.8,
+      529.3,
+      460.5,
+      713.6
+    ],
+    "legenda": "Figura C3 – Posição da camada de reforço (z)"
+  },
+  "fig09": {
+    "page": 16,
+    "bbox": [
+      85.7,
+      66.2,
+      523.8,
+      215.7
+    ],
+    "legenda": "Figura D1 – Seção esquemática conceitual da solução em coluna encamisada"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "fig01": {
+    "page": 9,
+    "bbox": [
+      79.0,
+      386.0,
+      576.0,
+      761.0
+    ],
+    "legenda": "",
+    "ancora": "Notas: 10) A nomenclatura apresentada indica o tamanho e o tipo de barrilete a s",
+    "ignorar": true,
+    "nota": "é tabela (Tabelas 7 e 8: tabm05 e tab05)",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `∅ externo ∅ interno EW 46,2 38,2 AW 57,3 48,5 BW 73,2 60,5 NW 89,1 76,4 HW 114,5 101,4`",
+      "Denominação"
+    ]
+  },
+  "fig02": {
+    "page": 19,
+    "bbox": [
+      83.0,
+      53.5,
+      572.0,
+      700.0
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO B - CAIXA DE TESTEMUNHOS",
+    "texto_removido": [
+      "NWG",
+      "HWG",
+      "36,5",
+      "46,0",
+      "57,9",
+      "73,8",
+      "95,2",
+      "23,8",
+      "32,5",
+      "44,4",
+      "57,1",
+      "79,3",
+      "EWG",
+      "AWG",
+      "BWG"
+    ]
+  },
+  "fig03": {
+    "page": 20,
+    "bbox": [
+      23.0,
+      53.5,
+      753.0,
+      561.0
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO C - FOTOGRAFIA DAS CAIXAS DE TESTEMUNHOS",
+    "texto_removido": [
+      "Denominação Tubo ext. ∅ externo",
+      "Tubo int. ∅ interno",
+      "EWG EWM 36,49 23,79",
+      "BWG BWM 57,93 43,63",
+      "NWG NWM 73,81 57,15",
+      "HWG HWM 95,25 77,77",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `∅ externo ∅ interno`",
+      "tubo int."
+    ]
+  },
+  "fig04": {
+    "page": 21,
+    "bbox": [
+      89.9,
+      67.6,
+      576.0,
+      813.8
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO D - COVENÇÕES GRÁFICAS GEOLÓGICAS",
+    "texto_removido": [
+      "37,33 21,46 37,7 20,6",
+      "AWG AWM",
+      "47,62 30,09 48,0 29,3",
+      "BWG BWM",
+      "59,56 42,03 59,9 41,2",
+      "NWG NWM",
+      "75,31 54,73 75,6 53,9",
+      "HWG HWM",
+      "98,8 76,2 99,2 75,4",
+      "Denominação",
+      "Denominação",
+      "Coroa Alargador Testemunho ∅ ext. ∅ int. ∅ ext. ∅ aprox. EWG EWM"
+    ]
+  },
+  "fig05": {
+    "page": 22,
+    "bbox": [
+      89.9,
+      53.5,
+      565.0,
+      705.0
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO E - FICHA PARA REPRESENTAÇÃO DO PERFIL DE",
+    "texto_removido": [
+      "Rocha Símbolo Número de fraturas por manobra",
+      "Pouco fraturada",
+      "F1 1 - 5",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `fraturada F2 6 - 10 Muito fraturada F3 11 - 20`",
+      "Medianamente",
+      "Extremamente fraturada",
+      "F4",
+      "> 20",
+      "Em fragmentos",
+      "F5 Torrões em pedaços de diversos tamanhos"
+    ]
+  },
+  "fig06": {
+    "page": 23,
+    "bbox": [
+      99.0,
+      67.3,
+      555.0,
+      780.3
+    ],
+    "legenda": "Figura 5",
+    "ancora": "Figura 5",
+    "texto_removido": [
+      "Coerente",
+      "C2",
+      "Pouco coerente C3",
+      "Friável C4",
+      "Muito coerente C1",
+      "Rocha Símbolo Características"
+    ]
+  },
+  "fig07": {
+    "page": 24,
+    "bbox": [
+      62.9,
+      36.9,
+      775.0,
+      769.2
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO E - FICHA PARA REPRESENTAÇÃO DO PERFIL DE",
+    "ignorar": true,
+    "nota": "Anexo F: formulário em branco, imagem d01 (data/formulas)",
+    "texto_removido": [
+      "DA SONDAGEM ROTATIVA"
+    ]
+  }
+}

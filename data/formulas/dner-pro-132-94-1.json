@@ -1,0 +1,109 @@
+{
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "1 2 3 4 5 6\n\nTipo de Tamanho | Tamanho Número de sacos com defeito dolote amostragem | AMOSITA | ga amostra | cumulativo ma Ruas (sacos) da amostra | Aceitação Rejeição (sacos) (sacos) (máx.) (min.)\n\n**4.2** Exame da amostra\n\n![[dner-pro-132-94-1_fig01.png]]",
+    "para": "![[dner-pro-132-94-1_fig01.png]]\n\n**4.2** Exame da amostra",
+    "nota": "Tabela 1 (p. 3): texto achatado da tabela removido; a figura fig01 é a tabela (tabm01)"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "![[dner-pro-132-94-1_fig02.png]]\n\n10 2 3 4.5 Reposição de sacos da amostra\n\nCaso o lote seja aceito, os sacos defeituosos encontrados na amostra devem ser eliminados do lote e\n\nOsu e existentes 2 arm",
+    "para": "![[dner-pro-132-94-1_fig02.png]]\n\n**4.5** Reposição de sacos da amostra\n\nCaso o lote seja aceito, os sacos defeituosos encontrados na amostra devem ser eliminados do lote e substituídos por outros perfeitos não existentes na amostra.",
+    "nota": "Tabela 2 / 4.5 (p. 4): lixo de OCR e fim da frase perdido (linha torta no escaneamento)"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "L Z my Z Este documento",
+    "para": "Este documento",
+    "nota": "lixo de OCR (p. 1)"
+  },
+  "t04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\nA\n\n## 2 REFERÊNCIA",
+    "para": "\n\n## 2 REFERÊNCIA",
+    "nota": "lixo de OCR (p. 2)"
+  },
+  "t05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "“No preparo",
+    "para": "No preparo"
+  },
+  "t06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**3.4** Inspeção e Tea os incidência de defeitos no lote de fornecimento, que possam ser determinados por meios visuais ver item 3.7).",
+    "para": "**3.4** Inspeção\n\nVerificação da incidência de defeitos no lote de fornecimento, que possam ser determinados por meios visuais (ver item 3.7).",
+    "nota": "3.4 (p. 2)"
+  },
+  "t07": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "de acordo com o item ha,",
+    "para": "de acordo com o item 4.4.",
+    "nota": "3.6 (p. 2)"
+  },
+  "t08": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Lo LS Wa a E) da IVIIVIG`\n\n## 2379 Deficiâênci",
+    "para": "**3.7.2** Deficiência de enchimento",
+    "nota": "aviso falso: título 3.7.2 ilegível no OCR (p. 2)"
+  },
+  "t09": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "itida desde que citado o DNER como fonte ução perm Reprod 4.3.2 Formada a segunda (2º) amostra, se o número de sacos defeituosos encontrados nas primeira q *) e segunda 2 amostras for igual ou inferior ao número de aceitação da segunda amostra (coluna da Tabela 1)",
+    "para": "**4.3.2** Formada a segunda (2ª) amostra, se o número de sacos defeituosos encontrados nas primeira (1ª) e segunda (2ª) amostras for igual ou inferior ao número de aceitação da segunda amostra (coluna 6 da Tabela 1)",
+    "nota": "4.3.2 (p. 4): tarja lateral e ordinais perdidos"
+  },
+  "t10": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "(1º)",
+    "para": "(1ª)",
+    "nota": "ordinal feminino como no PDF"
+  },
+  "t11": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "(2º)",
+    "para": "(2ª)",
+    "nota": "ordinal feminino como no PDF"
+  },
+  "t12": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "(2?)",
+    "para": "(2ª)",
+    "nota": "ordinal feminino como no PDF"
+  },
+  "t13": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Amostragemsimples",
+    "para": "Amostragem simples"
+  },
+  "t14": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Inspeçãorigorosa",
+    "para": "Inspeção rigorosa"
+  },
+  "t15": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**1.2** Ainspeção",
+    "para": "**1.2** A inspeção"
+  },
+  "t16": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Esta inspeção émais",
+    "para": "Esta inspeção é mais"
+  }
+}

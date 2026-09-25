@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 2,
+    "clip": [
+      60,
+      505,
+      575,
+      752
+    ],
+    "md": "| Natureza dos Serviços | Classe e Grupo |\n| --- | --- |\n| Tratamentos superficiais (Nota 1) | IA |\n| Revestimento de concreto asfáltico | IA, IIA |\n| Bases de concreto asfáltico | IA, IB, IC, IIA, IIB, IIC |\n| Estruturas expostas de concreto leve de cimento Portland (Nota 2) | IA |\n| Pavimentos de concreto de cimento Portland | IA, IB |\n| Bases de concreto de cimento Portland | IA, IB, IC, IIA, IIB |\n| Materiais para base flexível de pavimento | IA, IB, IC, IIA, IIB, IIC |",
+    "de_inicio": "EN\n\n![[dner_es_227_89-1_fig01.png]]",
+    "nota": "QUADRO sem fios verticais que tinha virado figura (fig01); 'EN' era lixo de OCR"
+  }
+}

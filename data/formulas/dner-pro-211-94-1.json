@@ -1,0 +1,79 @@
+{
+  "t01": {
+    "texto": true,
+    "de_inicio": "Li att a:\nE.) Parte do território brasileiro",
+    "de_fim": "> `- / Ls = Es E 700, à que pa A As 5 q`",
+    "para": "Parte do território brasileiro, assim definida para fins de planejamento, pela Lei nº 5173 de 1966, a que corresponde uma área de ....... 5 033 072 km².",
+    "nota": "3.3 (p. 3): tira mal lida + aviso falso; km² lido como km?"
+  },
+  "t02": {
+    "texto": true,
+    "de_inicio": "**2.10** Áre a q RR AILALTENW/ALLWEÇ QELE WC SEG EU",
+    "de_fim": "SEG EU",
+    "para": "**3.10** Área de influência direta da rodovia",
+    "nota": "3.10 (p. 4): título riscado no PDF; repete o título de 3.9 (possível erro do PDF — deveria ser 'indireta')"
+  },
+  "t03": {
+    "texto": true,
+    "de_inicio": "**3.15** Climatologia Ramo da meteorologia",
+    "de_fim": "Reprodução p",
+    "para": "**3.15** Climatologia\n\nRamo da meteorologia dedicado ao estudo físico da atmosfera e das variações estatísticas do mesmo espaço e no tempo, ao longo de período de muitos anos.",
+    "nota": "3.15 (p. 4): tarja lateral misturada ao texto"
+  },
+  "t04": {
+    "texto": true,
+    "de_inicio": "itida desde que citado o DNER como fonte\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `En ução perm Reprod a)`\n\na saúde",
+    "de_fim": "a saúde",
+    "para": "a) a saúde",
+    "nota": "3.45 (p. 7): aviso falso (tarja lateral) comeu a letra a)"
+  },
+  "t05": {
+    "texto": true,
+    "de_inicio": "itida desde que citado o DNER como fonte\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `= ução perm Reprod ais aih me o riso E a`\n\ng) iocaiização",
+    "de_fim": "g) iocaiização",
+    "para": "g) localização",
+    "nota": "5.1.26 (p. 17/18): aviso falso (tarja lateral)"
+  },
+  "t06": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `ução p Reprod b) 8) h)`\n\nermitida desde que citado o DNER como fonte planta geral",
+    "de_fim": "técnica de plantio e de conservação.",
+    "para": "b) planta geral da situação da rodovia onde se assinalem, relacionando-se ao estaqueamento, os acidentes notáveis de interesse para o projeto, tais como: cidades, praias, rios, nascentes, locais de vistas panorâmicas, sítios históricos etc, bem como a divisão detrechos para a arbonização, as áreas escolhidas para repouso e/ourecreação, as jazidas e as escavações para empréstimos, as interseções, oslocais adequados para postos fiscais, postos de abastecimento, etc. Podeser apresentado por meio de diagrama, na escala 1/10 000, em tamanho A-1 para minuta e A-3 para a impressão definitiva;\n\nc) desenho, na escala 1/100, de tratamento corretivo de jazidas, escavações e bota-foras (seções transversais) no tamanho A-3;\n\nd) desenhos, na escala 1/100, de detalhes de arborização ao longos dos trechos indicados na planta geral de situação, no tamanho A-1 para a minuta e A-3 para a impressão definitiva;\n\ne) desenhos, na escala 1/500, do tratamento paisagístico de interseções e acessos, no tamanho A-1 para a minuta e A-3 para impressão definitiva;\n\nf) plantas plani-altimétricas, em escala de 1/500, das áreas escolhidas para estacionamentos, mirantes e similares, no tamanho A-1 para minuta e A-3 para a impressão definitiva;\n\ng) desenhos, plantas, cortes, vistas e detalhes estruturais dos elementos arquitetônicos no tamanho A-1, nas seguintes escalas: 1/50 ou 1/100 para as plantas; 1/50 ou 1/100 para os cortes; 1/25 ou 1/10 para os detalhes;\n\nh) especificações dos materiais de construção a serem usados nas obras de arquitetura;\n\ni) listagem das espécies vegetais a empregar, com respectivas quantidades e recomendações sobre fonte de aquisição, de transporte, técnica de plantio e de conservação.",
+    "nota": "5.2.5.1 (p. 21): aviso falso com as letras b) a i) das alíneas"
+  },
+  "t07": {
+    "texto": true,
+    "de_inicio": "**5.2.6.1** a)\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `b) e) d) e) 9 8) h) ij)`\n\nAs soluções aprovadas",
+    "de_fim": "orçamento.",
+    "para": "**5.2.6.1** As soluções aprovadas na fase de anteprojeto, devem ser detalhadas e compreender:\n\na) levantamento topográfico, representado por plantas planialtimétricas, nas escalas 1/500 dos locais onde se prevê a construção de áreas de parqueamento, mirantes, etc;\n\nb) tratamento paisagístico de interseções;\n\nc) arbonização paisagística;\n\nd) localização e dimensionamento das áreas de estacionamento, repouso e/ou recreação;\n\ne) tratamento corretivo das escavações e caixas de empréstimo existentes;\n\nf) projetos arquitetônicos de praças, belvederes, equipamentos de apoio ao usuário e de edifícios da administração rodoviária;\n\ng) indicação dos locais mais adequados para postos de abastecimento, motéis e outros;\n\nh) tratamentos especiais;\n\ni) especificações;\n\nj) orçamento.",
+    "nota": "5.2.6.1 (p. 21): aviso falso com as letras a) a j) das alíneas"
+  },
+  "t09": {
+    "texto": true,
+    "de_inicio": "alternativas de traçado da rodovia.\n\nProcesso de destruição de matas.",
+    "de_fim": "Processo de destruição de matas.",
+    "para": "alternativas de traçado da rodovia.\n\n**3.20** Desflorestamento\n\nProcesso de destruição de matas.",
+    "nota": "3.20 (p. 5): título perdido"
+  },
+  "t10": {
+    "texto": true,
+    "de_inicio": "**3.36** Estudospreliminares ermitida",
+    "de_fim": "**3.30.1** Estudos prefiminares rodoviários propriamente ditos",
+    "para": "**3.36** Estudos preliminares\n\n**3.36.1** Estudos preliminares rodoviários propriamente ditos",
+    "nota": "3.36 (p. 6/7): tarja lateral e número 3.36.1 mal lido"
+  },
+  "t11": {
+    "texto": true,
+    "de_inicio": "cogu O itida desde que citado o DNER como fonte ução perm Reprod\n\nAnexo normativo A\n\nExemplo de roteiro",
+    "de_fim": "Exemplo de roteiro",
+    "para": "### Anexo normativo A - Exemplo de roteiro",
+    "nota": "tarja lateral + título do Anexo A partido"
+  },
+  "t08": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `e / Anexo B mA e FASE`",
+    "de_fim": "<<FIM>>",
+    "para": "### Anexo normativo B - Interação dos estudos e projetos relativo à construção rodoviária propriamente dita e ao condicionamento ambiental (inclusive paisagismo) (tarefa multidisciplinar)\n\n![[dner-pro-211-94-1_fig01.png]]\n\n### Anexo normativo C - Exemplo de relacionamento de causas com efeitos\n\nNa área de domínio direto da estrada\n\n| Principais agentes impactantes – causas | Principais efeitos |\n| --- | --- |\n| 1. Precariedade de dispositivo de drenagem superficial da estrada e de contenção geotécnica<br>• manejo inadequado dos solos do entorno<br>• queimadas e eliminação da vegetação no entorno em época de estiagem<br>• transbordamento da drenagem em épocas de cheia | Erosão de encostas e taludes |\n| 2. Idem ao item anterior (erosão), somando-se:<br>• traçado da estrada (tendências a características de subdimensionamento devido à modificação das condições hidráulicas da época de construção)<br>• locação de aglomerações urbanas em encostas e talvegues ao longo da linha<br>• falta de condições de saneamento adequadas e má disposição do lixo urbano ao longo da estrada | • assoreamento de cursos d'água<br>• geração de zonas de acumulação e estagnação de águas<br>• doenças sanitárias<br>• conflitos com áreas de mananciais |\n| 3. Incorporação de áreas pela infra-estrutura de manutenção, ampliação, vias de acesso, etc.<br>• não recuperação de áreas de empréstimo, bota-fora, etc. | • conflito com cobertura vegetal, solos e drenagem<br>• estagnação de águas - doenças sanitárias |\n| 4. Sinergismo entre o traçado da estrada e o traçado de estradas estaduais, vicinais, etc. | • ampliação dos efeitos diagnosticados nos itens 1, 2 e 3 |\n| 5. Travessia de via, pedestre e animais na via, ruído, impacto visual, etc.<br>• estrada como agente indutor de aglomerações urbanas | • conflito com uso urbano<br>• crescimento desordenado de cidades, no entorno da via |\n\n![[dner-pro-211-94-1_tabm01.png]]\n",
+    "nota": "Anexos B e C (p. 33–34): lixo de OCR do fluxograma e da tabela removido; Anexo C (tabela girada) virou tabm01"
+  }
+}

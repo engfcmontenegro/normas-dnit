@@ -1,0 +1,70 @@
+{
+ "es": "dner-es-173-86",
+ "servico": "Nível e mira para calibração de medidores de irregularidade tipo resposta",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Aparelhagem",
+   "ensaio": "Nível ótico",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do levantamento",
+   "criterio": "Luneta de focalização interna, traços estadimétricos; precisão 1,5 mm/km",
+   "secao": "5 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Aparelhagem",
+   "ensaio": "Mira e trena",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do levantamento",
+   "criterio": "Mira de 2 a 4 m com nível de bolha, divisões ≤ 0,5 cm (leitura em mm por interpolação); trena de 50 m graduada em cm",
+   "secao": "5 b / 5 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Locação",
+   "ensaio": "Posição das trilhas de roda",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por trecho",
+   "criterio": "Distância à borda conforme Quadro 1 (ex.: faixa 3,50 m → 0,90 m externo / 2,30 m interno); alinhamentos distantes 1,40 m",
+   "secao": "3.2 / 6.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Locação",
+   "ensaio": "Estaqueamento dos alinhamentos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Alinhamentos externo e interno",
+   "criterio": "Estacas inteiras a cada 5,0 m e intermediárias a cada 0,50 m",
+   "secao": "6.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Nivelamento",
+   "ensaio": "Leituras de mira",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada estaca (0,50 m), a partir de RN implantada",
+   "criterio": "Precisão de 1 mm; ficha com posições 3 a 64 totalmente preenchidas",
+   "secao": "6.3 / 6.4.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Resultado",
+   "ensaio": "Quociente de irregularidade (QI)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por trecho (média dos alinhamentos externo e interno)",
+   "criterio": "QI = −8,54 + 6,17·VA₁,₀ + 19,38·VA₂,₅ (contagens/km)",
+   "secao": "7"
+  }
+ ],
+ "notas": [
+  "Norma de procedimento de medição (sem critério de aceitação de obra); o QI obtido serve para calibrar medidores tipo resposta ou acompanhar trechos experimentais.",
+  "Equipe: 2 topógrafos, 1 porta-mira e 1 anotador."
+ ]
+}

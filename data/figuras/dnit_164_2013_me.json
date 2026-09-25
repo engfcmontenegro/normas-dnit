@@ -1,0 +1,22 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      109.4,
+      102.3,
+      552.7,
+      694.2
+    ],
+    "legenda": "Figura 1 – Molde cilíndrico, cilindro complementar e base metálica"
+  },
+  "fig02": {
+    "page": 6,
+    "bbox": [
+      88.7,
+      118.8,
+      520.7,
+      573.3
+    ],
+    "legenda": ""
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "fig01": {
+    "page": 7,
+    "bbox": [
+      148.0,
+      62.0,
+      429.1,
+      334.8
+    ],
+    "legenda": "FIGURA | - DIMENSÕES",
+    "ancora": "FIGURA | - DIMENSÕES",
+    "texto_removido": [
+      "Gis g 00 laluicideiasaN",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `+ EXTENSÃO os [| LATÃO ZA, e`",
+      "METALICO CILINDRICO"
+    ]
+  },
+  "fig02": {
+    "page": 7,
+    "bbox": [
+      178.3,
+      370.6,
+      524.9,
+      804.7
+    ],
+    "legenda": "FIGURA 2 —",
+    "ancora": "FIGURA 2 —",
+    "texto_removido": [
+      "UNIDADE DE MEDIDA : MILIMETRO (mm) es] sor",
+      "DIMENSOES DO SOQUETE METALICO FIGURA 2 —"
+    ]
+  },
+  "fig03": {
+    "page": 8,
+    "bbox": [
+      154.1,
+      245.2,
+      430.0,
+      570.7
+    ],
+    "legenda": "FIGURA 3 - CURVA TÍPICA",
+    "ancora": "FIGURA 3 - CURVA TÍPICA",
+    "texto_removido": [
+      "## 3 Sou g/em?",
+      "MASSA ESPECIFICA APARENTE SECA kg/m",
+      "## 3 ho",
+      "TEOR DE UMIDADE,"
+    ]
+  }
+}

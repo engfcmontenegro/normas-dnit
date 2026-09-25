@@ -1,0 +1,201 @@
+{
+  "fig01": {
+    "page": 11,
+    "bbox": [
+      95.0,
+      56.5,
+      564.0,
+      753.6
+    ],
+    "legenda": "FIGURA | - CÉLULA DE ADENSAMENTO",
+    "ancora": "FIGURA | - CÉLULA DE ADENSAMENTO",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `) LL o o`",
+      "8 .",
+      "## 3 y",
+      "Tm =, (1) BASE",
+      "## 2) PEDRA POROSA",
+      "9 4",
+      "## 3) ANEL FIXO (2) corpo-DE-PROvA",
+      "## S) ANEL DE BORRACHA",
+      "## 6) ANEL EXTERIOR",
+      "## 7) PLACA DE TRANSMISSÃO DE CARGAS",
+      "## 6) DEFLETÔMETRO",
+      "## COMUNICAÇÃO PARA EXECUÇÃO DO ENSAIO DE PERMEABILIDADE",
+      "COM ANEL FIXO o!/",
+      "## 7 Z",
+      "## 7 A",
+      "BIO rr res",
+      "37) FL",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `RES O) == — DT`",
+      "## SENNA",
+      "SSFINASSASSSSSS",
+      "## POROSA (3)",
+      "## ANEL",
+      "## 4) PLACA DE TRANSMISSÃO DE CARGAS",
+      "## 5) DEFLETÔMETRO",
+      "## 6) CORPO-DE-PROVA"
+    ]
+  },
+  "fig02": {
+    "page": 12,
+    "bbox": [
+      145.9,
+      182.0,
+      503.0,
+      746.0
+    ],
+    "legenda": "FIGURA 2 - CÉLULA DE ADENSAMENTO",
+    "ancora": "FIGURA 2 - CÉLULA DE ADENSAMENTO",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Z A = oo\" Or, DG )`",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `V) O) » 7 / 7) o se v a o )`",
+      "## 7 el",
+      "ves Z",
+      "## MAIS Z)",
+      "## D CÉLULA",
+      "## 2) PEDRA",
+      "## FLUTUANTE",
+      "## 2 - CÉLULA",
+      "FIGURAS"
+    ]
+  },
+  "fig03": {
+    "page": 13,
+    "bbox": [
+      98.6,
+      56.8,
+      592.6,
+      828.2
+    ],
+    "legenda": "FIGURA 3 - EXTRATOR DE AMOSTRAS INDEFORMADAS",
+    "ancora": "FIGURA 3 - EXTRATOR DE AMOSTRAS INDEFORMADAS",
+    "clip": [
+      95,
+      110,
+      570,
+      485
+    ],
+    "nota": "p. 13: só Figuras 3 e 4 (a caixa detectada pegava a página toda)",
+    "texto_removido": [
+      "CORTANTE E CELULA DE ADENSAMENTO DE ANEL FIXO, DESMONTADA",
+      "## 3 e",
+      "3,4,8 pé 13/19",
+      "DE PESQUISAS E DESENVOLVIMENTO DO TUBO DE PAREDE FINA (SHELBY) EM OPERAÇÃO",
+      "## DE ADENSAMENTO"
+    ]
+  },
+  "fig04": {
+    "page": 13,
+    "bbox": [
+      141.6,
+      422.8,
+      592.6,
+      828.2
+    ],
+    "legenda": "FIGURA 3 - EXTRATOR DE AMOSTRAS INDEFORMADAS",
+    "ancora": "FIGURA 3 - EXTRATOR DE AMOSTRAS INDEFORMADAS",
+    "clip": [
+      110,
+      550,
+      570,
+      752
+    ],
+    "nota": "p. 13: só a Figura 5"
+  },
+  "fig05": {
+    "page": 14,
+    "bbox": [
+      23.0,
+      62.0,
+      814.0,
+      572.0
+    ],
+    "legenda": "FIGURA 6",
+    "ancora": "FIGURA 6",
+    "texto_removido": [
+      "TEMPO — MINUTOS",
+      "2 3 4 56789",
+      "100 1000",
+      "se6r8o"
+    ]
+  },
+  "fig06": {
+    "page": 15,
+    "bbox": [
+      32.0,
+      72.8,
+      800.0,
+      711.4
+    ],
+    "legenda": "",
+    "ancora": "MASSA ESPECÍFICA APARENTE DOSOLO ÚMIDO —É—g/cm? DOSOLO SECO —%s- 9/cm3 MASSA ESP",
+    "nota": "Figura 7: folha de ensaio preenchida (fica imagem)"
+  },
+  "fig07": {
+    "page": 16,
+    "bbox": [
+      105.0,
+      58.6,
+      563.8,
+      714.3
+    ],
+    "legenda": "FIGURA 8",
+    "ancora": "FIGURA 8"
+  },
+  "fig08": {
+    "page": 17,
+    "bbox": [
+      56.0,
+      81.0,
+      742.0,
+      551.0
+    ],
+    "legenda": "",
+    "ancora": "MASSA ESPECÍFICA APARENTE DOSOLO ÚMIDO —É—g/cm? DOSOLO SECO —%s- 9/cm3 MASSA ESP",
+    "clip": [
+      5,
+      62,
+      832,
+      578
+    ],
+    "nota": "Figura 9: recorte com o gráfico inteiro (a caixa detectada cortava as laterais)"
+  },
+  "fig09": {
+    "page": 18,
+    "bbox": [
+      86.0,
+      85.0,
+      751.0,
+      554.0
+    ],
+    "legenda": "",
+    "ancora": "MASSA ESPECÍFICA APARENTE DOSOLO ÚMIDO —É—g/cm? DOSOLO SECO —%s- 9/cm3 MASSA ESP",
+    "clip": [
+      5,
+      62,
+      834,
+      580
+    ],
+    "nota": "Figura 10: recorte com o gráfico inteiro (a caixa detectada cortava as laterais)"
+  },
+  "fig10": {
+    "page": 19,
+    "bbox": [
+      32.0,
+      75.2,
+      804.0,
+      562.9
+    ],
+    "legenda": "",
+    "ancora": "MASSA ESPECÍFICA APARENTE DOSOLO ÚMIDO —É—g/cm? DOSOLO SECO —%s- 9/cm3 MASSA ESP",
+    "nota": "Figura 11: ficha de ensaio preenchida (fica imagem)",
+    "texto_removido": [
+      "- q 1528,6 CÁPSULA Nº 16 15",
+      "1415,0 AMOSTRA ÚMIDA + TARA - g. 41,24 37,59 63,05 l07,22",
+      "- em 0,574 UMIDADE MÉDIA (*) i34,88",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `a€ Em Hm + Em tio 2m) Hm/2 tio 2m) (Hm/2) 2 (10\"4m) (s) Cy`",
+      "## 047 IB"
+    ]
+  }
+}

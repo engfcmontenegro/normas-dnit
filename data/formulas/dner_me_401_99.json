@@ -1,0 +1,36 @@
+{
+  "eq01": {
+    "page": 4,
+    "clip": [
+      68,
+      705,
+      135,
+      750
+    ],
+    "latex": [
+      "\\text{ID} = \\frac{\\Sigma D}{6}"
+    ],
+    "de_inicio": "**4.3.2** O Índice de Degradação ID será dado pela fórmula:",
+    "de_fim": "## 6 DNER-ME 401/99",
+    "para": "**4.3.2** O Índice de Degradação ID será dado pela fórmula:\n\n$$\n\\text{ID} = \\frac{\\Sigma D}{6}\n$$",
+    "nota": "fórmula ausente no md; removido cabeçalho de página '## 6 DNER-ME 401/99' colado depois"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "ID ML",
+    "para": "$\\text{ID}_{ML}$",
+    "nota": "IDML (índice ML)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "ID M -",
+    "para": "$\\text{ID}_M$ -",
+    "nota": "IDM (índice M)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "do ID M proceder",
+    "para": "do $\\text{ID}_M$ proceder",
+    "nota": "IDM"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "fig01": {
+    "page": 25,
+    "bbox": [
+      93.8,
+      87.7,
+      515.7,
+      441.0
+    ],
+    "legenda": "Figura D1 – Fluxograma para concepção do projeto de aterros sobre solos moles"
+  },
+  "fig02": {
+    "page": 26,
+    "bbox": [
+      84.1,
+      115.3,
+      525.4,
+      228.1
+    ],
+    "legenda": "Figura E1 – Substituição total e parcial de solo mole"
+  },
+  "fig03": {
+    "page": 26,
+    "bbox": [
+      145.0,
+      300.3,
+      464.3,
+      447.0
+    ],
+    "legenda": "Figura E2 – Berma de equilíbrio"
+  },
+  "fig04": {
+    "page": 26,
+    "bbox": [
+      73.8,
+      519.6,
+      535.5,
+      651.0
+    ],
+    "legenda": "Figura E3 – Construção por etapas"
+  },
+  "fig05": {
+    "page": 27,
+    "bbox": [
+      152.7,
+      51.9,
+      490.8,
+      186.4
+    ],
+    "legenda": "Figura E4 – Detalhe do geocomposto para drenagem vertical e da disposição em malha com que é cravado"
+  },
+  "fig06": {
+    "page": 27,
+    "bbox": [
+      137.5,
+      247.1,
+      471.9,
+      362.9
+    ],
+    "legenda": "Figura E5 – Tratamento de fundação com geocompostos para drenagem vertical e sobrecarga temporária"
+  },
+  "fig07": {
+    "page": 27,
+    "bbox": [
+      138.1,
+      435.2,
+      471.3,
+      533.6
+    ],
+    "legenda": "Figura E6 – Sistema de consolidação a vácuo"
+  },
+  "fig08": {
+    "page": 27,
+    "bbox": [
+      116.5,
+      578.9,
+      492.9,
+      716.6
+    ],
+    "legenda": "Figura E7 – Seção esquemática conceitual da solução em coluna de brita/areia"
+  },
+  "fig09": {
+    "page": 28,
+    "bbox": [
+      136.6,
+      51.9,
+      472.8,
+      193.0
+    ],
+    "legenda": "Figura E8 – Aterro leve com poliestireno expandido"
+  },
+  "fig10": {
+    "page": 28,
+    "bbox": [
+      85.7,
+      221.7,
+      523.8,
+      371.1
+    ],
+    "legenda": "Figura E9 – Seção esquemática conceitual da solução em coluna encamisada"
+  },
+  "fig11": {
+    "page": 28,
+    "bbox": [
+      120.8,
+      443.9,
+      488.6,
+      676.2
+    ],
+    "legenda": "Figura E10 – Aterro estaqueado"
+  },
+  "fig12": {
+    "page": 29,
+    "bbox": [
+      143.9,
+      51.9,
+      465.6,
+      237.2
+    ],
+    "legenda": "Figura E11 – Empuxo lateral nas estacas devido aos deslocamentos do aterro sobre solo mole"
+  },
+  "fig13": {
+    "page": 30,
+    "bbox": [
+      122.5,
+      95.7,
+      486.5,
+      188.4
+    ],
+    "legenda": "Figura F1 – Marco superficial"
+  },
+  "fig14": {
+    "page": 30,
+    "bbox": [
+      125.9,
+      233.4,
+      483.5,
+      374.1
+    ],
+    "legenda": "Figura F2 – Placa de recalque"
+  },
+  "fig15": {
+    "page": 30,
+    "bbox": [
+      121.0,
+      419.1,
+      487.8,
+      537.6
+    ],
+    "legenda": "Figura F3 – Perfilômetro"
+  },
+  "fig16": {
+    "page": 30,
+    "bbox": [
+      224.5,
+      582.3,
+      384.5,
+      768.3
+    ],
+    "legenda": "Figura F4 – Extensômetro magnético vertical"
+  },
+  "fig17": {
+    "page": 31,
+    "bbox": [
+      128.4,
+      79.4,
+      481.1,
+      248.4
+    ],
+    "legenda": "Figura F5 – Extensômetro magnético horizontal"
+  },
+  "fig18": {
+    "page": 31,
+    "bbox": [
+      118.0,
+      313.1,
+      490.8,
+      482.6
+    ],
+    "legenda": "Figura F6 – Inclinômetro"
+  },
+  "fig19": {
+    "page": 31,
+    "bbox": [
+      180.8,
+      527.3,
+      462.8,
+      751.9
+    ],
+    "legenda": "Figura F7 – Piezômetro elétrico"
+  },
+  "fig20": {
+    "page": 32,
+    "bbox": [
+      170.5,
+      51.9,
+      439.0,
+      291.6
+    ],
+    "legenda": "Figura F8 – Piezômetro Casagrande (A) e Indicador de nível d’água (B)"
+  }
+}

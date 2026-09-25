@@ -1,0 +1,30 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "![[dner-pro-103-94-1_fig01.png]]\n\n10 3.2.5 As amostras",
+    "de_fim": "10 3.2.5 As amostras",
+    "para": "| Quantidade total dos recipientes | Quantidade dos recipientes a serem submetidos à amostragem |\n| --- | --- |\n| 1 a 3 | Todos |\n| 4 a 64 | 4 |\n| 65 a 125 | 5 |\n| 126 a 216 | 6 |\n| 217 a 343 | 7 |\n| 344 a 512 | 8 |\n| 513 a 729 | 9 |\n| 730 a 1 000 | 10 |\n\n![[dner-pro-103-94-1_tabm01.png]]\n\n**3.2.5** As amostras",
+    "nota": "Tabela 1 (p. 3): era figura fig01; tabela markdown + imagem tabm01"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "Tabela 2 - Quantidade de amostras de graxa",
+    "de_fim": "![[dner-pro-103-94-1_fig02.png]]",
+    "para": "### Tabela 2 - Quantidade de amostras de graxa que devem ser coletadas em função do número total de recipientes tambores.\n\n| Quantidade dos recipientes | Quantidade a ser coletada |\n| --- | --- |\n| 1 a 25 tambores | 2 kg de 1 ou mais tambores |\n| 1 a 75 tambores | 1,0 kg a 2,5 kg de dois ou mais tambores |\n| de mais de 75 tambores | 1,0 kg a 2,5 kg de três ou mais tambores |\n| de 1 a 250 baldes | 2,0 kg de um ou mais baldes |\n| de 1 a 1 050 baldes | 1,0 kg a 2,5 kg de dois ou mais baldes |\n\n![[dner-pro-103-94-1_tabm02.png]]\n\n## 4 PROCEDIMENTO",
+    "nota": "Tabela 2 (p. 3): achatada + figura fig02; tabela markdown + imagem tabm02; título '4 PROCEDIMENTO' (p. 4) perdido no OCR"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "## 6 EMBALAGEM\n\n## E REMESSA\n\nAVEES/REICANT ELE",
+    "de_fim": "AVEES/REICANT ELE",
+    "para": "## 6 EMBALAGEM E REMESSA",
+    "nota": "título partido + lixo de OCR (p. 6)"
+  },
+  "x04": {
+    "texto": true,
+    "de_inicio": "![[dner-pro-103-94-1_fig03.png]]\n\nANEXO NORMATIVO- CARACTERISTICAS",
+    "de_fim": "(mm)\n\nFIGURA",
+    "para": "### Anexo normativo - Características e dimensões do tambor\n\n![[dner-pro-103-94-1_fig01.png]]\n\nUnidade de medida: milímetro (mm)",
+    "nota": "anexo (p. 7): figura renumerada fig03->fig01 (as de p. 3 viraram tabm); título antes da figura; cota '1016' e 'FIGURA' eram rótulos do desenho"
+  }
+}

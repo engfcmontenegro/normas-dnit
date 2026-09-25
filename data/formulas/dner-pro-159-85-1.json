@@ -1,0 +1,867 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "Q)\n\n## 4 Número Estrutural Corrigido - SNC",
+    "de_fim": "Corrigido - SNC",
+    "para": "**3.4** Número Estrutural Corrigido - SNC",
+    "nota": "título 3.4 (p. 2)"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "**3.5** Número -N,",
+    "de_fim": "Número -N,",
+    "para": "**3.5** Número - $N_p$"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "com espessura cslrisaa ALXO casa mmima de 5 cin.",
+    "de_fim": "de 5 cin.",
+    "para": "com espessura mínima de 3 cm.",
+    "nota": "5.6 (p. 5)"
+  },
+  "x04": {
+    "texto": true,
+    "de_inicio": "conforme mostrado na Figura 1 6\n\n## ENSAIOS DE LABORATÓRIO",
+    "de_fim": "## ENSAIOS DE LABORATÓRIO",
+    "para": "conforme mostrado na Figura 1.\n\n## 6 ENSAIOS DE LABORATÓRIO"
+  },
+  "x05": {
+    "texto": true,
+    "de_inicio": "### FIGURA\n\n## 1 CLASSIFICAÇÃO DE VEÍCULOS",
+    "de_fim": "fonte p. 07/31\n\n",
+    "para": "",
+    "nota": "rótulos da Figura 1 (já na imagem) + tarja"
+  },
+  "eq01": {
+    "page": 7,
+    "clip": [
+      230,
+      250,
+      420,
+      292
+    ],
+    "latex": [
+      "TR = \\frac{TRI}{S} \\times 100"
+    ],
+    "de_inicio": "TR. TRI x100 S onde:",
+    "de_fim": "S - área da superficie de avaliação, em m?.",
+    "para": "$$\nTR = \\frac{TRI}{S} \\times 100\n$$\n\nonde:\n\n$TR$ - trincamento, em %;\n$TRI$ - total das áreas com trincamento de classe 2 e 3, bem como eventuais buracos e remendos contidos na superfície de avaliação, em m²;\n$S$ - área da superfície de avaliação, em m²."
+  },
+  "eq02": {
+    "page": 7,
+    "clip": [
+      230,
+      455,
+      420,
+      490
+    ],
+    "latex": [
+      "D = \\frac{DI}{S} \\times 100"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `D= DI x100 S`",
+    "de_fim": "S área da supérfície de avaliação, em m?.",
+    "para": "$$\nD = \\frac{DI}{S} \\times 100\n$$\n\nonde:\n\n$D$ - desgaste, em %;\n$DI$ - total das áreas com desgaste contidas na superfície de avaliação, em m²;\n$S$ - área da superfície de avaliação, em m²."
+  },
+  "x06": {
+    "texto": true,
+    "de_inicio": "**7.5** Índice de Suporte Califórnia Deve ser",
+    "de_fim": "p. 08/31",
+    "para": "**7.5** Índice de Suporte Califórnia\n\nDeve ser adotado o valor do Índice de Suporte Califórnia correspondente à umidade ótima do ensaio de compactação correspondente, segundo as indicações do item 6.1.",
+    "nota": "fim do 7.5 perdido no OCR (p. 7)"
+  },
+  "eq03": {
+    "page": 8,
+    "clip": [
+      170,
+      212,
+      450,
+      272
+    ],
+    "latex": [
+      "SNC = SN + 3{,}51 \\log CBR - 0{,}85\\,(\\log CBR)^2 - 1{,}43",
+      "SN = \\sum a_i H_i",
+      "a_1 = 0{,}181\\left(1 - e^{-8{,}56 \\times 10^{-4}\\,MR}\\right)",
+      "a_1 = 0{,}181\\left(1 - e^{-8{,}40 \\times 10^{-5}\\,MR}\\right)",
+      "a_2 = (11{,}47\\,CBR_2 - 0{,}07783\\,CBR_2^2 + 1{,}772 \\times CBR_2^3 \\times 10^{-4})",
+      "a_3 = 0{,}00394 + 0{,}02559 \\log CBR_3",
+      "a_4 = 0{,}00394 + 0{,}02559 \\log CBR_4"
+    ],
+    "de_inicio": "SNC = SN+3,51 log CBR",
+    "de_fim": "CBR, = Índice de suporte Califórnia do reforço do subleito.",
+    "para": "$$\nSNC = SN + 3{,}51 \\log CBR - 0{,}85\\,(\\log CBR)^2 - 1{,}43\n$$\n\n$$\nSN = \\sum a_i H_i\n$$\n\nonde:\n\n$SNC$ - número estrutural corrigido;\n$CBR$ - Índice de Suporte Califórnia do subleito;\n$SN$ - número estrutural do pavimento;\n$a_i$ - coeficiente de equivalência estrutural da camada i do pavimento, em cm⁻¹;\n$H_i$ - espessura da camada i do pavimento, em cm.\n\nOs coeficientes de equivalência estrutural das camadas do pavimento, em cm⁻¹, são determinados pelas seguintes igualdades e expressões:\n\na) Revestimentos\n\n$a_1 = 0{,}04$ para tratamentos superficiais;\n\n$a_1 = 0{,}07$ para concreto asfáltico com espessura até 3cm;\n\n$$\na_1 = 0{,}181\\left(1 - e^{-8{,}56 \\times 10^{-4}\\,MR}\\right)\n$$\n\npara concreto asfáltico com espessuras superiores a 3 cm, cujo módulo de resiliência (MR), medido a 30 ºC, deve ser expresso em MPa. Na impossibilidade de sua determinação, recomenda-se MR = 2942 MPa (30 000 kgf/cm²).\n\nPara MR em kgf/cm²:\n\n$$\na_1 = 0{,}181\\left(1 - e^{-8{,}40 \\times 10^{-5}\\,MR}\\right)\n$$\n\nb) Bases granulares\n\n$$\na_2 = (11{,}47\\,CBR_2 - 0{,}07783\\,CBR_2^2 + 1{,}772 \\times CBR_2^3 \\times 10^{-4})\n$$\n\nonde:\n\n$CBR_2$ = Índice de Suporte Califórnia da sub-base.\n\nc) Sub-bases granulares\n\n$$\na_3 = 0{,}00394 + 0{,}02559 \\log CBR_3\n$$\n\nonde:\n\n$CBR_3$ = Índice de Suporte Califórnia da sub-base.\n\nRestrição: $a_3 \\leq 0{,}045$\n\nd) Bases não granulares\n\n$a_2 = 0{,}04$ para solo-cimento;\n\n$a_2 = 0{,}06$ para macadame betuminoso.\n\ne) Sub-bases não granulares\n\n$a_3 = 0{,}04$ para solo-cimento\n\n$a_3 = 0{,}06$ para macadame betuminoso\n\nf) Reforço do subleito\n\n$$\na_4 = 0{,}00394 + 0{,}02559 \\log CBR_4\n$$\n\nonde:\n\n$CDR_4$ - Índice de suporte Califórnia do reforço do subleito.",
+    "nota": "p. 8-9. No PDF: legenda de CBR2 diz 'da sub-base' (base granular) e 'CDR4' em vez de CBR4 (transcritos como estão)"
+  },
+  "eq03b": {
+    "page": 8,
+    "clip": [
+      68,
+      620,
+      300,
+      645
+    ],
+    "latex": [
+      "a_1 = 0{,}181\\left(1 - e^{-8{,}56 \\times 10^{-4}\\,MR}\\right)"
+    ]
+  },
+  "eq03c": {
+    "page": 8,
+    "clip": [
+      75,
+      712,
+      230,
+      738
+    ],
+    "latex": [
+      "a_1 = 0{,}181\\left(1 - e^{-8{,}40 \\times 10^{-5}\\,MR}\\right)"
+    ]
+  },
+  "eq03d": {
+    "page": 9,
+    "clip": [
+      150,
+      132,
+      470,
+      158
+    ],
+    "latex": [
+      "a_2 = (11{,}47\\,CBR_2 - 0{,}07783\\,CBR_2^2 + 1{,}772 \\times CBR_2^3 \\times 10^{-4})"
+    ]
+  },
+  "eq03e": {
+    "page": 9,
+    "clip": [
+      220,
+      274,
+      400,
+      296
+    ],
+    "latex": [
+      "a_3 = 0{,}00394 + 0{,}02559 \\log CBR_3"
+    ]
+  },
+  "eq03f": {
+    "page": 9,
+    "clip": [
+      220,
+      645,
+      420,
+      675
+    ],
+    "latex": [
+      "a_4 = 0{,}00394 + 0{,}02559 \\log CBR_4"
+    ]
+  },
+  "eq04": {
+    "page": 10,
+    "clip": [
+      150,
+      170,
+      450,
+      195
+    ],
+    "latex": [
+      "N_{p1} = K \\times 365 \\times TMD \\times FV"
+    ],
+    "de_inicio": "**7.8** Número N,",
+    "de_fim": "equações constantes na tabela 1.",
+    "para": "**7.8** Número $N_{p1}$\n\nO parâmetro de tráfego utilizado nas equações de desempenho (item 10) é o número de eixos equivalentes, aplicados na faixa mais solicitada do pavimento, no período de um ano, a partir da data de observação e levantamento da condição do pavimento. Seu valor ($N_{p1}$) é obtido por:\n\n$$\nN_{p1} = K \\times 365 \\times TMD \\times FV\n$$\n\nonde:\n\n$K$ = coeficiente que representa a fração do TMD na faixa mais solicitada. No caso de pista simples, toma-se normalmente, K = 0,5;\n$TMD$ = tráfego médio diário dos veículos comerciais, nos dois sentidos, obtido no levantamento de campo;\n$FV$ = fator de veículo da frota.\n\nOs fatores de equivalência utilizados para o cálculo do fator de veículo devem ser determinados pelas equações constantes na tabela 1.",
+    "nota": "a linha de FV faltava no md (p. 10)"
+  },
+  "x07": {
+    "texto": true,
+    "de_inicio": "Tandem Triplo (Rodagem Dupla) (TT) 225.06 ) (TT) ass) Mada VIUV.\n\n",
+    "de_fim": "Mada VIUV.\n\n",
+    "para": "",
+    "nota": "resto achatado da Tabela 1 (agora tabm01)"
+  },
+  "x08": {
+    "texto": true,
+    "de_inicio": "![[dner-pro-159-85-1_fig02.png]]\n\nP = Peso",
+    "de_fim": "P = Peso",
+    "para": "Onde:\n\nP = Peso",
+    "nota": "fig02 = Tabela 1 (tabm01)"
+  },
+  "x09": {
+    "texto": true,
+    "de_inicio": "**9.11** Pavimento",
+    "de_fim": "**9.11** Pavimento",
+    "para": "**9.1.1** Pavimento"
+  },
+  "x10": {
+    "texto": true,
+    "de_inicio": "Ami or au £) Restrições",
+    "de_fim": "£) Restrições",
+    "para": "f) Restrições"
+  },
+  "eq05": {
+    "page": 13,
+    "clip": [
+      250,
+      372,
+      380,
+      405
+    ],
+    "latex": [
+      "C_o = \\frac{C_n}{(1 + i)^n}"
+    ],
+    "de_inicio": "g) Custos Unitários de Restauração\n\n- Compreendem",
+    "de_fim": "considerando o ínicio do período de análise como ano zero.",
+    "para": "g) Custos Unitários de Restauração - Compreendem a soma de todos os componentes de custos necessários para a execução de 1 km de restauração. Devem ser estimados pelo projetista ou fixados pelo Órgão Rodoviário, para o início do período de análise (ano zero). O custo unitário de restaurações, a serem executadas ao longo do período de análise, deve ser calculado a preços referidos ao início do período de análise, pelo uso da expressão:\n\n$$\nC_o = \\frac{C_n}{(1 + i)^n}\n$$\n\nonde:\n\n$C_o$ - custo unitário da restauração ser realizada no ano n, atualizado para o início do período de análise;\n$C_n$ - custo unitário da restauração;\n$i$ - taxa de oportunidade de capital, estimada pelo projetista ou fixada pelo órgão rodoviário, em porcentagem sobre 100 (% /100);\n$n$ - ano previsto para a execução da restauração considerando o ínicio do período de análise como ano zero."
+  },
+  "x11": {
+    "texto": true,
+    "de_inicio": "determinados\n\nCGU MEU LUiRa",
+    "de_fim": "Podendo ocorrer até três situações: ' a) Situação I-",
+    "para": "determinados segundo o indicado no item 9.1.1, com aqueles estabelecidos pelas restrições de desempenho, fixados conforme descrito no item 9.1.2, podendo ocorrer até três situações:\n\na) Situação I -",
+    "nota": "9.2.1 (p. 13)"
+  },
+  "x12": {
+    "texto": true,
+    "de_inicio": "c) Situação II - Quaisquer dos valores das restrições são ultrapassados",
+    "de_fim": "são ultrapassados",
+    "para": "c) Situação III - Quaisquer dos valores das restrições são ultrapassados"
+  },
+  "x13": {
+    "texto": true,
+    "de_inicio": "boa técnica e da experiência da\n\nEngenharia,",
+    "de_fim": "Engenharia,",
+    "para": "boa técnica e da experiência da Engenharia,"
+  },
+  "x14": {
+    "texto": true,
+    "de_inicio": "[4] Naa”\n\nImediatamente",
+    "de_fim": "Imediatamente",
+    "para": "e) Imediatamente"
+  },
+  "x15": {
+    "texto": true,
+    "de_inicio": "b) para a correção do trincamento ou do desgaste\n\n- restauração",
+    "de_fim": "em detalhe, conveniência",
+    "para": "b) para a correção do trincamento ou do desgaste - restauração em lama asfáltica ou tratamento superficial ou em concreto asfáltico. Entretanto, o projetista deverá considerar, em detalhe, a conveniência"
+  },
+  "x16": {
+    "texto": true,
+    "de_inicio": "Reprodução permitido desde que citado o DNER como fonte\n\n",
+    "de_fim": "como fonte\n\n",
+    "para": ""
+  },
+  "c01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `10 naan NT <mMT ar`",
+    "de_fim": "> Medo",
+    "para": "1º caso - $QI_F < QI_M$ e $TR_F < TR_M$"
+  },
+  "c02": {
+    "texto": true,
+    "de_inicio": "2º caso\n\n- QI,> QL, e TR <TR,",
+    "de_fim": "TR <TR,",
+    "para": "2º caso - $QI_F > QI_M$ e $TR_F < TR_M$"
+  },
+  "c03": {
+    "texto": true,
+    "de_inicio": "caso - QL.<QL,eTR,> TR,",
+    "de_fim": "> TR,",
+    "para": "3º caso - $QI_F < QI_M$ e $TR_F > TR_M$"
+  },
+  "c04": {
+    "texto": true,
+    "de_inicio": "4º caso\n\n- QL. >QL, eTR-> TR,",
+    "de_fim": "-> TR,",
+    "para": "4º caso - $QI_F > QI_M$ e $TR_F > TR_M$"
+  },
+  "c05": {
+    "texto": true,
+    "de_inicio": "Reprodução permiticia desde que citado o DNER como fonte\n\nCalcula-se",
+    "de_fim": "Calcula-se",
+    "para": "Calcula-se"
+  },
+  "c06": {
+    "texto": true,
+    "de_inicio": "1º caso\n\n- QI.<QL eD <D,,",
+    "de_fim": "<D,,",
+    "para": "1º caso - $QI_F < QI_M$ e $D_F < D_M$"
+  },
+  "c07": {
+    "texto": true,
+    "de_inicio": "2º caso\n\n- QI.>QL, eD,<D,",
+    "de_fim": "eD,<D,",
+    "para": "2º caso - $QI_F > QI_M$ e $D_F < D_M$"
+  },
+  "c08": {
+    "texto": true,
+    "de_inicio": "3º caso! - QL <Q eD,.>D,",
+    "de_fim": ".>D,",
+    "para": "3º caso - $QI_F < QI_M$ e $D_F > D_M$"
+  },
+  "c09": {
+    "texto": true,
+    "de_inicio": "4º caso - QI > QL, eD,>D,",
+    "de_fim": "eD,>D,",
+    "para": "4º caso - $QI_F > QI_M$ e $D_F > D_M$"
+  },
+  "c10": {
+    "texto": true,
+    "de_inicio": "1º caso\n\n- QL.<Ql,e TR -<TR,",
+    "de_fim": "-<TR,",
+    "para": "1º caso - $QI_F < QI_M$ e $TR_F < TR_M$"
+  },
+  "c11": {
+    "texto": true,
+    "de_inicio": "2º caso\n\n- QI.>Ql e TR. <TR,",
+    "de_fim": "TR. <TR,",
+    "para": "2º caso - $QI_F > QI_M$ e $TR_F < TR_M$"
+  },
+  "c12": {
+    "texto": true,
+    "de_inicio": "3º caso\n\n- QL <Q e TR >TR,",
+    "de_fim": "TR >TR,",
+    "para": "3º caso - $QI_F < QI_M$ e $TR_F > TR_M$"
+  },
+  "c13": {
+    "texto": true,
+    "de_inicio": "4º caso\n\n- QI,> QL, e TR > TR,",
+    "de_fim": "TR > TR,",
+    "para": "4º caso - $QI_F > QI_M$ e $TR_F > TR_M$"
+  },
+  "c14": {
+    "texto": true,
+    "de_inicio": "equações 7e8, apresentadasno Capítulo 10, até que seja encontrado o anono qualum",
+    "de_fim": "o anono qualum",
+    "para": "equações 7 e 8, apresentadas no Capítulo 10, até que seja encontrado o ano no qual um"
+  },
+  "x17": {
+    "texto": true,
+    "de_inicio": "Entreca Pav. TE ea CN A",
+    "de_fim": "3 - Representação gráfica das idades do pavimento V\n\n",
+    "para": "",
+    "nota": "rótulos da Figura 3 (já na imagem) e avisos falsos"
+  },
+  "eq07": {
+    "page": 19,
+    "clip": [
+      60,
+      330,
+      440,
+      354
+    ],
+    "latex": [
+      "TR_{A'} = -18{,}53 + 0{,}0456\\,(B_E \\times \\log N_{A'}) + 0{,}00501\\,(B_E \\times A' \\times \\log N_{A'}) + \\Delta TR",
+      "A' = A + A_E \\qquad (\\text{para } A + A_E > 1{,}5)",
+      "A' = \\frac{2}{3} \\times (A + A_E) + 0{,}5 \\qquad (\\text{para } A + A_E \\leq 1{,}5)",
+      "N_{A'} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A'} - 1\\right]",
+      "\\Delta TR = TR_E + 18{,}53 - 0{,}0456\\,(B_E \\times \\log N_{A''}) - 0{,}00501\\,(B_E \\times A'' \\times \\log N_{A''})",
+      "N_{A''} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A''} - 1\\right]",
+      "A'' = A_E \\qquad (\\text{para } A_E > 1{,}5)",
+      "A'' = \\frac{2}{3} \\times A_E + 0{,}5 \\qquad (\\text{para } A_E \\leq 1{,}5)",
+      "TR' = -18{,}53 + 0{,}0456\\,(B_E \\times \\log N_{A''}) + 0{,}00501\\,(B_E \\times A'' \\times \\log N_{A''})"
+    ],
+    "de_inicio": "TR, =.-18,53",
+    "de_fim": "desenvolver o cáicuio correspondente.",
+    "para": "$$\nTR_{A'} = -18{,}53 + 0{,}0456\\,(B_E \\times \\log N_{A'}) + 0{,}00501\\,(B_E \\times A' \\times \\log N_{A'}) + \\Delta TR\n$$\n\nsendo:\n\n$$\nA' = A + A_E \\qquad (\\text{para } A + A_E > 1{,}5)\n$$\n\n$$\nA' = \\frac{2}{3} \\times (A + A_E) + 0{,}5 \\qquad (\\text{para } A + A_E \\leq 1{,}5)\n$$\n\n$$\nN_{A'} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A'} - 1\\right]\n$$\n\nCálculo de ΔTR:\n\na) para $TR_E > 0$\n\n$$\n\\Delta TR = TR_E + 18{,}53 - 0{,}0456\\,(B_E \\times \\log N_{A''}) - 0{,}00501\\,(B_E \\times A'' \\times \\log N_{A''})\n$$\n\n$$\nN_{A''} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A''} - 1\\right]\n$$\n\n$$\nA'' = A_E \\qquad (\\text{para } A_E > 1{,}5)\n$$\n\n$$\nA'' = \\frac{2}{3} \\times A_E + 0{,}5 \\qquad (\\text{para } A_E \\leq 1{,}5)\n$$\n\nb) para $TR_E = 0$\n\n$$\nTR' = -18{,}53 + 0{,}0456\\,(B_E \\times \\log N_{A''}) + 0{,}00501\\,(B_E \\times A'' \\times \\log N_{A''})\n$$\n\nse $TR' \\leq 0$ então $\\Delta TR = 0$\n\nse $TR' > 0$ então $\\Delta TR = -TR'$\n\nObs:\n\n1) ΔTR é constante, sendo calculado somente para o ano $A_E$;\n\n2) As equações que utilizam a taxa de crescimento anual do tráfego (t) são válidas para séries em progressão geométrica. Quando se justificar o uso outro tipo de série, o projetista deverá desenvolver o cálculo correspondente."
+  },
+  "eq07b": {
+    "page": 19,
+    "clip": [
+      60,
+      478,
+      300,
+      515
+    ],
+    "latex": [
+      "N_{A'} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A'} - 1\\right]"
+    ]
+  },
+  "eq07c": {
+    "page": 20,
+    "clip": [
+      60,
+      115,
+      420,
+      135
+    ],
+    "latex": [
+      "TR' = -18{,}53 + 0{,}0456\\,(B_E \\times \\log N_{A''}) + 0{,}00501\\,(B_E \\times A'' \\times \\log N_{A''})"
+    ]
+  },
+  "eq08": {
+    "page": 20,
+    "clip": [
+      60,
+      338,
+      470,
+      370
+    ],
+    "latex": [
+      "QI_{A'} = 12{,}63 + 0{,}393 \\times A' + 8{,}66 \\times \\frac{\\log N_{A'}}{SNC} + 7{,}17 \\times 10^{-5}\\,(B_E \\times \\log N_{A'})^2 + \\Delta QI_1",
+      "A' = A + A'_E \\qquad (\\text{para } A + A_E > 1{,}5)",
+      "A' = \\frac{2}{3} \\times (A + A_E) + 0{,}5 \\qquad (\\text{para } A + A_E \\leq 1{,}5)",
+      "N_{A'} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A'} - 1\\right]",
+      "\\Delta QI_1 = QI_E - \\left[12{,}63 + 0{,}393 \\times A'' + 8{,}66 \\times \\frac{\\log N_{A''}}{SNC} + 7{,}17 \\times 10^{-5} \\times (B_E \\times \\log N_{A''})^2\\right]",
+      "A'' = A_E \\qquad (\\text{para } A_E > 1{,}5)",
+      "A'' = \\frac{2}{3} \\times A_E + 0{,}5 \\qquad (\\text{para } A_E \\leq 1{,}5)",
+      "N_{A''} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A''} - 1\\right]"
+    ],
+    "de_inicio": "**10.3** Equação 2 - Previsão da Irregularidade em Pavimento Existente, com Revestimento em Concreto Asfáltico ou Tratamento Superficial log NA'",
+    "de_fim": "Obs: AQI, é constante, sendo calculado somente para 0 ano Ap.",
+    "para": "**10.3** Equação 2 - Previsão da Irregularidade em Pavimento Existente, com Revestimento em Concreto Asfáltico ou Tratamento Superficial\n\n$$\nQI_{A'} = 12{,}63 + 0{,}393 \\times A' + 8{,}66 \\times \\frac{\\log N_{A'}}{SNC} + 7{,}17 \\times 10^{-5}\\,(B_E \\times \\log N_{A'})^2 + \\Delta QI_1\n$$\n\nsendo:\n\n$$\nA' = A + A'_E \\qquad (\\text{para } A + A_E > 1{,}5)\n$$\n\n$$\nA' = \\frac{2}{3} \\times (A + A_E) + 0{,}5 \\qquad (\\text{para } A + A_E \\leq 1{,}5)\n$$\n\n$$\nN_{A'} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A'} - 1\\right]\n$$\n\n$$\n\\Delta QI_1 = QI_E - \\left[12{,}63 + 0{,}393 \\times A'' + 8{,}66 \\times \\frac{\\log N_{A''}}{SNC} + 7{,}17 \\times 10^{-5} \\times (B_E \\times \\log N_{A''})^2\\right]\n$$\n\n$$\nA'' = A_E \\qquad (\\text{para } A_E > 1{,}5)\n$$\n\n$$\nA'' = \\frac{2}{3} \\times A_E + 0{,}5 \\qquad (\\text{para } A_E \\leq 1{,}5)\n$$\n\n$$\nN_{A''} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A''} - 1\\right]\n$$\n\nObs: $\\Delta QI_1$ é constante, sendo calculado somente para o ano $A_E$.",
+    "nota": "p. 20: o PDF traz A' = A + A'E na 1ª condição (transcrito como está)"
+  },
+  "eq08b": {
+    "page": 20,
+    "clip": [
+      60,
+      540,
+      495,
+      580
+    ],
+    "latex": [
+      "\\Delta QI_1 = QI_E - \\left[12{,}63 + 0{,}393 \\times A'' + 8{,}66 \\times \\frac{\\log N_{A''}}{SNC} + 7{,}17 \\times 10^{-5} \\times (B_E \\times \\log N_{A''})^2\\right]"
+    ]
+  },
+  "eq09": {
+    "page": 21,
+    "clip": [
+      60,
+      138,
+      300,
+      165
+    ],
+    "latex": [
+      "D_{A'} = R_D\\,(A' - A_D)",
+      "R_D = 2{,}226 \\times HVA + 16{,}6",
+      "HVA = 1{,}327 \\times 10^{-5} \\times \\frac{N_{A'}}{A'}",
+      "A' = A + A_E",
+      "N_{A'} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A'} - 1\\right]",
+      "A_D = A_{D1} + \\Delta A",
+      "A_{D1} = 1{,}28 \\times e^{(2{,}218 - 0{,}45 \\times CF - 0{,}189 \\times HVA_E)}",
+      "HVA_E = 1{,}327 \\times 10^{-5} \\times \\frac{N_{A_E}}{A_E}",
+      "N_{A_E} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A_E} - 1\\right]",
+      "\\Delta A = A_E - A_{D_1} - \\frac{D_E}{R_{D_{AE}}}",
+      "R_{D_{AE}} = 2{,}226 \\times HVA_E + 16{,}6"
+    ],
+    "de_inicio": "D, = Ry(A'-A,) rave.",
+    "de_fim": "Obs: 1) quando D,, <0, fazer D, =0",
+    "para": "$$\nD_{A'} = R_D\\,(A' - A_D)\n$$\n\nsendo:\n\n$$\nR_D = 2{,}226 \\times HVA + 16{,}6\n$$\n\n$$\nHVA = 1{,}327 \\times 10^{-5} \\times \\frac{N_{A'}}{A'}\n$$\n\n$$\nA' = A + A_E\n$$\n\n$$\nN_{A'} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A'} - 1\\right]\n$$\n\n$$\nA_D = A_{D1} + \\Delta A\n$$\n\n$$\nA_{D1} = 1{,}28 \\times e^{(2{,}218 - 0{,}45 \\times CF - 0{,}189 \\times HVA_E)}\n$$\n\nCF = 0 (se o revestimento existente for tratamento superficial duplo de boa qualidade)\n\nCF = 1 (se o revestimento existente for tratamento superficial de má qualidade)\n\n$$\nHVA_E = 1{,}327 \\times 10^{-5} \\times \\frac{N_{A_E}}{A_E}\n$$\n\n$$\nN_{A_E} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A_E} - 1\\right]\n$$\n\nCálculo de ΔA:\n\na) para $D_E = 0$\n\nse $A_{D_1} < A_E$, então $\\Delta A = A_E - A_{D_1}$\n\nse $A_{D_1} \\geq A_E$, então $\\Delta A = 0$\n\nb) para $D_E > 0$\n\n$$\n\\Delta A = A_E - A_{D_1} - \\frac{D_E}{R_{D_{AE}}}\n$$\n\n$$\nR_{D_{AE}} = 2{,}226 \\times HVA_E + 16{,}6\n$$\n\nObs: 1) quando $D_{A'} < 0$, fazer $D_{A'} = 0$\n\n2) quando $D_{A'} > 100$, fazer $D_{A'} = 100$",
+    "nota": "p. 21-22; a Obs. 2 faltava no md"
+  },
+  "eq09b": {
+    "page": 21,
+    "clip": [
+      60,
+      360,
+      300,
+      428
+    ],
+    "latex": [
+      "A_{D1} = 1{,}28 \\times e^{(2{,}218 - 0{,}45 \\times CF - 0{,}189 \\times HVA_E)}"
+    ]
+  },
+  "eq09c": {
+    "page": 21,
+    "clip": [
+      60,
+      515,
+      300,
+      595
+    ],
+    "latex": [
+      "HVA_E = 1{,}327 \\times 10^{-5} \\times \\frac{N_{A_E}}{A_E}",
+      "N_{A_E} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A_E} - 1\\right]"
+    ]
+  },
+  "eq09d": {
+    "page": 21,
+    "clip": [
+      60,
+      740,
+      300,
+      800
+    ],
+    "latex": [
+      "\\Delta A = A_E - A_{D_1} - \\frac{D_E}{R_{D_{AE}}}"
+    ]
+  },
+  "eq10": {
+    "page": 22,
+    "clip": [
+      60,
+      250,
+      260,
+      295
+    ],
+    "latex": [
+      "QII_A = 19 + \\frac{QI_A - 19}{0{,}602\\,H + 1}"
+    ],
+    "de_inicio": "QI, -\n\n## 19 QUA",
+    "de_fim": "QIa = irregularidade do pavimento antes da aplicação do concreto asfáltico.",
+    "para": "$$\nQII_A = 19 + \\frac{QI_A - 19}{0{,}602\\,H + 1}\n$$\n\n$QI_A$ = irregularidade do pavimento antes da aplicação do concreto asfáltico."
+  },
+  "eq11": {
+    "page": 22,
+    "clip": [
+      60,
+      390,
+      520,
+      440
+    ],
+    "latex": [
+      "QI_{A_R} = QII_A + 0{,}393 \\times A'_R + 8{,}66 \\times \\frac{\\log N_{A'_R}}{SNC_1} + 7{,}17 \\times 10^{-5} \\times (B_D \\times \\log N_{A'_R})^2 - \\Delta QI_2",
+      "A'_R = A_R - A_{RO} \\qquad (\\text{para } A_R - A_{RO} > 1{,}5)",
+      "A'_R = \\frac{2}{3} \\times (A_R - A_{RO}) + 0{,}5 \\qquad (\\text{para } A_R - A_{RO} \\leq 1{,}5)",
+      "N_{A'_R} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{(A_{RO} + A'_R)} - (t+1)^{A_{RO}}\\right]",
+      "SNC_1 = SNC_0 + a_1 \\times H",
+      "B_D = B_A\\,(1 - 0{,}0687\\,H^{0{,}415})",
+      "\\Delta QI_2 = 0{,}1965 + 8{,}66 \\times \\frac{\\log N_{0{,}5}}{SNC_1} + 7{,}17 \\times 10^{-5} \\times (B_D \\times \\log N_{0{,}5})^2",
+      "N_{0{,}5} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{(A_{RO} + 0{,}5)} - (t+1)^{A_{RO}}\\right]"
+    ],
+    "de_inicio": "**10.6** Equação 5\n\n- Previsão",
+    "de_fim": "No,5 Npi (t+ 1)4R0+05)",
+    "para": "**10.6** Equação 5 - Previsão da Irregularidade para Restauração em Concreto Asfáltico\n\n$$\nQI_{A_R} = QII_A + 0{,}393 \\times A'_R + 8{,}66 \\times \\frac{\\log N_{A'_R}}{SNC_1} + 7{,}17 \\times 10^{-5} \\times (B_D \\times \\log N_{A'_R})^2 - \\Delta QI_2\n$$\n\nsendo:\n\n$QII_A$ obtido pela equação 4;\n\n$$\nA'_R = A_R - A_{RO} \\qquad (\\text{para } A_R - A_{RO} > 1{,}5)\n$$\n\n$$\nA'_R = \\frac{2}{3} \\times (A_R - A_{RO}) + 0{,}5 \\qquad (\\text{para } A_R - A_{RO} \\leq 1{,}5)\n$$\n\n$$\nN_{A'_R} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{(A_{RO} + A'_R)} - (t+1)^{A_{RO}}\\right]\n$$\n\n$$\nSNC_1 = SNC_0 + a_1 \\times H\n$$\n\n$$\nB_D = B_A\\,(1 - 0{,}0687\\,H^{0{,}415})\n$$\n\n$B_A$ = deflexão do pavimento anterior à restauração em análise;\n\n$$\n\\Delta QI_2 = 0{,}1965 + 8{,}66 \\times \\frac{\\log N_{0{,}5}}{SNC_1} + 7{,}17 \\times 10^{-5} \\times (B_D \\times \\log N_{0{,}5})^2\n$$\n\n$$\nN_{0{,}5} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{(A_{RO} + 0{,}5)} - (t+1)^{A_{RO}}\\right]\n$$"
+  },
+  "eq11b": {
+    "page": 22,
+    "clip": [
+      60,
+      590,
+      420,
+      685
+    ],
+    "latex": [
+      "N_{A'_R} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{(A_{RO} + A'_R)} - (t+1)^{A_{RO}}\\right]",
+      "SNC_1 = SNC_0 + a_1 \\times H",
+      "B_D = B_A\\,(1 - 0{,}0687\\,H^{0{,}415})"
+    ]
+  },
+  "eq11c": {
+    "page": 23,
+    "clip": [
+      60,
+      105,
+      330,
+      145
+    ],
+    "latex": [
+      "N_{0{,}5} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{(A_{RO} + 0{,}5)} - (t+1)^{A_{RO}}\\right]"
+    ]
+  },
+  "eq12": {
+    "page": 23,
+    "clip": [
+      60,
+      203,
+      420,
+      225
+    ],
+    "latex": [
+      "TR_{A_R} = (0{,}248 \\times A'_R + 2{,}257) \\times H^{-1{,}806} \\times B_D \\times \\log N_{A'_R} - \\Delta TR",
+      "A'_R = A_R - A_{RO} \\qquad (\\text{para } A_R - A_{RO} > 1{,}5)",
+      "A'_R = \\frac{2}{3} \\times (A_R - A_{RO}) + 0{,}5 \\qquad (\\text{para } A_R - A_{RO} \\leq 1{,}5)",
+      "N_{A'_R} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{(A_{RO} + A'_R)} - (t+1)^{A_{RO}}\\right]",
+      "AITR = \\frac{(212{,}8 - 0{,}917 \\times TR_C) \\times H^{0{,}681}}{[(B_D - 19{,}45) \\times NMA]^{0{,}336}} \\qquad (\\text{se } B_D < 20 \\text{ usar } B_D = 20)",
+      "NMA = \\frac{N_{AITR}}{A_R - A_{RO}}",
+      "N_{AITR} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A_R} - (t+1)^{A_{RO}}\\right]",
+      "\\Delta TR = (0{,}248 \\times A''_R + 2{,}257) \\times H^{-1{,}806} \\times B_D \\times \\log N_{A''_R}",
+      "A''_R = AITR \\qquad (\\text{para } AITR > 1{,}5)",
+      "A''_R = \\frac{2}{3} \\times AITR + 0{,}5 \\qquad (\\text{para } AITR \\leq 1{,}5)",
+      "N_{A''_R} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{(A_{RO} + A''_R)} - (t+1)^{A_{RO}}\\right]"
+    ],
+    "de_inicio": "TRap = (0,248",
+    "de_fim": "entre o recapeamento e o início do trincamento.",
+    "para": "$$\nTR_{A_R} = (0{,}248 \\times A'_R + 2{,}257) \\times H^{-1{,}806} \\times B_D \\times \\log N_{A'_R} - \\Delta TR\n$$\n\nsendo:\n\n$$\nA'_R = A_R - A_{RO} \\qquad (\\text{para } A_R - A_{RO} > 1{,}5)\n$$\n\n$$\nA'_R = \\frac{2}{3} \\times (A_R - A_{RO}) + 0{,}5 \\qquad (\\text{para } A_R - A_{RO} \\leq 1{,}5)\n$$\n\n$$\nN_{A'_R} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{(A_{RO} + A'_R)} - (t+1)^{A_{RO}}\\right]\n$$\n\n$B_D$ é calculado de forma idêntica à indicada na equação 5.\n\nCálculo do ΔTR:\n\n$$\nAITR = \\frac{(212{,}8 - 0{,}917 \\times TR_C) \\times H^{0{,}681}}{[(B_D - 19{,}45) \\times NMA]^{0{,}336}} \\qquad (\\text{se } B_D < 20 \\text{ usar } B_D = 20)\n$$\n\n$$\nNMA = \\frac{N_{AITR}}{A_R - A_{RO}}\n$$\n\n$$\nN_{AITR} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A_R} - (t+1)^{A_{RO}}\\right]\n$$\n\nSe $AITR > (A_R - A_{RO})$ então $TR_{AR} = 0$;\n\n$$\n\\Delta TR = (0{,}248 \\times A''_R + 2{,}257) \\times H^{-1{,}806} \\times B_D \\times \\log N_{A''_R}\n$$\n\n$$\nA''_R = AITR \\qquad (\\text{para } AITR > 1{,}5)\n$$\n\n$$\nA''_R = \\frac{2}{3} \\times AITR + 0{,}5 \\qquad (\\text{para } AITR \\leq 1{,}5)\n$$\n\n$$\nN_{A''_R} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{(A_{RO} + A''_R)} - (t+1)^{A_{RO}}\\right]\n$$\n\nObservações:\n\n1) ΔTR é constante, sendo somente calculado quando se encontrar $AITR < (A_R - A_{RO})$ pela primeira vez;\n\n2) AITR = número previsto de anos decorridos entre o recapeamento e o início do trincamento.",
+    "nota": "p. 23-24; expoente de H lido como -1,806; A'R e NA'R eram a figura fig05 (ignorada)"
+  },
+  "eq12b": {
+    "page": 23,
+    "clip": [
+      55,
+      436,
+      440,
+      570
+    ],
+    "latex": [
+      "AITR = \\frac{(212{,}8 - 0{,}917 \\times TR_C) \\times H^{0{,}681}}{[(B_D - 19{,}45) \\times NMA]^{0{,}336}} \\qquad (\\text{se } B_D < 20 \\text{ usar } B_D = 20)",
+      "NMA = \\frac{N_{AITR}}{A_R - A_{RO}}",
+      "N_{AITR} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A_R} - (t+1)^{A_{RO}}\\right]"
+    ]
+  },
+  "eq12c": {
+    "page": 23,
+    "clip": [
+      60,
+      615,
+      420,
+      765
+    ],
+    "latex": [
+      "\\Delta TR = (0{,}248 \\times A''_R + 2{,}257) \\times H^{-1{,}806} \\times B_D \\times \\log N_{A''_R}",
+      "A''_R = AITR \\qquad (\\text{para } AITR > 1{,}5)",
+      "A''_R = \\frac{2}{3} \\times AITR + 0{,}5 \\qquad (\\text{para } AITR \\leq 1{,}5)",
+      "N_{A''_R} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{(A_{RO} + A''_R)} - (t+1)^{A_{RO}}\\right]"
+    ]
+  },
+  "x18": {
+    "texto": true,
+    "de_inicio": "7 - Previsão da Irregularidade para Restauração em Tratamento Superficial ou em Lama\n",
+    "de_fim": "ou em Lama\n",
+    "para": "**10.8** Equação 7 - Previsão da Irregularidade para Restauração em Tratamento Superficial ou em Lama Asfáltica\n"
+  },
+  "x19": {
+    "texto": true,
+    "de_inicio": "a) se'a restauração",
+    "de_fim": "se'a restauração",
+    "para": "a) se a restauração"
+  },
+  "x20": {
+    "texto": true,
+    "de_inicio": "b) sea restauração",
+    "de_fim": "sea restauração",
+    "para": "b) se a restauração"
+  },
+  "x21": {
+    "texto": true,
+    "de_inicio": "Asequações2e 5",
+    "de_fim": "Asequações2e 5",
+    "para": "As equações 2 e 5"
+  },
+  "eq13": {
+    "page": 24,
+    "clip": [
+      60,
+      543,
+      300,
+      565
+    ],
+    "latex": [
+      "D_{A_R} = R_D\\,(A' - A_D)",
+      "R_D = 2{,}226 \\times HVA + 16{,}6",
+      "HVA = 1{,}327 \\times 10^{-5} \\times \\frac{N_{A'}}{A'}",
+      "A' = A_R - A_{RO}",
+      "N_{A'} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A_R} - (t+1)^{A_{RO}}\\right]",
+      "A_D = 1{,}28 \\times e^{(2{,}218 - 0{,}819 \\times HVA)}"
+    ],
+    "de_inicio": "Dap =RD (A",
+    "de_fim": "nm n.",
+    "para": "$$\nD_{A_R} = R_D\\,(A' - A_D)\n$$\n\nsendo:\n\n$$\nR_D = 2{,}226 \\times HVA + 16{,}6\n$$\n\n$$\nHVA = 1{,}327 \\times 10^{-5} \\times \\frac{N_{A'}}{A'}\n$$\n\n$$\nA' = A_R - A_{RO}\n$$\n\n$$\nN_{A'} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A_R} - (t+1)^{A_{RO}}\\right]\n$$\n\n$$\nA_D = 1{,}28 \\times e^{(2{,}218 - 0{,}819 \\times HVA)}\n$$\n\nObservações:\n\n1) Calcula-se $A_D$, ano a ano, desde o início desta etapa de restauração até o ano no qual se verifica que $A_D \\leq A'$. O valor de $A_D$, para o ano assim determinado, não será mais calculado, permanecendo constante até o final desta etapa de análise.\n\n2) Se $D_{A_R} < 0$, fazer $D_{A_R} = 0$.",
+    "nota": "p. 24-25"
+  },
+  "eq13b": {
+    "page": 24,
+    "clip": [
+      60,
+      690,
+      330,
+      780
+    ],
+    "latex": [
+      "N_{A'} = \\frac{N_{p1}}{t\\,(t+1)^{A_E}}\\left[(t+1)^{A_R} - (t+1)^{A_{RO}}\\right]",
+      "A_D = 1{,}28 \\times e^{(2{,}218 - 0{,}819 \\times HVA)}"
+    ]
+  },
+  "eq14": {
+    "page": 25,
+    "clip": [
+      60,
+      237,
+      300,
+      340
+    ],
+    "latex": [
+      "TR_{A_R} = (0{,}219 \\times B_A + 1{,}43 \\times TR_C) \\times TDP",
+      "TDP = A' - \\frac{10}{TR_C}"
+    ],
+    "de_inicio": "TRA, = (0,219",
+    "de_fim": "2) Se TRap > 100%, então TRA, = 100%.",
+    "para": "$$\nTR_{A_R} = (0{,}219 \\times B_A + 1{,}43 \\times TR_C) \\times TDP\n$$\n\nsendo:\n\n$$\nTDP = A' - \\frac{10}{TR_C}\n$$\n\n$A' = A_R - A_{RO}$\n\nSe TDP < 0, então TDP = 0\n\nObservações:\n\n1) $B_A$ é a deflexão do pavimento anterior, que não se altera após a aplicação da lama asfáltica;\n\n2) Se $TR_{A_R} > 100\\%$, então $TR_{A_R} = 100\\%$."
+  },
+  "a01": {
+    "texto": true,
+    "de_inicio": "- Idade do pavimento - A, = 6 anos;",
+    "de_fim": "- Numero estrutural corrigido - SNC = 3,83.",
+    "para": "- Idade do pavimento - $A_E$ = 6 anos;\n\n- Tipo de revestimento - tratamento superficial duplo;\n\n- Largura do revestimento - l = 7,0 m;\n\n- Deflexão característica - $B_E$ = 114 (0,01 mm);\n\n- Trincamento - $TR_E$ = 87,0 %;\n\n- Desgaste - $D_E$ = 0 %;\n\n- Irregularidade - $QI_E$ = 42,0 cont./km;\n\n- Numero estrutural corrigido - SNC = 3,83."
+  },
+  "a02": {
+    "texto": true,
+    "de_inicio": "- Número N/ para o primeiro ano da análise - N, =70 262;",
+    "de_fim": "-DM =40,0%;",
+    "para": "- Número $N_p$ para o primeiro ano da análise - $N_{p1}$ = 70 262;\n\n- Taxa de crescimento de tráfego - t = 0,04;\n\n• Restrições de Construção:\n\n- espessura mínima de concreto asfáltico = 4,0 cm;\n\n- espessura máxima de concreto asfáltico = 10,0 cm;\n\n- espessura do tratamento superficial duplo = 2,0 cm;\n\n- espessura total máxima de uma alternativa = 20,0 cm;\n\n- número limite de etapas por alternativa = 3;\n\n- vida útil mínima de cada etapa = 2,5 anos;\n\n• Coeficientes de Equivalência Estrutural:\n\n- concreto asfáltico $a_1$ = 0,17 cm⁻¹;\n\n- tratamento superficial duplo $a_1$ = 0,04 cm⁻¹;\n\n• Restrições de Desempenho:\n\n- QIM = 60,0 cont./km;\n\n- TRM = 40,0 %;\n\n- DM = 40,0 %;",
+    "nota": "p. 26-27"
+  },
+  "a03": {
+    "texto": true,
+    "de_inicio": "* Restrições Econômicas:",
+    "de_fim": "* Custos de Construção:",
+    "para": "• Restrições Econômicas:\n\n- recursos disponíveis para a execução da primeira etapa de restauração Cr$ 7.000.000 / km;\n\n- recursos disponíveis ao longo do período da análise Cr$ 16.000.000 /km;\n\n• Custos de Construção:"
+  },
+  "a04": {
+    "texto": true,
+    "de_inicio": "lama asfáltica - Cr$ 400 / m?",
+    "de_fim": "concreto asfáltico - Cr$ 50.000 / m?;",
+    "para": "- lama asfáltica - Cr$ 400 / m²;\n\n- tratamento superficial duplo - Cr$ 800 / m²;\n\n- concreto asfáltico - Cr$ 50.000 / m³;"
+  },
+  "a05": {
+    "texto": true,
+    "de_inicio": "a) QI, = 42,0e QIM = 60,0.",
+    "de_fim": "Assim, D, < DM.",
+    "para": "a) $QI_E$ = 42,0 e QIM = 60,0.\n\nPortanto, $QI_E$ < QIM;\n\nb) $TR_E$ = 87,0 e TRM = 40,0.\n\nLogo, $TR_E$ > TRM;\n\nc) $D_E$ = 0 e DM = 40,0.\n\nAssim, $D_E$ < DM."
+  },
+  "a06": {
+    "texto": true,
+    "de_inicio": "€.1 - Escolha",
+    "de_fim": "€.1 - Escolha",
+    "para": "C.1 - Escolha"
+  },
+  "eq15": {
+    "page": 28,
+    "clip": [
+      60,
+      455,
+      300,
+      540
+    ],
+    "latex": [
+      "N_{A'} = \\frac{70\\,262}{0{,}04 \\times 1{,}04^{6}} \\times (1{,}04^{16} - 1) = 1\\,211\\,896",
+      "N_{A''} = \\frac{70\\,262}{0{,}04 \\times 1{,}04^{6}} \\times (1{,}04^{6} - 1) = 368\\,323",
+      "\\Delta QI_1 = 42 - \\left[12{,}63 + 0{,}393 \\times 6{,}0 + 8{,}66 \\times \\frac{\\log 368\\,323}{3{,}83} + 7{,}17 \\times 10^{-5} \\times (114 \\times \\log 368\\,323)^2\\right] = -14{,}44",
+      "QI_{A'} = QI_{16} = 12{,}63 + 0{,}393 \\times 16 + 8{,}66 \\times \\frac{\\log 1\\,211\\,896}{3{,}83} + 7{,}17 \\times 10^{-5} \\times (114 \\times \\log 1\\,211\\,896)^2 - 14{,}4 = 52{,}72",
+      "TDP = 10 - \\frac{10}{87} = 9{,}89",
+      "TR_{A_R} = TR_{16} = (0{,}219 \\times 114 + 1{,}43 \\times 87) \\times 9{,}89 = 1\\,477 > 100",
+      "TDP = 1 - \\frac{10}{87} = 0{,}89",
+      "TR_{AR} = TR_7 = (0{,}219 \\times 114 + 1{,}43 \\times 87) \\times 0{,}89 = 132{,}94 > 100"
+    ],
+    "de_inicio": "A= 10 anos\n\nA'=A+Ag=10+6=16",
+    "de_fim": "Verifica-se que TR; > TRM, ou seja,",
+    "para": "A = 10 anos\n\nA' = A + $A_E$ = 10 + 6 = 16\n\nComo (A + $A_E$) > 1,5, fica-se com esta definição de A'\n\n$$\nN_{A'} = \\frac{70\\,262}{0{,}04 \\times 1{,}04^{6}} \\times (1{,}04^{16} - 1) = 1\\,211\\,896\n$$\n\n$$\nN_{A''} = \\frac{70\\,262}{0{,}04 \\times 1{,}04^{6}} \\times (1{,}04^{6} - 1) = 368\\,323\n$$\n\n$$\n\\Delta QI_1 = 42 - \\left[12{,}63 + 0{,}393 \\times 6{,}0 + 8{,}66 \\times \\frac{\\log 368\\,323}{3{,}83} + 7{,}17 \\times 10^{-5} \\times (114 \\times \\log 368\\,323)^2\\right] = -14{,}44\n$$\n\n$$\nQI_{A'} = QI_{16} = 12{,}63 + 0{,}393 \\times 16 + 8{,}66 \\times \\frac{\\log 1\\,211\\,896}{3{,}83} + 7{,}17 \\times 10^{-5} \\times (114 \\times \\log 1\\,211\\,896)^2 - 14{,}4 = 52{,}72\n$$\n\nLogo, $QI_{16}$ < QIM\n\nb) Cálculo do trincamento para o último ano de análise:\n\nPara o trincamento, a lama asfáltica é uma restauração.\n\nUsando a Equação 9, tem-se:\n\n$A_R$ = 16; $A_{RO}$ = $A_E$ = 6\n\nA' = 16 - 6 = 10\n\n$$\nTDP = 10 - \\frac{10}{87} = 9{,}89\n$$\n\n$$\nTR_{A_R} = TR_{16} = (0{,}219 \\times 114 + 1{,}43 \\times 87) \\times 9{,}89 = 1\\,477 > 100\n$$\n\n∴ $TR_{16}$ = 100%\n\nLogo, $TR_{16}$ > TRM\n\nc) Portanto, tem-se que:\n\n$QI_{16}$ < QIM e $TR_{16}$ > TRM,\n\nA análise enquadra-se, assim, no 3º caso do item 10.3.4.\n\nd) Cálculo da evolução do trincamento, ano a ano, do pavimento restaurado:\n\nEmpregando a equação 9, para $A_R$ = 7, tem-se:\n\n$$\nTDP = 1 - \\frac{10}{87} = 0{,}89\n$$\n\n$$\nTR_{AR} = TR_7 = (0{,}219 \\times 114 + 1{,}43 \\times 87) \\times 0{,}89 = 132{,}94 > 100\n$$\n\n∴ $TR_7$ = 100 %\n\nVerifica-se que $TR_7$ > TRM, ou seja,",
+    "nota": "p. 28-29; o PDF usa 14,4 no cálculo de QI16 (ΔQI1 = -14,44) e cita 'item 10.3.4' (seria 9.3.4)"
+  },
+  "eq15b": {
+    "page": 28,
+    "clip": [
+      60,
+      555,
+      480,
+      700
+    ],
+    "latex": [
+      "\\Delta QI_1 = 42 - \\left[12{,}63 + 0{,}393 \\times 6{,}0 + 8{,}66 \\times \\frac{\\log 368\\,323}{3{,}83} + 7{,}17 \\times 10^{-5} \\times (114 \\times \\log 368\\,323)^2\\right] = -14{,}44",
+      "QI_{A'} = QI_{16} = 12{,}63 + 0{,}393 \\times 16 + 8{,}66 \\times \\frac{\\log 1\\,211\\,896}{3{,}83} + 7{,}17 \\times 10^{-5} \\times (114 \\times \\log 1\\,211\\,896)^2 - 14{,}4 = 52{,}72"
+    ]
+  },
+  "eq15c": {
+    "page": 29,
+    "clip": [
+      60,
+      228,
+      400,
+      300
+    ],
+    "latex": [
+      "TDP = 10 - \\frac{10}{87} = 9{,}89",
+      "TR_{A_R} = TR_{16} = (0{,}219 \\times 114 + 1{,}43 \\times 87) \\times 9{,}89 = 1\\,477 > 100"
+    ]
+  },
+  "eq15d": {
+    "page": 29,
+    "clip": [
+      60,
+      535,
+      400,
+      595
+    ],
+    "latex": [
+      "TDP = 1 - \\frac{10}{87} = 0{,}89",
+      "TR_{AR} = TR_7 = (0{,}219 \\times 114 + 1{,}43 \\times 87) \\times 0{,}89 = 132{,}94 > 100"
+    ]
+  },
+  "eq16": {
+    "page": 30,
+    "clip": [
+      60,
+      470,
+      320,
+      660
+    ],
+    "latex": [
+      "N_{A'} = \\frac{70\\,262}{0{,}04 \\times 1{,}04^{6}} \\times (1{,}04^{16} - 1{,}04^{6}) = 843\\,573",
+      "HVA = 1{,}327 \\times 10^{-5} \\times \\frac{843\\,573}{10} = 1{,}12",
+      "A_D = 1{,}28 \\times e^{(2{,}218 - 0{,}189 \\times 1{,}12)} = 9{,}52",
+      "R_D = 2{,}226 \\times 1{,}12 + 16{,}6 = 19{,}09",
+      "D_{AR} = D_{16} = 19{,}09\\,(10 - 9{,}5) = 9{,}16"
+    ],
+    "de_inicio": "## AQI =- 14,2",
+    "de_fim": "Qhs < QIM e Dis < DM",
+    "para": "$\\Delta QI_1$ = - 14,2\n\n$QI_{16}$ = 52,7\n\nPermanece a conclusão do item C.2, ou seja:\n\n$QI_{16}$ < QIM\n\nb) Cálculo do desgaste para o último ano da análise:\n\nUsando a equação 8, tem-se:\n\n$A_R$ = 16; $A_{RO}$ = $A_E$ = 6\n\nA' = 10\n\n$$\nN_{A'} = \\frac{70\\,262}{0{,}04 \\times 1{,}04^{6}} \\times (1{,}04^{16} - 1{,}04^{6}) = 843\\,573\n$$\n\n$$\nHVA = 1{,}327 \\times 10^{-5} \\times \\frac{843\\,573}{10} = 1{,}12\n$$\n\n$$\nA_D = 1{,}28 \\times e^{(2{,}218 - 0{,}189 \\times 1{,}12)} = 9{,}52\n$$\n\n$$\nR_D = 2{,}226 \\times 1{,}12 + 16{,}6 = 19{,}09\n$$\n\n$$\nD_{AR} = D_{16} = 19{,}09\\,(10 - 9{,}5) = 9{,}16\n$$\n\nPortanto, $D_{16}$ < DM\n\nc) Logo tem-se que:\n\n$QI_{16}$ < QIM e $D_{16}$ < DM",
+    "nota": "p. 30; no exemplo AD usa 0,189 x HVA (a equação 8 traz 0,819)"
+  },
+  "a07": {
+    "texto": true,
+    "de_inicio": "C = Cr$ 800/m? x 7 m = Cr$ 5 600/m, ou;",
+    "de_fim": "> OUU UUVUUV/KM.",
+    "para": "C = Cr$ 800/m² x 7 m = Cr$ 5 600/m, ou;\n\nC = Cr$ 5 600 000/km.",
+    "nota": "p. 31"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "etapa + de restauração",
+    "para": "etapa de restauração"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "a fim de “determinar",
+    "para": "a fim de determinar"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "imediatamente erior,",
+    "para": "imediatamente superior,"
+  },
+  "x22": {
+    "texto": true,
+    "de_inicio": "A = número de anos a partir de A,,",
+    "de_fim": "TR,, = trincamento do pavimento restaurado, no ano Aç",
+    "para": "$A$ = número de anos a partir de $A_E$, compreendido dentro do período de análise do pavimento existente (Figura 3);\n$A'$ = na análise do pavimento existente é o número de anos, a partir do início de sua operação, até um ano qualquer posterior a $A_E$; na análise de uma restauração é o número de anos a partir do início de sua operação;\n$A_E$ = idade do pavimento existente, na data da coleta de dados, em anos;\n$A_R$ = número de anos, a partir do início da operação do pavimento existente, até um ano qualquer dentro do período de análise de uma restauração;\n$A_{RO}$ = número de anos, a partir do início da operação do pavimento existente, até o início de análise de uma restauração;\n$a_i$ = coeficiente de equivalência estrutural da camada de restauração;\n$B_E$ = deflexão característica do pavimento existente;\n$B_D$ = deflexão após uma restauração;\n$D_{A'}$ = desgaste do pavimento existente, no ano A';\n$D_E$ = desgaste do pavimento existente, no ano $A_E$;\n$D_F$ = desgaste calculado para o último ano da análise;\n$D_M$ = valor máximo admitido para o desgaste;\n$D_{AR}$ = desgaste do pavimento restaurado, no ano $A_R$;\n$e$ = base dos logaritmos neperianos;\n$H$ = espessura de uma camada de restauração, em cm;\nlog = logaritmo decimal;\n$N_{p1}$ = número $N_p$ correspondente ao período de um ano, iniciando em $A_E$;\n$QI_E$ = irregularidade do pavimento existente, no ano $A_E$;\n$QI_F$ = irregularidade calculada para o último ano da análise;\n$QI_{A'}$ = irregularidade do pavimento existente, no ano A';\nQIM = valor máximo admitido para a irregularidade;\nQIIA = irregularidade do pavimento restaurado, imediatamente após à restauração;\n$QI_{AR}$ = irregularidade do pavimento restaurado, no ano $A_R$;\nSNC = número estrutural corrigido do pavimento existente;\n$SNC_o$ = número estrutural corrigido do pavimento anterior à atual restauração;\n$t$ = taxa de crescimento anual do tráfego, em % /100;\n$TR_E$ = trincamento do pavimento existente, no ano $A_E$;\n$TR_F$ = trincamento calculado para o último ano da análise;\n$TR_{A'}$ = trincamento do pavimento existente, ano A';\n$TR_C$ = valor máximo dentre os valores finais do trincamento e do desgaste apresentados pelo pavimento anterior à atual restauração;\nTRM = valor máximo admitido para o trincamento;\n$TR_{AR}$ = trincamento do pavimento restaurado, no ano $A_R$.",
+    "nota": "10.1 Notações (p. 17-19); QIM, QIIA e TRM sem índice, como no PDF"
+  },
+  "y01": {
+    "texto": true,
+    "de_inicio": "desenvolvido pelo IPR\n\n- Diretoria",
+    "de_fim": "- Diretoria",
+    "para": "desenvolvido pelo IPR - Diretoria"
+  },
+  "y02": {
+    "texto": true,
+    "de_inicio": "e) DNER-ME 128/83\n\n- Levantamento",
+    "de_fim": "- Levantamento",
+    "para": "e) DNER-ME 128/83 - Levantamento"
+  },
+  "y03": {
+    "texto": true,
+    "de_inicio": "César A.V. Queiroz\n\n## GEIPOT/DNER - 1984;",
+    "de_fim": "- 1984;",
+    "para": "César A.V. Queiroz - GEIPOT/DNER - 1984;"
+  },
+  "y04": {
+    "texto": true,
+    "de_inicio": "do tipo resposta - AMITR\n\n- tais como",
+    "de_fim": "- tais como",
+    "para": "do tipo resposta - AMITR - tais como"
+  },
+  "y05": {
+    "texto": true,
+    "de_inicio": "### FIGURA\n\n## 2 - MODELO\n\n## DE GRÁFICO PARA DIVISÃO\n\n",
+    "de_fim": "PARA DIVISÃO\n\n",
+    "para": "",
+    "nota": "título da Figura 2 (já na imagem)"
+  },
+  "y06": {
+    "texto": true,
+    "de_inicio": "quociente de irregularidade (QN)",
+    "de_fim": "(QN)",
+    "para": "quociente de irregularidade (QI)"
+  },
+  "y07": {
+    "texto": true,
+    "de_inicio": "Concreto Asfáltiço",
+    "de_fim": "Asfáltiço",
+    "para": "Concreto Asfáltico"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "eq01": {
+    "page": 9,
+    "bbox": [
+      84.2,
+      646.3,
+      153.3,
+      690.4
+    ],
+    "raw": "P 2 − P TR = 1 A",
+    "latex": "TR = \\frac{P_2 - P_1}{A}"
+  },
+  "eq02": {
+    "page": 10,
+    "bbox": [
+      79.7,
+      306.5,
+      143.9,
+      368.8
+    ],
+    "raw": "n ∑ x i = = X i 1 n",
+    "latex": "\\overline{X} = \\frac{\\sum_{i=1}^{n} x_i}{n}"
+  },
+  "eq03": {
+    "page": 10,
+    "bbox": [
+      79.0,
+      382.1,
+      178.0,
+      434.7
+    ],
+    "raw": "= ∑ − 2 ( x X ) i s − n 1",
+    "latex": "s = \\sqrt{\\frac{\\sum \\left(x_i - \\overline{X}\\right)^2}{n - 1}}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X + ks ≤ valor máximo",
+    "para": "$\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo",
+    "para": "$\\overline{X} - ks$ < valor mínimo"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "X + ks > valor máximo",
+    "para": "$\\overline{X} + ks$ > valor máximo"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "Xi - valores individuais.",
+    "para": "$X_i$ - valores individuais."
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "\nX - média da amostra.",
+    "para": "\n$\\overline{X}$ - média da amostra."
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "de acordo com a Tabela 1 da\n\nNorma DNER – PRO 277/97.",
+    "para": "de acordo com a Tabela 1 da Norma DNER – PRO 277/97."
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "bandejas de massa (P1) e área",
+    "para": "bandejas de massa ($P_1$) e área"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "ligante asfáltico coletado (P2) se",
+    "para": "ligante asfáltico coletado ($P_2$) se"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "na frequência previa-",
+    "para": "na frequência previamente definida, de acordo com a Norma DNIT 011/2004-PRO, a qual prescreve que o executante da obra deve estabelecer e manter procedimentos documentados para implementar as ações corretivas e preventivas na execução da obra, com o objetivo de detectar e eliminar as causas das não conformidades.\n\nc) Os serviços só devem ser aceitos se atenderem às prescrições desta Norma.\n\nQualquer serviço corrigido só deve ser aceito se as correções efetuadas o colocarem em conformidade com o disposto nesta Norma; caso contrário deve ser rejeitado.\n\n## 8 Critérios de medição\n\nOs serviços considerados conformes devem ser medidos de acordo com os critérios estabelecidos no edital de licitação, ou na falta desses critérios em conformidade com as disposições a seguir:\n\na) O serviço deve ser medido em metros cúbicos de pavimento reciclado, considerando o volume efetivamente executado, de acordo com a espessura média e obedecidos os alinhamentos e cotas de projeto, admitidas as tolerâncias estabelecidas nesta Norma.\n\nb) Não devem ser motivo de medição em separado o fornecimento e aplicação de materiais, transporte, mão de obra, encargos sociais incidentes, custos com a utilização de equipamentos, despesas fiscais e eventuais necessárias à execução e ao controle da qualidade da obra, devendo os mesmos estar incluídos na composição do preço unitário do serviço.\n\nc) Volumes superiores aos indicados no projeto para os segmentos só devem ser medidos se previamente justificados pela Fiscalização do DNIT e após a competente aprovação e autorização.",
+    "nota": "p. 10, coluna direita (fim de 7.4.2 e seção 8) sumiu na extração; texto transcrito do PDF"
+  }
+}

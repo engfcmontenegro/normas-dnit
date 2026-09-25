@@ -1,0 +1,70 @@
+{
+  "eq01": {
+    "page": 7,
+    "bbox": [
+      49.3,
+      454.0,
+      146.2,
+      551.3
+    ],
+    "raw": "= ∑ X i X n ( ) 2 ∑ − X X i = s − n 1",
+    "latex": [
+      "\\bar{X} = \\frac{\\sum X_i}{n}",
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\bar{X}\\right)^2}{n - 1}}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "\nX- ks ≥ valor mínimo",
+    "para": "\n$\\bar{X} - ks$ ≥ valor mínimo",
+    "nota": "7.5: barra/índice perdidos na extração"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "\nX+ ks ≤ valor máximo",
+    "para": "\n$\\bar{X} + ks$ ≤ valor máximo",
+    "nota": "7.5: barra/índice perdidos na extração"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "\nX- ks < valor mínimo",
+    "para": "\n$\\bar{X} - ks$ < valor mínimo",
+    "nota": "7.5: barra/índice perdidos na extração"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "\nX+ ks > valor máximo",
+    "para": "\n$\\bar{X} + ks$ > valor máximo",
+    "nota": "7.5: barra/índice perdidos na extração"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "\nXi - valores individuais.",
+    "para": "\n$X_i$ - valores individuais.",
+    "nota": "7.5: barra/índice perdidos na extração"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "\nX - média da amostra.",
+    "para": "\n$\\bar{X}$ - média da amostra.",
+    "nota": "7.5: barra/índice perdidos na extração"
+  },
+  "tab1": {
+    "todas": true,
+    "de_inicio": "![[dnit_149_2010_es-1_fig01.png]]",
+    "para": "| Peneira (pol) | Peneira (mm) | A – 1ª camada | A – 2ª camada | B – 1ª camada | B – 2ª camada | C – 1ª camada | C – 2ª camada | D – 1ª camada | D – 2ª camada | Tolerância da faixa de projeto (%) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 3\" | 76,2 | 100 |  | 100 |  |  |  |  |  | ± 7 |\n| 2 ½\" | 63,5 | 90-100 |  | 90-100 |  | 100 |  |  |  | ± 7 |\n| 2\" | 50,8 | 35-70 |  | 35-70 |  | 95-100 |  | 100 |  | ± 7 |\n| 1 ½\" | 38,1 | 0-15 |  | 0-15 |  | 35-70 |  | 95-100 |  | ± 7 |\n| 1\" | 25,4 | - | 100 | - | 100 | 0-15 | 100 | 20-55 |  | ± 7 |\n| ¾\" | 19,1 | 0-5 | 90-100 | - | 90-100 | - | 90-100 | 0-15 | 100 | ± 7 |\n| ½\" | 12,7 | - | - | - | - | 0-5 | - | - | 0-100 | ± 7 |\n| 3/8\" | 9,5 | - | 20,55 | - | 20,55 | - | 20-55 | 0-5 | 40-75 | ± 7 |\n| Nº 4 | 4,8 | - | 0-10 | - | 0-10 | - | 0-10 | - | 5-25 | ± 5 |\n| Nº 10 | 2,0 | - | 0-5 | - | 0-5 | - | 0-5 | - | 0-10 | ± 5 |\n| Nº 40 | 0,42 | - | - | - | - | - | - | - | 0-5 | ± 5 |\n| **Espessura (cm)** |  | 9,0-10,0 |  | 6,5-7,5 |  | 5,0-6,5 |  | 4,0-5,0 |  | - |\n| **Aplicação de ligante** |  | 7,9-10,0 |  | 5,6-7,9 |  | 4,5-6,8 |  | 3,4-5,4 |  | ± 0,3 |\n| **Aplicação de agregado (kg/m²)** |  | 190-217 | 19-27 | 136-163 | 14-22 | 109-136 | 11-19 | 81-109 | 8-14 | - |\n\n![[dnit_149_2010_es-1_fig01.png]]",
+    "nota": "Tabela 1 (p. 8) só existia como imagem; valores/faixas mesclados (Espessura, Aplicação de ligante) na coluna da 1ª camada. '20,55' (3/8\", A e B, 2ª camada) está assim no PDF — provável 20-55"
+  },
+  "tab2": {
+    "todas": true,
+    "de_inicio": "![[dnit_149_2010_es-1_fig02.png]]",
+    "para": "| Peneira (pol) | Peneira (mm) | A – 1ª camada | A – 2ª camada (*) | B – 1ª camada | B – 2ª camada (*) | C – 1ª camada | C – 2ª camada (*) | D – 1ª camada | D – 2ª camada (*) | E – 1ª camada | E – 2ª camada (*) | Tolerância da faixa de projeto (%) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 3\" | 76,2 | 100 |  |  |  |  |  |  |  |  |  | ± 7 |\n| 2 ½\" | 63,5 | 75-95 |  | 100 |  |  |  |  |  |  |  | ± 7 |\n| 2\" | 50,8 | 60-80 |  | 70-90 |  | 100 |  |  |  |  |  | ± 7 |\n| 1 ½\" | 38,1 | 40-65 |  | 50-70 |  | 65-85 |  | 100 |  |  |  | ± 7 |\n| 1\" | 25,4 | 20-40 |  | 25-45 |  | 35-55 |  | 55-75 |  | 100 |  | ± 7 |\n| ¾\" | 19,1 | 10-30 | 100 | 15-35 | 100 | 15-35 | 100 | 35-55 | 100 | 60-80 | 100 | ± 7 |\n| ½\" | 12,7 | 0-15 | 95-100 | 0-15 | 95-100 | 0-15 | 95-100 | 10-30 | 95-100 | 20-40 | 95-100 | ± 7 |\n| 3/8\" | 9,5 | - | 40-75 | - | 40-75 | - | 40-75 | 0-15 | 40-75 | - | 40-75 | ± 7 |\n| Nº 4 | 4,8 | 0-5 | 0-10 | 0-5 | 0-10 | 0-5 | 0-10 | 0-5 | 0-10 | 0-10 | 0-10 | ± 5 |\n| Nº 10 | 2,0 | - | 0-5 | - | 0-5 | - | 0-5 |  | 0-5 | - | 0-5 | ± 5 |\n| Nº 40 | 0,42 | - | - | - | - | - | - |  | - | 0-5 | - | ± 5 |\n| **Espessura (cm)** |  | 10,0 |  | 9,0 |  | 7,5 |  | 6,5 |  | 5,0 |  | - |\n| **Agregado (kg/m²)** |  | 195 | 16 | 171 | 16 | 146 | 16 | 123 | 16 | 98 | 16 |  |\n| **Emulsão (l/m²)** |  | 6,8-8,1 | 5,4-6,8 | 4,5-6,8 | 5,4-6,8 | 4,5-5,4 | 5,4-6,8 | 4,1-5,0 | 3,2-4,5 | 3,2-4,1 | 3,6-4,5 |  |\n| **Total de emulsão (l/m²)** |  | 12,2-14,9 |  | 9,9-13,2 |  | 9,9-12,2 |  | 7,3-9,5 |  | 6,8-8,6 |  | - |\n\n![[dnit_149_2010_es-1_fig02.png]]",
+    "nota": "Tabela 2 (p. 8) só existia como imagem; faixa D 1ª camada desalinhada no PDF, lida pela ordem das linhas"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "a) BRASIL. Departamento Nacional de Infraestrutura de Transportes. Diretoria de Planejamento e\n\nPesquisa. Coordenação Geral de Estudos e\n\nPesquisa. Instituto de Pesquisas Rodoviárias.\n\nManual de pavimentação. 3. ed. Rio de Janeiro,\n\n2006. (IPR. Publ., 719).\n",
+    "para": "a) BRASIL. Departamento Nacional de Infraestrutura de Transportes. Diretoria de Planejamento e Pesquisa. Coordenação Geral de Estudos e Pesquisa. Instituto de Pesquisas Rodoviárias. Manual de pavimentação. 3. ed. Rio de Janeiro, 2006. (IPR. Publ., 719).",
+    "nota": "Anexo B (p. 9): item b) da coluna direita perdido na extração; item a) partido em linhas | trecho restaurado removido: o gerador corrigido já produz a coluna direita"
+  }
+}

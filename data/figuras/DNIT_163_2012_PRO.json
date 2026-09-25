@@ -1,0 +1,82 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      57.1,
+      118.5,
+      553.1,
+      701.1
+    ],
+    "legenda": "Foto 1- Vista frontal do comparador"
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      57.0,
+      100.4,
+      553.2,
+      633.2
+    ],
+    "legenda": "Foto 2 – Vista Lateral do comparador"
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      232.0,
+      95.3,
+      378.3,
+      335.3
+    ],
+    "legenda": "Foto 3 – Extensômetro."
+  },
+  "fig04": {
+    "page": 6,
+    "bbox": [
+      57.0,
+      389.5,
+      553.0,
+      761.5
+    ],
+    "legenda": "Foto 4 – Apoio da viga sobre o comparador"
+  },
+  "fig05": {
+    "page": 7,
+    "bbox": [
+      101.2,
+      73.7,
+      508.8,
+      377.8
+    ],
+    "legenda": "Foto 5 – Mosquete"
+  },
+  "fig06": {
+    "page": 7,
+    "bbox": [
+      105.2,
+      410.4,
+      504.6,
+      722.3
+    ],
+    "legenda": "Foto 6 – Tela do programa pedindo o comparador em “0” durante a calibragem"
+  },
+  "fig07": {
+    "page": 8,
+    "bbox": [
+      57.0,
+      95.2,
+      553.0,
+      326.3
+    ],
+    "legenda": "Foto 7 – Tela do programa pedindo o comparador com 300 centésimos"
+  },
+  "fig08": {
+    "page": 8,
+    "bbox": [
+      56.9,
+      402.0,
+      553.2,
+      660.2
+    ],
+    "legenda": "Foto 8 – Verificação da calibragem"
+  }
+}

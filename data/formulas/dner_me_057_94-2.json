@@ -1,0 +1,42 @@
+{
+  "eq01": {
+    "page": 4,
+    "clip": [
+      60,
+      620,
+      280,
+      672
+    ],
+    "latex": [
+      "\\%\\ \\text{SiO}_2 = \\frac{B_2 - B_1}{A} \\times 100"
+    ],
+    "de_inicio": "O resultado é dado pela seguinte fórmula:",
+    "de_fim": "O resultado é dado pela seguinte fórmula:",
+    "para": "O resultado é dado pela seguinte fórmula:\n\n$$\n\\%\\ \\text{SiO}_2 = \\frac{B_2 - B_1}{A} \\times 100\n$$",
+    "nota": "fórmula ausente no md (fim do documento); PDF não traz legenda"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "pesar. Repetir a ignição até obter um valor constante para a massa (B2).",
+    "para": "pesar. Repetir a ignição até obter um valor constante para a massa ($B_2$).",
+    "nota": "6.2.11"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "pesar e anotar (B1).",
+    "para": "pesar e anotar ($B_1$).",
+    "nota": "6.2.12.2"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "da amostra ensaiada (B, - B,).",
+    "para": "da amostra ensaiada ($B_2 - B_1$).",
+    "nota": "6.2.13"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "com aproximação de 0,000 1 g(A).",
+    "para": "com aproximação de 0,000 1 g ($A$).",
+    "nota": "6.2.1"
+  }
+}

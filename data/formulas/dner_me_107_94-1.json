@@ -1,0 +1,38 @@
+{
+  "eq01": {
+    "page": 4,
+    "clip": [
+      70,
+      585,
+      200,
+      610
+    ],
+    "latex": [
+      "f = 927{,}23\\, h^{-1{,}64}"
+    ],
+    "de_inicio": "£=927,23h 164 onde:",
+    "de_fim": "f- fator de correção",
+    "para": "$$\nf = 927{,}23\\, h^{-1{,}64}\n$$\n\nonde:\n\n$h$ - espessura do corpo-de-prova;\n$f$ - fator de correção."
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `a) b) c) d) e) 9) g) h) ) D`\n\nprensa capaz de aplicar cargas até 39 240 N",
+    "de_fim": "prensa capaz de aplicar cargas até 39 240 N",
+    "para": "prensa capaz de aplicar cargas até 39 240 N",
+    "nota": "aviso falso: letras da lista de aparelhagem (item 3)"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `1 | t f t t t ' f !`\n",
+    "de_fim": "> `! ' I I 1 1 i 1 1`\n\n## 8 UNIDADE",
+    "para": "## 8 UNIDADE",
+    "nota": "avisos falsos: traços do desenho da Figura 1 (p. 6)"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `DNER -ME 107/94 o D+`\n\nO RAIO INTERNO DO SEGMEN",
+    "de_fim": "O RAIO INTERNO DO SEGMEN",
+    "para": "O RAIO INTERNO DO SEGMEN",
+    "nota": "aviso falso: cabeçalho/desenho da Figura 4 (p. 9)"
+  }
+}

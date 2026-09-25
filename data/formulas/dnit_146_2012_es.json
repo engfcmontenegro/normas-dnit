@@ -1,0 +1,83 @@
+{
+  "eq01": {
+    "page": 6,
+    "bbox": [
+      77.5,
+      153.8,
+      139.1,
+      200.6
+    ],
+    "raw": "P P 2 − T = 1 A",
+    "latex": "T = \\frac{P_2 - P_1}{A}"
+  },
+  "eq02": {
+    "page": 6,
+    "bbox": [
+      112.5,
+      422.7,
+      180.3,
+      469.0
+    ],
+    "raw": "P P 2 − TR = 1 A",
+    "latex": "TR = \\frac{P_2 - P_1}{A}"
+  },
+  "eq03": {
+    "page": 7,
+    "bbox": [
+      79.9,
+      129.3,
+      144.4,
+      194.1
+    ],
+    "raw": "n ∑ x i X = i = 1 n",
+    "latex": "\\overline{X} = \\frac{\\sum_{i=1}^{n} x_i}{n}"
+  },
+  "eq04": {
+    "page": 7,
+    "bbox": [
+      79.1,
+      206.4,
+      178.0,
+      259.8
+    ],
+    "raw": "= ∑ x X 2 ( − ) i s n − 1",
+    "latex": "s = \\sqrt{\\frac{\\sum (x_i - \\overline{X})^2}{n - 1}}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "Onde: $i^{x}$$^{– valores individuais}$\n\nX – média da amostra s - desvio padrão da amostra k - coeficiente tabelado em função do número de determinações n - número de determinações(tamanho da amostra).",
+    "para": "onde:\n\n$x_i$ – valores individuais;\n\n$\\overline{X}$ – média da amostra;\n\n$s$ - desvio padrão da amostra;\n\n$k$ - coeficiente tabelado em função do número de determinações;\n\n$n$ - número de determinações (tamanho da amostra).",
+    "nota": "legenda do controle estatístico quebrada na extração"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X- ks ≥",
+    "para": "$\\overline{X} - ks$ ≥"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "X+ ks ≤",
+    "para": "$\\overline{X} + ks$ ≤"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "X- ks <",
+    "para": "$\\overline{X} - ks$ <"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "X+ ks >",
+    "para": "$\\overline{X} + ks$ >"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "| 0,8 l/m2 a 1,2 l/m2 | 8 kg/m2 a 12 kg/m2 |",
+    "para": "| 0,8 l/m² a 1,2 l/m² | 8 kg/m² a 12 kg/m² |"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "bandejas, de massa\n\n($P_{1}$) e área (A) conhecidas, na pista onde está sendo aplicado.",
+    "para": "bandejas, de massa ($P_{1}$) e área (A) conhecidas, na pista onde está sendo aplicado.",
+    "nota": "parágrafo partido na quebra de página"
+  }
+}

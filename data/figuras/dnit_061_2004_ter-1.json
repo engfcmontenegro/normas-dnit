@@ -1,0 +1,182 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      141.5,
+      112.0,
+      468.0,
+      353.2
+    ],
+    "legenda": "Foto 01: Alçamento de Placas"
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      141.7,
+      409.6,
+      467.8,
+      650.6
+    ],
+    "legenda": "Foto 02: Fissuras de Canto"
+  },
+  "fig03": {
+    "page": 5,
+    "bbox": [
+      141.8,
+      104.2,
+      467.7,
+      345.1
+    ],
+    "legenda": "Foto 03: Placa dividida"
+  },
+  "fig04": {
+    "page": 5,
+    "bbox": [
+      141.5,
+      401.4,
+      468.0,
+      642.6
+    ],
+    "legenda": "Foto 04: Falha na Selagem das Juntas"
+  },
+  "fig05": {
+    "page": 6,
+    "bbox": [
+      141.8,
+      104.2,
+      467.7,
+      345.1
+    ],
+    "legenda": "Foto 05: Fissuras Transversais"
+  },
+  "fig06": {
+    "page": 6,
+    "bbox": [
+      141.8,
+      401.4,
+      467.7,
+      642.2
+    ],
+    "legenda": "Figura 06: Trincas Longitudinais"
+  },
+  "fig07": {
+    "page": 7,
+    "bbox": [
+      141.8,
+      104.2,
+      467.6,
+      345.2
+    ],
+    "legenda": "Foto 07: Fissuras Diagonais"
+  },
+  "fig08": {
+    "page": 7,
+    "bbox": [
+      141.5,
+      401.5,
+      468.0,
+      642.7
+    ],
+    "legenda": "Foto 08: Grandes Reparos"
+  },
+  "fig09": {
+    "page": 8,
+    "bbox": [
+      141.5,
+      104.2,
+      468.0,
+      345.4
+    ],
+    "legenda": "Foto 09: Pequenos Reparos"
+  },
+  "fig10": {
+    "page": 8,
+    "bbox": [
+      141.8,
+      401.8,
+      467.6,
+      642.7
+    ],
+    "legenda": "Foto 10: Desgaste Superficial"
+  },
+  "fig11": {
+    "page": 9,
+    "bbox": [
+      141.5,
+      104.2,
+      468.0,
+      345.4
+    ],
+    "legenda": "Figura 11: Quebras Localizadas"
+  },
+  "fig12": {
+    "page": 9,
+    "bbox": [
+      141.8,
+      401.8,
+      467.6,
+      642.7
+    ],
+    "legenda": "Figura 12: Fissuras Superficiais"
+  },
+  "fig13": {
+    "page": 10,
+    "bbox": [
+      141.8,
+      104.2,
+      467.6,
+      345.2
+    ],
+    "legenda": "Figura 13: Fissura de Retração Plástica"
+  },
+  "fig14": {
+    "page": 10,
+    "bbox": [
+      141.5,
+      401.5,
+      468.0,
+      642.7
+    ],
+    "legenda": "Figura 14: Quebra de Canto"
+  },
+  "fig15": {
+    "page": 11,
+    "bbox": [
+      141.5,
+      104.2,
+      468.0,
+      345.4
+    ],
+    "legenda": "Foto 15: Esborcinamento de Juntas"
+  },
+  "fig16": {
+    "page": 11,
+    "bbox": [
+      141.5,
+      401.8,
+      468.0,
+      643.0
+    ],
+    "legenda": "Foto 16: Placa Bailarina"
+  },
+  "fig17": {
+    "page": 12,
+    "bbox": [
+      141.5,
+      104.2,
+      468.0,
+      345.4
+    ],
+    "legenda": "Foto 17: Assentamento"
+  },
+  "fig18": {
+    "page": 12,
+    "bbox": [
+      141.5,
+      401.8,
+      468.0,
+      643.0
+    ],
+    "legenda": "Foto 18: Buracos"
+  }
+}

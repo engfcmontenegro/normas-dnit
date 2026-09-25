@@ -1,0 +1,18 @@
+{
+  "eq01": {
+    "page": 6,
+    "bbox": [
+      395.3,
+      585.0,
+      480.3,
+      623.6
+    ],
+    "raw": "",
+    "latex": "L = L_o + 45\\sqrt{S_n}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "e Sn a área nominal",
+    "para": "e $S_n$ a área nominal"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "fig01": {
+    "page": 13,
+    "bbox": [
+      203.3,
+      95.4,
+      406.2,
+      265.5
+    ],
+    "legenda": "Figura A1 – Dimensões das placas de teste"
+  },
+  "fig02": {
+    "page": 13,
+    "bbox": [
+      208.7,
+      304.2,
+      400.8,
+      474.2
+    ],
+    "legenda": "Figura A2 – Determinação da correção da temperatura"
+  },
+  "fig03": {
+    "page": 13,
+    "bbox": [
+      204.1,
+      529.2,
+      405.4,
+      727.6
+    ],
+    "legenda": "Figura A3 – Efeito do erro no gap"
+  },
+  "fig04": {
+    "page": 15,
+    "bbox": [
+      45.6,
+      67.9,
+      555.5,
+      203.9
+    ],
+    "legenda": "Figura B1 – Formas de transferir o fluido de referência para as placas do DSR"
+  },
+  "fig05": {
+    "page": 16,
+    "bbox": [
+      130.6,
+      415.6,
+      479.6,
+      514.8
+    ],
+    "legenda": "Figura C1 – Representação das superfícies laterais de amostras de ligante"
+  },
+  "fig06": {
+    "page": 17,
+    "bbox": [
+      42.4,
+      116.9,
+      603.6,
+      234.3
+    ],
+    "legenda": "Figura C2 – Exemplos de superfícies laterais de amostras de ligante"
+  },
+  "fig07": {
+    "page": 19,
+    "bbox": [
+      78.0,
+      67.9,
+      531.5,
+      294.6
+    ],
+    "legenda": "Figura D1 – Exemplo de resultado de teste de linearidade realizado com deformação controlada"
+  },
+  "fig08": {
+    "page": 19,
+    "bbox": [
+      78.0,
+      333.3,
+      531.5,
+      560.1
+    ],
+    "legenda": "Figura D2 – Exemplo de resultado de teste de linearidade realizado com tensão controlada"
+  },
+  "fig09": {
+    "page": 20,
+    "bbox": [
+      107.5,
+      573.5,
+      501.6,
+      729.4
+    ],
+    "legenda": "Figura E1 – Determinação do tempo de equilíbrio térmico"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      66.0,
+      67.8,
+      547.0,
+      360.2
+    ],
+    "legenda": "",
+    "ancora": "b) nome comercial do material e/ou numeração;",
+    "ignorar": true,
+    "nota": "p. 5: texto corrido (alíneas c a l de 4.3) detectado como figura; texto restaurado em data/formulas t09"
+  }
+}

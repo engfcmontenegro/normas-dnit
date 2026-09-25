@@ -1,0 +1,61 @@
+{
+  "eq01": {
+    "page": 4,
+    "clip": [
+      60,
+      155,
+      260,
+      215
+    ],
+    "latex": [
+      "m_c = \\frac{m_f}{A + 100} \\times 100, \\text{ em g}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Me = x 100",
+    "de_fim": "aplicando-se a Tabela, %.",
+    "para": "$$\nm_c = \\frac{m_f}{A + 100} \\times 100, \\text{ em g}\n$$\n\nonde:\n\n$m_f$ - massa seca final do corpo-de-prova, g;\n$A$ - água adsorvida pelo corpo-de-prova, aplicando-se a Tabela, %."
+  },
+  "eq02": {
+    "page": 4,
+    "clip": [
+      60,
+      466,
+      260,
+      532
+    ],
+    "latex": [
+      "P_m = \\frac{m_i - m_c}{m_i} \\times 100, \\ \\%"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `m.-m P= Ii Cc`",
+    "de_fim": "conforme prescrito no item 5.1.",
+    "para": "$$\nP_m = \\frac{m_i - m_c}{m_i} \\times 100, \\ \\%\n$$\n\nonde:\n\n$m_i$ - massa seca inicial do corpo-de-prova, em g, calculada no momento da moldagem, conforme prescrito no item 5.1."
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "corrigida do corpo-de-prova (m), pela fórmula",
+    "para": "corrigida do corpo-de-prova ($m_c$), pela fórmula",
+    "nota": "6.1: mc lido como m"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "perda de massa do corpo-de-prova, Pm, pela fórmula",
+    "para": "perda de massa do corpo-de-prova, $P_m$, pela fórmula"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "Massa seca final do corpo-de-prova (m p)",
+    "para": "Massa seca final do corpo-de-prova ($m_f$)",
+    "nota": "3.4"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "Massa seca final corrigida do corpo-de-prova (mç)",
+    "para": "Massa seca final corrigida do corpo-de-prova ($m_c$)",
+    "nota": "3.5"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "massa seca final do corpo-de-prova, mf.",
+    "para": "massa seca final do corpo-de-prova, $m_f$.",
+    "nota": "5.6"
+  }
+}

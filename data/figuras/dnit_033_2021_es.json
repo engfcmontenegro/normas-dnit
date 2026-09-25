@@ -1,0 +1,142 @@
+{
+  "fig01": {
+    "page": 9,
+    "bbox": [
+      120.3,
+      89.7,
+      503.4,
+      770.7
+    ],
+    "legenda": "Figura A1 – Tipos de usinas utilizadas para misturas asfálticas recicladas"
+  },
+  "fig02": {
+    "page": 10,
+    "bbox": [
+      63.8,
+      99.2,
+      532.5,
+      412.4
+    ],
+    "legenda": "Figura B1 – RAP Frio em Usinas Gravimétricas - Método do Misturador"
+  },
+  "fig03": {
+    "page": 10,
+    "bbox": [
+      63.8,
+      424.4,
+      532.5,
+      738.4
+    ],
+    "legenda": "Figura B2 – RAP Frio em Usinas Gravimétricas – Método do misturador com adição de silo"
+  },
+  "fig04": {
+    "page": 11,
+    "bbox": [
+      93.2,
+      51.9,
+      516.2,
+      350.7
+    ],
+    "legenda": "Figura B3 – RAP Frio em Usinas Gravimétricas – Método do elevador"
+  },
+  "fig05": {
+    "page": 11,
+    "bbox": [
+      93.0,
+      427.0,
+      516.5,
+      726.2
+    ],
+    "legenda": "Figura B4 – RAP Frio em Usinas Gravimétricas – Adição de RAP em um anel de reciclagem"
+  },
+  "fig06": {
+    "page": 12,
+    "bbox": [
+      56.7,
+      51.9,
+      552.7,
+      376.6
+    ],
+    "legenda": "Figura B5 – RAP Quente em Usinas Gravimétricas com Tambor Secador de Fluxo Paralelo Exclusivo"
+  },
+  "fig07": {
+    "page": 12,
+    "bbox": [
+      56.7,
+      430.8,
+      552.7,
+      760.1
+    ],
+    "legenda": "Figura B6 – RAP Quente em Usinas Gravimétricas com Tambor Secador de Contrafluxo Exclusivo"
+  },
+  "fig08": {
+    "page": 13,
+    "bbox": [
+      77.9,
+      51.9,
+      531.6,
+      372.4
+    ],
+    "legenda": "Figura B7 – RAP Frio em Usina Contínua Drum-mixer – Adição de RAP em um anel de reciclagem"
+  },
+  "fig09": {
+    "page": 13,
+    "bbox": [
+      68.6,
+      421.1,
+      545.6,
+      758.0
+    ],
+    "legenda": "Figura B8 – RAP Frio em Usina Contínua Drum-mixer – Adição do RAP em um segundo tambor rotativo"
+  },
+  "fig10": {
+    "page": 14,
+    "bbox": [
+      72.6,
+      51.9,
+      534.3,
+      378.1
+    ],
+    "legenda": "Figura B9 – RAP Frio em Usina Contínua com misturador pugmill – Adição do RAP diretamente no misturador"
+  },
+  "fig11": {
+    "page": 14,
+    "bbox": [
+      68.8,
+      426.3,
+      538.3,
+      758.0
+    ],
+    "legenda": "Figura B10 – RAP Frio em Usina Contínua com misturador pugmill – Adição do RAP em um anel de reciclagem"
+  },
+  "fig12": {
+    "page": 15,
+    "bbox": [
+      62.1,
+      51.9,
+      545.0,
+      393.1
+    ],
+    "legenda": "Figura B11 – RAP Frio ou Quente em Usinas Contínuas com tambor duplo"
+  },
+  "fig13": {
+    "page": 15,
+    "bbox": [
+      56.7,
+      421.8,
+      552.7,
+      752.5
+    ],
+    "legenda": "Figura B12 – Processo produtivo de RAP Quente em Usinas Contínuas com misturador Pugmill – Tambor secador"
+  },
+  "fig14": {
+    "page": 16,
+    "bbox": [
+      56.7,
+      51.9,
+      552.8,
+      402.3
+    ],
+    "legenda": "Figura B13 – Processo produtivo de RAP Quente em Usinas Contínuas com misturador Pugmill – Tambor secador"
+  }
+}

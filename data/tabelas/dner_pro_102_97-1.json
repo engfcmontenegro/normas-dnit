@@ -1,0 +1,318 @@
+{
+  "tab01": {
+    "page": 6,
+    "bbox": [
+      138.3,
+      111.1,
+      517.0,
+      277.6
+    ],
+    "texto_removido": [
+      "Denominação ∅ externo ∅ interno ∅ int. niple",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `EW AW BW NW HW 34,9 44,4 53,9 66,7 88,9 23,0 31,5 42,8 57,1 77,7 11,1 15,9 19,0 34,9 60,3`"
+    ]
+  },
+  "tab02": {
+    "page": 7,
+    "bbox": [
+      138.3,
+      111.1,
+      492.2,
+      291.0
+    ],
+    "texto_removido": [
+      "Denominação ∅ externo ∅ interno ∅ int. niple",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `EX 46,2 41,2 38,2 AX 57,3 50,7 48,5 BX 73,2 65,0 60,4 NX 89,1 80,8 76,4 HX 114,5 104,6 100,2`"
+    ]
+  },
+  "tab03": {
+    "page": 8,
+    "bbox": [
+      138.0,
+      631.9,
+      521.7,
+      791.0
+    ],
+    "ignorar": true,
+    "nota": "Tabela 6: refeita em tabm04",
+    "texto_removido": [
+      "Denominação ∅ externo ∅ interno"
+    ]
+  },
+  "tab04": {
+    "page": 9,
+    "bbox": [
+      101.7,
+      394.9,
+      551.7,
+      569.3
+    ],
+    "ignorar": true,
+    "nota": "Tabela 7: refeita em tabm05",
+    "texto_removido": [
+      "AWG AWM 46,02 31,75"
+    ]
+  },
+  "tab05": {
+    "page": 9,
+    "bbox": [
+      101.7,
+      613.9,
+      551.7,
+      754.0
+    ],
+    "texto_removido": [
+      "Coroa Alargador Testemunho ∅ ext. ∅ int. ∅ ext. ∅ aprox. EWT 37,3 22,9 37,7 22,5",
+      "AWT 47,6 32,5 48,0 31,7",
+      "BWT 59,6 44,4 59,9 43,6",
+      "NWT 75,3 58,7 75,6 57,9",
+      "HWT 98,8 80,9 99,2 80,1"
+    ]
+  },
+  "tab06": {
+    "page": 10,
+    "bbox": [
+      89.9,
+      309.9,
+      485.7,
+      550.5
+    ],
+    "ignorar": true,
+    "nota": "Tabela 9: refeita em tabm06",
+    "texto_removido": [
+      "∅ ext. ∅ int. ∅ ext. ∅ ext. ∅ int.",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `EX EW 47,6 35,6 48,0 47,6 37,9 AX AW 59,5 45,2 59,9 59,5 48,2 BX BW 75,3 56,2 75,6 75,3 60,2 NX NW 91,8 72,1 92,2 91,8 75,9 HX HW 117,4 95,9 - 117,4 99,6`"
+    ]
+  },
+  "tab07": {
+    "page": 11,
+    "bbox": [
+      89.9,
+      110.2,
+      556.8,
+      270.7
+    ],
+    "texto_removido": [
+      "Barrilete Tubo ext. Tubo int. Alargador Testemunho ext.",
+      "int.",
+      "ext.",
+      "int.",
+      "ext.",
+      "int.",
+      "ext.",
+      "int.",
+      "∅ ext. ∅ int.",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `AQ 44,5 34,9 46,0 36,5 32,5 28,6 47,6 27,0 48,0 26,8 BQ 55,6 46,0 57,2 46,0 42,9 38,1 59,5 36,5 60,0 36,2 NQ 69,9 60,3 73,0 60,3 55,6 50,0 74,6 47,6 75,8 47,4 HQ 88,9 77,8 92,1 77,8 73,0 66,7 95,6 63,5 96,0 63,0`"
+    ]
+  },
+  "tab08": {
+    "page": 16,
+    "bbox": [
+      104.1,
+      166.8,
+      505.9,
+      291.8
+    ],
+    "texto_removido": [
+      "Rocha Símbolo Resistência (kg/cm²) MPa",
+      "Muito resistente R1",
+      "> 1200",
+      "> 120",
+      "Resistente R2 1200 - 600 120 - 60",
+      "Pouco resistente R3 600 - 300 60 - 30",
+      "Branda R4 300 - 100 30 - 10",
+      "Muito branda R5 < 100 < 10"
+    ]
+  },
+  "tab09": {
+    "page": 16,
+    "bbox": [
+      127.0,
+      481.9,
+      538.8,
+      624.5
+    ],
+    "ignorar": true,
+    "nota": "Tabela 16: refeita em tabm11",
+    "texto_removido": [
+      "Plana Curva Irregular",
+      "Aspereza",
+      "Espelhada",
+      "Lisa Rugosa Com preenchimento",
+      "Fechada Superfície de decomposição"
+    ]
+  },
+  "tab10": {
+    "page": 24,
+    "bbox": [
+      39.8,
+      162.0,
+      762.8,
+      588.2
+    ],
+    "ignorar": true,
+    "nota": "Anexo F: formulário em branco, fica como imagem (d01 em data/formulas)",
+    "texto_removido": [
+      "OBS.:\nDATAS REVESTIMENTO",
+      "......................................................................................................................................................................................... INÍCIO.../....../..... (m)",
+      "......................................................................................................................................................................................... FIM ..../....../.....",
+      "SONDADOR................................................................... M = manobra e NA = nível d’água"
+    ]
+  },
+  "tabm01": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      120,
+      528,
+      550,
+      710
+    ],
+    "md": "| Denominação | ∅ externo | ∅ interno |\n| --- | --- | --- |\n| EW | 46,2 | 38,2 |\n| AW | 57,3 | 48,5 |\n| BW | 73,2 | 60,5 |\n| NW | 89,1 | 76,4 |\n| HW | 114,5 | 101,4 |",
+    "de_inicio": "@@tabm01@@",
+    "nota": "Tabela 2 (tinha virado fig01) (posta no md pela entrada de data/formulas; de_inicio fictício)"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 8,
+    "clip": [
+      105,
+      130,
+      560,
+      302
+    ],
+    "md": "| Denominação | ∅ externo | ∅ interno |\n| --- | --- | --- |\n| EWG | 36,5 | 23,8 |\n| AWG | 46,0 | 32,5 |\n| BWG | 57,9 | 44,4 |\n| NWG | 73,8 | 57,1 |\n| HWG | 95,2 | 79,3 |",
+    "de_inicio": "@@tabm02@@",
+    "nota": "Tabela 4 (tinha virado fig02) (posta no md pela entrada de data/formulas; de_inicio fictício)"
+  },
+  "tabm03": {
+    "manual": true,
+    "page": 8,
+    "clip": [
+      105,
+      337,
+      560,
+      592
+    ],
+    "md": "| Denominação | Tubo ext. ∅ externo | Tubo int. ∅ interno |\n| --- | --- | --- |\n| EWG / EWM | 36,49 | 23,79 |\n| AWG / AWM | 46,02 | 31,75 |\n| BWG / BWM | 57,93 | 43,63 |\n| NWG / NWM | 73,81 | 57,15 |\n| HWG / HWM | 95,25 | 77,77 |",
+    "de_inicio": "@@tabm03@@",
+    "nota": "Tabela 5 (tinha virado fig03) (posta no md pela entrada de data/formulas; de_inicio fictício)"
+  },
+  "tabm04": {
+    "manual": true,
+    "page": 8,
+    "clip": [
+      115,
+      625,
+      545,
+      795
+    ],
+    "md": "| Barrilete: Denominação | Simples: ∅ externo | Simples: ∅ interno | Duplo: tubo ext. diâmetro externo | Duplo: tubo int. diâmetro interno |\n| --- | --- | --- | --- | --- |\n| EWT | - | - | 36,5 | 24,6 |\n| AWT | - | - | 46,8 | 34,1 |\n| BWT | 58,7 | 46,6 | 58,7 | 46,0 |\n| NWT | 73,8 | 61,9 | 73,8 | 60,3 |\n| HWT | 96,8 | 84,1 | 96,8 | 82,5 |",
+    "de_inicio": "@@tabm04@@",
+    "nota": "Tabela 6 (a tab03 automática perdia o cabeçalho Simples/Duplo e estava sob a Tabela 4) (posta no md pela entrada de data/formulas; de_inicio fictício)"
+  },
+  "tabm05": {
+    "manual": true,
+    "page": 9,
+    "clip": [
+      85,
+      388,
+      575,
+      575
+    ],
+    "md": "| Denominação | Coroa ∅ ext. | Coroa ∅ int. | Alargador ∅ext. | Testemunho ∅ aprox. |\n| --- | --- | --- | --- | --- |\n| EWG / EWM | 37,33 | 21,46 | 37,7 | 20,6 |\n| AWG / AWM | 47,62 | 30,09 | 48,0 | 29,3 |\n| BWG / BWM | 59,56 | 42,03 | 59,9 | 41,2 |\n| NWG / NWM | 75,31 | 54,73 | 75,6 | 53,9 |\n| HWG / HWM | 98,8 | 76,2 | 99,2 | 75,4 |",
+    "de_inicio": "@@tabm05@@",
+    "nota": "Tabela 7 (a tab04 automática estava sob a Tabela 5) (posta no md pela entrada de data/formulas; de_inicio fictício)"
+  },
+  "tabm06": {
+    "manual": true,
+    "page": 10,
+    "clip": [
+      85,
+      302,
+      505,
+      556
+    ],
+    "md": "| Denominação | Coroa ∅ ext. | Coroa ∅ int. | Alargadores ∅ext. | Sapatas ∅ ext. | Sapatas ∅ int. |\n| --- | --- | --- | --- | --- | --- |\n| EX / EW | 47,6 | 35,6 | 48,0 | 47,6 | 37,9 |\n| AX / AW | 59,5 | 45,2 | 59,9 | 59,5 | 48,2 |\n| BX / BW | 75,3 | 56,2 | 75,6 | 75,3 | 60,2 |\n| NX / NW | 91,8 | 72,1 | 92,2 | 91,8 | 75,9 |\n| HX / HW | 117,4 | 95,9 | - | 117,4 | 99,6 |",
+    "de_inicio": "@@tabm06@@",
+    "nota": "Tabela 9 (a tab06 automática perdia o cabeçalho Sapatas) (posta no md pela entrada de data/formulas; de_inicio fictício)"
+  },
+  "tabm07": {
+    "manual": true,
+    "page": 14,
+    "clip": [
+      88,
+      100,
+      570,
+      345
+    ],
+    "md": "| Símbolo | Grau de alteração | Características |\n| --- | --- | --- |\n| A.0 | Rocha sã ou praticamente sã | Aspectos sadio ou leve alteração hidrotermal. As fraturas podem apresentar sinais de oxidação. |\n| A.1 | Rocha pouco alterada | Perda do brilho dos minerais constituintes, juntas oxidadas ou levemente alteradas. |\n| A.2 | Rocha medianamente alterada | Significantes porções de rocha mostram-se descoloridas ou oxidadas e apresentam sinais de intemperismo ( mudanças químicas e microfissuração) |\n| A.3 | Rocha muito alterada | Toda a rocha apresenta-se descolorida ou oxidada, cristais alterados e fissurados. |\n| A.4 | Rocha extremamente alterada | Rocha decomposta, friável, textura e estruturas preservadas. |",
+    "de_inicio": "@@tabm07@@",
+    "nota": "Tabela 11 (texto achatado) (posta no md pela entrada de data/formulas; de_inicio fictício)"
+  },
+  "tabm08": {
+    "manual": true,
+    "page": 14,
+    "clip": [
+      180,
+      545,
+      480,
+      645
+    ],
+    "md": "| Qualidade da rocha | RQD (%) |\n| --- | --- |\n| Muito pobre | 0 a 25 |\n| Pobre | 25 a 50 |\n| Regular | 50 a 75 |\n| Boa | 75 a 90 |\n| Excelente | 90 a 100 |",
+    "de_inicio": "@@tabm08@@",
+    "nota": "Tabela 12 (texto achatado) (posta no md pela entrada de data/formulas; de_inicio fictício)"
+  },
+  "tabm09": {
+    "manual": true,
+    "page": 15,
+    "clip": [
+      100,
+      92,
+      565,
+      325
+    ],
+    "md": "| Rocha | Símbolo | Número de fraturas por manobra |\n| --- | --- | --- |\n| Pouco fraturada | F1 | 1 - 5 |\n| Medianamente fraturada | F2 | 6 - 10 |\n| Muito fraturada | F3 | 11 - 20 |\n| Extremamente fraturada | F4 | > 20 |\n| Em fragmentos | F5 | Torrões em pedaços de diversos tamanhos |",
+    "de_inicio": "@@tabm09@@",
+    "nota": "Tabela 13 (tinha virado fig05) (posta no md pela entrada de data/formulas; de_inicio fictício)"
+  },
+  "tabm10": {
+    "manual": true,
+    "page": 15,
+    "clip": [
+      100,
+      435,
+      565,
+      795
+    ],
+    "md": "| Rocha | Símbolo | Características |\n| --- | --- | --- |\n| Muito coerente | C1 | a) Quebra com dificuldade ao golpe do martelo.<br>b) O fragmento possui bordas cortantes que resistem ao corte por lâmina de aço.<br>c) Superfície dificilmente riscada por lâmina de aço. |\n| Coerente | C2 | a) Quebra com relativa facilidade ao golpe do martelo.<br>b) O fragmento possui bordas cortantes que podem ser abatidas pelo corte com lâmina de aço.<br>c) Superfície riscável por lâmina de aço. |\n| Pouco coerente | C3 | a) Quebra facilmente ao golpe do martelo.<br>b) As bordas do fragmento podem ser quebradas pela pressão dos dedos.<br>c) A lâmina de aço provoca um sulco acentuado na superfície do fragmento. |\n| Friável | C4 | a) Esfarela ao golpe do martelo.<br>b) Desagrega pela pressão dos dedos. |",
+    "de_inicio": "@@tabm10@@",
+    "nota": "Tabela 14 (tinha virado fig06 + texto solto) (posta no md pela entrada de data/formulas; de_inicio fictício)"
+  },
+  "tabm11": {
+    "manual": true,
+    "page": 16,
+    "clip": [
+      85,
+      438,
+      570,
+      642
+    ],
+    "md": "| Denominação | Características |  |  |\n| --- | --- | --- | --- |\n| Aberta | Sem preenchimento | Regularidade | Plana / Curva / Irregular |\n| Aberta | Sem preenchimento | Aspereza | Espelhada / Lisa / Rugosa |\n| Aberta | Com preenchimento |  |  |\n| Fechada | Superfície de decomposição |  | Plana / Curva / Irregular |\n| Cimentada |  |  |  |",
+    "de_inicio": "@@tabm11@@",
+    "nota": "Tabela 16 (a tab09 automática embaralhava as células) (posta no md pela entrada de data/formulas; de_inicio fictício)"
+  },
+  "tabm12": {
+    "manual": true,
+    "page": 16,
+    "clip": [
+      140,
+      676,
+      440,
+      812
+    ],
+    "md": "| Denominação | Inclinação |\n| --- | --- |\n| Horizontal | 0 º a 10 º |\n| Subhorizontal | 10 º a 20 º |\n| Inclinada | 20 º a 70 º |\n| Subvertical | 70 º a 80 º |\n| Vertical | 80 º a 90 º |",
+    "de_inicio": "@@tabm12@@",
+    "nota": "Tabela 17 (texto achatado) (posta no md pela entrada de data/formulas; de_inicio fictício)"
+  }
+}

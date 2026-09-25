@@ -1,0 +1,62 @@
+{
+  "fig01": {
+    "page": 8,
+    "bbox": [
+      136.8,
+      132.0,
+      472.1,
+      389.2
+    ],
+    "legenda": "Figura 1 - Forma do pulso de carregamento (Bernucci et al, 2010)."
+  },
+  "fig02": {
+    "page": 8,
+    "bbox": [
+      83.5,
+      457.7,
+      526.1,
+      676.3
+    ],
+    "legenda": "Figura 2 – Duração dos tempos de carregamento e repouso (Bernucci et al, 2010)."
+  },
+  "fig03": {
+    "page": 9,
+    "bbox": [
+      120.7,
+      158.2,
+      497.4,
+      455.4
+    ],
+    "legenda": "Figura 3 - Aparelhagem para Determinação do Módulo de Resiliência de Misturas Asfálticas"
+  },
+  "fig04": {
+    "page": 10,
+    "bbox": [
+      103.8,
+      132.0,
+      505.8,
+      368.2
+    ],
+    "legenda": "Figura 4 - Representação gráfica dos tempos e deslocamentos"
+  },
+  "fig05": {
+    "page": 11,
+    "bbox": [
+      132.2,
+      112.4,
+      477.2,
+      356.2
+    ],
+    "legenda": "Foto 1 - Imagem de um LVDT externo preso ao corpo de prova por alça de referência"
+  },
+  "fig06": {
+    "page": 11,
+    "bbox": [
+      126.2,
+      424.7,
+      482.8,
+      691.9
+    ],
+    "legenda": "Foto 2 – Imagem de LVDT interno (colado ao corpo de prova)"
+  }
+}

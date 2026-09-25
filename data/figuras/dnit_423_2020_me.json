@@ -1,0 +1,52 @@
+{
+  "fig01": {
+    "page": 7,
+    "bbox": [
+      178.0,
+      101.6,
+      430.6,
+      344.4
+    ],
+    "legenda": "Figura 1 – Exemplo de um reômetro de cisalhamento dinâmico"
+  },
+  "fig02": {
+    "page": 7,
+    "bbox": [
+      202.4,
+      460.4,
+      407.3,
+      632.2
+    ],
+    "legenda": "Figura 2 – Dimensões das placas de ensaio"
+  },
+  "fig03": {
+    "page": 8,
+    "bbox": [
+      64.5,
+      69.2,
+      556.5,
+      419.5
+    ],
+    "legenda": "Figura 3 – Esquema de aplicação de tensão e a deformação resultante"
+  },
+  "fig04": {
+    "page": 8,
+    "bbox": [
+      91.4,
+      518.2,
+      517.7,
+      727.5
+    ],
+    "legenda": "Figura 4 – Representação dos dados de um ciclo para cálculo de percentual de recuperação"
+  },
+  "fig05": {
+    "page": 9,
+    "bbox": [
+      140.1,
+      80.5,
+      469.2,
+      277.4
+    ],
+    "legenda": "Figura 5 - Representação dos dados de um ciclo para cálculo da compliância não recuperável"
+  }
+}

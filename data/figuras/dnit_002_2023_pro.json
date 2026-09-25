@@ -1,0 +1,102 @@
+{
+  "fig01": {
+    "page": 8,
+    "bbox": [
+      76.7,
+      91.6,
+      532.7,
+      684.0
+    ],
+    "legenda": ""
+  },
+  "fig02": {
+    "page": 9,
+    "bbox": [
+      82.7,
+      87.6,
+      526.6,
+      680.0
+    ],
+    "legenda": ""
+  },
+  "fig03": {
+    "page": 10,
+    "bbox": [
+      81.7,
+      91.6,
+      534.8,
+      684.0
+    ],
+    "legenda": ""
+  },
+  "fig04": {
+    "page": 11,
+    "bbox": [
+      65.4,
+      91.6,
+      544.2,
+      684.0
+    ],
+    "legenda": ""
+  },
+  "fig05": {
+    "page": 12,
+    "bbox": [
+      85.0,
+      91.6,
+      524.6,
+      684.0
+    ],
+    "legenda": ""
+  },
+  "fig06": {
+    "page": 13,
+    "bbox": [
+      98.8,
+      83.6,
+      524.0,
+      681.7
+    ],
+    "legenda": ""
+  },
+  "fig07": {
+    "page": 15,
+    "bbox": [
+      167.5,
+      91.2,
+      445.8,
+      204.4
+    ],
+    "legenda": "Figura 1 – Título"
+  },
+  "fig08": {
+    "page": 16,
+    "bbox": [
+      191.5,
+      166.3,
+      418.0,
+      296.1
+    ],
+    "legenda": "Figura I1 – Modelo de tabela (Exemplo 1)"
+  },
+  "fig09": {
+    "page": 16,
+    "bbox": [
+      191.5,
+      410.8,
+      418.0,
+      446.1
+    ],
+    "legenda": "Figura I2 – Modelo de tabela (Exemplo 2)"
+  },
+  "fig10": {
+    "page": 16,
+    "bbox": [
+      191.5,
+      519.0,
+      418.0,
+      564.8
+    ],
+    "legenda": "Figura I3 – Modelo de tabela (Exemplo 3)"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "eq01": {
+    "page": 2,
+    "bbox": [
+      48.7,
+      702.1,
+      207.0,
+      728.4
+    ],
+    "raw": "3.3 Mini-CBR com imersão (𝑰)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "título de seção"
+  },
+  "eq02": {
+    "page": 2,
+    "bbox": [
+      314.4,
+      61.3,
+      475.7,
+      87.6
+    ],
+    "raw": "3.4 Mini-CBR sem imersão (𝑯)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "título de seção"
+  },
+  "eq03": {
+    "page": 2,
+    "bbox": [
+      314.4,
+      133.9,
+      489.2,
+      160.3
+    ],
+    "raw": "3.5 Mini-CBR com sobrecarga (𝑷)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "título de seção"
+  },
+  "eq04": {
+    "page": 2,
+    "bbox": [
+      314.4,
+      237.6,
+      487.5,
+      263.9
+    ],
+    "raw": "3.6 Mini-CBR sem sobrecarga (𝑺)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "título de seção"
+  },
+  "eq05": {
+    "page": 3,
+    "bbox": [
+      314.4,
+      233.5,
+      472.7,
+      259.8
+    ],
+    "raw": "6.1 Mini-CBR com imersão (𝑰)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "título de seção"
+  },
+  "eq06": {
+    "page": 4,
+    "bbox": [
+      314.4,
+      61.3,
+      475.7,
+      87.6
+    ],
+    "raw": "6.2 Mini-CBR sem imersão (𝑯)",
+    "latex": "",
+    "ignorar": true,
+    "nota": "título de seção"
+  },
+  "eq07": {
+    "page": 4,
+    "bbox": [
+      314.4,
+      392.5,
+      559.7,
+      432.3
+    ],
+    "raw": "(𝐿 𝑓 −𝐿 𝑖 )×100 𝐸= (1) 𝐿 0",
+    "latex": "E = \\frac{(L_f - L_i) \\times 100}{L_0} \\tag{1}"
+  },
+  "eq08": {
+    "page": 4,
+    "bbox": [
+      314.4,
+      436.8,
+      563.3,
+      463.2
+    ],
+    "raw": "𝐸 é a expansão, expressa em porcentagem (%), com",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda / texto comum"
+  },
+  "eq09": {
+    "page": 4,
+    "bbox": [
+      355.6,
+      655.4,
+      561.7,
+      681.8
+    ],
+    "raw": "(𝐸> 5%), recomenda-se determinar o gráfico",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda / texto comum"
+  },
+  "eq10": {
+    "page": 5,
+    "bbox": [
+      48.7,
+      625.8,
+      297.6,
+      673.0
+    ],
+    "raw": "d) Calcular o 𝑚𝑖𝑛𝑖−𝐶𝐵𝑅 1 (penetração de 2,00 mm) e o 𝑚𝑖𝑛𝑖−𝐶𝐵𝑅 2 (penetração de 2,50 mm) nas condições",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda / texto comum"
+  },
+  "eq11": {
+    "page": 5,
+    "bbox": [
+      48.7,
+      688.5,
+      294.1,
+      718.2
+    ],
+    "raw": "𝑙𝑜𝑔(𝑚𝑖𝑛𝑖−𝐶𝐵𝑅 1 ) = −0,254 + 0,896 × 𝑙𝑜𝑔𝐶 1 (2)",
+    "latex": "\\log(mini\\text{–}CBR_1) = -0{,}254 + 0{,}896 \\times \\log C_1 \\tag{2}"
+  },
+  "eq12": {
+    "page": 5,
+    "bbox": [
+      314.4,
+      104.8,
+      559.7,
+      134.4
+    ],
+    "raw": "𝑙𝑜𝑔(𝑚𝑖𝑛𝑖−𝐶𝐵𝑅 2 ) = −0,356 + 0,937 × 𝑙𝑜𝑔𝐶 2 (3)",
+    "latex": "\\log(mini\\text{–}CBR_2) = -0{,}356 + 0{,}937 \\times \\log C_2 \\tag{3}"
+  },
+  "eq13": {
+    "page": 5,
+    "bbox": [
+      314.4,
+      448.5,
+      559.7,
+      487.4
+    ],
+    "raw": "𝑚𝑖𝑛𝑖−𝐶𝐵𝑅 𝐼𝑃 𝑅𝐼𝑆= (4) 𝑚𝑖𝑛𝑖−𝐶𝐵𝑅 𝐻𝑃",
+    "latex": "RIS = \\frac{mini\\text{–}CBR_{IP}}{mini\\text{–}CBR_{HP}} \\tag{4}"
+  },
+  "eq14": {
+    "page": 5,
+    "bbox": [
+      314.4,
+      518.5,
+      563.2,
+      544.9
+    ],
+    "raw": "𝑅𝐼𝑆 é a relação de índice de suporte, expresso em",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda / texto comum"
+  },
+  "eq15": {
+    "page": 16,
+    "bbox": [
+      314.9,
+      137.8,
+      563.0,
+      217.3
+    ],
+    "raw": "Mini-CBR com imersão (I) ......................... 3.3...6.1......2,3 Mini-CBR com sobrecarga (P).............................. 3.5......2 Mini-CBR sem imersão (H) ....................... 3.4...6.2......2,4 Mini-CBR sem sobrecarga (S) .............................. 3.6......2",
+    "latex": "",
+    "ignorar": true,
+    "nota": "linhas do índice alfabético"
+  }
+}

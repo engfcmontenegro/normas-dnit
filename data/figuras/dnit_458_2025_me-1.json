@@ -1,0 +1,22 @@
+{
+  "fig01": {
+    "page": 7,
+    "bbox": [
+      64.6,
+      95.4,
+      541.3,
+      592.5
+    ],
+    "legenda": "Figura A1 – Conjunto do frasco de areia."
+  },
+  "fig02": {
+    "page": 8,
+    "bbox": [
+      62.1,
+      67.9,
+      547.8,
+      368.3
+    ],
+    "legenda": "Figura A2 – Dimensões da bandeja e do funil acoplado ao frasco (medidas em mm)."
+  }
+}

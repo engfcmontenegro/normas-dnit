@@ -1,0 +1,23 @@
+{
+  "t01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "temperatura entre 10 o C e 40 o C;",
+    "para": "temperatura entre 10 ºC e 40 ºC;",
+    "nota": "4.4 a): º"
+  },
+  "t02": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "no máximo de 60 o C.",
+    "para": "no máximo de 60 ºC.",
+    "nota": "4.4 c): º"
+  },
+  "t03": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "200g/m 2 a 400 g/m 2 ;",
+    "para": "200g/m² a 400 g/m²;",
+    "nota": "4.7 b): m²"
+  }
+}

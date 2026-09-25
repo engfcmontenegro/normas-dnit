@@ -1,0 +1,112 @@
+{
+  "fig01": {
+    "page": 9,
+    "bbox": [
+      100.9,
+      103.6,
+      508.5,
+      299.6
+    ],
+    "legenda": "Figura A1 – Exemplos de modelos de compactador giratório Superpave"
+  },
+  "fig02": {
+    "page": 9,
+    "bbox": [
+      115.1,
+      330.8,
+      494.4,
+      542.5
+    ],
+    "legenda": "Figura A2 – Esquema do molde e do giro do compactador giratório."
+  },
+  "fig03": {
+    "page": 10,
+    "bbox": [
+      110.7,
+      74.1,
+      498.7,
+      622.7
+    ],
+    "legenda": "Figura A3 – Compactador Giratório: (a) sistema de aquisição de dados e (b) gráfico de densificação."
+  },
+  "fig04": {
+    "page": 11,
+    "bbox": [
+      128.4,
+      53.4,
+      480.9,
+      251.8
+    ],
+    "legenda": "Figura A4 – Moldes do equipamento giratório (150 mm e 100 mm de diâmetro)"
+  },
+  "fig05": {
+    "page": 11,
+    "bbox": [
+      73.9,
+      284.4,
+      535.2,
+      755.0
+    ],
+    "legenda": "Figura A5 – Equipamento Marshall manual e moldes"
+  },
+  "fig06": {
+    "page": 12,
+    "bbox": [
+      59.5,
+      62.3,
+      552.8,
+      280.5
+    ],
+    "legenda": "Figura A6 - Equipamento Marshall mecânico e extratora de corpo de prova Marshall"
+  },
+  "fig07": {
+    "page": 12,
+    "bbox": [
+      169.5,
+      322.0,
+      439.9,
+      475.1
+    ],
+    "legenda": "Figura A7 – Exemplo de placa aquecedora"
+  },
+  "fig08": {
+    "page": 13,
+    "bbox": [
+      58.2,
+      63.7,
+      549.7,
+      765.6
+    ],
+    "legenda": "Figura A8 – Exemplos de misturadores mecânicos com controle de aquecimento."
+  },
+  "fig09": {
+    "page": 14,
+    "bbox": [
+      69.3,
+      65.0,
+      548.7,
+      755.4
+    ],
+    "legenda": "Figura B1 – Passos da moldagem com o compactador giratório"
+  },
+  "fig10": {
+    "page": 15,
+    "bbox": [
+      77.2,
+      93.3,
+      550.3,
+      457.3
+    ],
+    "legenda": "Figura B2 – Passos da mistura manual e moldagem no compactador Marshall mecânico"
+  },
+  "fig11": {
+    "page": 16,
+    "bbox": [
+      79.2,
+      63.0,
+      511.9,
+      732.7
+    ],
+    "legenda": "Figura B3 – Passos de atividades após moldagem do corpo de prova"
+  }
+}

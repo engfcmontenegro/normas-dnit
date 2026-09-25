@@ -1,0 +1,9 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Í UI 7/7 ZU LIITIA Í I`\n\nMarginal [7777277772 Não ripável LT]",
+    "de_fim": "Marginal [7777277772 Não ripável LT]",
+    "para": "Marginal [7777277772 Não ripável LT]",
+    "nota": "aviso falso: legenda/barras do gráfico da Tabela 2 (p. 11)"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "Resistência à Tacão na Flexão do Concreto ( fctM,k ) =",
+    "para": "Resistência à Tacão na Flexão do Concreto ($f_{ctM,k}$) =",
+    "nota": "Anexo C p. 7: índice de f_ctM,k perdido ('Tacão' está assim no PDF)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "![[dnit_063_2004_pro_fig03.png]]",
+    "para": "| LOTE | TRECHO (km / km) | $f_{ctM\\text{estimada}}$ (MPa) | n (número de exemplares) |\n| --- | --- | --- | --- |\n|  |  |  |  |\n\n![[dnit_063_2004_pro_fig03.png]]",
+    "nota": "Anexo C p. 10: quadro 'Dados do Controle do Concreto' (em branco) tinha virado só figura (fig03)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "Smáx (g/dm3)",
+    "para": "Smáx (g/dm³)",
+    "nota": "Anexo C pp. 11, 12, 14: expoente perdido"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "![[dnit_063_2004_pro_fig01.png]]",
+    "para": "| Local | Observação |\n| --- | --- |\n|  |  |\n\n![[dnit_063_2004_pro_fig01.png]]",
+    "nota": "Anexo A p. 4: quadro 'Locais da rodovia que não apresentam boas condições' (em branco) tinha virado só figura (fig01)"
+  }
+}

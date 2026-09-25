@@ -1,0 +1,44 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      199.0,
+      83.0,
+      424.0,
+      601.2
+    ],
+    "legenda": "FIGURA 2 - REPARTIDOR",
+    "ancora": "FIGURA 2 - REPARTIDOR",
+    "nota": "Figuras 1 e 2 (repartidores) numa imagem só; a tabela de 4.2 (antiga fig01) virou tabm01",
+    "texto_removido": [
+      "## SCMA",
+      "“3",
+      "## AIEA",
+      "Visito, A",
+      "Io) a",
+      "DE AMOSTRAS 1/1"
+    ]
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      71.0,
+      619.0,
+      500.0,
+      747.6
+    ],
+    "legenda": "FIGURA 3 —- AMOSTRA PARA",
+    "ancora": "FIGURA 3 —- AMOSTRA PARA",
+    "clip": [
+      66,
+      612,
+      542,
+      753
+    ],
+    "nota": "Figura 3: o recorte automático cortava o 4º quadro",
+    "texto_removido": [
+      "As pesa",
+      "ANÁLISE COLHIDA MANUALMENTE"
+    ]
+  }
+}

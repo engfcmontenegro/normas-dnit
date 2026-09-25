@@ -1,0 +1,32 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 7,
+    "clip": [
+      320,
+      178,
+      560,
+      194
+    ],
+    "latex": "GC = GC\\text{médio} - Ks",
+    "nota": "fórmula em texto comum, não detectada"
+  },
+  "m02": {
+    "manual": true,
+    "page": 7,
+    "clip": [
+      320,
+      198,
+      560,
+      214
+    ],
+    "latex": "ISC = ISC\\text{médio} - Ks",
+    "nota": "fórmula em texto comum, não detectada"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "TABELA 1 AMOSTRAGEM VARIÁVEL\n\n| n | 5 | 6 | 7 | 8 | 9 | 10 | 12 | 13 | 14 | 15 | 16 | 17 | 19 | 21 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| K | 1,55 | 1,41 | 1,36 | 1,31 | 1,25 | 1,21 | 1,16 | 1,13 | 1,11 | 1,10 | 1.08 | 1,06 | 1,04 | 1,01 |\n\n![[dnit_057_2004_es_tab02.png]]\n\nA decisão sobre o trecho será a seguinte :\n\n**7.3.1.1** Aceitação automática\n\nA aceitação do trecho inspecionado será automática quando se tiver:\n\nGC ≥ 100%\n\nISC ≥ 30%\n\nISC ≥ ISC de projeto\n\n**7.3.1.2** Verificações suplementares\n\nQuando se tiver GC < 100%\n\nISC < 30%\n\nISC < ISC de projeto deverão ser adotadas as seguintes providências :\n\n- No caso de todos os valores obtidos no trecho inspecionado para o GC forem superiores a 100%, o trecho deverá ser reensaiado, fazendo-se no mínimo 6 determinações em pontos bem espaçados\n\n**7.3** Aceitação e rejeição\n\n**7.3.1** Grau de Compactação e Índice de suporte Califórnia\n\nO grau de compactação e Índice de suporte Califórnia (ISC) do trecho inspecionado, a ser confrontado com os valores especificados, será calculado pela fórmula:\n\n$$\nGC = GC\\text{médio} - Ks\n$$\n\n$$\nISC = ISC\\text{médio} - Ks\n$$\n\nonde\n\nGC, ISC = valores mínimos estatísticos do grau de compactação e índie de suporte Califórnia,\n\nGCmédio,ISCmédio = grau de compactação e índice de suporte Califórnia médios obtidos no trecho inspecionado, s = desvio padrão dos resultados.\n\nk = coeficiente que é função da quantidade de exemplares do trecho, obtido na Tabela 1.\n\ndo trecho, sendo feita uma nova análise estatística.O trecho será dado como aceito, quando no reensaio se tiver GC ≥ 100%, ou então todos os valores individuais forem iguais ou superiores a 100%.",
+    "para": "**7.3** Aceitação e rejeição\n\n**7.3.1** Grau de Compactação e Índice de suporte Califórnia\n\nO grau de compactação e Índice de suporte Califórnia (ISC) do trecho inspecionado, a ser confrontado com os valores especificados, será calculado pela fórmula:\n\n$$\nGC = GC\\text{médio} - Ks\n$$\n\n$$\nISC = ISC\\text{médio} - Ks\n$$\n\nonde:\n\n$GC$, $ISC$ = valores mínimos estatísticos do grau de compactação e índie de suporte Califórnia,\n\n$GC\\text{médio}$, $ISC\\text{médio}$ = grau de compactação e índice de suporte Califórnia médios obtidos no trecho inspecionado,\n\n$s$ = desvio padrão dos resultados.\n\n$k$ = coeficiente que é função da quantidade de exemplares do trecho, obtido na Tabela 1.\n\nTABELA 1 AMOSTRAGEM VARIÁVEL\n\n| n | 5 | 6 | 7 | 8 | 9 | 10 | 12 | 13 | 14 | 15 | 16 | 17 | 19 | 21 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| K | 1,55 | 1,41 | 1,36 | 1,31 | 1,25 | 1,21 | 1,16 | 1,13 | 1,11 | 1,10 | 1.08 | 1,06 | 1,04 | 1,01 |\n\n![[dnit_057_2004_es_tab02.png]]\n\nA decisão sobre o trecho será a seguinte :\n\n**7.3.1.1** Aceitação automática\n\nA aceitação do trecho inspecionado será automática quando se tiver:\n\nGC ≥ 100%\n\nISC ≥ 30%\n\nISC ≥ ISC de projeto\n\n**7.3.1.2** Verificações suplementares\n\nQuando se tiver GC < 100%\n\nISC < 30%\n\nISC < ISC de projeto deverão ser adotadas as seguintes providências :\n\n- No caso de todos os valores obtidos no trecho inspecionado para o GC forem superiores a 100%, o trecho deverá ser reensaiado, fazendo-se no mínimo 6 determinações em pontos bem espaçados do trecho, sendo feita uma nova análise estatística. O trecho será dado como aceito, quando no reensaio se tiver GC ≥ 100%, ou então todos os valores individuais forem iguais ou superiores a 100%.",
+    "nota": "pág. 7: ordem de leitura embaralhada pela tabela de largura total (7.3/7.3.1 e fórmulas vinham depois de 7.3.1.2); legenda da fórmula quebrada; 'índie' é erro do PDF (mantido)"
+  }
+}

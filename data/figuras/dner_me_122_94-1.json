@@ -1,0 +1,42 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      126.0,
+      563.0,
+      496.0,
+      768.0
+    ],
+    "legenda": "",
+    "ancora": "O limite de liquidez é determinado pela fórmula:",
+    "texto_removido": [
+      "Nº de golpes, (N) K()",
+      "20 0,966 21 0,973 22 0,980 23 0,987 24 0,994 25 1,000 26 1,006 27 1,012 28 1,018 29 1,023 30 1,029"
+    ]
+  },
+  "fig02": {
+    "page": 7,
+    "bbox": [
+      96.5,
+      88.6,
+      559.9,
+      771.4
+    ],
+    "legenda": "",
+    "ancora": "O limite de liquidez é a média das duas determinações.",
+    "texto_removido": [
+      "APARELHO DE CASAGRANDE PARA DETERMINAÇÃO",
+      "DO LIMITE DE LIQUIDEZ",
+      "## 3 Tr",
+      "SEÇÃO QUADRADA",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `4 - od o CINZEL EBONITE`",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `E a r “|`",
+      "Nf",
+      "## 7 Lo",
+      "12,5 N",
+      "## 15 cl",
+      "UNIDADE DE MEDIDA: CENTÍMETRO (cm)",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `DEPOIS DO ENSAIO FIGURA 2`"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "eq01": {
+    "page": 5,
+    "clip": [
+      65,
+      400,
+      200,
+      500
+    ],
+    "latex": [
+      "\\overline{X} = \\frac{\\sum X_i}{n}",
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `X Xi n = ∑ ( ) s Xi X n = ∑ − − 2 1`",
+    "de_fim": "- número de determinações.",
+    "para": "$$\n\\overline{X} = \\frac{\\sum X_i}{n}\n$$\n\n$$\ns = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}\n$$\n\nonde:\n\n$X_i$ - valores individuais;\n$\\overline{X}$ - média da amostra;\n$s$ - desvio padrão da amostra;\n$k$ - coeficiente tabelado em função do número de determinações;\n$n$ - número de determinações."
+  },
+  "eq02": {
+    "page": 5,
+    "clip": [
+      65,
+      448,
+      200,
+      500
+    ],
+    "latex": [
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo especificado ou X + ks > valor máximo",
+    "para": "$\\overline{X} - ks$ < valor mínimo especificado ou $\\overline{X} + ks$ > valor máximo"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo especificado e X + ks ≤ valor máximo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo especificado e $\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "0,3 λ /m 2 a 0,4 λ /m 2 .",
+    "para": "0,3 l/m² a 0,4 l/m².",
+    "nota": "'λ/m²' do PDF é o l (litro) da fonte Symbol"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "± 0,2 λ /m 2 .",
+    "para": "± 0,2 l/m².",
+    "nota": "'λ/m²' do PDF é o l (litro) da fonte Symbol"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "4000m 2 ,",
+    "para": "4000 m²,"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "700m 2 de pista",
+    "para": "700 m² de pista"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "conforme a tabela seguinte:\n\n| n |",
+    "para": "conforme a tabela seguinte:\n\n### Tabela de amostragem variável\n\n| n |",
+    "nota": "título da tabela (ficava depois dela, com os valores repetidos achatados)"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "### Tabela de amostragem variável\n\n1,55 1,41",
+    "de_fim": "α = risco do executante",
+    "para": "",
+    "nota": "resto achatado da tabela de amostragem variável (já transcrita em tab01)"
+  }
+}

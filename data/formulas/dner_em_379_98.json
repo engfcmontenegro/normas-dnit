@@ -1,0 +1,16 @@
+{
+  "t01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "entre 2,4g/cm 3 e 2,6g/cm 3 , quando",
+    "para": "entre 2,4g/cm³ e 2,6g/cm³, quando",
+    "nota": "5.8: cm³"
+  },
+  "t02": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "\n5.3 Resistência à água",
+    "para": "\n**5.3** Resistência à água",
+    "nota": "número do item sem negrito"
+  }
+}

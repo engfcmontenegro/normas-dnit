@@ -1,0 +1,26 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "## Anexo A (normativo)\n\n## Anexo B (informativo)\n\nRepresentação esquemática dos defeitos ocorrentes na superfície dos pavimentos flexíveis e semi-rígidos 5\n\n## Anexo C (informativo)\n\nRepresentação fotográfica – defeitos nos pavimentos 6\n\n## Prefácio",
+    "para": "## Prefácio",
+    "nota": "restos do sumário da p. 1 que viraram títulos de anexo"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "revestimentos\n\nDNIT 005/2003-TER asfálticos",
+    "para": "revestimentos asfálticos",
+    "nota": "cabeçalho de página no meio da referência b)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "\n\nDNIT 005/2003-TER\n",
+    "para": "\n",
+    "nota": "cabeçalho de página solto"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "FC-1: são trincas com abertura superior à das fissuras e menores que 1,0mm. FC-2: são trincas com abertura superior a 1,0mm e sem erosão nas bordas. FC-3: são trincas com abertura superior a 1,0mm e com erosão nas bordas.",
+    "para": "FC-1: são trincas com abertura superior à das fissuras e menores que 1,0mm.\n\nFC-2: são trincas com abertura superior a 1,0mm e sem erosão nas bordas.\n\nFC-3: são trincas com abertura superior a 1,0mm e com erosão nas bordas.",
+    "nota": "NOTA 1: um item por classe, como no PDF (p. 4)"
+  }
+}

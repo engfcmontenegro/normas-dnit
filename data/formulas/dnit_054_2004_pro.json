@@ -1,0 +1,100 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      52,
+      418,
+      290,
+      478
+    ],
+    "latex": [
+      "f_{ctM,j} = f_{ctM,k} + 0{,}84\\ S_{d}",
+      {
+        "texto": "ou"
+      },
+      "f_{c,j} = f_{ck} + 0{,}84\\ S_{d}"
+    ],
+    "nota": "5.3: expressões da resistência média (texto comum no PDF)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "- fctM,k - Resistência característica do concreto à tração por flexão – fck - Resistência característica",
+    "para": "- $f_{ctM,k}$ - Resistência característica do concreto à tração por flexão\n- $f_{ck}$ - Resistência característica"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "Consumo mínimo de cimento - 320 kg/m³.\n\n-\n\n- Relação",
+    "para": "- Consumo mínimo de cimento - 320 kg/m³.\n- Relação"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "## 4 Requisitos para o concreto destinado a\n\npavimento",
+    "para": "## 4 Requisitos para o concreto destinado a pavimento"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "## 5 Roteiro básico para o estudo de traço e\n\ncaracterização do concreto",
+    "para": "## 5 Roteiro básico para o estudo de traço e caracterização do concreto"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "na flexão (fctM,k) e a resistência à compressão (fck) correspondente",
+    "para": "na flexão ($f_{ctM,k}$) e a resistência à compressão ($f_{ck}$) correspondente"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "fctM,j = resistência média",
+    "para": "$f_{ctM,j}$ = resistência média"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "fctM,k = resistência característica",
+    "para": "$f_{ctM,k}$ = resistência característica"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "fc,j = resistência média",
+    "para": "$f_{c,j}$ = resistência média"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "fck = resistência característica",
+    "para": "$f_{ck}$ = resistência característica"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "Sd = desvio padrão",
+    "para": "$S_{d}$ = desvio padrão"
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "adotar para Sd, o valor",
+    "para": "adotar para $S_{d}$, o valor"
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "à compressão (fc) ou à tração na flexão (fctM),",
+    "para": "à compressão ($f_{c}$) ou à tração na flexão ($f_{ctM}$),"
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "Sd = 4,0 MPa",
+    "para": "$S_{d}$ = 4,0 MPa"
+  },
+  "t14": {
+    "todas": true,
+    "de_inicio": "Sd = 0,6 MPa",
+    "para": "$S_{d}$ = 0,6 MPa"
+  },
+  "t15": {
+    "todas": true,
+    "de_inicio": "Sd = 5,5 MPa",
+    "para": "$S_{d}$ = 5,5 MPa"
+  },
+  "t16": {
+    "todas": true,
+    "de_inicio": "Sd = 0,9 MPa",
+    "para": "$S_{d}$ = 0,9 MPa"
+  }
+}

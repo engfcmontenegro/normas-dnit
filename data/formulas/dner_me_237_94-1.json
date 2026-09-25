@@ -1,0 +1,17 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      64,
+      318,
+      245,
+      364
+    ],
+    "latex": [
+      "\\%\\ \\text{de pigmento} = \\frac{B - A}{C} \\times 100"
+    ],
+    "de_inicio": "B-A Y%depigmento=-—— x100\n\nCc onde:",
+    "de_fim": "C - massa da amostra de tinta.",
+    "para": "$$\n\\%\\ \\text{de pigmento} = \\frac{B - A}{C} \\times 100\n$$\n\nonde:\n\n$A$ - massa do tubo centrifugador;\n$B$ - massa do tubo centrifugador com pigmento;\n$C$ - massa da amostra de tinta."
+  }
+}

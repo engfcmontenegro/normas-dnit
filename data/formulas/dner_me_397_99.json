@@ -1,0 +1,45 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "Washington – ID W , em",
+    "para": "Washington – $ID_W$, em"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "Index - ID W , of",
+    "para": "Index - $ID_W$, of"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "o Índice ID W - Índice",
+    "para": "o Índice $ID_W$ - Índice"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "## 7 CÁLCULO DO ID w",
+    "para": "## 7 CÁLCULO DO $ID_W$"
+  },
+  "eq01": {
+    "page": 4,
+    "clip": [
+      68,
+      198,
+      200,
+      242
+    ],
+    "latex": [
+      "ID_W = \\frac{(15 - H)}{15 + 1{,}75H} \\times 100"
+    ],
+    "de_inicio": "ID W = Índice de Degradação H = Altura de sedimento na proveta, em polegadas",
+    "de_fim": "mostra Índices de Degradação ID W para vários",
+    "para": "$$\nID_W = \\frac{(15 - H)}{15 + 1{,}75H} \\times 100\n$$\n\nEm que:\n\n$ID_W$ = Índice de Degradação;\n$H$ = Altura de sedimento na proveta, em polegadas.\n\nOs valores de H podem variar de 0 a 100, correspondendo os maiores valores aos melhores materiais. A fórmula coloca os materiais duvidosos aproximadamente no meio da escala, estando os inadequados abaixo e os bons acima daquele ponto. A Tabela 1, em anexo, mostra Índices de Degradação $ID_W$ para vários",
+    "nota": "p. 4: 'Os valores de H podem variar de 0 a 100' — provavelmente refere-se a IDw (mantido como no PDF)"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "![[dner_me_397_99_fig01.png]]\n\n### ANEXO NORMATIVO\n\n## 20 MINUTOS",
+    "de_fim": "14,9 15,0 2 2 2 1 1 1 1 0 0 0`",
+    "para": "## ANEXO NORMATIVO\n\n![[dner_me_397_99_fig01.png]]\n\n### TABELA 1\n\n(Valores do H em polegadas)\n\n| H | D | H | D | H | D | H | D | H | D |\n|---|---|---|---|---|---|---|---|---|---|\n| 0,0 | 100 | 3,1 | 58 | 6,1 | 35 | 9,1 | 19 | 12,1 | 8 |\n| 0,1 | 98 | 3,2 | 57 | 6,2 | 34 | 9,2 | 19 | 12,2 | 8 |\n| 0,2 | 96 | 3,3 | 56 | 6,3 | 33 | 9,3 | 18 | 12,3 | 7 |\n| 0,3 | 95 | 3,4 | 55 | 6,4 | 33 | 9,4 | 18 | 12,4 | 7 |\n| 0,4 | 93 | 3,5 | 54 | 6,5 | 32 | 9,5 | 17 | 12,5 | 7 |\n| 0,5 | 91 | 3,6 | 54 | 6,6 | 32 | 9,6 | 17 | 12,6 | 6 |\n| 0,6 | 90 | 3,7 | 53 | 6,7 | 31 | 9,7 | 17 | 12,7 | 6 |\n| 0,7 | 88 | 3,8 | 52 | 6,8 | 30 | 9,8 | 16 | 12,8 | 6 |\n| 0,8 | 87 | 3,9 | 51 | 6,9 | 30 | 9,9 | 16 | 12,9 | 6 |\n| 0,9 | 85 | 4,0 | 50 | 7,0 | 29 | 10,0 | 15 | 13,0 | 5 |\n| 1,0 | 84 |  |  |  |  |  |  |  |  |\n| 1,1 | 82 | 4,1 | 49 | 7,1 | 29 | 10,1 | 15 | 13,1 | 5 |\n| 1,2 | 81 | 4,2 | 48 | 7,2 | 28 | 10,2 | 15 | 13,2 | 5 |\n| 1,3 | 79 | 4,3 | 48 | 7,3 | 28 | 10,3 | 14 | 13,3 | 4 |\n| 1,4 | 78 | 4,4 | 47 | 7,4 | 27 | 10,4 | 14 | 13,4 | 4 |\n| 1,5 | 77 | 4,5 | 46 | 7,5 | 27 | 10,5 | 13 | 13,5 | 4 |\n| 1,6 | 75 | 4,6 | 45 | 7,6 | 26 | 10,6 | 13 | 13,6 | 4 |\n| 1,7 | 74 | 4,7 | 44 | 7,7 | 26 | 10,7 | 13 | 13,7 | 3 |\n| 1,8 | 73 | 4,8 | 44 | 7,8 | 25 | 10,8 | 12 | 13,8 | 3 |\n| 1,9 | 71 | 4,9 | 43 | 7,9 | 25 | 10,9 | 12 | 13,9 | 3 |\n| 2,0 | 70 | 5,0 | 42 | 8,0 | 24 | 11,0 | 12 | 14,0 | 3 |\n| 2,1 | 69 | 5,1 | 41 | 8,1 | 24 | 11,1 | 11 | 14,1 | 2 |\n| 2,2 | 68 | 5,2 | 41 | 8,2 | 23 | 11,2 | 11 | 14,2 | 2 |\n| 2,3 | 67 | 5,3 | 40 | 8,3 | 23 | 11,3 | 11 | 14,3 | 2 |\n| 2,4 | 66 | 5,4 | 39 | 8,4 | 22 | 11,4 | 10 | 14,4 | 1 |\n| 2,5 | 65 | 5,5 | 39 | 8,5 | 22 | 11,5 | 10 | 14,5 | 1 |\n| 2,6 | 63 | 5,6 | 38 | 8,6 | 21 | 11,6 | 10 | 14,6 | 1 |\n| 2,7 | 62 | 5,7 | 37 | 8,7 | 21 | 11,7 | 9 | 14,7 | 1 |\n| 2,8 | 61 | 5,8 | 37 | 8,8 | 20 | 11,8 | 9 | 14,8 | 0 |\n| 2,9 | 60 | 5,9 | 36 | 8,9 | 20 | 11,9 | 9 | 14,9 | 0 |\n| 3,0 | 59 | 6,0 | 35 | 9,0 | 20 | 12,0 | 8 | 15,0 | 0 |",
+    "nota": "rótulos do formulário (já na imagem) removidos; aviso falso = Tabela 1 (p. 6), reescrita como tabela"
+  }
+}

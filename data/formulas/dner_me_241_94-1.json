@@ -1,0 +1,69 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      60,
+      428,
+      240,
+      474
+    ],
+    "latex": [
+      "T = \\frac{W \\times 1{,}192}{V_p}"
+    ],
+    "de_inicio": "**4.7.1** Calcula-se a equivalência da solução de KMnO,, mediante a seguinte fórmula:",
+    "de_fim": "Vp- mililitros de solução pelo menos bimensalmente.",
+    "para": "**4.7.1** Calcula-se a equivalência da solução de KMnO₄, mediante a seguinte fórmula:\n\n$$\nT = \\frac{W \\times 1{,}192}{V_p}\n$$\n\nonde:\n\n$T$ - equivalente em gramas de TiO₂ por mililitro de solução de KMnO₄;\n$W$ - massa de Na₂C₂O₄, em gramas;\n$V_p$ - mililitros de solução pelo menos bimensalmente.",
+    "nota": "p. 3: legenda de Vp truncada/errada no PDF ('mililitros de solução pelo menos bimensalmente', repete a Nota; seria o volume de KMnO4 gasto na titulação); transcrito como no PDF"
+  },
+  "eq02": {
+    "page": 4,
+    "clip": [
+      60,
+      448,
+      240,
+      490
+    ],
+    "latex": [
+      "\\text{TiO}_2\\ \\% = \\frac{(V - B) \\times T}{S} \\times 100"
+    ],
+    "de_inicio": "**6.1** Percentagem de TiO, na matéria mineral:",
+    "de_fim": "S - gramas da amostra.",
+    "para": "**6.1** Percentagem de TiO₂ na matéria mineral:\n\n$$\n\\text{TiO}_2\\ \\% = \\frac{(V - B) \\times T}{S} \\times 100\n$$\n\nonde:\n\n$V$ - mililitros de solução de KMnO₄ usados na titulação da amostra;\n$B$ - mililitros de solução de KMnO₄ usados na titulação da prova em branco;\n$T$ - equivalente em TiO₂ da solução de KMnO₄, em gramas por mililitros;\n$S$ - gramas da amostra."
+  },
+  "eq03": {
+    "page": 4,
+    "clip": [
+      60,
+      624,
+      280,
+      644
+    ],
+    "latex": [
+      "\\%\\ \\text{matéria mineral} = 100 - \\text{teor de ligante}"
+    ],
+    "de_inicio": "% matéria mineral = 100 - teor de ligante.",
+    "de_fim": "% matéria mineral = 100 - teor de ligante.",
+    "para": "$$\n\\%\\ \\text{matéria mineral} = 100 - \\text{teor de ligante}\n$$"
+  },
+  "eq04": {
+    "page": 4,
+    "clip": [
+      60,
+      680,
+      430,
+      722
+    ],
+    "latex": [
+      "\\%\\ \\text{TiO}_2 \\text{ no material termoplástico} = \\frac{\\%\\ \\text{TiO}_2 \\text{ na matéria mineral} \\times \\%\\ \\text{matéria mineral}}{100}"
+    ],
+    "de_inicio": "**6.3** Percentagem de TiO, no material termoplástico:-",
+    "de_fim": "termoplástico 100 7",
+    "para": "**6.3** Percentagem de TiO₂ no material termoplástico:\n\n$$\n\\%\\ \\text{TiO}_2 \\text{ no material termoplástico} = \\frac{\\%\\ \\text{TiO}_2 \\text{ na matéria mineral} \\times \\%\\ \\text{matéria mineral}}{100}\n$$"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "## RESULTADO\n\nO resultado é expresso em porcentagem de dióxido de titânio",
+    "para": "## 7 RESULTADO\n\nO resultado é expresso em porcentagem de dióxido de titânio",
+    "nota": "título da seção 7"
+  }
+}

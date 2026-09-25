@@ -1,0 +1,437 @@
+{
+  "eq01": {
+    "page": 2,
+    "bbox": [
+      331.4,
+      580.5,
+      564.0,
+      642.7
+    ],
+    "raw": "n = ∑ − 2 ˆ ( x x ) i i • • 100 % •• •• i = 1 (1) se ( P ) − n 4 x ˆ • • 0",
+    "latex": "se(P) = \\sqrt{\\frac{\\sum_{i=1}^{n} (x_i - \\hat{x}_i)^2}{n - 4}} \\left(\\frac{100\\%}{\\hat{x}_0}\\right) \\tag{1}"
+  },
+  "eq02": {
+    "page": 7,
+    "bbox": [
+      105,
+      265,
+      290,
+      332
+    ],
+    "raw": "n ∑ σ i n",
+    "latex": "\\bar{\\sigma} = \\frac{\\sum_{i=1}^{n} \\sigma_i}{n} \\tag{2}",
+    "clip": [
+      105,
+      265,
+      290,
+      332
+    ]
+  },
+  "eq03": {
+    "page": 7,
+    "bbox": [
+      132.7,
+      438.4,
+      294.0,
+      474.5
+    ],
+    "raw": "σ = σ − σ i ' (3) i",
+    "latex": "\\sigma'_i = \\sigma_i - \\bar{\\sigma} \\tag{3}"
+  },
+  "eq04": {
+    "page": 7,
+    "bbox": [
+      102.4,
+      598.9,
+      283.6,
+      730.3
+    ],
+    "raw": "n ∑ σ ' i (4) = i = 1 A σ 0 n n 2 ∑ = σ ω A ' cos( t ) (5) σ 1 i 0 i n = i 1 n 2 ∑ = σ ω B ' sen ( t ) (6) σ 1 i 0 i n = i 1",
+    "latex": [
+      "A_{\\sigma 0} = \\frac{\\sum_{i=1}^{n} \\sigma'_i}{n} \\tag{4}",
+      "A_{\\sigma 1} = \\frac{2}{n} \\sum_{i=1}^{n} \\sigma'_i \\cos(\\omega_0 t_i) \\tag{5}",
+      "B_{\\sigma 1} = \\frac{2}{n} \\sum_{i=1}^{n} \\sigma'_i \\operatorname{sen}(\\omega_0 t_i) \\tag{6}"
+    ]
+  },
+  "eq05": {
+    "page": 7,
+    "bbox": [
+      363.6,
+      182.0,
+      540.5,
+      250.8
+    ],
+    "raw": "σ = 2 + 2 | * | A B (7) σ σ 1 1 •− • B •• σ •• θ = 1 (8) σ A • • σ 1",
+    "latex": [
+      "|\\sigma^*| = \\sqrt{A_{\\sigma 1}^2 + B_{\\sigma 1}^2} \\tag{7}",
+      "\\theta_\\sigma = \\arctan\\left(-\\frac{B_{\\sigma 1}}{A_{\\sigma 1}}\\right) \\tag{8}"
+    ]
+  },
+  "eq06": {
+    "page": 7,
+    "bbox": [
+      330,
+      372,
+      575,
+      414
+    ],
+    "raw": "• σ = + ω + ω A A cos( t ) B sen ( t ) σ σ σ",
+    "latex": "\\hat{\\sigma}_i = A_{\\sigma 0} + A_{\\sigma 1} \\cos(\\omega_0 t_i) + B_{\\sigma 1} \\operatorname{sen}(\\omega_0 t_i) \\tag{9}",
+    "clip": [
+      330,
+      372,
+      575,
+      414
+    ]
+  },
+  "eq07": {
+    "page": 7,
+    "bbox": [
+      354.2,
+      414.2,
+      563.7,
+      474.0
+    ],
+    "raw": "n = ∑ σ − σ 2 ( 'ˆ ' ) i i • • 100 % (10) = σ i 1 •• •• se ( ) − σ",
+    "latex": "se(\\sigma) = \\sqrt{\\frac{\\sum_{i=1}^{n} (\\hat{\\sigma}'_i - \\sigma'_i)^2}{n - 4}} \\left(\\frac{100\\%}{|\\sigma^*|}\\right) \\tag{10}"
+  },
+  "eq08": {
+    "page": 8,
+    "bbox": [
+      124.5,
+      338.1,
+      273.6,
+      396.9
+    ],
+    "raw": "n ∑ • ji (11) • = = i 1 j n",
+    "latex": "\\bar{\\varepsilon}_j = \\frac{\\sum_{i=1}^{n} \\varepsilon_{ji}}{n} \\tag{11}"
+  },
+  "eq09": {
+    "page": 8,
+    "bbox": [
+      84.1,
+      520.5,
+      280.2,
+      554.4
+    ],
+    "raw": "•' =• − − • D t (12) ji ji j i j",
+    "latex": "\\varepsilon'_{ji} = \\varepsilon_{ji} - D_j t_i - \\bar{\\varepsilon}_j \\tag{12}"
+  },
+  "eq10": {
+    "page": 8,
+    "bbox": [
+      57.1,
+      572.8,
+      90.9,
+      606.7
+    ],
+    "raw": "• ji '",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda (ε'_ji)"
+  },
+  "eq11": {
+    "page": 8,
+    "bbox": [
+      119.0,
+      736.6,
+      272.8,
+      795.4
+    ],
+    "raw": "n ∑ • ' ji (13) = = i 1 A • j 0 n",
+    "latex": "A_{\\varepsilon j0} = \\frac{\\sum_{i=1}^{n} \\varepsilon'_{ji}}{n} \\tag{13}"
+  },
+  "eq12": {
+    "page": 8,
+    "bbox": [
+      355,
+      50,
+      560,
+      134
+    ],
+    "raw": "n 2 ∑ = • ω A ' cos( t ) (14) • j 1 ji 0 i n = i 1 n 2 ∑ = • ω B ' sen ( t ) • j 1 (15) ji 0 i n i = 1",
+    "latex": [
+      "A_{\\varepsilon j1} = \\frac{2}{n} \\sum_{i=1}^{n} \\varepsilon'_{ji} \\cos(\\omega_0 t_i) \\tag{14}",
+      "B_{\\varepsilon j1} = \\frac{2}{n} \\sum_{i=1}^{n} \\varepsilon'_{ji} \\operatorname{sen}(\\omega_0 t_i) \\tag{15}"
+    ],
+    "clip": [
+      355,
+      50,
+      560,
+      134
+    ]
+  },
+  "eq13": {
+    "page": 8,
+    "bbox": [
+      336.7,
+      167.8,
+      397.0,
+      200.2
+    ],
+    "raw": "A • = 0j",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda (A_εj0 =)"
+  },
+  "eq14": {
+    "page": 8,
+    "bbox": [
+      334.9,
+      198.9,
+      368.7,
+      232.8
+    ],
+    "raw": "• ji '",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda (ε'_ji)"
+  },
+  "eq15": {
+    "page": 8,
+    "bbox": [
+      328.9,
+      668.3,
+      563.2,
+      755.9
+    ],
+    "raw": "• = + ω + ω ˆ A A cos( t ) B sen ( t ) (18) • • • n ∑ • 'ˆ − • 2 ( ' ) • • ji ji 100 % (19) • • • • • = i = 1 se ( ) j − • n 4 | * | • • j",
+    "latex": [
+      "\\hat{\\varepsilon}_{ji} = A_{\\varepsilon j0} + A_{\\varepsilon j1} \\cos(\\omega_0 t_i) + B_{\\varepsilon j1} \\operatorname{sen}(\\omega_0 t_i) \\tag{18}",
+      "se(\\varepsilon_j) = \\sqrt{\\frac{\\sum_{i=1}^{n} (\\hat{\\varepsilon}'_{ji} - \\varepsilon'_{ji})^2}{n - 4}} \\left(\\frac{100\\%}{|\\varepsilon_j^*|}\\right) \\tag{19}"
+    ]
+  },
+  "eq16": {
+    "page": 9,
+    "bbox": [
+      69.3,
+      336.5,
+      293.3,
+      606.4
+    ],
+    "raw": "m ∑ θ • j (20) = j 1 θ = m m ∑ • | * | j (21) = j 1 • = | * | m m ∑ • se ( ) j (22) = j 1 • = se ( ) m n = ∑ • − • 2 j i = 1 •• •• U • − • m 1 | * | • • m ∑ θ − θ 2 ( ) • • j (24) = j 1 = U θ − m 1",
+    "latex": [
+      "\\bar{\\theta} = \\frac{\\sum_{j=1}^{m} \\theta_{\\varepsilon j}}{m} \\tag{20}",
+      "|\\bar{\\varepsilon}^*| = \\frac{\\sum_{j=1}^{m} |\\varepsilon_j^*|}{m} \\tag{21}",
+      "se(\\varepsilon) = \\frac{\\sum_{j=1}^{m} se(\\varepsilon_j)}{m} \\tag{22}",
+      "U_\\varepsilon = \\sqrt{\\frac{\\sum_{i=1}^{n} \\left(|\\varepsilon_j^*| - |\\bar{\\varepsilon}^*|\\right)^2}{m - 1}} \\left(\\frac{100\\%}{|\\bar{\\varepsilon}^*|}\\right) \\tag{23}",
+      "U_\\theta = \\sqrt{\\frac{\\sum_{j=1}^{m} (\\theta_{\\varepsilon j} - \\theta_\\varepsilon)^2}{m - 1}} \\tag{24}"
+    ]
+  },
+  "eq17": {
+    "page": 9,
+    "bbox": [
+      340,
+      98,
+      560,
+      168
+    ],
+    "raw": "θ ω = θ − θ ( ) (25) • σ",
+    "latex": [
+      "\\theta(\\omega) = \\bar{\\theta}_\\varepsilon - \\theta_\\sigma \\tag{25}",
+      "|E^*(\\omega)| = \\frac{|\\sigma^*|}{|\\bar{\\varepsilon}^*|} \\tag{26}"
+    ],
+    "clip": [
+      340,
+      98,
+      560,
+      168
+    ]
+  },
+  "eq18": {
+    "page": 9,
+    "bbox": [
+      322.3,
+      194.5,
+      382.5,
+      224.7
+    ],
+    "raw": "θ (ω ) =",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda (θ(ω) =)"
+  },
+  "eq19": {
+    "page": 10,
+    "bbox": [
+      48.6,
+      486.9,
+      293.9,
+      514.7
+    ],
+    "raw": "chamados de fatores de deslocamento (𝒂 𝑻 ). As novas",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido"
+  },
+  "eq20": {
+    "page": 10,
+    "bbox": [
+      131.6,
+      549.9,
+      293.9,
+      577.7
+    ],
+    "raw": "𝑓 𝑟 = 𝑓𝑎 𝑇 (27)",
+    "latex": "f_r = f a_T \\tag{27}"
+  },
+  "eq21": {
+    "page": 10,
+    "bbox": [
+      368.3,
+      97.2,
+      563.0,
+      128.3
+    ],
+    "raw": "log 𝑎 𝑇 = 𝑎 1 𝑇 2 + 𝑎 2 𝑇+ 𝑎 3 (28)",
+    "latex": "\\log a_T = a_1 T^2 + a_2 T + a_3 \\tag{28}"
+  },
+  "eq22": {
+    "page": 10,
+    "bbox": [
+      364.7,
+      467.1,
+      563.0,
+      506.7
+    ],
+    "raw": "𝛼 log|𝐸̂ ∗ | = 𝛿+ 1 + 𝑒 𝛽+𝛾log 𝑓 𝑟 (29)",
+    "latex": "\\log\\left|\\hat{E}^*\\right| = \\delta + \\frac{\\alpha}{1 + e^{\\beta + \\gamma \\log f_r}} \\tag{29}"
+  },
+  "eq23": {
+    "page": 10,
+    "bbox": [
+      348.0,
+      500.8,
+      563.0,
+      549.1
+    ],
+    "raw": "𝑛 ∑𝑒𝑟𝑟𝑜 2 = ∑(log |𝐸̂ ∗ | −log |𝐸 ∗ |)² (30) 1",
+    "latex": "\\sum erro^2 = \\sum_{1}^{n} \\left(\\log|\\hat{E}^*| - \\log|E^*|\\right)^2 \\tag{30}"
+  },
+  "eq24": {
+    "page": 10,
+    "bbox": [
+      331.7,
+      572.6,
+      365.3,
+      600.0
+    ],
+    "raw": "|𝐸̂ ∗ |",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda"
+  },
+  "eq25": {
+    "page": 10,
+    "bbox": [
+      331.7,
+      597.2,
+      365.3,
+      624.6
+    ],
+    "raw": "|𝐸 ∗ |",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda"
+  },
+  "eq26": {
+    "page": 10,
+    "bbox": [
+      318.1,
+      621.8,
+      375.9,
+      648.4
+    ],
+    "raw": "𝛿, 𝛼, 𝛽 e 𝛾",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variáveis soltas de legenda"
+  },
+  "eq27": {
+    "page": 12,
+    "bbox": [
+      164.5,
+      505.1,
+      205.9,
+      582.1
+    ],
+    "raw": "1 Log ( 𝑎 T ) 0 -1",
+    "latex": "",
+    "ignorar": true,
+    "nota": "eixo de gráfico (Figura 2)"
+  },
+  "eq28": {
+    "page": 13,
+    "bbox": [
+      322.4,
+      631.2,
+      503.7,
+      725.0
+    ],
+    "raw": "de CP",
+    "latex": "",
+    "ignorar": true,
+    "nota": "rótulos de figura (esquema do ensaio)"
+  },
+  "eq29": {
+    "page": 15,
+    "bbox": [
+      243.9,
+      282.3,
+      327.1,
+      317.6
+    ],
+    "raw": "= ε F A | E |* est",
+    "latex": "F = A\\varepsilon\\,|E^*|_{est}"
+  },
+  "eq30": {
+    "page": 15,
+    "bbox": [
+      241.1,
+      569.4,
+      307.6,
+      620.1
+    ],
+    "raw": "| E |* = FP k | E |* est",
+    "latex": "k = \\frac{|E^*|_{FP}}{|E^*|_{est}}"
+  },
+  "eq31": {
+    "page": 15,
+    "bbox": [
+      226.6,
+      614.4,
+      324.0,
+      649.8
+    ],
+    "raw": "= ε F A | E est |* k",
+    "latex": "F = A\\varepsilon\\,|E^*|_{est}\\,k"
+  },
+  "eq32": {
+    "page": 19,
+    "bbox": [
+      48.6,
+      500.0,
+      296.8,
+      527.8
+    ],
+    "raw": "variação do log (a T ) ............................................ .......... 12",
+    "latex": "",
+    "ignorar": true,
+    "nota": "linha do índice de figuras"
+  },
+  "m01": {
+    "manual": true,
+    "page": 8,
+    "clip": [
+      330,
+      390,
+      560,
+      446
+    ],
+    "raw": "(16) e (17) - cadastradas manualmente",
+    "latex": [
+      "|\\varepsilon_j^{*}| = \\sqrt{A_{\\varepsilon j1}^{2} + B_{\\varepsilon j1}^{2}} \\tag{16}",
+      "\\theta_{\\varepsilon j1} = \\arctan\\left(-\\frac{B_{\\varepsilon j1}}{A_{\\varepsilon j1}}\\right) \\tag{17}"
+    ]
+  }
+}

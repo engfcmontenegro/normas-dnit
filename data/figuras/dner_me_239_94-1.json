@@ -1,0 +1,25 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      81.0,
+      86.0,
+      536.0,
+      708.8
+    ],
+    "legenda": "",
+    "ancora": "Os valores individuais não devem diferir da média em mais de 10%",
+    "texto_removido": [
+      "914,4 ma th",
+      "-— TUBO GUIA",
+      "203 ma",
+      "— PUNIL",
+      "60º",
+      "EXTRENIDADE INFERIOR DO FUNIL DEVE ADAPTAR-SE NO TUBO GUIA NA MONTAGEM DO",
+      "PARTE EXTERNA BEM APERTADA CONJUNTO",
+      "O EXTERNO 22,22 mm",
+      "O INTERNO 1905 mm",
+      "TIRAR REBARBAS DAS EXTREMIDADES"
+    ]
+  }
+}

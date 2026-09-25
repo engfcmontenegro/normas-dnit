@@ -1,0 +1,14 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "|  | Periodicidade |  | Formato de |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | Entrega |  |\n| Cadastral | Primeira inspeção (Construção/Reabilitação) | Cadastro no SGE (Anexo A) |  |  |\n| Rotineira | 2 anos | Cadastro no SGE (Anexo B) |  |  |\n| Extraordinária | Sob demanda (Motivada por um incidente) | Upload de Relatório no SGE |  |  |\n| Especial | 5 anos (ou sob demanda) | Upload de Relatório no SGE |  |  |\n| Intermediária | Sob demanda | Upload de Relatório no SGE |  |  |",
+    "para": "| Tipo de inspeção | Periodicidade | Formato de entrega |\n| --- | --- | --- |\n| Cadastral | Primeira inspeção (Construção/Reabilitação) | Cadastro no SGE (Anexo A) |\n| Rotineira | 2 anos | Cadastro no SGE (Anexo B) |\n| Extraordinária | Sob demanda (Motivada por um incidente) | Upload de Relatório no SGE |\n| Especial | 5 anos (ou sob demanda) | Upload de Relatório no SGE |\n| Intermediária | Sob demanda | Upload de Relatório no SGE |",
+    "nota": "Quadro 1 (tab01): cabeçalho partido e colunas deslocadas na detecção; primeira coluna sem título no PDF"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "|  | Estado de |  | Ocorrência |\n| --- | --- | --- | --- |\n|  | condição - EC |  |  |\n|  | 4 |  | Dano irrisório ou dano não encontrado. |\n|  | Bom |  |  |\n| 3 Razoável |  |  | O dano não afeta o desempenho do elemento e/ou já foram aplicadas medidas para impedir seu avanço. |\n| 2 Ruim |  |  | O dano não afeta o desempenho do elemento, mas afeta a vida útil do elemento, sem necessidade de avaliação estrutural. |\n| 1 Severo |  |  | Requer uma avaliação estrutural para avaliar o efeito na resistência ou funcionalidade do elemento ou da estrutura. |",
+    "para": "| Estado de condição - EC | Ocorrência |\n| --- | --- |\n| 4 - Bom | Dano irrisório ou dano não encontrado. |\n| 3 - Razoável | O dano não afeta o desempenho do elemento e/ou já foram aplicadas medidas para impedir seu avanço. |\n| 2 - Ruim | O dano não afeta o desempenho do elemento, mas afeta a vida útil do elemento, sem necessidade de avaliação estrutural. |\n| 1 - Severo | Requer uma avaliação estrutural para avaliar o efeito na resistência ou funcionalidade do elemento ou da estrutura. |",
+    "nota": "Tabela D1 (tab07): colunas deslocadas na detecção"
+  }
+}

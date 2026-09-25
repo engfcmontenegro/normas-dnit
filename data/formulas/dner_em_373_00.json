@@ -1,0 +1,16 @@
+{
+  "t01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "2,3g/cm 3 e 2,6g/cm 3 ,",
+    "para": "2,3 g/cm³ e 2,6 g/cm³,",
+    "nota": "5.9: expoente perdido"
+  },
+  "t02": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "1000 μ m",
+    "para": "1000 μm",
+    "nota": "3.1: unidade partida"
+  }
+}

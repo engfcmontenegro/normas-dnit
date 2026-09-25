@@ -1,0 +1,782 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      179.5,
+      292.8,
+      208.0
+    ],
+    "raw": "𝑃𝐶𝑃= 0,22 × 𝑇𝑁𝑀 (1)",
+    "latex": "PCP = 0{,}22 \\times TNM \\tag{1}"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      442.2,
+      294.0,
+      469.3
+    ],
+    "raw": "𝑃𝐶𝑆= 0,22 × 𝑃𝐶𝑃 (2)",
+    "latex": "PCS = 0{,}22 \\times PCP \\tag{2}"
+  },
+  "eq03": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      648.4,
+      294.0,
+      675.5
+    ],
+    "raw": "𝑃𝐶𝑇= 0,22 × 𝑃𝐶𝑆 (3)",
+    "latex": "PCT = 0{,}22 \\times PCS \\tag{3}"
+  },
+  "eq04": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      165.5,
+      563.4,
+      192.5
+    ],
+    "raw": "𝑃𝑀= 0,5 × 𝑇𝑁𝑀 (4)",
+    "latex": "PM = 0{,}5 \\times TNM \\tag{4}"
+  },
+  "eq05": {
+    "page": 3,
+    "bbox": [
+      322,
+      404,
+      556,
+      434
+    ],
+    "raw": "𝑃𝑟𝑜𝑝𝑜𝑟çã𝑜 𝐴𝐺= (5) 100−%𝑝𝑎𝑠𝑠𝑎𝑛𝑡𝑒 𝑃𝑀",
+    "latex": "\\textit{Proporção}\\ AG = \\frac{\\%passante\\ PM - \\%passante\\ PCP}{100 - \\%passante\\ PM} \\tag{5}",
+    "clip": [
+      322,
+      404,
+      556,
+      434
+    ]
+  },
+  "eq06": {
+    "page": 4,
+    "bbox": [
+      48.6,
+      214.2,
+      87.3,
+      240.5
+    ],
+    "raw": "𝑃𝐶𝑆:",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: 'PCS:' do fim do texto de 3.15"
+  },
+  "eq07": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      427.3,
+      563.4,
+      455.1
+    ],
+    "raw": "utilizando a 𝑀𝑈 𝑆 , expresso em percentual e calculado",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: texto de 3.22"
+  },
+  "eq08": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      472.5,
+      563.4,
+      511.6
+    ],
+    "raw": "𝑀𝑈 𝑆 1000×𝑀𝐸 𝑠𝑏 ) ∙100 % (8) 𝑉𝑣 𝐴𝐺𝑠 = (1 −",
+    "latex": "Vv_{AGs} = \\left(1 - \\frac{MU_{S}}{1000 \\times ME_{sb}}\\right) \\cdot 100\\ \\% \\tag{8}"
+  },
+  "eq09": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      738.5,
+      563.4,
+      767.1
+    ],
+    "raw": "utilizando a 𝑀𝑈 𝐶 , expresso em percentual e calculado",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: texto de 3.23"
+  },
+  "eq10": {
+    "page": 5,
+    "bbox": [
+      48.6,
+      61.3,
+      294.0,
+      100.4
+    ],
+    "raw": "𝑀𝑈 𝑐 1000×𝑀𝐸 𝑠𝑏 ) ∙100 % (9) 𝑉𝑣 𝐴𝐺𝑐 = (1 −",
+    "latex": "Vv_{AGc} = \\left(1 - \\frac{MU_{c}}{1000 \\times ME_{sb}}\\right) \\cdot 100\\ \\% \\tag{9}"
+  },
+  "eq11": {
+    "page": 5,
+    "bbox": [
+      48.6,
+      371.2,
+      293.4,
+      410.3
+    ],
+    "raw": "𝑀𝑈 𝐸 1000×𝑀𝐸 𝑠𝑏 ) ∙100 % (10) 𝑉𝑣 𝐴𝐺𝑚 = (1 −",
+    "latex": "Vv_{AGm} = \\left(1 - \\frac{MU_{E}}{1000 \\times ME_{sb}}\\right) \\cdot 100\\ \\% \\tag{10}"
+  },
+  "eq12": {
+    "page": 5,
+    "bbox": [
+      336.0,
+      342.1,
+      563.4,
+      368.5
+    ],
+    "raw": "determinar o 𝑇𝑁𝑀 da mistura de agregados,",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq13": {
+    "page": 5,
+    "bbox": [
+      336.0,
+      402.7,
+      563.4,
+      429.1
+    ],
+    "raw": "agregados, em função do 𝑇𝑁𝑀 da mistura de",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq14": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      126.0,
+      148.4,
+      153.7
+    ],
+    "raw": "𝑀𝑈 𝐸 é igual à 𝑀𝑈 𝐶 .",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq15": {
+    "page": 7,
+    "bbox": [
+      65.7,
+      218.2,
+      211.3,
+      246.0
+    ],
+    "raw": "varia de 95 % a 105 % da 𝑀𝑈 𝑆 ;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq16": {
+    "page": 7,
+    "bbox": [
+      65.7,
+      259.4,
+      184.3,
+      287.2
+    ],
+    "raw": "de 60 % a 85 % da 𝑀𝑈 𝑆 .",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq17": {
+    "page": 7,
+    "bbox": [
+      336.0,
+      61.3,
+      563.4,
+      89.0
+    ],
+    "raw": "graúdo da mistura, multiplicando a 𝑀𝑈 𝐸 de cada",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq18": {
+    "page": 7,
+    "bbox": [
+      318.1,
+      258.1,
+      563.4,
+      303.4
+    ],
+    "raw": "d) fino da mistura, multiplicando a 𝑀𝑈 𝐸 de cada",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq19": {
+    "page": 7,
+    "bbox": [
+      336.0,
+      517.6,
+      470.8,
+      543.9
+    ],
+    "raw": "determinar o 𝑇𝑁𝑀 e a 𝑃𝐶𝑃.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq20": {
+    "page": 8,
+    "bbox": [
+      48.6,
+      165.9,
+      293.4,
+      199.8
+    ],
+    "raw": "%𝐼𝑛𝑖.×𝐴𝐺@𝐴𝐹𝑡𝑜𝑡𝑎𝑙 ) (11) %𝐶𝑜𝑟. = %𝐼𝑛𝑖. +%𝐴𝐹@𝐴𝐺−( %𝐴𝐺𝑡𝑜𝑡𝑎𝑙",
+    "latex": "\\%Cor. = \\%Ini. + \\%AF@AG - \\left(\\frac{\\%Ini. \\times AG@AFtotal}{\\%AGtotal}\\right) \\tag{11}"
+  },
+  "eq21": {
+    "page": 8,
+    "bbox": [
+      48.6,
+      423.3,
+      294.0,
+      457.2
+    ],
+    "raw": "%𝐼𝑛𝑖.×𝐴𝐹@𝐴𝐺𝑡𝑜𝑡𝑎𝑙 ) (12) %𝐶𝑜𝑟. = %𝐼𝑛𝑖. +%𝐴𝐺@𝐴𝐹−( %𝐴𝐹𝑡𝑜𝑡𝑎𝑙",
+    "latex": "\\%Cor. = \\%Ini. + \\%AG@AF - \\left(\\frac{\\%Ini. \\times AF@AGtotal}{\\%AFtotal}\\right) \\tag{12}"
+  },
+  "eq22": {
+    "page": 8,
+    "bbox": [
+      318.1,
+      60.8,
+      562.2,
+      98.5
+    ],
+    "raw": "%𝑑𝑒𝑠𝑒𝑗𝑎𝑑𝑜−%𝑓𝑖𝑙𝑙𝑒𝑟 %𝑀𝑎𝑡𝐸= ( %𝑓𝑖𝑙𝑙𝑒𝑟 𝑛𝑜 𝑀𝑎𝑡𝐸 ) (13)",
+    "latex": "\\%MatE = \\left(\\frac{\\%desejado - \\%filler}{\\%filler\\ no\\ MatE}\\right) \\tag{13}"
+  },
+  "eq23": {
+    "page": 8,
+    "bbox": [
+      318.1,
+      353.1,
+      561.2,
+      390.7
+    ],
+    "raw": "%𝐶𝑜𝑟.×%𝑀𝑎𝑡𝐸 %𝐴𝐹= %𝐶𝑜𝑟. −( ) (14) %𝐴𝐹𝑡𝑜𝑡𝑎𝑙",
+    "latex": "\\%AF = \\%Cor. - \\left(\\frac{\\%Cor. \\times \\%MatE}{\\%AFtotal}\\right) \\tag{14}"
+  },
+  "eq24": {
+    "page": 13,
+    "bbox": [
+      48.6,
+      681.3,
+      263.3,
+      744.2
+    ],
+    "raw": "AG1: 𝑀𝑈 𝐸 = 1425 kg/m³ x 103% = 1467,8 kg/m³ AG2: 𝑀𝑈 𝐸 = 1400 kg/m³ x 103 % = 1442,0 kg/m³ AF1: 𝑀𝑈 𝐸 = 𝑀𝐸 𝐶 = 2167,0 kg/m³",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: linhas de cálculo do exemplo (texto)"
+  },
+  "eq25": {
+    "page": 14,
+    "bbox": [
+      48.6,
+      234.5,
+      286.1,
+      342.4
+    ],
+    "raw": "𝑀𝑈 𝐸 ) × % 𝐴𝐺 𝑉𝑣 𝐴𝐺𝑐 = (1 − 1000 × 𝑀𝐸 𝑆𝑏 1467,8 AG1: 𝑉𝑣 𝐴𝐺𝑐 = (1 − 1000×2,702 ) × 25,0 % = 11,42 % 1442,0 AG2: 𝑉𝑣 𝐴𝐺𝑐 = (1 − 1000×2,698 ) × 75,0 % = 34,91 % Total: 𝑉𝑣 𝐴𝐺𝑐 = 11,42 % + 34,91 % = 46,33 %",
+    "latex": [
+      "Vv_{AGc} = \\left(1 - \\frac{MU_{E}}{1000 \\times ME_{Sb}}\\right) \\times \\%\\, AG",
+      "\\text{AG1: } Vv_{AGc} = \\left(1 - \\frac{1467{,}8}{1000 \\times 2{,}702}\\right) \\times 25{,}0\\ \\% = 11{,}42\\ \\%",
+      "\\text{AG2: } Vv_{AGc} = \\left(1 - \\frac{1442{,}0}{1000 \\times 2{,}698}\\right) \\times 75{,}0\\ \\% = 34{,}91\\ \\%",
+      {
+        "texto": "Total: $Vv_{AGc}$ = 11,42 % + 34,91 % = 46,33 %"
+      }
+    ]
+  },
+  "eq26": {
+    "page": 16,
+    "bbox": [
+      48.6,
+      88.1,
+      345.4,
+      157.6
+    ],
+    "raw": "%Corrigido = % inicial + %AF@AG − ( %inicial × AG@AF total %AG total AG1: %Corrigido = 15,0 % + 0,28 % − ( 15,0 % × 8,23 % 15,0 % + 44,1 % ) )",
+    "latex": [
+      "\\text{\\%Corrigido} = \\text{\\% inicial} + \\text{\\%AF@AG} - \\left(\\frac{\\text{\\%inicial} \\times \\text{AG@AF total}}{\\text{\\%AG total}}\\right)",
+      "\\text{AG1: \\%Corrigido} = 15{,}0\\ \\% + 0{,}28\\ \\% - \\left(\\frac{15{,}0\\ \\% \\times 8{,}23\\ \\%}{15{,}0\\ \\% + 44{,}1\\ \\%}\\right)"
+    ]
+  },
+  "eq27": {
+    "page": 16,
+    "bbox": [
+      48.6,
+      162.2,
+      319.6,
+      202.6
+    ],
+    "raw": "AG2: %Corrigido = 44,1 % + 2,21 % − ( 44,1 % × 8,23 % 15,0 % + 44,1 % )",
+    "latex": "\\text{AG2: \\%Corrigido} = 44{,}1\\ \\% + 2{,}21\\ \\% - \\left(\\frac{44{,}1\\ \\% \\times 8{,}23\\ \\%}{15{,}0\\ \\% + 44{,}1\\ \\%}\\right)",
+    "nota": "2,21 % como no PDF (em i) do anexo o %AF@AG do AG2 é 2,20 %)"
+  },
+  "eq28": {
+    "page": 16,
+    "bbox": [
+      48.6,
+      247.3,
+      345.6,
+      316.5
+    ],
+    "raw": "%Corrigido = % inicial + %AG@AF − ( %inicial × AF@AG total %AF total AF1: %Corrigido = 40,9 % + 8,23 % − ( 40,9 % × 2,49 % 40,9 % ) )",
+    "latex": [
+      "\\text{\\%Corrigido} = \\text{\\% inicial} + \\text{\\%AG@AF} - \\left(\\frac{\\text{\\%inicial} \\times \\text{AF@AG total}}{\\text{\\%AF total}}\\right)",
+      "\\text{AF1: \\%Corrigido} = 40{,}9\\ \\% + 8{,}23\\ \\% - \\left(\\frac{40{,}9\\ \\% \\times 2{,}49\\ \\%}{40{,}9\\ \\%}\\right)"
+    ]
+  },
+  "eq29": {
+    "page": 16,
+    "bbox": [
+      48.6,
+      533.4,
+      237.9,
+      603.0
+    ],
+    "raw": "%MatE = ( % desejado −% filler ) % filler no MatE %MatE = ( 4,50 % −2,11 % ) = 2,66 % 90 %",
+    "latex": [
+      "\\text{\\%MatE} = \\left(\\frac{\\text{\\% desejado} - \\text{\\% filler}}{\\text{\\% filler no MatE}}\\right)",
+      "\\text{\\%MatE} = \\left(\\frac{4{,}50\\ \\% - 2{,}11\\ \\%}{90\\ \\%}\\right) = 2{,}66\\ \\%"
+    ]
+  },
+  "eq30": {
+    "page": 16,
+    "bbox": [
+      48.6,
+      689.8,
+      306.5,
+      759.0
+    ],
+    "raw": "%AF = %Corrigido −( %Corrigido × %MatE ) %AF total AF1: %AF = 46,68 % −( 46,68 % × 2,66 % ) = 44,02 % 46,68 %",
+    "latex": [
+      "\\text{\\%AF} = \\text{\\%Corrigido} - \\left(\\frac{\\text{\\%Corrigido} \\times \\text{\\%MatE}}{\\text{\\%AF total}}\\right)",
+      "\\text{AF1: \\%AF} = 46{,}68\\ \\% - \\left(\\frac{46{,}68\\ \\% \\times 2{,}66\\ \\%}{46{,}68\\ \\%}\\right) = 44{,}02\\ \\%"
+    ]
+  },
+  "m01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      322,
+      682,
+      556,
+      708
+    ],
+    "latex": "\\textit{Proporção}\\ GAF = \\frac{\\%passante\\ PCS}{\\%passante\\ PCP} \\tag{6}"
+  },
+  "m02": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      54,
+      247,
+      290,
+      276
+    ],
+    "latex": "\\textit{Proporção}\\ FAF = \\frac{\\%passante\\ PCT}{\\%passante\\ PCS} \\tag{7}"
+  },
+  "m03": {
+    "manual": true,
+    "page": 11,
+    "clip": [
+      60,
+      114,
+      560,
+      300
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Tabela B1 (quadro principal); a tabela markdown entra pelas entradas 'todas'"
+  },
+  "m04": {
+    "manual": true,
+    "page": 13,
+    "clip": [
+      140,
+      109,
+      475,
+      330
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Tabela C1; a tabela markdown entra pelas entradas 'todas'"
+  },
+  "m05": {
+    "manual": true,
+    "page": 15,
+    "clip": [
+      85,
+      82,
+      560,
+      264
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Tabela C2; a tabela markdown entra pelas entradas 'todas'"
+  },
+  "m06": {
+    "manual": true,
+    "page": 17,
+    "clip": [
+      85,
+      190,
+      560,
+      364
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Tabela C3; a tabela markdown entra pelas entradas 'todas'"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "\n3.5\n\nTamanho nominal máximo ($TNM$)\n",
+    "para": "\n**3.5** Tamanho nominal máximo ($TNM$)\n"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "\n3.9\n\nPeneira de Controle Primário ($PCP$)\n",
+    "para": "\n**3.9** Peneira de Controle Primário ($PCP$)\n"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "\n3.10\n\nPeneira de Controle Secundário ($PCS$)\n",
+    "para": "\n**3.10** Peneira de Controle Secundário ($PCS$)\n"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "\n3.11\n\nPeneira de Controle Terciário ($PCT$)\n",
+    "para": "\n**3.11** Peneira de Controle Terciário ($PCT$)\n"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "\n3.12\n\nPeneira Média ($PM$)\n",
+    "para": "\n**3.12** Peneira Média ($PM$)\n"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "\n3.13\n\nProporção de agregados graúdos ($AG$)\n",
+    "para": "\n**3.13** Proporção de agregados graúdos ($AG$)\n"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "\n3.14\n\nProporção graúda dos agregados finos ($GAF$)\n",
+    "para": "\n**3.14** Proporção graúda dos agregados finos ($GAF$)\n"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "\n3.15\n\nProporção fina dos agregados finos ($FAF$)\n",
+    "para": "\n**3.15** Proporção fina dos agregados finos ($FAF$)\n"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "\n3.16\n\nMassa Específica Aparente ($ME_{sb}$)\n",
+    "para": "\n**3.16** Massa Específica Aparente ($ME_{sb}$)\n"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "\n3.17\n\nMassa Unitária Solta ($MU_{S}$)\n",
+    "para": "\n**3.17** Massa Unitária Solta ($MU_{S}$)\n"
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "\n3.18\n\nMassa Unitária Compactada ($MU_{c}$)\n",
+    "para": "\n**3.18** Massa Unitária Compactada ($MU_{c}$)\n"
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "\n3.19\n\nMassa Unitária Escolhida ($MU_{E}$)\n",
+    "para": "\n**3.19** Massa Unitária Escolhida ($MU_{E}$)\n"
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "## 4 Verificação do intertravamento dos agregados\n\nde uma mistura de agregados conhecida",
+    "para": "## 4 Verificação do intertravamento dos agregados de uma mistura de agregados conhecida"
+  },
+  "t14": {
+    "todas": true,
+    "de_inicio": "**6.2** Para a seleção granulométrica pelo Método\n\nBailey",
+    "para": "**6.2** Para a seleção granulométrica pelo Método Bailey"
+  },
+  "t15": {
+    "todas": true,
+    "de_inicio": "a)\n\nDeterminar a $MU_{E}$ para cada",
+    "para": "a) Determinar a $MU_{E}$ para cada"
+  },
+  "t16": {
+    "todas": true,
+    "de_inicio": "b)\n\nDeterminar a contribuição de $MU_{E}$",
+    "para": "b) Determinar a contribuição de $MU_{E}$"
+  },
+  "t17": {
+    "todas": true,
+    "de_inicio": "d)\n\nDeterminar a contribuição de $MU_{E}$",
+    "para": "d) Determinar a contribuição de $MU_{E}$"
+  },
+  "t18": {
+    "todas": true,
+    "de_inicio": "%$passantePM$−%$passantePCP$\n\n",
+    "para": "",
+    "nota": "numerador da Equação 5 (já no bloco $$)"
+  },
+  "t19": {
+    "todas": true,
+    "de_inicio": "$Propor$çã$oAG$ é",
+    "para": "$\\textit{Proporção}\\ AG$ é"
+  },
+  "t20": {
+    "todas": true,
+    "de_inicio": "$Propor$çã$oGAF$ é",
+    "para": "$\\textit{Proporção}\\ GAF$ é"
+  },
+  "t21": {
+    "todas": true,
+    "de_inicio": "$Propor$çã$oFAF$ é",
+    "para": "$\\textit{Proporção}\\ FAF$ é"
+  },
+  "t22": {
+    "todas": true,
+    "de_inicio": "$V_{v}$$AGs$ é",
+    "para": "$V_{v_{AGs}}$ é",
+    "nota": "legenda como no PDF (V com índice v_AG..)"
+  },
+  "t23": {
+    "todas": true,
+    "de_inicio": "$V_{v}$$AGc$ é",
+    "para": "$V_{v_{AGc}}$ é",
+    "nota": "legenda como no PDF (V com índice v_AG..)"
+  },
+  "t24": {
+    "todas": true,
+    "de_inicio": "$V_{v}$$AGm$ é",
+    "para": "$V_{v_{AGm}}$ é",
+    "nota": "legenda como no PDF (V com índice v_AG..)"
+  },
+  "t25": {
+    "todas": true,
+    "de_inicio": "%$C_{or}$. é",
+    "para": "$\\%Cor.$ é"
+  },
+  "t26": {
+    "todas": true,
+    "de_inicio": "%$I_{ni}$. é",
+    "para": "$\\%Ini.$ é"
+  },
+  "t27": {
+    "todas": true,
+    "de_inicio": "%$AF$@$AG$ é",
+    "para": "$\\%AF@AG$ é"
+  },
+  "t28": {
+    "todas": true,
+    "de_inicio": "%$AG$@$AFtotal$ é",
+    "para": "$\\%AG@AFtotal$ é"
+  },
+  "t29": {
+    "todas": true,
+    "de_inicio": "%$AGtotal$ é",
+    "para": "$\\%AGtotal$ é"
+  },
+  "t30": {
+    "todas": true,
+    "de_inicio": "%$AG$@$AF$ é",
+    "para": "$\\%AG@AF$ é"
+  },
+  "t31": {
+    "todas": true,
+    "de_inicio": "%$AF$@$AGtotal$ é",
+    "para": "$\\%AF@AGtotal$ é"
+  },
+  "t32": {
+    "todas": true,
+    "de_inicio": "%$AFtotal$ é",
+    "para": "$\\%AFtotal$ é"
+  },
+  "t33": {
+    "todas": true,
+    "de_inicio": "%$MatE$ é",
+    "para": "$\\%MatE$ é"
+  },
+  "t34": {
+    "todas": true,
+    "de_inicio": "%$desejado$ é",
+    "para": "$\\%desejado$ é"
+  },
+  "t35": {
+    "todas": true,
+    "de_inicio": "%$filler$ é",
+    "para": "$\\%filler$ é"
+  },
+  "t36": {
+    "todas": true,
+    "de_inicio": "%$fillernoMatE$ é",
+    "para": "$\\%filler\\ no\\ MatE$ é"
+  },
+  "t37": {
+    "todas": true,
+    "de_inicio": "%$AF$ é o percentual final",
+    "para": "$\\%AF$ é o percentual final"
+  },
+  "t38": {
+    "todas": true,
+    "de_inicio": "\n\nAnexo B (Informativo) – Exemplos",
+    "para": "\n\n## Anexo B (Informativo) – Exemplos"
+  },
+  "t39": {
+    "todas": true,
+    "de_inicio": "Tabela B1 – Exemplo 1 – Verificação do intertravamento de uma mistura conhecida – Comportamento graúdo\n\n| # 8 | 2,36 |  |  |  |  |  |  |  |  | 38,6 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| # 16 # 30 | 1,18 0,60 |  |  |  |  |  |  |  |  | 30,0 18,3 |\n| # 50 | 0,30 | 0,1 | 0,0 | 0,1 | 0,0 | 23,7 | 9,2 | 100,0 | 3,0 | 12,3 |\n\n![[dnit_438_2022_pro_tab06.png]]",
+    "para": "Tabela B1 – Exemplo 1 – Verificação do intertravamento de uma mistura conhecida – Comportamento graúdo\n\n| Peneira |  | Brita 1 |  | Brita 0 |  | Pó de pedra |  | Cal |  | Mistura |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Id. | mm | % Utilizado | 28,0 | % Utilizado | 30,0 | % Utilizado | 39,0 | % Utilizado | 3,0 | 100,0 |\n|  |  | % Passante |  |  |  |  |  |  |  |  |\n|  |  | Fração | Mistura | Fração | Mistura | Fração | Mistura | Fração | Mistura | Total |\n| 1'' | 25,0 | 100,0 | 28,0 | 100,0 | 30,0 | 100,0 | 39,0 | 100,0 | 3,0 | 100,0 |\n| 3/4'' | 19,0 | 99,5 | 27,9 | 100,0 | 30,0 | 100,0 | 39,0 | 100,0 | 3,0 | 99,9 |\n| 1/2'' | 12,5 | 82,8 | 23,2 | 100,0 | 30,0 | 100,0 | 39,0 | 100,0 | 3,0 | 95,2 |\n| 3/8'' | 9,50 | 40,6 | 11,4 | 95,8 | 28,7 | 100,0 | 39,0 | 100,0 | 3,0 | 82,1 |\n| 1/4'' | 6,30 | 13,4 | 3,8 | 49,3 | 14,8 | 100,0 | 39,0 | 100,0 | 3,0 | 60,5 |\n| # 4 | 4,75 | 1,3 | 0,4 | 20,2 | 6,1 | 97,3 | 37,9 | 100,0 | 3,0 | 47,4 |\n| # 8 | 2,36 | 0,2 | 0,1 | 11,2 | 3,4 | 82,5 | 32,2 | 100,0 | 3,0 | 38,6 |\n| # 16 | 1,18 | 0,2 | 0,1 | 7,6 | 2,3 | 63,2 | 24,6 | 100,0 | 3,0 | 30,0 |\n| # 30 | 0,60 | 0,1 | 0,0 | 0,2 | 0,1 | 39,1 | 15,2 | 100,0 | 3,0 | 18,3 |\n| # 50 | 0,30 | 0,1 | 0,0 | 0,1 | 0,0 | 23,7 | 9,2 | 100,0 | 3,0 | 12,3 |\n| # 100 | 0,150 | 0,1 | 0,0 | 0,1 | 0,0 | 12,6 | 4,9 | 100,0 | 3,0 | 8,0 |\n| # 200 | 0,075 | 0,0 | 0,0 | 0,1 | 0,0 | 3,0 | 1,2 | 99,0 | 3,0 | 4,2 |\n\n![[dnit_438_2022_pro_m03.png]]",
+    "nota": "Tabela B1: quadro principal refeito (m03)"
+  },
+  "t40": {
+    "todas": true,
+    "de_inicio": "Tipo de Comportamento da Mistura de Agregados:\n\nVerificação das Peneiras de Controle\n\n| Peneiras de Controle |  |  |\n",
+    "para": "Tipo de Comportamento da Mistura de Agregados: **Graúdo**\n\nVerificação das Peneiras de Controle\n\n| Peneiras de Controle |  |  |\n"
+  },
+  "t41": {
+    "todas": true,
+    "de_inicio": "| Proporções | Limites | Valor |\n| --- | --- | --- |\n| AG GAF | 0,50-0,65 0,35-0,50 | 0,56 0,48 |\n| FAF | 0,35-0,50 | 0,43 |",
+    "para": "| Proporções | Limites | Valor | Enquadramento |\n| --- | --- | --- | --- |\n| AG | 0,50-0,65 | 0,56 | Sim |\n| GAF | 0,35-0,50 | 0,48 | Sim |\n| FAF | 0,35-0,50 | 0,43 | Sim |"
+  },
+  "t42": {
+    "todas": true,
+    "de_inicio": "Graúdo\n\nParecer:\n\nComposição granulométrica foi\n\nSim enquadrada dentro de todos os limites\n\nSim propostos pelo Método Bailey\n\nSim\n\n",
+    "para": "Parecer: Composição granulométrica foi enquadrada dentro de todos os limites propostos pelo Método Bailey\n\n"
+  },
+  "t43": {
+    "todas": true,
+    "de_inicio": "Tipo de Comportamento da Mistura de Agregados:\n\nVerificação das Peneiras de Controle\n\n| Peneiras de Controle |  |  | Novas Peneiras |",
+    "para": "Tipo de Comportamento da Mistura de Agregados: **Fino**\n\nVerificação das Peneiras de Controle\n\n| Peneiras de Controle |  |  | Novas Peneiras |"
+  },
+  "t44": {
+    "todas": true,
+    "de_inicio": "|  |  |  | Novos limites |  |\n| --- | --- | --- | --- | --- |\n| Proporções | Limites | Valor | Limites | Valor |\n| AG | 0,60-0,75 | 0,96 | 0,60-1,00 | 0,79 |\n| GAF | 0,35-0,50 | 0,62 | 0,35-0,50 | 0,47 |\n| FAF | 0,35-0,50 | 0,47 | 0,35-0,50 | 0,36 |",
+    "para": "| Proporções | Limites | Valor | Novos limites | Valor (novos limites) | Enquadramento |\n| --- | --- | --- | --- | --- | --- |\n| AG | 0,60-0,75 | 0,96 | 0,60-1,00 | 0,79 | Sim |\n| GAF | 0,35-0,50 | 0,62 | 0,35-0,50 | 0,47 | Sim |\n| FAF | 0,35-0,50 | 0,47 | 0,35-0,50 | 0,36 | Sim |"
+  },
+  "t45": {
+    "todas": true,
+    "de_inicio": "\n\nFino\n\nObservação:\n\nPor conta do comportamento fino da mistura, definem-se novas peneiras e calculam-se novos percentuais passantes, considerando o que passa na PCP original como 100%. Também são definidos novos limites para as proporções calculadas a partir dos percentuais passantes nas peneiras de controle.\n\nParecer:\n\nEnquadramento Composição granulométrica foi enquadrada dentro de todos os limites\n\nSim propostos pelo Método Bailey\n\nSim\n\nSim\n\n",
+    "para": "\n\nObservação: Por conta do comportamento fino da mistura, definem-se novas peneiras e calculam-se novos percentuais passantes, considerando o que passa na PCP original como 100%. Também são definidos novos limites para as proporções calculadas a partir dos percentuais passantes nas peneiras de controle.\n\nParecer: Composição granulométrica foi enquadrada dentro de todos os limites propostos pelo Método Bailey\n\n"
+  },
+  "t46": {
+    "todas": true,
+    "de_inicio": "Tabela C1 – Dados de entrada dos agregados\n\nNomenclatura",
+    "para": "Tabela C1 – Dados de entrada dos agregados\n\n| Peneira – Id. | Peneira – mm | AG1 | AG2 | AF1 | MatE |\n| --- | --- | --- | --- | --- | --- |\n| 1'' | 25,0 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 3/4'' | 19,0 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 1/2'' | 12,5 | 94,0 | 100,0 | 100,0 | 100,0 |\n| 3/8'' | 9,50 | 38,0 | 99,0 | 100,0 | 100,0 |\n| 1/4'' | 6,30 | 17,0 | 75,0 | 100,0 | 100,0 |\n| # 4 | 4,75 | 3,0 | 30,0 | 99,0 | 100,0 |\n| # 8 | 2,36 | 1,9 | 5,0 | 79,9 | 100,0 |\n| # 16 | 1,18 | 1,8 | 2,5 | 48,8 | 100,0 |\n| # 30 | 0,60 | 1,8 | 1,9 | 29,0 | 100,0 |\n| # 50 | 0,30 | 1,8 | 1,4 | 14,2 | 100,0 |\n| # 100 | 0,150 | 1,8 | 1,3 | 8,8 | 98,0 |\n| # 200 | 0,075 | 1,7 | 1,2 | 3,0 | 90,0 |\n\n| Parâmetro | AG1 | AG2 | AF1 | MatE |\n| --- | --- | --- | --- | --- |\n| Massa específica aparente (g/cm³) | 2,702 | 2,698 | 3,162 | 2,806 |\n| Massa unitária solta (kg/m³) | 1425 | 1400 | - | - |\n| Massa unitária compactada (kg/m³) | 1608 | 1592 | 2167 | - |\n\n![[dnit_438_2022_pro_m04.png]]\n\nNomenclatura",
+    "nota": "Tabela C1 (o recorte fig02 detectado era só parte dela)"
+  },
+  "t47": {
+    "todas": true,
+    "de_inicio": "Determinar a massa unitária escolhida ($MU_{E}$) para cada agregado graúdo, como um percentual da massa unitária solta\n\na) ",
+    "para": "a) Determinar a massa unitária escolhida ($MU_{E}$) para cada agregado graúdo, como um percentual da massa unitária solta "
+  },
+  "t48": {
+    "todas": true,
+    "de_inicio": "Determinar a contribuição de cada agregado graúdo na massa unitária escolhida da mistura, de acordo com as\n\nb) ",
+    "para": "b) Determinar a contribuição de cada agregado graúdo na massa unitária escolhida da mistura, de acordo com as "
+  },
+  "t49": {
+    "todas": true,
+    "de_inicio": "Determinar o percentual de vazios em cada agregado graúdo na mistura compactada, de acordo com a sua massa\n\nc) ",
+    "para": "c) Determinar o percentual de vazios em cada agregado graúdo na mistura compactada, de acordo com a sua massa "
+  },
+  "t50": {
+    "todas": true,
+    "de_inicio": "Determinar a contribuição de cada agregado fino na massa unitária escolhida da mistura, de acordo com o percentual\n\nd) ",
+    "para": "d) Determinar a contribuição de cada agregado fino na massa unitária escolhida da mistura, de acordo com o percentual "
+  },
+  "t51": {
+    "todas": true,
+    "de_inicio": "Determinar a porcentagem de material passante na $PCP$ para cada agregado graúdo e a porcentagem de material retido\n\nh) ",
+    "para": "h) Determinar a porcentagem de material passante na $PCP$ para cada agregado graúdo e a porcentagem de material retido "
+  },
+  "t52": {
+    "todas": true,
+    "de_inicio": "Determinar a porcentagem de agregados finos em cada fração de agregado graúdo, de acordo com a sua porcentagem\n\ni) ",
+    "para": "i) Determinar a porcentagem de agregados finos em cada fração de agregado graúdo, de acordo com a sua porcentagem "
+  },
+  "t53": {
+    "todas": true,
+    "de_inicio": "Determinar a porcentagem de agregados graúdos em cada fração de agregado fino, de acordo com a sua porcentagem\n\nj) ",
+    "para": "j) Determinar a porcentagem de agregados graúdos em cada fração de agregado fino, de acordo com a sua porcentagem "
+  },
+  "t54": {
+    "todas": true,
+    "de_inicio": "Corrigir os percentuais iniciais dos agregados graúdos e finos em função do percentual de finos nos agregados graúdos\n\nk) ",
+    "para": "k) Corrigir os percentuais iniciais dos agregados graúdos e finos em função do percentual de finos nos agregados graúdos "
+  },
+  "t55": {
+    "todas": true,
+    "de_inicio": "Determinar a porcentagem final de agregado fino, adicionando a porcentagem de material de enchimento ao agregado\n\nn) ",
+    "para": "n) Determinar a porcentagem final de agregado fino, adicionando a porcentagem de material de enchimento ao agregado "
+  },
+  "t56": {
+    "todas": true,
+    "de_inicio": "Montar a composição granulométrica preliminar e determinar o $TNM$ e a $PCP$ da mistura de agregados.\n\ng)\n\n",
+    "para": "g) Montar a composição granulométrica preliminar e determinar o $TNM$ e a $PCP$ da mistura de agregados.\n\n"
+  },
+  "t57": {
+    "todas": true,
+    "de_inicio": "Determinar a porcentagem de filler para cada agregado, após as correções de percentuais, e somar.\n\nl)\n\n",
+    "para": "l) Determinar a porcentagem de filler para cada agregado, após as correções de percentuais, e somar.\n\n"
+  },
+  "t58": {
+    "todas": true,
+    "de_inicio": "= 0,22 %. AG2: % passante",
+    "para": "= 0,22 %.\nAG2: % passante"
+  },
+  "t59": {
+    "todas": true,
+    "de_inicio": "= 0,48 %. AF1: % passante",
+    "para": "= 0,48 %.\nAF1: % passante"
+  },
+  "t60": {
+    "todas": true,
+    "de_inicio": "= 1,40 %. Total: 0,22 %",
+    "para": "= 1,40 %.\nTotal: 0,22 %"
+  },
+  "t61": {
+    "todas": true,
+    "de_inicio": "Tabela C2 – Composição granulométrica preliminar\n\n| TNM | 9,50 mm |",
+    "para": "Tabela C2 – Composição granulométrica preliminar\n\n| Peneira |  | AG1 |  | AG2 |  | AF1 |  | MatE |  | Mistura |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Id. | mm | % | 15,0 | % | 44,1 | % | 40,9 | % | 0,0 | 100,0 |\n|  |  | % Passante |  |  |  |  |  |  |  |  |\n|  |  | Fração | Mistura | Fração | Mistura | Fração | Mistura | Fração | Mistura | Total |\n| 1'' | 25,0 | 100,0 | 15,0 | 100,0 | 44,1 | 100,0 | 40,9 | 100,0 | 0,0 | 100,0 |\n| 3/4'' | 19,0 | 100,0 | 15,0 | 100,0 | 44,1 | 100,0 | 40,9 | 100,0 | 0,0 | 100,0 |\n| 1/2'' | 12,5 | 94,0 | 14,1 | 100,0 | 44,1 | 100,0 | 40,9 | 100,0 | 0,0 | 99,1 |\n| 3/8'' | 9,50 | 38,0 | 5,7 | 99,0 | 43,7 | 100,0 | 40,9 | 100,0 | 0,0 | 90,3 |\n| 1/4'' | 6,30 | 17,0 | 2,5 | 75,0 | 33,1 | 100,0 | 40,9 | 100,0 | 0,0 | 76,6 |\n| # 4 | 4,75 | 3,0 | 0,4 | 30,0 | 13,2 | 99,0 | 40,5 | 100,0 | 0,0 | 54,2 |\n| # 8 | 2,36 | 1,9 | 0,3 | 5,0 | 2,2 | 79,9 | 32,7 | 100,0 | 0,0 | 35,2 |\n| # 16 | 1,18 | 1,8 | 0,3 | 2,5 | 1,1 | 48,8 | 20,0 | 100,0 | 0,0 | 21,4 |\n| # 30 | 0,60 | 1,8 | 0,3 | 1,9 | 0,8 | 29,0 | 11,9 | 100,0 | 0,0 | 13,0 |\n| # 50 | 0,30 | 1,8 | 0,3 | 1,4 | 0,6 | 14,2 | 5,8 | 100,0 | 0,0 | 6,7 |\n| # 100 | 0,150 | 1,8 | 0,3 | 1,3 | 0,6 | 8,8 | 3,6 | 98,0 | 0,0 | 4,4 |\n| # 200 | 0,075 | 1,7 | 0,3 | 1,2 | 0,5 | 3,0 | 1,2 | 90,0 | 0,0 | 2,0 |\n\n![[dnit_438_2022_pro_m05.png]]\n\n| TNM | 9,50 mm |"
+  },
+  "t62": {
+    "todas": true,
+    "de_inicio": "Tabela C3 – Composição granulométrica final\n\n| TMN | 9,50 mm |",
+    "para": "Tabela C3 – Composição granulométrica final\n\n| Peneira |  | AG1 |  | AG2 |  | AF1 |  | Filler |  | Mistura |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Id. | mm | % | 13,16 | % | 40,16 | % | 44,02 | % | 2,66 | 100,0 |\n|  |  | Fração | Mistura | Fração | Mistura | Fração | Mistura | Fração | Mistura | Total |\n| 1'' | 25,0 | 100,0 | 13,16 | 100,0 | 40,16 | 100,0 | 44,02 | 100,0 | 2,66 | 100,00 |\n| 3/4'' | 19,0 | 100,0 | 13,16 | 100,0 | 40,16 | 100,0 | 44,02 | 100,0 | 2,66 | 100,00 |\n| 1/2'' | 12,5 | 94,0 | 12,37 | 100,0 | 40,16 | 100,0 | 44,02 | 100,0 | 2,66 | 99,21 |\n| 3/8'' | 9,50 | 38,0 | 5,00 | 99,0 | 39,76 | 100,0 | 44,02 | 100,0 | 2,66 | 91,44 |\n| 1/4'' | 6,30 | 17,0 | 2,24 | 75,0 | 30,12 | 100,0 | 44,02 | 100,0 | 2,66 | 79,04 |\n| # 4 | 4,75 | 3,0 | 0,39 | 30,0 | 12,05 | 99,0 | 43,58 | 100,0 | 2,66 | 58,68 |\n| # 8 | 2,36 | 1,9 | 0,25 | 5,0 | 2,01 | 79,9 | 35,17 | 100,0 | 2,66 | 40,09 |\n| # 16 | 1,18 | 1,8 | 0,24 | 2,5 | 1,00 | 48,8 | 21,48 | 100,0 | 2,66 | 25,38 |\n| # 30 | 0,60 | 1,8 | 0,24 | 1,9 | 0,76 | 29,0 | 12,77 | 100,0 | 2,66 | 16,43 |\n| # 50 | 0,30 | 1,8 | 0,24 | 1,4 | 0,56 | 14,2 | 6,25 | 100,0 | 2,66 | 9,71 |\n| # 100 | 0,150 | 1,8 | 0,24 | 1,3 | 0,52 | 8,8 | 3,87 | 98,0 | 2,61 | 7,24 |\n| # 200 | 0,075 | 1,7 | 0,22 | 1,2 | 0,48 | 3,0 | 1,32 | 90,0 | 2,39 | 4,42 |\n\n![[dnit_438_2022_pro_m06.png]]\n\n| TMN | 9,50 mm |"
+  },
+  "t63": {
+    "todas": true,
+    "de_inicio": "| Proporções | Limites | Valor |\n| --- | --- | --- |\n| AG | 0,40-0,55 | 0,45 |\n| GAF | 0,35-0,50 | 0,41 |\n| FAF | 0,35-0,50 | 0,44 |",
+    "para": "| Proporções | Limites | Valor | Enquadramento |\n| --- | --- | --- | --- |\n| AG | 0,40-0,55 | 0,45 | Sim |\n| GAF | 0,35-0,50 | 0,41 | Sim |\n| FAF | 0,35-0,50 | 0,44 | Sim |"
+  },
+  "t64": {
+    "todas": true,
+    "de_inicio": "\n\nSim\n\nSim\n\nSim\n\nParecer:\n\nComposição granulométrica foi enquadrada",
+    "para": "\n\nParecer: Composição granulométrica foi enquadrada"
+  }
+}

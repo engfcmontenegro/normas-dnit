@@ -1,0 +1,58 @@
+{
+  "fig01": {
+    "page": 6,
+    "bbox": [
+      134.9,
+      189.8,
+      567.7,
+      828.0
+    ],
+    "legenda": "FIGURA | - MOLDE CILÍNDRICO, CILINDRO COMPLEMENTAR",
+    "ancora": "FIGURA | - MOLDE CILÍNDRICO, CILINDRO COMPLEMENTAR",
+    "manual": true,
+    "texto_removido": [
+      "## 8 p",
+      "A A",
+      "## 7 Lg",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `/ 0,63 ç j g h / CORTE aq A ff 1 “ / A`",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `F sz E a a o S DISCO ú a ESPAÇADOR e (aço)`",
+      "/) 18,00t/0p5 4:",
+      "## 4 o",
+      "Ji,00",
+      "18,87 Fr REBAIXO 1,60 — 21,27",
+      "23,81 1] %",
+      "UNIDADE DE MEDIDA: CENTÍMETRO (cm)",
+      "Eal—",
+      "ORIFÍCIO DE 0,32 NO PRATO DE BASE",
+      "FIGURAS 2,3 aço q —+",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `M 8 8 Aço o 9,`",
+      "Z",
+      "VISTA SUPERIOR",
+      "BRONZE",
+      "OU, LATÃO 16,5!",
+      "15,24 £ 006",
+      "Se",
+      "UNIDADE DE MEDIDA : CENTÍMETRO (cm)"
+    ]
+  },
+  "fig02": {
+    "page": 7,
+    "bbox": [
+      172.0,
+      253.0,
+      493.7,
+      607.3
+    ],
+    "legenda": "FIGURA 2- DISCO ESPAÇADOR",
+    "ancora": "FIGURA 2- DISCO ESPAÇADOR",
+    "manual": true,
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `CN 4 61,80 z & o 0,24 44 05,24 o o + BRONZE ai VV o`",
+      "FERRO",
+      "VISTA -SUPERIOR / 6) Larão",
+      "BI5po+ 0,05",
+      "## 9 dj",
+      "A 0508 . 20,01 CORTE CORTE"
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "eq01": {
+    "page": 5,
+    "clip": [
+      62,
+      718,
+      200,
+      758
+    ],
+    "latex": [
+      "h = \\frac{P_h - P_s}{P_s} \\times 100"
+    ],
+    "de_inicio": "pela fórmula:\nPh - Ps h=—————— x 100 Ps onde:\n\n-teor de umidade, em percentagem;\n\nPh - peso do solo úmido;\n\nPs - peso do solo seco.",
+    "de_fim": "Ps - peso do solo seco.",
+    "para": "pela fórmula:\n\n$$\nh = \\frac{P_h - P_s}{P_s} \\times 100\n$$\n\nonde:\n\n$h$ - teor de umidade, em percentagem;\n$P_h$ - peso do solo úmido;\n$P_s$ - peso do solo seco.",
+    "nota": "7.1 cita '5.10', item que não existe (a norma vai até 5.9): possível erro do PDF (p. 5)"
+  },
+  "eq02": {
+    "page": 6,
+    "clip": [
+      62,
+      130,
+      200,
+      170
+    ],
+    "latex": [
+      "\\varepsilon = \\frac{\\Delta H}{H_o}"
+    ],
+    "de_inicio": "pela fórmula:\n\n€ “Ho onde:\n\nE - deformação específica;\n\nAH - decréscimo de altura do corpo-de-prova;\n\nHo - altura inicial do corpo-de-prova.",
+    "de_fim": "Ho - altura inicial do corpo-de-prova.",
+    "para": "pela fórmula:\n\n$$\n\\varepsilon = \\frac{\\Delta H}{H_o}\n$$\n\nonde:\n\n$\\varepsilon$ - deformação específica;\n$\\Delta H$ - decréscimo de altura do corpo-de-prova;\n$H_o$ - altura inicial do corpo-de-prova."
+  },
+  "eq03": {
+    "page": 6,
+    "clip": [
+      62,
+      318,
+      200,
+      364
+    ],
+    "latex": [
+      "A = \\frac{A_o}{1 - \\varepsilon}"
+    ],
+    "de_inicio": "pela fórmula:\n\nAo A= —\n\n1-€ onde:\n\nA -área corrigida, em cm”;\n\na. 2 Ao - área inicial do corpo-de-prova, em cm”;\n\nE - deformação específica.",
+    "de_fim": "E - deformação específica.",
+    "para": "pela fórmula:\n\n$$\nA = \\frac{A_o}{1 - \\varepsilon}\n$$\n\nonde:\n\n$A$ - área corrigida, em cm²;\n$A_o$ - área inicial do corpo-de-prova, em cm²;\n$\\varepsilon$ - deformação específica."
+  },
+  "eq04": {
+    "page": 6,
+    "clip": [
+      62,
+      515,
+      140,
+      556
+    ],
+    "latex": [
+      "p = \\frac{P}{A}"
+    ],
+    "de_inicio": "pela fórmula:\n\np=—\n\nA onde:\n\np - pressão, em kN/m?;\n\nP - carga aplicada ao corpo-de-prova, em kN;\n\nA - área corrigida do corpo-de-prova, em m?.",
+    "de_fim": "A - área corrigida do corpo-de-prova, em m?.",
+    "para": "pela fórmula:\n\n$$\np = \\frac{P}{A}\n$$\n\nonde:\n\n$p$ - pressão, em kN/m²;\n$P$ - carga aplicada ao corpo-de-prova, em kN;\n$A$ - área corrigida do corpo-de-prova, em m²."
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "relacionadas com as cargas por de “transmitidas (ver Tabela anexa).",
+    "para": "relacionadas com as cargas por de transmitidas (ver Tabela anexa).",
+    "nota": "7.4 Nota: 'por de transmitidas' está assim no PDF (p. 6)"
+  },
+  "eq05": {
+    "page": 6,
+    "clip": [
+      62,
+      806,
+      140,
+      828
+    ],
+    "latex": [
+      "R = p_{\\text{max}}",
+      "R = p_{20\\%}",
+      "c = \\frac{R}{2}"
+    ],
+    "de_inicio": "**8.1** Traça-se gráfico marcando-se no eixo das abscissas a",
+    "de_fim": "FIGURA 4 - FOLHA DE ENSAIO DE COMPRESSÃO SIMPLES",
+    "para": "**8.1** Traça-se gráfico marcando-se no eixo das abscissas as deformações específicas (Anexo - Figura. 3) do corpo-de-prova, em porcentagem, e no eixo das ordenadas as pressões aplicadas ao mesmo. A ordenada máxima da curva obtida é a resistência à compressão do solo ensaiado:\n\n$$\nR = p_{\\text{max}}\n$$\n\n**8.2** Quando há ruptura plástica do corpo-de-prova, a resistência à compressão é a ordenada correspondente à deformação específica de 20%:\n\n$$\nR = p_{20\\%}\n$$\n\n**8.3** A resistência ao cisalhamento ou coesão do solo ensaiado é a metade da resistência à compressão:\n\n$$\nc = \\frac{R}{2}\n$$\n\nNota:\nA Figura 4 em anexo, apresenta a folha de ensaio de compressão simples de deformação controlada correspondente ao gráfico da Figura. 3.\n\n## ANEXO NORMATIVO\n\n### Tabela - Calibração do anel dinamométrico\n\n| Leitura do defletômetro (pol × 10⁻⁴) | Carga (g) | Leitura do defletômetro (pol × 10⁻⁴) | Carga (g) |\n| --- | --- | --- | --- |\n| 1 | 150 | 35 | 5 150 |\n| 2 | 300 | 36 | 5 300 |\n| 3 | 450 | 37 | 5 450 |\n| 4 | 600 | 38 | 5 600 |\n| 5 | 750 | 39 | 5 750 |\n| 6 | 900 | 40 | 5 900 |\n| 7 | 1 050 | 41 | 6 050 |\n| 8 | 1 200 | 42 | 6 200 |\n| 9 | 1 350 | 43 | 6 350 |\n| 10 | 1 500 | 44 | 6 500 |\n| 11 | 1 650 | 45 | 6 650 |\n| 12 | 1 800 | 46 | 6 800 |\n| 13 | 1 900 | 47 | 6 900 |\n| 14 | 2 050 | 48 | 7 050 |\n| 15 | 2 200 | 49 | 7 200 |\n| 16 | 2 350 | 50 | 7 350 |\n| 17 | 2 500 | 51 | 7 500 |\n| 18 | 2 650 | 52 | 7 650 |\n| 19 | 2 800 | 53 | 7 800 |\n| 20 | 2 950 | 54 | 7 950 |\n| 21 | 3 100 | 55 | 8 100 |\n| 22 | 3 250 | 56 | 8 250 |\n| 23 | 3 400 | 57 | 8 400 |\n| 24 | 3 550 | 58 | 8 550 |\n| 25 | 3 700 | 59 | 8 700 |\n| 26 | 3 850 | 60 | 8 850 |\n| 27 | 4 000 | 61 | 9 000 |\n| 28 | 4 150 | 62 | 9 150 |\n| 29 | 4 300 | 63 | 9 300 |\n| 30 | 4 450 | 64 | 9 400 |\n| 31 | 4 600 | 65 | 9 550 |\n| 32 | 4 700 | 66 | 9 700 |\n| 33 | 4 850 | 67 | 9 850 |\n| 34 | 5 000 | 68 | 10 000 |\n\n![[dner_ie_004_94-1_tabm01.png]]\n\n![[dner_ie_004_94-1_fig01.png]]\n\n### FIGURA 1 - EXTRATOR DE AMOSTRAS INDEFORMADAS DO TUBO DE PAREDE FINA (SHELBY), EM OPERAÇÃO\n\n### FIGURA 2 - A PARTIR DA ESQUERDA: GABARITO, PARA CORTAR O CORPO-DE-PROVA NA ALTURA REQUERIDA, DESBASTADOR DE AMOSTRAS E APARELHO DE COMPRESSÃO SIMPLES\n\n![[dner_ie_004_94-1_fig02.png]]\n\n### FIGURA 3\n\n![[dner_ie_004_94-1_fig03.png]]\n\n### FIGURA 4 - FOLHA DE ENSAIO DE COMPRESSÃO SIMPLES",
+    "nota": "8.1-8.3 e anexo reescritos pelo PDF: tabela de calibração (tabm01) + Figuras 1 e 2 (p. 9, uma imagem), Figura 3 (p. 10, gráfico) e Figura 4 (p. 11, folha preenchida: imagem). Os embeds _figNN usam a numeração depois que a tabela (antiga fig01) saiu das figuras."
+  },
+  "eq06": {
+    "page": 7,
+    "clip": [
+      62,
+      148,
+      140,
+      172
+    ],
+    "latex": [
+      "R = p_{20\\%}"
+    ]
+  },
+  "eq07": {
+    "page": 7,
+    "clip": [
+      62,
+      222,
+      140,
+      256
+    ],
+    "latex": [
+      "c = \\frac{R}{2}"
+    ]
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "e) -paquímetro ou escala",
+    "para": "e) paquímetro ou escala",
+    "nota": "OCR (alínea/ºC), conferido no PDF"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "3) cápsulas de porcelana ou de alumínio com capacidade de cerca de 75 ml",
+    "para": "j) cápsulas de porcelana ou de alumínio com capacidade de cerca de 75 ml",
+    "nota": "OCR (alínea/ºC), conferido no PDF"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "1) cápsulas de porcelana ou de alumínio com capacidade de cerca de 1 000 ml",
+    "para": "l) cápsulas de porcelana ou de alumínio com capacidade de cerca de 1 000 ml",
+    "nota": "OCR (alínea/ºC), conferido no PDF"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "0) estufa capaz de manter a temperatura a 105 “C - 110 ºC.",
+    "para": "o) estufa capaz de manter a temperatura a 105 ºC - 110 ºC.",
+    "nota": "OCR (alínea/ºC), conferido no PDF"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "por na estufa a 105 “C - 110 ºC",
+    "para": "por na estufa a 105 ºC - 110 ºC",
+    "nota": "OCR (alínea/ºC), conferido no PDF"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "secar em estufa a 105 *C = 110 ºC",
+    "para": "secar em estufa a 105 ºC - 110 ºC",
+    "nota": "OCR (alínea/ºC), conferido no PDF"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "secar em estufa a 105 “C- 110ºC",
+    "para": "secar em estufa a 105 ºC - 110 ºC",
+    "nota": "OCR (alínea/ºC), conferido no PDF"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "e consegiiente deformação",
+    "para": "e conseqüente deformação",
+    "nota": "OCR (alínea/ºC), conferido no PDF"
+  }
+}

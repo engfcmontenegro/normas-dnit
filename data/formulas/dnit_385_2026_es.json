@@ -1,0 +1,165 @@
+{
+  "eq01": {
+    "page": 6,
+    "bbox": [
+      336.0,
+      255.3,
+      563.4,
+      282.7
+    ],
+    "raw": "com ligante (𝐼𝐷 𝑚𝑙 ) ≤ 5 % (DNER – ME 401/99 ou",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: texto '(ID_ml) ≤ 5 %' do 5.1.2.1 a)"
+  },
+  "eq02": {
+    "page": 22,
+    "bbox": [
+      48.6,
+      105.6,
+      288.8,
+      144.7
+    ],
+    "raw": "𝐺 𝑚𝑏𝑐 𝐺 𝑚𝑏𝑙 × 100% (1) 𝐺𝐶=",
+    "latex": "GC = \\frac{G_{mbc}}{G_{mbl}} \\times 100\\% \\tag{1}"
+  },
+  "eq03": {
+    "page": 22,
+    "bbox": [
+      48.6,
+      160.3,
+      294.0,
+      205.5
+    ],
+    "raw": "𝐺𝐶 é o grau de compactação, expresso em porcentagem (%);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável da legenda"
+  },
+  "eq04": {
+    "page": 22,
+    "bbox": [
+      48.6,
+      484.7,
+      293.9,
+      511.0
+    ],
+    "raw": "de 𝐺𝐶 inferiores a 97 % ou superiores a 100 %, aplicando",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: texto 'de GC inferiores a 97 %...'"
+  },
+  "eq05": {
+    "page": 24,
+    "bbox": [
+      48.6,
+      209.7,
+      283.1,
+      285.6
+    ],
+    "raw": "𝑛 ∑ 𝑥 𝑖 (2) 𝑖=1 𝑋̅ = 𝑛 𝑆= √ ∑(𝑥 𝑖 −𝑋̅) 2 (3) 𝑛−1",
+    "latex": [
+      "\\bar{X} = \\frac{\\sum_{i=1}^{n} x_i}{n} \\tag{2}",
+      "S = \\sqrt{\\frac{\\sum (x_i - \\bar{X})^2}{n-1}} \\tag{3}"
+    ]
+  },
+  "m01": {
+    "manual": true,
+    "page": 26,
+    "clip": [
+      88,
+      95,
+      525,
+      310
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: recorte do gráfico da Figura B1 (vetorial, lido como tabela pela detecção); tira os rótulos soltos dos eixos e dá a imagem usada em g01"
+  },
+  "m02": {
+    "manual": true,
+    "page": 26,
+    "clip": [
+      88,
+      425,
+      525,
+      638
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: recorte do gráfico da Figura B2 (vetorial, lido como tabela pela detecção); tira os rótulos soltos dos eixos e dá a imagem usada em g02"
+  },
+  "m03": {
+    "manual": true,
+    "page": 27,
+    "clip": [
+      88,
+      68,
+      525,
+      284
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: recorte do gráfico da Figura B3 (vetorial, lido como tabela pela detecção); tira os rótulos soltos dos eixos e dá a imagem usada em g03"
+  },
+  "m04": {
+    "manual": true,
+    "page": 28,
+    "clip": [
+      65,
+      295,
+      548,
+      476
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: recorte do gráfico da Figura C1 (vetorial, lido como tabela pela detecção); tira os rótulos soltos dos eixos e dá a imagem usada em g04"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "com ligante – IDML e sem ligante – IDM.",
+    "para": "com ligante – $ID_{ml}$ e sem ligante – $ID_m$.",
+    "nota": "referência f): índices subscritos no PDF"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "## Anexo B (Normativo) – Tolerâncias da granulometria .. 26\n\n",
+    "para": "",
+    "nota": "linha do sumário que sobrou como título"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "$GC$ é o grau de compactação, expresso em porcentagem\n\n(%);",
+    "para": "$GC$ é o grau de compactação, expresso em porcentagem (%);"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Limites | da F | aix | a C | -1 | 2, | 5 |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Curva | de pr | ojet | o |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Faixa d | e tra | bal | ho |  |  |  |  |\n\n![[dnit_385_2026_es_tab08.png]]",
+    "para": "![[dnit_385_2026_es_m01.png]]",
+    "nota": "Figura B1: gráfico lido como tabela (tab08); troca pelo recorte m01"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "|  |  |  |  |  |  | #12, |  |  | 5 mm |  | #19 | mm |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  | #9 | ,5 mm |  |  | L |  |  | imites d | a Faix | a C-1 | 2,5 |\n|  |  |  |  |  |  | C |  |  | urva de | proje | to |  |\n|  |  |  |  |  |  | F |  |  | aixa de | trabal | ho |  |\n\n![[dnit_385_2026_es_tab09.png]]",
+    "para": "![[dnit_385_2026_es_m02.png]]",
+    "nota": "Figura B2: gráfico lido como tabela (tab09); troca pelo recorte m02"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "Figura B3 – Detalhe das peneiras com limites de tolerância corrigidos\n\n|  |  |  |  |  |  | #12, |  |  | 5 mm |  | #19 m | m |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  | #9,5 m |  |  | m |  |  |  |\n|  |  |  |  |  |  | Li |  |  | mites d | a Faix | a C-1 | 2,5 |\n|  |  |  |  |  |  | C |  |  | urva de | projet | o |  |\n|  |  |  |  |  |  | F |  |  | aixa de | trabal | ho |  |\n\n![[dnit_385_2026_es_tab10.png]]",
+    "para": "![[dnit_385_2026_es_m03.png]]\n\nFigura B3 – Detalhe das peneiras com limites de tolerância corrigidos",
+    "nota": "Figura B3: gráfico lido como tabela (tab10); troca pelo recorte m03"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "𝐼𝐷 ≤ 5 % 𝑚 𝐼𝐷 ≤ 8 % 𝑚𝑙",
+    "para": "$ID_m$ ≤ 5 %; $ID_{ml}$ ≤ 8 %",
+    "nota": "Anexo E (Degradação Marshall): transcrito como no PDF; diverge do 5.1.2.1 a) (ID_m ≤ 8 %, ID_ml ≤ 5 %) — possível erro do PDF"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "|  |  |  |  |  |  |  |  |  |  | Absor | ção de 1,0 | % |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  |  |  |  | Absor | ção de 2,8 | % |\n\n![[dnit_385_2026_es_tab11.png]]",
+    "para": "![[dnit_385_2026_es_m04.png]]",
+    "nota": "Figura C1: gráfico lido como tabela (tab11); troca pelo recorte m04"
+  }
+}

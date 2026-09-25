@@ -1,0 +1,86 @@
+{
+  "eq01": {
+    "page": 9,
+    "bbox": [
+      79.8,
+      87.7,
+      144.2,
+      150.5
+    ],
+    "raw": "n ∑ x i = i = 1 X n",
+    "latex": "\\overline{X} = \\frac{\\sum_{i=1}^{n} x_i}{n}"
+  },
+  "eq02": {
+    "page": 9,
+    "bbox": [
+      79.0,
+      163.8,
+      178.0,
+      216.2
+    ],
+    "raw": "= ∑ − 2 ( x X ) i s − n 1",
+    "latex": "s = \\sqrt{\\frac{\\sum \\left(x_i - \\overline{X}\\right)^2}{n - 1}}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X- ks ≥ valor mínimo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X+ ks ≤ valor máximo",
+    "para": "$\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "X- ks < valor mínimo",
+    "para": "$\\overline{X} - ks$ < valor mínimo"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "X+ ks > valor máximo",
+    "para": "$\\overline{X} + ks$ > valor máximo"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "$ix$ – valores individuais\n$X$ – média da amostra s - desvio padrão da amostra k - coeficiente tabelado em função do número de determinações n - número de determinações (tamanho da amostra).",
+    "para": "$x_i$ – valores individuais\n\n$\\overline{X}$ – média da amostra\n\ns - desvio padrão da amostra\n\nk - coeficiente tabelado em função do número de determinações\n\nn - número de determinações (tamanho da amostra)."
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "de acordo com a Norma\n\nDNIT 011/2004-PRO",
+    "para": "de acordo com a Norma DNIT 011/2004-PRO"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "| 40 80 200 | 0,42 0,175 0,075 | 100 95 65 |",
+    "para": "| 40 | 0,42 | 100 |\n| 80 | 0,175 | 95 |\n| 200 | 0,075 | 65 |",
+    "nota": "Tabela 1: linhas juntadas na extração"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "| Teor de Betume Solúvel no CS % 2 |",
+    "para": "| Teor de Betume Solúvel no CS₂ % |"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "| 75- 100 | 100 | 95- 100 |",
+    "para": "| 75-100 | 100 | 95-100 |"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "| 250 kgf (75 golpes) 150 kgf (50 golpes) |",
+    "para": "| 250 kgf (75 golpes)<br>150 kgf (50 golpes) |"
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "conforme a\n\nTabela 2:\n\n",
+    "para": "conforme a Tabela 2:\n\n"
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "a) BRASIL. Departamento Nacional de\n\nInfraestrutura de Transportes. Diretoria de\n\nPlanejamento e Pesquisa. Coordenação\n\nGeral de Estudos e Pesquisa. Instituto de\n\nPesquisas Rodoviárias. Manual de pavimentação. 3. ed. Rio de Janeiro, 2006.\n\n(IPR. Publ., 719).",
+    "para": "a) BRASIL. Departamento Nacional de Infraestrutura de Transportes. Diretoria de Planejamento e Pesquisa. Coordenação Geral de Estudos e Pesquisa. Instituto de Pesquisas Rodoviárias. Manual de pavimentação. 3. ed. Rio de Janeiro, 2006. (IPR. Publ., 719).",
+    "nota": "bib: itens partidos juntados; itens da coluna direita da última página (sumidos na extração) transcritos do PDF | trecho restaurado removido: o gerador corrigido já produz a coluna direita"
+  }
+}

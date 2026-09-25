@@ -1,0 +1,62 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      322,
+      388,
+      560,
+      407
+    ],
+    "latex": "C \\geq 320\\ \\text{kg}/\\text{m}^3",
+    "nota": "5.2.2"
+  },
+  "m02": {
+    "manual": true,
+    "page": 14,
+    "clip": [
+      322,
+      275,
+      560,
+      293
+    ],
+    "latex": "f_{ctMk,est} = f_{ctMj} - ks \\quad \\text{ou} \\quad f_{ck,est} = f_{cj} - ks",
+    "nota": "7.3.2.2"
+  },
+  "m03": {
+    "manual": true,
+    "page": 14,
+    "clip": [
+      53,
+      722,
+      290,
+      741
+    ],
+    "latex": "f_{ctM,est} \\geq f_{ctMj} \\quad \\text{ou} \\quad f_{ck,est} \\geq f_{ck}",
+    "nota": "7.3.2.3: no PDF faltam os 'f' de ctMj, ck,est e ck (glifo perdido: 'fctM, est ≥ ctMj ou ck,est ≥ ck'); restaurados"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "à tração na flexão (fctM,k) definida",
+    "para": "à tração na flexão ($f_{ctM,k}$) definida",
+    "nota": "5.2"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "axial equivalente (fck), desde",
+    "para": "axial equivalente ($f_{ck}$), desde",
+    "nota": "5.2"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "fctMk,est = valor estimado da resistência característica do concreto à tração na flexão fctMj = resistência média do concreto à tração na flexão, na idade de j dias f ck, est = valor estimado da resistência característica do concreto à compressão axial fc28 = resistência média do concreto à compressão axial, na idade de j dias s = desvio padrão dos resultados.\n\nk = coeficiente de distribuição de Student n = número de exemplares",
+    "para": "$f_{ctMk,est}$ = valor estimado da resistência característica do concreto à tração na flexão\n\n$f_{ctMj}$ = resistência média do concreto à tração na flexão, na idade de j dias\n\n$f_{ck,est}$ = valor estimado da resistência característica do concreto à compressão axial\n\n$f_{c28}$ = resistência média do concreto à compressão axial, na idade de j dias\n\ns = desvio padrão dos resultados.\n\nk = coeficiente de distribuição de Student\n\nn = número de exemplares",
+    "nota": "legenda 7.3.2.2 (achatada num parágrafo); 'fc28 ... na idade de j dias' está assim no PDF (a fórmula usa fcj)"
+  },
+  "t99": {
+    "todas": true,
+    "de_inicio": "Caso a espessura média do pavimento seja inferior à de projeto, deverá ser feita a revisão deste projeto,\n\nTABELA 1 - AMOSTRAGEM VARIÁVEL\n\n| n | 6 | 7 | 8 | 9 | 10 | 12 | 15 | 18 | 20 | 25 | 30 | 32 | > 32 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| K | 0,92 | 0,906 | 0,896 | 0,889 | 0,883 | 0,876 | 0,868 | 0,863 | 0,861 | 0,857 | 0,854 | 0,842 | 0,842 |\n\n![[dnit_068_2004_es_tab02.png]]\n\n**7.3.2.3** Aceitação automática\n\nO pavimento será aceito automaticamente quanto à resistência do concreto, quando se obtiver as condições seguintes:\n\n$$\nf_{ctM,est} \\geq f_{ctMj} \\quad \\text{ou} \\quad f_{ck,est} \\geq f_{ck}\n$$\n\nadotando para o trecho a espessura média determinada e a resistência característica estimada para o concreto.\n\nCaso o trecho não seja aceito, as partes interessadas poderão tomar uma das decisões citadas no item 7.4.1.3.\n\n**7.3.2** Aceitação e rejeição\n\n**7.3.2.1** Resistência do concreto\n\n**7.3.2.2** Determinação da resistência característica\n\nA resistência característica estimada do concreto do trecho inspecionado à tração na flexão ou à compressão axial, será determinada a partir da expressão:\n\n$$\nf_{ctMk,est} = f_{ctMj} - ks \\quad \\text{ou} \\quad f_{ck,est} = f_{cj} - ks\n$$\n\nonde:\n\n$f_{ctMk,est}$ = valor estimado da resistência característica do concreto à tração na flexão\n\n$f_{ctMj}$ = resistência média do concreto à tração na flexão, na idade de j dias\n\n$f_{ck,est}$ = valor estimado da resistência característica do concreto à compressão axial\n\n$f_{c28}$ = resistência média do concreto à compressão axial, na idade de j dias\n\ns = desvio padrão dos resultados.\n\nk = coeficiente de distribuição de Student\n\nn = número de exemplares\n\nO valor do coeficiente k é função da quantidade de exemplares do lote, sendo obtido na Tabela 1.\n",
+    "para": "Caso a espessura média do pavimento seja inferior à de projeto, deverá ser feita a revisão deste projeto, adotando para o trecho a espessura média determinada e a resistência característica estimada para o concreto.\n\nCaso o trecho não seja aceito, as partes interessadas poderão tomar uma das decisões citadas no item 7.4.1.3.\n\n**7.3.2** Aceitação e rejeição\n\n**7.3.2.1** Resistência do concreto\n\n**7.3.2.2** Determinação da resistência característica\n\nA resistência característica estimada do concreto do trecho inspecionado à tração na flexão ou à compressão axial, será determinada a partir da expressão:\n\n$$\nf_{ctMk,est} = f_{ctMj} - ks \\quad \\text{ou} \\quad f_{ck,est} = f_{cj} - ks\n$$\n\nonde:\n\n$f_{ctMk,est}$ = valor estimado da resistência característica do concreto à tração na flexão\n\n$f_{ctMj}$ = resistência média do concreto à tração na flexão, na idade de j dias\n\n$f_{ck,est}$ = valor estimado da resistência característica do concreto à compressão axial\n\n$f_{c28}$ = resistência média do concreto à compressão axial, na idade de j dias\n\ns = desvio padrão dos resultados.\n\nk = coeficiente de distribuição de Student\n\nn = número de exemplares\n\nO valor do coeficiente k é função da quantidade de exemplares do lote, sendo obtido na Tabela 1.\n\nTABELA 1 - AMOSTRAGEM VARIÁVEL\n\n| n | 6 | 7 | 8 | 9 | 10 | 12 | 15 | 18 | 20 | 25 | 30 | 32 | > 32 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| K | 0,92 | 0,906 | 0,896 | 0,889 | 0,883 | 0,876 | 0,868 | 0,863 | 0,861 | 0,857 | 0,854 | 0,842 | 0,842 |\n\n![[dnit_068_2004_es_tab02.png]]\n\n**7.3.2.3** Aceitação automática\n\nO pavimento será aceito automaticamente quanto à resistência do concreto, quando se obtiver as condições seguintes:\n\n$$\nf_{ctM,est} \\geq f_{ctMj} \\quad \\text{ou} \\quad f_{ck,est} \\geq f_{ck}\n$$\n",
+    "nota": "ordem da p. 14 (7.3.1 até 7.3.2.3) refeita conforme o PDF"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "Tabela 2 - Dimensões padronizadas de revestimentos - grupo W - junção lisa direta\n\n![[dner_pro_102_97-1_fig01.png]]",
+    "de_fim": "![[dner_pro_102_97-1_fig01.png]]",
+    "para": "Tabela 2 - Dimensões padronizadas de revestimentos - grupo W - junção lisa direta\n\n| Denominação | ∅ externo | ∅ interno |\n| --- | --- | --- |\n| EW | 46,2 | 38,2 |\n| AW | 57,3 | 48,5 |\n| BW | 73,2 | 60,5 |\n| NW | 89,1 | 76,4 |\n| HW | 114,5 | 101,4 |\n\n![[dner_pro_102_97-1_tabm01.png]]",
+    "nota": "Tabela 2"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "Tabela 4 - Dimensões padronizadas dos barriletes - Grupo WG - barriletes simples",
+    "de_fim": "96,8 84,1 96,8 82,5`",
+    "para": "Tabela 4 - Dimensões padronizadas dos barriletes - Grupo WG - barriletes simples\n\n| Denominação | ∅ externo | ∅ interno |\n| --- | --- | --- |\n| EWG | 36,5 | 23,8 |\n| AWG | 46,0 | 32,5 |\n| BWG | 57,9 | 44,4 |\n| NWG | 73,8 | 57,1 |\n| HWG | 95,2 | 79,3 |\n\n![[dner_pro_102_97-1_tabm02.png]]\n\nTabela 5 - Grupos WG e WM - barriletes duplos\n\n| Denominação | Tubo ext. ∅ externo | Tubo int. ∅ interno |\n| --- | --- | --- |\n| EWG / EWM | 36,49 | 23,79 |\n| AWG / AWM | 46,02 | 31,75 |\n| BWG / BWM | 57,93 | 43,63 |\n| NWG / NWM | 73,81 | 57,15 |\n| HWG / HWM | 95,25 | 77,77 |\n\n![[dner_pro_102_97-1_tabm03.png]]\n\nTabela 6 - Grupo WT - barriletes simples - Grupo WT - barriletes duplos\n\n| Barrilete: Denominação | Simples: ∅ externo | Simples: ∅ interno | Duplo: tubo ext. diâmetro externo | Duplo: tubo int. diâmetro interno |\n| --- | --- | --- | --- | --- |\n| EWT | - | - | 36,5 | 24,6 |\n| AWT | - | - | 46,8 | 34,1 |\n| BWT | 58,7 | 46,6 | 58,7 | 46,0 |\n| NWT | 73,8 | 61,9 | 73,8 | 60,3 |\n| HWT | 96,8 | 84,1 | 96,8 | 82,5 |\n\n![[dner_pro_102_97-1_tabm04.png]]",
+    "nota": "Tabelas 4, 5 e 6 (p. 8): tab03/tab04 fora do lugar, fig02/fig03 e aviso falso"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "Tabela 7 - Diâmetro de coroas e alargadores\n\nTabela 8 - Grupo WT",
+    "de_fim": "Tabela 8 - Grupo WT",
+    "para": "Tabela 7 - Diâmetro de coroas e alargadores\n\n| Denominação | Coroa ∅ ext. | Coroa ∅ int. | Alargador ∅ext. | Testemunho ∅ aprox. |\n| --- | --- | --- | --- | --- |\n| EWG / EWM | 37,33 | 21,46 | 37,7 | 20,6 |\n| AWG / AWM | 47,62 | 30,09 | 48,0 | 29,3 |\n| BWG / BWM | 59,56 | 42,03 | 59,9 | 41,2 |\n| NWG / NWM | 75,31 | 54,73 | 75,6 | 53,9 |\n| HWG / HWM | 98,8 | 76,2 | 99,2 | 75,4 |\n\n![[dner_pro_102_97-1_tabm05.png]]\n\nTabela 8 - Grupo WT",
+    "nota": "Tabela 7"
+  },
+  "x04": {
+    "texto": true,
+    "de_inicio": "Tabela 9 - Diâmetros de coroas, alargadores e sapatas de revestimento séries X e W",
+    "de_fim": "![[dner_pro_102_97-1_tab06.png]]",
+    "para": "Tabela 9 - Diâmetros de coroas, alargadores e sapatas de revestimento séries X e W\n\n| Denominação | Coroa ∅ ext. | Coroa ∅ int. | Alargadores ∅ext. | Sapatas ∅ ext. | Sapatas ∅ int. |\n| --- | --- | --- | --- | --- | --- |\n| EX / EW | 47,6 | 35,6 | 48,0 | 47,6 | 37,9 |\n| AX / AW | 59,5 | 45,2 | 59,9 | 59,5 | 48,2 |\n| BX / BW | 75,3 | 56,2 | 75,6 | 75,3 | 60,2 |\n| NX / NW | 91,8 | 72,1 | 92,2 | 91,8 | 75,9 |\n| HX / HW | 117,4 | 95,9 | - | 117,4 | 99,6 |\n\n![[dner_pro_102_97-1_tabm06.png]]",
+    "nota": "Tabela 9"
+  },
+  "x05": {
+    "texto": true,
+    "de_inicio": "\n\nDenominação\n\nTabela 10 - Dimensões",
+    "de_fim": "\n\nDenominação\n\nTabela 10 - Dimensões",
+    "para": "\n\nTabela 10 - Dimensões",
+    "nota": "rótulo solto da Tabela 10"
+  },
+  "x06": {
+    "texto": true,
+    "de_inicio": "\n\nDenom. Coroa Haste",
+    "de_fim": "\n\nDenom. Coroa Haste",
+    "para": "",
+    "nota": "rótulos soltos da Tabela 10 no meio de 5.4"
+  },
+  "x07": {
+    "texto": true,
+    "de_inicio": "Tabela 11 - Grau de alteração\n\nSímbolo",
+    "de_fim": "textura e estruturas preservadas.",
+    "para": "Tabela 11 - Grau de alteração\n\n| Símbolo | Grau de alteração | Características |\n| --- | --- | --- |\n| A.0 | Rocha sã ou praticamente sã | Aspectos sadio ou leve alteração hidrotermal. As fraturas podem apresentar sinais de oxidação. |\n| A.1 | Rocha pouco alterada | Perda do brilho dos minerais constituintes, juntas oxidadas ou levemente alteradas. |\n| A.2 | Rocha medianamente alterada | Significantes porções de rocha mostram-se descoloridas ou oxidadas e apresentam sinais de intemperismo ( mudanças químicas e microfissuração) |\n| A.3 | Rocha muito alterada | Toda a rocha apresenta-se descolorida ou oxidada, cristais alterados e fissurados. |\n| A.4 | Rocha extremamente alterada | Rocha decomposta, friável, textura e estruturas preservadas. |\n\n![[dner_pro_102_97-1_tabm07.png]]",
+    "nota": "Tabela 11"
+  },
+  "x08": {
+    "texto": true,
+    "de_inicio": "Tabela 12 - RQD\n\nQualidade da rocha",
+    "de_fim": "90 a 100",
+    "para": "Tabela 12 - RQD\n\n| Qualidade da rocha | RQD (%) |\n| --- | --- |\n| Muito pobre | 0 a 25 |\n| Pobre | 25 a 50 |\n| Regular | 50 a 75 |\n| Boa | 75 a 90 |\n| Excelente | 90 a 100 |\n\n![[dner_pro_102_97-1_tabm08.png]]",
+    "nota": "Tabela 12"
+  },
+  "x09": {
+    "texto": true,
+    "de_inicio": "Tabela 13 - Grau de fraturamento\n\n**7.1.4**",
+    "de_fim": "![[dner_pro_102_97-1_fig06.png]]",
+    "para": "Tabela 13 - Grau de fraturamento\n\n| Rocha | Símbolo | Número de fraturas por manobra |\n| --- | --- | --- |\n| Pouco fraturada | F1 | 1 - 5 |\n| Medianamente fraturada | F2 | 6 - 10 |\n| Muito fraturada | F3 | 11 - 20 |\n| Extremamente fraturada | F4 | > 20 |\n| Em fragmentos | F5 | Torrões em pedaços de diversos tamanhos |\n\n![[dner_pro_102_97-1_tabm09.png]]\n\n**7.1.4** Grau de coerência\n\nBaseia-se em características físicas, tais como resistência ao impacto, ao risco, friabilidade (ver Tabela 14).\n\nTabela 14 - Grau de coerência.\n\n| Rocha | Símbolo | Características |\n| --- | --- | --- |\n| Muito coerente | C1 | a) Quebra com dificuldade ao golpe do martelo.<br>b) O fragmento possui bordas cortantes que resistem ao corte por lâmina de aço.<br>c) Superfície dificilmente riscada por lâmina de aço. |\n| Coerente | C2 | a) Quebra com relativa facilidade ao golpe do martelo.<br>b) O fragmento possui bordas cortantes que podem ser abatidas pelo corte com lâmina de aço.<br>c) Superfície riscável por lâmina de aço. |\n| Pouco coerente | C3 | a) Quebra facilmente ao golpe do martelo.<br>b) As bordas do fragmento podem ser quebradas pela pressão dos dedos.<br>c) A lâmina de aço provoca um sulco acentuado na superfície do fragmento. |\n| Friável | C4 | a) Esfarela ao golpe do martelo.<br>b) Desagrega pela pressão dos dedos. |\n\n![[dner_pro_102_97-1_tabm10.png]]",
+    "nota": "Tabelas 13 e 14 (fig05, fig06 e texto solto)"
+  },
+  "x10": {
+    "texto": true,
+    "de_inicio": "Tabela 16 - Classificação das descontinuidades\n\nDenominação Características",
+    "de_fim": "Vertical 80 º a 90 º\n\nAberta Sem preenchimento",
+    "para": "Tabela 16 - Classificação das descontinuidades\n\n| Denominação | Características |  |  |\n| --- | --- | --- | --- |\n| Aberta | Sem preenchimento | Regularidade | Plana / Curva / Irregular |\n| Aberta | Sem preenchimento | Aspereza | Espelhada / Lisa / Rugosa |\n| Aberta | Com preenchimento |  |  |\n| Fechada | Superfície de decomposição |  | Plana / Curva / Irregular |\n| Cimentada |  |  |  |\n\n![[dner_pro_102_97-1_tabm11.png]]\n\nTabela 17 - Inclinação das descontinuidades\n\n| Denominação | Inclinação |\n| --- | --- |\n| Horizontal | 0 º a 10 º |\n| Subhorizontal | 10 º a 20 º |\n| Inclinada | 20 º a 70 º |\n| Subvertical | 70 º a 80 º |\n| Vertical | 80 º a 90 º |\n\n![[dner_pro_102_97-1_tabm12.png]]",
+    "nota": "Tabelas 16 e 17 (tab09 embaralhada e texto achatado)"
+  },
+  "x11": {
+    "texto": true,
+    "de_inicio": "Anexo Normativo D -\n\nFigura 4;",
+    "de_fim": "Anexo Normativo D -\n\nFigura 4;",
+    "para": "Anexo Normativo D - Figura 4;",
+    "nota": "8 m) partida"
+  },
+  "x13": {
+    "texto": true,
+    "de_inicio": "\n\n![[dner_pro_102_97-1_fig04.png]]\n\nNotas: 10)",
+    "de_fim": "\n\n![[dner_pro_102_97-1_fig04.png]]\n\nNotas: 10)",
+    "para": "\n\nNotas: 10)",
+    "nota": "embed antigo da fig04 (Tabelas 7 e 8 como imagem, ignorada)"
+  },
+  "d01": {
+    "texto": true,
+    "de_inicio": "\n\nANEXO NORMATIVO A - ESQUEMA PARA MEDIDA DA INCLINAÇÃO",
+    "de_fim": "<<FIM>>",
+    "para": "\n\n## ANEXO NORMATIVO A - ESQUEMA PARA MEDIDA DA INCLINAÇÃO DA SONDAGEM ROTATIVA\n\n![[dner_pro_102_97-1_fig02.png]]\n\nFigura 1\n\n## ANEXO NORMATIVO B - CAIXA DE TESTEMUNHOS\n\n![[dner_pro_102_97-1_fig03.png]]\n\nFigura 2\n\nMedidas das caixas (Figura 2), unidade de medida: milímetro (mm):\n\n| mm / ∅ | HX | NX | BX | AX | EX |\n| --- | --- | --- | --- | --- | --- |\n| a | 78 | 56 | 43 | 34 | 27 |\n| b | 275 | 275 | 275 | 275 | 275 |\n| div. | 3 | 4 | 5 | 6 | 7 |\n\nNotas: lateral com tinta branca; letras com tinta vermelha; feita com madeira aplainada.\n\n## ANEXO NORMATIVO C - FOTOGRAFIA DAS CAIXAS DE TESTEMUNHOS\n\n![[dner_pro_102_97-1_fig04.png]]\n\nFigura 3\n\n## ANEXO NORMATIVO D - COVENÇÕES GRÁFICAS GEOLÓGICAS\n\n![[dner_pro_102_97-1_fig05.png]]\n\nFigura 4\n\n## ANEXO NORMATIVO E - FICHA PARA REPRESENTAÇÃO DO PERFIL DE SONDAGEM ROTATIVA OU MISTA\n\n![[dner_pro_102_97-1_fig06.png]]\n\nFigura 5\n\n## ANEXO NORMATIVO F - BOLETIM PARA SONDAGEM ROTATIVA\n\n![[dner_pro_102_97-1_d01.png]]\n",
+    "nota": "Anexos: títulos/carimbos embaralhados; Anexo F (formulário em branco) como imagem d01 no lugar da tab10 automática ('COVENÇÕES' como no PDF)",
+    "page": 24,
+    "clip": [
+      30,
+      30,
+      815,
+      592
+    ]
+  }
+}

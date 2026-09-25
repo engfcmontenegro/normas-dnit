@@ -1,0 +1,42 @@
+{
+  "fig01": {
+    "page": 6,
+    "bbox": [
+      83.7,
+      105.2,
+      525.7,
+      323.8
+    ],
+    "legenda": "Figura 1 - Duração dos tempos de carregamento e repouso (Bernucci et al, 2010)."
+  },
+  "fig02": {
+    "page": 6,
+    "bbox": [
+      56.7,
+      408.8,
+      553.5,
+      705.3
+    ],
+    "legenda": "Figura 2 - Curva típica do ensaio uniaxial de carga repetida: deformação plástica vertical uniaxial acumulada versus"
+  },
+  "fig03": {
+    "page": 8,
+    "bbox": [
+      195.2,
+      106.9,
+      414.1,
+      412.7
+    ],
+    "legenda": "Foto 1 – Esquema de montagem do ensaio de número de fluência (FN)"
+  },
+  "fig04": {
+    "page": 8,
+    "bbox": [
+      141.9,
+      512.4,
+      467.4,
+      656.7
+    ],
+    "legenda": "Foto 2 – Exemplo de um corpo de prova antes e após o ensaio de FN"
+  }
+}

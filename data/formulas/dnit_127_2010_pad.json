@@ -1,0 +1,14 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "a sistemática a ser de engenharia em geral no DNIT.",
+    "para": "a sistemática a ser utilizada na emissão e revisão de documentos técnicos de engenharia em geral no DNIT.",
+    "nota": "Prefácio: linha 'utilizada na emissão e revisão de documentos técnicos' (topo da coluna direita, p. 1) perdida na extração"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "\n5. Condições específicas - documentos refeitos, cancelados, substituídos e renumerados",
+    "para": "\n## 5 Condições específicas - documentos refeitos, cancelados, substituídos e renumerados",
+    "nota": "título da seção 5"
+  }
+}

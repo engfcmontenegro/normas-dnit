@@ -1,0 +1,37 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "**2.1** Referênciabibliográfica",
+    "de_fim": "**2.1** Referênciabibliográfica",
+    "para": "## 2 REFERÊNCIA\n\n**2.1** Referência bibliográfica",
+    "nota": "título 2 perdido no OCR (p. 2)"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "1 3.2 Localização demarcos",
+    "de_fim": "1 3.2 Localização demarcos",
+    "para": "**3.2** Localização de marcos",
+    "nota": "título 3.2"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "itida desde que citado o DNER como fonte ução permi mo Reprod\n\n",
+    "de_fim": "ução permi mo Reprod\n\n",
+    "para": "",
+    "nota": "tarja lateral"
+  },
+  "x04": {
+    "texto": true,
+    "de_inicio": "ANEXO NORMATIVO\n\nFIGURA\n\n![[dner-pro-142-94-1_fig01.png]]",
+    "de_fim": "![[dner-pro-142-94-1_fig03.png]]",
+    "para": "## ANEXO NORMATIVO - FIGURAS\n\n![[dner-pro-142-94-1_fig01.png]]\n\n![[dner-pro-142-94-1_fig02.png]]\n\n![[dner-pro-142-94-1_fig03.png]]",
+    "nota": "cabeçalho do anexo (p. 4)"
+  },
+  "x05": {
+    "texto": true,
+    "de_inicio": "FIGURA\n\n## 2 . DNER-PRO 62/94 p. 08/06.",
+    "de_fim": "\n\nFIGURA 5",
+    "para": "",
+    "nota": "rótulos das figuras 1 a 5 (já nas imagens) e aviso falso"
+  }
+}

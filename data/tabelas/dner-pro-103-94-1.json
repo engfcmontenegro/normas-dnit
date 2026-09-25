@@ -1,0 +1,28 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      80,
+      236,
+      524,
+      458
+    ],
+    "md": "| Quantidade total dos recipientes | Quantidade dos recipientes a serem submetidos à amostragem |\n| --- | --- |\n| 1 a 3 | Todos |\n| 4 a 64 | 4 |\n| 65 a 125 | 5 |\n| 126 a 216 | 6 |\n| 217 a 343 | 7 |\n| 344 a 512 | 8 |\n| 513 a 729 | 9 |\n| 730 a 1 000 | 10 |",
+    "de_inicio": "@@tabm01@@",
+    "nota": "Tabela 1; bloco posto pelo trecho x01 de data/formulas"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      80,
+      632,
+      524,
+      797
+    ],
+    "md": "| Quantidade dos recipientes | Quantidade a ser coletada |\n| --- | --- |\n| 1 a 25 tambores | 2 kg de 1 ou mais tambores |\n| 1 a 75 tambores | 1,0 kg a 2,5 kg de dois ou mais tambores |\n| de mais de 75 tambores | 1,0 kg a 2,5 kg de três ou mais tambores |\n| de 1 a 250 baldes | 2,0 kg de um ou mais baldes |\n| de 1 a 1 050 baldes | 1,0 kg a 2,5 kg de dois ou mais baldes |",
+    "de_inicio": "@@tabm02@@",
+    "nota": "Tabela 2; bloco posto pelo trecho x02 de data/formulas"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      59.8,
+      232.0,
+      87.2
+    ],
+    "raw": "mínima (𝑓 𝑐𝑘,𝒎í𝒏 ), aos 28 dias, de 20 MPa.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável no texto corrido (fck,mín), não é fórmula destacada"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      66.5,
+      745.3,
+      143.2,
+      773.0
+    ],
+    "raw": "𝑓 𝑐𝑘 ≥ 20 MPa.",
+    "latex": "f_{ck} \\geq 20\\ \\text{MPa}"
+  },
+  "eq03": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      295.1,
+      470.2,
+      322.8
+    ],
+    "raw": "𝑓 𝑐𝑘,𝑒𝑠𝑡 < 𝑓 𝑐𝑘 , não conformidade",
+    "latex": "f_{ck,est} < f_{ck}\\text{, não conformidade}"
+  },
+  "eq04": {
+    "page": 4,
+    "bbox": [
+      318.1,
+      330.0,
+      452.3,
+      357.7
+    ],
+    "raw": "𝑓 𝑐𝑘,𝑒𝑠𝑡 ≥ 𝑓 𝑐𝑘 , conformidade",
+    "latex": "f_{ck,est} \\geq f_{ck}\\text{, conformidade}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "ABNT NBR 6118 e ABNT NBR\n\n12655. Deve ser",
+    "para": "ABNT NBR 6118 e ABNT NBR 12655. Deve ser",
+    "nota": "parágrafo partido na quebra de coluna"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "nas seções 4 e 5 desta\n\nNorma, respectivamente.",
+    "para": "nas seções 4 e 5 desta Norma, respectivamente."
+  }
+}

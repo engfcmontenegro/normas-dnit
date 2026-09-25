@@ -1,0 +1,90 @@
+{
+  "eq01": {
+    "page": 13,
+    "clip": [
+      66,
+      98,
+      240,
+      200
+    ],
+    "latex": [
+      "\\overline{X} = \\frac{\\sum Xi}{n}",
+      "s = \\sqrt{\\frac{\\sum \\left(Xi - \\overline{X}\\right)^2}{n - 1}}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `X Xi n = ∑",
+    "de_fim": "- número de determinações.",
+    "para": "$$\n\\overline{X} = \\frac{\\sum Xi}{n}\n$$\n\n$$\ns = \\sqrt{\\frac{\\sum \\left(Xi - \\overline{X}\\right)^2}{n - 1}}\n$$\n\nOnde:\n\n$X_i$ - valores individuais;\n$\\overline{X}$ - média da amostra;\n$s$ - desvio padrão da amostra;\n$k$ - coeficiente tabelado em função do número de determinações;\n$n$ - número de determinações."
+  },
+  "eq02": {
+    "page": 13,
+    "clip": [
+      66,
+      150,
+      240,
+      200
+    ],
+    "latex": [
+      "s = \\sqrt{\\frac{\\sum \\left(Xi - \\overline{X}\\right)^2}{n - 1}}"
+    ]
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `camada do pavimento de acordo com os`\n\nFixar a sistemática",
+    "de_fim": "para a construção de alinhamentos,",
+    "para": "Fixar a sistemática empregada na fabricação de mistura asfáltica a frio utilizando emulsão modificada por polímero, para a construção de camada do pavimento de acordo com os alinhamentos,",
+    "nota": "aviso falso: pedaço do texto do Objetivo (p. 1)"
+  },
+  "x02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "conforme tabela do item\n\n**7.2.1.4** 7.3 Verificação final da qualidade",
+    "para": "conforme tabela do item 7.2.1.4.\n\n**7.3** Verificação final da qualidade",
+    "nota": "item 7.2.2.2 partido: '7.2.1.4' virou título"
+  },
+  "x03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\nI. Emissão de partículas\n\nII. Emissão de gases\n\nIII. Emissões fugitivas\n\n",
+    "para": "\n\n",
+    "nota": "rótulos da tabela Agentes e fontes poluidoras (tabm04)"
+  },
+  "x04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**5.2** Composição da mistura\n\n![[dner_es_390_99_fig01.png]]",
+    "para": "@@TABM01@@\n\n**5.2** Composição da mistura",
+    "nota": "marcador do lugar da tabm01 (filer), consumido por tabelas_dner.py"
+  },
+  "x05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**5.3** Equipamento\n\n![[dner_es_390_99_fig02.png]]",
+    "para": "@@TABM03@@\n\n**5.3** Equipamento",
+    "nota": "marcador do lugar da tabm03 (Marshall), consumido por tabelas_dner.py"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo especificado ou X + ks > valor máximo",
+    "para": "$\\overline{X} - ks$ < valor mínimo especificado ou $\\overline{X} + ks$ > valor máximo"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo especificado e X + ks ≤ valor máximo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo especificado e $\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "Se X - ks <",
+    "para": "Se $\\overline{X} - ks$ <"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "Se X - ks ≥",
+    "para": "Se $\\overline{X} - ks$ ≥"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "700m 2 de pista",
+    "para": "700 m² de pista"
+  }
+}

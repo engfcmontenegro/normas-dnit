@@ -1,0 +1,82 @@
+{
+  "fig01": {
+    "page": 7,
+    "bbox": [
+      137.2,
+      138.8,
+      473.0,
+      396.9
+    ],
+    "legenda": "Figura 1 - Forma do pulso de carregamento (Bernucci et al, 2010)"
+  },
+  "fig02": {
+    "page": 7,
+    "bbox": [
+      67.4,
+      440.7,
+      542.0,
+      681.1
+    ],
+    "legenda": "Figura 2 – Duração dos tempos de carregamento e repouso (Bernucci et al, 2010)"
+  },
+  "fig03": {
+    "page": 8,
+    "bbox": [
+      120.9,
+      177.9,
+      497.6,
+      474.9
+    ],
+    "legenda": ""
+  },
+  "fig04": {
+    "page": 9,
+    "bbox": [
+      103.1,
+      128.5,
+      506.1,
+      366.5
+    ],
+    "legenda": "Figura 1 – Equipamento para previsão de fadiga, inicialmente realizado com LVDT externo preso ao corpo de prova"
+  },
+  "fig05": {
+    "page": 9,
+    "bbox": [
+      100.1,
+      448.3,
+      509.3,
+      685.3
+    ],
+    "legenda": "Figura 2 – Equipamento para previsão de fadiga, continuidade do ensaio realizado sem LVDT"
+  },
+  "fig06": {
+    "page": 10,
+    "bbox": [
+      65.7,
+      147.5,
+      543.8,
+      349.2
+    ],
+    "legenda": "Figura 3 – Corpos de prova antes, durante e após a ruptura"
+  },
+  "fig07": {
+    "page": 11,
+    "bbox": [
+      159.4,
+      156.6,
+      450.1,
+      670.1
+    ],
+    "legenda": ""
+  },
+  "fig08": {
+    "page": 12,
+    "bbox": [
+      96.6,
+      150.3,
+      512.9,
+      423.2
+    ],
+    "legenda": ""
+  }
+}

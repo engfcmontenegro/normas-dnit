@@ -1,0 +1,28 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 2,
+    "clip": [
+      83,
+      615,
+      530,
+      778
+    ],
+    "md": "Tabela 1 - Dimensões de tubos de parede fina (“Shelby tube”)\n\n| Diâmetro externo |  | Espessura da parede | Comprimento do tubo |\n| --- | --- | --- | --- |\n| mm | 50,8 | 1,24 | 910 |\n| pol | 2 | 1/20 | 36 |\n| mm | 76,2 | 1,58 | 910 |\n| pol | 3 | 1/16 | 36 |\n| mm | 127 | 3,16 | 910 |\n| pol | 5 | 1/8 | 36 |",
+    "de_inicio": "Tabela 1 - Dimensões de tubos de parede fina (“Shelby tube”)\n\n![[dner-pro-002-94-1_fig01.png]]",
+    "nota": "tinha virado figura (fig01)"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      80,
+      104,
+      540,
+      285
+    ],
+    "md": "indicados na Tabela 2.\n\nTabela 2 - Diâmetro do amostrador “Denison”\n\n|  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Diâmetro externo | mm | 88,9 | 101,6 | 139,7 | 196,8 |\n|  | pol | 3 1/2 | 4 | 5 1/2 | 7 3/4 |\n| Diâmetro da amostra | mm | 60,3 | 71,8 | 104,7 | 160,3 |\n|  | pol | 2 3/8 | 2 53/64 | 4 1/8 | 6 5/16 |\n| Diâmetro da camisa | mm |  | 660 |  |  |\n|  | pol |  | 26 |  |  |",
+    "de_inicio": "indicados na Tabela 2.\n\n![[dner-pro-002-94-1_fig02.png]]",
+    "nota": "tinha virado figura (fig02); o de_inicio inclui o fim de 3.7 para não casar com a nova fig02 depois da renumeração. 'amosta' no PDF"
+  }
+}

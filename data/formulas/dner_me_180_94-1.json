@@ -1,0 +1,124 @@
+{
+  "eq01": {
+    "page": 5,
+    "clip": [
+      62,
+      620,
+      260,
+      675
+    ],
+    "latex": [
+      "h = \\frac{(P_h - P_s) \\cdot 100}{P_s}"
+    ],
+    "de_inicio": "**6.4.2** Osteores de umidade devem ser calculados pela seguinte fórmula:",
+    "de_fim": "em estufa entre 105 Ce 110 ºC.",
+    "para": "**6.4.2** Os teores de umidade devem ser calculados pela seguinte fórmula:\n\n$$\nh = \\frac{(P_h - P_s) \\cdot 100}{P_s}\n$$\n\nonde:\n\n$h$ - teor de umidade em percentagem;\n$P_h$ - massa da mistura úmida;\n$P_s$ - massa da mistura seca em estufa entre 105 ºC e 110 ºC."
+  },
+  "eq02": {
+    "page": 6,
+    "clip": [
+      62,
+      244,
+      260,
+      291
+    ],
+    "latex": [
+      "n = \\frac{E \\cdot V}{9{,}8 \\cdot P \\cdot H \\cdot N_c}"
+    ],
+    "de_inicio": "normal E = 0,59 MN.m por mº",
+    "de_fim": "N,- número de camadas.",
+    "para": "normal E = 0,59 MN.m por m³ (60 412 kgf.m por m³ ou n = 9 golpes), intermediária E = 1,29 MN.m por m³ (131 813 kgf.m por m³ ou n = 20 golpes) e modificada E = 2,69 MN.m por m³ (274 610 kgf.m por m³ ou n = 41 golpes).\n\nA compactação é efetuada através de um soquete de massa igual a 4,536 kg caindo de uma altura de 45,72 cm, sendo esta energia distribuída uniformemente em toda a superfície de cada camada.\n\n$$\nn = \\frac{E \\cdot V}{9{,}8 \\cdot P \\cdot H \\cdot N_c}\n$$\n\nsendo:\n\n$n$ - número de golpes por camada;\n$E$ - energia de compactação (trabalho por unidade de volume) em N.m por m³;\n$V$ - volume do material compactado em m³;\n$P$ - massa do soquete em kg;\n$H$ - altura do soquete em m;\n$N_c$ - número de camadas."
+  },
+  "eq03": {
+    "page": 6,
+    "clip": [
+      62,
+      695,
+      260,
+      747
+    ],
+    "latex": [
+      "m_s = \\frac{100 \\cdot m'_s}{(100 + h\\%) \\cdot V}"
+    ],
+    "de_inicio": "A massa específica aparente seca da mistura compactada (mo é calculada",
+    "de_fim": "(capacidade do molde) em cmº.",
+    "para": "A massa específica aparente seca da mistura compactada ($m_s$) é calculada pela seguinte fórmula:\n\n$$\nm_s = \\frac{100 \\cdot m'_s}{(100 + h\\%) \\cdot V}\n$$\n\nsendo:\n\n$m_s$ - massa específica aparente em g/cm³;\n$m'_s$ - massa específica aparente da mistura compactada em g;\nh% - teor de umidade;\n$V$ - volume da mistura compactada (capacidade do molde) em cm³.",
+    "nota": "p. 7: legenda de m's diz 'massa específica aparente ... em g' (seria massa do material úmido compactado, em g) — transcrito como no PDF"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "material úmido compactado (m”s) deve",
+    "para": "material úmido compactado ($m'_s$) deve",
+    "nota": "6.5.2"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "aparentes secas (m ) marcadas",
+    "para": "aparentes secas ($m_s$) marcadas",
+    "nota": "6.5.3"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "seca máxima (DM máx) e a abscissa correspondente identifica a umidade ótima (h E).",
+    "para": "seca máxima ($m_{s\\,\\text{máx}}$) e a abscissa correspondente identifica a umidade ótima ($h_{ot}$%).",
+    "nota": "6.5.4"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "teores de umidade (n%).",
+    "para": "teores de umidade (h%).",
+    "nota": "7.2"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "gás carbônico (CO,) contido",
+    "para": "gás carbônico (CO₂) contido",
+    "nota": "6.6.2"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "das 1º e 2? camadas",
+    "para": "das 1ª e 2ª camadas",
+    "nota": "6.4.1"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "precisão de + Imm,",
+    "para": "precisão de ± 1 mm,",
+    "nota": "7.1"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "variar de + 10% da média",
+    "para": "variar de ± 10% da média",
+    "nota": "7.2"
+  },
+  "t09": {
+    "texto": true,
+    "de_inicio": "**8.1** Curvas de resistência à compressão simples Rio",
+    "de_fim": "para 7, 14 e 28 dias de cura Rs má",
+    "para": "**8.1** Curvas de resistência à compressão simples ($R_{cs}$), respectivamente para 7, 14 e 28 dias de cura.\n\nMarcam-se nas ordenadas, para cada período de cura, as resistências à compressão simples ($R_{cs}$) relativas à energia de compactação escolhida e, nas abscissas, os teores de umidade (h%) correspondentes.\n\n**8.2** Resistências à compressão simples máximas para 7, 14 e 28 dias de cura ($R_{cs\\,\\text{máx}}$).\n\nCorrespondem aos valores das ordenadas máximas das curvas de resistência para 7, 14 e 28 dias de cura, mencionadas em 8.1.",
+    "nota": "8.1/8.2: símbolos Rcs perdidos e ordem trocada pelo OCR"
+  },
+  "t10": {
+    "texto": true,
+    "de_inicio": "Al Misturaa ser ensaiada",
+    "de_fim": "cimento Portland (disponível) 1%",
+    "para": "A.1 Mistura a ser ensaiada\n\n| Material | % |\n|---|---|\n| cinza volante (disponível) | 13 % |\n| cal hidratada (disponível) | 4 % |\n| solo arenoso tipo A-3 (dado) | 53 % |\n| pedra britada (9,5mm a 19,0mm) | 30 % |\n| **Total** | **100 %** |\n| cimento Portland (disponível) | 1 % |",
+    "nota": "A.1 (p. 8): lista de materiais quebrada pelo OCR"
+  },
+  "t11": {
+    "texto": true,
+    "de_inicio": "Componentes Y% Massa",
+    "de_fim": "**6.3.2** A4 Determinação da umidade (item 6.4)",
+    "para": "| Componentes | % | Massa (g) |\n|---|---|---|\n| cinza volante | 13 | 704,80 |\n| cal hidratada | 4 | 216,90 |\n| solo arenoso | 53 | 2 873,00 |\n| pedra britada | 30 | 1 627,00 |\n| **Total** | **100** | **5 421,70** |\n| cimento | 1 | 54,22 |\n\n(solo arenoso + pedra britada = 4 500,00 g)\n\nA quantidade d'água é adicionada à mistura segundo a percentagem determinada pelo operador, conforme 6.3.2.\n\nA.4 Determinação da umidade (item 6.4)",
+    "nota": "Tabela 1 (p. 8) quebrada pelo OCR (virou título '## 8')"
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "Tabela 2\n\n### TABELA\n\n> [!warning]- Fórmula não extraída corretamente do PDF",
+    "de_fim": "CURVA DE COMPACTAÇÃO E CURVAS DE RESISTENCIA A FIGURA",
+    "para": "\n",
+    "nota": "aviso falso: dados da Tabela 2 (p. 10, já embutida como fig01) + rótulos soltos do OCR"
+  }
+}

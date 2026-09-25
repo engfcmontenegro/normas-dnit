@@ -1,0 +1,12 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "tf/m²e ",
+    "para": "tf/m² e "
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "300 kg/m² ,",
+    "para": "300 kg/m²,"
+  }
+}

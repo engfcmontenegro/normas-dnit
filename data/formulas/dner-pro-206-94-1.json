@@ -1,0 +1,23 @@
+{
+  "t01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "superior a 169 cm? (13 em x 13 cm)",
+    "para": "superior a 169 cm² (13 cm x 13 cm)",
+    "nota": "6.1.3 (p. 4): cm² e 'cm' lidos como '?' e 'em'"
+  },
+  "t02": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "afastado de + 25% do valor",
+    "para": "afastado de ± 25% do valor",
+    "nota": "7.2 (p. 4): ± lido como +"
+  },
+  "t03": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "colocada a + 15 mm de profundidade",
+    "para": "colocada a ± 15 mm de profundidade",
+    "nota": "B-3 (p. 7): ± lido como +"
+  }
+}

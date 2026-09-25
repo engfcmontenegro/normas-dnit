@@ -1,0 +1,94 @@
+{
+  "eq01": {
+    "page": 2,
+    "bbox": [
+      48.6,
+      340.9,
+      286.9,
+      367.3
+    ],
+    "raw": "base a determinação do índice de laterização (𝑒′) e o",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      66.7,
+      396.1,
+      286.9,
+      422.5
+    ],
+    "raw": "de coeficiente de argilosidade (𝑐′) e de correlação",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq03": {
+    "page": 3,
+    "bbox": [
+      66.7,
+      429.2,
+      207.7,
+      455.6
+    ],
+    "raw": "umidade de compactação (𝑑′).",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "eq04": {
+    "page": 3,
+    "bbox": [
+      343.1,
+      76.3,
+      563.3,
+      120.3
+    ],
+    "raw": "coeficiente de argilosidade (𝑐′) e do índice de laterização (𝑒′) obtidos, localizar, no gráfico de",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável no texto corrido"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$c$′",
+    "para": "$c'$"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "$e$′",
+    "para": "$e'$"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "$d$′",
+    "para": "$d'$"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "**3.3** Solos tropicais de granulação grossa\n\n(G-MCT)",
+    "para": "**3.3** Solos tropicais de granulação grossa (G-MCT)"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "(Nº\n\n10).",
+    "para": "(Nº 10)."
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "conforme a norma\n\nDNIT 258 – ME onde",
+    "para": "conforme a norma DNIT 258 – ME onde"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "Rio de\n\nJaneiro",
+    "para": "Rio de Janeiro"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "\nAnexo C (normativo) – Quadros",
+    "para": "\n## Anexo C (normativo) – Quadros"
+  }
+}

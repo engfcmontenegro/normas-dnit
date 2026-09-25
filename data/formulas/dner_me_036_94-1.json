@@ -1,0 +1,92 @@
+{
+  "eq01": {
+    "page": 4,
+    "clip": [
+      85,
+      248,
+      165,
+      273
+    ],
+    "latex": [
+      "V = L_1 - L_2",
+      "\\gamma_h = \\frac{P_h}{V}",
+      "\\gamma_s = \\gamma_h \\, \\frac{100}{100 + h}",
+      "GC = \\frac{\\gamma_s}{\\gamma_{sl}} \\times 100"
+    ],
+    "de_inicio": "**6.1** Volume da cavidade (V):",
+    "de_fim": "de acordo com o método exigido para a obra.",
+    "para": "**6.1** Volume da cavidade (V):\n\n$$\nV = L_1 - L_2\n$$\n\n**6.2** Massa específica aparente do solo úmido, “in situ” ($\\gamma_h$):\n\n$$\n\\gamma_h = \\frac{P_h}{V}\n$$\n\nonde:\n\n$P_h$ - peso do solo úmido retirado da cavidade.\n\n**6.3** Massa específica aparente do solo seco, “in situ” ($\\gamma_s$):\n\n$$\n\\gamma_s = \\gamma_h \\, \\frac{100}{100 + h}\n$$\n\nonde:\n\n$h$ - percentagem de umidade do solo retirado da cavidade.\n\n**6.4** Grau de compactação\n\nObtém-se o grau de compactação pela fórmula:\n\n$$\nGC = \\frac{\\gamma_s}{\\gamma_{sl}} \\times 100\n$$\n\nonde:\n\n$\\gamma_{sl}$ - massa específica aparente do solo, obtida em laboratório, de acordo com o método exigido para a obra."
+  },
+  "eq02": {
+    "page": 4,
+    "clip": [
+      75,
+      312,
+      150,
+      358
+    ],
+    "latex": [
+      "\\gamma_h = \\frac{P_h}{V}"
+    ]
+  },
+  "eq03": {
+    "page": 4,
+    "clip": [
+      75,
+      444,
+      175,
+      492
+    ],
+    "latex": [
+      "\\gamma_s = \\gamma_h \\, \\frac{100}{100 + h}"
+    ]
+  },
+  "eq04": {
+    "page": 4,
+    "clip": [
+      75,
+      605,
+      180,
+      652
+    ],
+    "latex": [
+      "GC = \\frac{\\gamma_s}{\\gamma_{sl}} \\times 100"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "leitura constante L, (indicativa",
+    "para": "leitura constante $L_1$ (indicativa",
+    "nota": "4 e): L1 lido como L,"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "pesando-o (P,).",
+    "para": "pesando-o ($P_h$).",
+    "nota": "5.3"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "determinar a umidade (b).",
+    "para": "determinar a umidade (h).",
+    "nota": "5.4"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "anotar a leitura L, .",
+    "para": "anotar a leitura $L_2$.",
+    "nota": "5.5"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "até 1 500 cm, sem romper.",
+    "para": "até 1 500 cm³, sem romper."
+  },
+  "anexo": {
+    "texto": true,
+    "de_inicio": "![[dner_me_036_94-1_fig02.png]]\n\nANEXO NORMATIVO",
+    "de_fim": "<<FIM>>",
+    "para": "## ANEXO NORMATIVO — FIGURAS\n\n![[dner_me_036_94-1_fig02.png]]\n\nFigura 1 - Vista (conjunto para determinação de volume); Figura 2 - Planta e corte AA (bandeja metálica)\n\nUnidade de medida: milímetro (mm)\n",
+    "nota": "anexo: rótulos do OCR e aviso falso (rótulo de figura) removidos"
+  }
+}

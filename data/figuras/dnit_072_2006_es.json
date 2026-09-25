@@ -1,0 +1,122 @@
+{
+  "fig01": {
+    "page": 19,
+    "bbox": [
+      311.1,
+      179.8,
+      544.6,
+      337.3
+    ],
+    "legenda": "Foto 2 - Biomanta Antierosiva aplicada após outras"
+  },
+  "fig02": {
+    "page": 19,
+    "bbox": [
+      56.0,
+      377.9,
+      292.0,
+      532.7
+    ],
+    "legenda": "Foto 3 - Mesmo local após três meses da aplicação das"
+  },
+  "fig03": {
+    "page": 19,
+    "bbox": [
+      308.8,
+      579.4,
+      543.1,
+      736.1
+    ],
+    "legenda": ""
+  },
+  "fig04": {
+    "page": 20,
+    "bbox": [
+      56.0,
+      159.9,
+      290.9,
+      315.2
+    ],
+    "legenda": "Foto 5 - Serviços de recuperação já adiantados, com"
+  },
+  "fig05": {
+    "page": 20,
+    "bbox": [
+      309.5,
+      358.1,
+      545.5,
+      513.4
+    ],
+    "legenda": "Foto 6 - Mesmo local imediatamente após a execução dos"
+  },
+  "fig06": {
+    "page": 20,
+    "bbox": [
+      58.2,
+      562.3,
+      293.2,
+      717.5
+    ],
+    "legenda": ""
+  },
+  "fig07": {
+    "page": 21,
+    "bbox": [
+      308.8,
+      159.9,
+      543.1,
+      315.5
+    ],
+    "legenda": "Foto 08 - Serviços de recuperação já adiantados, com"
+  },
+  "fig08": {
+    "page": 21,
+    "bbox": [
+      56.0,
+      358.3,
+      291.2,
+      514.3
+    ],
+    "legenda": "Foto 09 - Mesmo local imediatamente após a execução"
+  },
+  "fig09": {
+    "page": 21,
+    "bbox": [
+      309.5,
+      566.4,
+      543.8,
+      722.5
+    ],
+    "legenda": ""
+  },
+  "fig10": {
+    "page": 22,
+    "bbox": [
+      58.8,
+      159.9,
+      293.2,
+      315.2
+    ],
+    "legenda": "Foto 11 - A proteção dos taludes foi feita com biomanta"
+  },
+  "fig11": {
+    "page": 22,
+    "bbox": [
+      309.1,
+      359.0,
+      544.3,
+      514.6
+    ],
+    "legenda": "Foto 12 - Resultado do trabalho, mostrando toda a área"
+  },
+  "fig12": {
+    "page": 22,
+    "bbox": [
+      58.8,
+      570.2,
+      293.2,
+      726.2
+    ],
+    "legenda": ""
+  }
+}

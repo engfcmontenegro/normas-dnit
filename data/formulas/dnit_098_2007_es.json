@@ -1,0 +1,69 @@
+{
+  "eq01": {
+    "page": 2,
+    "bbox": [
+      317.6,
+      541.5,
+      433.3,
+      618.1
+    ],
+    "raw": "Si O 2 S 60 = Al Fe R O O 3 + 3 2 2 102 160",
+    "latex": "\\frac{S}{R} = \\frac{\\dfrac{SiO_2}{60}}{\\dfrac{Al_2O_3}{102} + \\dfrac{Fe_2O_3}{160}}"
+  },
+  "eq02": {
+    "page": 6,
+    "bbox": [
+      48.7,
+      654.3,
+      149.4,
+      752.0
+    ],
+    "raw": "∑ X i X = n ( ) 2 ∑ − X i X s = − n 1",
+    "latex": [
+      "\\overline{X} = \\frac{\\sum X_i}{n}",
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "onde:\n\nS =\n\nRelação molecular sílica-sesquióxido\n\nR =\n\nSiO Sílica\n\n=\n\nAl $2^{O}$\n\nSesquióxido de alumínio\n\n=\n\nFe $2^{O}$\n\nSesquióxido de ferro",
+    "para": "onde:\n\n$\\frac{S}{R}$ = Relação molecular sílica-sesquióxido\n\n$SiO_2$ = Sílica\n\n$Al_2O_3$ = Sesquióxido de alumínio\n\n$Fe_2O_3$ = Sesquióxido de ferro",
+    "nota": "legenda da fórmula S/R (5.1) quebrada na extração"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "onde:\n\nX $i^{– valores individuais}$\n\nX – média da amostra s – desvio padrão da amostra k – coeficiente tabelado em função do número de determinações n – número de determinações",
+    "para": "onde:\n\n$X_i$ – valores individuais\n\n$\\overline{X}$ – média da amostra\n\n$s$ – desvio padrão da amostra\n\n$k$ – coeficiente tabelado em função do número de determinações\n\n$n$ – número de determinações"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "X – ks < valor mínimo ou X + ks > valor máximo admitido",
+    "para": "$\\overline{X} - ks$ < valor mínimo ou $\\overline{X} + ks$ > valor máximo admitido"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "X – ks ≥ valor mínimo admitido e X + ks ≤ valor máximo admitido",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo admitido e $\\overline{X} + ks$ ≤ valor máximo admitido"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "\n\nX – ks < valor mínimo admitido:",
+    "para": "\n\n$\\overline{X} - ks$ < valor mínimo admitido:"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "\n\nX – ks ≥ valor mínimo admitido:",
+    "para": "\n\n$\\overline{X} - ks$ ≥ valor mínimo admitido:"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "| No ",
+    "para": "| Nº ",
+    "nota": "Quadro de composição granulométrica: N° lido como No"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "peneira $N^{o}$ ",
+    "para": "peneira N° "
+  }
+}

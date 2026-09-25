@@ -1,0 +1,214 @@
+{
+ "es": "dnit-098-2007-es",
+ "servico": "Base estabilizada granulometricamente com solo laterítico",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Solo laterítico",
+   "ensaio": "Relação molecular sílica-sesquióxido (S/R)",
+   "citado": "DNER-ME 030/94",
+   "norma": "dner-me-030-94",
+   "frequencia": "Na seleção do material",
+   "criterio": "S/R < 2",
+   "secao": "5.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Solo laterítico",
+   "ensaio": "Expansão (ensaio de ISC, 26 ou 56 golpes)",
+   "citado": "DNER-ME 049/94",
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "Na seleção do material",
+   "criterio": "< 0,2 % (admite-se até 0,5 % se expansibilidade < 10 %)",
+   "secao": "5.1 / 7.4.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Solo laterítico",
+   "ensaio": "Expansibilidade",
+   "citado": "DNER-ME 029/94",
+   "norma": null,
+   "norma_atual": "dnit-160-2012-me",
+   "frequencia": "Na seleção do material",
+   "criterio": "< 10 %",
+   "condicao": "quando a expansão no ISC ficar entre 0,2 % e 0,5 %",
+   "secao": "5.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material (in natura ou beneficiado)",
+   "ensaio": "Índice de Suporte Califórnia (ISC)",
+   "citado": "DNER-ME 049/94",
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "Na seleção do material",
+   "criterio": "ISC ≥ 60 % (N ≤ 5×10⁶); ISC ≥ 80 % (N > 5×10⁶), na faixa de umidade fixada no projeto",
+   "secao": "5.3 a, b"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material (fração passante nº 40)",
+   "ensaio": "Limite de liquidez",
+   "citado": "DNER-ME 122/94",
+   "norma": "dner-me-122-94",
+   "frequencia": "Na seleção do material",
+   "criterio": "LL ≤ 40 %",
+   "secao": "5.3 c"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material (fração passante nº 40)",
+   "ensaio": "Índice de plasticidade",
+   "citado": "DNER-ME 082/94",
+   "norma": "dner-me-082-94",
+   "frequencia": "Na seleção do material",
+   "criterio": "IP ≤ 15 % (IP > 15 % só em mistura com material de IP ≤ 6 %)",
+   "secao": "5.3 c, d"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mistura (laterítico com IP > 15 %)",
+   "ensaio": "Análise mineralógica",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na seleção do material",
+   "criterio": "Ausência de argilas nontronitas e/ou montmorilonitas",
+   "condicao": "solo laterítico com IP > 15 % usado em mistura",
+   "secao": "5.3 d"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado retido na peneira de 2 mm / nº 10",
+   "ensaio": "Abrasão Los Angeles",
+   "citado": "DNER-ME 035/94",
+   "norma": null,
+   "norma_atual": "dnit-451-2024-me",
+   "frequencia": "Na seleção do material",
+   "criterio": "Desgaste ≤ 65 % (dispensável com desempenho anterior satisfatório)",
+   "secao": "5.3 e, i"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material (in natura ou beneficiado)",
+   "ensaio": "Granulometria",
+   "citado": "DNER-ME 080/94",
+   "norma": null,
+   "frequencia": "Na seleção do material",
+   "criterio": "Faixa A ou B do Quadro de composição granulométrica; tolerâncias da curva de projeto ± 7 (3/8\"–1\"), ± 5 (nº 40–nº 4), ± 2 (nº 200)",
+   "secao": "5.3 f"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material (in natura ou beneficiado)",
+   "ensaio": "Equivalente de areia",
+   "citado": "DNER-ME 054/97",
+   "norma": null,
+   "norma_atual": "dnit-450-2024-me",
+   "frequencia": "Na seleção do material",
+   "criterio": "EA > 30 %",
+   "secao": "5.3 g"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material (in natura ou beneficiado)",
+   "ensaio": "Relação passante nº 200 / nº 40",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na seleção do material",
+   "criterio": "% passante nº 200 ≤ 2/3 da % passante nº 40",
+   "secao": "5.3 h"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material espalhado na pista",
+   "ensaio": "Caracterização (EA, granulometria, LL, LP)",
+   "citado": "DNER-ME 054/97, DNER-ME 080/94, DNER-ME 082/94 e DNER-ME 122/94",
+   "norma": "dner-me-082-94",
+   "outras": [
+    "dner-me-122-94"
+   ],
+   "frequencia": "1 amostra por camada a cada 300 m de pista ou por jornada de 8 h (1.000 m com material homogêneo); com usina, na saída do misturador",
+   "criterio": "Conforme 5.3 (faixa granulométrica, LL ≤ 40 %, IP ≤ 15 %, EA > 30 %)",
+   "secao": "7.1.1 / 7.4.1 / 7.4.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material espalhado na pista",
+   "ensaio": "Compactação (Método C)",
+   "citado": "DNER-ME 129/94",
+   "norma": null,
+   "norma_atual": "dnit-164-2013-me",
+   "frequencia": "1 amostra por camada a cada 300 m de pista ou por jornada de 8 h (1.000 m com material homogêneo); com usina, na saída do misturador",
+   "criterio": "Define massa específica aparente seca máxima e umidade ótima de referência",
+   "secao": "7.1.2",
+   "obs": "Com laterítico britado, nº de golpes ajustado em trecho experimental"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material espalhado na pista",
+   "ensaio": "ISC e expansão",
+   "citado": "DNER-ME 049/94",
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "1 amostra por camada a cada 300 m de pista ou por jornada de 8 h (1.000 m com material homogêneo); com usina, na saída do misturador",
+   "criterio": "ISC ≥ 60 % / ≥ 80 % conforme N; expansão ≤ 0,5 %",
+   "secao": "7.1.3 / 7.4.2 / 7.4.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da compactação",
+   "ensaio": "Umidade higroscópica",
+   "citado": "DNER-ME 052/94 ou DNER-ME 088/94",
+   "norma": null,
+   "norma_atual": "dnit-456-2025-me",
+   "frequencia": "Por camada, a cada 100 m de pista, imediatamente antes da compactação",
+   "criterio": "hót ± 2 %",
+   "secao": "7.2.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Após a compactação",
+   "ensaio": "Massa específica aparente seca in situ → grau de compactação",
+   "citado": "DNER-ME 036/94 e DNER-ME 092/94",
+   "norma": "dner-me-036-94",
+   "frequencia": "Por camada, a cada 100 m; mín. 5 determinações em pistas < 4.000 m²; nº conforme tabela de amostragem variável",
+   "criterio": "GC ≥ 100 %",
+   "secao": "5.5 / 7.2.2 / 7.4.4"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Largura da plataforma",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 10 cm",
+   "secao": "7.3 a"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Flecha de abaulamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "Até +20 %; sem falta",
+   "secao": "7.3 b"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessura da camada",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 10 % da espessura de projeto (mín. 10 cm; camadas ≤ 20 cm)",
+   "secao": "5.5 / 7.3 c"
+  }
+ ],
+ "notas": [
+  "Nº de ensaios definido pelo executante pela tabela de amostragem variável (k, α); granulometria aceita se X̄ − ks ≥ mín. e X̄ + ks ≤ máx.; ISC e GC se X̄ − ks ≥ mín.",
+  "Serviços rejeitados devem ser corrigidos, complementados ou refeitos; resultados registrados em relatórios periódicos."
+ ]
+}

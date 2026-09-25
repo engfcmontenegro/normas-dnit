@@ -1,0 +1,927 @@
+{
+  "fig01": {
+    "page": 10,
+    "bbox": [
+      101.0,
+      55.5,
+      553.0,
+      711.6
+    ],
+    "legenda": "FIGURA 5.2.2 - ESCORAMENTO EM PÉ DIREITO SOBRE",
+    "ancora": "FIGURA 5.2.2 - ESCORAMENTO EM PÉ DIREITO SOBRE",
+    "clip": [
+      66,
+      80,
+      560,
+      725
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "£- VIGA DE COROAMENTO",
+      "3- CONTRAVENTAMENTO LONGITUDINAL 4-CONTRAVENTAMENTO TRANSVERSAL 8 - FUNDAÇÕES",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `as Rs t 40% ts sa one`",
+      "cal “. 2 .",
+      "oe. = ESVUNAMENIV. Ta ARE, AA msm a fts minas",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `ro e x —1— + A ' 7/7`",
+      "- MONTANTE OU ESTEIO —O 2 - VIGA DE COROAMENTO",
+      "3 - CONTRAVENTAMENTO LONGITUDINAL",
+      "8 - VIGA INTERMEDIÁRIA",
+      "Vá 6 - ESTACAS",
+      "A ag",
+      "= MONTANTE OU ESTEIO"
+    ]
+  },
+  "fig02": {
+    "page": 12,
+    "bbox": [
+      154.0,
+      68.2,
+      557.3,
+      281.0
+    ],
+    "legenda": "FIGURA 8.3.1 — ESCORAMENTO DE MONTANTES",
+    "ancora": "FIGURA 8.3.1 — ESCORAMENTO DE MONTANTES",
+    "clip": [
+      60,
+      95,
+      560,
+      388
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)"
+  },
+  "fig03": {
+    "page": 12,
+    "bbox": [
+      149.0,
+      282.1,
+      576.0,
+      807.0
+    ],
+    "legenda": "FIGURA 5.3.2 - ESCORAMENTO",
+    "ancora": "FIGURA 5.3.2 - ESCORAMENTO",
+    "clip": [
+      60,
+      440,
+      560,
+      780
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "## 1 - MONTANTE",
+      "OU ESTEIO ta- ESCORA OU ESTRONCA",
+      "2 —- VIGA DE COROAMENTO 3 - CONTRAVENTAMENTO LONGITUDINAL",
+      "4 - CONTRAVENTAMENTO TRANSVERSAL",
+      "3 - FUNDAÇÃO",
+      "- MONTANTE OU ESTEIO la- ESCORA OU ESTRONCA:",
+      "2- VISA DE COROAMENTO",
+      "3 - CONTRAVENTAMENTO LONGITUDINAL 4 - CONTRAVENTAMENTO TRANSVERSAL .",
+      "8- VIGA INTERMEDIÁRIA"
+    ]
+  },
+  "fig04": {
+    "page": 13,
+    "bbox": [
+      103.7,
+      106.0,
+      568.0,
+      807.0
+    ],
+    "legenda": "FIGURA 5.4.2 - ESCORAMENTO EM LEQUE COM FUNDAÇÕES",
+    "ancora": "FIGURA 5.4.2 - ESCORAMENTO EM LEQUE COM FUNDAÇÕES",
+    "clip": [
+      60,
+      90,
+      562,
+      700
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `» Tr E E e`",
+      ".. ... IR, meMço ut",
+      "## 8 ção",
+      "“a .. eta “a. PRA E",
+      "- mê - ESCORAS 3 - CONTRAVENTAMENTO LATERAL",
+      "2- VISA DE COROAMENTO 4 - CONTRAVENTAMENTO TRANSVERSAL",
+      "2a- VIGA ARMADA 5 - FUNDAÇÃO cernanucura de LESS enunaçãa nIBDEPA mana",
+      "## 24 E",
+      "sem rivUnA ATI EeIVMIN",
+      "Re",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `EM ESTACAS NO APOIO CENTRAL, E EM BLOCOS`",
+      "## 4 x"
+    ]
+  },
+  "fig05": {
+    "page": 14,
+    "bbox": [
+      136.1,
+      190.0,
+      499.0,
+      353.3
+    ],
+    "legenda": "FIGURA 8.5.| - ESCORAMENTO EM TORRE, COM VÃOS LIVRES VENCIDOS",
+    "ancora": "FIGURA 8.5.| - ESCORAMENTO EM TORRE, COM VÃOS LIVRES VENCIDOS",
+    "clip": [
+      60,
+      185,
+      560,
+      372
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "## PAN NAN",
+      "## NV NNE NON NU NUA",
+      "E css Eds"
+    ]
+  },
+  "fig06": {
+    "page": 14,
+    "bbox": [
+      87.0,
+      353.6,
+      560.0,
+      688.5
+    ],
+    "legenda": "FIGURA 8.8.2 - ESCORAMENTO EM TORRE, COM OS VÃOS LIVRES",
+    "ancora": "FIGURA 8.8.2 - ESCORAMENTO EM TORRE, COM OS VÃOS LIVRES",
+    "clip": [
+      60,
+      440,
+      560,
+      698
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "## 4 o"
+    ]
+  },
+  "fig07": {
+    "page": 15,
+    "bbox": [
+      67.0,
+      54.0,
+      561.0,
+      329.5
+    ],
+    "legenda": "FIGURA 5.6.) - ESCORAMENTO MISTO DE UM ARCO, COM A PARTE INFERIOR CONSTITUÍDAS",
+    "ancora": "FIGURA 5.6.) - ESCORAMENTO MISTO DE UM ARCO, COM A PARTE INFERIOR CONSTITUÍDAS",
+    "clip": [
+      60,
+      90,
+      562,
+      345
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "## ERES",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `j SN AAA oque E`",
+      "tr som teresa",
+      "## 4 Tela",
+      "us",
+      "H Ro, A",
+      "## 4 o",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `+ Lonerenota t+ du`",
+      "11 ;",
+      "- s sebos. nana nona:",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `7 % ) x AN =`",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Í a ER = 9” & N o” “a ) 5 | al In`",
+      "## 1 Aa",
+      "TESS"
+    ]
+  },
+  "fig08": {
+    "page": 15,
+    "bbox": [
+      79.0,
+      333.2,
+      539.3,
+      637.4
+    ],
+    "legenda": "FIGURA 5.6.2 - ESCORAMENTO MISTO COM A PARTE INFERIOR CONSTITUÍDA",
+    "ancora": "FIGURA 5.6.2 - ESCORAMENTO MISTO COM A PARTE INFERIOR CONSTITUÍDA",
+    "clip": [
+      60,
+      400,
+      560,
+      648
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "E A PARTE SUPERIOR COM ESCORAS EM LEQUE. DIMENSÕES",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `TIA E CCT Tr`",
+      "## LILA",
+      "## 2 TE",
+      "## 1 LL",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `« ' 40,95 n o 1P47%`",
+      "4 . EU",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `À EMO Ram ,`",
+      "-+6%0 AA le",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `EM m FEL SS2ES ez ar THA [ +” , Tr TT`"
+    ]
+  },
+  "fig09": {
+    "page": 17,
+    "bbox": [
+      113.3,
+      31.2,
+      501.4,
+      449.5
+    ],
+    "legenda": "FIGURA 5.8./ - ESCORAMENTO AUTO-PORTANTE",
+    "ancora": "FIGURA 5.8./ - ESCORAMENTO AUTO-PORTANTE",
+    "clip": [
+      60,
+      70,
+      560,
+      705
+    ],
+    "nota": "clip inclui a Figura 5.8.2 (faltava)",
+    "texto_removido": [
+      "VET Toa",
+      "Vão = 90,00m"
+    ]
+  },
+  "fig10": {
+    "page": 18,
+    "bbox": [
+      82.0,
+      121.0,
+      544.0,
+      278.6
+    ],
+    "legenda": "FIGURA 8.1!).! - ESCORAMENTO SUPERIOR,",
+    "ancora": "FIGURA 8.1!).! - ESCORAMENTO SUPERIOR,",
+    "clip": [
+      60,
+      110,
+      560,
+      362
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)"
+  },
+  "fig11": {
+    "page": 18,
+    "bbox": [
+      81.0,
+      287.6,
+      584.2,
+      739.0
+    ],
+    "legenda": "FIGURA 5.II.2 - ESCORAMENTO SUPERIOR",
+    "ancora": "FIGURA 5.II.2 - ESCORAMENTO SUPERIOR",
+    "clip": [
+      60,
+      385,
+      560,
+      772
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "- PARTE JÁ CONCRETADA",
+      "2- PARTE A CONCRETAR 3 - ESCORAMENTO SUPERIOR (TRELIÇA)",
+      "4- VIGAMENTO TRANSVERSAL",
+      "S- VIGAMENTO TRANSVERSAL INFERIOR 6-TIRANTE",
+      "- ESCORAMENTO SUPERIOR PARA ESTRUTURAS EM BALANÇO. VER LEGENDA"
+    ]
+  },
+  "fig12": {
+    "page": 19,
+    "bbox": [
+      92.0,
+      181.0,
+      555.4,
+      537.1
+    ],
+    "legenda": "FIGURA 8.2.1 — ESCORAMENTO PARA CONSTRUÇÕES",
+    "ancora": "FIGURA 8.2.1 — ESCORAMENTO PARA CONSTRUÇÕES",
+    "clip": [
+      60,
+      170,
+      560,
+      548
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `] Ecosse ra fes sra De I`",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `o E O JS = ao =p - IT-— JL ANCORAGEM`",
+      "PENDURAL",
+      "ADUELA A CONCRETAR",
+      "ESTRADO INFERIOR"
+    ]
+  },
+  "fig13": {
+    "page": 21,
+    "bbox": [
+      94.6,
+      120.0,
+      507.7,
+      414.7
+    ],
+    "legenda": "FIGURA 6.2.1 - ESCORAMENTO EM TORRES DE CONCRETO ARMADO, COM MÃOS FRANCESAS.",
+    "ancora": "FIGURA 6.2.1 - ESCORAMENTO EM TORRES DE CONCRETO ARMADO, COM MÃOS FRANCESAS.",
+    "clip": [
+      60,
+      115,
+      560,
+      430
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)"
+  },
+  "fig14": {
+    "page": 21,
+    "bbox": [
+      90.8,
+      418.2,
+      500.2,
+      702.5
+    ],
+    "legenda": "FIGURA 6.2.2 - ESCORAMENTO COM TORRES E ESCORAS",
+    "ancora": "FIGURA 6.2.2 - ESCORAMENTO COM TORRES E ESCORAS",
+    "clip": [
+      60,
+      515,
+      560,
+      708
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `METALICAS »d UA ' Es Ea Ea, DE re,`",
+      "AS TORRES SÃO VENCIDOS POR TRELIÇAS METÁLICAS"
+    ]
+  },
+  "fig15": {
+    "page": 23,
+    "bbox": [
+      134.0,
+      205.0,
+      488.9,
+      604.3
+    ],
+    "legenda": "",
+    "ancora": "As vigas simples de madeira são usadas para vencer vãos pequenos, da ordem de 1 ",
+    "clip": [
+      60,
+      195,
+      560,
+      618
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "A.",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `— ve — quo - q 1/60 turco T] ASA! ”`",
+      "## 4 Jos —",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `8, E ANTES? moNT`",
+      "RA RA"
+    ]
+  },
+  "fig16": {
+    "page": 25,
+    "bbox": [
+      126.3,
+      148.0,
+      463.0,
+      314.8
+    ],
+    "legenda": "FIGURA 7.2.2 - VISTA DE UM ESCORAMENTO EM ARCO AUTO PORTANTE DE MADEIRA,",
+    "ancora": "FIGURA 7.2.2 - VISTA DE UM ESCORAMENTO EM ARCO AUTO PORTANTE DE MADEIRA,",
+    "clip": [
+      60,
+      150,
+      560,
+      332
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)"
+  },
+  "fig17": {
+    "page": 25,
+    "bbox": [
+      112.0,
+      317.1,
+      569.0,
+      807.0
+    ],
+    "legenda": "FIGURA 7.2.3 - VISTA DE UM ESCORAMENTO EM ARCO TRELIÇADO DE MADEIRA,",
+    "ancora": "FIGURA 7.2.3 - VISTA DE UM ESCORAMENTO EM ARCO TRELIÇADO DE MADEIRA,",
+    "clip": [
+      60,
+      440,
+      560,
+      718
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `30 m So ISA ARE j`",
+      "PARA VÃO ATE"
+    ]
+  },
+  "fig18": {
+    "page": 28,
+    "bbox": [
+      89.0,
+      104.0,
+      481.8,
+      738.2
+    ],
+    "legenda": "",
+    "ancora": "Cálculo simplificado das solicitações em quadros ou torres de escoramentos",
+    "clip": [
+      60,
+      100,
+      560,
+      775
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "JURA 7.4.2 - EMENDAS DE PEÇAS COMPRIMIDAS AXIALMENTE",
+      "ESQUADRO DAS SECÕES EM CONTATO; b) SUPERFÍCIE DE CONTATO",
+      "PREENCHIDA COM ARGAMASSA;",
+      "DE PINO,",
+      "## 1 N"
+    ]
+  },
+  "fig19": {
+    "page": 33,
+    "bbox": [
+      92.0,
+      116.0,
+      557.8,
+      789.6
+    ],
+    "legenda": "FIGURA 6.3.26) - MATERIAL TUBULAR, TUBOS",
+    "ancora": "FIGURA 6.3.26) - MATERIAL TUBULAR, TUBOS",
+    "texto_removido": [
+      "Perda de espessura do material (%) Fator de redução 0 1,00 10 0,80 15 0,54 20 0,27",
+      "## 25 rejeitar o perfil"
+    ]
+  },
+  "fig20": {
+    "page": 34,
+    "bbox": [
+      87.4,
+      101.0,
+      545.8,
+      771.1
+    ],
+    "legenda": "FIGURA 6.3.2(b) — MATERIAL TUBULAR",
+    "ancora": "FIGURA 6.3.2(b) — MATERIAL TUBULAR",
+    "texto_removido": [
+      "EQUIPAMENTO CONSTITUÍDO POR TUBOS",
+      "DE AÇO GALVANIZADOS, COM COSTURA NOMINAL 38,/mm (1 1/2\") 48,25 mm EXTERNO, ESPESSURA DE PAREDE 3,05mm MASSA APROXIMADA : 3,7 kg/m",
+      "LIGAÇÃO DE DOIS TUBOS EM ÂNGULO RETO",
+      "BRAÇADEIRA GIRATÓRIA",
+      "BRAÇADEIRAS FORJADAS, TEMPERADAS E REVENIDAS AÇO 1080 . MASSA APROXI-MADA:\n1,4 kg",
+      "LUVA PARA EMENDAS DE TOPO. FORJADA, TEMPERADA",
+      "E REVENIDA. AÇO 1060. MASSA APROXIMADA : 1,3 kg"
+    ]
+  },
+  "fig21": {
+    "page": 35,
+    "bbox": [
+      46.0,
+      60.5,
+      556.0,
+      805.0
+    ],
+    "legenda": "FIGURA 83.30 — ESCORAMENTO EM PÉ DIREITO COM MATERIAL TUBULAR CONVENCIONAL",
+    "ancora": "FIGURA 83.30 — ESCORAMENTO EM PÉ DIREITO COM MATERIAL TUBULAR CONVENCIONAL",
+    "texto_removido": [
+      "MACACO PARA ENTRONCAMENTOS E NIVELAMENTO DA ESTRUTURA CARGA ADMISSÍVEL : 2000 kg MASSA APROXIMADA : 3,2 kg",
+      "RODÍZIO PARA MOVIMENTAÇÃO DE ESTRUTURAS CARGA ADMISSÍVEL : 1000 kg MASSA APROXIMADA : 7,0 kg",
+      "“ae DÊ CATRACA EM aço cromo vanÁDIO 28 DIMENTO) (GRANDE REN",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `nIMBO EM AC CHAVE DE 6 E ALVANIZADO`",
+      "## MÉDIO RENDIMENTO)",
+      "CHAVE FIXA COMUM 22mm (BAIXO RENDIMENTO)",
+      "“Ro",
+      "FORCADO PARA SUPORTE DE MADEIRAMENTO E FORMAS, COM REGULAGEM MILIMÉTRICA A FIM DE PERMITIR DESCIMBRAMENTO CONTROLADO, COM CURSO DE",
+      "25 em CARGA ADMISSÍVEL : 3800 kg MASSA APROXIMADA 8.0 ka",
+      "PLACA DE BASE PARA APOIO DOS TUBOS, COM BOSSA DE CENTRAGEM MASSA APROXIMADA :\n1,0 kg"
+    ]
+  },
+  "fig22": {
+    "page": 36,
+    "bbox": [
+      154.1,
+      151.0,
+      508.4,
+      610.8
+    ],
+    "legenda": "FIGURA 6.3.3b - ESCORAMENTO EM PÉ DIREITO COM MATERIAL TUBULAR\" CONVENCIONAL:",
+    "ancora": "FIGURA 6.3.3b - ESCORAMENTO EM PÉ DIREITO COM MATERIAL TUBULAR\" CONVENCIONAL:"
+  },
+  "fig23": {
+    "page": 37,
+    "bbox": [
+      59.0,
+      75.0,
+      574.0,
+      772.5
+    ],
+    "legenda": "FIGURA 6.3.3(c) - ESCORAMENTO EM LEQUE",
+    "ancora": "FIGURA 6.3.3(c) - ESCORAMENTO EM LEQUE",
+    "texto_removido": [
+      "A Do",
+      "3,25 380 3,25 L",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `tm e ns “” R`",
+      "3ºx 9\"-c/50",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `q 7 5 TO tz nm DA DO, 225 1`",
+      "CORTE TRANSVERSAL",
+      "228 | 3,00"
+    ]
+  },
+  "fig24": {
+    "page": 39,
+    "bbox": [
+      55.0,
+      731.0,
+      570.0,
+      807.0
+    ],
+    "legenda": "",
+    "ancora": "FIGURA 8.4.| - ESQUEMA DE UM ESCORAMENTO TUBULAR, COM MONTANTES,",
+    "ignorar": true,
+    "nota": "texto corrido (tira do rodapé da p. 39), não é figura",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `NO DEP ES NA er DLL SK IM`",
+      "## LP / XXX",
+      "00000724 LH,",
+      "## NINO",
+      "## PINSSSONÃA",
+      "## LISA LXLAN A",
+      "## LIV ABRANA",
+      "## ILS RANSAN",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `NA Ne QI X E 27,325 Mm / CALÇO (a) ns HI FIGURA`",
+      "- VISTA LONGITUDINAL (b) - SEÇÃO TRANSVERSAL te)",
+      "NT",
+      "## NNNA",
+      "## PE LYSO",
+      "## BEAN"
+    ]
+  },
+  "fig25": {
+    "page": 40,
+    "bbox": [
+      153.2,
+      90.0,
+      465.4,
+      322.5
+    ],
+    "legenda": "FIGURA 8.4.| - ESQUEMA DE UM ESCORAMENTO TUBULAR, COM MONTANTES,",
+    "ancora": "FIGURA 8.4.| - ESQUEMA DE UM ESCORAMENTO TUBULAR, COM MONTANTES,",
+    "clip": [
+      60,
+      90,
+      560,
+      690
+    ],
+    "nota": "clip inclui a Figura 8.4.2 (faltava) e a tabela de casos da 8.4.1",
+    "inserir_antes": "FIGURA 8.4.1 - ESQUEMA DE UM ESCORAMENTO TUBULAR"
+  },
+  "fig26": {
+    "page": 42,
+    "bbox": [
+      70.0,
+      117.0,
+      542.0,
+      323.0
+    ],
+    "legenda": "FIGURA 8.4.3 — NÓ DE CONTRAVENTAMENTO DE UM POSTE METÁLICO",
+    "ancora": "FIGURA 8.4.3 — NÓ DE CONTRAVENTAMENTO DE UM POSTE METÁLICO",
+    "clip": [
+      60,
+      110,
+      560,
+      350
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)"
+  },
+  "fig27": {
+    "page": 42,
+    "bbox": [
+      108.5,
+      327.0,
+      517.5,
+      682.3
+    ],
+    "legenda": "FIGURA 8.4.4 - QUADROS PLANOS FORMADOS",
+    "ancora": "FIGURA 8.4.4 - QUADROS PLANOS FORMADOS",
+    "clip": [
+      60,
+      430,
+      560,
+      695
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "x;"
+    ]
+  },
+  "fig28": {
+    "page": 44,
+    "bbox": [
+      122.5,
+      147.0,
+      500.0,
+      311.5
+    ],
+    "legenda": "FIGURA 8.4.5 - EXCENTRICIDADE NAS LIGACÕES",
+    "ancora": "FIGURA 8.4.5 - EXCENTRICIDADE NAS LIGACÕES",
+    "clip": [
+      60,
+      140,
+      560,
+      412
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "DA EXCENTRICIDADE (e) PARA QUE O NÓ POSSA SER CONSIDERADO PUNTUAL, ISTO É, SEM om PRODUZIR FLEXÃO NAS PEÇAS (Ho)",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `ea ts “ —- a Bs vr`",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `do ul drhzad ka3 mp A`",
+      "2a 202 | 203 :",
+      "ro Po"
+    ]
+  },
+  "fig29": {
+    "page": 44,
+    "bbox": [
+      114.8,
+      315.0,
+      502.0,
+      685.4
+    ],
+    "legenda": "FIGURA 8.4.6 - CONTRAVENTAMENTOS TRANSVERSAIS MÍNIMOS EM TRELIÇAS DE ESCORAMENTO",
+    "ancora": "FIGURA 8.4.6 - CONTRAVENTAMENTOS TRANSVERSAIS MÍNIMOS EM TRELIÇAS DE ESCORAMENTO",
+    "clip": [
+      60,
+      480,
+      560,
+      698
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "PLANO DOS BANZOS",
+      "—.",
+      "B"
+    ]
+  },
+  "fig30": {
+    "page": 47,
+    "bbox": [
+      122.0,
+      53.1,
+      550.6,
+      508.0
+    ],
+    "legenda": "",
+    "ancora": "c) em terrenos não coesivos, quando não houver risco de congelamento no período ",
+    "clip": [
+      60,
+      50,
+      560,
+      515
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "OQ EFEITO DA EXCENTRICIDADE : ex L8b e<1,8h e<804 e<o2H",
+      "DU erem-DISTÂNCIA ENTRE O EIXO",
+      "Ro BANZO TRACIONADO",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `CA II MIN Ml MN ea ——— — TH —— oo / DD == W ba máx. I0m`",
+      "du tom",
+      "## 1 S="
+    ]
+  },
+  "fig31": {
+    "page": 48,
+    "bbox": [
+      56.0,
+      737.0,
+      309.0,
+      807.0
+    ],
+    "legenda": "",
+    "ancora": "As estacas usadas como fundação de escoramentos são geralmente estacas de madeir",
+    "ignorar": true,
+    "nota": "texto corrido (tira do rodapé da p. 48), não é figura",
+    "texto_removido": [
+      "FIGURÁ",
+      "\"* CJ TORRE SEM ESTAI;"
+    ]
+  },
+  "fig32": {
+    "page": 51,
+    "bbox": [
+      180.5,
+      77.0,
+      470.2,
+      251.2
+    ],
+    "legenda": "FIGURA |1.2.1 — CUNHAS DE DESCIMBRAMENTO",
+    "ancora": "FIGURA |1.2.1 — CUNHAS DE DESCIMBRAMENTO",
+    "clip": [
+      60,
+      80,
+      560,
+      268
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)"
+  },
+  "fig33": {
+    "page": 51,
+    "bbox": [
+      170.7,
+      253.8,
+      472.4,
+      530.6
+    ],
+    "legenda": "FIGURA 11.2.2 - DISPOSITIVOS",
+    "ancora": "FIGURA 11.2.2 - DISPOSITIVOS",
+    "clip": [
+      60,
+      300,
+      560,
+      548
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "> —",
+      "## 3 À",
+      "W"
+    ]
+  },
+  "fig34": {
+    "page": 51,
+    "bbox": [
+      182.7,
+      534.4,
+      494.0,
+      744.2
+    ],
+    "legenda": "FIGURA 1.2.3 - CAIXA DE AREIA PARÁ DESCIMBRAMENTO",
+    "ancora": "FIGURA 1.2.3 - CAIXA DE AREIA PARÁ DESCIMBRAMENTO",
+    "clip": [
+      60,
+      580,
+      560,
+      752
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `À Pd É/ O IGcm ClA é ' N Ee /`",
+      "E, MADEIRA ROLIÇA INO DE AÇO 6 20mm",
+      "MADEIRA DE LEI",
+      "1 20/20 em oN",
+      "INN 2sa Eid",
+      "MADEIRA ROLIÇA",
+      "MADEIRA DE LEI"
+    ]
+  },
+  "fig35": {
+    "page": 52,
+    "bbox": [
+      103.3,
+      135.0,
+      503.6,
+      745.2
+    ],
+    "legenda": "",
+    "ancora": "Os macacos de areia podem trabalhar com cargas até cerca de 200 kN (20 tf).",
+    "clip": [
+      60,
+      130,
+      560,
+      752
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `a x E AREIA PLACA`",
+      "DE APOIO DE CONCRETO ARMADO",
+      "AREIA"
+    ]
+  },
+  "fig36": {
+    "page": 54,
+    "bbox": [
+      54.0,
+      729.0,
+      567.0,
+      807.0
+    ],
+    "legenda": "",
+    "ancora": "PERUENA PENETRAÇÃO NO TERRENO",
+    "ignorar": true,
+    "nota": "texto corrido (tira do rodapé da p. 54), não é figura",
+    "texto_removido": [
+      "POTE DE AREIA",
+      "ESTACA DE MADEIRA € 30 cm vw. --",
+      "PARA DESCIMBRAMENTO (MAva E AREIA FIGURA u.2.4 — poTE D",
+      "ÊEMBOLO",
+      "ANEL DE FIXAÇÃO",
+      "277)",
+      "N",
+      "NICZIAAS AIZAS",
+      "## SESY NS",
+      "FLUIDO DE PRESSÃO",
+      "Rs“",
+      "PINO DE Aço",
+      "O I6cm",
+      "ÊMBOLO DE MADEIRA MASSA VEDANTE",
+      "LEVAÇÃO",
+      "APROX. 15"
+    ]
+  },
+  "fig37": {
+    "page": 55,
+    "bbox": [
+      118.2,
+      150.0,
+      495.2,
+      689.5
+    ],
+    "legenda": "",
+    "ancora": "As fundações diretas superficiais são muito sensíveis ao descalçamento por erosã",
+    "clip": [
+      60,
+      140,
+      560,
+      700
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)"
+  },
+  "fig38": {
+    "page": 57,
+    "bbox": [
+      123.4,
+      58.8,
+      574.6,
+      721.4
+    ],
+    "legenda": "",
+    "ancora": "FIGURA A.3.2 - MODIFICACÕES DE SEÇÃO TRANSVERSAL",
+    "clip": [
+      55,
+      60,
+      575,
+      735
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "- ESQUEMAS CONSTRUTIVOS DE ESCORAMENTOS COM ESTACAS CRAVADAS DE PERUENA PENETRAÇÃO NO TERRENO",
+      "OS QUAIS REPOUSAM DISPOSITIVOS DE DESLIZAMENTO (MACACOS ROSQUEA",
+      "DOS)"
+    ]
+  },
+  "fig39": {
+    "page": 58,
+    "bbox": [
+      84.5,
+      160.0,
+      521.8,
+      673.9
+    ],
+    "legenda": "",
+    "ancora": "A deficiência mais comum em vigas de escoramentos é a falta de rigidez, produzin",
+    "clip": [
+      60,
+      150,
+      560,
+      688
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "p..57/62",
+      "TUBOS 11/29",
+      "DETALHE \"A\"",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `DETALHE\"A! BRAÇADEIRA s T tm ME FÁLICO M TA A tumor 1izou , L`",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Fr FIGURA A.3.1 - EXEMPLO DE FALHAS`",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `nes X 7 7 \"7`",
+      "## 7 T",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `TORRE e “ A.4.1`"
+    ]
+  },
+  "fig40": {
+    "page": 61,
+    "bbox": [
+      111.7,
+      189.0,
+      505.0,
+      582.4
+    ],
+    "legenda": "",
+    "ancora": "Asregiões mais sensíveis à deterioração são as extremidades das peças, nas quais",
+    "clip": [
+      60,
+      185,
+      560,
+      592
+    ],
+    "nota": "clip: desenho inteiro com legenda (o recorte automático cortava legenda ou figura vizinha)",
+    "texto_removido": [
+      "(o) TORRE DE SEÇÃO TRIANGULAR - NÃO TEM ALTERACÃO 1 (b) TORRE DE SEÇÃO QUADRADA —- A SEÇÃO PODE TRANSFORMA-SE",
+      "EM LOSANGO;",
+      "(c) TORRE DE SEÇÃO RETANGULAR -A SEÇÃO PODE TRANSFORMA-SE EM PARALELEPÍPIDO",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `A A pai Di (q N [1 Y + +`",
+      "- EXEMPLOS DE CONTRAVENTAMENTOS ESPACIAIS DE UMA TORRE, ANDICANDO-SE COM FLECHAS AS POSSIBILIDADES DÊ DESLOCA-",
+      "## 2 ses",
+      "a fudcacã 8 ascuthzacd MENTOS. SOMENTE O ULTIMO DESENHO A DIREITA E ESTAVEL , PORQUE IMPEDE TODOS OS MOVIMENTOS LATERAIS DOS Nós DA",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `q / / f / / F / / / / / / / dy / / / / / / (b) te) (a)`"
+    ]
+  }
+}

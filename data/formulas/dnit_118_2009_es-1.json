@@ -1,0 +1,44 @@
+{
+  "eq01": {
+    "page": 4,
+    "bbox": [
+      208.2,
+      95.9,
+      240.3,
+      126.0
+    ],
+    "raw": "η b ,",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável ηb no texto corrido"
+  },
+  "eq02": {
+    "page": 7,
+    "bbox": [
+      316.8,
+      43.7,
+      439.6,
+      91.6
+    ],
+    "raw": "σ − • ≤ + máx φ 4 1,0 10 2",
+    "latex": "A \\leq 0{,}1 + \\frac{\\sigma_{\\text{máx}}}{2}\\,\\phi\\,10^{-4}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "φ =diâmetro nominal em mm\n\n- = alongamento de 10 diâmetros, em mm σ = tensão calculada pela carga máxima atuante na máx barra emendada durante o ensaio, em MPa.",
+    "para": "$\\phi$ = diâmetro nominal em mm\n\n$A$ = alongamento de 10 diâmetros, em mm\n\n$\\sigma_{\\text{máx}}$ = tensão calculada pela carga máxima atuante na barra emendada durante o ensaio, em MPa.",
+    "nota": "legenda da inequação (p. 7) quebrada"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "| 1 2 3 | Todos aprovados | 1 1 2 |\n| 1 2 3 | Houve lote rejeitado | 2 3 3 |\n| 1 2 3 | Houve mais de um lote rejeitado | 3 3 3 |",
+    "para": "| 1 | Todos aprovados | 1 |\n| 2 |  | 1 |\n| 3 |  | 2 |\n| 1 | Houve lote rejeitado | 2 |\n| 2 |  | 3 |\n| 3 |  | 3 |\n| 1 | Houve mais de um lote rejeitado | 3 |\n| 2 |  | 3 |\n| 3 |  | 3 |",
+    "nota": "Tabela 3 (p. 7): linhas sem fio vieram numa célula só"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "ao coeficiente de $\\eta_{b}$, conformação superficial conforme estabelecido",
+    "para": "ao coeficiente de conformação superficial $\\eta_{b}$, conforme estabelecido",
+    "nota": "p. 4: ηb fora de ordem na extração"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "tab01": {
+    "page": 2,
+    "bbox": [
+      92.3,
+      600.1,
+      531.6,
+      750.6
+    ],
+    "ignorar": true,
+    "nota": "tabela automática errada (cabeçalho fora, mín/máx fundidos, raiz perdida): refeita em tabm01",
+    "texto_removido": [
+      "Limite de Resistência em kg/mm² - mín máx 37 44",
+      "54 54",
+      "Limite de Escoamento em kg/mm² 20 25",
+      "Alongamento em 4,5 S em % mínima 24 22",
+      "## ENSAIO DE DOBRAMENTO - NBR-6153/88 (MB-5)",
+      "Ângulo de Dobramento 100 180"
+    ]
+  },
+  "tabm01": {
+    "manual": true,
+    "page": 2,
+    "clip": [
+      88,
+      570,
+      535,
+      755
+    ],
+    "md": "| ENSAIOS DE TRAÇÃO NBR-6152/92 (MB-4) | PA 37 | PA 45 |\n| --- | --- | --- |\n| Limite de Resistência em kg/mm² - mín | 37 | 54 |\n| Limite de Resistência em kg/mm² - máx | 44 | 54 |\n| Limite de Escoamento em kg/mm² | 20 | 25 |\n| Alongamento em 4,5 $\\sqrt{s}$ em % mínima | 24 | 22 |\n| **ENSAIO DE DOBRAMENTO - NBR-6153/88 (MB-5)** |  |  |\n| Ângulo de Dobramento | 100 | 180 |",
+    "de_inicio": "## ENSAIOS DE TRAÇÃO NBR-6152/92 (MB-4)\n\nPA 37 PA 45",
+    "nota": "PA 45: mín = máx = 54 kg/mm² no PDF (p. 2; possível erro, PA-45 indicaria mín. 45) — transcrito como está"
+  }
+}

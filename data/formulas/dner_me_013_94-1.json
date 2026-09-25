@@ -1,0 +1,17 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      50,
+      553,
+      380,
+      610
+    ],
+    "latex": [
+      "\\text{Massa específica } (\\text{g/cm}^3) = \\frac{\\text{Massa da amostra (g)}}{\\text{Volume das microesferas } (\\text{cm}^3)}"
+    ],
+    "de_inicio": "Massa da amostra (g) Massa específica (g/cm?) =",
+    "de_fim": "Volume das microesferas (cm?)",
+    "para": "$$\n\\text{Massa específica } (\\text{g/cm}^3) = \\frac{\\text{Massa da amostra (g)}}{\\text{Volume das microesferas } (\\text{cm}^3)}\n$$"
+  }
+}

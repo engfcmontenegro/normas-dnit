@@ -1,0 +1,21 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 17,
+    "clip": [
+      170,
+      103,
+      432,
+      462
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: recorte da Tabela C1 (tabela sem fios, partida em 6 pela detecção); tira o texto achatado e dá a imagem usada abaixo da tabela markdown (t01)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "| 1 | 127 | 143 | 154 | 168 |\n| --- | --- | --- | --- | --- |\n\n![[dnit_033_2021_es_tab01.png]]\n\n| 1 | 168 | 185 | 202 | 218 |\n| --- | --- | --- | --- | --- |\n\n![[dnit_033_2021_es_tab03.png]]\n\n| 1 | 240 | 268 | 288 | 310 |\n| --- | --- | --- | --- | --- |\n\n![[dnit_033_2021_es_tab05.png]]\n\n| 3 | 138 | 149 | 163 | 174 |\n| --- | --- | --- | --- | --- |\n\n![[dnit_033_2021_es_tab02.png]]\n\n| 3 | 196 | 213 | 229 | 246 |\n| --- | --- | --- | --- | --- |\n\n![[dnit_033_2021_es_tab04.png]]\n\n| 3 | 302 | 327 | 349 | 374 |\n| --- | --- | --- | --- | --- |\n\n![[dnit_033_2021_es_tab06.png]]",
+    "para": "| Teor do RAP + AGREGADO (%) | Teor de umidade do RAP (%) | Descarga a 104 ºC | Descarga a 115 ºC | Descarga a 127 ºC | Descarga a 138 ºC |\n| --- | --- | --- | --- | --- | --- |\n| 10 % RAP + 90 % AGREGADO | 0 | 121 | 138 | 152 | 163 |\n|  | 1 | 127 | 143 | 154 | 168 |\n|  | 2 | 132 | 146 | 157 | 171 |\n|  | 3 | 138 | 149 | 163 | 174 |\n|  | 4 | 141 | 152 | 166 | 177 |\n|  | 5 | 193 | 157 | 168 | 182 |\n| 20 % RAP + 80 % AGREGADO | 0 | 138 | 154 | 168 | 182 |\n|  | 1 | 146 | 160 | 177 | 191 |\n|  | 2 | 154 | 168 | 182 | 196 |\n|  | 3 | 163 | 177 | 191 | 204 |\n|  | 4 | 171 | 185 | 199 | 213 |\n|  | 5 | 179 | 193 | 207 | 221 |\n| 30 % RAP + 70 % AGREGADO | 0 | 157 | 179 | 191 | 207 |\n|  | 1 | 168 | 185 | 202 | 218 |\n|  | 2 | 182 | 199 | 216 | 232 |\n|  | 3 | 196 | 213 | 229 | 246 |\n|  | 4 | 210 | 227 | 243 | 260 |\n|  | 5 | 224 | 241 | 257 | 274 |\n| 40 % RAP + 60 % AGREGADO | 0 | 179 | 199 | 218 | 138 |\n|  | 1 | 199 | 218 | 238 | 257 |\n|  | 2 | 218 | 238 | 257 | 277 |\n|  | 3 | 243 | 260 | 279 | 299 |\n|  | 4 | 260 | 279 | 299 | 321 |\n|  | 5 | 285 | 302 | 321 | 341 |\n| 50 % RAP + 50 % AGREGADO | 0 | 210 | 235 | 257 | 282 |\n|  | 1 | 240 | 268 | 288 | 310 |\n|  | 2 | 271 | 293 | 318 | 243 |\n|  | 3 | 302 | 327 | 349 | 374 |\n|  | 4 | 338 | 360 | 379 | 409 |\n|  | 5 | 365 | 390 | 413 | 438 |\n\n![[dnit_033_2021_es_m01.png]]",
+    "nota": "Tabela C1 (Anexo C) sem fios, partida em 6 tabelas pela detecção: tabela markdown + recorte m01. Valores transcritos como no PDF; parecem erros do PDF: 10 % RAP/5 %/104 ºC = 193; 40 % RAP/0 %/138 ºC = 138; 50 % RAP/2 %/138 ºC = 243"
+  }
+}

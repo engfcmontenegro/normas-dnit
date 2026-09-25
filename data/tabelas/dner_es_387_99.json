@@ -1,0 +1,56 @@
+{
+  "tab01": {
+    "page": 3,
+    "bbox": [
+      84.9,
+      604.4,
+      529.9,
+      769.3
+    ],
+    "texto_removido": [
+      "Abertura, mm passando, em peso N° 40 N° 80",
+      "N° 200",
+      "0,42 0,18 0,075",
+      "100 95-100 65-100"
+    ]
+  },
+  "tab02": {
+    "page": 11,
+    "bbox": [
+      119.9,
+      149.2,
+      555.9,
+      195.2
+    ],
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `n 5 6 7 8 9 10 12 13 14 15 16 17 19 21 k`"
+    ],
+    "nota_tabela": "n = n° de amostras k = coeficiente multiplicador α = risco do executante"
+  },
+  "tabm01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      140,
+      432,
+      436,
+      530
+    ],
+    "md": "| Peneira ABNT | Abertura, mm | Percentagem passando, em peso |\n| --- | --- | --- |\n| N° 40 | 0,42 | 100 |\n| N° 80 | 0,18 | 95-100 |\n| N° 200 | 0,075 | 65-100 |",
+    "de_inicio": "@@tabm01: inserida pela entrada x01 de data/formulas@@",
+    "nota": "5.1.3 filer; sem fios verticais (tinha virado fig01); o bloco é posto no lugar certo pela x01 de data/formulas"
+  },
+  "tabm02": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      165,
+      220,
+      456,
+      342
+    ],
+    "md": "| Características | Camada de rolamento |\n| --- | --- |\n| Percentagem de vazios | 3 a 8 |\n| Relações betume-vazios | 65 a 82 |\n| Estabilidade, mínima | 250 kgf (75 golpes) |\n| Fluência, mm | 2,4 a 4,5 |",
+    "de_inicio": "![[dner_es_387_99_fig02.png]]",
+    "nota": "5.1.5 a) valores Marshall; sem fios verticais (tinha virado fig02)"
+  }
+}

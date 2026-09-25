@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Macrodescritores MT": "multitext",
+    "Microdescritores DNER": "multitext",
+    "Palavras-chave IRRD/IPR": "multitext",
+    "Descritores SINORTEC": "multitext",
+    "Citada por": "multitext",
+    "Esta Norma cita": "multitext",
+    "ano": "number",
+    "aprovacao": "date",
+    "Palavras-chave": "multitext"
+  }
+}

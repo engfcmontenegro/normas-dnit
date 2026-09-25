@@ -1,0 +1,30 @@
+{
+  "t01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "10 o C e 40 o C",
+    "para": "10 ºC e 40 ºC",
+    "nota": "4.4 a)"
+  },
+  "t02": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "60 o C.",
+    "para": "60 ºC.",
+    "nota": "4.4 c)"
+  },
+  "t03": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "200g/ l a 250g/ l ;",
+    "para": "200 g/l a 250 g/l;",
+    "nota": "4.7 a): l = litro"
+  },
+  "t04": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "160g/m 2 ;",
+    "para": "160 g/m²;",
+    "nota": "4.7 b)"
+  }
+}

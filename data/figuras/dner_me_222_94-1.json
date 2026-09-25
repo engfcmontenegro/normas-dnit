@@ -1,0 +1,63 @@
+{
+  "fig01": {
+    "page": 3,
+    "bbox": [
+      66.0,
+      381.0,
+      557.0,
+      596.0
+    ],
+    "legenda": "",
+    "ancora": "Nota 1: Quando o material não se enquadrar em nenhuma das graduações da Tabela 1",
+    "texto_removido": [
+      "Peneira Frações da amostra, g",
+      "Passando | Retido"
+    ]
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      94.0,
+      311.6,
+      545.0,
+      470.0
+    ],
+    "legenda": "",
+    "ancora": "A carga abrasiva consiste de esferas de aço com diâmetros entre 46,0 mm a 47,6 m",
+    "texto_removido": [
+      "Graduação da amostra Número de esferas Carga abrasiva, g",
+      "A 12 5 000 +25",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `B q 4584+25 Cc 8 3330 +20 D 6 2500 +15`"
+    ]
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      110.6,
+      191.0,
+      535.2,
+      544.6
+    ],
+    "legenda": "",
+    "ancora": "ANEXO NORMATIVO —- MÁQUINA \"LOS ANGELES\"",
+    "texto_removido": [
+      "Giração de Parado de aço - 1,27 Rotacdo espessura",
+      "Gaxeta",
+      "Chapa de fechamento da mesma espessura da",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `da Gaxeta Da Ângulo da`",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `do tambor ' í laminado`",
+      "Alternativa de desenho do Desenho preferido para ângulo da plataforma atampa e pia Não menos que 127 cm 50,80 medidos externamente Aço fundido ou",
+      "Motor sugerido | Abertura não menos que 15, 2“ Chapa com não HP nm",
+      "## 7 menos 1,27 de",
+      "“fo espessura",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `ef , E Q + º f da`",
+      "Li.",
+      "Gaxet",
+      "## 4 y",
+      "5;\nid | aerá montado so) EEISueio",
+      "UNIDADE DE MEDIDA:\nCENTIMETRO (em)",
+      "Bandeja para Amostras",
+      ". cs “sta"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "eq01": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      270.8,
+      477.2,
+      297.9
+    ],
+    "raw": "𝑓𝑐𝑘, 𝑒𝑠𝑡 ≥ 𝑓𝑐𝑘 – conformidade.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "condição em linha de texto; tratada com a linha irmã (< Não conformidade) como LaTeX inline (t01/t02)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$f_{ck}$, $e_{st}$ < $f_{ck}$ – Não conformidade;",
+    "para": "$f_{ck,est} < f_{ck}$ – Não conformidade;"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "$f_{ck}$, $e_{st}$ é o valor estimado",
+    "para": "$f_{ck,est}$ é o valor estimado"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "$f_{ck}$, $e_{st}$ ≥ $f_{ck}$ – conformidade.",
+    "para": "$f_{ck,est} \\geq f_{ck}$ – conformidade."
+  }
+}

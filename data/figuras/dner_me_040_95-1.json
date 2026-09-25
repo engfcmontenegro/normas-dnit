@@ -1,0 +1,273 @@
+{
+  "fig01": {
+    "page": 7,
+    "bbox": [
+      55.0,
+      62.3,
+      541.0,
+      371.3
+    ],
+    "legenda": "Figura 1",
+    "ancora": "Figura 1",
+    "manual": true,
+    "texto_removido": [
+      "AV = Vuc VN AV = Diferença de Potencial",
+      "Vy = Potencial no Eletrodo M Vw = Potencial no Eletrodo N",
+      "= Intensidade de Corrente em Ampere V = Voltagem em VOLTS"
+    ]
+  },
+  "fig02": {
+    "page": 7,
+    "bbox": [
+      51.4,
+      423.9,
+      562.8,
+      816.4
+    ],
+    "legenda": "Figura 2",
+    "ancora": "Figura 2",
+    "manual": true,
+    "texto_removido": [
+      "Arranjo Wenner",
+      "## INSTRUMENTO",
+      "## PAPO",
+      "DO SAS",
+      "## SPAS PAES"
+    ]
+  },
+  "fig03": {
+    "page": 8,
+    "bbox": [
+      141.0,
+      72.7,
+      454.0,
+      703.1
+    ],
+    "legenda": "Figura 4",
+    "ancora": "Figura 4",
+    "manual": true,
+    "texto_removido": [
+      "Arranjo Schilumberger",
+      "Configuração de Embreagem",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Embreagem E G Jo Õ, 28 (m) Figura 4 Figura 5,6`"
+    ]
+  },
+  "fig04": {
+    "page": 9,
+    "bbox": [
+      74.2,
+      106.0,
+      473.8,
+      435.7
+    ],
+    "legenda": "Figura 5- PERFIL DE ELETRORESISTIVIDADE",
+    "ancora": "Figura 5- PERFIL DE ELETRORESISTIVIDADE",
+    "manual": true,
+    "texto_removido": [
+      "## 1000 Pa(Qm)",
+      "100 10",
+      "10 100",
+      "## 1000 AB (m)",
+      "CURVA DE RESISTIVIDADE APARENTE"
+    ]
+  },
+  "fig05": {
+    "page": 9,
+    "bbox": [
+      101.9,
+      524.0,
+      503.0,
+      711.7
+    ],
+    "legenda": "Figura 6- PERFIL DO TERRENO",
+    "ancora": "Figura 6- PERFIL DO TERRENO",
+    "manual": true,
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `qm e me com —— mimo me —— oo me mão mem ima`",
+      "am em rm ami",
+      "## UBSTRATO ROCHOSO)",
+      "DISTÂNCIA (m)",
+      "PROFUNDIDADE (m)"
+    ]
+  },
+  "fig06": {
+    "page": 10,
+    "bbox": [
+      75.0,
+      129.6,
+      575.0,
+      814.4
+    ],
+    "legenda": "Figura 7",
+    "ancora": "Figura 7",
+    "manual": true,
+    "texto_removido": [
+      "Resistividade em Furo de Sondagem",
+      "RED",
+      "LAAAASAANAA.",
+      "Pa =K AS",
+      "Her K=4T qt h = Camada ou Intervalo de Profundidade (Estágio)"
+    ]
+  },
+  "fig07": {
+    "page": 11,
+    "bbox": [
+      32.0,
+      62.3,
+      569.4,
+      809.7
+    ],
+    "legenda": "",
+    "ancora": "TABELA 2 - PROSPECÇÃO GEOFÍSICA",
+    "manual": true,
+    "texto_removido": [
+      "## OPERADOR:",
+      "LOCAL:\nPROJETO:\nVISTO:",
+      "## ESTACA:",
+      "## EQUIPE:",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `AB/2 | MN K U Nº m m m V 1 0,6 0,6 0,6 0,6 0,6 0,6`",
+      "## OBSERVAÇÕES:",
+      "BORNE A",
+      "BORNE B",
+      "LINHA A,",
+      "LINHA B",
+      "## SONDAGEM GEOELÉTRICA",
+      "DATA",
+      "OPERADOR LOCAL",
+      "AB/2 MN Q.m",
+      "## OBSERVAÇÕES",
+      "## ARRANJOS SCHLLUMBERGER / RETÂNGULO",
+      "SE:\nDATA:",
+      "SE:\nLOCAL:",
+      "PROJETO:\nEQUIPE:"
+    ]
+  },
+  "fig08": {
+    "page": 12,
+    "bbox": [
+      49.0,
+      50.5,
+      576.2,
+      744.0
+    ],
+    "legenda": "",
+    "ancora": "TABELA 3 - PROSPECÇÃO GEOFÍSICA",
+    "manual": true,
+    "texto_removido": [
+      "## PROSPECÇÃO GEOFÍSICA",
+      "## LOCALIZAÇÃO",
+      "SONDAGEM ELÉTRICA | DIsPOsiITIVO Nº",
+      "CARTA",
+      "COORDENADAS DA ESTACA 0",
+      "CORRENTE",
+      "ESCALA | LEITURA | mA [ESCALA| LEITURA",
+      "## PROSPECÇÃO GEOFÍSICA",
+      "## LOCALIZAÇÃO",
+      "OPERADOR LOCAL",
+      "COORDENADAS DA ESTACA 0",
+      "## LEITURA |",
+      "m.V"
+    ]
+  },
+  "fig09": {
+    "page": 13,
+    "bbox": [
+      29.0,
+      51.5,
+      568.6,
+      821.8
+    ],
+    "legenda": "",
+    "ancora": "TABELA ORIENTATIVA DE RESISTIVIDADE",
+    "manual": true,
+    "texto_removido": [
+      "ESTACA:",
+      "## OPERADOR:",
+      "4 5",
+      "## RESISTIVIDADE",
+      "Q.m | OBSERVAÇÕES REFERÊNCIA | ESTAÇÃO | ESCALA | LEITURA | m.A ESCALA|",
+      "Retângulo de Resistividade",
+      "CARTA DISPOSITIVO",
+      "INTENSIDADE",
+      "## VOLTAGEM"
+    ]
+  },
+  "fig10": {
+    "page": 14,
+    "bbox": [
+      47.3,
+      61.3,
+      577.0,
+      821.5
+    ],
+    "legenda": "Figura 1",
+    "ancora": "Figura 1",
+    "manual": true,
+    "texto_removido": [
+      "## GEOELÉTRICA",
+      "10 (m)",
+      "DATA:\n/ Jo",
+      "VISTO:",
+      "7 100",
+      "An. Inf.",
+      "10“ a 10 10“ a 10? 10“ a 10“",
+      "## 10 poa",
+      "oo Q",
+      "10 (92.m) hoo. a oo agp 15 2",
+      "## SONDAGEM"
+    ]
+  },
+  "fig11": {
+    "page": 16,
+    "bbox": [
+      24.0,
+      51.6,
+      569.0,
+      802.0
+    ],
+    "legenda": "Figura 3",
+    "ancora": "Figura 3",
+    "manual": true,
+    "texto_removido": [
+      "75,0",
+      "05,0",
+      "150,0",
+      "225,0",
+      "Pa=27 MN SL",
+      "## DE CADA CAMADA",
+      "K=4Tt.b P a",
+      "## RESISTIVIDADE APARENTE",
+      "## OBSERVAÇÕES:",
+      "## DATA:",
+      "## ARRANJO WENNER / LEE",
+      "Âv",
+      "BOLETIM Nº:",
+      "EST. OU Km:\nINTERESSADO:\nCAMINHAMENTO:",
+      "ELETRORESISTIVIDADE . WENNER",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `U (m) (m) bla MN r`",
+      "ACRÉSCIMO (m) | PROFUND. CAMADA",
+      "## LEITURA",
+      "Ar.ioº | Av.ioº | (M)",
+      "0,5 1,5 1 10 | 30 2 15 | 45 3 20 60 4 25 [ 75 5 5,0 15,0 10 7,5 22,5",
+      "30,0",
+      "45,0",
+      "60,0",
+      "## ARRANJO WENNER",
+      "## LOCAL: .",
+      "a.",
+      "## CAL."
+    ]
+  },
+  "fig12": {
+    "page": 17,
+    "bbox": [
+      74.4,
+      80.2,
+      534.0,
+      698.0
+    ],
+    "legenda": "Figura 3",
+    "ancora": "Figura 3",
+    "manual": true
+  }
+}

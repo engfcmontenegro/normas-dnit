@@ -1,0 +1,14 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "(mcd.lx⁻¹$.m^{-2)}$",
+    "para": "(mcd.lx⁻¹.m⁻²)",
+    "nota": "5.4: unidade quebrada na extração"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "- mcd.lx⁻¹.m⁻²:\n\n250 para medida mínima de sinalização definitiva para a cor branca;",
+    "para": "- 250 mcd.lx⁻¹.m⁻²: para medida mínima de sinalização definitiva para a cor branca;",
+    "nota": "7.5: primeiro item da lista partido"
+  }
+}

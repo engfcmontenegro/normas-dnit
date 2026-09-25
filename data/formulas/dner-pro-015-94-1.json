@@ -1,0 +1,33 @@
+{
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "cnnanvam nn m fia 1+ E) cooperar",
+    "para": "e) cooperar"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\nD verificar as condições dos veículos",
+    "para": "\n\nl) verificar as condições dos veículos"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\nD.1.4 Identificação das amostras",
+    "para": "\n\n**5.1.4** Identificação das amostras"
+  },
+  "t04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "para que a alimentação seja contínua.\n\ne uniforme, de acordo",
+    "para": "para que a alimentação seja contínua e uniforme, de acordo"
+  },
+  "t05": {
+    "texto": true,
+    "de_inicio": "QUADRO\n\n## 2 QUADRO\n\nORIENTAÇÃO PAR | AMOSTRAGEM",
+    "de_fim": "![[dner-pro-015-94-1_fig02.png]]\n\n## 4 MISTURA AGREGADOS",
+    "para": "## ANEXO NORMATIVO\n\n### QUADRO 1 - ORIENTAÇÃO PARA AMOSTRAGEM\n\n| Material | Método | Quantidade | Frequência de amostragem |\n| --- | --- | --- | --- |\n| 1. Agregado miúdo (silos frios) | DNER-ME 083 | Areia: 1 caixa<br>Pó de pedra: 1 caixa | No primeiro carregamento de uma dada origem, quando a origem muda, quando as características do material mudam diariamente para cada 8 h de trabalho ou por instrução especial da fiscalização. Igual ao agregado miúdo |\n| 2. Agregado graúdo (silos frios) | ABNT MB-6 (1987)<br>DNER-ME 083 | Brita 2, 1, 0: caixa |  |\n| 3. Material de enchimento | ASTM D 546-72 | 2 kg | Diariamente e de cada carregamento |\n| 4. Agregados (silos quentes) | - | 2,0 a 16,0 kg ou mais dependendo do diâmetro máximo do agregado, de acordo com a DNER-ME 083 | Diariamente pelo menos duas vezes por dia de 8 horas de trabalho |\n| 5. Ligante betuminoso | ABNT NB-174 (1972) | Aproximadamente 4 litros | Cada carregamento |\n| 6. Corretivo de adesividade | - | P/ 2 a 8 tamb.: amost. de 2 tamb.<br>P/ 9 a 27 tamb.: amost. de 3 tamb.<br>P/ 28 a 64 tamb.: amost. de 4 tamb. | Cada carregamento |\n| 7. Mistura betuminosa na usina | DNER-PRO 013 | Dmáx. agreg. (mm) – mistura (kg):<br>2,0 – 2<br>4,8 – 2<br>9,5 – 4<br>12,7 – 6<br>19,0 – 8<br>25,0 – 10<br>38,0 – 12<br>50,0 – 16 | Diariamente pelo menos a cada 8 horas de trabalho ou de acordo com o projeto |\n| 8. Amostra de mistura betuminosa na pista | DNER-PRO 013 | Dmáx. agreg. (mm) – área de compactação (cm²):<br>2,8 – 250<br>4,8 – 250<br>9,5 – 250<br>12,7 – [?]50<br>19,0 – [?]50<br>25,0 – [?]00<br>38,0 – [?]00<br>50,0 – [?]00 | De acordo com o projeto |\n\n![[dner-pro-015-94-1_tabm01.png]]\n\n### QUADRO 2 - RELATÓRIO DIÁRIO DE INSPEÇÃO DE USINAS DE MISTURAS BETUMINOSAS\n\n![[dner-pro-015-94-1_fig01.png]]",
+    "nota": "anexo (p. 9-10): Quadro 1 (tabela, página girada) vira tabm01; Quadro 2 (formulário em branco) fica como imagem (fig01 após a renumeração). No item 8 o 1º algarismo das áreas de 12,7 a 50,0 mm está cortado na emenda das tiras do escaneamento: [?]"
+  }
+}

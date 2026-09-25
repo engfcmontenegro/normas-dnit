@@ -1,0 +1,132 @@
+{
+  "fig01": {
+    "page": 5,
+    "bbox": [
+      56.8,
+      160.0,
+      552.8,
+      703.7
+    ],
+    "legenda": ""
+  },
+  "fig02": {
+    "page": 6,
+    "bbox": [
+      141.7,
+      126.0,
+      468.0,
+      367.0
+    ],
+    "legenda": "Foto 01: trinca isolada – transversal"
+  },
+  "fig03": {
+    "page": 6,
+    "bbox": [
+      141.7,
+      423.4,
+      468.0,
+      664.4
+    ],
+    "legenda": "Foto 02: trinca isolada – longitudinal"
+  },
+  "fig04": {
+    "page": 7,
+    "bbox": [
+      141.7,
+      119.8,
+      468.0,
+      360.8
+    ],
+    "legenda": "Foto 03: trinca interligada – tipo jacaré"
+  },
+  "fig05": {
+    "page": 7,
+    "bbox": [
+      141.7,
+      447.2,
+      468.0,
+      688.1
+    ],
+    "legenda": "Foto 04: trinca interligada – tipo bloco"
+  },
+  "fig06": {
+    "page": 8,
+    "bbox": [
+      141.5,
+      119.8,
+      468.2,
+      360.7
+    ],
+    "legenda": "Foto 05: afundamento de trilha de roda"
+  },
+  "fig07": {
+    "page": 8,
+    "bbox": [
+      141.5,
+      447.1,
+      468.3,
+      688.0
+    ],
+    "legenda": "Foto 06: afundamento local"
+  },
+  "fig08": {
+    "page": 9,
+    "bbox": [
+      198.5,
+      101.9,
+      411.3,
+      399.7
+    ],
+    "legenda": "Foto 07: ondulação"
+  },
+  "fig09": {
+    "page": 9,
+    "bbox": [
+      141.7,
+      486.0,
+      468.1,
+      726.9
+    ],
+    "legenda": "Foto 08: escorregamento"
+  },
+  "fig10": {
+    "page": 10,
+    "bbox": [
+      198.4,
+      77.8,
+      411.2,
+      375.4
+    ],
+    "legenda": "Foto 09: esxudação"
+  },
+  "fig11": {
+    "page": 10,
+    "bbox": [
+      198.2,
+      431.8,
+      411.6,
+      729.5
+    ],
+    "legenda": "Foto 10: defeitos diversos"
+  },
+  "fig12": {
+    "page": 11,
+    "bbox": [
+      141.8,
+      119.9,
+      467.8,
+      360.7
+    ],
+    "legenda": "Foto 11: panela / buraco"
+  },
+  "fig13": {
+    "page": 11,
+    "bbox": [
+      141.7,
+      447.0,
+      468.1,
+      688.0
+    ],
+    "legenda": "Foto 12: desgaste"
+  }
+}

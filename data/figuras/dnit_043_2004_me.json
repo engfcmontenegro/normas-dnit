@@ -1,0 +1,32 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      183.2,
+      104.0,
+      461.4,
+      382.2
+    ],
+    "legenda": "Figura 1 - Placa de apoio para moldagem dos corpos-de-prova"
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      148.6,
+      273.5,
+      422.5,
+      683.6
+    ],
+    "legenda": "Figura 2 - Cunho de aço"
+  },
+  "fig03": {
+    "page": 5,
+    "bbox": [
+      185.1,
+      118.0,
+      424.4,
+      264.2
+    ],
+    "legenda": "Figura 3 – Modelo do corpo-de-prova"
+  }
+}

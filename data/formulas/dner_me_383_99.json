@@ -1,0 +1,22 @@
+{
+  "eq01": {
+    "page": 2,
+    "clip": [
+      265,
+      322,
+      365,
+      362
+    ],
+    "latex": [
+      "A = \\frac{P - P'}{P} \\times 100"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `A P P P x = − ' 100`",
+    "de_fim": "P’ - peso do corpo-de-prova após o ensaio.",
+    "para": "$$\nA = \\frac{P - P'}{P} \\times 100\n$$\n\nem que:\n\n$A$ - desgaste da mistura betuminosa com asfalto-polímero, com aproximação de 1%;\n$P$ - peso do corpo-de-prova, antes do ensaio;\n$P'$ - peso do corpo-de-prova após o ensaio."
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "pesar, e anotar o seu peso (P’).",
+    "para": "pesar, e anotar o seu peso ($P'$)."
+  }
+}

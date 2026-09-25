@@ -1,0 +1,115 @@
+{
+  "eq01": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      453.3,
+      294.0,
+      483.3
+    ],
+    "raw": "𝐷 𝑐 = 𝐷 0 𝑚é𝑑𝑖𝑜 + 𝑘𝑆 ≤𝐿𝑆𝐸 (1)",
+    "latex": "D_c = D_{0_{\\text{médio}}} + kS \\leq LSE \\tag{1}"
+  },
+  "eq02": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      577.3,
+      261.7,
+      633.5
+    ],
+    "raw": "individuais 𝐷 𝑖 levantados, expressa em 10 -2 mm; 𝑘",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável da legenda"
+  },
+  "eq03": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      575.7,
+      285.5,
+      655.7
+    ],
+    "raw": "𝑛 ∑ 𝑥 𝑖 𝑖=1 𝑋= (1) 𝑛 𝑠= √ ∑(𝑥 𝑖 −𝑋̅)² (2) 𝑛−1",
+    "latex": [
+      "\\bar{X} = \\frac{\\sum_{i=1}^{n} x_i}{n} \\tag{1}",
+      "s = \\sqrt{\\frac{\\sum (x_i - \\bar{X})^2}{n-1}} \\tag{2}"
+    ],
+    "nota": "PDF numera (1) e (2), repetindo o (1) da equação de 8.2.2"
+  },
+  "eq04": {
+    "page": 7,
+    "bbox": [
+      318.1,
+      46.7,
+      435.4,
+      73.1
+    ],
+    "raw": "𝑋 é a média da amostra;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável da legenda"
+  },
+  "eq05": {
+    "page": 7,
+    "bbox": [
+      318.1,
+      633.6,
+      561.0,
+      678.6
+    ],
+    "raw": "Quando 𝑋̅ for inferior à espessura de projeto, é c) considerado o valor 𝑋̅ e, quando 𝑋̅ for superior à",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto corrido com X̄"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$D_{0}$$m$é$d_{io}$",
+    "para": "$D_{0_{\\text{médio}}}$",
+    "nota": "legenda: D0médio quebrado na extração"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "$X$− $k_{s}$ ≥ valor mínimo especificado;",
+    "para": "$\\bar{X} - ks$ ≥ valor mínimo especificado;"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "$X$+ $k_{s}$ ≤ $^{valor máximo especificado.}$",
+    "para": "$\\bar{X} + ks$ ≤ valor máximo especificado."
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "$X$− $k_{s}$ $<^{valor mínimo especificado;}$",
+    "para": "$\\bar{X} - ks$ < valor mínimo especificado;"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "$X$+ $k_{s}$ $>^{valor máximo especificado.}$",
+    "para": "$\\bar{X} + ks$ > valor máximo especificado."
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "$X$ é a média da amostra;",
+    "para": "$\\bar{X}$ é a média da amostra;"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "Quando $\\bar{X}$ for inferior à espessura de projeto, é\n\nc) considerado",
+    "para": "c) Quando $\\bar{X}$ for inferior à espessura de projeto, é considerado"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "Tabela A1 – Amostragem Variável n 5 6 7 8 9 10 11 k 1,55 1,41 1,36 1,31 1,25 1,21 1,19\n\n0,45 0,35 0,30 0,25 0,19 0,15 0,13 α n = nº de amostras k = coeficiente multiplicador α = risco do executante 12 13 14 15 16 17 19 21\n\n1,16 1,13 1,11 1,10 1,08 1,06 1,04 1,01 0,10 0,08 0,06 0,05 0,04 0,03 0,02 0,01",
+    "para": "Tabela A1 – Amostragem Variável\n\n| n | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 19 | 21 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| k | 1,55 | 1,41 | 1,36 | 1,31 | 1,25 | 1,21 | 1,19 | 1,16 | 1,13 | 1,11 | 1,10 | 1,08 | 1,06 | 1,04 | 1,01 |\n| α | 0,45 | 0,35 | 0,30 | 0,25 | 0,19 | 0,15 | 0,13 | 0,10 | 0,08 | 0,06 | 0,05 | 0,04 | 0,03 | 0,02 | 0,01 |\n\nn = nº de amostras\nk = coeficiente multiplicador\nα = risco do executante",
+    "nota": "tabela A1 achatada (sem imagem: o gerador não recorta tabela manual)"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "- Mini-CBRumidade ótima-3%/ Mini-CBRumidade ótima ≥ 1.",
+    "para": "- $\\text{Mini-CBR}_{\\text{umidade ótima}-3\\%} / \\text{Mini-CBR}_{\\text{umidade ótima}} \\geq 1$.",
+    "nota": "p. 3: índices perdidos"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "que é uma normatécnica",
+    "para": "que é uma norma técnica"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "microesferas devidroretrorrefletivas",
+    "para": "microesferas de vidro retrorrefletivas"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a DNER-PRO 251/89 à DNER-PRO\n\n101/93",
+    "para": "a DNER-PRO 251/89 à DNER-PRO 101/93",
+    "nota": "parágrafo partido"
+  },
+  "t04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**4.1** De, cada lote entregue « de microesfera",
+    "para": "**4.1** De cada lote entregue de microesfera",
+    "nota": "OCR (p. 2)"
+  },
+  "t05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "com mesiia data de fabricação, deve-se formar a amostra para ensaios de i laboratório",
+    "para": "com mesma data de fabricação, deve-se formar a amostra para ensaios de laboratório",
+    "nota": "OCR (p. 2)"
+  },
+  "t06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Tabeia - Correspondência entre os sacos de material. Tamanho do lote Tamanho da amostra 2a 90 2\n\n## 1 itida desde que citado o DNER como fonte\n\nução perm Reprod p. 03/04\n\n![[dner-pro-251-94-1_fig01.png]]",
+    "para": "Tabela - Correspondência entre os sacos de material.\n\n| Tamanho do lote | Tamanho da amostra |\n| --- | --- |\n| 2 a 90 | 2 |\n| 91 a 275 | 4 |\n| 276 a 610 | 8 |\n| 611 a 1160 | 10 |\n\n![[dner-pro-251-94-1_tabm01.png]]",
+    "nota": "Tabela de 4.2 (p. 2): texto achatado + tarja + figura que era a tabela -> tabela markdown + recorte tabm01"
+  },
+  "t07": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**43.1** assim 2 Este processamento deve ser repetido na quarta (4º) parte do material anteriormente dividido, e sucessivamente,",
+    "para": "**4.3.1.2** Este processamento deve ser repetido na quarta (4ª) parte do material anteriormente dividido, e assim sucessivamente,",
+    "nota": "4.3.1.2 (p. 3)"
+  },
+  "t08": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**4.3.2** Poruso de repartidor",
+    "para": "**4.3.2** Por uso de repartidor"
+  },
+  "t09": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Todos os sacosretirados de acordo com a Tabela devem ser passados através de crivos do repartidor de 1/16, até obter-se amostra de aproximadamente 5 000 g, a pal deve ser reduzida a + 2 500 g, através da nacaanram naln artidar da 1/ 1. ua paso GAS pSo repair UGCr “Uw i/1",
+    "para": "Todos os sacos retirados de acordo com a Tabela devem ser passados através de crivos do repartidor de 1/16, até obter-se amostra de aproximadamente 5 000 g, a qual deve ser reduzida a ± 2 500 g, através da passagem pelo repartidor de 1/1.",
+    "nota": "4.3.2.1 (p. 3): OCR"
+  },
+  "t10": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**4.4** Aamostraaserremetidaa laboratório",
+    "para": "**4.4** A amostra a ser remetida a laboratório"
+  },
+  "t11": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "![[dner-pro-251-94-1_fig02.png]]\n\n![[dner-pro-251-94-1_fig03.png]]\n\nANEXO NORMATIVO\n\nFIGURA\n\n## 2 - REPARTIDOR\n\nFIGURA\n\n## 3 —- AMOSTRA PARA",
+    "para": "## ANEXO NORMATIVO\n\n![[dner-pro-251-94-1_fig01.png]]\n\nFigura 1 - Repartidor de amostras 1/16; Figura 2 - Repartidor de amostras 1/1\n\n![[dner-pro-251-94-1_fig02.png]]\n\nFigura 3 - Amostra para análise colhida manualmente",
+    "nota": "Anexo (p. 4): legendas das figuras quebradas pelo OCR; figuras renumeradas (a antiga fig01 era a tabela)"
+  }
+}

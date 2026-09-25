@@ -1,0 +1,72 @@
+{
+  "fig01": {
+    "page": 12,
+    "bbox": [
+      98.3,
+      51.8,
+      511.3,
+      299.3
+    ],
+    "legenda": ""
+  },
+  "fig02": {
+    "page": 12,
+    "bbox": [
+      160.0,
+      457.9,
+      449.4,
+      663.4
+    ],
+    "legenda": "Figura 2 - Exemplo da variação do log (𝒂𝑻) pela temperatura de ensaio"
+  },
+  "fig03": {
+    "page": 13,
+    "bbox": [
+      92.3,
+      105.9,
+      517.2,
+      389.9
+    ],
+    "legenda": "Figura A1 - Esquema da forma de aplicação da carga cíclica e da resposta de deformação no ensaio de módulo"
+  },
+  "fig04": {
+    "page": 13,
+    "bbox": [
+      113.3,
+      422.7,
+      495.7,
+      793.2
+    ],
+    "legenda": "Figura A2 - Ilustração do esquema geral do corpo de prova no ensaio com dois medidores de deslocamento"
+  },
+  "fig05": {
+    "page": 14,
+    "bbox": [
+      148.9,
+      66.2,
+      460.5,
+      442.5
+    ],
+    "legenda": "Figura A3 - Esquema geral dos pontos de medição de deslocamentos no ensaio de módulo dinâmico axial"
+  },
+  "fig06": {
+    "page": 14,
+    "bbox": [
+      76.4,
+      462.0,
+      533.4,
+      719.2
+    ],
+    "legenda": "Figura A4 - Detalhes da montagem dos transdutores de medidas de deslocamentos no ensaio de módulo dinâmico"
+  },
+  "fig07": {
+    "page": 17,
+    "bbox": [
+      56.7,
+      130.8,
+      300.4,
+      360.3
+    ],
+    "legenda": "Figura C1 - Exemplos de corpos de prova preparados para o ensaio de módulo dinâmico axial"
+  }
+}

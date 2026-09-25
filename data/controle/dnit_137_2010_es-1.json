@@ -1,0 +1,133 @@
+{
+ "es": "dnit-137-2010-es",
+ "servico": "Regularização do subleito",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Material de substituição/adição",
+   "ensaio": "Compactação",
+   "citado": "DNER-ME 129/94",
+   "norma": null,
+   "norma_atual": "dnit-164-2013-me",
+   "frequencia": "Na seleção da ocorrência",
+   "criterio": "Na energia definida no projeto (referência para ISC)",
+   "condicao": "em caso de substituição ou adição de material",
+   "secao": "5.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material de substituição/adição",
+   "ensaio": "Índice de Suporte Califórnia (ISC)",
+   "citado": "DNER-ME 049/94",
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "Na seleção da ocorrência",
+   "criterio": "Melhor capacidade de suporte (DNIT 108/2009-ES, 5.1 d)",
+   "condicao": "em caso de substituição ou adição de material",
+   "secao": "5.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material de substituição/adição",
+   "ensaio": "Expansão",
+   "citado": "DNER-ME 049/94",
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "Na seleção da ocorrência",
+   "criterio": "≤ 2 %",
+   "condicao": "em caso de substituição ou adição de material",
+   "secao": "5.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material espalhado na pista",
+   "ensaio": "Caracterização (granulometria, LL, LP → IG e diâmetro máximo)",
+   "citado": "DNER-ME 080/94, DNER-ME 082/94 e DNER-ME 122/94",
+   "norma": "dner-me-082-94",
+   "outras": [
+    "dner-me-122-94"
+   ],
+   "frequencia": "1 amostra a cada 200 m de pista ou por jornada diária (400 m com material homogêneo, a critério da Fiscalização); mín. 5 amostras em pistas até 4.000 m²",
+   "criterio": "Sem partículas > 76 mm (3\"); IG ≤ IG do subleito indicado no projeto",
+   "secao": "5.1 / 7.1 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material espalhado na pista",
+   "ensaio": "Compactação",
+   "citado": "DNER-ME 129/94",
+   "norma": null,
+   "norma_atual": "dnit-164-2013-me",
+   "frequencia": "1 amostra a cada 200 m de pista ou por jornada diária (400 m com material homogêneo, a critério da Fiscalização); mín. 5 amostras em pistas até 4.000 m²",
+   "criterio": "Define massa específica aparente seca máxima e umidade ótima de referência",
+   "secao": "7.1 b"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material espalhado na pista",
+   "ensaio": "ISC e expansão",
+   "citado": "DNER-ME 049/94",
+   "norma": null,
+   "norma_atual": "dnit-172-2016-me",
+   "frequencia": "1 amostra a cada 400 m, nos pontos das amostras de compactação (800 m com material homogêneo); mín. 5 amostras em pistas até 4.000 m²",
+   "criterio": "Expansão ≤ 2 %; ISC conforme projeto",
+   "secao": "5.1 / 7.1 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Antes da compactação",
+   "ensaio": "Umidade higroscópica",
+   "citado": "DNER-ME 052/94 ou DNER-ME 088/94",
+   "norma": null,
+   "norma_atual": "dnit-456-2025-me",
+   "frequencia": "A cada 100 m de pista, imediatamente antes da compactação",
+   "criterio": "hót ± 2 %",
+   "secao": "7.2 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Após a compactação",
+   "ensaio": "Massa específica aparente seca in situ → grau de compactação",
+   "citado": "DNER-ME 092/94 ou DNER-ME 036/94",
+   "norma": "dner-me-036-94",
+   "frequencia": "Plano de amostragem variável (DNER-PRO 277/97); mín. 5 determinações em pistas com até 1.250 m³",
+   "criterio": "GC ≥ 100 %",
+   "secao": "7.2 b, c"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Largura da plataforma",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 10 cm",
+   "secao": "7.3 a"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Flecha de abaulamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "Até +20 %; sem falta",
+   "secao": "7.3 b"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Cotas do greide",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 3 cm em relação ao projeto",
+   "secao": "7.3 c"
+  }
+ ],
+ "notas": [
+  "Amostragem aleatória segundo Plano de Amostragem Variável (DNER-PRO 277/97); aceitação por X̄ − ks ≥ mín. e X̄ + ks ≤ máx.",
+  "Regularização abrange cortes/aterros de até 20 cm; espessuras maiores seguem as ES de terraplenagem (DNIT 105 a 108-ES). Escarificação geral em 20 cm antes da compactação.",
+  "Não conformidades tratadas conforme DNIT 011-PRO; a medição exige relatório de controle da qualidade anexado."
+ ]
+}

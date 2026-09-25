@@ -1,0 +1,17 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      202.0,
+      540.0,
+      533.6,
+      681.1
+    ],
+    "legenda": "Figura 1",
+    "ancora": "6.1.5 A amostragem deve estar de acordo com a Tabela 2.",
+    "texto_removido": [
+      "comprimento/2 largura/2",
+      "100 50"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "da força Pi,",
+    "para": "da força $P_i$,"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "a tensão $\\sigma_{p}$i aos",
+    "para": "a tensão $\\sigma_{pi}$ aos"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "0,72 $f_{ptk}$e 0,88",
+    "para": "0,72 $f_{ptk}$ e 0,88"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "0,88 $f_{pyk}$ , para",
+    "para": "0,88 $f_{pyk}$, para"
+  }
+}

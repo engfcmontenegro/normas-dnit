@@ -1,0 +1,38 @@
+{
+  "fig01": {
+    "page": 3,
+    "bbox": [
+      225.0,
+      73.0,
+      422.0,
+      205.0
+    ],
+    "legenda": "Figura 1 - Peneira - Seção transversal",
+    "ancora": "Figura 1 - Peneira - Seção transversal",
+    "clip": [
+      195,
+      76,
+      430,
+      208
+    ],
+    "nota": "recorte manual: a caixa detectada perdia o rótulo 'Profundidade H1' e pegava o fio do cabeçalho"
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      233.0,
+      259.0,
+      350.0,
+      407.0
+    ],
+    "legenda": "Figura 2 - Tecido simples",
+    "ancora": "Figura 2 - Tecido simples",
+    "clip": [
+      225,
+      255,
+      405,
+      410
+    ],
+    "nota": "recorte manual: a caixa detectada perdia o corte lateral da Figura 2"
+  }
+}

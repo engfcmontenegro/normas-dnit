@@ -1,0 +1,22 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      74.6,
+      145.5,
+      540.3,
+      414.8
+    ],
+    "legenda": "Figura 1: Molde para corpo-de-prova do ensaio de recuperação elástica"
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      45.1,
+      95.7,
+      573.1,
+      421.7
+    ],
+    "legenda": "Figura 2: Ductilômetro"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "NNED DDN 142/9046 aj LAERTE IN 1TS/OS ignada Formação de lotes de inspeção;\n2 b) ABNT",
+    "de_fim": "2 b) ABNT",
+    "para": "a) DNER-PRO 143/85, designada Formação de lotes de inspeção;\n\nb) ABNT",
+    "nota": "2.1 a): OCR ilegível (p. 2)"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "E.\n\n## 40 Ás lc\n\nati A\n\n## 7 Lote de inspeção\n\ntipo À 9 Conjunto",
+    "de_fim": "tipo À 9 Conjunto",
+    "para": "**3.7** Lote de inspeção tipo A\n\nConjunto",
+    "nota": "título 3.7 destruído pelo OCR (p. 2)"
+  },
+  "x03": {
+    "texto": true,
+    "de_inicio": "## 34 Batelada",
+    "de_fim": "## 34 Batelada",
+    "para": "**3.4** Batelada",
+    "nota": "título 3.4"
+  }
+}

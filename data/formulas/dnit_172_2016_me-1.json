@@ -1,0 +1,57 @@
+{
+  "eq01": {
+    "page": 4,
+    "bbox": [
+      314.5,
+      273.5,
+      366.5,
+      324.1
+    ],
+    "raw": "",
+    "latex": "\\mu_h = \\frac{P'_h}{V}"
+  },
+  "eq02": {
+    "page": 4,
+    "bbox": [
+      371.1,
+      449.1,
+      496.0,
+      493.6
+    ],
+    "raw": "em g/cm 3",
+    "latex": "\\mu_s = \\mu_h \\times \\frac{100}{100 + h}"
+  },
+  "eq03": {
+    "page": 4,
+    "bbox": [
+      314.5,
+      552.1,
+      400.2,
+      599.7
+    ],
+    "raw": "",
+    "latex": "h = \\frac{P_h - P_s}{P_s} \\times 100"
+  },
+  "eq04": {
+    "page": 5,
+    "bbox": [
+      84.1,
+      317.5,
+      366.4,
+      353.9
+    ],
+    "raw": "Expansão (%) = leitura final – leitura inicial no extensômetro x 100 altura inicial do corpo de prova",
+    "latex": "\\text{Expansão (\\%)} = \\frac{\\text{leitura final} - \\text{leitura inicial no extensômetro}}{\\text{altura inicial do corpo de prova}} \\times 100"
+  },
+  "eq05": {
+    "page": 6,
+    "bbox": [
+      60.2,
+      483.4,
+      286.1,
+      519.7
+    ],
+    "raw": "ISC = Pressão calculada ou pressão corrigida x100, pressão padrão",
+    "latex": "\\text{ISC} = \\frac{\\text{Pressão calculada ou pressão corrigida}}{\\text{pressão padrão}} \\times 100"
+  }
+}

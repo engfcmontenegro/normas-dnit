@@ -1,0 +1,22 @@
+{
+  "fig01": {
+    "page": 3,
+    "bbox": [
+      102.0,
+      99.0,
+      510.1,
+      772.9
+    ],
+    "legenda": "Figura 1 - Molde para ensaio de ductilidade e sua base",
+    "ancora": "Figura 1 - Molde para ensaio de ductilidade e sua base",
+    "texto_removido": [
+      "Molde montado",
+      "Medidas em mm",
+      "Peças A e A'",
+      "Garra",
+      "Parafuso",
+      "Conjunto",
+      "Base do molde"
+    ]
+  }
+}

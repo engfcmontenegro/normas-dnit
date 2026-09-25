@@ -1,0 +1,67 @@
+{
+  "eq01": {
+    "page": 6,
+    "clip": [
+      65,
+      270,
+      330,
+      322
+    ],
+    "latex": [
+      "h = \\frac{mb_u - mb_s}{mb_s - m} \\times 100\\text{, em percentagem}",
+      "\\gamma_s = \\frac{\\gamma_u}{h + 100} \\times 100\\text{, em kg/m}^3\\text{ ou g/cm}^3"
+    ],
+    "de_inicio": "**6.1.1** Umidades do corpo-de-prova, h:",
+    "de_fim": "- volume do molde em mº ou cm?.",
+    "para": "**6.1.1** Umidades do corpo-de-prova, h:\n\n$$\nh = \\frac{mb_u - mb_s}{mb_s - m} \\times 100\\text{, em percentagem}\n$$\n\nonde:\n\n$mb_u$ - massa do recipiente ou cápsula de umidade, mais a amostra úmida;\n$mb_s$ - massa do recipiente ou cápsula de umidade, mais a amostra seca;\n$m$ - massa do recipiente ou cápsula de umidade.\n\n**6.1.2** Massa específica aparente seca do corpo-de-prova, $\\gamma_s$:\n\n$$\n\\gamma_s = \\frac{\\gamma_u}{h + 100} \\times 100\\text{, em kg/m}^3\\text{ ou g/cm}^3\n$$\n\nonde:\n\n$\\gamma_u$ - massa específica aparente úmida do corpo-de-prova $= \\dfrac{m_u}{v}$, em kg/m³ ou g/cm³;\n$m_u$ - massa do corpo-de-prova úmido, igual à massa do conjunto molde mais corpo-de-prova úmido, menos a massa do molde, em kg ou g;\n$v$ - volume do molde em m³ ou cm³."
+  },
+  "eq02": {
+    "page": 6,
+    "clip": [
+      65,
+      436,
+      300,
+      482
+    ],
+    "latex": [
+      "\\gamma_s = \\frac{\\gamma_u}{h + 100} \\times 100\\text{, em kg/m}^3\\text{ ou g/cm}^3"
+    ]
+  },
+  "anexo": {
+    "texto": true,
+    "de_inicio": "FIGURA 2 -\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `DO SOQUETE METALICO",
+    "de_fim": "<<FIM>>",
+    "para": "## ANEXO NORMATIVO — FIGURAS\n\n![[dner_me_202_94-2_fig01.png]]\n\n### Figura 1 - Dimensões do molde metálico cilíndrico\n\nUnidade de medida: milímetro (mm)\n\n![[dner_me_202_94-2_fig02.png]]\n\n### Figura 2 - Dimensões do soquete metálico\n",
+    "nota": "anexo reescrito: avisos falsos e rótulos do OCR removidos, legendas do PDF"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "**3.2** Umidade ótima (h)",
+    "para": "**3.2** Umidade ótima ($h_o$)",
+    "nota": "3.2: ho lido como h"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "**3.3** Massa específica aparente seca máxima Yo)",
+    "para": "**3.3** Massa específica aparente seca máxima ($\\gamma_m$)",
+    "nota": "3.3: γm lido como Yo"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "determinar a massa do conjunto com a precisão de\n\n## 1 g. Remover o corpo-de-prova do molde, determinar a sua massa e identificá-lo\n\nconvenientemente (m).",
+    "para": "determinar a massa do conjunto com a precisão de 1 g. Remover o corpo-de-prova do molde, determinar a sua massa e identificá-lo convenientemente ($m_u$).",
+    "nota": "5.1.2.3: mu lido como m; título falso '## 1 g'"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "identificá-lo convenientemente (m ).",
+    "para": "identificá-lo convenientemente ($m_u$).",
+    "nota": "5.2.2.3: mu lido como m"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "cerca de\n\n## 2500 g desolo, com precisão de\n\n1 g, passando",
+    "para": "cerca de 2 500 g de solo, com precisão de 1 g, passando",
+    "nota": "5.1.1.1: título falso"
+  }
+}

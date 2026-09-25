@@ -1,0 +1,331 @@
+{
+  "fig01": {
+    "page": 2,
+    "bbox": [
+      97.0,
+      596.0,
+      498.0,
+      756.0
+    ],
+    "legenda": "FIGURA 2",
+    "ancora": "FIGURA 2"
+  },
+  "fig02": {
+    "page": 14,
+    "bbox": [
+      131.9,
+      206.0,
+      500.0,
+      582.0
+    ],
+    "legenda": "FIGURA 3",
+    "ancora": "FIGURA 3",
+    "texto_removido": [
+      "n-1"
+    ]
+  },
+  "fig03": {
+    "page": 17,
+    "bbox": [
+      109.0,
+      658.0,
+      515.0,
+      765.0
+    ],
+    "legenda": "",
+    "ancora": "A pesquisa dos valores extremos permissíveis para a espessura do reforço envolve",
+    "clip": [
+      95,
+      643,
+      545,
+      770
+    ],
+    "nota": "clip: inclui rótulos CONDIÇÃO (a)/(c)",
+    "texto_removido": [
+      "Estação seca | Estação chuvosa",
+      "Arenoso e Permeável 1,10-1,30 1,00",
+      "Argiloso e Sensível à Umidade 1,20-1,40 1,00",
+      "«o."
+    ]
+  },
+  "fig04": {
+    "page": 18,
+    "bbox": [
+      73.0,
+      174.0,
+      551.0,
+      213.8
+    ],
+    "legenda": "",
+    "ancora": "Cotejam-se os valores de (d ) .e(d Duas hipóteses podem ocorrer:",
+    "ignorar": true,
+    "nota": "trecho de texto corrido (O nomograma 4 foi elaborado...), já no md",
+    "texto_removido": [
+      "NA FAIXA DE PROJETO"
+    ]
+  },
+  "fig05": {
+    "page": 18,
+    "bbox": [
+      80.0,
+      543.0,
+      512.0,
+      802.0
+    ],
+    "legenda": "",
+    "ancora": "O revestimento do pavimento existente encontra-se na condição de fissuração (b),",
+    "clip": [
+      76,
+      549,
+      516,
+      806
+    ],
+    "nota": "clip: tira sobra de texto no topo",
+    "texto_removido": [
+      "CONDIÇÃO (a):\nCONDIÇÃO (c):\nO pe"
+    ]
+  },
+  "fig06": {
+    "page": 19,
+    "bbox": [
+      106.0,
+      192.0,
+      499.0,
+      303.0
+    ],
+    "legenda": "",
+    "ancora": "A pesquisa dos valores extremos permissíveis para a espessura do reforço, supost",
+    "clip": [
+      90,
+      172,
+      510,
+      305
+    ],
+    "nota": "clip: inclui rótulos CONDIÇÃO (b)/(d)"
+  },
+  "fig07": {
+    "page": 20,
+    "bbox": [
+      69.0,
+      96.0,
+      515.0,
+      339.0
+    ],
+    "legenda": "",
+    "ancora": "+ em uno me = mem mim (dogm) ma TO",
+    "texto_removido": [
+      "NOMOGRAMA",
+      "## 4 Orr",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `VALORES DE hce EXEQUÍVEIS (Moa)mér — + O Les`",
+      "> dem —pe— dy\n< deem amil doam mia + ama ( deemmdx"
+    ]
+  },
+  "fig08": {
+    "page": 23,
+    "bbox": [
+      30.0,
+      65.0,
+      569.0,
+      800.0
+    ],
+    "legenda": "FIGURA 1",
+    "ancora": "FIGURA 1"
+  },
+  "fig09": {
+    "page": 25,
+    "bbox": [
+      98.2,
+      100.1,
+      552.1,
+      774.4
+    ],
+    "legenda": "FIGURA 3",
+    "ancora": "FIGURA 3",
+    "texto_removido": [
+      "NOMOGRAMA 4 --dh",
+      "> doam pad, « don",
+      "(dy Jmin? (dagmbmin",
+      "## 4 ama"
+    ]
+  },
+  "fig10": {
+    "page": 26,
+    "bbox": [
+      81.2,
+      123.3,
+      551.0,
+      807.0
+    ],
+    "legenda": "",
+    "ancora": "VARIAÇÃO DA DEFLEXÃO ADMISSÍVEL.",
+    "texto_removido": [
+      "FLECH. is NAS TRILHAS",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `mm DE ROLA R m DEFLEXÕES`",
+      "RECUPERÁVEIS",
+      "0,0! mm",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `ser» ns -— Jtoe,`",
+      "MT pprrmmenro NACIONAL DE ESTRADAS DE ROCAGEIM",
+      "Trecho:",
+      "AVALIAÇÃO DO PAVIMENTO EXISTENTE",
+      "Amd bs fed id dd dd",
+      "ESTAÇÕES ESTACAS",
+      "CONFIGURAÇÃ EN tão LE TERRAPLENAGEM | LD OCORRÊNCU DE | LE ÁGUA FREÁ IGua rea [TD",
+      "LI lid he REVESTIS.ENTO he TIPO",
+      "CAIADAS",
+      "DO PAV MENTO",
+      "PAVIMENTO EXISTENTE",
+      "FESPESSUR EQUIVALENTES",
+      "SUB.EITO",
+      "ITOLOGIAS UNIDADE",
+      "DNER-PRO 10-79",
+      "Iig (26 ymóx",
+      "Folho",
+      "Pág. 23/31 FC-2e ou FC-3",
+      "ALPe /ou ATP",
+      "INVENTÁRIO",
+      "ACe /ouAR isentar serenas"
+    ]
+  },
+  "fig11": {
+    "page": 27,
+    "bbox": [
+      134.7,
+      52.3,
+      527.8,
+      699.8
+    ],
+    "legenda": "",
+    "ancora": "CRÍTICA NO QUE CONCERNE A FLEXIBILIDADE.",
+    "texto_removido": [
+      "## PRÉ-MISTURADO",
+      "A QUENTE ABERTO ( % Vy",
+      "> 8%) 1,35",
+      "## PRÉ-MISTURADO",
+      "## A FRIO SEMI-DENSO",
+      "( 5% < % Vy < 8% 1,36",
+      "## AREIA-ASFALTO",
+      "A QUENTE ( % Vy < 8%) 1,42",
+      "## PRÉ-MISTURADO",
+      "A QUENTE SEMI-DENSO ( 5 % <% Vy < 8% 1,58",
+      "CONCRETO BETUMINOSO ( % Vy < 5% ) 1,70",
+      "## RCS,..",
+      "## MATERIAL",
+      "## FATOR DE EQUIVALÊNCIA",
+      "(Revestimento ou Base) (£)",
+      "## MACADAME HIDRÁULICO",
+      "1,10",
+      "## SOLO-CIMENTO ( RCS, ;",
+      "> 21 kg/em?) 1,10",
+      "TRATAMENTO SUPERFICIAL 1,10",
+      "## MACADAME BETUMINOSO POR PENETRAÇÃO",
+      "1,20",
+      "PRÉ-MISTURADO A FRIO ABERTO ( % Vy > 8%) 1,33"
+    ]
+  },
+  "fig12": {
+    "page": 28,
+    "bbox": [
+      140.5,
+      59.0,
+      581.1,
+      720.7
+    ],
+    "legenda": "",
+    "ancora": "SUFICIENTES PARA A PROTEÇÃO DO MATERIAL SUBJACENTE,",
+    "texto_removido": [
+      "## 59 E",
+      "## 104 sb",
+      "## 102 EE",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `o CBR o FIGURA`",
+      "096 80 &s zo",
+      "## 78 an",
+      ">e«",
+      "mama OLO-BASES GRAN apnE'qQ mo o mr",
+      "## E REFORÇOS DO SUSLEITO",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `s 6 7 8 20 30 = os cBR FIGURA`",
+      "## 3 e",
+      "1,80",
+      "## FATORES DE EQUIVALENCIA",
+      "## ESTRUTURAL PARA BASES",
+      "FATOR DE EQUIVALÊNCIA ESTRUTURAL",
+      "AO PEDREGULHO, f",
+      "## FATORES DE EQUIVALÊNCIA",
+      "## ESTRUTURAL PARA BASES",
+      "## GRANULARES",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `2 « LIO E B`",
+      "## 108 UE"
+    ]
+  },
+  "fig13": {
+    "page": 29,
+    "bbox": [
+      116.2,
+      69.0,
+      564.3,
+      807.0
+    ],
+    "legenda": "",
+    "ancora": "(GT. PALO 30 IWUNTOUIA OyÍNIIA",
+    "texto_removido": [
+      "200 90",
+      "L7O",
+      "## GRANULARES TRATADAS",
+      "## COM CIMENTO",
+      "RCS7 vas"
+    ]
+  },
+  "fig14": {
+    "page": 30,
+    "bbox": [
+      69.2,
+      37.8,
+      516.6,
+      770.0
+    ],
+    "legenda": "",
+    "ancora": "REDUÇÃO PERCENTUAL DE DEFLEXÃO",
+    "texto_removido": [
+      "## NOMOGRAMA",
+      "Pág. 27/31",
+      "## EM FUNÇÃO DA ESPESSURA DA CAMADA",
+      "## CRÍTICA E DA INTENSIDADE DO TRÁFEGO",
+      "(COM BASE NO NOMOGRAMA \" B' DA CDH — TEST METHOD NO CALIF 356-A] adm DEFLEXÃO ADIISSÍVEL : d",
+      "MATERIAL CONCRETO BETUMINOSO",
+      "35 4d 4",
+      "ESPESSURA DA CAMADA : hcg (em em)",
+      "OBSERVAÇÕES —A CAMADA DE CONCRETO BETUMINOSO É A CAMADA",
+      "3-—A CAMADA DE CONCRETO BETUMINOSO É A CRÍTICA NO QUE CONCERNE À FLEXIBILIDADE.",
+      "4-—AS EXTREMIDADES JRACEJADA DAS CURVAS RESULTARAM DE EXTRAPOLA",
+      "T=11",
+      "IT=9",
+      "## 1 IT=I2",
+      "IT=13 IT=14 ITEIS",
+      "OBSERVAÇÕES",
+      "## À CAMADA SUPERIOR",
+      "DA ESTRUTURA. |",
+      "## NOMOGRAMA"
+    ]
+  },
+  "fig15": {
+    "page": 31,
+    "bbox": [
+      84.6,
+      59.3,
+      556.1,
+      771.3
+    ],
+    "legenda": "",
+    "ancora": "OBSERVAÇ 1-AS DE ACAR 3-0 FAR E 2-A(%)",
+    "texto_removido": [
+      "CARGA DE EIXO DE $;80 ton | 15 kips), E SÃO CONSIDERADAS NA SUPERFÍCIE DA CAMADA DE TRATAMENTO SUPERFICIAL.",
+      "3-=A CAMADA DE TRATAMENTO SUPERFICIAL É A CRÍTICA NO QUE CONCERNE A FLEXIBILIDADE.",
+      "K",
+      "!S.€",
+      "2.s-",
+      "e)",
+      "5 6 8 9 IO 12 13415 ÍNDICE DE TRÁFEGO, IT",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `e Dema É 1—`",
+      "—A PAMAANA se TRATAMENTO SUPERFICIAL. É"
+    ]
+  }
+}

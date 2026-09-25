@@ -1,0 +1,43 @@
+{
+  "tab01": {
+    "page": 3,
+    "bbox": [
+      80.1,
+      159.0,
+      530.0,
+      597.8
+    ],
+    "ignorar": true,
+    "nota": "não é tabela: gráfico de viscosidade (novos x antigos tipos), a 'TABELA 1' do PDF; volta a ser figura",
+    "texto_removido": [
+      "CL-5 2000 3000 1500 1200 2000 1600"
+    ]
+  },
+  "tab02": {
+    "page": 4,
+    "bbox": [
+      78.0,
+      172.8,
+      553.0,
+      613.9
+    ],
+    "ignorar": true,
+    "nota": "Tabela 2 posta no lugar errado (entre os rótulos do gráfico); refeita em tabm01 no lugar do texto achatado",
+    "texto_removido": [
+      "VISCOSIDADE SAYBOLT-FUROL A 60ºC"
+    ]
+  },
+  "tabm01": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      75,
+      170,
+      556,
+      617
+    ],
+    "md": "| Características | Unid. | Métodos de ensaios | Tipos de CM |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | CM-30 | CM-70 |\n| Asfalto diluído |  |  |  |  |\n| Viscosidade cinemática, a 60ºC | cSt | ME 151/94 | 30-60 | 70-140 |\n| ou |  |  |  |  |\n| Viscosidade Saybolt-Furol, a |  | ME 004 |  |  |\n| 25ºC | s |  | 75-150 | - |\n| 50ºC | s |  | - | 60-120 |\n| Ponto de fulgor (V. A. Tag), mínimo | ºC | NBR-5765 | 38 | 38 |\n| Destilação até 360ºC |  | NBR-9619 |  |  |\n| % volume do total destilado, a: |  |  |  |  |\n| 225ºC, máximo |  |  | 25 | 20 |\n| 250ºC | % |  | 40-70 | 20-60 |\n| 315ºC |  |  | 75-93 | 65-90 |\n| Resíduo a 360ºC, por diferença, % volume mínimo | % |  | 50 | 55 |\n| Água % volume, máximo | % | MB 37 | 0,2 | 0,2 |\n| Resíduo de destilação |  |  |  |  |\n| Penetração (100g, 5s, 25ºC) | 0,1mm | ME 003 | 80-120 | 80-120 |\n| Betume, % peso, mínimo | % | ME 010 | 99,0 | 99,0 |\n| Ductibilidade a 25ºC, mínimo | cm | ME 163 | 100 | 100 |",
+    "de_inicio": "Características\n\nUnid. Métodos de\n\nTipos de CM ensaios CM-30 CM-70\n\nAsfalto diluído\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `ME 004 25ºC s 75-150 - 50ºC s - 60-120`\n\nViscosidade cinemática, a 60ºC cSt ME 151/94 30-60 70-140 ou Viscosidade Saybolt-Furol, a Ponto de fulgor (V. A. Tag), mínimo ºC NBR-5765 38 38 Destilação até 360ºC NBR-9619 % volume do total destilado, a:\n225ºC, máximo 25 20 250ºC 40-70 20-60 315ºC 75-93 65-90 Resíduo a 360ºC, por diferença, % volume mínimo 50 55 Água % volume, máximo MB 37 0,2 0,2\n\nResíduo de destilação\n\nPenetração (100g, 5s, 25ºC) 0,1mm ME 003 80-120 80-120 Betume, % peso, mínimo ME 010 99,0 99,0 Ductibilidade a 25ºC, mínimo cm ME 163 100 100",
+    "nota": "Tabela 2 (a detecção automática a pôs no lugar errado)"
+  }
+}

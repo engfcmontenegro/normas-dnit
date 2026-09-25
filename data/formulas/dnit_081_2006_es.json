@@ -1,0 +1,26 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "Os serviços, diferenciados, devem ser medidos por etapas, conforme indicado a seguir:\n",
+    "para": "Os serviços, diferenciados, devem ser medidos por etapas, conforme indicado a seguir:\n\na) construção de plataformas de acesso: por m² de área construída;\n\nb) construção de andaimes: por m² de área construída;\n\nc) sinalização: instalação, operação e manutenção:\n\nd) saturação de elemento estrutural: por m² de área saturada;\n\nf) corte superficial de concreto, inclusive remoção: por m²;\n\ng) formas escoradas para demolições de concreto: por m²;\n\nh) demolições de concreto, inclusive remoção: por m³.",
+    "nota": "lista da seção 9 (p. 5, coluna direita) perdida na extração; transcrita da imagem | trecho restaurado removido: o gerador corrigido já produz a coluna direita"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "\n8 Condições de conformidade e não conformidade 5\n\n",
+    "para": "\n",
+    "nota": "linha do sumário solta depois do Abstract"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "## 8 Condições de conformidade e não-\n\nconformidade\n",
+    "para": "## 8 Condições de conformidade e não-conformidade\n",
+    "nota": "título partido"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "externas:\n\nintervenções de limpeza",
+    "para": "externas: intervenções de limpeza",
+    "nota": "títulos 3.1 e 5.1 partidos"
+  }
+}

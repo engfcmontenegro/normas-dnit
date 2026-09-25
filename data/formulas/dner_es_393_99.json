@@ -1,0 +1,60 @@
+{
+  "eq01": {
+    "page": 9,
+    "clip": [
+      60,
+      715,
+      200,
+      770
+    ],
+    "latex": [
+      "\\overline{X} = \\frac{\\sum X_i}{n}",
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `X Xi n = ∑`",
+    "de_fim": "- número de determinações.",
+    "para": "$$\n\\overline{X} = \\frac{\\sum X_i}{n}\n$$\n\n$$\ns = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}\n$$\n\nonde:\n\n$X_i$ - valores individuais;\n$\\overline{X}$ - média da amostra;\n$s$ - desvio padrão da amostra;\n$k$ - coeficiente tabelado em função do número de determinações;\n$n$ - número de determinações."
+  },
+  "eq02": {
+    "page": 10,
+    "clip": [
+      60,
+      55,
+      230,
+      120
+    ],
+    "latex": [
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo de projeto ou X + ks > valor máximo",
+    "para": "$\\overline{X} - ks$ < valor mínimo de projeto ou $\\overline{X} + ks$ > valor máximo"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo de projeto e X + ks ≤ valor máximo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo de projeto e $\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "± 0,2 λ /m 2",
+    "para": "± 0,2 l/m²"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "± 1,5kg/m 2 .",
+    "para": "± 1,5 kg/m²."
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "3.000m 2 )",
+    "para": "3.000 m²)"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "700m 2 de pista",
+    "para": "700 m² de pista"
+  }
+}

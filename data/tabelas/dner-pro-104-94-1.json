@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      65,
+      140,
+      545,
+      345
+    ],
+    "md": "| Tamanho do lote (1) | Tipo de amostragem (2) | Amostra (3) | Tamanho da amostra (4) | Tamanho cumulativo da amostra (5) | Número de aceitação (6) | Número de rejeição (7) |\n| --- | --- | --- | --- | --- | --- | --- |\n| 2 a 180 | Simples | Única | 7 | 7 | 0 | 1 |\n| 181 a 500 | Dupla | 1ª | 15 | 15 | 0 | 3 |\n|  |  | 2ª | 30 | 45 | 2 | 3 |\n| 501 a 800 | Dupla | 1ª | 25 | 25 | 1 | 4 |\n|  |  | 2ª | 50 | 75 | 3 | 4 |\n| 801 a 1300 | Dupla | 1ª | 35 | 35 | 1 | 5 |\n|  |  | 2ª | 70 | 105 | 4 | 5 |\n| 1301 a 3200 | Dupla | 1ª | 50 | 50 | 2 | 7 |\n|  |  | 2ª | 100 | 150 | 6 | 7 |",
+    "de_inicio": "![[dner-pro-104-94-1_fig01.png]]",
+    "nota": "tinha virado figura (fig01); na 2ª amostra das faixas 501-3200 o 'ª' está apagado no PDF"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      146.5,
+      393.1,
+      176.6
+    ],
+    "raw": "f u = 370 MPa,",
+    "latex": "",
+    "ignorar": true,
+    "nota": "valor no texto corrido (fu = 370 MPa)"
+  }
+}

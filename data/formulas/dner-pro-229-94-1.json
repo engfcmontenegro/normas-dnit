@@ -1,0 +1,29 @@
+{
+  "x01": {
+    "texto": true,
+    "de_inicio": "## 1 Conjunto de componentes para reposição e estojo de ferramentas\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original",
+    "de_fim": "AARADNIDE WNIAV ERLENALLLAS UML s Las Ear p. 02/07",
+    "para": "",
+    "nota": "aviso falso: fim do SUMÁRIO (p. 1) e cabeçalho da p. 2 ilegíveis no OCR"
+  },
+  "x02": {
+    "texto": true,
+    "de_inicio": "1 (um) multimetro, 20k OQ /vco b)",
+    "de_fim": "cura rápida.",
+    "para": "a) 1 (um) multímetro, 20 kΩ / vcc;\n\nb) 1 (um) jogo de chaves yale de 1 mm a 10 mm;\n\nc) 1 (um) de chaves de fenda de:\n\n- 2 mm x 100 mm\n- 3 mm x 150 mm\n- 5 mm x 150 mm\n- 7,5 mm x 250 mm;\n\nd) 1 (um) ferro de solda 30 watts;\n\ne) 10 g de solda c/fluxo, em carretel;\n\nf) 1 (um) alicate de bico;\n\ng) 1 (um) alicate de corte;\n\nh) 1 (um) jogo de chave Phillips:\n\n- 2 mm x 100 mm\n- 3 mm x 150 mm\n- 5 mm x 150 mm\n- 7,5 mm x 250 mm;\n\ni) 1 (um) paquímetro;\n\nj) 1 (um) rolo de adesivo, tipo araldite, cura rápida.",
+    "nota": "4.6 (p. 3): Ω lido como OQ, medidas e letras das alíneas quebradas"
+  },
+  "x03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "p. 06/07 c) no caso de outros sistemas:",
+    "para": "c) no caso de outros sistemas:"
+  },
+  "x04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\nJeprodução permitida desde que citado o DNER como fonte\n\n",
+    "para": "\n\n",
+    "nota": "tarja lateral"
+  }
+}

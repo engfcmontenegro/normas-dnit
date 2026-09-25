@@ -1,0 +1,22 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      168.8,
+      109.3,
+      440.8,
+      305.5
+    ],
+    "legenda": "Figura A1 – Definição das dimensões de uma partícula de agregado graúdo"
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      91.0,
+      462.6,
+      518.2,
+      608.4
+    ],
+    "legenda": "Figura A2 – Foto de dois agregados: Agregado (1) partícula não chata e alongada e"
+  }
+}

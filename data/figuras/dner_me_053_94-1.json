@@ -1,0 +1,49 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      123.0,
+      126.0,
+      575.3,
+      831.1
+    ],
+    "legenda": "FIGURA | - APARELHO",
+    "ancora": "FIGURA | - APARELHO",
+    "texto_removido": [
+      "PRATO",
+      "RECEPTÁCULO",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `VOLANTE JL MOTOR — mo e`",
+      "e um tm ae um",
+      "PARA EXTRAÇÃO DE BETUMES",
+      "## 8 L"
+    ]
+  },
+  "fig02": {
+    "page": 5,
+    "bbox": [
+      95.5,
+      179.0,
+      556.8,
+      574.4
+    ],
+    "legenda": "",
+    "ancora": "A porcentagem de betume é calculada pela fórmula:",
+    "texto_removido": [
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Va // 20\" TES A ,, so , “Na N Vou`",
+      "“2 Rs",
+      "## 7 mam sema] mi",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `NM / y e1,9 ' N [/ ú 1 | H ú`",
+      "dn A",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `+ Nos ed y ER to NV Rae ” “a A a + “a`",
+      "VISTA DE CIMA “DD DD\" VISTA DE CIMA \"DO PRATO DA TAMPA es, 06",
+      "2808!",
+      "## 5 To, 90",
+      "20,56! | E 3 418",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `L A , 4 — Hr — o | + 1S Po gil 2,09 n Sr S a FA TAMPA $a 967 º`",
+      "I 5,62 E",
+      "## 4 rm",
+      "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `15,40 gt 15,90 o ! PRATO UNIDADE`",
+      "DE MEDIDA: CENTÍMETRO (em)"
+    ]
+  }
+}

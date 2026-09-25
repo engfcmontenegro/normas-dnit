@@ -1,0 +1,524 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      140.7,
+      512.9,
+      169.4
+    ],
+    "raw": "′ 3.14 Tensão de pré-adensamento (𝝈 𝒗𝒎 )",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: título 3.14 com variável inline"
+  },
+  "eq02": {
+    "page": 6,
+    "bbox": [
+      336.0,
+      118.4,
+      439.9,
+      144.5
+    ],
+    "raw": "de plasticidade (WP);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq03": {
+    "page": 6,
+    "bbox": [
+      336.0,
+      251.8,
+      407.9,
+      280.4
+    ],
+    "raw": "𝑆 𝑢 ≤ 25 kPa);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq04": {
+    "page": 7,
+    "bbox": [
+      66.5,
+      418.2,
+      294.0,
+      445.6
+    ],
+    "raw": "𝑁 𝑆𝑃𝑇 considerando o efeito da energia de cravação,",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq05": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      465.0,
+      292.4,
+      499.8
+    ],
+    "raw": "𝑁 𝑆𝑃𝑇,60 = (1) 0,60",
+    "latex": "",
+    "ignorar": true,
+    "nota": "Equação 1 detectada sem o numerador: substituída pela manual m01"
+  },
+  "eq06": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      531.0,
+      105.7,
+      558.7
+    ],
+    "raw": "𝑁 𝑆𝑃𝑇,60 é",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq07": {
+    "page": 7,
+    "bbox": [
+      318.1,
+      357.7,
+      563.4,
+      385.4
+    ],
+    "raw": "a) As medidas de resistência à penetração (𝑞 𝑐 ) devem",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq08": {
+    "page": 7,
+    "bbox": [
+      318.1,
+      524.2,
+      563.4,
+      551.9
+    ],
+    "raw": "b) A resistência à penetração (𝑞 𝑡 ) e a poropressão (𝑢 2 )",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq09": {
+    "page": 7,
+    "bbox": [
+      526.5,
+      557.3,
+      563.4,
+      585.0
+    ],
+    "raw": "(𝑆 𝑢 ),",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq10": {
+    "page": 7,
+    "bbox": [
+      336.0,
+      590.4,
+      563.4,
+      618.2
+    ],
+    "raw": "capacidade de carga 𝑁 𝑘𝑡 e 𝑁 𝛥𝑢 . O fator 𝑁 𝑘𝑡 deve",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq11": {
+    "page": 7,
+    "bbox": [
+      318.1,
+      665.6,
+      559.8,
+      695.7
+    ],
+    "raw": "𝑞 𝑡 = 𝑁 𝑘𝑡 ∗ 𝑆 𝑢 + 𝜎 𝑣0 (2)",
+    "latex": "q_t = N_{kt} * S_u + \\sigma_{v0} \\tag{2}"
+  },
+  "eq12": {
+    "page": 7,
+    "bbox": [
+      318.1,
+      725.4,
+      563.4,
+      767.9
+    ],
+    "raw": "𝑞 𝑡 é a resistência à penetração, expressa em quilopascal (kPa);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq13": {
+    "page": 8,
+    "bbox": [
+      48.6,
+      133.6,
+      293.9,
+      163.2
+    ],
+    "raw": "A tensão de pré-adensamento 𝜎′ 𝑣𝑚 e o valor da razão de",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq14": {
+    "page": 8,
+    "bbox": [
+      216.9,
+      278.4,
+      253.8,
+      307.0
+    ],
+    "raw": "(𝑐 ℎ ),",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq15": {
+    "page": 8,
+    "bbox": [
+      66.5,
+      437.4,
+      218.8,
+      465.1
+    ],
+    "raw": "cravação do piezocone (~𝑡 100% );",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq16": {
+    "page": 8,
+    "bbox": [
+      336.0,
+      246.2,
+      459.3,
+      274.0
+    ],
+    "raw": "plasticidade (𝐼 𝑝 ) da argila.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq17": {
+    "page": 9,
+    "bbox": [
+      48.6,
+      287.1,
+      95.5,
+      314.9
+    ],
+    "raw": "(𝜎′ ℎ0 ).",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq18": {
+    "page": 9,
+    "bbox": [
+      497.0,
+      150.3,
+      563.4,
+      178.0
+    ],
+    "raw": "(𝐺 0 ). Sem",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq19": {
+    "page": 10,
+    "bbox": [
+      48.6,
+      577.1,
+      293.9,
+      622.4
+    ],
+    "raw": "compressão (𝐶 𝑐 ) e recompressão (𝐶 𝑟 ), coeficientes de (𝑐 𝑣 )",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq20": {
+    "page": 10,
+    "bbox": [
+      48.6,
+      627.8,
+      123.4,
+      654.1
+    ],
+    "raw": "adensado (𝑘).",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq21": {
+    "page": 10,
+    "bbox": [
+      318.1,
+      326.7,
+      563.4,
+      354.5
+    ],
+    "raw": "(𝑆 𝑢 ); e módulos de Young (𝐸) e de cisalhamento (𝐺).",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq22": {
+    "page": 23,
+    "bbox": [
+      262.5,
+      118.9,
+      381.6,
+      147.1
+    ],
+    "raw": "Limites de Liquidez (𝑤 𝐿 )",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "eq23": {
+    "page": 23,
+    "bbox": [
+      258.0,
+      170.0,
+      385.8,
+      197.7
+    ],
+    "raw": "Limite de Plasticidade (𝑤 𝑃 )",
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: variável inline no texto corrido"
+  },
+  "m01": {
+    "manual": true,
+    "page": 7,
+    "clip": [
+      50,
+      465,
+      290,
+      497
+    ],
+    "latex": "N_{SPT,60} = \\frac{N_{SPT} * Energia\\ Aplicada}{0{,}60} \\tag{1}",
+    "nota": "Equação 1 (5.2.1.1 b)"
+  },
+  "m02": {
+    "manual": true,
+    "page": 22,
+    "clip": [
+      55,
+      115,
+      560,
+      462
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Tabela A1 (tabela sem fios); tira o texto achatado (t25)"
+  },
+  "m03": {
+    "manual": true,
+    "page": 23,
+    "clip": [
+      55,
+      95,
+      560,
+      455
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Tabela B1 (tabela sem fios); tira o texto achatado (t26)"
+  },
+  "m04": {
+    "manual": true,
+    "page": 29,
+    "clip": [
+      55,
+      328,
+      560,
+      425
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: imagem da Tabela E1 (tabela sem fios); tira o texto achatado (t27)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "3.12\n\nResistência ao cisalhamento não drenada ($S_{u}$)",
+    "para": "**3.12** Resistência ao cisalhamento não drenada ($S_{u}$)",
+    "nota": "título 3.12 partido"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "′\n\n3.14\n\nTensão de pré-adensamento ($\\sigma_{vm}$ )",
+    "para": "**3.14** Tensão de pré-adensamento ($\\sigma'_{vm}$)",
+    "nota": "título 3.14 partido; σ'vm (p. 3)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "**4.4** Análise dos Recalques (Estado Limite de\n\nUtilização)",
+    "para": "**4.4** Análise dos Recalques (Estado Limite de Utilização)",
+    "nota": "título partido"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "**6.3** Tratamento para Ganho de Resistência e/ou\n\nAceleração de Recalques",
+    "para": "**6.3** Tratamento para Ganho de Resistência e/ou Aceleração de Recalques",
+    "nota": "título partido"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "**6.5.3** Colunas de solo-cimento tipo “DSM” (Deep\n\nSoil Mixing)",
+    "para": "**6.5.3** Colunas de solo-cimento tipo “DSM” (Deep Soil Mixing)",
+    "nota": "título partido"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "Baixa permeabilidade, em geral inferior a 10⁻$^{8}$ m/s;\n\ne)\n\n",
+    "para": "e) Baixa permeabilidade, em geral inferior a 10$^{-8}$ m/s;\n\n",
+    "nota": "5.1 e): letra separada do texto; 10^-8 (p. 6)"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "c)\n\nAs medidas de penetração",
+    "para": "c) As medidas de penetração",
+    "nota": "alínea partida"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "a)\n\nAs medidas de resistência à penetração",
+    "para": "a) As medidas de resistência à penetração",
+    "nota": "alínea partida"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "b)\n\nA resistência à penetração",
+    "para": "b) A resistência à penetração",
+    "nota": "alínea partida"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "b)\n\nCom base no torque",
+    "para": "b) Com base no torque",
+    "nota": "alínea partida"
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "$N_{Δu}$ .",
+    "para": "$N_{\\Delta u}$.",
+    "nota": "p. 7"
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "$σ$′$v_{m}$",
+    "para": "$\\sigma'_{vm}$",
+    "nota": "σ'vm quebrado"
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "$σ$′$v_{0}$",
+    "para": "$\\sigma'_{v0}$",
+    "nota": "σ'v0 quebrado"
+  },
+  "t14": {
+    "todas": true,
+    "de_inicio": "$σ$′$h_{0}$",
+    "para": "$\\sigma'_{h0}$",
+    "nota": "σ'h0 quebrado"
+  },
+  "t15": {
+    "todas": true,
+    "de_inicio": "$t_{50%}$",
+    "para": "$t_{50\\%}$",
+    "nota": "% sem escape (KaTeX)"
+  },
+  "t16": {
+    "todas": true,
+    "de_inicio": "$t_{100%}$",
+    "para": "$t_{100\\%}$",
+    "nota": "% sem escape (KaTeX)"
+  },
+  "t17": {
+    "todas": true,
+    "de_inicio": "o coeficiente ($c_{h}$), de adensamento horizontal sendo",
+    "para": "o coeficiente de adensamento horizontal ($c_{h}$), sendo",
+    "nota": "ordem das palavras (p. 8)"
+  },
+  "t18": {
+    "todas": true,
+    "de_inicio": "a pequenas deformações\n\n($G_{0}$). Sem normatização",
+    "para": "a pequenas deformações ($G_{0}$). Sem normatização",
+    "nota": "parágrafo partido (p. 9)"
+  },
+  "t19": {
+    "todas": true,
+    "de_inicio": "coeficientes de adensamento vertical\n\n($c_{v}$) e coeficientes",
+    "para": "coeficientes de adensamento vertical ($c_{v}$) e coeficientes",
+    "nota": "parágrafo partido (p. 10)"
+  },
+  "t20": {
+    "todas": true,
+    "de_inicio": "(∅ e $∅^{′}$) e intercepto de coesão total e efetivo ($c$ e $c^{′}$)",
+    "para": "($\\phi$ e $\\phi'$) e intercepto de coesão total e efetivo ($c$ e $c'$)",
+    "nota": "p. 10"
+  },
+  "t21": {
+    "todas": true,
+    "de_inicio": "| Ensaios integrados em ilhas de investigação | Aterros classe |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n|  | I | II |  | III |  |\n| Coleta de amostras para ensaios de caracterização | Uma vertical em cada extremidade da estrutura, adjacente ao aterro | Uma vertical a cada 250 m |  | Uma vertical a cada 500 m |  |\n|  | Coleta de amostras deformadas a cada 2 m de profundidade |  |  |  |  |\n| Sondagens à percussão (SPT) | Uma vertical em cada extremidade da estrutura, adjacente ao aterro |  | Um furo a cada 250 m |  | Um furo a cada 500 m |\n| Ensaios de palheta (FVT) | Uma vertical em cada extremidade da estrutura, adjacente ao aterro |  | Uma vertica l a cada 250 m |  | Uma vertica l a cada 500 m |\n|  | Ensaios a cada 2 m de profundidade |  |  |  |  |",
+    "para": "| Ensaios integrados em ilhas de investigação | Aterros classe |  |  |\n| --- | --- | --- | --- |\n|  | I | II | III |\n| Coleta de amostras para ensaios de caracterização | Uma vertical em cada extremidade da estrutura, adjacente ao aterro | Uma vertical a cada 250 m | Uma vertical a cada 500 m |\n|  | Coleta de amostras deformadas a cada 2 m de profundidade |  |  |\n| Sondagens à percussão (SPT) | Uma vertical em cada extremidade da estrutura, adjacente ao aterro | Um furo a cada 250 m | Um furo a cada 500 m |\n| Ensaios de palheta (FVT) | Uma vertical em cada extremidade da estrutura, adjacente ao aterro | Uma vertical a cada 250 m | Uma vertical a cada 500 m |\n|  | Ensaios a cada 2 m de profundidade |  |  |",
+    "nota": "Tabela 4 (p. 13): tabela automática com colunas deslocadas, refeita"
+  },
+  "t22": {
+    "todas": true,
+    "de_inicio": "|  | Classe |  | Seções a instrumentar |\n| --- | --- | --- | --- |\n|  | do |  |  |\n|  | aterro |  |  |\n| I |  |  | Todo aterro classe I deverá ter uma seção instrumentada. Todos os encontros de ponte ou viaduto deverão ser instrumentados. |",
+    "para": "| Classe do aterro | Seções a instrumentar |\n| --- | --- |\n| I | Todo aterro classe I deverá ter uma seção instrumentada. Todos os encontros de ponte ou viaduto deverão ser instrumentados. |",
+    "nota": "Tabela 6 (p. 20): cabeçalho partido em linhas"
+  },
+  "t23": {
+    "todas": true,
+    "de_inicio": "|  | Classe |  | Seções a instrumentar |\n| --- | --- | --- | --- |\n|  | do |  |  |\n|  | aterro |  |  |\n| I |  |  | Todo aterro Classe I deverá ter uma seção instrumentada. Todos os encontros de ponte ou viaduto deverão ser instrumentados. |\n| II |  |  | Pelo menos uma seção instrumentada por trecho e no mínimo uma seção a cada 250 m |\n| III |  |  | Pelo menos uma seção instrumentada por trecho e no mínimo uma seção a cada 250 m |",
+    "para": "| Classe do aterro | Seções a instrumentar |\n| --- | --- |\n| I | Todo aterro Classe I deverá ter uma seção instrumentada. Todos os encontros de ponte ou viaduto deverão ser instrumentados. |\n| II | Pelo menos uma seção instrumentada por trecho e no mínimo uma seção a cada 250 m |\n| III | Pelo menos uma seção instrumentada por trecho e no mínimo uma seção a cada 250 m |",
+    "nota": "Tabela 7 (p. 20): cabeçalho partido em linhas"
+  },
+  "t24": {
+    "todas": true,
+    "de_inicio": "| Parâmetros/ Informações geotécnicas |  |  | Laboratório |  |  |  |  |  |  | Campo |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | CT* |  |  | AD# |  |  | TX# | GF | SPT |  |  | CPT CPTU |  |  | FVT | PMP SBP | DMT | DS CS |\n|  | Perfil subsolo |  | - |  |  | - |  |  | - | A |  | A |  |  | A |  | - | - | - | - |\n|  | Teor de umidade (ℎ) |  | A |  |  | - |  |  | - | - | - |  |  | - |  |  | - | - | - | - |\n|  | Índice de vazios inicial (𝑒 ) 0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Limites Atterberg 𝑤 /𝑤 𝐿 𝑃 |  |  | A |  | - |  |  | - | - | - |  |  | - |  |  | - | - | - | - |\n| Peso específico (γ) Granulometria |  |  | A |  |  | - |  |  | - | - | - |  |  | B |  |  | - | - |  | - |\n|  | Módulo oedométrico (𝐸 ) 𝑜𝑒𝑑 |  | - |  |  | A |  |  | B | C | C |  |  | C |  |  | - | B | - | C |\n|  | Índice de compressão (𝐶 ) 𝑐 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| Módulo de Young (𝐸) Módulo cisalhante (𝐺) |  |  | - |  |  | B |  |  | A | B | C |  |  | C |  |  | - | A | B | A |\n| Resistência ao cisalhamento drenada (φ) |  |  | - |  |  | - |  |  | A | - | C |  |  | C |  |  | - | B | B | - |\n|  | Resistência ao cisalhamento |  | - |  |  | - |  |  | A | - | C |  |  | A |  |  | A | B | B | - |\n|  | não drenada (𝑆 ); 𝑢 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Coeficiente de adensamento |  | - |  |  | A |  |  | - | - | - |  |  | A |  |  | - | C | B | - |\n|  | (𝑐 , 𝑐 ) 𝑣 ℎ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | História de tensões (𝜎′ , OCR) 𝑣𝑚 |  | - |  |  |  | A |  | B | - | - |  |  | B |  |  | B | C | B | - |\n| Permeabilidade (k) |  |  | - |  |  | A |  |  | - | - | - |  |  | B |  |  | - | - |  | - |\n|  | Informações essenciais para |  | A (alta aplicabilidade) B (moderada aplicabilidade) C (baixa aplicabilidade) - (aplicabilidade inexistente) |  |  |  |  |  |  |  |  |  |  | * amostras deformadas # amostras indeformadas |  |  |  |  |  |  |\n|  | Estado Limite Último |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Informações adicionais |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | necessárias para |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Estado Limite de Utilização |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| CT: Caracterização |  |  | GF: Geofísica |  |  |  |  |  |  |  |  |  |  | FVT: Palheta |  |  |  |  |  |  |\n| AD: Adensamento |  |  | SPT: Sondagem SPT |  |  |  |  |  |  |  |  |  |  | PMP/SBP: Pressiômetro |  |  |  |  |  |  |\n| TX: Triaxial |  |  | CPT/CPTU: Ensaio de cone |  |  |  |  |  |  |  |  |  |  | DS/CS: Downhole e Crosshole |  |  |  |  |  |  |",
+    "para": "| Parâmetros/ Informações geotécnicas | Laboratório |  |  | Campo |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | CT* | AD# | TX# | GF | SPT | CPT<br>CPTU | FVT | PMP<br>SBP | DMT | DS<br>CS |\n| Perfil subsolo | - | - | - | A | A | A | - | - | - | - |\n| Teor de umidade ($h$)<br>Índice de vazios inicial ($e_0$) | A | - | - | - | - | - | - | - | - | - |\n| Limites Atterberg $w_L/w_P$ | A | - | - | - | - | - | - | - | - | - |\n| Peso específico (γ)<br>Granulometria | A | - | - | - | - | B | - | - |  | - |\n| Módulo oedométrico ($E_{oed}$)<br>Índice de compressão ($C_c$) | - | A | B | C | C | C | - | B | - | C |\n| Módulo de Young ($E$)<br>Módulo cisalhante ($G$) | - | B | A | B | C | C | - | A | B | A |\n| Resistência ao cisalhamento drenada ($\\phi$) | - | - | A | - | C | C | - | B | B | - |\n| Resistência ao cisalhamento não drenada ($S_u$); | - | - | A | - | C | A | A | B | B | - |\n| Coeficiente de adensamento ($c_v, c_h$) | - | A | - | - | - | A | - | C | B | - |\n| História de tensões ($\\sigma'_{vm}$, OCR) | - | A | B | - | - | B | B | C | B | - |\n| Permeabilidade ($k$) | - | A | - | - | - | B | - | - |  | - |\n| Informações essenciais para Estado Limite Último (cinza escuro)<br>Informações adicionais necessárias para Estado Limite de Utilização (cinza claro) | A (alta aplicabilidade)<br>B (moderada aplicabilidade)<br>C (baixa aplicabilidade)<br>- (aplicabilidade inexistente) |  |  | * amostras deformadas<br># amostras indeformadas |  |  |  |  |  |  |\n| CT: Caracterização | GF: Geofísica |  |  | FVT: Palheta |  |  |  |  |  |  |\n| AD: Adensamento | SPT: Sondagem SPT |  |  | PMP/SBP: Pressiômetro |  |  |  |  |  |  |\n| TX: Triaxial | CPT/CPTU: Ensaio de cone |  |  | DS/CS: Downhole e Crosshole |  |  |  |  |  |  |",
+    "nota": "Tabela C1 (p. 24): tabela automática embaralhada, refeita; o sombreamento cinza das células só aparece na imagem"
+  },
+  "t25": {
+    "todas": true,
+    "de_inicio": "Tabela A1 – Ensaios de campo para projetos de aterros sobre solos moles\n\n*",
+    "para": "Tabela A1 – Ensaios de campo para projetos de aterros sobre solos moles\n\n| Categoria | Teste |  |  | Norma |\n| --- | --- | --- | --- | --- |\n| Ensaios de penetração e executados em perfurações | Sondagem de simples reconhecimento | - | SPT | ABNT NBR 6484:2020 |\n|  | Piezocone com dissipação | Elétrico c/ poropressão | CPTU | ASTM D 3441:2016 |\n|  | Palheta | Tipo A | FVT | ABNT NBR 10905:1989 |\n|  | Dilatômetro | - | DMT | ASTM D 6635:2015 |\n|  | Pressiômetro | Pré-Furo | PMP | ASTM D 4719:2020 e ISO 22476-4:2012 |\n|  |  | Autoperfurante | SBP |  |\n| Geofísica aplicada | Geofísica de superfícies | Eletrorresistividade e métodos sísmicos | - | ABGE (2018) |\n|  | Ensaios sísmicos | Downhole* | DS | ASTM D 7400:2019 |\n|  |  | Crosshole | CS | ASTM D 4428:2014 |\n\n![[dnit_381_2022_pro_m02.png]]\n\n*",
+    "nota": "Tabela A1 (p. 22) sem fios: tabela markdown + recorte m02"
+  },
+  "t26": {
+    "todas": true,
+    "de_inicio": "Tabela B1 – Ensaios de laboratório para projetos de aterros sobre solos moles\n\n##",
+    "para": "Tabela B1 – Ensaios de laboratório para projetos de aterros sobre solos moles\n\n| Propriedades | Ensaios | Norma |\n| --- | --- | --- |\n| Classificação, identificação e descrição de solos | Limites de Liquidez ($w_L$) | ABNT NBR 6459:2016<br>DNER-ME 122/1994 |\n|  | Limite de Plasticidade ($w_P$) | ABNT NBR 7180:2016<br>DNER-ME 082/1994 |\n|  | Umidade natural ($w$) | ABNT NBR 6457:2016<br>DNER-ME 213/1994 |\n|  | Teor de matéria orgânica | ABNT NBR 13600:1996 |\n|  | Análise granulométrica por peneiramento e por sedimentação | ABNT NBR 7181:2016<br>DNER-ME 051/1994 |\n| Compressibilidade e deformação | Adensamento Oedométrico Unidimensional | ABNT NBR 16853:2020<br>DNER-IE 005/1994 |\n| Resistência ao cisalhamento | Triaxial CID | ASTM D 7181:2020 |\n|  | Triaxial CIU | ASTM D 4767:2011 (2020) |\n| Permeabilidade | Permeâmetro | ABNT NBR 14545:2021<br>ABNT NBR 13292:2021 |\n\n![[dnit_381_2022_pro_m03.png]]\n\n##",
+    "nota": "Tabela B1 (p. 23) sem fios: tabela markdown + recorte m03"
+  },
+  "t27": {
+    "todas": true,
+    "de_inicio": "Tabela E1 – Materiais leves que podem ser empregados em aterros leves\n\n##",
+    "para": "Tabela E1 – Materiais leves que podem ser empregados em aterros leves\n\n| Material do aterro | Peso específico (kN/m³) |\n| --- | --- |\n| Poliestireno expandido (Isopor ou similar) | 1 a 1,5 |\n| Argila expandida | 5 a 10 |\n| Cinza volante | 10 a 14 |\n\n![[dnit_381_2022_pro_m04.png]]\n\n##",
+    "nota": "Tabela E1 (p. 29) sem fios (a coluna da direita tinha virado a figura fig13): tabela markdown + recorte m04"
+  },
+  "t28": {
+    "todas": true,
+    "de_inicio": "\n\nAnexo D (Informativo) – Fluxograma para concepção do projeto de aterros sobre solos moles\n\n",
+    "para": "\n\n## Anexo D (Informativo) – Fluxograma para concepção do projeto de aterros sobre solos moles\n\n",
+    "nota": "título do Anexo D sem marcação de seção"
+  },
+  "t29": {
+    "todas": true,
+    "de_inicio": "\n\n* Em geral executados conjuntamente",
+    "para": "\n\n\\* Em geral executados conjuntamente",
+    "nota": "nota da Tabela A1: asterisco escapado para não virar lista"
+  }
+}

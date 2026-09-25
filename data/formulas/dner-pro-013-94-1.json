@@ -1,0 +1,51 @@
+{
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `APRCTDAÇT nz “a Ai Aa`",
+    "para": "## ABSTRACT",
+    "nota": "aviso falso: título ABSTRACT ilegível no OCR (p. 1)"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "1º\n\n## ORIFTIVO",
+    "para": "## 1 OBJETIVO",
+    "nota": "título 1 OBJETIVO ilegível no OCR (p. 2)"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "e) termômetro de haste metálica O C /200ºC; > f) quarteador.\n\nitida desde que citado o DNER como fonte me ução perm Reprod\n\n",
+    "para": "e) termômetro de haste metálica 0 ºC / 200 ºC;\n\nf) quarteador.\n\n",
+    "nota": "4.1 e)/f) (p. 2) + tarja lateral"
+  },
+  "t04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Seleção das amostras\n\n![[dner-pro-013-94-1_fig01.png]]",
+    "para": "![[dner-pro-013-94-1_fig01.png]]\n\n**4.4** Seleção das amostras",
+    "nota": "título 4.4 estava antes da tabela (a figura fig01 é a tabela: tabm01)"
+  },
+  "t05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": ".B\n\n**5.3**",
+    "para": "**5.3**",
+    "nota": "lixo de OCR (p. 4)"
+  },
+  "t06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "itta desde que citado o DNER como fonte mo ução perm Reprod sacia p. 05/05\n\n",
+    "para": "## 6 IDENTIFICAÇÃO DA AMOSTRA\n\n",
+    "nota": "título da seção 6 ilegível no OCR + tarja lateral (p. 5)"
+  },
+  "t07": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "g) jemetente;",
+    "para": "g) remetente;",
+    "nota": "OCR (p. 5)"
+  }
+}

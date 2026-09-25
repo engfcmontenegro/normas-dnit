@@ -1,0 +1,29 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "![[dnit_418_2019_em-1_fig01.png]]",
+    "para": "| Parâmetros Físico-químicos | Unidade | Cal Virgem | Cal Hidratada | Referência normativa de Ensaio |\n| --- | --- | --- | --- | --- |\n| **Química** |  |  |  |  |\n| Óxido total (CaO + MgO)t Base não volátil | % | ≥ 90,0 | ≥ 90,0 | NBR 6473 |\n| Óxido de Cálcio disponível (CaO disp) | % | ≥ 80,0 | ≥ 65,0 | NBR 6473 |\n| Hidróxido de Cálcio Ca(OH)₂ | % | - | ≥ 85,0 | NBR 6473 |\n| Óxido de Magnésio (MgO) | % | ≤ 5,0 | ≤ 5,0 | NBR 6473 |\n| CO₂ | % | ≤ 4,0 | ≤ 4,0 | NBR 6473 |\n| SO3 | % | ≤ 2,0 | ≤ 2,0 | NBR 6473 |\n| Umidade | % | - | ≤ 2,0 | NBR 6473 |\n| Reatividade com elevação da temperatura | minuto | ΔT 30° ≤ 10 minutos | - | NBR 10790 |\n| **Física (Granulometria)** |  |  |  |  |\n| Material passante em peneira 9,6 mm | % | 100 |  | NBR-9552 (CV); |\n| Material passante em peneira 4,8 mm | % | 100 |  | NBR-9552 (CV); |\n| Material passante em peneira 2 mm | % | ≥ 95,0 |  | NBR-9552 (CV); |\n| Material passante em peneira 0,21 mm | % | ≥ 70,0 | ≥ 98,0 | NBR-9552 (CV); NBR-9289 (CH) |\n| Material passante em peneira 0,075 mm | % | ≥ 50,0 | ≥ 93,0 | NBR-9552 (CV); NBR-9289 (CH) |\n\n![[dnit_418_2019_em-1_fig01.png]]",
+    "nota": "tabela do Anexo A (p. 4) tinha virado só figura (fig01): tabela markdown + a imagem; 'SO3' sem subscrito como no PDF"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "## Anexo A (Normativo) Exigências físicas e químicas . 4\n\n",
+    "para": "",
+    "nota": "linha do sumário que sobrou como título"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "ANEXO B (Informativo)\n\nBibliografia",
+    "para": "## Anexo B (Informativo) – Bibliografia"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "b) ASTM C 977-03: Standard Specification for\n\nQuicklime and Hydrated Lime for Soil\n\nStabilization.",
+    "para": "b) ASTM C 977-03: Standard Specification for Quicklime and Hydrated Lime for Soil Stabilization."
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "DER–PR: ES-P 13/91. Pavimentação: Solo-cal\n\ne)\n\nEspecificação provisória. Curitiba, 1991.",
+    "para": "e) DER–PR: ES-P 13/91. Pavimentação: Solo-cal Especificação provisória. Curitiba, 1991."
+  }
+}

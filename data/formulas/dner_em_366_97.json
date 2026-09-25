@@ -1,0 +1,30 @@
+{
+  "t01": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "da farpa é de ! 0,09 mm.",
+    "para": "da farpa é de ± 0,09 mm.",
+    "nota": "5.1.1 (p. 2): símbolo sem glifo no PDF (fonte MSOutlook, aparece como caixa vazia); interpretado como ±"
+  },
+  "t02": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "com tolerância de ! 15%.",
+    "para": "com tolerância de ± 15%.",
+    "nota": "5.1.4 (p. 3): símbolo sem glifo no PDF (fonte MSOutlook, aparece como caixa vazia); interpretado como ±"
+  },
+  "t03": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "a) Categoria A - camada leve - 1,50 ! ! < 1,80 - min. - 60g/m²\n\n! > 1,80 - min. - 70g/m².",
+    "para": "a) Categoria A - camada leve - 1,50 ≤ Ø < 1,80 - min. - 60g/m²; Ø > 1,80 - min. - 70g/m².",
+    "nota": "5.1.8 (p. 3): símbolo sem glifo no PDF (fonte MSOutlook, aparece como caixa vazia); interpretado como ≤ e Ø (diâmetro do fio, mm)"
+  },
+  "t04": {
+    "todas": true,
+    "texto": true,
+    "de_inicio": "c) Categoria C - camada pesada - 1,50 ! ! < 1,80 - min. - 200g/m²\n\n! > 1,80 - min. - 240g/m².",
+    "para": "c) Categoria C - camada pesada - 1,50 ≤ Ø < 1,80 - min. - 200g/m²; Ø > 1,80 - min. - 240g/m².",
+    "nota": "5.1.8 (p. 3): símbolo sem glifo no PDF (fonte MSOutlook, aparece como caixa vazia); interpretado como ≤ e Ø (diâmetro do fio, mm)"
+  }
+}

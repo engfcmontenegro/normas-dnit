@@ -1,0 +1,24 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      326.0,
+      174.5,
+      552.6,
+      239.2
+    ],
+    "legenda": "Figura 1 - Tacha rodoviária"
+  },
+  "fig02": {
+    "page": 15,
+    "bbox": [
+      435.0,
+      640.2,
+      475.6,
+      739.2
+    ],
+    "legenda": "Figura 1 - Tacha rodoviária ............ ................................ 4",
+    "ignorar": true,
+    "nota": "recorte em branco (índice geral, p. 15)"
+  }
+}

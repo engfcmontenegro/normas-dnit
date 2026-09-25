@@ -1,0 +1,24 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      319.1,
+      208.8,
+      377.2,
+      255.0
+    ],
+    "raw": "CR = TR ⋅ e l",
+    "latex": "TR = \\frac{CR}{e \\cdot l}"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      320.8,
+      432.0,
+      427.1,
+      481.8
+    ],
+    "raw": "− d d = × AR r i 100 d i",
+    "latex": "AR = \\frac{d_r - d_i}{d_i} \\times 100"
+  }
+}

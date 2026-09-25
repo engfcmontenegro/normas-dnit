@@ -1,0 +1,26 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      385.3,
+      252.7,
+      514.8,
+      300.6
+    ],
+    "raw": "L L RE ,% 1 2 x 100 L 1",
+    "latex": "RE,\\% = \\frac{L_1 - L_2}{L_1} \\times 100"
+  },
+  "eq02": {
+    "page": 4,
+    "bbox": [
+      66.5,
+      470.8,
+      480.7,
+      623.1
+    ],
+    "raw": "A – 36,0 ± 0,5 B – 30,0 ± 0,1 C – 17,0 ± 0,1 D – 6,0 ± 0,1 E – 75,0 ± 0,5 F – 112,5 ± 1,0 G – 20,0 ± 0,2 H – Raio 16,0 ± 0,25 J – 6,5 ± 0,2 K – 10,0 ± 0, 1",
+    "latex": "",
+    "ignorar": true,
+    "nota": "lista de dimensões da figura do molde (cotas A–L), não é fórmula"
+  }
+}

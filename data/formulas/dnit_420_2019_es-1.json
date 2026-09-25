@@ -1,0 +1,64 @@
+{
+  "eq01": {
+    "page": 6,
+    "bbox": [
+      345.0,
+      308.9,
+      444.1,
+      418.9
+    ],
+    "raw": "n ∑ x i = = X i 1 n = ∑ − 2 ( x X ) i s − n 1",
+    "latex": [
+      "\\bar{X} = \\frac{\\sum_{i=1}^{n} x_i}{n}",
+      "s = \\sqrt{\\frac{\\sum (x_i - \\bar{X})^2}{n-1}}"
+    ]
+  },
+  "m01": {
+    "manual": true,
+    "page": 6,
+    "clip": [
+      140,
+      146,
+      262,
+      166
+    ],
+    "latex": "X = D_{0}\\text{médio} + KS \\leq LSE",
+    "nota": "fórmula em texto comum (7.2.2)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X- ks ≥ valor mínimo especificado;",
+    "para": "$\\bar{X} - ks$ ≥ valor mínimo especificado;"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X+ ks ≤ valor máximo especificado.",
+    "para": "$\\bar{X} + ks$ ≤ valor máximo especificado."
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "X- ks < valor mínimo especificado;",
+    "para": "$\\bar{X} - ks$ < valor mínimo especificado;"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "X+ ks > valor máximo especificado.",
+    "para": "$\\bar{X} + ks$ > valor máximo especificado."
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "$ix$ – valores individuais\n$X$ – média da amostra s - desvio padrão da amostra k - coeficiente tabelado em função do número de determinações.",
+    "para": "$x_i$ – valores individuais\n\n$\\bar{X}$ – média da amostra\n\n$s$ - desvio padrão da amostra\n\n$k$ - coeficiente tabelado em função do número de determinações."
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "\n\nn - número de determinações (tamanho da amostra).",
+    "para": "\n\n$n$ - número de determinações (tamanho da amostra)."
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "| n | 13 | 14 | 15 | 16 | 17 | 19 | 21 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n\n![[dnit_420_2019_es-1_tab02.png]]\n\n| K | 1,13 | 1,11 | 1,10 | 1,08 | 1,06 | 1,04 | 1,01 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| α | 0,08 | 0,06 | 0,05 | 0,04 | 0,03 | 0,02 | 0,01 |\n| n = nº de amostras; k =coeficiente multiplicador Α = risco do executante. |  |  |  |  |  |  |  |\n\n![[dnit_420_2019_es-1_tab03.png]]",
+    "para": "| n | 13 | 14 | 15 | 16 | 17 | 19 | 21 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| K | 1,13 | 1,11 | 1,10 | 1,08 | 1,06 | 1,04 | 1,01 |\n| α | 0,08 | 0,06 | 0,05 | 0,04 | 0,03 | 0,02 | 0,01 |\n\nn = nº de amostras;\nk = coeficiente multiplicador\nα = risco do executante.\n\n![[dnit_420_2019_es-1_tab02.png]]\n\n![[dnit_420_2019_es-1_tab03.png]]",
+    "nota": "continuação da Tabela de Amostragem Variável partida em duas (p. 6-7); legenda do PDF traz 'A = risco' (α)"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "eq01": {
+    "page": 9,
+    "clip": [
+      65,
+      500,
+      200,
+      600
+    ],
+    "latex": [
+      "\\overline{X} = \\frac{\\sum X_i}{n}",
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `X Xi n = ∑ ( ) s Xi X n = ∑ − − 2 1`",
+    "de_fim": "- número de determinações.",
+    "para": "$$\n\\overline{X} = \\frac{\\sum X_i}{n}\n$$\n\n$$\ns = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}\n$$\n\nonde:\n\n$X_i$ - valores individuais;\n$\\overline{X}$ - média da amostra;\n$s$ - desvio padrão da amostra;\n$k$ - coeficiente tabelado em função do número de determinações;\n$n$ - número de determinações."
+  },
+  "eq02": {
+    "page": 9,
+    "clip": [
+      65,
+      548,
+      200,
+      600
+    ],
+    "latex": [
+      "s = \\sqrt{\\frac{\\sum \\left(X_i - \\overline{X}\\right)^2}{n - 1}}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo de projeto ou X + ks > valor máximo",
+    "para": "$\\overline{X} - ks$ < valor mínimo de projeto ou $\\overline{X} + ks$ > valor máximo"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo de projeto e X + ks ≤ valor máximo",
+    "para": "$\\overline{X} - ks$ ≥ valor mínimo de projeto e $\\overline{X} + ks$ ≤ valor máximo"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "é de ± 0,2 l/m 2",
+    "para": "é de ± 0,2 l/m²"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "± 1,5kg/m 2 .",
+    "para": "± 1,5 kg/m²."
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "3.000m 2 )",
+    "para": "3.000 m²)"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "700m 2 de pista",
+    "para": "700 m² de pista"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "considerar o ligante residual.\n\n**5.2** Equipamento",
+    "para": "considerar o ligante residual.\n\nTaxas Cimento Asfáltico Agregado 0,8 λ /m 2 a 1,2 λ /m 2 8 kg/m 2 a 12 kg/m 2\n\n**5.2** Equipamento",
+    "nota": "5.1.4.4: devolve o lugar da tabela de taxas (tinha virado figura fig01, embutida depois do título 5.2); tabelas_dner troca pela tabm01"
+  }
+}

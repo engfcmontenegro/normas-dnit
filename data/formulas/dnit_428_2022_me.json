@@ -1,0 +1,220 @@
+{
+  "eq01": {
+    "page": 4,
+    "bbox": [
+      318.0,
+      146.0,
+      560.0,
+      184.5
+    ],
+    "raw": "(𝐶−𝐴) (𝐶−𝐵) (1)",
+    "latex": "\\text{\\% de água absorvida} = 100 \\times \\frac{(C - A)}{(C - B)} \\tag{1}",
+    "clip": [
+      318.0,
+      146.0,
+      560.0,
+      184.5
+    ]
+  },
+  "eq02": {
+    "page": 5,
+    "bbox": [
+      336.0,
+      76.3,
+      388.1,
+      102.6
+    ],
+    "raw": "como 𝐸.",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda / texto comum"
+  },
+  "eq03": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      492.0,
+      556.5,
+      530.9
+    ],
+    "raw": "𝑚 1 𝐷 𝑐𝑖𝑙 = (2) 𝑚 1 −𝑚 2",
+    "latex": "D_{cil} = \\frac{m_1}{m_1 - m_2} \\tag{2}"
+  },
+  "eq04": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      561.4,
+      352.1,
+      589.1
+    ],
+    "raw": "𝐷 𝑐𝑖𝑙",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda / texto comum"
+  },
+  "eq05": {
+    "page": 5,
+    "bbox": [
+      318.1,
+      651.5,
+      563.4,
+      679.2
+    ],
+    "raw": "𝑚 2 é a massa do cilindro de calibração na água a (25 ±",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda / texto comum"
+  },
+  "eq06": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      86.3,
+      287.0,
+      130.5
+    ],
+    "raw": "𝑚 3 −𝑚 1 𝐷 𝑝𝑎 = (3) 𝑚 3 −𝑚 4 − 𝑚1 𝐷𝑐𝑖𝑙",
+    "latex": "D_{pa} = \\frac{m_3 - m_1}{m_3 - m_4 - \\dfrac{m_1}{D_{cil}}} \\tag{3}"
+  },
+  "eq07": {
+    "page": 6,
+    "bbox": [
+      48.6,
+      297.5,
+      82.6,
+      325.2
+    ],
+    "raw": "𝐷 𝑐𝑖𝑙",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda / texto comum"
+  },
+  "eq08": {
+    "page": 6,
+    "bbox": [
+      66.5,
+      658.8,
+      131.7,
+      686.2
+    ],
+    "raw": "como 𝐸 𝑠𝑒𝑐𝑎 .",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda / texto comum"
+  },
+  "eq09": {
+    "page": 6,
+    "bbox": [
+      318.1,
+      287.6,
+      553.4,
+      316.3
+    ],
+    "raw": "𝐸 𝑢𝑚𝑖𝑑𝑎𝑑𝑒 = 𝐸 𝑜𝑟𝑖𝑔𝑖𝑛𝑎𝑙 – 𝐸 𝑠𝑒𝑐𝑎 (4)",
+    "latex": "E_{umidade} = E_{original} - E_{seca} \\tag{4}"
+  },
+  "eq10": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      115.0,
+      287.0,
+      154.5
+    ],
+    "raw": "𝐷 2 𝑉= 𝐻× 𝜋× 4 (5)",
+    "latex": "V = H \\times \\pi \\times \\frac{D^2}{4} \\tag{5}"
+  },
+  "eq11": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      183.6,
+      293.8,
+      210.9
+    ],
+    "raw": "𝑉 é o volume do corpo de prova, expresso em",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda / texto comum"
+  },
+  "eq12": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      643.1,
+      284.5,
+      704.6
+    ],
+    "raw": "𝐴 𝐶−𝐵 𝐺 𝑚𝑏 = (6) 𝑀𝐸 𝑎 = 0,9971 𝑥 𝐺 𝑚𝑏 (7)",
+    "latex": [
+      "G_{mb} = \\frac{A}{C - B} \\tag{6}",
+      "ME_a = 0{,}9971 \\times G_{mb} \\tag{7}"
+    ]
+  },
+  "eq13": {
+    "page": 7,
+    "bbox": [
+      318.1,
+      326.5,
+      551.4,
+      396.4
+    ],
+    "raw": "𝐷 𝐺 𝑚𝑏 = (8) 𝐸−𝐹− 𝐸−𝐷 𝐷𝑝𝑎 𝑀𝐸 𝑎 = 0,9971 𝑥 𝐺 𝑚𝑏 (9)",
+    "latex": [
+      "G_{mb} = \\frac{D}{E - F - \\dfrac{E - D}{D_{pa}}} \\tag{8}",
+      "ME_a = 0{,}9971 \\times G_{mb} \\tag{9}"
+    ]
+  },
+  "eq14": {
+    "page": 8,
+    "bbox": [
+      48.6,
+      177.1,
+      293.3,
+      246.0
+    ],
+    "raw": "𝐴 𝑀𝐸 𝑎 = 𝑉 (10) 𝑀𝐸 𝑎 𝐺 𝑚𝑏 = 0,9971 (11)",
+    "latex": [
+      "ME_a = \\frac{A}{V} \\tag{10}",
+      "G_{mb} = \\frac{ME_a}{0{,}9971} \\tag{11}"
+    ]
+  },
+  "eq15": {
+    "page": 8,
+    "bbox": [
+      48.6,
+      367.4,
+      294.0,
+      393.8
+    ],
+    "raw": "𝑉 é o volume do corpo de prova, expresso em centímetro",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda / texto comum"
+  },
+  "eq16": {
+    "page": 8,
+    "bbox": [
+      48.6,
+      543.8,
+      281.8,
+      582.7
+    ],
+    "raw": "𝐺 𝑚𝑏 𝑉 𝑉 = (1 − 𝐺 𝑚𝑚 ) × 100 (12)",
+    "latex": "V_V = \\left(1 - \\frac{G_{mb}}{G_{mm}}\\right) \\times 100 \\tag{12}"
+  },
+  "eq17": {
+    "page": 8,
+    "bbox": [
+      48.6,
+      613.2,
+      294.0,
+      641.0
+    ],
+    "raw": "𝑉 𝑉 é o volume de vazios, expresso em porcentagem (%);",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda / texto comum"
+  }
+}

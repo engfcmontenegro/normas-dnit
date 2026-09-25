@@ -1,0 +1,17 @@
+{
+  "eq01": {
+    "page": 10,
+    "clip": [
+      66,
+      464,
+      160,
+      490
+    ],
+    "latex": [
+      "d \\geq 3D"
+    ],
+    "de_inicio": "d ≥ 3D em que:",
+    "de_fim": "determinada conforme a NBR 7211 - Agregado para concreto.",
+    "para": "$$\nd \\geq 3D\n$$\n\nem que:\n\n$d$ - dimensão básica;\n$D$ - dimensão máxima característica do agregado, determinada conforme a NBR 7211 - Agregado para concreto."
+  }
+}

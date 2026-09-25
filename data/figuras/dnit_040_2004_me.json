@@ -1,0 +1,22 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      89.5,
+      148.0,
+      520.0,
+      342.4
+    ],
+    "legenda": "Figura 1 – Borda de argamassa"
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      123.3,
+      442.7,
+      486.2,
+      567.3
+    ],
+    "legenda": "Figura 2 - Preparação do molde"
+  }
+}

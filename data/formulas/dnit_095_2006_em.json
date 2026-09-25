@@ -1,0 +1,58 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      140,
+      592,
+      400,
+      646
+    ],
+    "latex": "\\text{IST} = \\frac{(500)\\,(\\log \\text{PEN}) + (20)\\,(T\\ ^{\\circ}\\text{C}) - 1951}{120 - (50)\\,(\\log \\text{PEN}) + (T\\ ^{\\circ}\\text{C})}",
+    "nota": "o PDF perdeu os sinais de menos (fonte Symbol): no numerador há espaço duplo entre (Tº C) e 1951 e no denominador entre 120 e (50); restaurados conforme a Resolução ANP nº 19/2005 (IST = (500 log PEN + 20 T − 1951)/(120 − 50 log PEN + T))"
+  },
+  "m02": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      55,
+      693,
+      300,
+      707
+    ],
+    "latex": "\\Delta M = \\left(M_{\\text{inicial}} - M_{\\text{final}}\\right) / M_{\\text{inicial}} \\times 100",
+    "nota": "no PDF '(M=': o Δ (fonte Symbol) saiu como '('"
+  },
+  "m03": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      55,
+      751,
+      300,
+      765
+    ],
+    "latex": "\\text{PEN}_{\\text{retida}} = \\left(\\text{PEN}_{\\text{final}} / \\text{PEN}_{\\text{inicial}}\\right) \\times 100"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "O Índice de susceptibilidade térmica é obtido a partir da seguinte equação ou da Tabela 2:\n\n(1)\n\n",
+    "para": "(1) O Índice de susceptibilidade térmica é obtido a partir da seguinte equação ou da Tabela 2:\n\n",
+    "nota": "número da observação (1) separado do texto"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "onde : (T ºC) = Ponto de amolecimento\n\nPEN = penetração a 25 ºC, 100g, 5 seg.",
+    "para": "onde:\n\n(T ºC) é o ponto de amolecimento;\n\nPEN é a penetração a 25 ºC, 100g, 5 seg."
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "onde: M inicial massa antes do ensaio RTFOT\n\nM final massa após o ensaio RTFOT",
+    "para": "onde:\n\n$M_{\\text{inicial}}$ é a massa antes do ensaio RTFOT;\n\n$M_{\\text{final}}$ é a massa após o ensaio RTFOT."
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "onde: PEN inicial penetração antes do ensaio RTFOT\n\nPEN final penetração após o ensaio RTFOT",
+    "para": "onde:\n\n$\\text{PEN}_{\\text{inicial}}$ é a penetração antes do ensaio RTFOT;\n\n$\\text{PEN}_{\\text{final}}$ é a penetração após o ensaio RTFOT."
+  }
+}

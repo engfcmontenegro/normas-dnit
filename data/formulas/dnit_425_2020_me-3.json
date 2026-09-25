@@ -1,0 +1,76 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      114.2,
+      87.6,
+      294.0,
+      127.5
+    ],
+    "raw": "𝟐𝟎𝟎 𝑵 𝒊 = × 𝑭 𝒊 (1) 𝒏 ∑ 𝑭 𝒊 𝒊=𝟏",
+    "latex": "N_i = \\frac{200}{\\sum_{i=1}^{n} F_i} \\times F_i \\tag{1}"
+  },
+  "eq02": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      276.5,
+      94.2,
+      305.8
+    ],
+    "raw": "𝒏 ∑ 𝑭 𝒊 𝒊=𝟏",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável solta de legenda (Σ F_i)"
+  },
+  "eq03": {
+    "page": 3,
+    "bbox": [
+      48.6,
+      475.3,
+      294.0,
+      501.7
+    ],
+    "raw": "(6f) das relações de comprimento e espessura (𝑐/𝑒) de",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto comum de parágrafo"
+  },
+  "eq04": {
+    "page": 3,
+    "bbox": [
+      406.7,
+      70.6,
+      563.4,
+      109.6
+    ],
+    "raw": "𝒄 𝒎é𝒅𝒊𝒐 𝑰= 𝒆 𝒎é𝒅𝒊𝒐 (2)",
+    "latex": "I = \\frac{c_{\\text{médio}}}{e_{\\text{médio}}} \\tag{2}"
+  },
+  "eq05": {
+    "page": 3,
+    "bbox": [
+      318.1,
+      400.0,
+      474.4,
+      430.3
+    ],
+    "raw": "c) 𝒄 𝒎é𝒅𝒊𝒐 e 𝒆 𝒎é𝒅𝒊𝒐 do agregado;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "texto comum de item de lista"
+  },
+  "eq06": {
+    "page": 4,
+    "bbox": [
+      160.5,
+      528.3,
+      461.5,
+      568.6
+    ],
+    "raw": "1 2",
+    "latex": "",
+    "ignorar": true,
+    "nota": "rótulos de figura (foto com 1 e 2)"
+  }
+}

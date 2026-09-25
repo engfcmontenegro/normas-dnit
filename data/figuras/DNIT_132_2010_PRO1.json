@@ -1,0 +1,72 @@
+{
+  "fig01": {
+    "page": 15,
+    "bbox": [
+      56.7,
+      134.3,
+      541.2,
+      381.8
+    ],
+    "legenda": "Foto 1- Acoplamento de um geofone Dynatest no suporte de calibração"
+  },
+  "fig02": {
+    "page": 15,
+    "bbox": [
+      60.6,
+      481.7,
+      548.8,
+      729.9
+    ],
+    "legenda": "Foto 2- Acoplamento de um geofone JILS no suporte de calibração"
+  },
+  "fig03": {
+    "page": 16,
+    "bbox": [
+      56.7,
+      174.0,
+      543.1,
+      468.7
+    ],
+    "legenda": "Foto 3- Acoplamento de um geofone KUAB no suporte de calibração"
+  },
+  "fig04": {
+    "page": 17,
+    "bbox": [
+      150.6,
+      122.4,
+      458.8,
+      437.4
+    ],
+    "legenda": "Foto 4- Acoplamento de um geofone Carl Bro no suporte de calibração"
+  },
+  "fig05": {
+    "page": 18,
+    "bbox": [
+      59.4,
+      134.4,
+      550.0,
+      525.8
+    ],
+    "legenda": "Foto 5 – Calibração de um FWD – (Hawaii DOT Materials Lab)"
+  },
+  "fig06": {
+    "page": 19,
+    "bbox": [
+      87.6,
+      189.5,
+      521.8,
+      617.8
+    ],
+    "legenda": "Foto 6- Sismômetros instalados no suporte com os sensores ligados"
+  },
+  "fig07": {
+    "page": 20,
+    "bbox": [
+      56.7,
+      189.6,
+      552.4,
+      520.0
+    ],
+    "legenda": "Foto 7 – Viga de Calibração e Bloco Inercial"
+  }
+}

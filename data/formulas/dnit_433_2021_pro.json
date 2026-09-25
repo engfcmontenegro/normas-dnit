@@ -1,0 +1,94 @@
+{
+  "eq01": {
+    "page": 3,
+    "bbox": [
+      399.5,
+      345.3,
+      563.5,
+      385.1
+    ],
+    "raw": "𝑛 𝑑𝑒𝑓 𝐴𝑇% 𝑖 = 𝑛 𝑡𝑜𝑡𝑎𝑙 (1)",
+    "latex": "AT\\%_{i} = \\frac{n_{def}}{n_{total}} \\tag{1}"
+  },
+  "eq02": {
+    "page": 4,
+    "bbox": [
+      119.7,
+      420.2,
+      294.0,
+      495.8
+    ],
+    "raw": "∑𝛼 𝑖 𝑛 (2) ᾱ= 𝑛−1 (3) 𝑆= √ ∑(𝛼 𝑖 −ᾱ ) 2",
+    "latex": [
+      "\\bar{\\alpha} = \\frac{\\sum \\alpha_{i}}{n} \\tag{2}",
+      "S = \\sqrt{\\frac{\\sum (\\alpha_{i} - \\bar{\\alpha})^{2}}{n - 1}} \\tag{3}"
+    ]
+  },
+  "eq03": {
+    "page": 4,
+    "bbox": [
+      392.3,
+      44.3,
+      563.5,
+      83.8
+    ],
+    "raw": "∑(𝛼 𝑖 −ᾱ ) 2 𝑛−1 (4) 𝑆 2 =",
+    "latex": "S^{2} = \\frac{\\sum (\\alpha_{i} - \\bar{\\alpha})^{2}}{n - 1} \\tag{4}"
+  },
+  "eq04": {
+    "page": 7,
+    "bbox": [
+      207.3,
+      363.8,
+      383.4,
+      451.6
+    ],
+    "raw": "𝐹𝑎𝑖𝑥𝑎 1 = ( 3 60 ) ∗100 = 5% 𝐹𝑎𝑖𝑥𝑎 2 = ( 5 60 ) ∗100 = 8,3%",
+    "latex": [
+      "\\textit{Faixa}\\ 1 = \\left(\\frac{3}{60}\\right) * 100 = 5\\% \\tag{5}",
+      "\\textit{Faixa}\\ 2 = \\left(\\frac{5}{60}\\right) * 100 = 8{,}3\\% \\tag{6}"
+    ]
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$AT$%$i$ – área trincada",
+    "para": "$AT\\%_{i}$ – área trincada"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "$\\alpha_{i}$ – valores individuais, em milímetros (mm); $n$ – número",
+    "para": "$\\alpha_{i}$ – valores individuais, em milímetros (mm);\n\n$n$ – número"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "$S$² – variância",
+    "para": "$S^{2}$ – variância"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "a variância ($S$²)",
+    "para": "a variância ($S^{2}$)"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "a média (ᾱ)",
+    "para": "a média ($\\bar{\\alpha}$)"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "\n\nᾱ – média aritmética",
+    "para": "\n\n$\\bar{\\alpha}$ – média aritmética"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "PRO-MeDiNa\n\n(5)\n\n(6)",
+    "para": "PRO-MeDiNa",
+    "nota": "números das equações (5) e (6) que sobraram como texto"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "![[dnit_433_2021_pro_fig02.png]]",
+    "para": "## Anexo B (Normativo) – Modelo de Treliça\n\n![[dnit_433_2021_pro_fig02.png]]",
+    "nota": "título do Anexo B ficou dentro da caixa da figura"
+  }
+}

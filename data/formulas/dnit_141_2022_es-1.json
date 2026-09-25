@@ -1,0 +1,82 @@
+{
+  "eq01": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      533.2,
+      294.1,
+      565.5
+    ],
+    "raw": "𝐷𝑐= 𝐷 0 𝑚é𝑑𝑖𝑜 + 𝑘𝑆≤𝐿𝑆𝐸 (1)",
+    "latex": "Dc = D_{0_{\\text{médio}}} + kS \\leq LSE \\tag{1}"
+  },
+  "eq02": {
+    "page": 7,
+    "bbox": [
+      48.6,
+      687.2,
+      72.9,
+      713.5
+    ],
+    "raw": "𝑘",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável da legenda"
+  },
+  "eq03": {
+    "page": 8,
+    "bbox": [
+      49.4,
+      440.5,
+      293.2,
+      518.5
+    ],
+    "raw": "𝑛 ∑ 𝑥 𝑖 𝑖=1 𝑋̅ = (2) 𝑛 𝑠= √ ∑(𝑥 𝑖 −𝑋̅)² (3) 𝑛−1",
+    "latex": [
+      "\\bar{X} = \\frac{\\sum_{i=1}^{n} x_i}{n} \\tag{2}",
+      "s = \\sqrt{\\frac{\\sum (x_i - \\bar{X})^2}{n-1}} \\tag{3}"
+    ]
+  },
+  "eq04": {
+    "page": 8,
+    "bbox": [
+      48.6,
+      570.0,
+      165.6,
+      596.4
+    ],
+    "raw": "𝑋̅ é a média da amostra;",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável da legenda"
+  },
+  "eq05": {
+    "page": 8,
+    "bbox": [
+      48.6,
+      617.4,
+      72.9,
+      643.8
+    ],
+    "raw": "𝑘",
+    "latex": "",
+    "ignorar": true,
+    "nota": "variável da legenda"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$D_{0}$$m$é$d_{io}$",
+    "para": "$D_{0_{\\text{médio}}}$",
+    "nota": "legenda: D0médio quebrado na extração"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "valores individuais Di levantados",
+    "para": "valores individuais $D_i$ levantados"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "$D_{c}$ é a deflexão",
+    "para": "$Dc$ é a deflexão"
+  }
+}

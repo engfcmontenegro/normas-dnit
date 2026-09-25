@@ -1,0 +1,69 @@
+{
+  "eq01": {
+    "page": 3,
+    "clip": [
+      62,
+      544,
+      240,
+      594
+    ],
+    "latex": [
+      "D_t = \\frac{P_2 - P_1}{(P_4 - P_1) - (P_3 - P_2)}"
+    ],
+    "de_inicio": "P,-P D =\n\n## 2771 P,-P)-(P;-P,) onde:",
+    "de_fim": "P 4” Peso do picnômetro mais água, em g.",
+    "para": "$$\nD_t = \\frac{P_2 - P_1}{(P_4 - P_1) - (P_3 - P_2)}\n$$\n\nonde:\n\n$D_t$ - densidade real do solo à temperatura t;\n$P_1$ - peso do picnômetro vazio e seco, em g;\n$P_2$ - peso do picnômetro mais amostra, em g;\n$P_3$ - peso do picnômetro mais amostra, mais água, em g;\n$P_4$ - peso do picnômetro mais água, em g."
+  },
+  "eq02": {
+    "page": 4,
+    "clip": [
+      66,
+      148,
+      200,
+      172
+    ],
+    "latex": [
+      "D_{20} = k_{20} \\times D_t"
+    ],
+    "de_inicio": "Do9 =\n\n## 9 XD onde:",
+    "de_fim": "D po densidade real do solo à temperatura (t).",
+    "para": "$$\nD_{20} = k_{20} \\times D_t\n$$\n\nonde:\n\n$D_{20}$ - densidade real do solo a 20 ºC;\n$k_{20}$ - razão entre a densidade relativa da água à temperatura (t) e a densidade relativa da água a 20 ºC, obtida na Tabela a seguir;\n$D_t$ - densidade real do solo à temperatura (t)."
+  },
+  "x01": {
+    "texto": true,
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `Densidade Fator de relativa correção relativa correção em ºC da água ko em “C da água ko 4 1,0000 1,0018 19 0,9984 1,0002 5 1 “0000 1,0018 20 0,9982 1,0000 6 0.9999 1,0017 21 0,9980 0,9998 7 0,9999 1,0017 22 0,9978 0,9996 8 0,9999 1,0017 23 0,9976 0,9993 9 0,9998 1,0016 24 0,9973 0,9991 10 0,9997 1,0015 25 0,9971 0,9989 11 0,9996 1,0014 26 0,9968 0,9986 12 0,9995 1,0013 27 0,9965 0,9983 13 0,9994 1,0012 28 0,9963 0,9980 14 0,9993 1,0011 29 0,9960 0,9977 15 0,9991 1,0009 30 0,9957 0,9974 16 0,9990 1,0008 31 0,9954 0,9972 17 0,9998 1,0006 32 0,9951 0,9969 18 0,9986 1,0004 33 0,9947 0,9965`",
+    "de_fim": "Temperaturast Densidade Fator de Temperaturast",
+    "para": "| Temperatura t em ºC | Densidade relativa da água | Fator de correção $k_{20}$ | Temperatura t em ºC | Densidade relativa da água | Fator de correção $k_{20}$ |\n|---|---|---|---|---|---|\n| 4 | 1,0000 | 1,0018 | 19 | 0,9984 | 1,0002 |\n| 5 | 1,0000 | 1,0018 | 20 | 0,9982 | 1,0000 |\n| 6 | 0,9999 | 1,0017 | 21 | 0,9980 | 0,9998 |\n| 7 | 0,9999 | 1,0017 | 22 | 0,9978 | 0,9996 |\n| 8 | 0,9999 | 1,0017 | 23 | 0,9976 | 0,9993 |\n| 9 | 0,9998 | 1,0016 | 24 | 0,9973 | 0,9991 |\n| 10 | 0,9997 | 1,0015 | 25 | 0,9971 | 0,9989 |\n| 11 | 0,9996 | 1,0014 | 26 | 0,9968 | 0,9986 |\n| 12 | 0,9995 | 1,0013 | 27 | 0,9965 | 0,9983 |\n| 13 | 0,9994 | 1,0012 | 28 | 0,9963 | 0,9980 |\n| 14 | 0,9993 | 1,0011 | 29 | 0,9960 | 0,9977 |\n| 15 | 0,9991 | 1,0009 | 30 | 0,9957 | 0,9974 |\n| 16 | 0,9990 | 1,0008 | 31 | 0,9954 | 0,9972 |\n| 17 | 0,9998 | 1,0006 | 32 | 0,9951 | 0,9969 |\n| 18 | 0,9986 | 1,0004 | 33 | 0,9947 | 0,9965 |",
+    "nota": "aviso falso: era a tabela de k20 (p. 4) -> tabela markdown. p. 4: 17 ºC com densidade 0,9998 (fora da sequência decrescente; provável 0,9988) — transcrito como no PDF"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "vazio, seco e limpo (P).",
+    "para": "vazio, seco e limpo ($P_1$).",
+    "nota": "5.1"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "no picnômetro e pesa-se (P,).",
+    "para": "no picnômetro e pesa-se ($P_2$).",
+    "nota": "5.2"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "picnômetro e conteúdo (P,).",
+    "para": "picnômetro e conteúdo ($P_3$).",
+    "nota": "5.7"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "pesa-o a seguir (P 4)",
+    "para": "pesa-o a seguir ($P_4$).",
+    "nota": "5.8"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "Para referir o valor da densidade real do solo à água com a temperatura diferente de 20 ºC, deverá ser calculado o valor de kx, para",
+    "para": "Para referir o valor da densidade real do solo à água com a temperatura diferente de 20 ºC, deverá ser calculado o valor de $k_x$, para",
+    "nota": "nota da tabela"
+  }
+}

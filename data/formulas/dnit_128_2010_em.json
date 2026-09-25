@@ -1,0 +1,23 @@
+{
+  "t01": {
+    "todas": true,
+    "de_inicio": "| Desemulsibilidade, mín. máx. | % massa | 50 | 50 | - | - | - | 6569 |\n|  |  | - | - | 50 | - | - |  |",
+    "para": "| Desemulsibilidade, mín. | % massa | 50 | 50 | - | - | - | 6569 |\n| Desemulsibilidade, máx. | % massa | - | - | 50 | - | - | 6569 |",
+    "nota": "Tabela 1 (p. 4): linhas mín./máx. da desemulsibilidade separadas"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "NBR 6570 - Emulsões asfálticas – Determinação da\n\ng) sedimentação.",
+    "para": "g) NBR 6570 - Emulsões asfálticas – Determinação da sedimentação."
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "## 7 Condições de conformidade e não-\n\nconformidade",
+    "para": "## 7 Condições de conformidade e não-conformidade"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "da referida\n\nTabela, de acordo com os ensaios preconizados nos controles de qualidade da correspondente Norma de\n\nEspecificação do Serviço.",
+    "para": "da referida Tabela, de acordo com os ensaios preconizados nos controles de qualidade da correspondente Norma de Especificação do Serviço."
+  }
+}

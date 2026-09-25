@@ -1,0 +1,52 @@
+{
+  "fig01": {
+    "page": 8,
+    "bbox": [
+      148.8,
+      435.9,
+      460.6,
+      580.4
+    ],
+    "legenda": "Figura B1 – Distribuição da Esfericidade"
+  },
+  "fig02": {
+    "page": 8,
+    "bbox": [
+      136.0,
+      601.1,
+      473.6,
+      771.2
+    ],
+    "legenda": "Figura B2 – Distribuição de Angularidade"
+  },
+  "fig03": {
+    "page": 9,
+    "bbox": [
+      138.0,
+      51.9,
+      471.5,
+      221.7
+    ],
+    "legenda": "Figura B3 - Distribuição da Textura Superficial"
+  },
+  "fig04": {
+    "page": 9,
+    "bbox": [
+      139.0,
+      250.4,
+      470.5,
+      420.2
+    ],
+    "legenda": "Figura B4 – Distribuição da Forma 2D"
+  },
+  "fig05": {
+    "page": 9,
+    "bbox": [
+      131.2,
+      448.9,
+      478.3,
+      649.2
+    ],
+    "legenda": "Figura B5 - Distribuição da Razão de Achatamento X Razão de Alongamento"
+  }
+}

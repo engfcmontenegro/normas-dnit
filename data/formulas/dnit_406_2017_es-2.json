@@ -1,0 +1,64 @@
+{
+  "eq01": {
+    "page": 7,
+    "bbox": [
+      318.1,
+      64.8,
+      399.2,
+      143.2
+    ],
+    "raw": "𝑛 ∑ 𝑋1 𝑖=1 𝑋= 𝑛 𝑠= √∑(𝑥𝑖−𝑋)² 𝑛−1",
+    "latex": [
+      "X = \\frac{\\sum_{i=1}^{n} X1}{n}",
+      "s = \\sqrt{\\frac{\\sum (xi - X)^2}{n - 1}}"
+    ],
+    "nota": "transcrito como no PDF: X sem barra de média e 'X1' no somatório (provavelmente X_i)"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "X - ks < valor mínimo admitido ou X + ks > valor máximo",
+    "para": "$X - ks$ < valor mínimo admitido ou $X + ks$ > valor máximo"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "X - ks ≥ valor mínimo admitido e X + ks ≤ valor máximo",
+    "para": "$X - ks$ ≥ valor mínimo admitido e $X + ks$ ≤ valor máximo"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "Se X- ks <",
+    "para": "Se $X - ks$ <"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "Se X- ks ≥",
+    "para": "Se $X - ks$ ≥"
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "Onde: xi – valores individuais\n\nX – média da amostra s - desvio padrão da amostra k - coeficiente tabelado em função do número de determinações (tamanho da amostra) n - número de determinações",
+    "para": "onde:\n\n$xi$ – valores individuais\n\n$X$ – média da amostra\n\ns - desvio padrão da amostra\n\nk - coeficiente tabelado em função do número de determinações (tamanho da amostra)\n\nn - número de determinações"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "| Para N › 5 x 106 |",
+    "para": "| Para N › 5 x 10⁶ |"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "| Para N ‹ 5 x 106 |",
+    "para": "| Para N ‹ 5 x 10⁶ |"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "a) BRASIL. Departamento Nacional de Estradas de\n\nRodagem. DNER-PRO 277/97: metodologia para controle estatístico de obras e serviços: procedimento. Rio de Janeiro: IPR, 1997.",
+    "para": "a) BRASIL. Departamento Nacional de Estradas de Rodagem. DNER-PRO 277/97: metodologia para controle estatístico de obras e serviços: procedimento. Rio de Janeiro: IPR, 1997.",
+    "nota": "Anexo B: itens b) e c) (p. 10, coluna direita) sumiram na extração; transcritos do PDF | trecho restaurado removido: o gerador corrigido já produz a coluna direita"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "c) . Manual de pavimentação",
+    "para": "c) __________. Manual de pavimentação",
+    "nota": "traço de repetição do autor perdido na extração"
+  }
+}

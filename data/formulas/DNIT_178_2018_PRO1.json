@@ -1,0 +1,37 @@
+{
+  "eq01": {
+    "page": 8,
+    "bbox": [
+      113.2,
+      510.9,
+      294.0,
+      545.6
+    ],
+    "raw": "= G . h • C 100 mb m (1) n G . h mm n",
+    "latex": "C_n = \\frac{G_{mb} \\cdot h_m}{G_{mm} \\cdot h_n} \\cdot 100 \\tag{1}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$hm$ = altura do corpo de prova registrado no giro final, mm;\n$e_{hn}$ = altura",
+    "para": "$h_m$ = altura do corpo de prova registrado no giro final, mm; e\n$h_n$ = altura",
+    "nota": "legenda da eq01 (p. 8)"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "## 6 Determinação da densidade do corpo de pro-\n\nva compactado",
+    "para": "## 6 Determinação da densidade do corpo de prova compactado",
+    "nota": "título partido"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "densidade relativa corrigida pela\n\nEquação (1):",
+    "para": "densidade relativa corrigida pela Equação (1):",
+    "nota": "parágrafo partido"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "prescrito na norma\n\nABNT NBR",
+    "para": "prescrito na norma ABNT NBR",
+    "nota": "parágrafo partido"
+  }
+}

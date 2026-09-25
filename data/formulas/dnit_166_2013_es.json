@@ -1,0 +1,59 @@
+{
+  "eq01": {
+    "page": 8,
+    "bbox": [
+      79.7,
+      153.3,
+      143.9,
+      215.6
+    ],
+    "raw": "n ∑ x i = = X i 1 n",
+    "latex": "\\overline{X} = \\frac{\\sum_{i=1}^{n} x_i}{n}"
+  },
+  "eq02": {
+    "page": 8,
+    "bbox": [
+      79.0,
+      228.8,
+      178.0,
+      281.5
+    ],
+    "raw": "= ∑ − ( x X ) 2 i s − n 1",
+    "latex": "s = \\sqrt{\\frac{\\sum (x_i - \\overline{X})^2}{n - 1}}"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "\n\nX - ks ≥ valor mínimo especificado;",
+    "para": "\n\n$\\overline{X} - ks$ ≥ valor mínimo especificado;"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "\n\nX + ks ≤ valor máximo especificado.",
+    "para": "\n\n$\\overline{X} + ks$ ≤ valor máximo especificado."
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "\n\nX - ks < valor mínimo especificado;",
+    "para": "\n\n$\\overline{X} - ks$ < valor mínimo especificado;"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "\n\nX + ks > valor máximo especificado.",
+    "para": "\n\n$\\overline{X} + ks$ > valor máximo especificado."
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "\n\nXi - valores individuais.",
+    "para": "\n\n$X_i$ - valores individuais."
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "\n\nX - média da amostra.",
+    "para": "\n\n$\\overline{X}$ - média da amostra."
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "de acordo com a Tabela 1 –\n\nAmostragem Variável, da Norma DNER-PRO\n\n277/97.",
+    "para": "de acordo com a Tabela 1 – Amostragem Variável, da Norma DNER-PRO 277/97."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "fig01": {
+    "page": 8,
+    "bbox": [
+      65.4,
+      77.4,
+      544.1,
+      316.0
+    ],
+    "legenda": "Figura A1 – Exemplo de resultados do ensaio de varredura de frequências"
+  },
+  "fig02": {
+    "page": 8,
+    "bbox": [
+      78.0,
+      354.6,
+      533.3,
+      581.8
+    ],
+    "legenda": "Figura A2 – Esquema de carregamento para o ensaio de varredura de amplitudes"
+  },
+  "fig03": {
+    "page": 9,
+    "bbox": [
+      66.8,
+      49.9,
+      542.8,
+      286.0
+    ],
+    "legenda": "Figura A3 – Exemplo de resultados do ensaio de varredura de amplitudes"
+  },
+  "fig04": {
+    "page": 9,
+    "bbox": [
+      65.5,
+      324.8,
+      543.3,
+      563.3
+    ],
+    "legenda": "Figura A4 – Exemplo de curva tensão-deformação do ensaio de varredura de amplitudes"
+  },
+  "fig05": {
+    "page": 11,
+    "bbox": [
+      105.7,
+      49.9,
+      503.8,
+      248.3
+    ],
+    "legenda": "Figura B1 – Ajuste linear dos dados para o cálculo do parâmetro alfa"
+  },
+  "fig06": {
+    "page": 14,
+    "bbox": [
+      100.5,
+      49.9,
+      508.9,
+      248.2
+    ],
+    "legenda": "Figura B2 – Linearização dos dados da curva C(t) versus D(t)"
+  },
+  "fig07": {
+    "page": 14,
+    "bbox": [
+      149.6,
+      419.9,
+      578.4,
+      574.2
+    ],
+    "legenda": "Figura B3 – Curva característica de dano"
+  },
+  "fig08": {
+    "page": 15,
+    "bbox": [
+      102.8,
+      215.1,
+      506.7,
+      416.9
+    ],
+    "legenda": "Figura B4 – Variação da pseudoenergia de deformação para identificação da ruptura"
+  },
+  "fig09": {
+    "page": 16,
+    "bbox": [
+      73.8,
+      49.9,
+      535.8,
+      275.6
+    ],
+    "legenda": "Figura B5 – Curva de fadiga do ligante asfáltico"
+  }
+}

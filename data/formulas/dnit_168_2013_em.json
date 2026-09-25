@@ -1,0 +1,38 @@
+{
+  "m01": {
+    "manual": true,
+    "page": 4,
+    "clip": [
+      138,
+      484,
+      578,
+      500
+    ],
+    "latex": "\\Delta M,\\% = \\left[\\left(M_{\\text{inicial}} - M_{\\text{final}}\\right)/M_{\\text{inicial}}\\right] \\times 100",
+    "nota": "nota (1) da Tabela 1: fórmula escrita como texto; o início da frase volta em t01"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "$$\n\\Delta M,\\% = \\left[\\left(M_{\\text{inicial}} - M_{\\text{final}}\\right)/M_{\\text{inicial}}\\right] \\times 100\n$$",
+    "para": "(1) A variação de massa, em porcentagem, é definida como:\n\n$$\n\\Delta M,\\% = \\left[\\left(M_{\\text{inicial}} - M_{\\text{final}}\\right)/M_{\\text{inicial}}\\right] \\times 100\n$$",
+    "nota": "texto da nota (1) na mesma linha da fórmula"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "onde: M inicial – massa antes do ensaio RTFOT\n\nM final – massa após o ensaio RTFOT",
+    "para": "onde:\n\n$M_{\\text{inicial}}$ – massa antes do ensaio RTFOT;\n\n$M_{\\text{final}}$ – massa após o ensaio RTFOT.",
+    "nota": "legenda da nota (1)"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "## Anexo A (Normativo) Tabela 1 – Características\n\ndos cimentos asfálticos de petróleo modificados\n\n",
+    "para": "",
+    "nota": "linha do sumário solta como título"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "## 7 Condições de conformidade e não\n\nconformidade.\n\nA amostra deve ser submetida aos ensaios indicados na\n\nTabela 1 do Anexo A, quando do seu recebimento, devendo satisfazer às condições constantes da referida\n\nTabela, de acordo com os ensaios preconizados nos\n\nControles da Qualidade da Norma de Especificação do\n\nServiço.",
+    "para": "## 7 Condições de conformidade e não conformidade\n\nA amostra deve ser submetida aos ensaios indicados na Tabela 1 do Anexo A, quando do seu recebimento, devendo satisfazer às condições constantes da referida Tabela, de acordo com os ensaios preconizados nos Controles da Qualidade da Norma de Especificação do Serviço.",
+    "nota": "título e parágrafo partidos"
+  }
+}

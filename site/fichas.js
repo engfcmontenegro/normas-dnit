@@ -1865,6 +1865,15 @@
     return { abrir: abrir, temFicha: function (fid) { return !!FICHAS[fid]; } };
   };
   window.FICHAS_ENSAIO = FICHAS;
+  // API para fichas em arquivos próprios (site/fichas/*.js), carregados depois deste arquivo
+  window.FE = {
+    FICHAS: FICHAS, BLOCOS: BLOCOS, IDENT: IDENT,
+    num: num, ok: ok, fmt: fmt, fmtSig: fmtSig, esc: esc, media: media, parabola: parabola, uid: uid,
+    curvaSpeedy: curvaSpeedy, interpolar: interpolar,
+    granulometria: { SERIES: SERIES_412, PENEIRAS_A1: PENEIRAS_A1, chavePen: chavePen, nomePeneira: nomePeneira,
+      faixasDisponiveis: faixasDisponiveis, tabela: tabelaGranulometria, grafico: graficoGranulometria,
+      calcular: function (d) { return FICHAS["dnit-412-2025-me"].calcular(d); } },
+  };
   window.BLOCOS_ENSAIO = BLOCOS;
   window.montarRelatorioFicha = montarRelatorio;
 })();

@@ -1027,5 +1027,45 @@
       "cat": "erro",
       "texto": "Tabela A1: 3/8\" da faixa A impresso \"30 - 65 65\"."
     }
+  ],
+  "dnit_095_2006_em": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Tabela 1: a fórmula do índice de suscetibilidade térmica e os limites perderam os sinais de menos — o correto é (500 log PEN + 20 T − 1951)/(120 − 50 log PEN + T), limites −1,5 a +0,7; Tabela 2 (p. 5) sem sinais e célula 110/50 com \",0\"."
+    },
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Ponto de fulgor citado como \"ME 149/94\" (que é pH de emulsões); o correto é DNER-ME 148/94 (referência r). \"ME 153/94\" não consta das referências. Linha do ponto de amolecimento sem nome (só \"ºC\")."
+    }
+  ],
+  "dnit_165_2013_em": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Tabela 1: penetração do resíduo em \"mm\" (4,0 a 15,0), deveria ser 0,1 mm (40 a 150); \"resíduo seco\" sob \"Destilação\" cita a NBR 14376, que é o método por evaporação."
+    }
+  ],
+  "dnit_424_2020_me": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "Tabela 1 usa crivo redutor de 10,5 mm (fração 32–25) que não consta da aparelhagem (4 b)."
+    }
+  ],
+  "dnit_425_2020_me": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "Definição 3.3 e seção 7 falam em média ponderada das relações c/e; a eq. 2 e o item 8 e usam c médio / e médio (outra conta). Legenda da eq. 1 descreve \"n\" como soma das porcentagens. Tabela 1 (p. 2) não cobre exatamente 19 mm (\"< 19\" e \"> 19 e ≤ 25\")."
+    }
+  ],
+  "dnit_146_2012_es": [
+    {
+      "page": 5,
+      "cat": "contradicao",
+      "texto": "7.2.2: a tolerância de ± 0,2 l/m² só aparece para cimento asfáltico (alínea a); para RR-2C (alínea b) não há valor. A fórmula T = (P2 − P1)/A dá kg/m², mas a tolerância está em l/m² sem indicar a divisão pela massa específica (o mesmo nas DNIT 147 e 148)."
+    }
   ]
 }

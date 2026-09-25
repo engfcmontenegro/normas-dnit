@@ -1553,7 +1553,7 @@
           (bl.length ? " · usa bloco: " + esc(bl.join(", ")) : "") + (qtd ? " · " + qtd + " salvo(s)" : "") + "</div></div>";
       }).join("") +
         '<div class="fe-sec fe-sec-em">Em preparação</div><div class="fe-prox">Próximas fichas (após aprovação): ' +
-        "equivalente de areia, índice de forma, ligantes…</div>";
+        "massas específicas de agregados, Marshall, resistência à tração, ponto de amolecimento…</div>";
     }
 
     function relacoes(fid) {

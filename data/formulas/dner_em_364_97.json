@@ -1,0 +1,51 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "seguinte definição. Alcatrão - material",
+    "para": "seguinte definição.\n\nAlcatrão - material",
+    "nota": "parágrafo"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n4.1 Os alcatrões",
+    "para": "\n\n**4.1** Os alcatrões",
+    "nota": "item"
+  },
+  "c03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n4.2 Os alcatrões",
+    "para": "\n\n**4.2** Os alcatrões",
+    "nota": "item"
+  },
+  "c04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n4.3 A unidade",
+    "para": "\n\n**4.3** A unidade",
+    "nota": "item"
+  },
+  "c05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n4.4 Cada unidade",
+    "para": "\n\n**4.4** Cada unidade",
+    "nota": "item"
+  },
+  "c06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n6.1 Aceitação e rejeição",
+    "para": "\n\n**6.1** Aceitação e rejeição",
+    "nota": "item"
+  },
+  "c07": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "o fornecimento será aceito;\nserá rejeitado",
+    "para": "o fornecimento será aceito; será rejeitado",
+    "nota": "linha partida"
+  }
+}

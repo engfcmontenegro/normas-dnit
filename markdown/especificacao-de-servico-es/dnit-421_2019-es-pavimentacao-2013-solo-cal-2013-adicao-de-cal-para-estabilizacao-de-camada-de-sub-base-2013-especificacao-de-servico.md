@@ -254,7 +254,7 @@ Na mistura na pista, devem ser verificadas aleatoriamente:
 a) antes da aplicação da cal:
 
 - determinação do grau de pulverização do solo através de peneiramento na peneira n° 4.
-- determinações do teor de umidade da mistura (DNER-ME 052/94, DNER-ME 088/94), para verificação do atendimento do teor de umidade do projeto;
+- determinações do teor de umidade da mistura (DNER-ME 052/94, [[dner_me_088_94|DNER-ME 088/94]]), para verificação do atendimento do teor de umidade do projeto;
 
 b) depois da adição da cal:
 

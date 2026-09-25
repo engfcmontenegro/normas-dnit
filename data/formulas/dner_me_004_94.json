@@ -1,0 +1,44 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "of the results.\n\n## 1 OBJETIVO",
+    "para": "of the results.\n\n## 0 APRESENTAÇÃO\n\nEsta Norma decorreu da necessidade de se adaptar, quanto à forma, a DNER-ME 004/73 à DNER-PRO 101/93, mantendo-se a adoção pelo processo de referência da Norma ABNT MB-517, com uso obrigatório no DNER.\n\n## 1 OBJETIVO",
+    "nota": "seção 0 Apresentação (p. 1) ausente no md"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "ofbituminous",
+    "para": "of bituminous",
+    "nota": "espaço"
+  },
+  "c03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "121ºC, 135º €, 149º €, 163º €,177ºC,204ºCe232ºC.",
+    "para": "121 ºC, 135 ºC, 149 ºC, 163 ºC, 177 ºC, 204 ºC e 232 ºC.",
+    "nota": "temperaturas quebradas pelo OCR"
+  },
+  "c04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Furol demateriais",
+    "para": "Furol de materiais",
+    "nota": "espaço"
+  },
+  "c05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "b) ASTME- 1 - Specification",
+    "para": "b) ASTM E - 1 - Specification",
+    "nota": "espaço"
+  },
+  "c06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "c) ASTME-102-Testfor Saybolt",
+    "para": "c) ASTM E - 102 - Test for Saybolt",
+    "nota": "espaço"
+  }
+}

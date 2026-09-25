@@ -174,6 +174,35 @@ def main():
             "md": rel_md,
         })
 
+    # normas canceladas pelo IPR (data/canceladas.json, scripts/normas_canceladas.py) cujo PDF
+    # "com tarja" foi baixado para normas/<pasta do tipo>/: entram no acervo como "cancelada"
+    canc_path = ROOT / "data" / "canceladas.json"
+    pastas = {p.name.rsplit("-", 1)[-1].upper(): p for p in NORMAS_DIR.iterdir() if p.is_dir()}
+    for c in json.loads(canc_path.read_text(encoding="utf-8")) if canc_path.exists() else []:
+        orgao, tipo, num, ano = c["_chave"]
+        if not c.get("pdf") or tipo not in pastas:
+            continue
+        # nome padronizado com que o PDF é salvo (dner_me_080_94.pdf, dnit_115_2009_es.pdf)
+        nome = (f"dner_{tipo.lower()}_{num:03d}_{ano[-2:]}.pdf" if orgao == "DNER"
+                else f"dnit_{num:03d}_{ano}_{tipo.lower()}.pdf")
+        pdf_path = pastas[tipo] / nome
+        entry_id = slugify(c["codigo"])
+        if not pdf_path.exists() or entry_id in seen_ids:
+            continue
+        seen_ids.add(entry_id)
+        md_path = (ROOT / "markdown" / pdf_path.relative_to(NORMAS_DIR)).with_suffix(".md")
+        entries.append({
+            "id": entry_id,
+            "codigo": c["codigo"],
+            "orgao": orgao,
+            "tipo": tipo,
+            "ano": int(ano),
+            "titulo": c["titulo"],
+            "status": "cancelada",
+            "pdf": pdf_path.relative_to(ROOT).as_posix(),
+            "md": md_path.relative_to(ROOT).as_posix(),
+        })
+
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
     OUT_JSON.write_text(json.dumps(entries, ensure_ascii=False, indent=2), encoding="utf-8")
 

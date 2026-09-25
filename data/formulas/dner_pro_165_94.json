@@ -1,0 +1,197 @@
+{
+  "t00": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "---\n## RESUMO",
+    "para": "---\nNORMA CANCELADA EM 15/09/2026\n\n## RESUMO",
+    "nota": "linha da tarja no início do corpo"
+  },
+  "eq01": {
+    "page": 5,
+    "clip": [
+      68,
+      510,
+      150,
+      560
+    ],
+    "latex": [
+      "I = V \\times \\frac{n}{N}"
+    ],
+    "de_inicio": "I=V x\n\nN onde:",
+    "de_fim": "considerada no cálculo do custo horário.",
+    "para": "$$\nI = V \\times \\frac{n}{N}\n$$\n\nonde:\n\n$I$ - valor de indenização;\n$V$ - valor de aquisição do equipamento a preços atuais;\n$n$ - tempo de vida em anos do equipamento inutilizado;\n$N$ - vida útil do equipamento, em anos, considerada no cálculo do custo horário."
+  },
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "when à DNER equipment",
+    "para": "when a DNER equipment"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "DNER-PRO 165/85 DNER-PRO 101/93",
+    "para": "DNER-PRO 165/85 à DNER-PRO 101/93"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a semelhança do »progedimento",
+    "para": "a semelhança do procedimento"
+  },
+  "t04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "(ver item 2.b).\n\n**2.1** Referências bibliográficas",
+    "para": "(ver item 2.b).\n\n## 2 REFERÊNCIAS\n\n**2.1** Referências bibliográficas",
+    "nota": "título da seção 2 restaurado"
+  },
+  "t05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a cargo da emnreca de consultoria contratada pelo “DNER.",
+    "para": "a cargo da empresa de consultoria contratada pelo DNER."
+  },
+  "t06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "em geral fomecido pelo",
+    "para": "em geral fornecido pelo"
+  },
+  "t07": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "inobservância das [prescrições",
+    "para": "inobservância das prescrições"
+  },
+  "t08": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "## 41 A Contratada e a Fiscalização devem verificar à existência da identificação do\n\nBR (nlanneta ato) VE E E UV GILLHEY OS Vit V Wwiis Va IS WINTER SN VEN Ei saco pique, wuw y no equipamento a ser operado pela Contratada.",
+    "para": "**4.1** A Contratada e a Fiscalização devem verificar a existência da identificação do DNER (plaqueta, etc) no equipamento a ser operado pela Contratada."
+  },
+  "t09": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "nos serviçosrelacionados",
+    "para": "nos serviços relacionados"
+  },
+  "t10": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "## 6 USO DO E\n\n## AMENTO",
+    "para": "## 6 USO DO EQUIPAMENTO"
+  },
+  "t11": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "6.3 Quando douso do equipamento pela Contratada esta deve observarrigorosamente asprescriçõesrelativas a manutenção e operação.\n\nermitida desde que citado o DNER como fonte ução Reprod",
+    "para": "**6.3** Quando do uso do equipamento pela Contratada esta deve observar rigorosamente as prescrições relativas a manutenção e operação."
+  },
+  "t12": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**7.1** Aotérmino dos serviços, o equipamento deve serrestituido",
+    "para": "**7.1** Ao término dos serviços, o equipamento deve ser restituido"
+  },
+  "t13": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**7.5** Arestituição",
+    "para": "**7.5** A restituição"
+  },
+  "t14": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**8.2** Todososgastos",
+    "para": "**8.2** Todos os gastos"
+  },
+  "t15": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "## 10 CUNSERVAÇÃO",
+    "para": "## 10 CONSERVAÇÃO"
+  },
+  "t16": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "cobrindo osriscos da ocorrência de danos materiais e pessoais. ocorridos comterceiros.\n\nassim como,",
+    "para": "cobrindo os riscos da ocorrência de danos materiais e pessoais. ocorridos com terceiros. assim como,",
+    "nota": "pontuação \"pessoais. ocorridos com terceiros. assim como\" como no PDF (p. 5)"
+  },
+  "t17": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**11.3** ; A apuração da culpa, demonstrando a responsabilidade da Contratada, tornar-l respectivo",
+    "para": "**11.3** A apuração da culpa, demonstrando a responsabilidade da Contratada, tornar-lhe-á obrigatório o respectivo"
+  },
+  "t18": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "até 30 dias depois de ocorrida a ig Mm Za ção.\n\nReprodução permiticla desde que citado o DNER como fonte\n\n> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `ZAÇÃO “o ue EA a Was`\n\n## 12 COAT\n\nA Fiscalização deve acompanhar a manutenção e operação do equipamento de a do DNER",
+    "para": "até 30 dias depois de ocorrida a inutilização.\n\n## 13 FISCALIZAÇÃO\n\nA Fiscalização deve acompanhar a manutenção e operação do equipamento de propriedade do DNER",
+    "nota": "fim do 12.2 (p. 5) e título da seção 13 (p. 6) restaurados; o PDF não traz o título da seção 14 (Retirada do equipamento em caso de emergência) antes de \"Para atender...\""
+  },
+  "t19": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "de acordo com modcio constante",
+    "para": "de acordo com modelo constante"
+  },
+  "t20": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Acritério da Fiscalização",
+    "para": "A critério da Fiscalização"
+  },
+  "t21": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "qualquer equipamento do DINEK,",
+    "para": "qualquer equipamento do DNER,"
+  },
+  "d01": {
+    "texto": true,
+    "page": 7,
+    "clip": [
+      66,
+      93,
+      568,
+      745
+    ],
+    "de_inicio": "\n\nReprodução permiticla desde que citado o DNER como fonte\n\n### Anexo normativo A",
+    "de_fim": "<<FIM>>",
+    "para": "\n\n### Anexo normativo A: Modelo de termo de responsabilidade\n\n![[dner_pro_165_94_d01.png]]\n\n![[dner_pro_165_94_d02.png]]\n\n### Anexo normativo B: Modelo de termo de baixa de responsabilidade\n\n![[dner_pro_165_94_d03.png]]\n\n![[dner_pro_165_94_d04.png]]\n",
+    "nota": "Anexos A e B (p. 7-10): formulários em branco, como imagem (d01-d04); lixo de OCR removido"
+  },
+  "d02": {
+    "texto": true,
+    "page": 8,
+    "clip": [
+      66,
+      120,
+      568,
+      645
+    ]
+  },
+  "d03": {
+    "texto": true,
+    "page": 9,
+    "clip": [
+      66,
+      92,
+      568,
+      745
+    ]
+  },
+  "d04": {
+    "texto": true,
+    "page": 10,
+    "clip": [
+      66,
+      130,
+      568,
+      560
+    ]
+  }
+}

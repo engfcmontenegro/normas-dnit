@@ -61,7 +61,7 @@ a) BRASIL. Departamento Nacional de Estradas de Rodagem. [[dner_me_037_94-1|DNER
 
 b) _____. DNER-ME 049/94 - Solos – Determinação do “índice de suporte califórnia” utilizando amostras não trabalhadas. Rio de Janeiro: IPR, 1994.
 
-c) _____. DNER-ME 080/94 - Solos – Análise granulométrica por peneiramento. Rio de Janeiro: IPR, 1994.
+c) _____. [[dner_me_080_94|DNER-ME 080/94]] - Solos – Análise granulométrica por peneiramento. Rio de Janeiro: IPR, 1994.
 
 d) _____. [[dner_me_082_94-1|DNER-ME 082/94]] - Solos – Determinação do limite de plasticidade. Rio de Janeiro: IPR, 1994.
 
@@ -302,17 +302,17 @@ Método de Ensaio da Norma DNER-ME 129/94
 
 (Método B), para cada 200m³ de material de camada final do aterro;
 
-c) 1 (um) ensaio de granulometria (DNER-ME
+c) 1 (um) ensaio de granulometria ([[dner_me_080_94|DNER-ME
 
-080/94), do limite de liquidez ([[dner_me_122_94-1|DNER-ME
+080/94]]), do limite de liquidez ([[dner_me_122_94-1|DNER-ME
 
 122/94]]) e do limite de plasticidade ([[dner_me_082_94-1|DNER-ME
 
 082/94]]) para o corpo do aterro, para todo o grupo de dez amostras submetidas ao ensaio de compactação, conforme a alínea “a” desta subseção;
 
-d) 1 (um) ensaio de granulometria (DNER-ME
+d) 1 (um) ensaio de granulometria ([[dner_me_080_94|DNER-ME
 
-080/94), do limite de liquidez ([[dner_me_122_94-1|DNER-ME
+080/94]]), do limite de liquidez ([[dner_me_122_94-1|DNER-ME
 
 122/94]]) e do limite de plasticidade ([[dner_me_082_94-1|DNER-ME
 

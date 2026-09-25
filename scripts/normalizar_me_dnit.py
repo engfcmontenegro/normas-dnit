@@ -336,6 +336,8 @@ def cover_metadata(cover, body_size):
         # data da capa colada na 1ª palavra-chave ("OUTUBRO 2022 Pavimentação")
         k = re.sub(r"^(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro"
                    r"|novembro|dezembro)\s*/?\s*\d{4}\s*", "", k, flags=re.I)
+        # campos em branco da capa ("Resolução: nº ______", "Sessão nº ______. Codificação")
+        k = re.sub(r"^.*_{3,}\.?\s*", "", k).strip()
         if k:
             kws.append(k[0].upper() + k[1:])
     return title, aprov, kws

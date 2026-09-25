@@ -1,0 +1,28 @@
+{
+  "fig01": {
+    "page": 3,
+    "bbox": [
+      134.0,
+      242.0,
+      488.0,
+      463.0
+    ],
+    "legenda": "",
+    "ancora": "Secar a mostra de ensaio em estufa (110± 5) ºC, esfriar à temperatura ambiente e",
+    "ignorar": true,
+    "nota": "é tabela (Tabela em markdown via data/formulas)",
+    "texto_removido": [
+      "4,8",
+      "## 1 agregados graúdos:",
+      "9,5",
+      "19,0",
+      "25,0",
+      "38,00",
+      "50,00",
+      "5 7",
+      "10 15",
+      "## 20 6 ENSAIO",
+      "Dimensão máxima característica do agregado (mm)"
+    ]
+  }
+}

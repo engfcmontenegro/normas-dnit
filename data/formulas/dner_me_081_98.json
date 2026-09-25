@@ -1,0 +1,99 @@
+{
+  "eq01": {
+    "page": 5,
+    "clip": [
+      68,
+      398,
+      205,
+      440
+    ],
+    "latex": [
+      "D_{ap} = \\frac{M_s}{M_h - L}"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `D M M L ap s h = −`",
+    "de_fim": "(pesagem hidrostática - ver 6.3).",
+    "para": "$$\nD_{ap} = \\frac{M_s}{M_h - L}\n$$\n\nonde:\n\n$D_{ap}$ - densidade aparente;\n$M_s$ - massa, ao ar, do agregado seco em estufa, em g;\n$M_h$ - massa, ao ar, do agregado na condição saturada superfície seca, em g (ver 6.2);\n$L$ - leitura na balança correspondente ao agregado submerso, em g (pesagem hidrostática - ver 6.3)."
+  },
+  "eq02": {
+    "page": 5,
+    "clip": [
+      68,
+      612,
+      175,
+      656
+    ],
+    "latex": [
+      "a = \\frac{M_h - M_s}{M_s} \\times 100"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `a M M M h s s = − x 100`",
+    "de_fim": "a = absorção do agregado, em percentagem.",
+    "para": "$$\na = \\frac{M_h - M_s}{M_s} \\times 100\n$$\n\nem que:\n\n$a$ - absorção do agregado, em percentagem."
+  },
+  "eq03": {
+    "page": 6,
+    "clip": [
+      68,
+      114,
+      262,
+      174
+    ],
+    "latex": [
+      "D_{ap} = \\frac{1}{\\dfrac{P_1}{D_{ap_1}} + \\dfrac{P_2}{D_{ap_2}} + \\cdots + \\dfrac{P_n}{D_{ap_n}}} \\times 100",
+      "a = \\frac{1}{100}\\left(P_1 \\cdot a_1 + P_2 \\cdot a_2 + \\cdots + P_n \\cdot a_n\\right)"
+    ],
+    "de_inicio": "> [!warning]- Fórmula não extraída corretamente do PDF — consulte o original\n> `D P D P D P D x 100",
+    "de_fim": "valores da absorção de cada fração granulométrica do agregado, em porcentagem.",
+    "para": "$$\nD_{ap} = \\frac{1}{\\dfrac{P_1}{D_{ap_1}} + \\dfrac{P_2}{D_{ap_2}} + \\cdots + \\dfrac{P_n}{D_{ap_n}}} \\times 100\n$$\n\n$$\na = \\frac{1}{100}\\left(P_1 \\cdot a_1 + P_2 \\cdot a_2 + \\cdots + P_n \\cdot a_n\\right)\n$$\n\nem que:\n\n$P_1, P_2, \\ldots, P_n$ - porcentagens retidas individuais, em massa, das frações granulométricas presentes na amostra original;\n$D_{ap_1}, D_{ap_2}, \\ldots, D_{ap_n}$ - valores de densidade de cada fração granulométrica do agregado;\n$a_1, a_2, \\ldots, a_n$ - valores da absorção de cada fração granulométrica do agregado, em porcentagem."
+  },
+  "eq04": {
+    "page": 6,
+    "clip": [
+      68,
+      180,
+      250,
+      220
+    ],
+    "latex": [
+      "a = \\frac{1}{100}\\left(P_1 \\cdot a_1 + P_2 \\cdot a_2 + \\cdots + P_n \\cdot a_n\\right)"
+    ]
+  },
+  "t01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "4000 cm 3 a 7000 cm 3 .",
+    "para": "4000 cm³ a 7000 cm³."
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "(M h )",
+    "para": "($M_h$)"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "(M s )",
+    "para": "($M_s$)"
+  },
+  "t04": {
+    "texto": true,
+    "de_inicio": "### Tabela 1 - Massa mínima de amostra de ensaio",
+    "de_fim": "### Tabela 1 - Massa mínima de amostra de ensaio",
+    "para": "### Tabela 1 - Massa mínima de amostra de ensaio\n\n| Dimensão máxima característica do agregado (mm) | Massa mínima da amostra de ensaio (kg) |\n| --- | --- |\n| 12,5 ou menor | 2,0 |\n| 19 | 3,0 |\n| 25 | 4,0 |\n| 38 | 5,0 |\n| 50 | 8,0 |\n| 64 | 12,0 |\n| 76 | 18,0 |\n| 100 | 40,0 |\n| 125 | 75,0 |\n| 152 | 125,0 |",
+    "nota": "Tabela 1 (p. 4) em markdown; figura fig01 ignorada"
+  },
+  "t05": {
+    "texto": true,
+    "de_inicio": "### Tabela 2 - Massa mínima por fração\n\n## 6 ENSAIO",
+    "de_fim": "## 6 ENSAIO",
+    "para": "### Tabela 2 - Massa mínima por fração\n\n| Peneira (mm) - Passa | Peneira (mm) - Retida | Massa mínima por fração (kg) |\n| --- | --- | --- |\n| 50 | 33 | 3,0 |\n| 64 | 50 | 4,0 |\n| 76 | 64 | 6,0 |\n| 100 | 76 | 22,0 |\n| 125 | 100 | 35,0 |\n| 152 | 125 | 50,0 |\n\n## 6 ENSAIO",
+    "nota": "Tabela 2 (p. 4) em markdown antes da seção 6; figura fig02 ignorada"
+  },
+  "t00": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "---\n## RESUMO",
+    "para": "---\nNORMA CANCELADA EM 4/6/2025\n\n## RESUMO",
+    "nota": "linha da tarja no início do corpo"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "eq01": {
+    "page": 7,
+    "bbox": [
+      341.2,
+      45.1,
+      406.9,
+      107.8
+    ],
+    "raw": "n ∑ x 1 = = X i 1 n",
+    "latex": "\\bar{X} = \\frac{\\sum_{i=1}^{n} x_1}{n}",
+    "nota": "o PDF traz x_1 no somatório (provável erro, deveria ser x_i); transcrito como está"
+  },
+  "eq02": {
+    "page": 7,
+    "bbox": [
+      341.4,
+      121.2,
+      440.3,
+      173.5
+    ],
+    "raw": "= ∑ − 2 ( x X ) i s − n 1",
+    "latex": "s = \\sqrt{\\frac{\\sum (x_i - \\bar{X})^2}{n-1}}"
+  },
+  "m01": {
+    "manual": true,
+    "page": 10,
+    "clip": [
+      40,
+      45,
+      560,
+      800
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: Índice geral (página 10), removido como nas demais normas"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "ACE$RITA^{®}$",
+    "para": "ACERITA®",
+    "nota": "ACERITA® quebrado pela extração do sobrescrito"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "# NORMA CANCELADA EM 26/12/2023 ",
+    "para": "NORMA CANCELADA EM 26/12/2023\n\n# ",
+    "nota": "tarja separada do título"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "**3.2** Escória de aciaria LD, produzida na\n\nARCELORMITTAL-TUBARÃO, com redução de expansão – ACERITA®",
+    "para": "**3.2** Escória de aciaria LD, produzida na ARCELORMITTAL-TUBARÃO, com redução de expansão – ACERITA®"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "seção 6\n\n- Condicionantes ambientais.",
+    "para": "seção 6 – Condicionantes ambientais."
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "Silos: para depósito da ACERITA® ou da mistura\n\n- de ACERITA® e solo,",
+    "para": "- Silos: para depósito da ACERITA® ou da mistura de ACERITA® e solo,"
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "A mistura da ACERITA® e do solo deve ser\n\n- preparada",
+    "para": "- A mistura da ACERITA® e do solo deve ser preparada"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "Î•",
+    "para": "→ ",
+    "nota": "seta (Wingdings) do PDF"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "Î",
+    "para": "→ ",
+    "nota": "seta (Wingdings) do PDF"
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "≥•",
+    "para": "≥"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "≤•",
+    "para": "≤"
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "> •valor",
+    "para": "> valor"
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "nãoconformidade",
+    "para": "não-conformidade"
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "X - ks",
+    "para": "$\\bar{X} - ks$"
+  },
+  "t14": {
+    "todas": true,
+    "de_inicio": "X- ks",
+    "para": "$\\bar{X} - ks$"
+  },
+  "t15": {
+    "todas": true,
+    "de_inicio": "X + ks",
+    "para": "$\\bar{X} + ks$"
+  },
+  "t16": {
+    "todas": true,
+    "de_inicio": "$i^{x}$$^{– valores individuais}$\n\nX – média da amostra s - desvio padrão da amostra k - coeficiente tabelado em função do número de determinações (tamanho da amostra) n - número de determinações.",
+    "para": "$x_i$ – valores individuais\n\n$\\bar{X}$ – média da amostra\n\n$s$ - desvio padrão da amostra\n\n$k$ - coeficiente tabelado em função do número de determinações (tamanho da amostra)\n\n$n$ - número de determinações.",
+    "nota": "legenda achatada"
+  },
+  "t17": {
+    "todas": true,
+    "de_inicio": "## Anexo A (Informativo)\n\nBibliografia\n\na) BRASIL. Departamento Nacional de Estradas de\n\nRodagem.",
+    "para": "## Anexo A (Informativo) – Bibliografia\n\na) BRASIL. Departamento Nacional de Estradas de Rodagem."
+  },
+  "t18": {
+    "todas": true,
+    "de_inicio": "com ACERITA®, estabilizada redução de expansão – granulometricamente na",
+    "para": "com redução de expansão – ACERITA®, estabilizada granulometricamente na",
+    "nota": "1 Objetivo: ordem trocada na extração"
+  },
+  "t19": {
+    "todas": true,
+    "de_inicio": "com redução de expansão ACERITA® deve apresentar as seguintes\n\n- características:\n- Composição",
+    "para": "com redução de expansão – ACERITA® deve apresentar as seguintes características:\n\n- Composição"
+  },
+  "t20": {
+    "todas": true,
+    "de_inicio": "com redução de ACERITA®, expansão – estabilizada granulometricamente,",
+    "para": "com redução de expansão – ACERITA®, estabilizada granulometricamente,",
+    "nota": "5.1.3: ordem trocada"
+  },
+  "t21": {
+    "todas": true,
+    "de_inicio": "Espalhamento,umedecimento",
+    "para": "Espalhamento, umedecimento"
+  },
+  "t22": {
+    "todas": true,
+    "de_inicio": "normas pertinentes do\n\nDNIT, em especial",
+    "para": "normas pertinentes do DNIT, em especial"
+  },
+  "t23": {
+    "todas": true,
+    "de_inicio": "permitindo- se",
+    "para": "permitindo-se"
+  },
+  "t24": {
+    "todas": true,
+    "de_inicio": "ACERITA®e a proteção",
+    "para": "ACERITA® e a proteção"
+  },
+  "t25": {
+    "todas": true,
+    "de_inicio": "(IPR. Publ.,\n\n730).",
+    "para": "(IPR. Publ., 730)."
+  },
+  "t26": {
+    "todas": true,
+    "de_inicio": "- Preparo da faixa;\n- No caso de utilização do solo do próprio subleito é necessária a escarificação da camada de solo, em espessura proporcional à mistura;\n- Homogeneização do solo local ou importado;\n- Distribuição da escória de aciaria – ACERITA®;\n\nPreparo da mistura de ACERITA® com solo - utilizando o equipamento de homogeneização;\n\n- Umedecimento e enleiramento da mistura;\n- Espalhamento, umedecimento e homogeneização da mistura;\n- Compactação e acabamento.",
+    "para": "    - Preparo da faixa;\n    - No caso de utilização do solo do próprio subleito é necessária a escarificação da camada de solo, em espessura proporcional à mistura;\n    - Homogeneização do solo local ou importado;\n    - Distribuição da escória de aciaria – ACERITA®;\n    - Preparo da mistura de ACERITA® com solo utilizando o equipamento de homogeneização;\n    - Umedecimento e enleiramento da mistura;\n    - Espalhamento, umedecimento e homogeneização da mistura;\n    - Compactação e acabamento.",
+    "nota": "5.3: fases de execução como sublista (travessões no PDF)"
+  }
+}

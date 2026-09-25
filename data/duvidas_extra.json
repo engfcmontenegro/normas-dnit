@@ -861,5 +861,82 @@
       "cat": "contradicao",
       "texto": "Estacas do escoramento cortadas \"no nível do terreno\" (5.4.4) e \"pelo menos 50 cm abaixo do terreno acabado\" (7.1, p. 5). 5.4.1 repete a alínea \"a)\" depois de \"d)\"."
     }
+  ],
+  "dner_me_079_94": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5 f): a solução Nº 4 manda \"levar a 250 ml\"; todas as demais diluições levam a 500 ml (provavelmente 500 ml)."
+    }
+  ],
+  "dner_me_083_98": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "4 b) cita \"DNER-ME 035/95\"; nas referências a norma é a DNER-EM 035/95."
+    }
+  ],
+  "dner_pro_165_94": [
+    {
+      "page": 6,
+      "cat": "erro",
+      "texto": "Falta o título da seção \"14 Retirada do equipamento em caso de emergência\" (listada no sumário); o parágrafo aparece sob a seção 13."
+    }
+  ],
+  "dner_me_081_98": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "3.3: \"umidade de volume\" (unidade) e \"cumprimento submerso\" (comprimento)."
+    }
+  ],
+  "dner_em_364_97": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "Tabela: os símbolos antes dos valores de Água e Densidade não têm glifo no PDF; lidos como ≤ (água, máximo) e ≥ (densidade, mínimo) pelo contexto da AASHTO M 52. A unidade da Densidade aparece como \"°C\" e a da Flutuação como \"°E\"."
+    }
+  ],
+  "dner_me_004_94": [
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "Título termina em \"… a alta temperatura método da película delgada\" — o trecho parece copiado da DNER-ME 001/94."
+    }
+  ],
+  "dner_pro_170_94": [
+    {
+      "page": 2,
+      "cat": "contradicao",
+      "texto": "A mesma norma ABNT aparece como \"MB-429\" (2.1 e 3) e \"NB-318\" (2.2); a DNER-PRO 171/94 inverte (MB-318 / NB-429)."
+    }
+  ],
+  "dner_pro_178_94": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "Título da seção 4 \"PONTES E RODOVIAS FEDERAIS\" (sumário: \"pontes de rodovias federais\")."
+    }
+  ],
+  "dnit_114_2009_es": [
+    {
+      "page": 7,
+      "cat": "erro",
+      "texto": "Fórmula da média: o somatório traz x₁ em vez de xᵢ (o mesmo na DNIT 115/2009 e 112/2009)."
+    }
+  ],
+  "dnit_115_2009_es": [
+    {
+      "page": 7,
+      "cat": "erro",
+      "texto": "Fórmula da média: o somatório traz x₁ em vez de xᵢ."
+    }
+  ],
+  "dnit_126_2017_pad": [
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "6.3.5: \"Cronológico: 203 = A\", mas o código do documento termina em 200 = A; a Figura 1 (p. 2) traz \"LL.AAA.LL\" e o texto usa \"LL.BBB.LL\"; o Anexo B (p. 8) pula o código 026."
+    }
   ]
 }

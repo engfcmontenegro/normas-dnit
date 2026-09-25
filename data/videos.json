@@ -1012,5 +1012,153 @@
     "titulo_video": "LABGEO - Determinação da massa específica aparente in situ (Frasco de areia)",
     "canal": "LabGeo UFSCar",
     "origem": "busca"
+  },
+  "dner_me_001_94": {
+    "busca": "Material asfáltico - Determinação do efeito do calor e do ar - Método da película delgada (ABNT- MB 425)",
+    "url": "https://www.youtube.com/watch?v=mRJ7dxdQg88",
+    "titulo_video": "NBR 15235   Determinação do efeito do calor e do ar em uma película delgada rotacional",
+    "canal": "Vagner Alba",
+    "origem": "busca"
+  },
+  "dner_me_004_94": {
+    "busca": "Material betuminoso - Determinação da viscosidade saybolt-furol a alta temperatura método da película delgada",
+    "url": "https://www.youtube.com/watch?v=BmuyCTeE4lc",
+    "titulo_video": "Determinação da Viscosidade Saybolt Furol de Materiais Asfálticos",
+    "canal": "ANTT RDT",
+    "origem": "busca"
+  },
+  "dner_me_005_94": {
+    "busca": "Emulsão asfáltica - Determinação da peneiração (ABNT-MB 609)",
+    "url": "https://www.youtube.com/watch?v=wtf414lTZeg",
+    "titulo_video": "Determinação da Peneiração de Emulsões Asfálticas",
+    "canal": "ANTT RDT",
+    "origem": "busca"
+  },
+  "dner_me_007_94": {
+    "busca": "Emulsão asfáltica - Determinação de ruptura - Método da mistura com cimento (ABNT-NBR 6297)",
+    "url": "https://www.youtube.com/watch?v=ozlQdAb-qQg",
+    "titulo_video": "Determinação da Sedimentação de Emulsões Asfálticas",
+    "canal": "ANTT RDT",
+    "origem": "busca",
+    "relacao_baixa": true
+  },
+  "dner_me_008_94": {
+    "busca": "Emulsão asfáltica - Determinação de ruptura - Método de mistura com filler silícico (ABNT-NBR 6302)",
+    "url": "https://www.youtube.com/watch?v=ozlQdAb-qQg",
+    "titulo_video": "Determinação da Sedimentação de Emulsões Asfálticas",
+    "canal": "ANTT RDT",
+    "origem": "busca",
+    "relacao_baixa": true
+  },
+  "dner_me_010_94": {
+    "busca": "Cimentos asfálticos de petróleo - Determinação do teor de betume (ABNT-MB 166)",
+    "url": "https://www.youtube.com/watch?v=qvjQWPqzFdI",
+    "titulo_video": "MAT1 (2) - Teor de Betume e Granulometria em CBUQ",
+    "canal": "Prof. Nara Cangussu",
+    "origem": "busca",
+    "relacao_baixa": true
+  },
+  "dner_me_012_94": {
+    "busca": "Asfalto diluído - Destilação (ABNT-MB 43)",
+    "url": "https://www.youtube.com/watch?v=7X31Qhi0EAE",
+    "titulo_video": "Determinação do Teor de Asfalto: Método Marshall ES031-DNIT",
+    "canal": "Confraria da Engenharia",
+    "origem": "busca",
+    "relacao_baixa": true
+  },
+  "dner_me_059_94": {
+    "busca": "Emulsões asfálticas - Determinação da resistência à água (adesividade) (ABNT NBR 6300)",
+    "url": "https://www.youtube.com/watch?v=_Kkgfuo4Luw",
+    "titulo_video": "NBR 6300   Determinação da resistência à água adesividade de emulsões asfálticas catiônicas",
+    "canal": "Vagner Alba",
+    "origem": "busca"
+  },
+  "dner_me_079_94": {
+    "busca": "Agregado - adesividade a ligante betuminoso",
+    "url": "https://www.youtube.com/watch?v=IIe2kULuvac",
+    "titulo_video": "Verificação da Adesividade da Emulsão Asfáltica com Agregado Graúdo",
+    "canal": "ANTT RDT",
+    "origem": "busca"
+  },
+  "dner_me_080_94": {
+    "busca": "Solos - Análise granulométrica por peneiramento",
+    "url": "https://www.youtube.com/watch?v=tUfaVEzjHD4",
+    "titulo_video": "NBR 7181 - Solo - Análise Granulométrica",
+    "canal": "Eletrobras Furnas",
+    "origem": "busca"
+  },
+  "dner_me_081_98": {
+    "busca": "Agregados - determinação da absorção e da densidade de agregado graúdo",
+    "url": "https://www.youtube.com/watch?v=MIGwYzc7T_o",
+    "titulo_video": "Determinação da absorção e da densidade do agregado graúdo",
+    "canal": "ANTT RDT",
+    "origem": "busca"
+  },
+  "dner_me_083_98": {
+    "busca": "Agregados - análise granulométrica",
+    "url": "https://www.youtube.com/watch?v=tUfaVEzjHD4",
+    "titulo_video": "NBR 7181 - Solo - Análise Granulométrica",
+    "canal": "Eletrobras Furnas",
+    "origem": "busca",
+    "relacao_baixa": true
+  },
+  "dner_me_084_95": {
+    "busca": "Agregado miúdo - determinação de densidade real",
+    "url": "https://www.youtube.com/watch?v=iNGIDYjGZNA",
+    "titulo_video": "Densidade real agregado miúdo 2",
+    "canal": "Sandro Matos",
+    "origem": "busca"
+  },
+  "dner_me_088_94": {
+    "busca": "Solos - Determinação da umidade pelo método expedito do álcool",
+    "url": "https://www.youtube.com/watch?v=ZN8NsuJu6qo",
+    "titulo_video": "DNER 088: Solos - Determinação da umidade pelo método expedito do álcool",
+    "canal": "UEFS - MAT.  DE CONSTRUÇÃO II",
+    "origem": "busca"
+  },
+  "dner_me_148_94": {
+    "busca": "Material betuminoso - Determinação dos pontos de fulgor e de combustão (vaso aberto cleveland) (ABNT-NBR 11341)",
+    "url": "https://www.youtube.com/watch?v=-zKPiI3tEiE",
+    "titulo_video": "Determinação dos Pontos de Fulgor e de Combustão em Vaso Aberto Cleveland para Produtos de Petróleo",
+    "canal": "ANTT RDT",
+    "origem": "busca"
+  },
+  "dner_me_149_94": {
+    "busca": "Emulsões asfálticas - Determinação do PH (ABNT-NBR 6299)",
+    "url": "https://www.youtube.com/watch?v=qm03owI_jtw",
+    "titulo_video": "Apresentação   Ensaio de pH de emulsões asfálticas",
+    "canal": "Dora Letícia Pereira Santos",
+    "origem": "busca"
+  },
+  "dner_me_150_94": {
+    "busca": "Petróleo e outros materiais betuminosos - Determinação de água (método por destilação) (ABNT-NBR 14236)",
+    "url": "https://www.youtube.com/watch?v=h46-MqFSUTM",
+    "titulo_video": "Indústria Petroquímica - Parte 4 - Torre de Destilação Fracionada",
+    "canal": "GoG Escola",
+    "origem": "busca",
+    "relacao_baixa": true
+  },
+  "dner_me_151_94": {
+    "busca": "Asfaltos - determinação da viscosidade cinemática (ABNT-MB 826)",
+    "url": "https://www.youtube.com/watch?v=BmuyCTeE4lc",
+    "titulo_video": "Determinação da Viscosidade Saybolt Furol de Materiais Asfálticos",
+    "canal": "ANTT RDT",
+    "origem": "busca",
+    "relacao_baixa": true
+  },
+  "dner_me_186_94-1": {
+    "busca": "Tinta para demarcação viária - Determinação do tempo de secagem \"no pick-up time”",
+    "url": "https://www.youtube.com/watch?v=aTZxM3UbB00",
+    "titulo_video": "Ensaio Tempo de Secagem Pick-Up TIme - Laboratório Tork",
+    "canal": "Laboratorio Tork",
+    "origem": "busca"
+  },
+  "dnit_045_2004_me": {
+    "busca": "Pavimento Rígido - Selante de juntas - Envelhecimento acelerado por intemperismo",
+    "url": "https://www.youtube.com/watch?v=5_nEqOy3yAQ",
+    "titulo_video": "PAVIMENTO RÍGIDO executado com equipamento de pequeno porte!",
+    "canal": "Engenheiro de Rodovias - Lucas Ribeiro",
+    "origem": "busca",
+    "relacao_baixa": true
   }
 }

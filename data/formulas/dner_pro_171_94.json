@@ -1,0 +1,44 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "consideradosnos projetos",
+    "para": "considerados nos projetos",
+    "nota": "espaço"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "nos períodos diumos e noturnos",
+    "para": "nos períodos diurnos e noturnos",
+    "nota": "OCR rn->m"
+  },
+  "c03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "required visibility.\n\n## 1 OBJETIVO",
+    "para": "required visibility.\n\n## 0 APRESENTAÇÃO\n\nEsta Norma decorreu da necessidade de se adaptar, quanto à forma, a DNER-PRO 171/86 à DNER-PRO 101/93, mantendo-se a adoção pelo processo de referência da Norma ABNT MB-318 de 1976, registrada no SINMETRO como NBR-5181, com uso obrigatório no DNER.\n\n## 1 OBJETIVO",
+    "nota": "seção 0 Apresentação (p. 1) ausente no md"
+  },
+  "c04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Esta Normatempor objetivo",
+    "para": "Esta Norma tem por objetivo",
+    "nota": "espaços"
+  },
+  "c05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "períodos diumo e notumo.",
+    "para": "períodos diurno e noturno.",
+    "nota": "OCR rn->m"
+  },
+  "c06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "registrada no\n\nSINMETRO como NBR-5181",
+    "para": "registrada no SINMETRO como NBR-5181",
+    "nota": "parágrafo partido"
+  }
+}

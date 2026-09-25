@@ -1,0 +1,16 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "repetibilidade e\n\n.| reprodutibilidade dos resultados.",
+    "para": "repetibilidade e reprodutibilidade dos resultados.",
+    "nota": "lixo de OCR no resumo"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a DNER-ME 005/87 DNER-PRO",
+    "para": "a DNER-ME 005/87 à DNER-PRO",
+    "nota": "0 Apresentação: falta 'à' (quebra de linha do PDF)"
+  }
+}

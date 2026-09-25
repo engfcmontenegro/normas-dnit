@@ -20,7 +20,7 @@ NORMAS_JSON = ROOT / "data" / "normas.json"
 GRAPH_JSON = ROOT / "data" / "graph.json"
 
 EXISTING_LINK_RE = re.compile(r"\[([^\[\]]+)\]\([^()]+\.md\)")
-EXISTING_WIKILINK_RE = re.compile(r"\[\[([^\[\]|]+)\|([^\[\]]+)\]\]")
+EXISTING_WIKILINK_RE = re.compile(r"\[\[([^\[\]|\\]+)\\?\|([^\[\]]+)\]\]")  # "\|" = link dentro de tabela
 
 
 def split_front_matter(text):
@@ -34,7 +34,11 @@ def split_front_matter(text):
 def unlink(body, stems):
     """Desfaz links internos de execuções anteriores (markdown ou wikilink com alias)."""
     body = EXISTING_LINK_RE.sub(r"\1", body)
-    return EXISTING_WIKILINK_RE.sub(lambda m: m.group(2) if m.group(1) in stems else m.group(0), body)
+    while True:  # repete: desfaz também links aninhados ([[a\|[[a\|X]]]])
+        novo = EXISTING_WIKILINK_RE.sub(lambda m: m.group(2) if m.group(1) in stems else m.group(0), body)
+        if novo == body:
+            return body
+        body = novo
 
 TIPOS = ["PRO", "ES", "ME", "EM", "TER", "CLA", "IE", "PAD"]
 TIPO_RE = "|".join(TIPOS)
@@ -143,7 +147,10 @@ def main():
             if key in targets_linked:
                 continue
             targets_linked.add(key)
-            replacement = f"[[{target_stem}|{original_snippet}]]"
+            # dentro de linha de tabela o "|" do alias precisa de escape, senão parte a célula
+            linha_ini = new_text.rfind("\n", 0, start) + 1
+            sep = "\\|" if new_text[linha_ini:start].lstrip().startswith("|") else "|"
+            replacement = f"[[{target_stem}{sep}{original_snippet}]]"
             new_text = new_text[:start] + replacement + new_text[end:]
 
         if front + new_text != original:

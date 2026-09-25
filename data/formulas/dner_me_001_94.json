@@ -1,0 +1,16 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n2.2 Referência bibliográfica",
+    "para": "\n\n**2.2** Referência bibliográfica",
+    "nota": "item 2.2 sem negrito"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "DNER - ME 001/87, designada",
+    "para": "DNER-ME 001/87, designada",
+    "nota": "código escrito 'DNER - ME' no PDF"
+  }
+}

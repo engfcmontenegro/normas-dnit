@@ -61,7 +61,7 @@ a) [[dner_em_036_95-1|DNER-EM 036/95]] - Cimento Portland - recebimento e aceita
 
 b) DNER-ME 083/94 - Agregados - análise granulométrica;
 
-c) DNER-ME 084/95 - Agregado miúdo - determinação de densidade real;
+c) [[dner_me_084_95|DNER-ME 084/95]] - Agregado miúdo - determinação de densidade real;
 
 d) [[dner_me_085_94-1|DNER-ME 085/94]] Material finamente pulverizado - determinação da massa específica real;
 
@@ -83,7 +83,7 @@ Material de enchimento (filer) - material mineral inerte em relação aos demais
 
 **4.2** O material de enchimento poderá ser cimento Portland, pó calcário, cal hidratada, pó de pedra, cinza volante ou outro material mineral conveniente preparado para apresentar as características especificadas nesta Norma.
 
-**4.3** As massas específicas real e aparente do filer deverão ser determinadas de acordo com os métodos [[dner_me_085_94-1|DNER-ME 085/94]] e DNER-ME 084/95.
+**4.3** As massas específicas real e aparente do filer deverão ser determinadas de acordo com os métodos [[dner_me_085_94-1|DNER-ME 085/94]] e [[dner_me_084_95|DNER-ME 084/95]].
 
 **4.4** O material deverá vir acondicionado em sacos vedados, protegidos da umidade. Deve ser identificado com etiqueta, contendo:
 

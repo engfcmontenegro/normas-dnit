@@ -1,0 +1,16 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a DNER-ME 150/87 DNER-PRO",
+    "para": "a DNER-ME 150/87 à DNER-PRO",
+    "nota": "0 Apresentação: falta 'à' (quebra de linha do PDF)"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "b) ABNTMB-38 - Determinação da água esedimentos",
+    "para": "b) ABNT MB-38 - Determinação da água e sedimentos",
+    "nota": "espaços"
+  }
+}

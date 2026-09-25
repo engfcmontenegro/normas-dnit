@@ -1,0 +1,38 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      45.2,
+      48.2,
+      556.5,
+      1227.4
+    ],
+    "legenda": "",
+    "ignorar": true,
+    "nota": "não é figura: tarja CANCELADA"
+  },
+  "fig02": {
+    "page": 8,
+    "bbox": [
+      52.0,
+      48.2,
+      556.5,
+      764.0
+    ],
+    "legenda": "",
+    "ignorar": true,
+    "nota": "não é figura: tarja CANCELADA"
+  },
+  "fig03": {
+    "page": 9,
+    "bbox": [
+      52.0,
+      48.2,
+      556.5,
+      764.0
+    ],
+    "legenda": "",
+    "ignorar": true,
+    "nota": "não é figura: tarja CANCELADA"
+  }
+}

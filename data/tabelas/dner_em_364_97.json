@@ -1,0 +1,15 @@
+{
+  "tabm01": {
+    "manual": true,
+    "page": 3,
+    "clip": [
+      72,
+      158,
+      773,
+      411
+    ],
+    "md": "| Características | Unid. | Métodos de ensaios | RT-1 | RT-2 | RT-3 | RT-4 | RT-5 | RT-6 | RT-7 | RT-8 | RT-9 | RT-10 | RT-11 | RT-12 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Água | (%) | ASTM D 95 | ≤ 2,0 | ≤ 2,0 | ≤ 2,0 | ≤ 2,0 | ≤ 1,5 | ≤ 1,5 | ≤ 1,0 | Isento | Isento | Isento | Isento | Isento |\n| Densidade a 25/25 | °C | ASTM D 70 | ≥ 1,08 | ≥ 1,08 | ≥ 1,09 | ≥ 1,09 | ≥ 1,10 | ≥ 1,10 | ≥ 1,12 | ≥ 1,14 | ≥ 1,14 | ≥ 1,15 | ≥ 1,16 | ≥ 1,16 |\n| Viscosidade Específica a 40 °C | °E | ASTM D1665 | 5 a 8 | 8 a 13 | 13 a 22 | 22 a 35 |  |  |  |  |  |  |  |  |\n| Viscosidade Específica a 50 °C | °E | ASTM D1665 |  |  |  |  | 17 a 26 | 26 a 40 |  |  |  |  |  |  |\n| Ensaio de Flutuação a 32 °C | °E | ASTM D 139 |  |  |  |  |  |  | 50 a 80 | 80 a 120 | 120 a 200 |  |  |  |\n| Ensaio de Flutuação a 50 °C | °E | ASTM D 139 |  |  |  |  |  |  |  |  |  | 75 a 100 | 100 a 150 | 150 a 200 |\n| Aplicação |  |  | Pintura de Solo | Pintura de Solo | Pintura de Solo e Tratamento Superficial | Pintura de Solo e Tratamento Superficial | Tratamento Superficial e Mistura na Estrada | Tratamento Superficial e Mistura na Estrada | Tratamento Superficial, Mistura na Capa Selante e Concreto | Tratamento Superficial, Mistura na Capa Selante e Concreto | Tratamento Superficial, Mistura na Capa Selante e Concreto | Tratamento Superficial, Capa Selante, Macadame por Penetração e Concreto Betuminoso | Tratamento Superficial, Capa Selante, Macadame por Penetração e Concreto Betuminoso | Tratamento Superficial, Capa Selante, Macadame por Penetração e Concreto Betuminoso |",
+    "de_inicio": "Características Unid. Métodos de Tipos de RT ensaios RT-1 RT-2 RT-3 RT-4 RT-5 RT-6 RT-7 RT-8 RT-9 RT-10 RT-11 RT-12\n\nÁgua (%) ASTM\n\nD 95 ! 2,0 ! 2,0 ! 2,0 ! 2,0 ! 1,5 ! 1,5 ! 1,0 Isento Isento Isento Isento Isento\n\nDensidade a 25/25 °C ASTM\n\nViscosidade Específica a 40°C a 50 °C\n\n°E ASTM\n\nD1665 5 a 8 8 a 13 13 a 22 22 a 35\n\nEnsaio de Flutuação a 32 °C a 50 °C\n\n°E ASTM\n\nD 139 50 a 80 80 a 120 120 a 200\n\nAplicação Pintura de Solo Pintura de Solo e\n\nTratamento Super-ficial\n\nTratamento Super-ficial e Mistura na\n\nEstrada\n\nTratamento Superficial, Mistura na\n\nCapa Selante e Concreto Tratamento Superficial, Capa\n\nSelante, Macadame por Pene-tração e Concreto Betuminoso.",
+    "nota": "Tabela (p. 3, página em paisagem): células mescladas (Aplicação) repetidas em cada coluna; linhas de viscosidade/flutuação separadas por temperatura. Símbolos de Água e Densidade sem glifo no PDF (fonte MSOutlook, caixa vazia / '!'): lidos pelo contexto como ≤ (água, máx.) e ≥ (densidade, mín.), conforme AASHTO M 52 para alcatrões RT."
+  }
+}

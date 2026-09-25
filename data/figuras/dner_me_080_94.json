@@ -1,0 +1,41 @@
+{
+  "fig01": {
+    "page": 2,
+    "bbox": [
+      23.0,
+      57.0,
+      570.0,
+      800.0
+    ],
+    "legenda": "",
+    "ancora": "",
+    "ignorar": true,
+    "nota": "página escaneada de texto (transcrita em data/formulas t01), não é figura"
+  },
+  "fig02": {
+    "page": 3,
+    "bbox": [
+      23.0,
+      56.0,
+      571.0,
+      756.0
+    ],
+    "legenda": "",
+    "ancora": "",
+    "ignorar": true,
+    "nota": "página escaneada de texto (transcrita em data/formulas t01), não é figura"
+  },
+  "fig03": {
+    "page": 4,
+    "bbox": [
+      23.0,
+      55.0,
+      572.0,
+      567.0
+    ],
+    "legenda": "",
+    "ancora": "",
+    "ignorar": true,
+    "nota": "página escaneada de texto (transcrita em data/formulas t01), não é figura"
+  }
+}

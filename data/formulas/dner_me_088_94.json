@@ -1,0 +1,21 @@
+{
+  "t01": {
+    "texto": true,
+    "de_inicio": "NORMA CANCELADA EM 10/6/2025",
+    "de_fim": "<<FIM>>",
+    "para": "NORMA CANCELADA EM 10/6/2025\n\n## RESUMO\n\nEste documento, que é uma norma técnica, apresenta as condições para a determinação expedita da umidade de solos e de agregados miúdos pelo emprego do álcool para secagem. Prescreve a aparelhagem e condições para a obtenção dos resultados.\n\n## ABSTRACT\n\nThis document presents the procedure for rapid determination of the moisture of soils and of fine aggregates by means of alcohol ignition. It prescribes the apparatus and conditions for obtaining results.\n\n## 0 APRESENTAÇÃO\n\nEsta Norma decorreu da necessidade de se adaptar, quanto à forma, a DNER-ME 088/64 à DNER-PRO 101/93, mantendo-se inalterável o seu conteúdo técnico.\n\n## 1 OBJETIVO\n\nEste Método fixa o modo pelo qual se determina a umidade de solos e de agregados miúdos pelo emprego de álcool etílico.\n\nA umidade se determina pela adição de álcool à amostra e sua posterior queima.\n\nNota: Este Método é empregado quando autorizado pela fiscalização da obra.\n\n## 2 REFERÊNCIAS\n\n**2.1** Referências bibliográficas\n\nNo preparo desta Norma foram consultados os seguintes documentos:\n\na) DNER-ME 088/64, designada Determinação da umidade pelo método expedito do álcool;\n\nb) Lisboa. Laboratório Nacional de Engenharia Civil. Norma para determinação do teor de umidade de solos.\n\n## 3 APARELHAGEM\n\nA aparelhagem necessária é a seguinte:\n\na) balança com capacidade de 200 g, sensível a 0,01 g;\n\nb) cápsula metálica de fundo perfurado e suporte, conforme Figura, em anexo;\n\nc) espátula de aço com lâmina flexível com ponta arredondada com cerca de 8 cm de comprimento e 2 cm de largura;\n\nd) pinça metálica;\n\ne) álcool etílico;\n\nf) peneira de 2,0 mm, de acordo com a ABNT EB-22, de 1988, registrada no SINMETRO como NBR-5734, designada Peneiras para ensaio.\n\n## 4 AMOSTRA\n\nTomam-se cerca de 50 g de solo a ser ensaiado, passando na peneira de 2,0 mm.\n\n## 5 ENSAIO\n\na) Pesa-se a cápsula e suporte ($P_1$);\n\nb) deposita-se na cápsula a amostra, tendo-se o cuidado de espalhá-la em toda superfície;\n\nc) determina-se o peso da cápsula com a amostra úmida, inclusive o suporte ($P_2$);\n\nd) despeja-se quantidade adequada de álcool etílico na amostra, revolvendo-a com a espátula e inflamando a seguir o álcool; repete-se esta operação três vezes;\n\ne) pesa-se a cápsula com o solo seco e o suporte ($P_3$).\n\n## 6 CÁLCULOS\n\na) determina-se o peso da amostra úmida pela diferença $P_2 - P_1 = P_h$;\n\nb) determina-se o peso da amostra seca pela diferença $P_3 - P_1 = P_s$;\n\nc) determina-se a umidade pela fórmula:\n\n$$\nh = \\frac{P_h - P_s}{P_s} \\times 100\n$$\n\nonde:\n\n$h$ - umidade, em percentagem;\n$P_h$ - peso da amostra úmida;\n$P_s$ - peso da amostra seca.\n\n## ANEXO NORMATIVO — CÁPSULA METÁLICA DE FUNDO PERFURADO PARA DETERMINAÇÃO DA UMIDADE PELO PROCESSO DO ÁLCOOL\n\n![[dner_me_088_94_fig03.png]]\n\nFigura - Cápsula metálica de fundo perfurado (perspectiva e vista de cima)\n\nUnidade de medida: centímetro (cm)\n",
+    "nota": "PDF escaneado sem camada de texto: norma inteira transcrita das imagens das páginas"
+  },
+  "eq01": {
+    "page": 3,
+    "clip": [
+      62,
+      218,
+      175,
+      272
+    ],
+    "latex": [
+      "h = \\frac{P_h - P_s}{P_s} \\times 100"
+    ]
+  }
+}

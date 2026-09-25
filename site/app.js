@@ -190,7 +190,13 @@
 
   function depItem(d, nivel, caminho, raiz) {
     var html;
-    if (d.via === "acervo") {
+    if (d.via === "cancelada" && d.id && byId[d.id] && byId[d.id].status === "cancelada") {
+      html = '<a data-id="' + escapeHtml(d.id) + '" class="rel-link">' + escapeHtml(byId[d.id].codigo) + "</a> " +
+        '<span class="dep-tit">' + escapeHtml(byId[d.id].titulo) + "</span> " +
+        '<span class="dep-via dep-falta">cancelada pelo DNIT em ' + escapeHtml(d.cancelada) + "</span>" +
+        (d.sucessora && byId[d.sucessora] ? ' <span class="dep-via">(use no lugar <a data-id="' + escapeHtml(d.sucessora) +
+          '" class="rel-link">' + escapeHtml(byId[d.sucessora].codigo) + "</a>)</span>" : "");
+    } else if (d.via === "acervo") {
       html = '<a data-id="' + escapeHtml(d.id) + '" class="rel-link">' + escapeHtml(byId[d.id].codigo) + "</a> " +
         '<span class="dep-tit">' + escapeHtml(byId[d.id].titulo) + "</span>";
     } else {
@@ -775,7 +781,8 @@
       if (it.norma_atual) html += '<div class="ctl-atual">versão no acervo: ' + refLink(it.norma_atual) + "</div>";
       (it.canceladas || []).forEach(function (c) {
         var subst = (c.sucessoras || []).filter(function (id) { return byId[id]; });
-        html += '<div class="ctl-canc">' + escapeHtml(c.codigo) + " cancelada em " + escapeHtml(c.data) +
+        html += '<div class="ctl-canc">' + (c.id && byId[c.id] ? refLink(c.id) : escapeHtml(c.codigo)) +
+          " cancelada em " + escapeHtml(c.data) +
           (subst.length ? " — use " + subst.map(refLink).join(", ") : "") + "</div>";
       });
       return html || '<span class="ctl-fora">—</span>';

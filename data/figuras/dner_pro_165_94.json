@@ -1,0 +1,49 @@
+{
+  "fig01": {
+    "page": 9,
+    "bbox": [
+      311.0,
+      271.0,
+      561.0,
+      318.0
+    ],
+    "legenda": "",
+    "ancora": "LGIVA .eccccrerescrroscereneces AVIVUNIN. rca caos",
+    "ignorar": true,
+    "nota": "pedaço do formulário do Anexo B; anexos inteiros como imagem (data/formulas d01-d04)",
+    "texto_removido": [
+      "## 0 a"
+    ]
+  },
+  "fig02": {
+    "page": 9,
+    "bbox": [
+      312.0,
+      386.0,
+      562.0,
+      456.0
+    ],
+    "legenda": "",
+    "ancora": "ones a sa ana cana o no O Sa a a sn aan canas o On sa as soc o era n a",
+    "ignorar": true,
+    "nota": "pedaço do formulário do Anexo B; anexos inteiros como imagem (data/formulas d01-d04)",
+    "texto_removido": [
+      "caos era ana co Obs o no sa na a nao o sa sa nan a sa 64 encara casaco o aa a dana oo a sa a aa 04",
+      "a 04",
+      "## 0 a"
+    ]
+  },
+  "fig03": {
+    "page": 9,
+    "bbox": [
+      57.0,
+      636.0,
+      572.0,
+      807.0
+    ],
+    "legenda": "",
+    "ancora": "O Departamento Nacional de Estradas de Rodagem declara que recebe o equipamento ",
+    "ignorar": true,
+    "nota": "pedaço do formulário do Anexo B; anexos inteiros como imagem (data/formulas d01-d04)"
+  }
+}

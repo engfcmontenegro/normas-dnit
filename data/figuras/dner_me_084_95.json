@@ -1,0 +1,28 @@
+{
+  "fig01": {
+    "page": 2,
+    "bbox": [
+      59.0,
+      55.0,
+      569.0,
+      797.0
+    ],
+    "legenda": "",
+    "ancora": "",
+    "ignorar": true,
+    "nota": "página escaneada de texto (transcrita em data/formulas t01), não é figura"
+  },
+  "fig02": {
+    "page": 3,
+    "bbox": [
+      23.0,
+      86.0,
+      570.0,
+      737.0
+    ],
+    "legenda": "",
+    "ancora": "",
+    "ignorar": true,
+    "nota": "página escaneada de texto (transcrita em data/formulas t01), não é figura"
+  }
+}

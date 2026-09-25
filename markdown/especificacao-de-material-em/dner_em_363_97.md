@@ -44,11 +44,11 @@ Para o melhor entendimento desta Norma deverão ser consultados os documentos se
 
 a) DNER-ME 003/94 - Materiais betuminosos - determinação da penetração;
 
-b) DNER-ME 004/94 - Materiais betuminosos - determinação da viscosidade “Saybolt-Furol” a alta Temperatura;
+b) [[dner_me_004_94|DNER-ME 004/94]] - Materiais betuminosos - determinação da viscosidade “Saybolt-Furol” a alta Temperatura;
 
-c) DNER-ME 010/94 - Cimentos asfálticos de petróleo - determinação do teor de betume;
+c) [[dner_me_010_94|DNER-ME 010/94]] - Cimentos asfálticos de petróleo - determinação do teor de betume;
 
-d) DNER-ME 151/94 - Asfaltos - determinação da viscosidade cinemática;
+d) [[dner_me_151_94|DNER-ME 151/94]] - Asfaltos - determinação da viscosidade cinemática;
 
 e) DNER-ME 163/94 - Materiais betuminosos - determinação da ductibilidade;
 

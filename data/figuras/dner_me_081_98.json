@@ -1,0 +1,60 @@
+{
+  "fig01": {
+    "page": 4,
+    "bbox": [
+      85.0,
+      98.0,
+      530.0,
+      309.0
+    ],
+    "legenda": "",
+    "ancora": "Em muitos casos pode ser desejável ensaiar o agregado em frações separadas de vá",
+    "ignorar": true,
+    "nota": "é tabela (Tabela 1 em markdown via data/formulas)",
+    "texto_removido": [
+      "64 76",
+      "100 125",
+      "152 2,0",
+      "3,0",
+      "4,0",
+      "5,0",
+      "8,0",
+      "12,0",
+      "18,0",
+      "40,0",
+      "75,0",
+      "125,0",
+      "76 100",
+      "125 152",
+      "64 76",
+      "100 125",
+      "3,0",
+      "4,0",
+      "6,0",
+      "Dimensão máxima característica do agregado (mm) Massa mínima da amostra de ensaio (kg)",
+      "12,5 ou menor 19 25",
+      "38 50"
+    ]
+  },
+  "fig02": {
+    "page": 4,
+    "bbox": [
+      85.0,
+      409.0,
+      530.0,
+      568.0
+    ],
+    "legenda": "",
+    "ancora": "6.1 Lavar a amostra sobre a peneira 4,8 mm e secar até constância de massa, à te",
+    "ignorar": true,
+    "nota": "é tabela (Tabela 2 em markdown via data/formulas)",
+    "texto_removido": [
+      "33 50",
+      "22,0",
+      "35,0",
+      "50,0",
+      "Peneira (mm) Massa mínima por fração (kg)",
+      "Passa Retida 50 64"
+    ]
+  }
+}

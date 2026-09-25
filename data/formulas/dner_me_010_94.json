@@ -1,0 +1,44 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a DNER-ME 010/86 DNER-PRO",
+    "para": "a DNER-ME 010/86 à DNER-PRO",
+    "nota": "0 Apresentação: falta 'à' (quebra de linha do PDF)"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "MB-166, de1971,",
+    "para": "MB-166, de 1971,",
+    "nota": "espaço"
+  },
+  "c03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\np.02/02.\n\n## I OBJETIVO",
+    "para": "\n\n## 1 OBJETIVO",
+    "nota": "cabeçalho de página solto; '1' lido como 'I'"
+  },
+  "c04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "petróleo. E aplicável",
+    "para": "petróleo. É aplicável",
+    "nota": "acento"
+  },
+  "c05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**2.2** Referênciabibliográfica",
+    "para": "**2.2** Referência bibliográfica",
+    "nota": "espaço"
+  },
+  "c06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "documento:\n\n- Determinação do teor de betume",
+    "para": "documento:\n\nDNER-ME 010/86 - Determinação do teor de betume",
+    "nota": "código DNER-ME 010/86 perdido"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a DNER-ME 012/86 DNER-PRO",
+    "para": "a DNER-ME 012/86 à DNER-PRO",
+    "nota": "0 Apresentação: falta 'à' (quebra de linha do PDF)"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "## 2. REFERÊNCIAS",
+    "para": "## 2 REFERÊNCIAS",
+    "nota": "ponto espúrio (sujeira do scan)"
+  }
+}

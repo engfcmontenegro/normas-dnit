@@ -1,0 +1,79 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "de ponte de rodovia federal,\n\n## ABSTRACT",
+    "para": "de ponte de rodovia federal.\n\n## ABSTRACT",
+    "nota": "pontuação"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "the ABNT\" Class 45",
+    "para": "the ABNT' Class 45",
+    "nota": "OCR"
+  },
+  "c03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "signs conceming their characteristics, It",
+    "para": "signs concerning their characteristics. It",
+    "nota": "OCR"
+  },
+  "c04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "à DNER-PRO\n\n101/93, mantendo-se a adoção pelo processo de referência da Norma ABNT NB-56,",
+    "para": "à DNER-PRO 101/93, mantendo-se a adoção pelo processo de referência da Norma ABNT NB-6,",
+    "nota": "parágrafo partido; NB-6 lido como NB-56"
+  },
+  "c05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\np. 02/02.\n\n## 2 REFERÊNCIAS",
+    "para": "\n\n## 2 REFERÊNCIAS",
+    "nota": "cabeçalho de página solto"
+  },
+  "c06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**2.1** Normacomplementar",
+    "para": "**2.1** Norma complementar",
+    "nota": "espaço"
+  },
+  "c07": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**2.2** Referênciasbibliográficas",
+    "para": "**2.2** Referências bibliográficas",
+    "nota": "espaço"
+  },
+  "c08": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "NBR-7 188,",
+    "para": "NBR-7188,",
+    "nota": "espaço"
+  },
+  "c09": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Fica ádotada no DNER",
+    "para": "Fica adotada no DNER",
+    "nota": "acento espúrio (sujeira do scan)"
+  },
+  "c10": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "registrada no\n\nSINMETRO como NBR-7188",
+    "para": "registrada no SINMETRO como NBR-7188",
+    "nota": "parágrafo partido"
+  },
+  "c11": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\n41 Fica adotada, a partir de 01/01/87, para todas as pontes das rodovias federais a classe 45 estabelecida na norma da ABNT NB-56,",
+    "para": "\n\n**4.1** Fica adotada, a partir de 01/01/87, para todas as pontes das rodovias federais a classe 45 estabelecida na norma da ABNT NB-6,",
+    "nota": "item 4.1; NB-6 lido como NB-56"
+  }
+}

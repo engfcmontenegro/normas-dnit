@@ -1,0 +1,37 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "## RESUMO\n\n. conditions concerning lighting distribution. It doesn't apply to tunnels.\n\n",
+    "para": "## RESUMO\n\n",
+    "nota": "fim do abstract caído no resumo"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "onde ela se aplicá,",
+    "para": "onde ela se aplica,",
+    "nota": "acento espúrio"
+  },
+  "c03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "It prescribes specific\n\n## 0",
+    "para": "It prescribes specific conditions concerning lighting distribution. It doesn't apply to tunnels.\n\n## 0",
+    "nota": "fim do abstract restaurado"
+  },
+  "c04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Esta Normatem por",
+    "para": "Esta Norma tem por",
+    "nota": "espaço"
+  },
+  "c05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "registrada no\n\nSINMETRO como NBR-5101",
+    "para": "registrada no SINMETRO como NBR-5101",
+    "nota": "parágrafo partido"
+  }
+}

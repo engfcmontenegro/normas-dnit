@@ -1,0 +1,149 @@
+{
+  "t01": {
+    "texto": true,
+    "de_inicio": "## 4 Y\n\n4 . Am Elaboração de resumos e sinopses\n\nNorma rodoviária * Procedimento p. 01/06",
+    "para": "NORMA CANCELADA EM 15/09/2026",
+    "nota": "cabeçalho da p. 1 (lixo de OCR) trocado pela linha da tarja",
+    "de_fim": "Norma rodoviária * Procedimento p. 01/06"
+  },
+  "t02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "que éuma norma",
+    "para": "que é uma norma"
+  },
+  "t03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Esta Normafixa",
+    "para": "Esta Norma fixa"
+  },
+  "t04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "bibliográfica eelaborada",
+    "para": "bibliográfica e elaborada"
+  },
+  "t05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**3.3** Resumoinformativo",
+    "para": "**3.3** Resumo informativo"
+  },
+  "t06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "sá p. 03/06\n\n**3.4**",
+    "para": "**3.4**",
+    "nota": "cabeçalho de página"
+  },
+  "t07": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "seções primárias e/ ou",
+    "para": "seções primárias e/ou"
+  },
+  "t08": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "texto nronriamente dito",
+    "para": "texto propriamente dito"
+  },
+  "t09": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**3.7** “Sinopse",
+    "para": "**3.7** Sinopse"
+  },
+  "t10": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "exclusivaresponsabilidade",
+    "para": "exclusiva responsabilidade"
+  },
+  "t11": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "## 4 LOCALIZAÇÃO DE RESUMOS E SINOPSES af\n\nao\n\n**4.1** Os resumos devem ser iocalizados em conformidade com as instruções do Sisicma a quo arsnácio",
+    "para": "## 4 LOCALIZAÇÃO DE RESUMOS E SINOPSES\n\n**4.1** Os resumos devem ser localizados em conformidade com as instruções do Sistema a que atendem"
+  },
+  "t12": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "na lingua original",
+    "para": "na língua original"
+  },
+  "t13": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**4.4** Assinopses",
+    "para": "**4.4** As sinopses"
+  },
+  "t14": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Nosresultados, deve-se ressaltar o surgirmento defatosnovos",
+    "para": "Nos resultados, deve-se ressaltar o surgimento de fatos novos"
+  },
+  "t15": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "isto é, as consequências dos resultados",
+    "para": "isto é, as conseqüências dos resultados"
+  },
+  "t16": {
+    "texto": true,
+    "de_inicio": "novas relações e hipóteses aceitas ou rejeitadas.",
+    "para": "novas relações e hipóteses aceitas ou rejeitadas.\n\n**5.2.5.1** Os resultados e conclusões podem ser reunidos para evitar redundância, mas acentuando a distinção entre eles.",
+    "nota": "5.2.5.1 (p. 4) restaurado: tinha virado a figura fig01",
+    "de_fim": "novas relações e hipóteses aceitas ou rejeitadas."
+  },
+  "t17": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Modificações emétodos aplicados, constantes físicas determinadas demodo novo",
+    "para": "Modificações e métodos aplicados, constantes físicas determinadas de modo novo"
+  },
+  "t18": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**5.2.7** Emmuitoscasos",
+    "para": "**5.2.7** Em muitos casos"
+  },
+  "t19": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Em certos casos nível de especificidade",
+    "para": "Em certos casos o nível de especificidade"
+  },
+  "t20": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**5.3.1** Compreensão do documento\n\n- A compreensão total",
+    "para": "**5.3.1** Compreensão do documento - A compreensão total"
+  },
+  "t21": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "5.3.2. Identificação de conceitos",
+    "para": "**5.3.2** Identificação de conceitos"
+  },
+  "t22": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "apropriados auma determinada comunidade deusuários;",
+    "para": "apropriados a uma determinada comunidade de usuários;"
+  },
+  "t23": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "estudo de iteratura",
+    "para": "estudo de literatura"
+  },
+  "t24": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "Devesse usar palavras",
+    "para": "Deve-se usar palavras"
+  }
+}

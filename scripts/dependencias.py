@@ -102,13 +102,15 @@ def main():
     def resolve(chave):
         org, tipo, num, ano = chave
         edicoes = idx.get((org, tipo, num), {})
+        c = cancelada(canc, chave)
+        if c:
+            # cancelada pelo DNIT: aponta para a própria norma (se o PDF com tarja está no acervo)
+            # ou, senão, para a sucessora
+            return "cancelada", c.get("id") or (c["sucessoras"] or [sucessora.get(chave)])[0]
         if ano and ano in edicoes:
             return "acervo", edicoes[ano]
         if not ano and edicoes:
             return "acervo", edicoes[max(edicoes)]
-        c = cancelada(canc, chave)
-        if c:
-            return "cancelada", (c["sucessoras"] or [sucessora.get(chave)])[0]
         if chave in sucessora:
             return "substituida", sucessora[chave]
         if edicoes:
@@ -163,6 +165,9 @@ def main():
                 c = cancelada(canc, dep["_chave"])
                 dep["cancelada"] = c["data"]
                 dep["titulo"] = c["titulo"] or dep.get("titulo")
+                suc = c["sucessoras"] or [sucessora.get(tuple(dep["_chave"]))]
+                if c.get("id") and suc[0]:
+                    dep["sucessora"] = suc[0]
             dep.pop("_chave", None)
     for d in deps.values():
         d["usado_por"] = sorted(set(d["usado_por"]))
@@ -186,8 +191,8 @@ def main():
         org, tipo = m.group(1), m.group(2) or m.group(5)
         chave = (org, tipo, int(m.group(3)), ano4(m.group(4)) if m.group(4) else None)
         via, alvo = resolve(chave)
-        if via == "acervo":
-            continue
+        if via == "acervo" or (via == "cancelada" and alvo and by_id[alvo].get("status") == "cancelada"):
+            continue  # está no acervo (a cancelada, com a tarja)
         t = titulos.get(rot)
         c = cancelada(canc, chave) if via == "cancelada" else None
         faltantes.append({"codigo": rot, "tipo": tipo, "via": via, "alternativa": alvo,

@@ -1,0 +1,86 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**2.1** Referênciabibliográfica",
+    "para": "**2.1** Referência bibliográfica",
+    "nota": "espaço"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "laboratórios e deoutros recursos",
+    "para": "laboratórios e de outros recursos",
+    "nota": "espaço"
+  },
+  "c03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "solicitando o apoio do IPR,\n",
+    "para": "solicitando o apoio do IPR.\n",
+    "nota": "pontuação"
+  },
+  "c04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**3.2** ODiretor",
+    "para": "**3.2** O Diretor",
+    "nota": "espaço"
+  },
+  "c05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "## 24 nana camiarimenta tenha sida deferida, a Diretor\n\ndo MeD'Tr deve designar im. nenfiecinnal daníval universitário",
+    "para": "**3.4** Caso o requerimento tenha sido deferido, o Diretor do DrDTc deve designar um profissional de nível universitário",
+    "nota": "item 3.4: linha danificada no scan (p. 2), lida da imagem"
+  },
+  "c06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**3.5** Qco-orientador",
+    "para": "**3.5** O co-orientador",
+    "nota": "espaço"
+  },
+  "c07": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**3.6** Oco-orientador",
+    "para": "**3.6** O co-orientador",
+    "nota": "espaço"
+  },
+  "c08": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**3.7** Oco-orientador",
+    "para": "**3.7** O co-orientador",
+    "nota": "espaço"
+  },
+  "c09": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**3.8** A teseou dissertação",
+    "para": "**3.8** A tese ou dissertação",
+    "nota": "espaço"
+  },
+  "c10": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "\n\nYeprodução permitida desde que citado o DNER como fonte\n",
+    "para": "\n",
+    "nota": "tarja lateral"
+  },
+  "c11": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**3.9** Oautor",
+    "para": "**3.9** O autor",
+    "nota": "espaço"
+  },
+  "c12": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "ao corpo técnico do IPR,\n",
+    "para": "ao corpo técnico do IPR.\n",
+    "nota": "pontuação"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "fig01": {
+    "page": 2,
+    "bbox": [
+      44.0,
+      57.0,
+      571.0,
+      800.0
+    ],
+    "legenda": "",
+    "ancora": "NORMA CANCELADA EM 10/6/2025",
+    "ignorar": true,
+    "nota": "página escaneada de texto (transcrita em data/formulas t01), não é figura"
+  },
+  "fig02": {
+    "page": 3,
+    "bbox": [
+      23.0,
+      56.0,
+      570.0,
+      566.0
+    ],
+    "legenda": "",
+    "ancora": "NORMA CANCELADA EM 10/6/2025",
+    "ignorar": true,
+    "nota": "página escaneada de texto (transcrita em data/formulas t01), não é figura"
+  },
+  "fig03": {
+    "page": 4,
+    "bbox": [
+      221.0,
+      254.0,
+      422.0,
+      545.0
+    ],
+    "legenda": "",
+    "ancora": "NORMA CANCELADA EM 10/6/2025",
+    "clip": [
+      215,
+      250,
+      510,
+      570
+    ],
+    "nota": "desenho do anexo (perspectiva e vista de cima da cápsula)",
+    "manual": true
+  }
+}

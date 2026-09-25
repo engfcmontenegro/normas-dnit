@@ -1,0 +1,23 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "presentsthe procedure for determination ofthe kinematic viscosity ofasphalts",
+    "para": "presents the procedure for determination of the kinematic viscosity of asphalts",
+    "nota": "espaços"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a DNER-ME 151/85 DNER-PRO",
+    "para": "a DNER-ME 151/85 à DNER-PRO",
+    "nota": "0 Apresentação: falta 'à' (quebra de linha do PDF)"
+  },
+  "c03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "designada Asfaltos\n\n- determinação da viscosidade cinemática.",
+    "para": "designada Asfaltos - determinação da viscosidade cinemática.",
+    "nota": "parágrafo partido"
+  }
+}

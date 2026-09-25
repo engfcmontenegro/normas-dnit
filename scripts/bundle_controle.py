@@ -65,7 +65,7 @@ def main():
             for chave, rot, _ in codigos(it.get("citado") or ""):
                 c = cancelada(CANC, chave)
                 if c:
-                    canc.append({"codigo": rot, "data": c["data"], "sucessoras": c["sucessoras"]})
+                    canc.append({"codigo": rot, "data": c["data"], "sucessoras": c["sucessoras"], "id": c.get("id")})
             if canc:
                 it["canceladas"] = canc
             else:

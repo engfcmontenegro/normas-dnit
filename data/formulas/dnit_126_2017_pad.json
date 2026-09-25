@@ -1,0 +1,158 @@
+{
+  "mB1": {
+    "manual": true,
+    "page": 8,
+    "clip": [
+      65.5,
+      93.6,
+      489.6,
+      763.7
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: recorte da tabela do Anexo B (página 8); imagem usada abaixo da tabela markdown"
+  },
+  "mB2": {
+    "manual": true,
+    "page": 9,
+    "clip": [
+      64.5,
+      71.1,
+      457.6,
+      338.3
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: recorte da tabela do Anexo B (página 9); imagem usada abaixo da tabela markdown"
+  },
+  "mD1": {
+    "manual": true,
+    "page": 13,
+    "clip": [
+      111.3,
+      89.9,
+      463.3,
+      769.7
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: recorte da tabela do Anexo D (página 13); imagem usada abaixo da tabela markdown"
+  },
+  "mD2": {
+    "manual": true,
+    "page": 14,
+    "clip": [
+      119.2,
+      52.1,
+      462.8,
+      773.4
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: recorte da tabela do Anexo D (página 14); imagem usada abaixo da tabela markdown"
+  },
+  "mD3": {
+    "manual": true,
+    "page": 15,
+    "clip": [
+      118.2,
+      52.1,
+      457.8,
+      658.5
+    ],
+    "latex": "",
+    "ignorar": true,
+    "nota": "não é fórmula: recorte da tabela do Anexo D (página 15); imagem usada abaixo da tabela markdown"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "# NORMA CANCELADA EM 11/3/2025 ",
+    "para": "NORMA CANCELADA EM 11/3/2025\n\n# ",
+    "nota": "tarja separada do título"
+  },
+  "t02": {
+    "todas": true,
+    "de_inicio": "3.1 a 3.3.\n\nFigura 1 – Estrutura do número codificado\n\n| Grupo 0 | Grupo 1 | Grupo 2 | Grupo 3 | Grupo 4 | Grupo 5 |\n| --- | --- | --- | --- | --- | --- |\n| Categoria do documento (Anexo A) | Identificação do Empreendimento | Unidade Gestora (Anexo B) | Classe de serviços (Anexo C) | Origem do documento (Anexo D) | Cronológico |\n| LL | LL.AAA.LL | AAA | AAA | AAA | AAA=L |\n\n![[dnit_126_2017_pad_tab01.png]]\n\nonde:\n\n$L$ = letra\n\n**3.1**",
+    "para": "3.1 a 3.3.\n\n**3.1**",
+    "nota": "Figura 1 fica no fim da página 2, depois de 4.2"
+  },
+  "t03": {
+    "todas": true,
+    "de_inicio": "de acordo com a Figura 1.\n\nA, B, C",
+    "para": "de acordo com a Figura 1.\n\nFigura 1 – Estrutura do número codificado\n\n| Grupo 0 | Grupo 1 | Grupo 2 | Grupo 3 | Grupo 4 | Grupo 5 |\n| --- | --- | --- | --- | --- | --- |\n| Categoria do documento (Anexo A) | Identificação do Empreendimento | Unidade Gestora (Anexo B) | Classe de serviços (Anexo C) | Origem do documento (Anexo D) | Cronológico |\n| LL | LL.AAA.LL | AAA | AAA | AAA | AAA=L |\n\n![[dnit_126_2017_pad_tab01.png]]\n\nonde:\n\n$L$ = letra\n\nA, B, C"
+  },
+  "t04": {
+    "todas": true,
+    "de_inicio": "Infraestrutura de\n\nTransportes. DNIT 125 – PAD: Elaboração de desenhos para apresentação de projetos e para documentos técnicos em geral – Padronização.\n\nBrasília, DF: DPP.",
+    "para": "Infraestrutura de Transportes. DNIT 125 – PAD: Elaboração de desenhos para apresentação de projetos e para documentos técnicos em geral – Padronização. Brasília, DF: DPP."
+  },
+  "t05": {
+    "todas": true,
+    "de_inicio": "Padronização. Brasília,\n\nDF: DPP.",
+    "para": "Padronização. Brasília, DF: DPP."
+  },
+  "t06": {
+    "todas": true,
+    "de_inicio": "## 5 Condições específicas: Conceituação dos\n\ngrupos básicos",
+    "para": "## 5 Condições específicas: Conceituação dos grupos básicos"
+  },
+  "t07": {
+    "todas": true,
+    "de_inicio": "Grupo 3 – Classe de serviços 5.4",
+    "para": "**5.4** Grupo 3 – Classe de serviços"
+  },
+  "t08": {
+    "todas": true,
+    "de_inicio": "Engespro Engenharia\n\nLtda.",
+    "para": "Engespro Engenharia Ltda."
+  },
+  "t09": {
+    "todas": true,
+    "de_inicio": "## Anexo B (Normativo) – Unidades Gestoras\n\n",
+    "para": "## Anexo B (Normativo) – Unidades Gestoras\n\n| 001 | AUDINT | Auditoria Interna |\n| --- | --- | --- |\n| 002 | CGRL | Coordenação Geral de Recursos Logísticos |\n| 003 | CGCIT | Coordenação Geral de Custos de Infraestrutura de Transportes |\n| 004 | CGCL | Coordenação Geral de Cadastro e Licitações |\n| 005 | CGCONT | Coordenação Geral de Construção Rodoviária |\n| 006 | CGDESP | Coordenação Geral de Desenvolvimento de Projetos |\n| 007 | CGOB | Coordenação Geral de Obras Aquaviárias |\n| 008 | CGMAB | Coordenação Geral de Meio Ambiente |\n| 009 | CGMI/CGTI | Coordenação Geral de Tecnologia da Informação |\n| 010 | CGMRR | Coordenação Geral de Manutenção e Restauração Rodoviária |\n| 011 | CGOF | Coordenação Geral de Orçamento e Finanças |\n| 012 | CGOFER | Coordenação Geral de Obras Ferroviárias |\n| 013 | CGPERT | Coordenação Geral de Operações Rodoviárias |\n| 014 | CGPLAN | Coordenação Geral de Planejamento e Programação de Investim. |\n| 015 | CGGOA | Coordenação Geral de Gestão e Operações Aquaviárias |\n| 016 | CGGP | Coordenação Geral de Gestão de Pessoas |\n| 017 | DAF | Diretoria de Administração e Finanças |\n| 018 | DAQ | Diretoria de Infraestrutura Aquaviária |\n| 019 | DG | Diretoria Geral |\n| 020 | DIF | Diretoria de Infraestrutura Ferroviária |\n| 021 | DIR | Diretoria de Infraestrutura Rodoviária |\n| 022 | DIREX | Diretoria Executiva |\n| 023 | DPP | Diretoria de Planejamento e Pesquisa |\n| 024 | SREAL | Superintendência Regional no Estado de Alagoas |\n| 025 | SREAM | Superintendência Regional no Estado de Amazonas |\n| 027 | SREBA | Superintendência Regional no Estado da Bahia |\n| 028 | SRECE | Superintendência Regional no Estado do Ceará |\n| 029 | SREES | Superintendência Regional no Estado do Espírito Santo |\n| 030 | SREGO/DF | Superintendência Regional no Estado de Goiás e no DF |\n| 031 | SREMA | Superintendência Regional no Estado do Maranhão |\n| 032 | SREMG | Superintendência Regional no Estado de Minas Gerais |\n| 033 | SREMS | Superintendência Regional no Estado de Mato Grosso do Sul |\n| 034 | SREMT | Superintendência Regional no Estado de Mato Grosso |\n| 035 | SREPA | Superintendência Regional no Estado do Pará |\n| 036 | SREPB | Superintendência Regional no Estado da Paraíba |\n| 037 | SREPE | Superintendência Regional no Estado de Pernambuco |\n| 038 | SREPI | Superintendência Regional no Estado do Piauí |\n| 039 | SREPR | Superintendência Regional no Estado do Paraná |\n| 040 | SRERJ | Superintendência Regional no Estado do Rio de Janeiro |\n| 041 | SRERN | Superintendência Regional no Estado do Rio Grande do Norte |\n| 042 | SRERO | Superintendência Regional no Estado de Rondônia |\n| 043 | SRERS | Superintendência Regional no Estado do Rio Grande do Sul |\n| 044 | SRESC | Superintendência Regional no Estado de Santa Catarina |\n| 045 | SRESE | Superintendência Regional no Estado de Sergipe |\n| 046 | SRESP | Superintendência Regional no Estado de São Paulo |\n| 047 | SRETO | Superintendência Regional no Estado de Tocantins |\n| 048 | SREAC | Superintendência Regional no Estado do Acre |\n| 049 | SREAP | Superintendência Regional no Estado do Amapá |\n| 050 | SRERR | Superintendência Regional no Estado de Roraima |\n| 051 | CGDR | Coordenação Geral de Desapropriação e Reassentamento |\n| 052 | CGPF | Coordenação Geral de Patrimônio Ferroviário |\n| 053 | IPR | Coordenação do Instituto de Pesquisas Rodoviárias |\n| 054 | AHIMOC | Administração Hidroviária da Amazônia Ocidental |\n| 055 | AHIMOR | Administração Hidroviária da Amazônia Oriental |\n| 056 | AHINOR | Administração Hidroviária do Nordeste |\n| 057 | AHIPAR | Administração Hidroviária do Paraguai |\n| 058 | AHITAR | Administração Hidroviária do Tocantins e Araguaia |\n| 059 | AHRANA | Administração Hidroviária do Paraná |\n| 060 | AHSFRA | Administração Hidroviária do São Francisco |\n| 061 | AHSUL | Administração Hidroviária do Sul |\n\n![[dnit_126_2017_pad_mB1.png]]\n\n![[dnit_126_2017_pad_mB2.png]]\n\n",
+    "nota": "tabela sem fios do Anexo B"
+  },
+  "t10": {
+    "todas": true,
+    "de_inicio": "## Anexo D (Normativo) – Código das Empresas",
+    "para": "## Anexo D (Normativo) – Código das Empresas\n\n| Código | Empresa |\n| --- | --- |\n| 001 | DNIT |\n| 002 | ALASCA CONSULTORIA E ASSESSORIA EM ARQUEOLOGIA S/S LTDA. |\n| 003 | ARS CONSUL. ENGENHARIA CIVIL S/C LTDA |\n| 004 | ASTEC ENGENHARIA LTDA. |\n| 005 | ASTEP ENGENHARIA LTDA |\n| 006 | ATP ENGENHARIA LTDA |\n| 007 | BECK DE SOUZA ENGENHARIA LTDA |\n| 008 | BOURSCHEID ENGENHARIA LTDA |\n| 009 | C.P.R. CONSUL. PROJ. RODOFERRO. LTDA |\n| 010 | CLX ENGENHARIA LTDA. |\n| 011 | CONCREMAT ENGENHARIA E TECNOLOGIA S/A |\n| 012 | CONCRESOLO ENGENHARIA LTDA |\n| 013 | CONCRESOLO ENGENHARIA S/C LTDA |\n| 014 | CONSOL ENGENHEIROS CONSULTORES LTDA |\n| 015 | CONSÓRCIO ALTA-DIREÇÃO |\n| 016 | CONSÓRCIO ASTEC/DIREÇÃO/MRS |\n| 017 | CONSORCIO ATP / OIKOS |\n| 018 | CONSÓRCIO AZAMBUJA - PATRIMONIUM |\n| 019 | CONSÓRCIO CONCRESOLO/ESTÁTICA |\n| 020 | CONSÓRCIO CREMA/PA |\n| 021 | CONSÓRCIO CSL - MAGNA |\n| 022 | CONSÓRCIO DYNATEST-ARS CONSULT |\n| 023 | CONSÓRCIO DYNATEST/CPR |\n| 024 | CONSÓRCIO ECOPLAN/MAGNA |\n| 025 | CONSORCIO ENECON/PLANEX |\n| 026 | CONSÓRCIO ENGEMAP-ENGEFOTO |\n| 027 | CONSÓRCIO ENGESPRO/ECOPLAN |\n| 028 | CONSÓRCIO ENGESUR-PROJEMAX-PACS |\n| 029 | CONSÓRCIO ETEL-ENGEMIN |\n| 030 | CONSÓRCIO HERJACKTECH/VETEC |\n| 031 | CONSORCIO IGUATEMI/ENECON |\n| 032 | CONSORCIO JDS-ANTRANIG-ARTE PONTES |\n| 033 | CONSÓRCIO JDS/ICOPLAN |\n| 034 | CONSORCIO MAIA MELO / OIKOS |\n| 035 | CONSORCIO MAIA MELO / STRATA |\n| 036 | CONSÓRCIO PACS - PRODEC |\n| 037 | CONSORCIO PETCON/DREER/AMBIENTAL |\n| 038 | CONSÓRCIO PLANEX/ENGESOLO |\n| 039 | CONSÓRCIO PROJEL/SETEPLA/URBANIZA |\n| 040 | CONSÓRCIO RODOPROJ |\n| 041 | CONSÓRCIO SONDOTÉCNICA - STE |\n| 042 | CONSORCIO SONDOTECNICA/INGEROP |\n| 043 | CONSÓRCIO TECNOSOLO/GISTRAN |\n| 044 | CONSULTE CONSULTORES DE ENGENHARIA LTDA |\n| 045 | CONSULTORA DE ENGENHARIA H.S.Z. LTDA |\n| 046 | CONTÉCNICA - CONSULTORIA TÉCNICA LTDA |\n| 047 | CONTÉCNICA LTDA - CONSULTORIA E PLANEJ. |\n| 048 | CSL - CONSULT. ENG. ECON. LTDA |\n| 049 | CUNHA LANFERMANN ENGENHARIA LTDA |\n| 050 | DIEFRA ENGENHARIA LTDA |\n| 051 | DIREÇÃO CONSULTORIA E ENGENHARIA LTDA |\n| 052 | DYNATEST ENGENHARIA LTDA |\n| 053 | ECL ENGENHARIA CONSULTORIA ECONO S/A |\n| 054 | ECOPLAN ENGENHARIA LTDA |\n| 055 | ECR LTDA-SOC. CIVIL ENGEN. E CONSULTOR |\n| 056 | ENECON S.A. - ENGENHEIROS E ECONOMISTAS CONSULTORES - RS |\n| 057 | ENECON S/A ENGENHEIROS E ECONO CONSU |\n| 058 | ENEFER CONSULTORIA PROJETOS LTDA |\n| 059 | ENGEFOTO - ENG. E AEROLEVANTAMENTOS S/A |\n| 060 | ENGEMIN - ENGENHARIA E GEOLOGIA LTDA |\n| 061 | ENGESOLO ENGENHARIA LTDA |\n| 062 | ENGESPRO ENGENHARIA LTDA |\n| 063 | ENGESUR-CONSULT. E EST. TECNICOS LTDA |\n| 064 | ENGEVIX ENGENHARIA S/C LTDA |\n| 065 | ENGGEOTECH CONSULTORES DE ENGENHARIA LTD |\n| 066 | ERG - ENGENHARIA LTDA. |\n| 067 | ESTEIO ENG E AEROLEVANTAMENTOS S/A |\n| 068 | ETEL - ESTUDOS TÉCNICOS LTDA |\n| 069 | EULER - ENGENHARIA E CONSULTORIA LTDA |\n| 070 | FERMA ENGENHARIA LTDA. |\n| 071 | FUND. COORD. DE PROJ. E EST. TECNOLOG. |\n| 072 | FUNDAÇÃO DESENVOLVIMENTO GERENCIAL |\n| 073 | FUNDACAO GETULIO VARGAS |\n| 074 | FUNDESE-FUND. CENTRO EST. P/DESENV. SUSTENT |\n| 075 | GEOSERV SERV. GEOTECNIA CONSTR. LTDA |\n| 076 | GEOSISTEMAS ENG. E PLANEJAMENTO LTDA. |\n| 077 | IGUATEMI CONSULT. E SERVICOS ENG.LTDA |\n| 078 | J.B.R. ENGENHARIA LTDA |\n| 079 | J.D.S. ENGENHARIA E CONSULTORIA LTDA |\n| 080 | JBS CONSULTORIA PROJETOS E CONSTRUÇÕES |\n| 081 | JM ENGENHEIROS CONSULTORES LTDA |\n| 082 | LAGHI ENGENHARIA LTDA |\n| 083 | LENC-LABORATÓRIO DE ENGE CONSUL S/C LTDA |\n| 084 | MAGNA ENGENHARIA LTDA |\n| 085 | MAIA MELO ENGENHARIA LTDA |\n| 086 | MKS-SERV. CONSULT. EST. E PROJETOS LTDA |\n| 087 | MPB SANEAMENTO LTDA |\n| 088 | MRS ESTUDOS AMBIENTAIS LTDA |\n| 089 | N.B.R. ENGENHEIROS E CONSULTORES LTDA |\n| 090 | NORCONSULT PROJETOS CONSULTORIA LTDA |\n| 091 | OIKOS PESQUISA APLICADA LTDA |\n| 092 | PACS PLANEJ. ASSE. CONSUL. SIS. LTDA |\n| 093 | PLANEX S/A CONSUL. PLANEJ. EXECUÇÃO |\n| 094 | PLANNUS ENGENHARIA LTDA |\n| 095 | PLANSERVI ENGENHARIA LTDA |\n| 096 | PONTIS CONSULTORIA E PROJETOS LTDA |\n| 097 | PRODEC CONSULTORIA P/DECISÃO S/C LTDA |\n| 098 | PROGAIA ENGENHARIA E MEIO AMBIENTE LTDA |\n| 099 | PROJEL- ENGENHARIA ESPECIALIZADA LTDA |\n| 100 | PROJEMAX ENGENHARIA CONSULTORIA LTDA |\n| 101 | PROJETO CONSULTORIA ENGENHARIA LTDA |\n| 102 | PROMEDE AGRIMENSURA ENGENHARIA LTDA |\n| 103 | PROSUL - PROJETOS SUPER. PLANEJ. LTDA |\n| 104 | R.N.R. - CONSULTORIA DE ENGENHARIA LTDA |\n| 105 | RF CONSULTORIA LTDA |\n| 106 | SD CONSULTORIA E ENGENHARIA LTDA |\n| 107 | SEPLANE-SERV.ENG.PLAN. NORDESTE LTDA |\n| 108 | SISGRAPH LTDA |\n| 109 | SOTEPA SOC TECNICA ESTUDOS PROJ ASSE |\n| 110 | STE SERVIÇOS TÉCNICOS DE ENGENHARIA |\n| 111 | STRATA ENGENHARIA LTDA |\n| 112 | TECNOPLAN PROJETOS CONSULTORIA LTDA |\n| 113 | TOPOCART TOPOGRAFIA ENG E AEROLEV. LTDA |\n| 114 | TRAFECON - CONSULTORIA E PROJETOS DE ENGENNHARIA LTDA |\n| 115 | VETEC ENGENHARIA S/C LTDA |\n| 116 | CONSÓRCIO DIG-TIETÊ (DUCTOR) |\n| 117 | CONSÓRCIO DTA/O’MARTIN |\n| 118 | CONSÓRCIO DZETA-HIDROTOPO-EBEI |\n| 119 | CONSÓRCIO EBEI-EXE HIDROVIAS |\n| 120 | CONSÓRCIO HIDROTOPO/CARUSO |\n| 121 | CONSÓRCIO JEED ENGENHARIA LTDA E EPC CONSTRUÇÕES S.A |\n| 122 | CONSÓRCIO LAGHI-PETCON |\n| 123 | CONSÓRCIO MRS-LAGHI-CARUSO JR |\n| 124 | CONSÓRCIO PM – PRI/MAC |\n| 125 | CONSÓRCIO PRI-MAC |\n| 126 | CONSÓRCIO PRI-SÓLIDO |\n| 127 | CONSÓRCIO R. PEOTTA-HDROTOPO-ENEFER |\n| 128 | CONSÓRCIO STE-DZETA |\n| 129 | CONSÓRCIO STE / FALCONI-GRUPO 4 |\n| 130 | EGUS CONSULT., ENG. E PROJETOS LTDA |\n| 131 | ELETRONORTE |\n| 132 | IP4 DE SANTANA |\n| 133 | J. NASSER ENGENHARIA LTDA |\n| 134 | JURUÁ ESTALEIROS E NAVEGAÇÃO / CONSTRUTORA ETAM LTDA. |\n| 135 | PRI ENG. LTDA. |\n| 136 | TIJOÁ |\n| 137 | UMI SAN SERVIÇOS DE APOIO A NAVEGAÇÃO E ENGENHARIA LTDA |\n| 138 | USACE |\n\n![[dnit_126_2017_pad_mD1.png]]\n\n![[dnit_126_2017_pad_mD2.png]]\n\n![[dnit_126_2017_pad_mD3.png]]",
+    "nota": "tabela sem fios do Anexo D; '127 do PDF (aspa solta) escrito 127"
+  },
+  "t11": {
+    "todas": true,
+    "de_inicio": "100 - Terraplanagem 110 - Terreno",
+    "para": "100 - Terraplanagem\n\n110 - Terreno",
+    "nota": "Anexo C: títulos de grupo colados"
+  },
+  "t12": {
+    "todas": true,
+    "de_inicio": "200 - Pavimentação 300 – Estruturas 310 - Fundações",
+    "para": "200 - Pavimentação\n\n300 – Estruturas\n\n310 - Fundações"
+  },
+  "t13": {
+    "todas": true,
+    "de_inicio": "400 – Drenagem 500 – Sinalização e segurança viária 600 – Obras complementares 610 - Paisagismo",
+    "para": "400 – Drenagem\n\n500 – Sinalização e segurança viária\n\n600 – Obras complementares\n\n610 - Paisagismo"
+  },
+  "t14": {
+    "todas": true,
+    "de_inicio": "700 - Engenharia de Projeto 710 – Estudos de Transportes",
+    "para": "700 - Engenharia de Projeto\n\n710 – Estudos de Transportes"
+  },
+  "t15": {
+    "todas": true,
+    "de_inicio": "800 - Serviços Hidrográficos e Meteoceanográficos 900 - Serviços e Custos Diversos",
+    "para": "800 - Serviços Hidrográficos e Meteoceanográficos\n\n900 - Serviços e Custos Diversos"
+  },
+  "t16": {
+    "todas": true,
+    "de_inicio": "| 924 | Perícias e Avaliações em Ações Jurídicas |\n\n![[dnit_126_2017_pad_tab15.png]]\n\n| 925 | Avaliações para Cobertura de Crédito |\n| --- | --- |\n",
+    "para": "| 924 | Perícias e Avaliações em Ações Jurídicas |\n| 925 | Avaliações para Cobertura de Crédito |\n",
+    "nota": "920: tabela partida na virada da página"
+  },
+  "t17": {
+    "todas": true,
+    "de_inicio": "| 929 | Avaliações de Ativos Imobilizados |\n\n![[dnit_126_2017_pad_tab16.png]]",
+    "para": "| 929 | Avaliações de Ativos Imobilizados |\n\n![[dnit_126_2017_pad_tab15.png]]\n\n![[dnit_126_2017_pad_tab16.png]]"
+  }
+}

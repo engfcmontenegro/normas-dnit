@@ -46,7 +46,7 @@ Fixar um método para se determinar a perda ao choque, no aparelho Treton, em am
 
 **2.1** No preparo desta Norma foram consultados os seguintes documentos:
 
-a) DNER-ME 008/94 - Agregado graúdo - determinação da densidade;
+a) [[dner_me_008_94|DNER-ME 008/94]] - Agregado graúdo - determinação da densidade;
 
 b) DNER-ME 070/79 - Agregados - determinação da resistência ao choque de agregado;
 

@@ -1,0 +1,44 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "under 79ºC.",
+    "para": "under 79 ºC.",
+    "nota": "espaço"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "## SUMÁRIO.\n\nO Apresentação\n\n## 1 Objetivo\n\n## 2 Referências\n\n## 3 Adoção de norma pelo processo de referência\n\n## 0 APRESENTAÇÃO",
+    "para": "## 0 APRESENTAÇÃO",
+    "nota": "sumário virou títulos"
+  },
+  "c03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a DNER-ME 148/85 DNER-PRO",
+    "para": "a DNER-ME 148/85 à DNER-PRO",
+    "nota": "0 Apresentação: falta 'à' (quebra de linha do PDF)"
+  },
+  "c04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "se determina ospontos",
+    "para": "se determina os pontos",
+    "nota": "espaço"
+  },
+  "c05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "(vaso aberto\n\nCleveland);",
+    "para": "(vaso aberto Cleveland);",
+    "nota": "parágrafo partido"
+  },
+  "c06": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "processo dereferência, a Norma da ABNT MB-50, de 1939,",
+    "para": "processo de referência, a Norma da ABNT MB-50, de 1989,",
+    "nota": "espaço; ano 1989 lido como 1939"
+  }
+}

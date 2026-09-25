@@ -49,7 +49,7 @@ a) DNER-EM 369/97 - Emulsões asfálticas catiônicas;
 
 b) DNER-ME 002/98 - Emulsão asfáltica - carga da partícula;
 
-c) DNER-ME 005/94 - Emulsão asfáltica - determinação da peneiração;
+c) [[dner_me_005_94|DNER-ME 005/94]] - Emulsão asfáltica - determinação da peneiração;
 
 d) DNER-ME 006/94 - Emulsões asfálticas - determinação da sedimentação;
 

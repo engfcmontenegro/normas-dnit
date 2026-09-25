@@ -289,6 +289,7 @@
  "dner-me-194-98": {
   "depende": [],
   "usado_por": [
+   "dner-me-081-98",
    "dner-me-195-97"
   ]
  },
@@ -296,8 +297,8 @@
   "depende": [
    {
     "codigo": "DNER-ME 083/94",
-    "via": "faltante",
-    "id": null,
+    "via": "outra_edicao",
+    "id": "dner-me-083-98",
     "titulo": "Agregados - análise granulométrica"
    },
    {
@@ -308,6 +309,7 @@
    }
   ],
   "usado_por": [
+   "dner-me-081-98",
    "dner-me-399-99"
   ]
  },
@@ -587,7 +589,7 @@
     "codigo": "DNER-ME 129/94",
     "via": "substituida",
     "id": "dnit-164-2013-me",
-    "titulo": "Solos-compactação utilizando amostras não trabalhadas"
+    "titulo": "Método B)"
    }
   ],
   "usado_por": []
@@ -597,7 +599,7 @@
    {
     "codigo": "DNER-ME 008/94",
     "via": "cancelada",
-    "id": null,
+    "id": "dner-me-008-94",
     "titulo": "Emulsão asfáltica - Determinação de ruptura - Método de mistura com filler silícico (ABNT-NBR 6302)",
     "cancelada": "15/09/2026"
    },
@@ -611,7 +613,7 @@
     "codigo": "DNER-ME 195/94",
     "via": "outra_edicao",
     "id": "dner-me-195-97",
-    "titulo": "Agregados - determinação da absorção e da massa específica do agregado graúdo"
+    "titulo": "Agregados - determinação da absorção e da massa específica de agregado graúdo"
    }
   ],
   "usado_por": []
@@ -1037,7 +1039,6 @@
    "dnit-429-2020-me",
    "dnit-430-2020-me",
    "dnit-443-2023-me",
-   "dnit-451-2024-me",
    "dnit-452-2024-me"
   ]
  },
@@ -1088,7 +1089,7 @@
    {
     "codigo": "DNER-ME 088/94",
     "via": "cancelada",
-    "id": null,
+    "id": "dner-me-088-94",
     "titulo": "Solos - Determinação da umidade pelo método expedito do álcool",
     "cancelada": "10/6/2025"
    },
@@ -1096,7 +1097,7 @@
     "codigo": "DNER-ME 092/94",
     "via": "substituida",
     "id": "dnit-458-2025-me",
-    "titulo": "Solo – Determinação da massa específica aparente “in situ”, com emprego do frasco de areia"
+    "titulo": "Solo - Determinação da massa específica aparente “in situ”, com emprego do frasco de areia"
    },
    {
     "codigo": "DNER-ME 213/94",
@@ -1283,9 +1284,10 @@
    {
     "codigo": "DNER-ME 083/98",
     "via": "cancelada",
-    "id": "dnit-412-2025-me",
+    "id": "dner-me-083-98",
     "titulo": "Agregados - análise granulométrica",
-    "cancelada": "20/5/2025"
+    "cancelada": "20/5/2025",
+    "sucessora": "dnit-412-2025-me"
    }
   ],
   "usado_por": []
@@ -1329,6 +1331,115 @@
   "usado_por": [
    "dnit-417-2019-me"
   ]
+ },
+ "dner-me-001-94": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-004-94": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-005-94": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-007-94": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-008-94": {
+  "depende": [],
+  "usado_por": [
+   "dner-me-399-99"
+  ]
+ },
+ "dner-me-010-94": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-012-94": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-059-94": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-148-94": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-149-94": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-150-94": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-151-94": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-080-94": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-084-95": {
+  "depende": [],
+  "usado_por": []
+ },
+ "dner-me-088-94": {
+  "depende": [],
+  "usado_por": [
+   "dnit-417-2019-me"
+  ]
+ },
+ "dner-me-081-98": {
+  "depende": [
+   {
+    "codigo": "DNER-ME 083/94",
+    "via": "outra_edicao",
+    "id": "dner-me-083-98",
+    "titulo": "Agregados - análise granulométrica"
+   },
+   {
+    "codigo": "DNER-ME 194/98",
+    "via": "acervo",
+    "id": "dner-me-194-98"
+   },
+   {
+    "codigo": "DNER-ME 195/97",
+    "via": "acervo",
+    "id": "dner-me-195-97"
+   }
+  ],
+  "usado_por": []
+ },
+ "dner-me-083-98": {
+  "depende": [
+   {
+    "codigo": "DNER-ME 035/95",
+    "via": "faltante",
+    "id": null
+   },
+   {
+    "codigo": "DNER-ME 266/97",
+    "via": "faltante",
+    "id": null,
+    "titulo": "Agregados – Determinação do teor de materiais pulverulentos"
+   }
+  ],
+  "usado_por": [
+   "dner-me-081-98",
+   "dner-me-195-97",
+   "dnit-451-2024-me"
+  ]
+ },
+ "dner-me-079-94": {
+  "depende": [],
+  "usado_por": []
  },
  "_faltantes": [
   {
@@ -1394,7 +1505,7 @@
    "tipo": "EM",
    "via": "outra_edicao",
    "alternativa": "dner-em-230-94",
-   "titulo": "Agregados Sintéticos Graúdos de Argila Calcinada",
+   "titulo": "Agregados sintéticos graúdos de argila calcinada",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -1537,7 +1648,7 @@
    "tipo": "ES",
    "via": "substituida",
    "alternativa": "dnit-120-2009-es",
-   "titulo": "obras-de-arte especiais – fôrmas: especificação de serviço",
+   "titulo": "Obras-de-Arte Especiais – formas",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -1549,7 +1660,7 @@
    "tipo": "ES",
    "via": "substituida",
    "alternativa": "dnit-122-2009-es",
-   "titulo": "obras-de-arte especiais – estruturas de concreto armado: especificação de serviço",
+   "titulo": "Obras-de-Arte Especiais - estruturas de concreto armado",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -1574,7 +1685,7 @@
    "tipo": "ES",
    "via": "substituida",
    "alternativa": "dnit-124-2009-es",
-   "titulo": "Obras-de-Arte Especiais – escoamento",
+   "titulo": "obras-de-arte especiais – escoramentos: especificação de serviço",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -1636,7 +1747,7 @@
    "tipo": "ME",
    "via": "faltante",
    "alternativa": null,
-   "titulo": "Material betuminoso – Determinação da penetração",
+   "titulo": "material asfáltico",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -1644,58 +1755,6 @@
     "dnit-034-2005-es",
     "dnit-112-2009-es",
     "dnit-149-2010-es"
-   ]
-  },
-  {
-   "codigo": "DNER-ME 004/94",
-   "tipo": "ME",
-   "via": "cancelada",
-   "alternativa": null,
-   "titulo": "Material betuminoso - Determinação da viscosidade saybolt-furol a alta temperatura método da película delgada",
-   "cancelada": {
-    "data": "15/09/2026",
-    "motivo": "A norma apresenta em seu conteúdo apenas referência à norma da ABNT.",
-    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_004_94-1.pdf"
-   },
-   "citada_por_me": [],
-   "citada_em_controle": [
-    "dnit-032-2005-es",
-    "dnit-034-2005-es",
-    "dnit-145-2012-es",
-    "dnit-146-2012-es",
-    "dnit-147-2012-es",
-    "dnit-148-2012-es",
-    "dnit-149-2010-es",
-    "dnit-150-2010-es",
-    "dnit-153-2010-es"
-   ]
-  },
-  {
-   "codigo": "DNER-ME 005/94",
-   "tipo": "ME",
-   "via": "cancelada",
-   "alternativa": null,
-   "titulo": "Emulsão asfáltica - Determinação da peneiração (ABNT-MB 609)",
-   "cancelada": {
-    "data": "15/09/2026",
-    "motivo": "A norma apresenta em seu conteúdo apenas referência à norma da ABNT.",
-    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_005_94-1.pdf"
-   },
-   "citada_por_me": [],
-   "citada_em_controle": [
-    "dner-es-390-99",
-    "dner-es-391-99",
-    "dner-es-392-99",
-    "dner-es-393-99",
-    "dner-es-394-99",
-    "dner-es-395-99",
-    "dnit-145-2012-es",
-    "dnit-146-2012-es",
-    "dnit-147-2012-es",
-    "dnit-148-2012-es",
-    "dnit-149-2010-es",
-    "dnit-150-2010-es",
-    "dnit-153-2010-es"
    ]
   },
   {
@@ -1714,22 +1773,6 @@
     "dner-es-394-99",
     "dner-es-395-99"
    ]
-  },
-  {
-   "codigo": "DNER-ME 008/94",
-   "tipo": "ME",
-   "via": "cancelada",
-   "alternativa": null,
-   "titulo": "Emulsão asfáltica - Determinação de ruptura - Método de mistura com filler silícico (ABNT-NBR 6302)",
-   "cancelada": {
-    "data": "15/09/2026",
-    "motivo": "A norma apresenta em seu conteúdo apenas referência à norma da ABNT.",
-    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_008_94-1.pdf"
-   },
-   "citada_por_me": [
-    "dner-me-399-99"
-   ],
-   "citada_em_controle": []
   },
   {
    "codigo": "DNER-ME 016/64",
@@ -1781,6 +1824,18 @@
    "citada_em_controle": [
     "dnit-098-2007-es"
    ]
+  },
+  {
+   "codigo": "DNER-ME 035/95",
+   "tipo": "ME",
+   "via": "faltante",
+   "alternativa": null,
+   "titulo": "",
+   "cancelada": null,
+   "citada_por_me": [
+    "dner-me-083-98"
+   ],
+   "citada_em_controle": []
   },
   {
    "codigo": "DNER-ME 035/98",
@@ -1887,7 +1942,7 @@
    "tipo": "ME",
    "via": "substituida",
    "alternativa": "dnit-172-2016-me",
-   "titulo": "Solos – Determinação do Índice Suporte Califórnia utilizando amostras não trabalhadas",
+   "titulo": "Solos - Determinação do Índice de Suporte Califórnia utilizando amostras não trabalhadas",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -1934,7 +1989,7 @@
    "tipo": "ME",
    "via": "substituida",
    "alternativa": "dnit-456-2025-me",
-   "titulo": "Solos e agregados miúdos – Determinação da umidade com emprego do “Speedy”",
+   "titulo": "Solos e agregados miúdos – Determinação da umidade pelo método expedito “Speedy”",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -1994,27 +2049,6 @@
    ]
   },
   {
-   "codigo": "DNER-ME 059/94",
-   "tipo": "ME",
-   "via": "cancelada",
-   "alternativa": null,
-   "titulo": "Emulsões asfálticas - Determinação da resistência à água (adesividade) (ABNT NBR 6300)",
-   "cancelada": {
-    "data": "15/09/2026",
-    "motivo": "A norma apresenta em seu conteúdo apenas referência à norma da ABNT.",
-    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_059_94-1.pdf"
-   },
-   "citada_por_me": [],
-   "citada_em_controle": [
-    "dner-es-390-99",
-    "dner-es-391-99",
-    "dner-es-392-99",
-    "dner-es-393-99",
-    "dnit-150-2010-es",
-    "dnit-153-2010-es"
-   ]
-  },
-  {
    "codigo": "DNER-ME 063/94",
    "tipo": "ME",
    "via": "faltante",
@@ -2066,50 +2100,6 @@
    ]
   },
   {
-   "codigo": "DNER-ME 079/94",
-   "tipo": "ME",
-   "via": "cancelada",
-   "alternativa": null,
-   "titulo": "Agregado - adesividade a ligante betuminoso - Método de ensaio",
-   "cancelada": {
-    "data": "24/9/2024",
-    "motivo": "O procedimento referenciado na norma encontra-se em desuso. Processo de cancelamento da norma: 50600.028235/2024-51",
-    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_079_94__cancelada.pdf"
-   },
-   "citada_por_me": [],
-   "citada_em_controle": [
-    "dner-es-390-99",
-    "dner-es-392-99",
-    "dner-es-393-99",
-    "dner-es-394-99",
-    "dnit-032-2005-es",
-    "dnit-034-2005-es",
-    "dnit-112-2009-es"
-   ]
-  },
-  {
-   "codigo": "DNER-ME 080/94",
-   "tipo": "ME",
-   "via": "cancelada",
-   "alternativa": null,
-   "titulo": "Solos - Análise granulométrica por peneiramento",
-   "cancelada": {
-    "data": "8/7/2025",
-    "motivo": "A norma foi cancelada pela publicação da norma DNIT 459/2025 – ME – Solos – Análise granulométrica – Método de ensaio",
-    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner-me-080_94_cancelada.pdf"
-   },
-   "citada_por_me": [],
-   "citada_em_controle": [
-    "dnit-098-2007-es",
-    "dnit-151-2010-es",
-    "dnit-152-2010-es",
-    "dnit-167-2013-es",
-    "dnit-406-2017-es",
-    "dnit-407-2017-es",
-    "dnit-445-2023-es"
-   ]
-  },
-  {
    "codigo": "DNER-ME 082/63",
    "tipo": "ME",
    "via": "outra_edicao",
@@ -2125,51 +2115,16 @@
   {
    "codigo": "DNER-ME 083/94",
    "tipo": "ME",
-   "via": "faltante",
-   "alternativa": null,
+   "via": "outra_edicao",
+   "alternativa": "dner-me-083-98",
    "titulo": "Agregados - análise granulométrica",
    "cancelada": null,
    "citada_por_me": [
+    "dner-me-081-98",
     "dner-me-195-97"
    ],
    "citada_em_controle": [
     "dnit-032-2005-es"
-   ]
-  },
-  {
-   "codigo": "DNER-ME 083/98",
-   "tipo": "ME",
-   "via": "cancelada",
-   "alternativa": "dnit-412-2025-me",
-   "titulo": "Agregados - análise granulométrica",
-   "cancelada": {
-    "data": "20/5/2025",
-    "motivo": "A norma foi substituída pela revisão de norma DNIT 412/2025-ME - Agregados - Análise granulométrica de agregados graúdos e miúdos e misturas de agregados por peneiramento - Método de ensaio",
-    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner-me-083_98_cancelada.pdf"
-   },
-   "citada_por_me": [
-    "dnit-451-2024-me"
-   ],
-   "citada_em_controle": [
-    "dner-es-386-99",
-    "dner-es-387-99",
-    "dner-es-388-99",
-    "dner-es-390-99",
-    "dner-es-391-99",
-    "dner-es-392-99",
-    "dner-es-393-99",
-    "dner-es-394-99",
-    "dnit-032-2005-es",
-    "dnit-034-2005-es",
-    "dnit-112-2009-es",
-    "dnit-146-2012-es",
-    "dnit-147-2012-es",
-    "dnit-148-2012-es",
-    "dnit-149-2010-es",
-    "dnit-150-2010-es",
-    "dnit-152-2010-es",
-    "dnit-153-2010-es",
-    "dnit-169-2014-es"
    ]
   },
   {
@@ -2204,44 +2159,14 @@
   {
    "codigo": "DNER-ME 088/64",
    "tipo": "ME",
-   "via": "faltante",
-   "alternativa": null,
+   "via": "outra_edicao",
+   "alternativa": "dner-me-088-94",
    "titulo": "",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-057-2004-es",
     "dnit-058-2004-es"
-   ]
-  },
-  {
-   "codigo": "DNER-ME 088/94",
-   "tipo": "ME",
-   "via": "cancelada",
-   "alternativa": null,
-   "titulo": "Solos - Determinação da umidade pelo método expedito do álcool",
-   "cancelada": {
-    "data": "10/6/2025",
-    "motivo": "O procedimento apresentado na norma encontra-se em desuso.",
-    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner-me-088_94_cancelada.pdf"
-   },
-   "citada_por_me": [
-    "dnit-417-2019-me"
-   ],
-   "citada_em_controle": [
-    "dnit-098-2007-es",
-    "dnit-137-2010-es",
-    "dnit-138-2010-es",
-    "dnit-139-2010-es",
-    "dnit-140-2022-es",
-    "dnit-141-2022-es",
-    "dnit-142-2022-es",
-    "dnit-151-2010-es",
-    "dnit-406-2017-es",
-    "dnit-407-2017-es",
-    "dnit-420-2019-es",
-    "dnit-421-2019-es",
-    "dnit-445-2023-es"
    ]
   },
   {
@@ -2292,7 +2217,7 @@
    "tipo": "ME",
    "via": "substituida",
    "alternativa": "dnit-458-2025-me",
-   "titulo": "Solo – Determinação da massa específica aparente “in situ”, com emprego do frasco de areia",
+   "titulo": "Solo - Determinação da massa específica aparente “in situ”, com emprego do frasco de areia",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -2386,7 +2311,7 @@
    "tipo": "ME",
    "via": "substituida",
    "alternativa": "dnit-164-2013-me",
-   "titulo": "Solos-compactação utilizando amostras não trabalhadas",
+   "titulo": "Método B)",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -2417,34 +2342,6 @@
    ]
   },
   {
-   "codigo": "DNER-ME 148/94",
-   "tipo": "ME",
-   "via": "cancelada",
-   "alternativa": null,
-   "titulo": "Material betuminoso - Determinação dos pontos de fulgor e de combustão (vaso aberto cleveland) (ABNT-NBR 11341)",
-   "cancelada": {
-    "data": "15/09/2026",
-    "motivo": "A norma apresenta em seu conteúdo apenas referência à norma da ABNT.",
-    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_148_94-1.pdf"
-   },
-   "citada_por_me": [],
-   "citada_em_controle": [
-    "dner-es-386-99",
-    "dner-es-388-99",
-    "dner-es-391-99",
-    "dner-es-392-99",
-    "dner-es-393-99",
-    "dner-es-394-99",
-    "dnit-032-2005-es",
-    "dnit-034-2005-es",
-    "dnit-112-2009-es",
-    "dnit-146-2012-es",
-    "dnit-147-2012-es",
-    "dnit-148-2012-es",
-    "dnit-385-2026-es"
-   ]
-  },
-  {
    "codigo": "DNER-ME 194/94",
    "tipo": "ME",
    "via": "outra_edicao",
@@ -2461,7 +2358,7 @@
    "tipo": "ME",
    "via": "outra_edicao",
    "alternativa": "dner-me-195-97",
-   "titulo": "Agregados - determinação da absorção e da massa específica do agregado graúdo",
+   "titulo": "Agregados - determinação da absorção e da massa específica de agregado graúdo",
    "cancelada": null,
    "citada_por_me": [
     "dner-me-399-99"
@@ -2524,6 +2421,7 @@
    "titulo": "Agregados – Determinação do teor de materiais pulverulentos",
    "cancelada": null,
    "citada_por_me": [
+    "dner-me-083-98",
     "dnit-412-2025-me"
    ],
    "citada_em_controle": []

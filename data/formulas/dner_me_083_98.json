@@ -1,0 +1,16 @@
+{
+  "t01": {
+    "texto": true,
+    "de_inicio": "Massa mínima da amostra de ensaio (kg) agregados miúdos:\n\n**6.1** Peneiramento mecânico",
+    "de_fim": "**6.1** Peneiramento mecânico",
+    "para": "| Dimensão máxima característica do agregado (mm) | Massa mínima da amostra de ensaio (kg) |\n| --- | --- |\n| agregados miúdos: | |\n| 4,8 | 1 |\n| agregados graúdos: | |\n| 9,5 | 5 |\n| 19,0 | 7 |\n| 25,0 | 10 |\n| 38,00 | 15 |\n| 50,00 | 20 |\n\n## 6 ENSAIO\n\n**6.1** Peneiramento mecânico",
+    "nota": "Tabela (p. 3) achatada em markdown; título da seção 6 restaurado; figura fig01 ignorada"
+  },
+  "t00": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "---\n## RESUMO",
+    "para": "---\nNORMA CANCELADA EM 20/5/2025\n\n## RESUMO",
+    "nota": "linha da tarja no início do corpo"
+  }
+}

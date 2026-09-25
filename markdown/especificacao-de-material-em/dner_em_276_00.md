@@ -238,11 +238,11 @@ A tinta deve estar conforme a Tabela 3.
 
 **6.1** Inspeção visual de recipientes
 
-Deve ser feita em conformidade com a Norma DNER-PRO 231/94.
+Deve ser feita em conformidade com a Norma [[dner-pro-231-94-1-1|DNER-PRO 231/94]].
 
 **6.2** Amostragem
 
-Deve ser feita em conformidade com a Norma DNER-PRO 104/94.
+Deve ser feita em conformidade com a Norma [[dner-pro-104-94-1|DNER-PRO 104/94]].
 
 **6.3** Ensaios de laboratório
 

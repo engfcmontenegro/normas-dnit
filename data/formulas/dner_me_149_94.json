@@ -1,0 +1,23 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a DNER-ME 149/85 DNER-PRO",
+    "para": "a DNER-ME 149/85 à DNER-PRO",
+    "nota": "0 Apresentação: falta 'à' (quebra de linha do PDF)"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "NBR.-6299, designada pH de ermulsões",
+    "para": "NBR-6299, designada pH de emulsões",
+    "nota": "OCR"
+  },
+  "c03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "registrada no\n\nSINMETRO como NBR-6299",
+    "para": "registrada no SINMETRO como NBR-6299",
+    "nota": "parágrafo partido"
+  }
+}

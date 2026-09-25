@@ -1,0 +1,41 @@
+{
+  "fig01": {
+    "page": 2,
+    "bbox": [
+      23.0,
+      55.0,
+      569.0,
+      794.0
+    ],
+    "legenda": "",
+    "ancora": "NORMA CANCELADA EM 24/9/2024",
+    "ignorar": true,
+    "nota": "página escaneada de texto (transcrita em data/formulas t01), não é figura"
+  },
+  "fig02": {
+    "page": 3,
+    "bbox": [
+      23.0,
+      55.0,
+      571.0,
+      774.0
+    ],
+    "legenda": "",
+    "ancora": "NORMA CANCELADA EM 24/9/2024",
+    "ignorar": true,
+    "nota": "página escaneada de texto (transcrita em data/formulas t01), não é figura"
+  },
+  "fig03": {
+    "page": 4,
+    "bbox": [
+      69.0,
+      55.0,
+      570.0,
+      626.0
+    ],
+    "legenda": "",
+    "ancora": "NORMA CANCELADA EM 24/9/2024",
+    "ignorar": true,
+    "nota": "página escaneada de texto (transcrita em data/formulas t01), não é figura"
+  }
+}

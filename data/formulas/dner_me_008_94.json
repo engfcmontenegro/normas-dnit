@@ -1,0 +1,37 @@
+{
+  "c01": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "filer silícico, aserem",
+    "para": "filer silícico, a serem",
+    "nota": "espaço"
+  },
+  "c02": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "a DNER-ME 008/87 DNER-PRO",
+    "para": "a DNER-ME 008/87 à DNER-PRO",
+    "nota": "0 Apresentação: falta 'à' (quebra de linha do PDF)"
+  },
+  "c03": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "designada Emulsão asfáltica\n\n- determinação de ruptura - método de mistura com filer silícico.",
+    "para": "designada Emulsão asfáltica - determinação de ruptura - método de mistura com filer silícico.",
+    "nota": "parágrafo partido"
+  },
+  "c04": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "**2.2** Referênciabibliográfica",
+    "para": "**2.2** Referência bibliográfica",
+    "nota": "espaço"
+  },
+  "c05": {
+    "texto": true,
+    "todas": true,
+    "de_inicio": "documento:\n\ndesignada Determinação de ruptura",
+    "para": "documento:\n\nDNER-ME 008/87 designada Determinação de ruptura",
+    "nota": "código DNER-ME 008/87 perdido"
+  }
+}

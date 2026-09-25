@@ -1,0 +1,74 @@
+{
+  "fig01": {
+    "page": 1,
+    "bbox": [
+      45.8,
+      471.8,
+      550.2,
+      1187.2
+    ],
+    "legenda": "",
+    "ignorar": true,
+    "nota": "não é figura: tarja CANCELADA"
+  },
+  "fig02": {
+    "page": 2,
+    "bbox": [
+      78.0,
+      296.2,
+      287.1,
+      353.1
+    ],
+    "legenda": "Figura 1 – Estrutura do número codificado",
+    "ignorar": true,
+    "nota": "não é figura: texto da referência a) (seção 2) recortado junto com a tarja"
+  },
+  "fig03": {
+    "page": 3,
+    "bbox": [
+      371.5,
+      214.6,
+      503.9,
+      254.6
+    ],
+    "legenda": "Figura 2 – Configuração do número codificado",
+    "ignorar": true,
+    "nota": "não é figura: caixa de texto 'Grupo 1 / Identificação do empreendimento / LL.BBB.LL' (fica como texto, igual aos grupos 0, 2...)"
+  },
+  "fig04": {
+    "page": 5,
+    "bbox": [
+      51.0,
+      55.7,
+      555.4,
+      771.0
+    ],
+    "legenda": "",
+    "ignorar": true,
+    "nota": "não é figura: tarja CANCELADA"
+  },
+  "fig05": {
+    "page": 6,
+    "bbox": [
+      51.0,
+      55.7,
+      555.4,
+      771.0
+    ],
+    "legenda": "",
+    "ignorar": true,
+    "nota": "não é figura: tarja CANCELADA"
+  },
+  "fig06": {
+    "page": 16,
+    "bbox": [
+      51.0,
+      55.5,
+      555.4,
+      770.9
+    ],
+    "legenda": "Figura 1 - Estrutura do",
+    "ignorar": true,
+    "nota": "não é figura: tarja CANCELADA"
+  }
+}

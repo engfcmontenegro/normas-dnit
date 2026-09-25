@@ -1,0 +1,39 @@
+{
+ "es": "dnit-027-2004-es",
+ "servico": "Demolição de dispositivos de concreto",
+ "itens": [
+  {
+   "etapa": "execucao",
+   "grupo": "Liberação",
+   "ensaio": "Condição prévia à demolição",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes da demolição",
+   "criterio": "Dispositivos substitutos ou provisórios instalados; equipamentos e materiais de substituição no canteiro",
+   "secao": "4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Demolição",
+   "ensaio": "Apreciação visual",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante o serviço",
+   "criterio": "Demolição conforme indicado; local de deposição do material adequado; estruturas anexas íntegras",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Demolição",
+   "ensaio": "Verificação por topografia e medidas a trena/régua",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Nos locais indicados nas Notas de Serviço",
+   "criterio": "Segmentos, peças e volumes demolidos conforme Notas de Serviço; sem prejuízo à operação da canalização",
+   "secao": "7.2"
+  }
+ ],
+ "notas": [
+  "Serviços não conformes devem ser refeitos ou complementados (7.3)."
+ ]
+}

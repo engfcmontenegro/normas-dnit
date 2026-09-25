@@ -1,0 +1,15 @@
+{
+  "es": "dnit-080-2006-es",
+  "servico": "Preparação de superfícies de concreto: apicoamento e jateamentos",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Apicoamento", "ensaio": "Tipo de ferramenta", "citado": null, "norma": null, "frequencia": "Em cada frente", "criterio": "Apicoamento manual só em áreas muito pequenas; áreas maiores somente com ferramentas elétricas", "secao": "5.1"},
+    {"etapa": "execucao", "grupo": "Jateamento de água", "ensaio": "Pressão de trabalho", "citado": null, "norma": null, "frequencia": "Na escolha do processo", "criterio": "Baixa pressão (< 35 MPa / 5.000 psi): só detritos e materiais friáveis, não remove concreto; alta (40–120 N/mm²) ou muito alta (140–240 N/mm²): concreto deteriorado, não recomendável para concreto são", "secao": "5.3.1 / 5.3.2"},
+    {"etapa": "execucao", "grupo": "Jateamento de areia", "ensaio": "Restrições de uso", "citado": null, "norma": null, "frequencia": "Na escolha do processo", "criterio": "Não usar em pinturas resilientes ou não curadas, na remoção de grande volume de concreto ou onde materiais e equipamentos não possam ser protegidos dos resíduos", "secao": "5.4 c"},
+    {"etapa": "execucao", "grupo": "Equipamentos", "ensaio": "Verificação de equipamentos e coleta de resíduos", "citado": null, "norma": null, "frequencia": "Antes e durante os serviços", "criterio": "Compressores, bombas, mangueiras, bicos e depósitos em condições; dispositivos de recolhimento de detritos instalados", "secao": "7.1 c, d"},
+    {"etapa": "produto", "grupo": "Superfície preparada", "ensaio": "Inspeção visual", "citado": null, "norma": null, "frequencia": "Antes do tratamento subsequente (encamisamento, revestimento, pintura)", "criterio": "Concreto são, limpo e adequadamente áspero (apicoamento: superfície bastante áspera); preparação insuficiente é retomada até a conformidade, sem excessos", "secao": "3 / 5.1 / 7.2"}
+  ],
+  "notas": [
+    "A ES não prevê ensaios: a conformidade é avaliada por acompanhamento e inspeção visual durante a preparação.",
+    "Preparações insuficientes não são aceitas e devem ser retomadas; deve-se evitar excessos."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "es": "dnit-083-2006-es",
+  "servico": "Tratamento de trincas e fissuras",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Acesso", "ensaio": "Plataformas de trabalho", "citado": "DNIT 079/2006-ES", "norma": "dnit-079-2006-es", "frequencia": "Antes do tratamento", "criterio": "Conforme DNIT 079/2006-ES", "secao": "5.1"},
+    {"etapa": "execucao", "grupo": "Mapeamento", "ensaio": "Abertura das fissuras", "citado": null, "norma": null, "frequencia": "Na inspeção / projeto de recuperação", "criterio": "Concreto armado: tratar todas as fissuras com abertura ≥ 0,3 mm; concreto protendido: qualquer fissura deve ser estudada e tratada", "secao": "3 / 5.1"},
+    {"etapa": "execucao", "grupo": "Classificação", "ensaio": "Atividade da trinca (monitoramento)", "citado": null, "norma": null, "frequencia": "Antes do tratamento", "criterio": "Medir por monitoramento a amplitude de movimentação; trinca ativa cuja causa não pode ser eliminada é tratada como junta móvel com selante plástico dimensionado para a movimentação", "secao": "4 / 5.2"},
+    {"etapa": "execucao", "grupo": "Trincas especiais", "ensaio": "Estudo especial", "citado": null, "norma": null, "frequencia": "Antes do tratamento", "criterio": "Origem em corrosão: remoção do concreto e tratamento da corrosão; origem em reação álcali-agregado ou excesso de cloretos: monitoramento e impregnações", "secao": "5.3"},
+    {"etapa": "materiais", "grupo": "Produtos", "ensaio": "Epóxi e selantes", "citado": null, "norma": null, "frequencia": "Na aquisição", "criterio": "Produtos recomendados no projeto; operador ou empresa com experiência reconhecida", "secao": "5.4 a"},
+    {"etapa": "execucao", "grupo": "Preparação", "ensaio": "Limpeza e secagem da trinca", "citado": null, "norma": null, "frequencia": "Antes da selagem", "criterio": "Trinca isenta de óleos, graxas e partículas (jato de água) e seca (jato de ar)", "secao": "5.2 e / 5.4 b, c"},
+    {"etapa": "execucao", "grupo": "Injeção de epóxi", "ensaio": "Furos e tubos de injeção", "citado": null, "norma": null, "frequencia": "Em cada trinca", "criterio": "Superfície selada; furos espaçados de 10 a 30 cm, ligeiramente mais profundos que a trinca; tubos plásticos com pontas salientes de 10 cm fixados no selante", "secao": "5.4 d–f"},
+    {"etapa": "execucao", "grupo": "Injeção de epóxi", "ensaio": "Sequência de injeção", "citado": null, "norma": null, "frequencia": "Em cada trinca", "criterio": "Um tubo de cada vez, com os demais obturados: pelo inferior (trinca vertical) ou por uma extremidade (horizontal)", "secao": "5.4 g"},
+    {"etapa": "produto", "grupo": "Acabamento", "ensaio": "Superfície tratada", "citado": null, "norma": null, "frequencia": "Após a injeção", "criterio": "Pontas dos tubos cortadas; superfície limpa e lixada; material excedente removido", "secao": "5.4 h / 7.1 h, i"}
+  ],
+  "notas": [
+    "A ES não prevê ensaios tecnológicos: o tratamento é acompanhado e inspecionado em todas as etapas (7.1).",
+    "Não-conformidade de uma etapa determina a paralisação imediata; retomada só após eliminar os serviços não conformes (7.2)."
+  ]
+}

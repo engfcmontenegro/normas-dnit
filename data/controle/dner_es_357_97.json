@@ -1,0 +1,130 @@
+{
+ "es": "dner-es-357-97",
+ "servico": "Edificações – instalações elétricas, mecânicas e de telecomunicações",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Materiais e equipamentos",
+   "ensaio": "Embalagens originais invioladas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Embalagens originais e invioladas",
+   "secao": "6.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Aterramento",
+   "ensaio": "Resistência de aterramento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após execução da malha",
+   "criterio": "Conforme projeto e nunca > 5 Ω",
+   "secao": "5.8"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Calhas e bandejas",
+   "ensaio": "Taxa de ocupação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na enfiação",
+   "criterio": "Calhas ≤ 35 % da área útil; cabos em bandejas em camada única",
+   "secao": "5.9"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Caixas",
+   "ensaio": "Alturas de instalação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Interruptores 1,10 m (bordo superior); tomadas baixas 0,20 m; tomadas em locais úmidos 0,80 m; caixas de passagem 0,20 m; ≥ 0,10 m de alizares",
+   "secao": "5.17 / 5.18"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Eletrodutos",
+   "ensaio": "Distância entre caixas/conduletes",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "≤ 15,0 m em trechos retilíneos; reduzida em trechos com curvas (ES: 3,0 m entre curvas de 90°)",
+   "secao": "5.20"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Instalações subterrâneas",
+   "ensaio": "Espaçamento das caixas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Caixas em toda mudança de direção e a ≤ 60,0 m",
+   "secao": "5.23"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Condutores",
+   "ensaio": "Ligação aos bornes",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Seção ≤ 10,0 mm² direto no borne sob parafuso; maiores com terminais",
+   "secao": "5.28"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Barramentos",
+   "ensaio": "Distância entre barras nuas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "≥ 6,0 cm (até 300 V); ≥ 10,0 cm (300 a 600 V)",
+   "secao": "5.33"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Quadros de distribuição",
+   "ensaio": "Altura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Bordo inferior ≥ 0,6 m do piso acabado",
+   "secao": "5.34"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Para-raios",
+   "ensaio": "Hastes e cordoalhas de descida",
+   "citado": "NFPA 78",
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Hastes a ≥ 3,0 m das paredes, em caixas de inspeção; fixadores a ≤ 1,5 m; cordoalha ≥ 70 mm², protegida até 3,0 m do solo; aterramentos interligados",
+   "secao": "5.37.1 a 5.37.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Geometria",
+   "ensaio": "Cotas, alinhamentos e dimensões",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a execução",
+   "criterio": "Conforme projeto",
+   "secao": "6.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Equipamentos e instalações",
+   "ensaio": "Teste de funcionamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após a instalação",
+   "criterio": "Funcionamento e características conforme catálogos; rejeição se não atender",
+   "secao": "6.3"
+  }
+ ],
+ "notas": [
+  "Instalações devem seguir normas ABNT, NEC e concessionárias; tubulação telefônica só com projeto aprovado.",
+  "Trabalhos rejeitados são substituídos/refeitos pelo executante."
+ ]
+}

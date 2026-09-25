@@ -1,0 +1,21 @@
+{
+  "es": "dnit-091-2006-es",
+  "servico": "Tratamento de aparelhos de apoio: concreto, neoprene e metálicos",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Apoio elastomérico", "ensaio": "Verificações estruturais", "citado": null, "norma": null, "frequencia": "Antes de decidir o aproveitamento", "criterio": "Verificar compressão, rotação e cisalhamento", "secao": "5.1.1"},
+    {"etapa": "execucao", "grupo": "Apoio elastomérico", "ensaio": "Inspeção visual das faces", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Após alguns anos, toleram-se pequenas fissuras de 2 a 3 mm de profundidade e 2 a 3 mm de comprimento; verificar vulcanização e chapas fretantes visíveis/oxidadas", "secao": "5.1.2 a, b"},
+    {"etapa": "execucao", "grupo": "Apoio elastomérico", "ensaio": "Contato, alturas e distorções", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Faces superior e inferior totalmente em contato (se houver descolamento, medir ângulos); medir alturas nas arestas e no centro, distorções e deslocamento da posição original", "secao": "5.1.2 c–g"},
+    {"etapa": "execucao", "grupo": "Apoio elastomérico", "ensaio": "Agentes nocivos e entorno", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Verificar óleos/graxas, juntas de dilatação defeituosas próximas ou sobre o apoio e se há berço", "secao": "5.1.2 h–j"},
+    {"etapa": "produto", "grupo": "Apoio elastomérico", "ensaio": "Decisão: aproveitar ou substituir", "citado": null, "norma": null, "frequencia": "Após inspeção e verificações", "criterio": "Aparelho elastomérico não é recuperável; substituição pode ser adiada só se houver separação nítida entre super e meso/infra, sem prejuízo estrutural e sem trincas na região do apoio", "secao": "5.1 / 5.1.3"},
+    {"etapa": "execucao", "grupo": "Articulação de chumbo", "ensaio": "Inspeção visual", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Não recuperável; substituir (nunca por chumbo) conforme inspeção visual", "secao": "5.2.2"},
+    {"etapa": "execucao", "grupo": "Articulações de concreto (Freyssinet, Mesnager, cilíndricas)", "ensaio": "Limpeza e fretagem", "citado": null, "norma": null, "frequencia": "Na recuperação", "criterio": "Remover detritos que impeçam rotações; tratar quebras de cantos, trincas e fissuras; reforçar fretagem com encamisamento e cintamento", "secao": "5.2.3.1 a 5.2.3.3"},
+    {"etapa": "execucao", "grupo": "Articulações metálicas", "ensaio": "Inspeção, verificação estrutural e anticorrosão", "citado": null, "norma": null, "frequencia": "Na recuperação", "criterio": "Inspeção minuciosa; verificação estrutural; remoção de detritos; jateamento de areia e pintura anticorrosiva; lubrificantes não são solução duradoura", "secao": "5.2.4.1 a 5.2.4.3 / 5.2.5.2"},
+    {"etapa": "execucao", "grupo": "Articulação metálica de deslizamento", "ensaio": "Funcionamento", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Recuperação difícil e temporária; preferível substituir por apoio elastomérico", "secao": "5.2.4.4"},
+    {"etapa": "execucao", "grupo": "Apoio pendular de concreto", "ensaio": "Verticalidade do pêndulo", "citado": null, "norma": null, "frequencia": "Na recuperação", "criterio": "Verificar verticalidade e solicitações de eventual inclinação exagerada", "secao": "5.2.5.1"},
+    {"etapa": "execucao", "grupo": "Apoio de neoprene contido (pot bearing)", "ensaio": "Inspeção para recuperação", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Identificar tipo; soldas íntegras; neoprene contido entre tampa e vaso (estanqueidade); parafusos íntegros; posição relativa correta; sem detritos; recuperar só se não houver falha de estanqueidade", "secao": "5.2.6"}
+  ],
+  "notas": [
+    "A ES não prevê ensaios: a recuperação depende de inspeção minuciosa e de verificações estruturais.",
+    "Serviços que não atendam a qualquer etapa não são conformes e devem ser refeitos (7)."
+  ]
+}

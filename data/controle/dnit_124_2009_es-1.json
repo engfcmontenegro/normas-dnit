@@ -1,0 +1,41 @@
+{
+  "es": "dnit-124-2009-es",
+  "servico": "Pontes e viadutos – Escoramentos",
+  "itens": [
+    {"etapa": "materiais", "grupo": "Madeira", "ensaio": "Inspeção das peças de madeira",
+     "citado": "ABNT NBR 7190", "norma": null,
+     "frequencia": "No recebimento e antes de cada reutilização", "criterio": "Sem defeitos (nós, fibras reversas, fendas); peças pintadas rejeitadas; ligações preferencialmente por conectores e parafusos", "secao": "5.2.1"},
+    {"etapa": "materiais", "grupo": "Aço", "ensaio": "Identificação das características do aço",
+     "citado": null, "norma": null,
+     "frequencia": "No recebimento", "criterio": "Características identificadas com segurança; na dúvida, adotar aço ASTM A7 (fy = 240 MPa; fu = 370 MPa)", "secao": "5.2.2"},
+    {"etapa": "execucao", "grupo": "Projeto", "ensaio": "Aprovação do projeto de escoramento",
+     "citado": null, "norma": null,
+     "frequencia": "Antes da montagem", "criterio": "Projeto apresentado à Fiscalização, com sobrecargas, vento, velocidade de concretagem, fundações e forma/prazo de remoção; escoramento só entra em carga após liberação", "secao": "4 / 5.1"},
+    {"etapa": "execucao", "grupo": "Durante a montagem", "ensaio": "Prumo dos montantes",
+     "citado": null, "norma": null,
+     "frequencia": "Durante a montagem", "criterio": "Desvio ≤ 3,2 mm por 0,90 m ou ≤ 1/500 da altura da coluna (referências citadas); desvio entre duas peças em contato ≤ 1,6 mm", "secao": "5.3.3 / 5.4.1 d"},
+    {"etapa": "execucao", "grupo": "Durante a montagem", "ensaio": "Inspeção de montagem",
+     "citado": null, "norma": null,
+     "frequencia": "Durante a montagem", "criterio": "Desenhos e instruções observados; materiais recomendados e em bom estado; fundações em terreno adequado e protegidas de erosão; contraventamentos corretamente espaçados; conexões confiáveis", "secao": "5.4.1"},
+    {"etapa": "execucao", "grupo": "Durante a concretagem", "ensaio": "Recalques e deformações verticais",
+     "citado": null, "norma": null,
+     "frequencia": "Continuamente durante a concretagem", "criterio": "Controle com defletômetros, nível de precisão ou topografia; havendo recalque, suspender a concretagem até a correção", "secao": "5.4.2 / 7.1"},
+    {"etapa": "execucao", "grupo": "Após a concretagem", "ensaio": "Inspeção continuada",
+     "citado": null, "norma": null,
+     "frequencia": "Da concretagem até a retirada do escoramento", "criterio": "Sem sinais de sobrecarga; atenção à redistribuição de cargas em estruturas contínuas e protendidas", "secao": "5.4.3"},
+    {"etapa": "execucao", "grupo": "Retirada", "ensaio": "Prazo mínimo de retirada de fôrmas e escoramento",
+     "citado": null, "norma": null,
+     "frequencia": "Em cada desforma/descimbramento", "criterio": "Sem cimento ARI nem demonstração de resistência: faces laterais 3 dias; faces inferiores com pontaletes 14 dias; sem pontaletes 21 dias; retirada sem choques conforme programa", "secao": "7.1"},
+    {"etapa": "produto", "grupo": "Após a retirada", "ensaio": "Nivelamento da estrutura",
+     "citado": null, "norma": null,
+     "frequencia": "Após a retirada do escoramento", "criterio": "Levantamento detalhado em seções transversais e longitudinais (bordas e centro) para conferências futuras", "secao": "7.1"},
+    {"etapa": "produto", "grupo": "Após a retirada", "ensaio": "Remoção do escoramento e das estacas",
+     "citado": null, "norma": null,
+     "frequencia": "Ao final dos serviços", "criterio": "Remoção total; estacas extraídas ou cortadas ≥ 50 cm abaixo do terreno acabado (7.1) [5.4.4 diz: no nível do terreno ou do fundo dos rios]; local limpo, terreno e vegetação recompostos", "secao": "5.4.4 / 7.1"}
+  ],
+  "notas": [
+    "Inspeção obrigatória em no mínimo três ocasiões: durante a montagem, durante a concretagem e após a concretagem até a retirada (5.4).",
+    "Sistemas padronizados seguem as instruções do fabricante; escoramentos especiais (arcos, avanços sucessivos) estão fora do escopo.",
+    "Conformes os escoramentos que atendam à seção 4 e às subseções 5.1, 5.3 e 7.1; os demais corrigidos, complementados ou refeitos."
+  ]
+}

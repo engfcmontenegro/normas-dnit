@@ -1,0 +1,50 @@
+{
+ "es": "dnit-028-2004-es",
+ "servico": "Limpeza e desobstrução de dispositivos de drenagem",
+ "itens": [
+  {
+   "etapa": "execucao",
+   "grupo": "Liberação",
+   "ensaio": "Vistoria prévia e capacidade de escoamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes da autorização do serviço",
+   "criterio": "Necessidade constatada; suficiência hidráulica avaliada; ponto de descarga dos entulhos definido",
+   "secao": "4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Desagregação hidráulica",
+   "ensaio": "Jateamento de alta pressão",
+   "citado": "ABNT NBR 11997/90",
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Conforme NBR 11997/90; não aplicável a dispositivos sem revestimento",
+   "condicao": "canalizações fechadas de concreto",
+   "secao": "5.1.1 / 5.1.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Limpeza",
+   "ensaio": "Acompanhamento visual",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante o serviço",
+   "criterio": "Conforme Notas de Serviço; paredes e fundo não danificados",
+   "secao": "7.1 / 5.1.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Limpeza",
+   "ensaio": "Apreciação visual da limpeza",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Ao final do serviço",
+   "criterio": "Dispositivo limpo/desobstruído; local de deposição adequado; deficiências reparadas ou registradas em relatório",
+   "secao": "7.2 / 5.1.3"
+  }
+ ],
+ "notas": [
+  "Serviços não conformes devem ser refeitos ou complementados (7.3)."
+ ]
+}

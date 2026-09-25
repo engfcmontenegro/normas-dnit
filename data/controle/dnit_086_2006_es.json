@@ -1,0 +1,79 @@
+{
+ "es": "dnit-086-2006-es",
+ "servico": "Recuperação do sistema de drenagem (pontes)",
+ "itens": [
+  {
+   "etapa": "execucao",
+   "grupo": "Drenagem da pista",
+   "ensaio": "Declividades e captação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No levantamento das condições reais",
+   "criterio": "Obras ≤ 50 m com declividades longitudinal e transversal ≥ 2 %: captação só no extremo baixo; obras > 50 m com declividade < 2 %: canaletas laterais com declividade não nula",
+   "secao": "5.1 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Pavimento e laje",
+   "ensaio": "Trincas e fissuras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na inspeção",
+   "criterio": "Pavimento íntegro (tratado ou substituído); trincas da laje tratadas sem permitir infiltração",
+   "secao": "5.1 b"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Juntas de dilatação",
+   "ensaio": "Estanqueidade",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após recuperação/substituição",
+   "criterio": "Estanqueidade garantida (intermediárias e extremas)",
+   "secao": "5.1 c / 5.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Buzinotes da pista",
+   "ensaio": "Diâmetro, espaçamento e posição",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na implantação/substituição",
+   "criterio": "Ø 100 mm, espaçamento 4,00 m (quando nos dois lados), comprimento livre inferior 10 cm; não sobre saias de aterro nem sobre rodovias",
+   "secao": "5.1 d"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Caixões celulares",
+   "ensaio": "Buzinotes nas células",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na implantação",
+   "criterio": "Ø ≥ 5 cm em todos os pontos baixos das células",
+   "secao": "5.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Aterros de acesso",
+   "ensaio": "Extensão do tratamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na recuperação",
+   "criterio": "Tratamento diferenciado (solo, compactação, drenagem) em comprimento ≥ 3 × altura do aterro",
+   "secao": "5.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Geral",
+   "ensaio": "Acompanhamento técnico",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Constante",
+   "criterio": "Engenheiro capacitado acompanhando as decisões (buzinotes, trincas, juntas, aberturas de visita, aterros)",
+   "secao": "7"
+  }
+ ],
+ "notas": [
+  "Serviços não conformes devem ser refeitos imediatamente (8)."
+ ]
+}

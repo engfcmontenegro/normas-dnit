@@ -1,0 +1,172 @@
+{
+ "es": "dnit-071-2006-es",
+ "servico": "Tratamento ambiental de áreas planas ou pouco inclinadas por revegetação herbácea",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Solo da área",
+   "ensaio": "Análise edáfica e pedológica (fertilidade, acidez, toxidez, nutrientes)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do plantio",
+   "criterio": "Define o padrão de calagem/adubação e as espécies (Al trocável, Ca+Mg, P, K, matéria orgânica)",
+   "secao": "3.2 / 4.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Sementes",
+   "ensaio": "Teste de germinação e eficiência do padrão de adubação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na seleção das sementes",
+   "criterio": "Conforme normas agropecuárias",
+   "secao": "4.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mudas / vegetação existente",
+   "ensaio": "Vigor, sanidade, verdume e rusticidade",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento das mudas, leivas ou placas",
+   "criterio": "Conforme normas agropecuárias",
+   "secao": "4.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Sementes de gramíneas e leguminosas",
+   "ensaio": "Certificado do lote",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento de cada lote",
+   "criterio": "Fornecedor idôneo; certificado com origem, data de expedição, nome científico, poder germinativo, grau de pureza e valor cultural",
+   "secao": "5.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Sementes nacionais",
+   "ensaio": "Pureza / germinação / valor cultural",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento de cada lote",
+   "criterio": "Gramíneas: pureza ≥ 55 %, germinação ≥ 60 %, VC ≥ 33 %; leguminosas: pureza ≥ 75 %, germinação ≥ 75 %, VC ≥ 56,25 % (Tabela 1)",
+   "secao": "5.1 (Tabelas 1 e 2)",
+   "obs": "A norma imprime VC 56,26 % para leguminosas; 75 % × 75 % = 56,25 %."
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Sementes importadas",
+   "ensaio": "Pureza / germinação / valor cultural",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento de cada lote",
+   "criterio": "Gramíneas: pureza ≥ 90 %, germinação ≥ 80 %, VC ≥ 72 % (Tabela 2)",
+   "secao": "5.1 (Tabelas 1 e 2)"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Calcário dolomítico",
+   "ensaio": "Dose de calagem",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem (análise do solo)",
+   "criterio": "Quantidade para elevar o pH a 5,5; máximo 1,5 t/ha (usual 1.000 a 1.500 kg/ha)",
+   "secao": "5.1 c / 5.2 / 5.4.4"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Adubo orgânico",
+   "ensaio": "Composição",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na preparação",
+   "criterio": "Top soil + esterco bovino ou avícola curtido, 50 % cada",
+   "secao": "5.1 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Camada vegetal (top soil)",
+   "ensaio": "Espessura da camada orgânica reposta",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada área",
+   "criterio": "≥ 0,15 m",
+   "secao": "5.4.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Conformação da área",
+   "ensaio": "Superfície e taludes das bordas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após a modelagem",
+   "criterio": "Superfície sem depressões/valas, com escoamento adequado; sem arestas vivas em bota-foras; barrancos modelados a 1:3 ou 1:4",
+   "secao": "5.4.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Aração",
+   "ensaio": "Profundidade e alinhamento dos sulcos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a aração",
+   "criterio": "Profundidade 0,15 a 0,20 m; sulcos em curva de nível espaçados ≈ 0,30 m",
+   "secao": "5.4.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Calagem / adubação",
+   "ensaio": "Intervalo calagem–adubação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada área",
+   "criterio": "Adubação 30 a 60 dias após a calagem",
+   "secao": "5.4.4 / 5.4.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Irrigação",
+   "ensaio": "Frequência e taxa de irrigação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "≥ 1 vez por semana até a germinação/pegamento",
+   "criterio": "5 a 10 L/m², em chuvisco leve, nas horas amenas",
+   "condicao": "plantio no período seco",
+   "secao": "5.4.7"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Adubação de cobertura",
+   "ensaio": "Época e dose",
+   "citado": null,
+   "norma": null,
+   "frequencia": "90 a 120 dias após o plantio",
+   "criterio": "≈ 50 % da adubação inicial",
+   "secao": "5.4.8"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Acabamento",
+   "ensaio": "Controle geométrico e de acabamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão de cada área",
+   "criterio": "Apreciação visual pela Fiscalização",
+   "secao": "6"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Cobertura vegetal",
+   "ensaio": "Cobertura, vigor de crescimento e persistência",
+   "citado": null,
+   "norma": null,
+   "frequencia": "120 a 150 dias após o plantio",
+   "criterio": "Cobertura de 100 % da área (aprovação do agrônomo responsável e da Fiscalização)",
+   "secao": "6 / 7 b"
+  }
+ ],
+ "notas": [
+  "Controle essencialmente visual/agronômico: não há ensaios DNER/DNIT; a análise do solo define calagem, adubação e espécies.",
+  "A medição e o pagamento são feitos em duas etapas: após o plantio aprovado e após a cobertura vegetal de 100 % da área."
+ ]
+}

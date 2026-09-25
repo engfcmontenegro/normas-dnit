@@ -1,0 +1,170 @@
+{
+ "es": "dnit-102-2009-es",
+ "servico": "Proteção vegetal do corpo estradal",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Solo",
+   "ensaio": "Análise edáfica e pedológica (fertilidade, acidez, toxidez)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do plantio",
+   "criterio": "Base para calagem e adubação",
+   "secao": "4.4 a / 5.1 b"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Sementes",
+   "ensaio": "Teste de germinação e eficiência do padrão de adubação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na seleção",
+   "criterio": "Conforme normas agronômicas",
+   "secao": "4.4 b"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mudas / vegetação existente",
+   "ensaio": "Vigor, sanidade, verdume e rusticidade",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme normas agronômicas",
+   "secao": "4.4 b"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Corretivos agrícolas",
+   "ensaio": "Controle de qualidade",
+   "citado": "MAPA IN nº 35/2006",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme IN MAPA nº 35, de 04/07/2006",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Fertilizantes",
+   "ensaio": "Controle de qualidade",
+   "citado": "MAPA IN nº 05/2007",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme IN MAPA nº 05, de 23/02/2007",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Sementes",
+   "ensaio": "Controle de qualidade",
+   "citado": "MAPA IN nº 09/2005",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme IN MAPA nº 09, de 02/06/2005",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mudas",
+   "ensaio": "Controle de qualidade",
+   "citado": "MAPA IN nº 24/2005",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme IN MAPA nº 24, de 16/12/2005",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Sulcos em taludes",
+   "ensaio": "Espaçamento e dimensões",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na abertura",
+   "criterio": "Espaçamento 0,70 a 1,00 m; profundidade 0,15 m; largura 0,20 m",
+   "secao": "5.3.1 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Irrigação",
+   "ensaio": "Taxa e intervalo",
+   "citado": null,
+   "norma": null,
+   "frequencia": "A cada 5 dias até a germinação/pegamento",
+   "criterio": "10 L/m², em chuvisco leve, nas horas amenas",
+   "secao": "5.3.1 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Hidrossemeadura",
+   "ensaio": "Adesivo, mulch e taxa de aplicação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por área aplicada",
+   "criterio": "Hidroasfalto 1.000 L/ha diluído 1:20; mulch 3 t/ha; solução ≈ 20.000 L/ha",
+   "secao": "5.3.1 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Áreas planas",
+   "ensaio": "Aração e gradagem / semeadura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na preparação",
+   "criterio": "Profundidade ≥ 8 cm; sementes incorporadas a ≈ 1,0 cm e totalmente cobertas",
+   "secao": "5.3.2 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Plantio por mudas em sulcos",
+   "ensaio": "Espaçamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Sulcos a cada 1 m, 15 cm de profundidade; mudas a cada 40 a 50 cm; + 5 kg/ha de sementes",
+   "secao": "5.3.2 b"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Adubação de cobertura",
+   "ensaio": "Época e dose",
+   "citado": null,
+   "norma": null,
+   "frequencia": "6 meses após a semeadura",
+   "criterio": "50 kg/ha de fósforo + 25 kg/ha de potássio",
+   "secao": "5.3.1 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Execução",
+   "ensaio": "Taxas de adubação, espécies e irrigação",
+   "citado": "DNIT 071/2006-ES",
+   "norma": "dnit-071-2006-es",
+   "frequencia": "Acompanhamento contínuo",
+   "criterio": "Taxas conforme padrão (DNIT 071/2006-ES, 5.4.5); espécies do projeto; períodos e volumes de irrigação corretos",
+   "secao": "7.2 / 5.3.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Desenvolvimento vegetativo",
+   "ensaio": "Inspeção técnica (espécies, germinação, pegamento, cobertura, fitossanidade)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "A cada 30 dias",
+   "criterio": "Conforme projeto; eliminar invasoras e substituir mudas doentes ou mortas",
+   "secao": "7.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Cobertura vegetal",
+   "ensaio": "Percentual de cobertura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "120 a 150 dias após o plantio",
+   "criterio": "Cobertura de 100 % da área plantada",
+   "secao": "7.3 / 8 b"
+  }
+ ],
+ "notas": [
+  "Ensaios e verificações conforme o Plano da Qualidade; não-conformidades tratadas conforme DNIT 011/2004-PRO (5.4.1.13).",
+  "Medição em duas etapas: 50 % após o plantio aprovado e 50 % após a cobertura vegetal completa."
+ ]
+}

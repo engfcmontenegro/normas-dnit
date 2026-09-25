@@ -1,0 +1,278 @@
+{
+ "es": "dnit-072-2006-es",
+ "servico": "Tratamento ambiental de áreas íngremes ou de difícil acesso por revegetação herbácea (hidrossemeadura e voçorocas)",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Solo do talude",
+   "ensaio": "Análise edáfica e pedológica",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do plantio",
+   "criterio": "Define padrão de calagem, adubação e espécies",
+   "secao": "3.3 / 5.2.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Sementes de gramíneas e leguminosas",
+   "ensaio": "Certificado do lote",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento de cada lote",
+   "criterio": "Fornecedor idôneo; certificado com origem, data de expedição, nome científico, poder germinativo, grau de pureza e valor cultural",
+   "secao": "5.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Sementes nacionais",
+   "ensaio": "Pureza / germinação / valor cultural",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento de cada lote",
+   "criterio": "Gramíneas: pureza ≥ 55 %, germinação ≥ 60 %, VC ≥ 33 %; leguminosas: pureza ≥ 75 %, germinação ≥ 75 %, VC ≥ 56,25 % (Tabela 3)",
+   "secao": "5.1.2 (Tabelas 3 e 4)",
+   "obs": "A norma imprime VC 56,26 % para leguminosas; 75 % × 75 % = 56,25 %."
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Sementes importadas",
+   "ensaio": "Pureza / germinação / valor cultural",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento de cada lote",
+   "criterio": "Gramíneas: pureza ≥ 90 %, germinação ≥ 80 %, VC ≥ 72 % (Tabela 4)",
+   "secao": "5.1.2 (Tabelas 3 e 4)"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Calcário dolomítico",
+   "ensaio": "Dose de calagem",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem (análise do solo)",
+   "criterio": "Quantidade para elevar o pH a 5,5; máximo 1,5 t/ha",
+   "secao": "5.1.1 c"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Adubos industrializados",
+   "ensaio": "Registro do produtor",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Registro do fabricante no Ministério da Agricultura",
+   "secao": "5.4.1 d"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Adesivo fixador",
+   "ensaio": "Características do adesivo",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Inofensivo à saúde, estável ao calor e à radiação UV, não prejudica a germinação, permeável ao ar e à água",
+   "secao": "5.1.4"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Cimento (rip-rap de solo-cimento / diques)",
+   "ensaio": "Recebimento e aceitação do cimento",
+   "citado": "DNER-EM 036/95",
+   "norma": "dner-em-036-95",
+   "frequencia": "No recebimento",
+   "criterio": "Conforme DNER-EM 036/95",
+   "secao": "5.1.5"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Pedra de mão (diques de pedra argamassada)",
+   "ensaio": "Especificação da pedra de mão",
+   "citado": "DNER-EM 037/97",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme DNER-EM 037/97",
+   "condicao": "diques de pedra argamassada",
+   "secao": "5.1.5 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Areia (diques de pedra argamassada)",
+   "ensaio": "Especificação da areia",
+   "citado": "DNER-EM 038/97",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme DNER-EM 038/97",
+   "condicao": "diques de pedra argamassada",
+   "secao": "5.1.5 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Água (solo-cimento)",
+   "ensaio": "Água para concreto",
+   "citado": "DNIT 036/2004-ME",
+   "norma": "dnit-036-2004-me",
+   "frequencia": "No recebimento",
+   "criterio": "Conforme DNIT 036/2004-ME",
+   "secao": "5.1.5 c"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Saibro (rip-rap de solo-cimento)",
+   "ensaio": "Peneiramento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na preparação da mistura",
+   "criterio": "Peneirado em peneira ≈ 9 mm",
+   "secao": "5.2.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mistura solo-cimento",
+   "ensaio": "Traço / dosagem",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem",
+   "criterio": "Volumétrico 1 : 0,5 : 3 : 12 (cimento : cal : argila : saibro) ou, em peso, cal 3 % + cimento 7 % (5 % em 5.4.2 d); 1 : 15 em estruturas de pouco risco",
+   "secao": "5.2.2 / 5.4.2 d",
+   "obs": "Divergência interna: 7 % de cimento (5.2.2) × 5 % (5.4.2 d)."
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Hidrossemeadura",
+   "ensaio": "Taxa de aplicação da mistura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por carga do caminhão (5.000 L)",
+   "criterio": "5.000 L para 2.500 a 3.300 m² (≈ 1,5 a 2,0 L/m²)",
+   "secao": "5.2.1 / 5.4.1 f"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Hidrossemeadura",
+   "ensaio": "Camada protetora (mulch)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por carga",
+   "criterio": "≈ 3.000 kg/ha (quantidade mínima)",
+   "secao": "5.2.1 / 5.4.1 e"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Calagem / adubação orgânica",
+   "ensaio": "Antecedência em relação ao plantio",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada área",
+   "criterio": "Calagem 30 dias antes; adubação orgânica 2 a 3 semanas antes da hidrossemeadura",
+   "secao": "5.4.1 c / d"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Irrigação",
+   "ensaio": "Umidade atingida",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Até 50 % das sementes germinarem",
+   "criterio": "Umidade até 10 cm de profundidade; chuvisco leve",
+   "secao": "5.4.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Irrigação",
+   "ensaio": "Frequência e taxa",
+   "citado": null,
+   "norma": null,
+   "frequencia": "≥ 1 vez por semana",
+   "criterio": "≥ 1 a 2 L/m², nas horas amenas",
+   "condicao": "período seco ou estiagem prolongada",
+   "secao": "5.4.1 g"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Adubação de cobertura",
+   "ensaio": "Época e número de aplicações",
+   "citado": null,
+   "norma": null,
+   "frequencia": "1ª aos 45 dias após o plantio; 2ª no período chuvoso",
+   "criterio": "≥ 2 fertilizações",
+   "secao": "5.4.1 h",
+   "obs": "O título da alínea h fala em 60 dias; o texto, em 45 dias."
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Rip-rap de solo-cimento",
+   "ensaio": "Tempo entre preparo e compactação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada camada",
+   "criterio": "Compactação em até 2 h após o preparo da mistura; umedecer a cada 2 camadas",
+   "secao": "5.4.2 d"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Rip-rap de solo-cimento (muro)",
+   "ensaio": "Geometria do muro",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Face externa 1/4 (contenção); altura ≤ 4 m; base ≥ 1/3 da altura; ensacamento a 80 % do volume do saco",
+   "secao": "5.2.2 / 5.4.2 d"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Revegetação",
+   "ensaio": "Inspeção técnica (desenvolvimento, cobertura, vigor)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "A cada 30 dias",
+   "criterio": "Conforme exigências agronômicas; replantio das falhas até cobertura total",
+   "secao": "6 / 5.4.1 j"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Rip-rap de solo-cimento",
+   "ensaio": "Resistência à compressão simples",
+   "citado": "ABNT NBR 6118",
+   "norma": null,
+   "frequencia": "Corpos de prova rompidos aos 30 dias (controle assistemático)",
+   "criterio": "≈ 30 kgf/cm² (traço em peso, 28 dias)",
+   "secao": "6 / 5.2.2 / 5.4.2 d",
+   "obs": "Idade divergente: 28 dias (5.2.2) × 30 dias (6)."
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Voçorocas",
+   "ensaio": "Controle geométrico (alinhamento, declividade, dimensões)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão",
+   "criterio": "Conforme projeto ambiental",
+   "secao": "6"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Acabamento",
+   "ensaio": "Aspecto das superfícies revegetadas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão",
+   "criterio": "Aspecto visual uniforme e harmonioso com o relevo",
+   "secao": "6"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Cobertura vegetal",
+   "ensaio": "Fechamento da cobertura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Para a 2ª medição",
+   "criterio": "Cobertura vegetal completa da área aceita pela Fiscalização",
+   "secao": "7 b"
+  }
+ ],
+ "notas": [
+  "Inspeções técnicas mensais do desenvolvimento vegetal; replantio até a cobertura completa.",
+  "Solo-cimento dos diques/rip-rap: controle por rompimento de corpos de prova à compressão simples (≈ 30 kgf/cm²).",
+  "Medição/pagamento em duas etapas: após o plantio e após a cobertura vegetal completa."
+ ]
+}

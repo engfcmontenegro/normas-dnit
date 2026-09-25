@@ -1,0 +1,70 @@
+{
+ "es": "dnit-076-2006-es",
+ "servico": "Tratamento ambiental acústico das áreas lindeiras (barreiras arbóreas, cercas vivas e painéis)",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Mudas (barreiras arbóreas e cercas vivas)",
+   "ensaio": "Produção, plantio e manutenção",
+   "citado": "DNIT 073/2006-ES",
+   "norma": "dnit-073-2006-es",
+   "frequencia": "Conforme DNIT 073/2006-ES",
+   "criterio": "Conforme DNIT 073/2006-ES",
+   "secao": "5 / 5.1.1.2 / 5.4"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Barreiras artificiais",
+   "ensaio": "Materiais dos painéis",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme projeto e catálogos dos fabricantes",
+   "secao": "5.1.1.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Barreiras arbóreas e arbustivas",
+   "ensaio": "Inspeção do desenvolvimento vegetativo",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Mensal",
+   "criterio": "Germinação e crescimento conforme projeto e manuais agrícolas; substituição de mudas doentes ou mortas",
+   "secao": "6"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Barreiras artificiais",
+   "ensaio": "Controle das barreiras",
+   "citado": "Normas ABNT",
+   "norma": null,
+   "frequencia": "Conforme normas",
+   "criterio": "Conforme normas ABNT específicas",
+   "secao": "6"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Nível de ruído",
+   "ensaio": "Monitoramento de ruído nas travessias urbanas",
+   "citado": "ABNT NBR 10151:2000",
+   "norma": null,
+   "frequencia": "Monitoramento",
+   "criterio": "Padrão legal 60 dB(A) (referência do estudo do Anexo A)",
+   "secao": "4 / Anexo A",
+   "obs": "Recomendação das condições gerais; a norma não fixa frequência."
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Mudas plantadas",
+   "ensaio": "Estabelecimento das mudas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Para a 2ª medição",
+   "criterio": "100 % das mudas estabelecidas; as que não vingarem são substituídas sem ônus",
+   "secao": "7 / 8"
+  }
+ ],
+ "notas": [
+  "Controle visual mensal pela Fiscalização; a execução das barreiras artificiais deve ser detalhada no projeto de engenharia."
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "es": "dnit-023-2024-es",
+ "servico": "Bueiros tubulares de concreto",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto do berço",
+   "ensaio": "Dosagem",
+   "citado": "ABNT NBR 12655",
+   "norma": null,
+   "frequencia": "Na dosagem (racional e experimental)",
+   "criterio": "fck ≥ 20 MPa aos 28 dias",
+   "secao": "5.1.1 / 5.3 d"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Aço",
+   "ensaio": "Especificação do aço",
+   "citado": "ABNT NBR 7480 / NBR 7481",
+   "norma": null,
+   "frequencia": "No recebimento (plano de amostragem prévio)",
+   "criterio": "Barras CA-50 (NBR 7480); telas soldadas CA-60 (NBR 7481) quando previstas",
+   "condicao": "elementos armados",
+   "secao": "5.1.2 / 7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Argamassa de juntas rígidas",
+   "ensaio": "Traço",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na preparação",
+   "criterio": "Cimento e areia 1:3 em massa; juntas estanques com junta elástica (anéis de borracha)",
+   "secao": "5.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos de concreto",
+   "ensaio": "Ensaios de recebimento (ênfase em compressão diametral)",
+   "citado": "ABNT NBR 8890",
+   "norma": null,
+   "frequencia": "No recebimento, conforme NBR 8890",
+   "criterio": "Classe de resistência e dimensões do projeto; encaixe ponta e bolsa",
+   "secao": "5.1.4 / 7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos de concreto",
+   "ensaio": "Inspeção visual",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento e antes do assentamento",
+   "criterio": "Limpos internamente, sem defeitos ou quebras (principalmente na ponta e bolsa)",
+   "secao": "4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto fresco",
+   "ensaio": "Consistência (abatimento/espalhamento)",
+   "citado": "ABNT NBR 16889 ou ABNT NBR 15823-2",
+   "norma": null,
+   "frequencia": "Quando houver alteração da umidade dos agregados; na 1ª amassada do dia; no reinício após interrupção > 2 h; a cada moldagem de corpos de prova; na troca de operadores",
+   "criterio": "Conforme dosagem aprovada",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Locação",
+   "ensaio": "Réguas e gabaritos",
+   "citado": "ABNT NBR 17015",
+   "norma": null,
+   "frequencia": "Espaçamento de 5 m",
+   "criterio": "Alinhamento, profundidade e declividade conforme projeto",
+   "secao": "5.3 b"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Vala",
+   "ensaio": "Escoramento",
+   "citado": "NR-18 / ABNT NBR 9061",
+   "norma": null,
+   "frequencia": "Na escavação",
+   "criterio": "Obrigatório em valas com profundidade > 1,25 m ou solo sujeito a desmoronamento",
+   "secao": "4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Vala",
+   "ensaio": "Largura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na escavação",
+   "criterio": "Folga lateral ≥ 0,40 m de cada lado; 0,30 m entre tubos em linhas múltiplas",
+   "secao": "5.3 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Aterro até a cota de assentamento",
+   "ensaio": "Espessura e compactação das camadas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por camada",
+   "criterio": "Camadas ≤ 0,20 m, com grau de compactação satisfatório",
+   "secao": "5.3 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Berço de concreto",
+   "ensaio": "Dentes de ancoragem",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução do berço",
+   "criterio": "Obrigatórios quando a declividade longitudinal > 4 %",
+   "secao": "5.3 d Nota 3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Juntas rígidas",
+   "ensaio": "Rejuntamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada junta",
+   "criterio": "Argamassa 1:3 em toda a circunferência externa (Ø ≤ 0,60 m); interna e externa (Ø > 0,60 m)",
+   "secao": "5.3 f"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Reaterro – envoltória",
+   "ensaio": "Espessura das camadas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por camada, até 0,30 m acima da geratriz superior",
+   "criterio": "Camadas apiloadas ≤ 0,20 m",
+   "secao": "5.3 g"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Reaterro acima de 0,30 m da geratriz",
+   "ensaio": "Grau de compactação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por camada (≤ 0,20 m)",
+   "criterio": "GC ≥ 100 % do Proctor normal ou intermediário (conforme projeto)",
+   "secao": "5.3 g"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Reaterro",
+   "ensaio": "Recobrimento mínimo",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão do reaterro",
+   "criterio": "≥ 1 m acima da geratriz superior do tubo",
+   "secao": "5.3 g"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Dimensões das seções transversais",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Levantamento topográfico/gabaritos, acompanhando as Notas de Serviço",
+   "criterio": "Desvio ≤ 1 % em relação ao projeto, em pontos isolados",
+   "secao": "7.2.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessuras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Todas as medidas efetuadas",
+   "criterio": "Dentro de ± 10 % da espessura de projeto",
+   "secao": "7.2.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Acabamento",
+   "ensaio": "Inspeção visual do acabamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em todos os dispositivos executados",
+   "criterio": "Sem defeitos que prejudiquem a operação hidráulica da canalização",
+   "secao": "7.2.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Concreto",
+   "ensaio": "Resistência à compressão aos 28 dias",
+   "citado": "ABNT NBR 12655 e ABNT NBR 6118",
+   "norma": null,
+   "frequencia": "Conforme plano prévio de retirada de corpos de prova (ABNT NBR 12655)",
+   "criterio": "fck,est ≥ fck (conformidade); fck,est < fck: não conformidade",
+   "secao": "7.1 / 7.2.3"
+  }
+ ],
+ "notas": [
+  "Serviços não executados em dias de chuva; escavação e reaterro preferencialmente no mesmo dia (4).",
+  "Plano de retirada de corpos de prova e de amostras de aço, cimento e agregados deve ser estabelecido previamente (7.1).",
+  "Resultados do controle estatístico e não conformidades registrados em relatórios periódicos conforme DNIT 011-PRO (Gestão da qualidade em obras rodoviárias)."
+ ]
+}

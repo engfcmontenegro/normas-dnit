@@ -1,0 +1,236 @@
+{
+ "es": "dner-es-346-97",
+ "servico": "Edificações – estruturas de concreto",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Insumos do concreto",
+   "ensaio": "Controle de recebimento dos materiais",
+   "citado": "DNER-ES 330/97",
+   "norma": null,
+   "norma_atual": "dnit-117-2009-es",
+   "frequencia": "No recebimento",
+   "criterio": "Conforme DNER-ES 330/97",
+   "secao": "6.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Cimento",
+   "ensaio": "Tipo de cimento",
+   "citado": "ABNT NBR 5736/91 (EB-758) ou ABNT NBR 5737/92 (EB-903)",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Recomendado cimento conforme ABNT NBR 5736/91 ou NBR 5737/92",
+   "condicao": "peças em ambiente agressivo",
+   "secao": "5.2.10"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Aço",
+   "ensaio": "Estado superficial das barras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento e antes da concretagem",
+   "criterio": "Sem excesso de ferrugem, manchas de óleo, argamassa aderente ou substâncias que prejudiquem a aderência",
+   "secao": "5.2.4 / 5.2.9"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Aditivos",
+   "ensaio": "Identificação do aditivo",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Fabricante idôneo; marca, procedência e composição indicadas; uso conforme fabricante",
+   "secao": "5.2.19"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto",
+   "ensaio": "Dosagem experimental (traço)",
+   "citado": "ABNT NBR 6118/90 (item 8.3.1)",
+   "norma": null,
+   "frequencia": "Na dosagem e a cada mudança de materiais",
+   "criterio": "Traço racional que atenda ao fck de projeto; cimento medido em massa (proibido em volume)",
+   "secao": "5.2.21 / 5.2.22 / 5.2.11"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto estrutural leve",
+   "ensaio": "Resistência e massa específica",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem",
+   "criterio": "fc28 > 17,5 MPa e massa específica seca aos 28 dias < 1850 kg/m³",
+   "condicao": "quando especificado concreto leve",
+   "secao": "5.3.2.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto fresco",
+   "ensaio": "Consistência (abatimento)",
+   "citado": "ABNT NBR 7223/92 (MB-256)",
+   "norma": null,
+   "frequencia": "Na dosagem e no lançamento",
+   "criterio": "Conforme projeto/dosagem",
+   "secao": "5.2.3 / 5.2.22 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Armadura",
+   "ensaio": "Cobrimento",
+   "citado": "ABNT NBR 6118/80 e ABNT NBR 5627/80 (NB-503)",
+   "norma": null,
+   "frequencia": "Antes da concretagem",
+   "criterio": "≥ mínimo da ABNT NBR 6118 (item 6.3.3.1); armadura sem contato com a fôrma; estruturas resistentes ao fogo conforme NBR 5627",
+   "secao": "5.2.6 / 5.2.7"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Fôrmas",
+   "ensaio": "Limpeza, estanqueidade e saturação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes de cada concretagem",
+   "criterio": "Fôrmas limpas, estanques e molhadas até saturação; contraflecha em grandes vãos",
+   "secao": "5.2.14 / 5.2.15 / 5.2.16"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Fôrmas",
+   "ensaio": "Prumo e nível",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Permanente, especialmente durante o lançamento",
+   "criterio": "Conforme projeto; correção imediata",
+   "secao": "5.4.24"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Lançamento",
+   "ensaio": "Tempo entre amassamento e lançamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada betonada/caminhão",
+   "criterio": "≤ 1 h (maior com retardador); proibido lançar após início de pega e usar concreto remisturado",
+   "secao": "5.4.7 / 5.4.8 / 5.4.9"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Lançamento",
+   "ensaio": "Altura de queda livre",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante o lançamento",
+   "criterio": "≤ 2,0 m (acima: calhas, janelas ou trombas); peças > 2 m com armadura densa: argamassa de 5 a 10 cm no fundo",
+   "secao": "5.4.5 / 5.4.6"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Lançamento",
+   "ensaio": "Diâmetro da tubulação de bombeamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na mobilização do equipamento",
+   "criterio": "≥ 3 × diâmetro máximo do agregado",
+   "secao": "5.4.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Adensamento",
+   "ensaio": "Vibração mecânica",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a concretagem",
+   "criterio": "Adensamento manual proibido; camadas ≈ ¾ da agulha; pontos a 6–10 × Ø da agulha; ≥ 100 mm das fôrmas; mínimo 1 betoneira e 2 vibradores",
+   "secao": "5.2.20 / 5.4.10 / 5.4.12"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Juntas de concretagem",
+   "ensaio": "Posição das juntas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada interrupção de concretagem",
+   "criterio": "Vigas: no terço médio do vão, normais ao eixo; lajes: terço médio do maior vão, paralelas à armadura principal; superfície limpa e saturada na retomada",
+   "secao": "5.4.14 a 5.4.18"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Cura",
+   "ensaio": "Duração e condições da cura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Diariamente durante a cura",
+   "criterio": "Início após a pega, ≥ 7 dias; cobertura de serragem/areia ≥ 5,0 cm sempre molhada; cura a vapor 38–66 °C por ≈ 72 h",
+   "secao": "5.4.19 / 5.4.20 / 5.4.21"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Desforma",
+   "ensaio": "Prazos de retirada das fôrmas",
+   "citado": "ABNT NBR 6118/80",
+   "norma": null,
+   "frequencia": "Em cada elemento",
+   "criterio": "Faces laterais ≥ 3 dias; faces inferiores ≥ 14 dias; faces inferiores sem pontaletes ≥ 21 dias",
+   "secao": "5.4.22"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto endurecido",
+   "ensaio": "Resistência à compressão (moldagem de corpos de prova)",
+   "citado": "ABNT NBR 6118/80 (item 15.1.1)",
+   "norma": null,
+   "frequencia": "≥ 1 exemplar (2 CPs) a cada 25 m³ aplicados; CPs adicionais se mudar material ou traço",
+   "criterio": "fck ≥ projeto, conforme item 15.1.1 da ABNT NBR 6118/80",
+   "secao": "6.2.1 / 6.2.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto endurecido",
+   "ensaio": "Exemplares por elemento estrutural",
+   "citado": "ABNT NBR 6118/80 (item 15.1.1)",
+   "norma": null,
+   "frequencia": "≥ 8 exemplares nas fundações; ≥ 4 em cada teto com vigas; ≥ 4 nas extremidades dos pilares de cada pavimento",
+   "criterio": "fck ≥ projeto, conforme item 15.1.1 da ABNT NBR 6118/80",
+   "secao": "6.2.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Execução da estrutura",
+   "ensaio": "Recomendações de controle da execução",
+   "citado": "DNER-ES 335/97 e DNER-ES 336/97",
+   "norma": null,
+   "norma_atual": "dnit-122-2009-es",
+   "frequencia": "Durante a execução",
+   "criterio": "Conforme DNER-ES 335/97 e DNER-ES 336/97",
+   "secao": "6.2",
+   "obs": "ES 336/97 (concreto protendido) → DNIT 123/2009-ES"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Concreto endurecido",
+   "ensaio": "Extração de testemunhos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Quando necessário",
+   "criterio": "Conforme ABNT NBR 6118",
+   "condicao": "obras importantes ou dúvida sobre ensaios não destrutivos",
+   "secao": "6.2.4"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Cotas, alinhamentos e dimensões das peças",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão de cada elemento",
+   "criterio": "Conforme projeto",
+   "secao": "6.3"
+  }
+ ],
+ "notas": [
+  "Resistência do concreto controlada pelo item 15.1.1 da ABNT NBR 6118/80, com no mínimo 1 exemplar de 2 CPs por 25 m³.",
+  "Trabalhos que não atendam à ES são rejeitados e refeitos pela executante, sem ônus para o contratante."
+ ]
+}

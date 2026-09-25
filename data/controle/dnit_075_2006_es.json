@@ -1,0 +1,130 @@
+{
+ "es": "dnit-075-2006-es",
+ "servico": "Tratamento ambiental de taludes com solos inconsistentes (imprimação, argamassa, concreto projetado, telas)",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Imprimação asfáltica",
+   "ensaio": "Materiais da impermeabilização betuminosa",
+   "citado": "DNER-ES 342/97",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme DNER-ES 342/97",
+   "secao": "5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Argamassa / concreto projetado",
+   "ensaio": "Materiais de concretos e argamassas",
+   "citado": "DNER-ES 330/97",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme DNER-ES 330/97",
+   "secao": "5.1.2 / 5.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Grampos de aço",
+   "ensaio": "Armadura",
+   "citado": "DNER-ES 331/97",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme DNER-ES 331/97",
+   "secao": "5.1.4 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto armado (vigas, contrafortes)",
+   "ensaio": "Estruturas de concreto armado",
+   "citado": "DNER-ES 335/97",
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Conforme DNER-ES 335/97 e projeto",
+   "secao": "5.1.4 d"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Fôrmas e escoramentos",
+   "ensaio": "Fôrmas / escoramento",
+   "citado": "DNER-ES 333/97 e DNER-ES 337/97",
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Conforme DNER-ES 333/97 e 337/97",
+   "secao": "5.1.4 b / c"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Telas metálicas e grampos",
+   "ensaio": "Especificação do fabricante",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme manuais técnicos do fabricante",
+   "secao": "5.1.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Preparo do talude",
+   "ensaio": "Limpeza e drenos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do revestimento",
+   "criterio": "Sem material solto ou orgânico; barbacãs regularmente espaçados",
+   "secao": "5.4.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto projetado",
+   "ensaio": "Espessura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na aplicação",
+   "criterio": "Espessura média 3 a 5 cm",
+   "secao": "5.4.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Tela do concreto projetado",
+   "ensaio": "Malha, fio e chumbadores",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Malha 5 a 20 cm; fio 2 a 5 mm; chumbadores 20 a 40 cm",
+   "condicao": "quando as condições geotécnicas exigirem",
+   "secao": "5.4.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Telas metálicas",
+   "ensaio": "Valeta de ancoragem na crista",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "≈ 40 cm de largura × 20 cm de profundidade",
+   "secao": "5.4.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Telas metálicas",
+   "ensaio": "Transpasses",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Lateral 20 a 30 cm; longitudinal ≥ 50 cm; grampos/amarrilhos a cada 30 cm",
+   "secao": "5.4.4"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Acabamento",
+   "ensaio": "Controle de acabamento e inspeções",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Conforme projeto",
+   "criterio": "Especificado nos projetos de engenharia e ambiental",
+   "secao": "6"
+  }
+ ],
+ "notas": [
+  "A norma não define ensaios próprios: remete às DNER-ES 330/97 a 342/97 (fora do acervo) e ao projeto de engenharia."
+ ]
+}

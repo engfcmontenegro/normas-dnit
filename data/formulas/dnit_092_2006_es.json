@@ -1,13 +1,13 @@
 {
-  "t01": {
-    "todas": true,
-    "de_inicio": "de acordo com o\n\nSICRO 2 ;\n\nplataformas suspensas de trabalho: por m²;\n\nc)\n\nd) demolição e remoção de pavimento de asfalto: por m³;\n\ne) demolição e remoção de pavimento de concreto: por m³;\n\nconcreto, fck = 30 MPa: por m³;\n\nf) formas de compensado: por m²;\n\ng)\n\nh) armação, aço CA 50: por kg;",
-    "para": "de acordo com o SICRO 2 ;\n\nc) plataformas suspensas de trabalho: por m²;\n\nd) demolição e remoção de pavimento de asfalto: por m³;\n\ne) demolição e remoção de pavimento de concreto: por m³;\n\nf) concreto, $f_{ck}$ = 30 MPa: por m³;\n\ng) formas de compensado: por m²;\n\nh) armação, aço CA 50: por kg;\n\ni) concreto polimerizado: por m³;\n\nj) cantoneiras de aço de 4”x 4”x 1,0 cm: remoção e colocação: por kg;\n\nk) juntas de compressão: por unidade;\n\nl) juntas de fita de neoprene: por unidade.\n\nm) juntas tipo JEENE: por unidade;\n\nn) juntas tipo Traflex ou Juntaflex: por unidade;\n\no) juntas modulares expansíveis: por unidade;\n\np) juntas denteadas, “Finger Joints”: por unidade.",
-    "nota": "item 9: letras c) e g) desalinhadas e itens i) a p) (p. 6, 2ª coluna) sumidos na extração; transcritos do PDF"
-  },
   "t02": {
     "todas": true,
     "de_inicio": "f) concreto, fck = 30 MPa;",
     "para": "f) concreto, $f_{ck}$ = 30 MPa;"
+  },
+  "t01": {
+    "todas": true,
+    "de_inicio": "de acordo com o\n\nSICRO 2 ;\n\nplataformas suspensas de trabalho: por m²;\n\nc)\n\nd) demolição e remoção de pavimento de asfalto: por m³;\n\ne) demolição e remoção de pavimento de concreto: por m³;\n\nconcreto, fck = 30 MPa: por m³;\n\nf) formas de compensado: por m²;\n\ng)\n\nh) armação, aço CA 50: por kg;\n\nconcreto polimerizado: por m³;\n\ni)\n\nj)",
+    "para": "de acordo com o SICRO 2;\n\nc) plataformas suspensas de trabalho: por m²;\n\nd) demolição e remoção de pavimento de asfalto: por m³;\n\ne) demolição e remoção de pavimento de concreto: por m³;\n\nf) concreto, $f_{ck}$ = 30 MPa: por m³;\n\ng) formas de compensado: por m²;\n\nh) armação, aço CA 50: por kg;\n\ni) concreto polimerizado: por m³;\n\nj)",
+    "nota": "seção 9 (p. 6): letras c), g) e i) desalinhadas na extração; lista reordenada conforme o PDF"
   }
 }

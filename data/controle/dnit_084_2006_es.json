@@ -1,0 +1,20 @@
+{
+  "es": "dnit-084-2006-es",
+  "servico": "Tratamento da corrosão",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Planejamento", "ensaio": "Inspeção e projeto", "citado": null, "norma": null, "frequencia": "Antes de qualquer tratamento", "criterio": "Tratamento só iniciado após inspeção e projeto com especificações; área a tratar definida no projeto", "secao": "4 / 5.1 a / 7.1 a"},
+    {"etapa": "execucao", "grupo": "Remoção do concreto contaminado", "ensaio": "Folga e extensão da remoção", "citado": null, "norma": null, "frequencia": "Em cada área tratada", "criterio": "Remoção com jato d'água ou ferramentas manuais; espaço livre ≥ 2 cm entre armadura e concreto são; prolongar até comprimento de ancoragem de barra íntegra", "secao": "5.1 d"},
+    {"etapa": "execucao", "grupo": "Estrutura", "ensaio": "Fragilização e necessidade de reforço", "citado": null, "norma": null, "frequencia": "Após a remoção do concreto", "criterio": "Avaliar a fragilização da estrutura e a necessidade de reforços", "secao": "7.1 e"},
+    {"etapa": "execucao", "grupo": "Armadura", "ensaio": "Limpeza das barras", "citado": null, "norma": null, "frequencia": "Após a remoção do concreto", "criterio": "Escova de aço (pequenas áreas) ou jato de areia (grandes áreas)", "secao": "5.1 e"},
+    {"etapa": "execucao", "grupo": "Armadura", "ensaio": "Perda de seção", "citado": null, "norma": null, "frequencia": "Em cada barra corroída, após limpeza", "criterio": "Perda de capacidade resistente > 10 % → barras suplementadas", "secao": "5.1 f / 7.1 f"},
+    {"etapa": "execucao", "grupo": "Armadura", "ensaio": "Pintura anticorrosiva", "citado": null, "norma": null, "frequencia": "Após remoção dos detritos", "criterio": "Armadura tratada e suplementar pintadas com tinta especial antiferruginosa", "secao": "5.1 g"},
+    {"etapa": "materiais", "grupo": "Concreto de recomposição", "ensaio": "Resistência característica", "citado": null, "norma": null, "frequencia": "Na dosagem", "criterio": "Não deve ser 20 % superior à do concreto existente (conforme redação da norma)", "secao": "5.1 i", "obs": "Redação ambígua; a DNIT 087/2006-ES (5.6 e) exige o contrário: resistência ≥ 20 % maior que a do substrato."},
+    {"etapa": "execucao", "grupo": "Recomposição da seção", "ensaio": "Tipo de concreto", "citado": null, "norma": null, "frequencia": "Na recomposição", "criterio": "Sem fôrmas: concreto convencional moldado no local, aditivado; com fôrmas: preferível concreto projetado, aditivado e desempenado; considerar vibrações do tráfego", "secao": "5.1 h / 7.1 g"},
+    {"etapa": "execucao", "grupo": "Cura", "ensaio": "Duração da cura", "citado": null, "norma": null, "frequencia": "Após a recomposição", "criterio": "Cura prolongada ≥ 7 dias", "secao": "5.1 h"}
+  ],
+  "notas": [
+    "A ES não prevê ensaios tecnológicos: o tratamento é acompanhado e inspecionado em cada etapa (7.1).",
+    "Não-conformidade paralisa os serviços, que são retomados a partir do início da etapa não conforme (7.2).",
+    "A corrosão do concreto é remetida a especificação própria (5.2)."
+  ]
+}

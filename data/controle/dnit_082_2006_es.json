@@ -1,0 +1,20 @@
+{
+  "es": "dnit-082-2006-es",
+  "servico": "Furos no concreto para ancoragem de armaduras",
+  "itens": [
+    {"etapa": "materiais", "grupo": "Chumbadores", "ensaio": "Capacidade de carga (ensaio no local)", "citado": "ABNT NBR 14827", "norma": null, "frequencia": "Chumbadores de maior responsabilidade", "criterio": "Ensaios no local; valores de laboratório (NBR 14827) ou de catálogo só com restrições e minorados por coeficientes de segurança elevados", "secao": "4 / 7.1 h"},
+    {"etapa": "materiais", "grupo": "Chumbador de adesão química", "ensaio": "Fluência da resina", "citado": null, "norma": null, "frequencia": "Na seleção do sistema", "criterio": "Comportamento de fluência avaliado na mais alta temperatura de serviço", "condicao": "ancoragens químicas", "secao": "4"},
+    {"etapa": "materiais", "grupo": "Chumbador de cisalhamento", "ensaio": "Capacidade resistente por ensaio", "citado": null, "norma": null, "frequencia": "Na seleção do sistema", "criterio": "Resultados de ensaio minorados por coeficiente de segurança ≥ 5", "secao": "5.2"},
+    {"etapa": "execucao", "grupo": "Chumbador de tração – adesão química", "ensaio": "Embutimento, espaçamento e distância à borda", "citado": null, "norma": null, "frequencia": "Na locação e execução de cada furo", "criterio": "hef ≥ 20 Ø; espaçamento ≥ 2,0 hef; distância à borda ≥ 1,0 hef", "secao": "5.1"},
+    {"etapa": "execucao", "grupo": "Chumbador de tração – demais tipos", "ensaio": "Espaçamento e distância à borda", "citado": null, "norma": null, "frequencia": "Na locação de cada furo", "criterio": "Espaçamento ≥ 4,0 hef; distância à borda ≥ 2,0 hef", "secao": "5.1"},
+    {"etapa": "execucao", "grupo": "Chumbador de cisalhamento", "ensaio": "Embutimento, espaçamento e distância à borda", "citado": null, "norma": null, "frequencia": "Na locação e execução de cada furo", "criterio": "Adesão química: hef ≥ 20 Ø; todos os tipos: espaçamento ≥ 4,0 hef e distância à borda ≥ 2,0 hef; inclinação pode ser reduzida de 90° em até 15°", "secao": "5.2"},
+    {"etapa": "execucao", "grupo": "Membro estrutural", "ensaio": "Espessura mínima", "citado": null, "norma": null, "frequencia": "Na locação", "criterio": "Espessura ≥ 1,5 hef", "condicao": "chumbadores de tração e de cisalhamento", "secao": "5.1 / 5.2"},
+    {"etapa": "execucao", "grupo": "Furo (tração e cisalhamento)", "ensaio": "Diâmetro, limpeza e preenchimento", "citado": null, "norma": null, "frequencia": "Em cada furo", "criterio": "Diâmetro ≈ Ø do chumbador + 3,0 mm; furo limpo (jato de ar) e completamente preenchido de resina antes da inserção", "secao": "5.1 / 5.2 / 7.1 e, f"},
+    {"etapa": "execucao", "grupo": "Chumbador de compressão", "ensaio": "Furo e preenchimento com grout", "citado": null, "norma": null, "frequencia": "Em cada furo", "criterio": "Comprimento ≈ comprimento de ancoragem da armadura de reforço; diâmetro ≥ Ø da barra + 1 cm; limpo com jato de ar e totalmente preenchido com grout antes da barra", "secao": "5.3"},
+    {"etapa": "produto", "grupo": "Ancoragem", "ensaio": "Suficiência da quantidade de chumbadores", "citado": null, "norma": null, "frequencia": "Após os ensaios de capacidade de carga", "criterio": "Quantidade adotada verificada frente aos resultados dos ensaios", "secao": "7.1 i"}
+  ],
+  "notas": [
+    "Não-conformidade em qualquer etapa determina a paralisação imediata; os serviços só são retomados após eliminar os não conformes (7.2).",
+    "Furos executados com perfuratrizes rotativas; só são considerados chumbadores de pós-concretagem (definições da ABNT NBR 14827)."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "es": "dnit-089-2006-es",
+  "servico": "Execução de pingadeiras por colagem de placas pré-moldadas",
+  "itens": [
+    {"etapa": "materiais", "grupo": "Placas pré-moldadas", "ensaio": "Tipo e espessura", "citado": null, "norma": null, "frequencia": "No recebimento", "criterio": "Placas cimentícias (cimento Portland + agregados naturais, reforçadas com fios metálicos); espessura ≥ 6 cm", "secao": "5", "obs": "A placa comercial citada na mesma seção tem 6 mm de espessura (200/120/6 mm)."},
+    {"etapa": "materiais", "grupo": "Parafusos", "ensaio": "Diâmetro, comprimento e proteção", "citado": null, "norma": null, "frequencia": "No recebimento", "criterio": "Ø ≥ 6 mm (aço CA 25), comprimento ≥ 30 cm, rosqueados numa extremidade, pintados com epóxi", "secao": "4 / 7.1 b"},
+    {"etapa": "execucao", "grupo": "Substrato", "ensaio": "Preparação da superfície", "citado": null, "norma": null, "frequencia": "Antes da colagem", "criterio": "Apicoamento e revestimento desempenado de cimento-areia 1:3 na projeção das placas; superfície regular e alinhada", "secao": "4 / 7.1 a"},
+    {"etapa": "execucao", "grupo": "Furos", "ensaio": "Diâmetro e comprimento", "citado": null, "norma": null, "frequencia": "Em cada furo", "criterio": "Ø ≥ 10 mm e comprimento de 20 cm; parafusos fixados com argamassa de epóxi", "secao": "4"},
+    {"etapa": "execucao", "grupo": "Fixação", "ensaio": "Colagem e aparafusamento", "citado": null, "norma": null, "frequencia": "Em cada placa", "criterio": "Argamassa de epóxi + 2 parafusos por placa, com arruelas e porcas", "secao": "4 / 7.1 b"},
+    {"etapa": "produto", "grupo": "Colagem", "ensaio": "Folgas", "citado": null, "norma": null, "frequencia": "Em toda a extensão", "criterio": "Placas perfeitamente coladas, sem folgas; espaço longitudinal entre placas adjacentes praticamente nulo", "secao": "5 / 7.1 c"},
+    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Ressalto inferior da placa", "citado": null, "norma": null, "frequencia": "Em toda a extensão", "criterio": "Extremidade inferior da placa ≥ 5 cm abaixo da aresta inferior da superfície a proteger", "secao": "5 / 7.1 d"}
+  ],
+  "notas": [
+    "Serviços que não atendam a qualquer das etapas de 7.1 não são conformes e devem ser refeitos (7.2).",
+    "A ES não prevê ensaios tecnológicos."
+  ]
+}

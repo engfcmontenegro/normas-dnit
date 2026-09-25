@@ -1,0 +1,101 @@
+{
+ "es": "dnit-103-2009-es",
+ "servico": "Estruturas de arrimo com gabiões",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Malha hexagonal e arames",
+   "ensaio": "Certificado do fabricante",
+   "citado": "ABNT NBR 8964:1985",
+   "norma": null,
+   "frequencia": "1 certificado por lote que chegar à obra",
+   "criterio": "Arame de aço BTC zincado a quente (zincagem pesada), dupla torção, conforme NBR 8964",
+   "secao": "5.1.1 / 7.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Revestimento PVC",
+   "ensaio": "Espessura do revestimento",
+   "citado": "ABNT NBR 10514:1988",
+   "norma": null,
+   "frequencia": "No recebimento (certificado)",
+   "criterio": "≥ 0,4 mm",
+   "condicao": "ambientes quimicamente corrosivos",
+   "secao": "5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Pedra de mão",
+   "ensaio": "Qualidade e dimensão",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Exame visual e/ou testes expeditos in situ",
+   "criterio": "Rocha sã e estável, não friável; menor dimensão entre 1 e 2 vezes a abertura da malha; requisitos da brita para concreto",
+   "secao": "5.1.2 / 7.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Pedra de mão",
+   "ensaio": "Peso específico",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na seleção da pedreira",
+   "criterio": "≥ 2.300 kg/m³ (aconselhável)",
+   "secao": "5.1.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Caixas",
+   "ensaio": "Medidas geométricas das caixas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada caixa (trena ou topografia)",
+   "criterio": "Variação ≤ 1,0 %",
+   "secao": "7.2.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Caixas",
+   "ensaio": "Posicionamento em relação ao projeto",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada caixa (trena ou topografia)",
+   "criterio": "Desvio ≤ 10 cm",
+   "secao": "7.2.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Montagem",
+   "ensaio": "Enchimento, formato e fechamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Visual, em cada caixa",
+   "criterio": "Mínimo de vazios; gaiola em paralelepípedo retângulo; arestas fechadas com o arame especificado (plastificado nos gabiões com PVC)",
+   "secao": "7.2.2 / 5.3.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Muro",
+   "ensaio": "Medidas geométricas externas",
+   "citado": "DNER-PRO 277/97",
+   "norma": "dner-pro-277-97",
+   "frequencia": "Controle estatístico (DNER-PRO 277/97)",
+   "criterio": "Tolerância de 10 % em medidas isoladas",
+   "secao": "7.3 / 7.4"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Muro",
+   "ensaio": "Posicionamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão",
+   "criterio": "Conforme projeto",
+   "secao": "7.3"
+  }
+ ],
+ "notas": [
+  "Controles conforme o Plano da Qualidade (DNIT 011/2004-PRO); resultados estatísticos pela DNER-PRO 277/97.",
+  "Medição por m³ de gabião montado e concluído, apenas dos considerados conformes."
+ ]
+}

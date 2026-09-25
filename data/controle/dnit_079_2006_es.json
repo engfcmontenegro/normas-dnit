@@ -1,0 +1,17 @@
+{
+  "es": "dnit-079-2006-es",
+  "servico": "Plataformas de trabalho",
+  "itens": [
+    {"etapa": "materiais", "grupo": "Projeto", "ensaio": "Projeto esquemático da plataforma", "citado": null, "norma": null, "frequencia": "Antes da montagem", "criterio": "Montagem em estrita obediência a projeto esquemático submetido à Fiscalização", "secao": "4 / 7.1 a"},
+    {"etapa": "materiais", "grupo": "Dimensionamento", "ensaio": "Sobrecarga de cálculo", "citado": null, "norma": null, "frequencia": "Na verificação do projeto", "criterio": "Todas as peças dimensionadas para sobrecarga de 500 kg/m² (5000 N/m²)", "secao": "5.1 / 5.2"},
+    {"etapa": "materiais", "grupo": "Montantes de madeira roliça", "ensaio": "Retilinidade e diâmetro", "citado": null, "norma": null, "frequencia": "No recebimento das peças", "criterio": "Peças retilíneas com diâmetro ≥ 12 cm", "condicao": "só tolerados com abundância de madeira no local e falta de montantes tubulares", "secao": "5.1"},
+    {"etapa": "execucao", "grupo": "Plataformas apoiadas no terreno", "ensaio": "Apoios, ligações e contraventamento", "citado": null, "norma": null, "frequencia": "Na montagem e durante o uso", "criterio": "Montantes fixados em terreno firme; vigamentos e contraventamentos que minimizem vibrações e deslocamentos; ligações de madeira com talas e, preferencialmente, parafusos", "secao": "5.1 / 7.1 d"},
+    {"etapa": "execucao", "grupo": "Plataformas suspensas", "ensaio": "Tirantes e dispositivos de ancoragem", "citado": null, "norma": null, "frequencia": "Na montagem e durante o uso", "criterio": "Tirantes metálicos obrigatórios, dimensionados com folga e seguramente ancorados (usual aproveitar os furos dos drenos)", "secao": "4 / 5.2 / 7.1 e"},
+    {"etapa": "execucao", "grupo": "Segurança", "ensaio": "Rigidez e proteção lateral", "citado": null, "norma": null, "frequencia": "Na montagem e durante o uso", "criterio": "Flexibilidade e segurança da plataforma e do suporte verificadas; plataforma totalmente protegida por dispositivos laterais; acesso seguro", "secao": "4 / 7.1 c"},
+    {"etapa": "produto", "grupo": "Desmobilização", "ensaio": "Remoção da plataforma", "citado": null, "norma": null, "frequencia": "Após a conclusão dos serviços", "criterio": "Estruturas, plataformas, tirantes e dispositivos de fixação totalmente removidos", "secao": "4"}
+  ],
+  "notas": [
+    "A ES não prevê ensaios tecnológicos: o controle consiste nas verificações mínimas da Fiscalização (7.1).",
+    "Serviços não conformes devem ser refeitos ou complementados até atender à ES."
+  ]
+}

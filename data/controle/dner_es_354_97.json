@@ -1,0 +1,49 @@
+{
+ "es": "dner-es-354-97",
+ "servico": "Edificações – ferragens",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Ferragens",
+   "ensaio": "Material, acabamento e catálogo",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Latão ou ferro cromado, fosco ou polido, conforme projeto e catálogos dos fabricantes",
+   "secao": "5.1 / 6.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Instalação",
+   "ensaio": "Rebaixos e encaixes",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Encaixes com a forma da ferragem, sem folgas que exijam enchimento; sem discrepâncias de posição/nível visíveis",
+   "secao": "5.2 / 5.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Maçanetas",
+   "ensaio": "Altura de instalação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "105,0 cm do piso acabado (salvo condições especiais)",
+   "secao": "5.4"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Ferragens",
+   "ensaio": "Inspeção visual e funcionamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão",
+   "criterio": "Perfeitas condições de funcionamento",
+   "secao": "6.2"
+  }
+ ],
+ "notas": [
+  "Verificação final visual das ferragens e de seu funcionamento (6.2)."
+ ]
+}

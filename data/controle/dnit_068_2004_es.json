@@ -1,0 +1,406 @@
+{
+ "es": "dnit-068-2004-es",
+ "servico": "Whitetopping (camada de concreto sobre pavimento flexível)",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Cimento Portland",
+   "ensaio": "Tipo e recebimento do cimento",
+   "citado": "DNER-EM 036/95",
+   "norma": "dner-em-036-95",
+   "frequencia": "No recebimento",
+   "criterio": "CP-I (NBR 5732), CP-II (NBR 11578), CP-III (NBR 5735) ou CP-IV (NBR 5736); outros tipos só com adequação comprovada",
+   "secao": "4.2.3 / 5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregados",
+   "ensaio": "Especificação dos agregados graúdo e miúdo",
+   "citado": "ABNT NBR 7211; DNER-EM 037/97 e DNER-EM 038/97",
+   "norma": null,
+   "norma_atual": "dnit-462-2025-em",
+   "frequencia": "No recebimento",
+   "criterio": "Conforme ABNT NBR 7211",
+   "secao": "4.2.3 / 5.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Água de amassamento",
+   "ensaio": "Ensaios químicos",
+   "citado": "DNIT 036/2004-ME",
+   "norma": "dnit-036-2004-me",
+   "frequencia": "Na aprovação da fonte de água",
+   "criterio": "pH entre 5 e 8; matéria orgânica (O₂ consumido) ≤ 3 mg/l; resíduo sólido ≤ 5000 mg/l; sulfatos (SO₄) ≤ 600 mg/l; cloretos (Cl) ≤ 1000 mg/l; açúcar ≤ 5 mg/l",
+   "secao": "5.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Água de amassamento",
+   "ensaio": "Tempo de início de pega (ensaio comparativo)",
+   "citado": "ABNT NBR 11580 e ABNT NBR 11581",
+   "norma": null,
+   "frequencia": "Na aprovação da fonte de água",
+   "criterio": "Início de pega difere ≤ ± 30 min da pasta com água de referência (a norma escreve ± 0,30 min)",
+   "condicao": "casos duvidosos",
+   "secao": "5.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Água de amassamento",
+   "ensaio": "Resistência à compressão da argamassa (ensaio comparativo)",
+   "citado": "ABNT NBR 7215",
+   "norma": null,
+   "frequencia": "Na aprovação da fonte de água",
+   "criterio": "≥ 85 % da argamassa com água de referência",
+   "condicao": "casos duvidosos",
+   "secao": "5.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Aditivos",
+   "ensaio": "Especificação dos aditivos",
+   "citado": "ABNT NBR 11768",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme NBR 11768; incorporador de ar também ASTM C 260; dosagem fixada no início da concretagem",
+   "secao": "5.1.4"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Aço",
+   "ensaio": "Barras de transferência e de ligação",
+   "citado": "ABNT NBR 7480",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Transferência: CA-25 lisas e retas; ligação: CA-50 (admite-se CA-25)",
+   "secao": "5.1.5"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Aço",
+   "ensaio": "Tela soldada",
+   "citado": "ABNT NBR 7481",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme NBR 7481",
+   "condicao": "placas irregulares ou acima dos padrões",
+   "secao": "5.1.5"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Selante de juntas",
+   "ensaio": "Especificação do selante",
+   "citado": "DNIT 046/2004-EM",
+   "norma": "dnit-046-2004-em",
+   "frequencia": "No recebimento",
+   "criterio": "Produção industrial (moldado a quente, a frio ou pré-moldado) conforme DNIT 046/2004-EM; moldado a quente não recomendado em reservatório < 10 mm de largura",
+   "secao": "5.1.6"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Película isolante",
+   "ensaio": "Características da película sobre a sub-base",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Membrana plástica 0,2 a 0,3 mm; ou papel kraft betumado ≥ 200 g/m² com ≥ 60 g/m² de CAP/alcatrão; ou pintura com emulsão catiônica RM a 0,8–1,6 l/m²",
+   "condicao": "se prevista em projeto",
+   "secao": "5.1.8"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Materiais de cura",
+   "ensaio": "Composto químico de cura e tecidos",
+   "citado": "ASTM C 309",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Composto à base de PVA ou polipropileno, pigmentação branca/clara (ASTM C 309); tecidos limpos, sem furos, ≥ 200 g/m² secos; lençol plástico de cura com espessura ≥ 0,5 mm",
+   "secao": "5.1.9"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto (dosagem)",
+   "ensaio": "Resistência característica (tração na flexão ou compressão)",
+   "citado": "ABNT NBR 12142 / ABNT NBR 5739",
+   "norma": null,
+   "frequencia": "Na dosagem / aprovação do traço",
+   "criterio": "fctM,k de projeto; ou fck equivalente se houver correlação ensaiada com os materiais da obra; idade de controle do projeto",
+   "secao": "5.2 / 5.2.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto (dosagem)",
+   "ensaio": "Consumo de cimento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem / aprovação do traço",
+   "criterio": "≥ 320 kg/m³",
+   "secao": "5.2.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto (dosagem)",
+   "ensaio": "Relação água/cimento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem / aprovação do traço",
+   "criterio": "Conforme a ES do equipamento: ≤ 0,50 l/kg (DNIT 047, 048 e 049-ES)",
+   "secao": "5.2.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto (dosagem)",
+   "ensaio": "Abatimento",
+   "citado": "ABNT NBR 7223",
+   "norma": null,
+   "frequencia": "Na dosagem / aprovação do traço",
+   "criterio": "Conforme ES do equipamento (70 ± 10 mm em DNIT 047/048-ES); fôrmas deslizantes: índice VeBe (DNIT 064/2004-ME)",
+   "secao": "5.2.4"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto (dosagem)",
+   "ensaio": "Dimensão máxima característica do agregado",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem / aprovação do traço",
+   "criterio": "≤ 1/3 da espessura da placa e ≤ 50 mm",
+   "secao": "5.2.5"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto (dosagem)",
+   "ensaio": "Teor de ar",
+   "citado": "ABNT NBR 11686",
+   "norma": null,
+   "frequencia": "Na dosagem / aprovação do traço",
+   "criterio": "≤ 5 %",
+   "secao": "5.2.6"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto (dosagem)",
+   "ensaio": "Exsudação",
+   "citado": "ABNT NBR NM 102",
+   "norma": null,
+   "frequencia": "Na dosagem / aprovação do traço",
+   "criterio": "≤ 1,5 %",
+   "secao": "5.2.7"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Pavimento flexível existente (sub-base)",
+   "ensaio": "Coeficiente de recalque (prova de carga)",
+   "citado": "DNER 35",
+   "norma": null,
+   "norma_atual": "dnit-055-2004-me",
+   "frequencia": "Aleatória nas bordas e no eixo, no mínimo a cada 100 m (200 m se o pavimento estiver em bom estado)",
+   "criterio": "Conforme projeto (k de projeto)",
+   "obs": "Admite-se estimar k por ISC; código citado incompleto na norma",
+   "secao": "5.4.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Fôrmas",
+   "ensaio": "Apoio e fixação das fôrmas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na montagem",
+   "criterio": "Ponteiros a cada ≤ 1 m; vazio sob a fôrma preenchido com argamassa (sem calço transversal); fôrmas assentadas em ≥ 2/3 da produção diária à frente",
+   "condicao": "fôrma-trilho ou pequeno porte",
+   "secao": "5.4.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Adensamento",
+   "ensaio": "Parada da vibroacabadora",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na passagem final",
+   "criterio": "Deslocamento contínuo por ≥ 2 placas; ponto de parada a ≥ 30 cm da junta transversal",
+   "condicao": "fôrma-trilho",
+   "secao": "5.4.4.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Fôrmas",
+   "ensaio": "Alinhamento e nivelamento das fôrmas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do lançamento do concreto",
+   "criterio": "Erro ≤ 3 mm na vertical e ≤ 5 mm no alinhamento longitudinal (verificação topográfica)",
+   "secao": "5.4.2",
+   "condicao": "fôrma-trilho ou pequeno porte"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Fôrmas",
+   "ensaio": "Fundo de caixa (espessura disponível)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do lançamento do concreto",
+   "criterio": "Nenhuma espessura, em toda a seção transversal, inferior à de projeto",
+   "secao": "5.4.2",
+   "condicao": "fôrma-trilho ou pequeno porte"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Película isolante",
+   "ensaio": "Recobrimento das emendas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do lançamento do concreto",
+   "criterio": "Tiras de papel ou plástico superpostas ≥ 10 cm, intactas até o lançamento",
+   "secao": "5.4.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Lançamento",
+   "ensaio": "Tempo entre mistura e lançamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Cada carga",
+   "criterio": "≤ 30 min (≤ 90 min em caminhão-betoneira com agitação); proibida redosagem",
+   "secao": "5.4.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Adensamento e acabamento",
+   "ensaio": "Planeza da superfície acabada (régua de 3 m)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Concreto fresco, após adensamento",
+   "criterio": "Variações ≤ 5 mm (régua paralela ao eixo, avançando meia régua por vez)",
+   "secao": "5.4.4.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Juntas",
+   "ensaio": "Alinhamento das juntas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução das juntas",
+   "criterio": "Desvio ≤ 5 mm em relação ao projeto",
+   "secao": "5.4.7 / 5.4.7.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Juntas",
+   "ensaio": "Idade do concreto no corte das juntas serradas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Conforme plano de corte",
+   "criterio": "Corte entre 6 h e 48 h após o término da concretagem",
+   "secao": "5.4.7 / 5.4.7.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Barras de transferência",
+   "ensaio": "Alinhamento das barras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Desvio das extremidades ≤ ± 1 % do comprimento; em ≥ 2/3 das barras de cada junta ≤ ± 0,7 %; metade + 2 cm pintada e engraxada",
+   "secao": "5.4.7.6"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Tela soldada",
+   "ensaio": "Posição da tela",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na colocação",
+   "criterio": "5 cm abaixo da superfície (no máximo até meia altura) e a 5 cm dos bordos",
+   "condicao": "placas irregulares ou acima dos padrões",
+   "secao": "5.4.8"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Cura",
+   "ensaio": "Cura química e cura final",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após o acabamento",
+   "criterio": "Composto químico a 0,35–0,50 l/m² no período inicial (~24 h, sem trânsito); cura total de 7 dias; superposição ≥ 10 cm; reposição ≤ 30 min",
+   "secao": "5.4.9"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Desmoldagem",
+   "ensaio": "Prazo para retirada das fôrmas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Cada faixa concretada",
+   "criterio": "≥ 12 h após a concretagem (máximo 24 h)",
+   "secao": "5.4.11"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto fresco",
+   "ensaio": "Consistência (abatimento)",
+   "citado": "ABNT NBR 7223 ou DNER-ME 94/78 (VeBe)",
+   "norma": null,
+   "norma_atual": "dnit-064-2004-me",
+   "frequencia": "Cada amassada (betonada)",
+   "criterio": "Conforme 5.2.4 (abatimento das DNIT 047/048-ES; VeBe para fôrmas deslizantes)",
+   "secao": "7.2.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto fresco",
+   "ensaio": "Moldagem de corpos de prova",
+   "citado": "ABNT NBR 5738",
+   "norma": null,
+   "frequencia": "Por trecho de inspeção ≤ 2.500 m²: ≥ 6 exemplares aleatórios, de amassadas diferentes, com 2 CPs cada",
+   "criterio": "Resistência do exemplar = maior dos 2 valores; CPs identificados com a placa",
+   "secao": "7.2.2.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Concreto endurecido",
+   "ensaio": "Resistência característica estimada",
+   "citado": "ABNT NBR 12142 / ABNT NBR 5739",
+   "norma": null,
+   "frequencia": "Por trecho de inspeção (≤ 2.500 m²), na idade de controle do projeto",
+   "criterio": "fctMk,est = fctMj − k·s ≥ fctM,k (ou fck,est = fcj − k·s ≥ fck); k da Tabela 1 (0,920 p/ n = 6 … 0,842 p/ n ≥ 32)",
+   "secao": "7.2.2.3 / 7.3.2.2 / 7.3.2.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Concreto endurecido",
+   "ensaio": "Extração de testemunhos (verificação suplementar)",
+   "citado": "ABNT NBR 7680 / ASTM C 42",
+   "norma": null,
+   "frequencia": "≥ 6 testemunhos uniformemente espaçados, nas placas de menor resistência",
+   "criterio": "Nova estimativa deve atender à aceitação automática; senão revisão do projeto com resistência e espessura reais",
+   "condicao": "sem aceitação automática",
+   "secao": "7.3.2.4"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Largura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordos a cada 20 m",
+   "criterio": "Variação < ± 10 % da largura de projeto",
+   "secao": "7.3 / 7.3.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Nivelamento nos mesmos pontos (a cada 20 m) no topo da sub-base e no topo do concreto",
+   "criterio": "Média ≥ espessura de projeto e (máx − mín) ≤ 1 cm; se média < projeto, revisão do projeto",
+   "secao": "7.3 / 7.3.1"
+  }
+ ],
+ "notas": [
+  "O pavimento flexível existente funciona como sub-base e deve ser reparado (panelas, fissuras, desplacamentos) antes da execução.",
+  "Execução com equipamento de pequeno porte, fôrma-trilho ou fôrmas deslizantes, seguindo a ES correspondente (DNIT 047, 048 e 049-ES).",
+  "Trecho de inspeção de até 2.500 m²; aceitação da resistência por k de Student (Tabela 1); se não aceito, testemunhos, revisão do projeto e, persistindo, restrição de uso, reforço ou demolição.",
+  "Sem trânsito de pedestres, veículos e animais durante a cura inicial."
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "es": "dnit-090-2006-es",
+  "servico": "Patologias do concreto",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Abrasão", "ensaio": "Classificação do desgaste", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Leve ≤ 6 mm; médio 7–12 mm; pesado 13–25 mm; severo > 25 mm (possível exposição de armaduras); áreas da ordem de 20 a 30 % → recuperação localizada, maiores → geral e mecanizada", "secao": "4.1.1 / 6.1"},
+    {"etapa": "materiais", "grupo": "Concreto resistente à abrasão", "ensaio": "Resistência à compressão", "citado": null, "norma": null, "frequencia": "Na dosagem", "criterio": "≥ 28 MPa, com baixa relação a/c", "secao": "4.1.1"},
+    {"etapa": "materiais", "grupo": "Argamassa de reposição (abrasão)", "ensaio": "Tipo de material", "citado": null, "norma": null, "frequencia": "Na recuperação", "criterio": "No mínimo argamassa de cimento Portland enriquecida com microssílica, acrílico, látex ou epóxi", "secao": "6.1"},
+    {"etapa": "materiais", "grupo": "Concreto resistente à erosão", "ensaio": "Resistência à compressão aos 28 dias", "citado": null, "norma": null, "frequencia": "Na dosagem", "criterio": "40 MPa, agregado de alta dureza, baixa a/c e cura adequada antes da exposição (recuperação com concreto projetado)", "secao": "4.1.2 / 6.2"},
+    {"etapa": "execucao", "grupo": "Cavitação", "ensaio": "Eliminação das causas", "citado": null, "norma": null, "frequencia": "Antes da recuperação", "criterio": "Eliminar desalinhamentos e mudanças bruscas de declividade (fluxos > 12 m/s causam cavitação)", "secao": "4.1.3 / 6.3"},
+    {"etapa": "execucao", "grupo": "Ação do fogo", "ensaio": "Estabilidade e grau de comprometimento", "citado": null, "norma": null, "frequencia": "Antes da recuperação", "criterio": "Verificar estabilidade e necessidade de escoramento; avaliar temperatura, duração e corpos de prova extraídos para decidir demolição ou aproveitamento", "secao": "4.2.4 b / 6.5"},
+    {"etapa": "execucao", "grupo": "Eflorescência", "ensaio": "Limpeza com solução ácida diluída", "citado": null, "norma": null, "frequencia": "Em cada área tratada", "criterio": "Testar antes em pequena área; saturar com água pura; aplicar em áreas ≤ 0,5 m²; aguardar 5 min e escovar; lavar com água pura imediatamente (soluções: 1 ác. muriático : 9–19 água; 1 ác. fosfórico : 9; 1 fosfórico + 1 acético : 19)", "condicao": "sais que não saem por escovação ou jateamento leve", "secao": "7.4"},
+    {"etapa": "materiais", "grupo": "Concreto sob ataque severo por sulfato", "ensaio": "Dosagem", "citado": null, "norma": null, "frequencia": "Na dosagem", "criterio": "Cimento Portland resistente a sulfatos; a/c ≤ 0,45; consumo ≥ 370 kg/m³; camada protetora", "condicao": "condições de ataque muito severas", "secao": "7.5.1"},
+    {"etapa": "execucao", "grupo": "Sais de magnésio", "ensaio": "Revestimento de proteção", "citado": null, "norma": null, "frequencia": "Na recuperação", "criterio": "Tratamento de trincas + revestimento com concreto de alta resistência, baixa porosidade, com microssílica; reforço conforme gravidade", "secao": "7.3"},
+    {"etapa": "execucao", "grupo": "Reação álcali-agregado", "ensaio": "Identificação e tratamento das trincas", "citado": null, "norma": null, "frequencia": "Após ensaios de laboratório", "criterio": "Identificação por ensaios laboratoriais; injeção de epóxi após 3 a 5 anos (estabilização); até lá, argamassa fraca; pode ser repetido após mais 3 anos", "secao": "7.5.2"},
+    {"etapa": "materiais", "grupo": "Concreto de recomposição", "ensaio": "Resistência característica", "citado": null, "norma": null, "frequencia": "Na dosagem", "criterio": "fck = 30 MPa (concreto, concreto projetado e recomposição do pavimento)", "secao": "8 / 11", "obs": "Diverge dos 40 MPa indicados em 4.1.2 / 6.2 para resistência à erosão."}
+  ],
+  "notas": [
+    "ES de diagnóstico/recuperação: não prevê ensaios de controle; exige acompanhamento constante de engenheiro capacitado (9).",
+    "Serviços não conformes devem ser refeitos antes do prosseguimento (10)."
+  ]
+}

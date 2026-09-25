@@ -1,0 +1,197 @@
+{
+ "es": "dnit-030-2004-es",
+ "servico": "Dispositivos de drenagem pluvial urbana",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos de concreto",
+   "ensaio": "Especificação do tubo",
+   "citado": "ABNT NBR 9793/87 e NBR 9794/87",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Tipo e dimensões do projeto; encaixe ponta e bolsa",
+   "secao": "5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos de concreto",
+   "ensaio": "Permeabilidade",
+   "citado": "ABNT NBR 9796/96",
+   "norma": null,
+   "frequencia": "2 tubos por lote de 100 a 200 unidades",
+   "criterio": "Conforme norma do tubo (NBR 9793/9794)",
+   "secao": "7.1",
+   "obs": "Seção 2 lista NBR 9596 e 7.1 cita NBR 9796 (a correta é 9796)"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos de concreto",
+   "ensaio": "Compressão diametral",
+   "citado": "ABNT NBR 9795/87",
+   "norma": null,
+   "frequencia": "2 tubos por lote de 100 a 200 unidades",
+   "criterio": "Conforme NBR 9794/87 (classe do projeto)",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos de concreto",
+   "ensaio": "Absorção",
+   "citado": "ABNT NBR 9794/87",
+   "norma": null,
+   "frequencia": "Nos 2 tubos da compressão diametral, por lote",
+   "criterio": "Conforme NBR 9794/87",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos metálicos",
+   "ensaio": "Especificação do tubo",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Prescrições próprias e recomendações do fabricante",
+   "condicao": "tubos de chapa corrugada",
+   "secao": "5.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Argamassa de rejuntamento",
+   "ensaio": "Traço",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na preparação",
+   "criterio": "Cimento e areia 1:3 em massa (5.3.1)",
+   "secao": "5.1.3 / 5.3.1",
+   "obs": "5.1.3 indica traço 1:4 e 5.3.1 indica 1:3 para as juntas"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto",
+   "ensaio": "Dosagem",
+   "citado": "ABNT NBR 12655/96",
+   "norma": null,
+   "frequencia": "Na dosagem",
+   "criterio": "fck mínimo aos 28 dias: lastro de poço de visita 11 MPa; berços, bases, cinta e paredes/fundo 15 MPa (ciclópico com 30 % de pedra de mão); grelha e laje de cobertura 22 MPa",
+   "secao": "5.3.1 / 5.3.2 / 5.3.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto fresco",
+   "ensaio": "Consistência (abatimento/espalhamento)",
+   "citado": "ABNT NBR NM 67/98 e NBR NM 68/98",
+   "norma": null,
+   "frequencia": "Quando houver alteração da umidade dos agregados; na 1ª amassada do dia; no reinício após interrupção > 2 h; a cada moldagem de corpos de prova; na troca de operadores",
+   "criterio": "Conforme dosagem aprovada",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto ciclópico",
+   "ensaio": "Controle do concreto ciclópico",
+   "citado": "DNER-ES 330/97",
+   "norma": null,
+   "norma_atual": "dnit-117-2009-es",
+   "frequencia": "Conforme DNER-ES 330/97",
+   "criterio": "Conforme DNER-ES 330/97",
+   "condicao": "quando utilizado",
+   "secao": "7.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Vala",
+   "ensaio": "Largura da escavação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na escavação",
+   "criterio": "≥ diâmetro da canalização + 60 cm",
+   "secao": "5.3.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Fundo da cava",
+   "ensaio": "Compactação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do assentamento",
+   "criterio": "Resistência prevista no projeto",
+   "secao": "5.3.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Reaterro",
+   "ensaio": "Espessura das camadas e compactação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por camada",
+   "criterio": "Camadas ≤ 15 cm com compactação manual até 60 cm acima da geratriz superior; compactação mecânica apenas acima disso",
+   "secao": "5.3.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Poço de visita",
+   "ensaio": "Escada de marinheiro",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Degraus de aço CA-25 Ø 16 mm, espaçamento ≤ 30 cm",
+   "secao": "5.3.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Embasamento e enchimento das valas",
+   "ensaio": "Acompanhamento visual",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a execução",
+   "criterio": "Conforme projeto",
+   "secao": "7.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Dimensões das seções transversais",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Levantamento topográfico/gabaritos, acompanhando as Notas de Serviço",
+   "criterio": "Desvio ≤ 1 % em relação ao projeto, em pontos isolados",
+   "secao": "7.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessuras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Todas as medidas efetuadas",
+   "criterio": "Dentro de ± 10 % da espessura de projeto",
+   "secao": "7.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Acabamento",
+   "ensaio": "Inspeção visual do acabamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em todos os dispositivos executados",
+   "criterio": "Sem defeitos que prejudiquem a operação hidráulica da canalização",
+   "secao": "7.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Concreto",
+   "ensaio": "Resistência à compressão aos 28 dias",
+   "citado": "ABNT NBR 12654/92, NBR 12655/96 e DNER-ES 330/97",
+   "norma": null,
+   "norma_atual": "dnit-117-2009-es",
+   "frequencia": "Conforme plano prévio de retirada de corpos de prova (ABNT NBR 12655)",
+   "criterio": "fck,est ≥ fck (conformidade); fck,est < fck: não conformidade",
+   "secao": "7.1 / 7.4"
+  }
+ ],
+ "notas": [
+  "Galerias tubulares executadas conforme DNIT 023/2004-ES e celulares conforme DNIT 025/2004-ES (5.3.1).",
+  "Plano de retirada de corpos de prova e de amostras de aço, cimento e agregados deve ser estabelecido previamente (7.1).",
+  "Resultados do controle estatístico e não conformidades registrados em relatórios periódicos conforme DNIT 011-PRO (Gestão da qualidade em obras rodoviárias)."
+ ]
+}

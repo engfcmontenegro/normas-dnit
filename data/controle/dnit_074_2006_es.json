@@ -1,0 +1,181 @@
+{
+ "es": "dnit-074-2006-es",
+ "servico": "Tratamento ambiental de taludes e encostas com dispositivos de controle de erosão (bioengenharia)",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Sementes",
+   "ensaio": "Pureza e poder germinativo do lote",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada lote ou partida",
+   "criterio": "Valores declarados, testados por plantio experimental em viveiro",
+   "secao": "5.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Calcário dolomítico",
+   "ensaio": "Dose de calagem",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem",
+   "criterio": "Elevar o pH a 5,5; máximo 1,5 t/ha",
+   "secao": "5.1.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mudas de bambu / capim-limão / vetiver",
+   "ensaio": "Idade das touceiras matrizes",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na coleta das mudas",
+   "criterio": "Touceiras com mais de 3 anos",
+   "secao": "5.4.1 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mantas / telas vegetais e grampos",
+   "ensaio": "Especificação do fabricante",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme manuais técnicos do fabricante (qualidade, resistência)",
+   "secao": "5.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Manta geotêxtil (barreira de siltagem)",
+   "ensaio": "Tipo e espessura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Não tecido 100 % poliéster, espessura 1,8 mm",
+   "secao": "5.4.2 j"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Covas (bambu / capins)",
+   "ensaio": "Dimensões e adubação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada cova",
+   "criterio": "≈ 30 × 30 × 30 cm; 100 g NPK 10-10-10 + 50 g calcário + esterco curtido ≈ 50 % do volume",
+   "secao": "5.4.1 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Irrigação das mudas",
+   "ensaio": "Frequência e volume",
+   "citado": null,
+   "norma": null,
+   "frequencia": "≥ 1 vez por semana até a muda atingir ≈ 20 cm",
+   "criterio": "≈ 1 L por muda",
+   "secao": "5.4.1 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Microcoveamento (biomantas)",
+   "ensaio": "Espaçamento e profundidade",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na preparação do talude",
+   "criterio": "Covas a cada 10 cm, com 5 cm de profundidade",
+   "secao": "5.4.2 f"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Biomantas",
+   "ensaio": "Ancoragem no topo",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Valeta 10 × 10 cm; 20 cm de manta além da valeta; grampos a cada 40 cm",
+   "secao": "5.4.2 g"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Biomantas",
+   "ensaio": "Trespasses",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Lateral 3 a 5 cm; longitudinal ≥ 5 cm; grampos nos trespasses a cada 30 cm",
+   "secao": "5.4.2 g",
+   "obs": "A norma escreve espaçamento “mínimo”; o sentido técnico é máximo."
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Retentores de sedimentos",
+   "ensaio": "Encaixe e diâmetro",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Valeta com 1/3 da altura do rolo; diâmetro usual 0,30 a 0,45 m; em curva de nível",
+   "secao": "5.4.2 i"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Bacia de siltagem",
+   "ensaio": "Dimensões da bacia/dique",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No projeto e na construção",
+   "criterio": "V ≥ 0,4 × A × h; altura usual ≤ 1,0 m (máx. 2,0 m); crista ≥ 1,0 m; taludes 2H:1V ou mais abatidos; vertedor 4 m por 0,8 ha",
+   "secao": "5.4.2 j"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Barreira de siltagem (manta)",
+   "ensaio": "Locação e estacas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Até 10 m do pé do talude, em curva de nível; estacas a cada 2,0 m",
+   "secao": "5.4.2 j"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Bacia de siltagem",
+   "ensaio": "Remoção de sedimentos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Quando o depósito atingir metade da altura útil",
+   "criterio": "Remover com o material seco e dispor em local apropriado",
+   "secao": "5.4.2 j"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Mudas plantadas",
+   "ensaio": "Germinação e crescimento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após o plantio (monitoramento)",
+   "criterio": "Conforme padrões da botânica; pagamento até crescimento ≈ 80 cm",
+   "secao": "5.4.1 d / 8"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Acabamento",
+   "ensaio": "Controle de acabamento e inspeções",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Conforme projeto ambiental",
+   "criterio": "Especificado no projeto ambiental",
+   "secao": "6"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Cobertura vegetal",
+   "ensaio": "Fechamento da cobertura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Para a 2ª medição",
+   "criterio": "Cobertura vegetal completa aceita pela Fiscalização",
+   "secao": "7"
+  }
+ ],
+ "notas": [
+  "Materiais, dosagens e revegetação remetem às DNIT 071, 072 e 073/2006-ES; mantas, telas e grampos seguem o fabricante.",
+  "Controle de acabamento e inspeções devem ser definidos no projeto ambiental."
+ ]
+}

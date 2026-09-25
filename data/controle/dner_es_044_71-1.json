@@ -1,0 +1,112 @@
+{
+ "es": "dner-es-044-71",
+ "servico": "Revestimento de taludes com solo-cimento",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Cimento Portland",
+   "ensaio": "Especificação do cimento",
+   "citado": "ABNT EB-1",
+   "norma": null,
+   "norma_atual": "dner-em-036-95",
+   "frequencia": "No recebimento",
+   "criterio": "Conforme EB-1 (ABNT)",
+   "secao": "2.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Água",
+   "ensaio": "Qualidade da água",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Isenta de teores nocivos de sais, ácidos, álcalis e matéria orgânica",
+   "secao": "2.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Solo",
+   "ensaio": "Granulometria",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na seleção e a cada mudança de solo",
+   "criterio": "0 % retido na peneira de 1\"; ≤ 30 % retido na peneira de 4,8 mm; sem teor elevado de matéria orgânica",
+   "secao": "2.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Solo",
+   "ensaio": "Ensaios de caracterização",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Coleta pela Fiscalização",
+   "criterio": "Atender às exigências do projeto",
+   "secao": "5"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mistura",
+   "ensaio": "Dosagem em laboratório",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do início e a cada mudança de solo",
+   "criterio": "Proporções definidas em laboratório",
+   "secao": "1 / 4.2 / 5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Mistura",
+   "ensaio": "Tempo de aplicação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada betonada",
+   "criterio": "≤ 3 h entre a incorporação do cimento e o acabamento",
+   "secao": "4.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Mistura aplicada",
+   "ensaio": "Umidade de aplicação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a aplicação",
+   "criterio": "± 0,5 % da umidade ótima",
+   "secao": "5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Cura",
+   "ensaio": "Proteção e cura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante 7 dias",
+   "criterio": "Cobertura com 5 cm de terra ou capim, mantida úmida; ou emulsão RR-2K diluída 1:1",
+   "secao": "4.5"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Revestimento",
+   "ensaio": "Grau de compactação",
+   "citado": "ABNT MB-33",
+   "norma": null,
+   "frequencia": "Verificação pela Fiscalização",
+   "criterio": "GC ≥ 95 % da massa específica aparente seca máxima de laboratório",
+   "secao": "5",
+   "obs": "MB-33 = ensaio de compactação de solos (ABNT)."
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Mistura aplicada",
+   "ensaio": "Resistência à compressão simples aos 7 dias",
+   "citado": null,
+   "norma": null,
+   "norma_atual": "dner-me-201-94",
+   "frequencia": "Verificação pela Fiscalização",
+   "criterio": "≥ 70 % da resistência da dosagem de laboratório, à mesma idade",
+   "secao": "5"
+  }
+ ],
+ "notas": [
+  "Norma de 1971: controle pela Fiscalização, com nova dosagem sempre que o solo mudar."
+ ]
+}

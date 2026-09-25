@@ -1,0 +1,40 @@
+{
+  "es": "dner-es-144-85",
+  "servico": "Defensas metálicas (instalação)",
+  "itens": [
+    {"etapa": "materiais", "grupo": "Defensas", "ensaio": "Especificação das defensas",
+     "citado": "DNER-EM 145/85", "norma": null, "norma_atual": "dner-em-370-97",
+     "frequencia": "No recebimento", "criterio": "Conforme DNER-EM 145/85", "secao": "2.1"},
+    {"etapa": "execucao", "grupo": "Equipamento", "ensaio": "Equipamento mínimo de cravação",
+     "citado": null, "norma": null,
+     "frequencia": "Na mobilização", "criterio": "Compressor com descarga livre ≥ 3,5 m³/min; bate-estacas pneumático ≥ 170 J e 660 impactos/min, com torre regulável para cravação vertical", "secao": "3.1"},
+    {"etapa": "execucao", "grupo": "Postes", "ensaio": "Extensão cravada",
+     "citado": null, "norma": null,
+     "frequencia": "Por poste", "criterio": "≥ 1.100 mm; postes de madeira em terreno firme com solo compactado em camadas de 15 cm", "secao": "3.3.8"},
+    {"etapa": "execucao", "grupo": "Ancoragem", "ensaio": "Descida da guia de deslizamento",
+     "citado": null, "norma": null,
+     "frequencia": "Em cada extremidade", "criterio": "Descida em 16,00 m até 0,20 m abaixo do nível do solo (borda superior da lâmina)", "secao": "3.3.1"},
+    {"etapa": "execucao", "grupo": "Lâminas", "ensaio": "Superposição das lâminas",
+     "citado": null, "norma": null,
+     "frequencia": "Em cada emenda", "criterio": "Arestas e cantos vivos voltados para o sentido contrário ao do trânsito", "secao": "3.3.2"},
+    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Afastamento da borda da pista",
+     "citado": null, "norma": null,
+     "frequencia": "Na verificação da instalação", "criterio": "≥ 0,50 m, respeitadas faixas de segurança e acostamentos", "secao": "3.3.3"},
+    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Altura da guia de deslizamento",
+     "citado": null, "norma": null,
+     "frequencia": "Na verificação da instalação", "criterio": "750 mm (caminhões > 30 % do tráfego); 650 mm (caminhões < 30 %)", "secao": "3.3.4"},
+    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Variação da altura em relação ao greide",
+     "citado": null, "norma": null,
+     "frequencia": "Na verificação da instalação", "criterio": "± 40 mm", "secao": "3.3.5"},
+    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Desvio lateral em relação ao eixo",
+     "citado": null, "norma": null,
+     "frequencia": "Na verificação da instalação", "criterio": "± 30 mm", "secao": "3.3.6"},
+    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Desvio angular em relação ao eixo",
+     "citado": null, "norma": null,
+     "frequencia": "Na verificação da instalação", "criterio": "Máx. 2°20′ (≈ 1:25)", "secao": "3.3.7"}
+  ],
+  "notas": [
+    "Disposição das defensas conforme projetos-tipo (figuras 1 a 17) e necessidade pelos gráficos das figuras 18 e 19.",
+    "Norma sem plano de ensaios; controle da fabricação das defensas em norma própria (DNER-IE 146/94)."
+  ]
+}

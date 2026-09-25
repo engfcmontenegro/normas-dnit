@@ -1,0 +1,18 @@
+{
+  "es": "dnit-081-2006-es",
+  "servico": "Remoções no concreto",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Planejamento", "ensaio": "Inspeção preliminar e sequência de atividades", "citado": null, "norma": null, "frequencia": "Antes de qualquer remoção", "criterio": "Inspeção preliminar e projeto/sequência completa obrigatórios; pessoal especializado sob supervisão de engenheiro; equipamentos revisados e aferidos; escoramentos quando necessários", "secao": "4 / 7"},
+    {"etapa": "execucao", "grupo": "Limpeza com solução ácida ou alcalina", "ensaio": "Saturação prévia e lavagem final", "citado": null, "norma": null, "frequencia": "Em cada área tratada", "criterio": "Saturação prévia do elemento e lavagem cuidadosa após o tratamento, ambas com água pura", "condicao": "quando usadas soluções ácidas ou alcalinas, ainda que diluídas", "secao": "5.1 / 7 / 8"},
+    {"etapa": "execucao", "grupo": "Corte de concreto degradado", "ensaio": "Profundidade e extensão do corte", "citado": null, "norma": null, "frequencia": "Em cada área tratada", "criterio": "Aprofundar ≥ 2 cm além da armadura oxidada; comprimento de remoção controlado para não deixar armaduras inoperantes", "secao": "5.2.1"},
+    {"etapa": "execucao", "grupo": "Corte de concreto degradado", "ensaio": "Limpeza antes do novo concreto", "citado": null, "norma": null, "frequencia": "Antes do lançamento do concreto", "criterio": "Superfície rugosa limpa com jateamento de areia, ar comprimido e água; detritos coletados no local", "secao": "5.2.1"},
+    {"etapa": "execucao", "grupo": "Juntas de contração da sobrelaje", "ensaio": "Geometria e momento do corte", "citado": null, "norma": null, "frequencia": "Em cada junta", "criterio": "Sulco com serra circular diamantada, largura 4 mm e profundidade = 1/4 da espessura da sobrelaje; executado no concreto fresco ou serrado 8 a 12 h após a cura; preenchido com selante", "secao": "5.2.2 a"},
+    {"etapa": "execucao", "grupo": "Limitação de remoções / demolição parcial", "ensaio": "Corte delimitador", "citado": null, "norma": null, "frequencia": "Antes da demolição", "criterio": "Corte de 25 mm de profundidade com serra circular diamantada delimitando o trecho a demolir", "secao": "5.2.2 b / 5.3.1"},
+    {"etapa": "execucao", "grupo": "Demolição parcial", "ensaio": "Preservação da estrutura remanescente", "citado": null, "norma": null, "frequencia": "Durante a demolição", "criterio": "Sequência pré-determinada; estrutura remanescente sem danos; armaduras a aproveitar preservadas; demolição sobre fôrmas escoradas, com marteletes", "secao": "5.3 / 5.3.1"},
+    {"etapa": "execucao", "grupo": "Demolição total", "ensaio": "Método e sequência", "citado": null, "norma": null, "frequencia": "Antes e durante a demolição", "criterio": "Sequência planejada, sem colapso brusco; martelos demolidores + guindastes, agentes expansivos ou implosão (se as condições ambientais permitirem)", "secao": "5.3 / 5.3.2"}
+  ],
+  "notas": [
+    "A ES não prevê ensaios tecnológicos: as etapas devem ser acompanhadas continuamente por pessoal qualificado, supervisionado por engenheiro experiente (7, 8).",
+    "A Inspeção abrange recebimento e preparo dos materiais, calibragem e estado dos equipamentos e suficiência da equipe."
+  ]
+}

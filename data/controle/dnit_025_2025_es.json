@@ -1,0 +1,255 @@
+{
+ "es": "dnit-025-2025-es",
+ "servico": "Bueiros celulares de concreto",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Aduelas pré-moldadas",
+   "ensaio": "Requisitos e ensaios das aduelas",
+   "citado": "ABNT NBR 15396",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme NBR 15396 e projeto; células limpas, sem defeitos ou quebras (principalmente no encaixe macho e fêmea)",
+   "secao": "4 / 5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto",
+   "ensaio": "Dosagem",
+   "citado": "ABNT NBR 12655",
+   "norma": null,
+   "frequencia": "Na dosagem (racional e experimental)",
+   "criterio": "fck aos 28 dias conforme projeto estrutural",
+   "secao": "5.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto magro",
+   "ensaio": "Dosagem",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem",
+   "criterio": "fck ≥ 15 MPa aos 28 dias",
+   "secao": "5.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Aço",
+   "ensaio": "Especificação do aço",
+   "citado": "ABNT NBR 7480 / NBR 7481",
+   "norma": null,
+   "frequencia": "No recebimento (plano de amostragem prévio)",
+   "criterio": "Barras CA-50 (NBR 7480); telas soldadas CA-60 (NBR 7481) quando previstas",
+   "secao": "5.1.4 / 7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Argamassa de juntas rígidas",
+   "ensaio": "Traço",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na preparação",
+   "criterio": "Cimento e areia 1:3 em massa (sistemas não estanques)",
+   "secao": "5.1.5"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Graute",
+   "ensaio": "Especificação do graute",
+   "citado": "ABNT NBR 16868-2",
+   "norma": null,
+   "frequencia": "No recebimento/preparo",
+   "criterio": "Conforme NBR 16868-2",
+   "condicao": "peças pré-moldadas",
+   "secao": "5.1.6"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Manta geotêxtil",
+   "ensaio": "Especificação da manta",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Não tecida, propriedades mecânicas do projeto",
+   "secao": "5.1.7"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Compensado resinado",
+   "ensaio": "Especificação",
+   "citado": "DNIT 120-ES",
+   "norma": "dnit-120-2009-es",
+   "frequencia": "No recebimento",
+   "criterio": "Conforme DNIT 120-ES",
+   "condicao": "juntas não estanques",
+   "secao": "5.1.8"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Poliestireno expandido (EPS)",
+   "ensaio": "Propriedades do EPS",
+   "citado": "ABNT NBR 16866",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme NBR 16866",
+   "condicao": "juntas não estanques",
+   "secao": "5.1.9"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto fresco",
+   "ensaio": "Consistência (abatimento/espalhamento)",
+   "citado": "ABNT NBR 16889 ou ABNT NBR 15823-2",
+   "norma": null,
+   "frequencia": "Quando houver alteração da umidade dos agregados; na 1ª amassada do dia; no reinício após interrupção > 2 h; a cada moldagem de corpos de prova; na troca de operadores",
+   "criterio": "Conforme dosagem aprovada",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Locação",
+   "ensaio": "Réguas e gabaritos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Espaçamento de 5 m",
+   "criterio": "Alinhamento, profundidade e declividade conforme projeto",
+   "secao": "5.3.1 b"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Vala",
+   "ensaio": "Escoramento",
+   "citado": "NR-18 / ABNT NBR 9061",
+   "norma": null,
+   "frequencia": "Na escavação",
+   "criterio": "Obrigatório em valas com profundidade > 1,25 m ou solo sujeito a desmoronamento",
+   "secao": "4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Vala",
+   "ensaio": "Largura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na escavação",
+   "criterio": "Folga lateral ≥ 0,50 m de cada lado",
+   "secao": "5.3.1 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Aterro até a cota de assentamento",
+   "ensaio": "Espessura e compactação das camadas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por camada",
+   "criterio": "Camadas ≤ 0,20 m, com grau de compactação satisfatório",
+   "secao": "5.3.1 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Lastro de concreto magro",
+   "ensaio": "Espessura e resistência",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução (moldado in loco)",
+   "criterio": "10 cm, fck ≥ 15 MPa, com folga lateral de 15 cm",
+   "secao": "5.3.2 b"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Juntas de dilatação",
+   "ensaio": "Espaçamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução (moldado in loco)",
+   "criterio": "Conforme projeto; na falta, EPS + compensado resinado a cada 20,0 m",
+   "secao": "5.3.2 k"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Juntas pré-moldadas",
+   "ensaio": "Rejuntamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada junta",
+   "criterio": "Argamassa 1:3, espessura 1,0 a 2,0 cm, faces interna e externa (exceto laje inferior externa)",
+   "secao": "5.3.3 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Juntas",
+   "ensaio": "Recobrimento com manta geotêxtil",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após o rejuntamento",
+   "criterio": "Largura ≥ 0,40 m; furos de içamento grauteados e cobertos com manta",
+   "secao": "5.3.2 l / 5.3.3 d / e"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Linhas múltiplas",
+   "ensaio": "Espaçamento entre células",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No assentamento",
+   "criterio": "10 cm preenchidos com concreto magro fck ≥ 15 MPa",
+   "secao": "5.3.3 Nota 5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Aterro sobre o bueiro",
+   "ensaio": "Espessura das camadas e compactação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por camada",
+   "criterio": "Camadas ≤ 20 cm com compactador portátil até 50 cm acima da geratriz superior; sem vibração até 2 m acima; aterro < 50 cm exige laje de travamento ≥ 15 cm",
+   "secao": "5.3.4"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Dimensões das seções transversais",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Levantamento topográfico/gabaritos, acompanhando as Notas de Serviço",
+   "criterio": "Desvio ≤ 1 % em relação ao projeto, em pontos isolados",
+   "secao": "7.2.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessuras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Todas as medidas efetuadas",
+   "criterio": "Dentro de ± 10 % da espessura de projeto",
+   "secao": "7.2.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Acabamento",
+   "ensaio": "Inspeção visual do acabamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em todos os dispositivos executados",
+   "criterio": "Sem defeitos que prejudiquem a operação hidráulica da canalização",
+   "secao": "7.2.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Concreto",
+   "ensaio": "Resistência à compressão aos 28 dias",
+   "citado": "ABNT NBR 12655 e ABNT NBR 6118",
+   "norma": null,
+   "frequencia": "Conforme plano prévio de retirada de corpos de prova (ABNT NBR 12655)",
+   "criterio": "fck,est ≥ fck (conformidade); fck,est < fck: não conformidade",
+   "secao": "7.1 / 7.3",
+   "obs": "Não é permitida extração de testemunhos das galerias como controle regular de aceitação (Nota 8)"
+  }
+ ],
+ "notas": [
+  "Serviços não executados em dias de chuva; escavação e reaterro preferencialmente no mesmo dia (4).",
+  "Pré-moldados executados conforme ABNT NBR 15645 (5.3.3).",
+  "Resultados do controle estatístico e não conformidades registrados em relatórios periódicos conforme DNIT 011-PRO (Gestão da qualidade em obras rodoviárias)."
+ ]
+}

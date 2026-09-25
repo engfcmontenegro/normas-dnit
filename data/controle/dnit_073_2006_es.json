@@ -1,0 +1,141 @@
+{
+ "es": "dnit-073-2006-es",
+ "servico": "Tratamento ambiental de áreas planas por revegetação arbórea e arbustiva (plantio de mudas e viveiro)",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Solo das áreas",
+   "ensaio": "Análise física e química em laboratório credenciado",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do plantio (coleta prévia de amostras)",
+   "criterio": "Define correção de pH (elevar a 5,5) e de nutrientes",
+   "secao": "5.4.1 d"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Calcário dolomítico",
+   "ensaio": "Dose de calagem",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem",
+   "criterio": "Elevar o pH a 5,5; máximo 1,5 t/ha",
+   "secao": "5.1.1 / 5.4.1 d"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mudas",
+   "ensaio": "Inspeção fitossanitária",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do plantio",
+   "criterio": "Sem pragas ou doenças; embalagem sem ervas daninhas",
+   "secao": "5.4.1 e"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Mudas",
+   "ensaio": "Altura da muda",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na expedição do viveiro",
+   "criterio": "40 a 70 cm; arborização de rua ≥ 1,5 m",
+   "secao": "5.4.2 t"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Espécies",
+   "ensaio": "Conformidade com o projeto",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Espécies do projeto; preferência por nativas (Tabelas 1 e 2)",
+   "secao": "5.1.2 / 5.4.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Covas",
+   "ensaio": "Dimensões das covas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na abertura",
+   "criterio": "0,40 × 0,40 × 0,40 m (arbustos); 0,60 × 0,60 × 0,60 m (árvores); preparadas ≥ 20 dias antes",
+   "secao": "5.2 / 5.4.1 b",
+   "obs": "Em 5.2 a cova é 0,40 × 0,40 × 0,60 m."
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Covas",
+   "ensaio": "Adubação mínima por cova",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada cova",
+   "criterio": "150 g calcário + 120 g NPK 10-20-10 (+5 % S + Zn, B) + 1.000 g adubo orgânico, ou conforme análise do solo",
+   "secao": "5.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Plantio",
+   "ensaio": "Espaçamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na locação",
+   "criterio": "Árvores ≥ 5 × 5 m (400 covas/ha); arbustos ≥ 3 × 3 m (≈ 1.100 covas/ha)",
+   "secao": "5.4.1 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Irrigação",
+   "ensaio": "Volume e frequência",
+   "citado": null,
+   "norma": null,
+   "frequencia": "3 vezes por semana no 1º mês; 2 vezes por semana depois",
+   "criterio": "≥ 5 L por cova, nas horas frescas, até o pegamento",
+   "secao": "5.4.1 a / e"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Tutoramento",
+   "ensaio": "Proteção das mudas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após o plantio",
+   "criterio": "Tripé de estacas ou 4 estacas com 1,60 m de altura livre",
+   "secao": "5.4.1 f"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Manutenção",
+   "ensaio": "Adubação das mudas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "≥ 2 vezes por ano",
+   "criterio": "1ª com 3 kg de esterco curtido por muda + adubo químico; 2ª com adubo químico",
+   "secao": "5.4.1 d"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Mudas plantadas",
+   "ensaio": "Reposição de mudas mortas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "3 meses após o plantio",
+   "criterio": "Substituição das mudas mortas ou doentes sem ônus ao DNIT",
+   "secao": "5.4.1 e / 8"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Desenvolvimento vegetativo",
+   "ensaio": "Brotamento e crescimento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Inspeções visuais da Fiscalização",
+   "criterio": "Mudas estabelecidas (brotamento verificado); substituição das que não vingarem",
+   "secao": "6 / 7 / 8"
+  }
+ ],
+ "notas": [
+  "Controle visual pela Fiscalização do desenvolvimento vegetativo; só são medidas as mudas efetivamente estabelecidas.",
+  "A parte de viveiro (5.4.2) é descritiva (instalações, operação) e não gera itens de controle."
+ ]
+}

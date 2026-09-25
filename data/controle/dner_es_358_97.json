@@ -1,0 +1,69 @@
+{
+ "es": "dner-es-358-97",
+ "servico": "Edificações – instalações de água",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos e conexões",
+   "ensaio": "Embalagens originais invioladas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Embalagens originais e invioladas",
+   "secao": "6.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Colunas aparentes",
+   "ensaio": "Fixação por braçadeiras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Braçadeiras a cada 3,0 m, no mínimo",
+   "secao": "5.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Rede de distribuição",
+   "ensaio": "Declividade",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "≥ 2 % no sentido do escoamento, sem trechos inversos",
+   "secao": "5.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Tubulação enterrada",
+   "ensaio": "Recobrimento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "≥ 0,5 m sob vias trafegáveis; ≥ 0,3 m nos demais casos",
+   "secao": "5.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Geometria",
+   "ensaio": "Alinhamentos, cotas e dimensões",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a execução",
+   "criterio": "Conforme projeto",
+   "secao": "6.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Tubulações de distribuição",
+   "ensaio": "Prova de pressão interna (estanqueidade)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes de pintura, fechamento de rasgos ou isolamento térmico",
+   "criterio": "Água a 1,5 × pressão estática máxima, nunca < 1 kgf/cm² em ponto algum; duração ≥ 6 h, sem vazamentos",
+   "secao": "6.3.1 / 6.3.2"
+  }
+ ],
+ "notas": [
+  "Trabalhos que não atendam à ES são rejeitados e refeitos pela executante, sem ônus para o contratante."
+ ]
+}

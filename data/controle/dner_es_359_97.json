@@ -1,0 +1,150 @@
+{
+ "es": "dner-es-359-97",
+ "servico": "Edificações – instalações de esgoto e águas pluviais",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos e conexões",
+   "ensaio": "Embalagens originais invioladas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Embalagens originais e invioladas",
+   "secao": "7.1.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Ramais e subcoletores",
+   "ensaio": "Declividade mínima",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Ramais de descarga ≥ 2 %; ramais de esgoto/subcoletores: Ø ≤ 100 mm 2,0 %; 125 mm 1,2 %; 150 mm 0,7 %; 200 mm 0,5 %; ≥ 250 mm 0,4 %",
+   "secao": "5.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Tubulação enterrada",
+   "ensaio": "Recobrimento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "≥ 0,5 m sob vias trafegáveis; ≥ 0,3 m nos demais casos",
+   "secao": "5.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Colunas aparentes",
+   "ensaio": "Fixação por braçadeiras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Braçadeiras a cada 3,0 m, no mínimo",
+   "secao": "5.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Emendas",
+   "ensaio": "Tipo de junta por material",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a execução",
+   "criterio": "Conforme 5.12 da ES",
+   "secao": "7.2.1 / 5.12"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Ralos e grelhas",
+   "ensaio": "Área dos furos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Soma das seções dos furos ≥ seção do conduto/ramal",
+   "secao": "5.15"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Ventilação",
+   "ensaio": "Alturas dos ventiladores",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Ligação ≥ 15 cm acima do nível máximo d'água do aparelho mais alto; acima da cobertura ≥ 0,3 m (telhado) ou ≥ 2,0 m (laje utilizada); a < 4,0 m de janela/porta, ≥ 1,0 m acima da verga",
+   "secao": "5.17.2 / 5.17.4 / 5.17.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Fossa séptica",
+   "ensaio": "Localização",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na locação",
+   "criterio": "Afastamento ≥ 20,0 m de qualquer manancial",
+   "secao": "5.19 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Valas de infiltração",
+   "ensaio": "Geometria das valas",
+   "citado": "ABNT NBR 7229/93",
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Profundidade 0,4 a 0,9 m; largura ≥ 0,5 m; tubos Ø ≥ 0,1 m; declividade 1:300 a 1:500; ≥ 2 valas; comprimento ≤ 30,0 m; espaçamento ≥ 1,0 m",
+   "secao": "5.22"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Sumidouros",
+   "ensaio": "Tampa e profundidade",
+   "citado": "ABNT NBR 7220/87 (sic)",
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Laje no nível do terreno com abertura de inspeção ≥ 0,60 m; fundo sem atingir o lençol freático",
+   "secao": "5.23.1 / 5.23.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Valas de filtração",
+   "ensaio": "Geometria das valas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Profundidade 1,2 a 1,5 m; largura 0,5 m; tubos Ø 0,10 m; declividade 1:300 a 1:500; ≥ 8,0 m por pessoa; ≥ 2 valas",
+   "secao": "5.24"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Geometria",
+   "ensaio": "Cotas, alinhamentos e dimensões",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a execução",
+   "criterio": "Conforme projeto",
+   "secao": "7.2.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Tubulações de esgoto",
+   "ensaio": "Prova de estanqueidade (água ou ar comprimido)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes da instalação dos aparelhos",
+   "criterio": "Pressão ≥ 3,0 m.c.a. mantida por 15 min, sem vazamento",
+   "secao": "7.3.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Tubulações de esgoto",
+   "ensaio": "Prova de fumaça",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após a colocação dos aparelhos",
+   "criterio": "Pressão ≥ 25,0 m.c.a. (sic) mantida por 15 min, sem escape",
+   "secao": "7.3.1",
+   "obs": "Valor da ES incoerente com a prova de água (3 m.c.a.); a prova de fumaça usual é de 25 mm c.a."
+  }
+ ],
+ "notas": [
+  "Trabalhos que não atendam à ES são rejeitados e refeitos pela executante, sem ônus para o contratante."
+ ]
+}

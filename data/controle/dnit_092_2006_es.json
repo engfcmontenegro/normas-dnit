@@ -1,0 +1,21 @@
+{
+  "es": "dnit-092-2006-es",
+  "servico": "Juntas de dilatação",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Junta aberta sem proteção", "ensaio": "Recuperação dos cantos", "citado": null, "norma": null, "frequencia": "Em cada junta", "criterio": "Argamassa polimérica de alta resistência; tempo de cura respeitado com tráfego interrompido", "secao": "5.1"},
+    {"etapa": "execucao", "grupo": "Junta aberta com cantoneiras", "ensaio": "Cantoneiras e fixação", "citado": null, "norma": null, "frequencia": "Em cada junta", "criterio": "Demolição/reconstrução do trecho de laje; cantoneiras novas (4\" × 4\" × 1,0 cm) com comprimento ≤ 2,00 m, completamente assentadas no concreto novo, com parafusos novos; cura com tráfego interrompido", "secao": "5.1 / 6 j"},
+    {"etapa": "materiais", "grupo": "Concreto e armadura", "ensaio": "Resistência e aço", "citado": null, "norma": null, "frequencia": "Na dosagem / recebimento", "criterio": "Concreto fck = 30 MPa; aço CA 50", "secao": "6 f, h / 9"},
+    {"etapa": "execucao", "grupo": "Junta de asfalto", "ensaio": "Funcionamento", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Só para movimentações ≈ 1 cm; com mau funcionamento, substituir por junta de neoprene", "secao": "5.2.2"},
+    {"etapa": "execucao", "grupo": "Junta de compressão", "ensaio": "Bloco de neoprene e perfis", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Bloco descolado ou sem elasticidade → substituir; perfis descalçados, empenados ou corroídos → procedimento das juntas abertas", "secao": "5.2.3"},
+    {"etapa": "execucao", "grupo": "Junta em fita de neoprene", "ensaio": "Integridade da fita", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Fita abaixo do nível do pavimento e sem detritos; ruptura → substituir por outra igual", "secao": "5.2.4"},
+    {"etapa": "execucao", "grupo": "Junta JEENE", "ensaio": "Câmara elástica", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Adequada para aberturas ≈ 6 cm; recuperação por substituição da câmara elástica", "secao": "5.2.5"},
+    {"etapa": "execucao", "grupo": "Junta de blocos de neoprene e chapas de aço", "ensaio": "Berços, parafusos e reentrâncias", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Reentrâncias superiores livres de detritos; verificar trincas nos berços, parafusos desapertados, desgaste, rasgos e vazamentos; módulos de 1,00 m; recuperação preferencialmente pelo fabricante", "secao": "5.2.6"},
+    {"etapa": "execucao", "grupo": "Junta modular expansível", "ensaio": "Estruturas auxiliares", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Verificar estruturas de suporte dos apoios intermediários dos módulos, além dos cuidados das juntas de fita e de compressão", "secao": "5.2.7"},
+    {"etapa": "execucao", "grupo": "Junta denteada (finger joint)", "ensaio": "Fixação, soldas, dentes e calha", "citado": null, "norma": null, "frequencia": "Na inspeção", "criterio": "Chapas firmemente fixadas; soldas sem trincas; dentes encaixados; sem corrosão; calha inferior coletando e escoando as águas", "secao": "5.2.8"},
+    {"etapa": "produto", "grupo": "Junta concluída", "ensaio": "Inspeção final", "citado": null, "norma": null, "frequencia": "Na conclusão e periodicamente", "criterio": "Sem acúmulo de pedras/detritos, vazamentos ou ruídos à passagem dos veículos; face inferior inspecionada; recapeamentos sem degraus e sem obstruir as juntas; transição suave", "secao": "4 a, d, e, g"}
+  ],
+  "notas": [
+    "A ES não prevê ensaios tecnológicos: exige acompanhamento constante de engenheiro capacitado e recomenda execução pelos fabricantes (7, 8).",
+    "Serviços não conformes devem ser refeitos antes do prosseguimento (8)."
+  ]
+}

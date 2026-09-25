@@ -1,0 +1,122 @@
+{
+ "es": "dnit-096-2006-es",
+ "servico": "Bueiros de concreto tipo minitúnel sem interrupção do tráfego",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto das peças pré-moldadas e laje in loco",
+   "ensaio": "Dosagem",
+   "citado": "ABNT NBR 12655",
+   "norma": null,
+   "frequencia": "Na dosagem (experimental)",
+   "criterio": "fck ≥ 50 MPa aos 28 dias",
+   "secao": "B.2.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Aço",
+   "ensaio": "Classe do aço",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "CA-50 e CA-60",
+   "secao": "B.2.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Argamassa de rejuntamento",
+   "ensaio": "Traço",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na preparação",
+   "criterio": "1:3 com adições minerais e/ou aditivos (ou graute fluido/autoadensável); rejunte impermeável",
+   "secao": "B.2.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material de enchimento",
+   "ensaio": "Composição",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na preparação",
+   "criterio": "Argamassa fluida de solo argiloso, cimento e água",
+   "secao": "B.2.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto de bocas, alas, testas e berços",
+   "ensaio": "Dosagem",
+   "citado": "DNER-ES 330/97, ABNT NBR 6118/03 e NBR 7187/03",
+   "norma": null,
+   "norma_atual": "dnit-117-2009-es",
+   "frequencia": "Na dosagem",
+   "criterio": "fck ≥ 15 MPa aos 28 dias",
+   "secao": "B.2.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Terreno",
+   "ensaio": "Sondagem a percussão (SPT) e nível freático",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes da execução",
+   "criterio": "Obrigatória; orienta escoramento, rebaixamento e consolidação",
+   "secao": "B.4 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Montagem",
+   "ensaio": "Declividade e alinhamento (nível a laser)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "A cada etapa de montagem",
+   "criterio": "Conforme projeto",
+   "secao": "4 / B.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Escavação",
+   "ensaio": "Profundidade de avanço",
+   "citado": null,
+   "norma": null,
+   "frequencia": "A cada avanço",
+   "criterio": "≈ comprimento de uma peça (terrenos fracos, pouco coesivos) até 2 m (terrenos coesivos)",
+   "secao": "B.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto",
+   "ensaio": "Resistência à compressão aos 7 dias",
+   "citado": "ABNT NBR 6118",
+   "norma": null,
+   "frequencia": "Controle assistemático (CPs rompidos aos 7 dias)",
+   "criterio": "Correlação 7/28 dias estabelecida previamente",
+   "secao": "B.7",
+   "obs": "NBR 6118 é norma de projeto; o ensaio de compressão é a NBR 5739 (listada na seção 2)"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Alinhamento, esconsidade, declividade, comprimentos e cotas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Topografia, acompanhando as Notas de Serviço",
+   "criterio": "Conforme projeto",
+   "secao": "4 / B.6"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Dimensões das seções transversais",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Levantamento topográfico/gabaritos",
+   "criterio": "Desvio ≤ 1 % em relação ao projeto, em pontos isolados",
+   "secao": "B.8"
+  }
+ ],
+ "notas": [
+  "Instalação por firma credenciada pelo fabricante (B.2.1).",
+  "Seções internas limite: 0,80 × 1,40 m a 2,20 × 2,60 m (3)."
+ ]
+}

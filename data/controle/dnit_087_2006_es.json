@@ -1,0 +1,26 @@
+{
+  "es": "dnit-087-2006-es",
+  "servico": "Execução e acabamento do concreto projetado",
+  "itens": [
+    {"etapa": "materiais", "grupo": "Concreto projetado", "ensaio": "Materiais, requisitos, estudos prévios e controle", "citado": "ABNT NBR 14026/1997", "norma": null, "frequencia": "Conforme NBR 14026", "criterio": "Conforme ABNT NBR 14026/1997", "secao": "5.1 a 5.5"},
+    {"etapa": "materiais", "grupo": "Areia", "ensaio": "Granulometria", "citado": null, "norma": null, "frequencia": "No recebimento", "criterio": "Granulometria contínua, nem muito fina (slump) nem muito grossa (rebound)", "secao": "5.6 c"},
+    {"etapa": "materiais", "grupo": "Dosagem", "ensaio": "Relação água/cimento", "citado": null, "norma": null, "frequencia": "Na dosagem", "criterio": "Entre 0,35 e 0,50", "secao": "5.6 d"},
+    {"etapa": "materiais", "grupo": "Dosagem", "ensaio": "Resistência do concreto/argamassa projetada", "citado": null, "norma": null, "frequencia": "Na dosagem", "criterio": "≥ 1,2 × resistência do substrato (pelo menos 20 % maior)", "secao": "5.6 e"},
+    {"etapa": "materiais", "grupo": "Equipe", "ensaio": "Qualificação do mangoteiro", "citado": "ABNT NBR 13597", "norma": null, "frequencia": "Antes do início", "criterio": "Encarregado e mangoteiro qualificados", "secao": "6.1.5 / 2.1 e"},
+    {"etapa": "execucao", "grupo": "Substrato", "ensaio": "Remoção do concreto contaminado e preparo", "citado": null, "norma": null, "frequencia": "Antes da projeção", "criterio": "Remover até concreto são (no mínimo todo o cobrimento), arredondar arestas, jatear com areia; se preparado dias antes, limpar e umedecer novamente", "secao": "5.6 f / 7 b"},
+    {"etapa": "execucao", "grupo": "Armadura", "ensaio": "Limpeza e perda de seção", "citado": null, "norma": null, "frequencia": "Antes da projeção", "criterio": "Limpeza com escova de aço ou jato de areia; redução de seção > 10 % → barra substituída; armadura nova envolvida em pasta de cimento", "secao": "5.6 g"},
+    {"etapa": "execucao", "grupo": "Armadura adicional", "ensaio": "Ligação e espaçamento", "citado": null, "norma": null, "frequencia": "Antes da projeção", "criterio": "Preferencialmente soldada à existente; se por traspasse, distância ≥ 2 Ø das outras barras", "secao": "5.6 h"},
+    {"etapa": "execucao", "grupo": "Projeção", "ensaio": "Espessura por camada", "citado": null, "norma": null, "frequencia": "Em cada aplicação", "criterio": "25 a 40 mm por operação (5.6 i); em faces inferiores elevadas, camadas de 25 a 50 mm (7 d); camada seguinte após início de pega, sem endurecimento, sobre superfície úmida", "secao": "5.6 i / 7 d"},
+    {"etapa": "execucao", "grupo": "Projeção", "ensaio": "Condições meteorológicas", "citado": null, "norma": null, "frequencia": "Antes e durante a aplicação", "criterio": "Não aplicar com temperatura < 10 °C ou > 35 °C, ventos fortes ou chuvas intensas", "secao": "5.6 k"},
+    {"etapa": "execucao", "grupo": "Projeção", "ensaio": "Distância bico–substrato e rebound", "citado": null, "norma": null, "frequencia": "Durante a aplicação", "criterio": "Distância ≈ 25 cm; rebound minimizado e nunca reaproveitado", "secao": "7 e / 9"},
+    {"etapa": "execucao", "grupo": "Cura", "ensaio": "Duração da cura", "citado": null, "norma": null, "frequencia": "Após a projeção", "criterio": "Cura adequada ≥ 10 dias", "secao": "5.6 j"},
+    {"etapa": "produto", "grupo": "Acabamento", "ensaio": "Acabamento desempenado", "citado": null, "norma": null, "frequencia": "Na conclusão", "criterio": "Só sobre camada fina (≈ 6 mm) e bem úmida de argamassa projetada; via seca: preferível acabamento natural", "secao": "8"},
+    {"etapa": "produto", "grupo": "Resistência", "ensaio": "Resistência à compressão", "citado": "ABNT NBR 14026/1997", "norma": null, "frequencia": "Campo amostral e frequência em função do volume projetado e da duração de cada etapa", "criterio": "Testemunhos extraídos de placas de controle moldadas concomitantemente à projeção e, quando viável, da estrutura; atender ao projeto e à NBR 14026", "secao": "11"},
+    {"etapa": "produto", "grupo": "Espessura", "ensaio": "Espessura aplicada", "citado": "ABNT NBR 14026/1997", "norma": null, "frequencia": "Quando cabível", "criterio": "Avaliada por testemunho extraído da estrutura; conforme projeto", "secao": "11 a"},
+    {"etapa": "produto", "grupo": "Aspecto", "ensaio": "Fissuras, acabamento, segregação e infiltrações", "citado": "ABNT NBR 14026/1997", "norma": null, "frequencia": "Quando cabível", "criterio": "Identificar fissuras e avaliar efeitos estruturais, funcionais e de durabilidade; verificar acabamento, segregação e infiltrações d'água", "secao": "11 b–d"}
+  ],
+  "notas": [
+    "O item 11 transcreve o item 7 (Aceitação e rejeição) da ABNT NBR 14026/1997: a estrutura é rejeitada quando não atende aos requisitos do projeto específico.",
+    "A ES remete materiais, requisitos de projeto e execução, estudos prévios e controle da qualidade à NBR 14026 (não está no acervo)."
+  ]
+}

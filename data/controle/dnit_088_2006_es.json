@@ -1,0 +1,17 @@
+{
+  "es": "dnit-088-2006-es",
+  "servico": "Dispositivos de segurança lateral: guarda-rodas, guarda-corpos e barreiras",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Guarda-rodas", "ensaio": "Recomposição de trincas, quebras e desgaste", "citado": "DNIT 089/2006-ES", "norma": "dnit-089-2006-es", "frequencia": "Em cada peça recuperada", "criterio": "Argamassa de cimento e areia traço 1:3, com acabamento; incluir pingadeiras em placas pré-moldadas (DNIT 089/2006-ES)", "secao": "5.1.1 / 5.1.2"},
+    {"etapa": "execucao", "grupo": "Guarda-rodas de peso aliviado (0,90 m)", "ensaio": "Estado do concreto e da armadura da face interna", "citado": null, "norma": null, "frequencia": "Antes da recuperação", "criterio": "Atenção especial à corrosão e à ancoragem da armadura da peça vertical (risco de colapso do trecho)", "secao": "5.1.2"},
+    {"etapa": "execucao", "grupo": "Guarda-corpos de concreto", "ensaio": "Substituição ou recuperação", "citado": null, "norma": null, "frequencia": "Em cada peça", "criterio": "Peças pré-moldadas padrão DNIT (comprimento básico 2,00 m); preferir substituição quando houver peças em estoque", "secao": "5.2.1"},
+    {"etapa": "execucao", "grupo": "Guarda-corpo metálico – ambiente pouco agressivo", "ensaio": "Preparação e espessura de película seca", "citado": null, "norma": null, "frequencia": "Em cada demão", "criterio": "Lixamento ou solvente (St 1 ou SP 1); 2 demãos de primer alquídico com 30 µm/demão; 2 demãos de esmalte sintético com 30 µm/demão", "secao": "5.2.2 a"},
+    {"etapa": "execucao", "grupo": "Guarda-corpo metálico – ambiente agressivo", "ensaio": "Preparação e espessura de película seca", "citado": null, "norma": null, "frequencia": "Em cada demão", "criterio": "Jato abrasivo quase branco Sa 2½; 1 demão de primer epoxídico com 120 µm; 2 demãos de esmalte epoxídico com 40 µm/demão", "secao": "5.2.2 b"},
+    {"etapa": "execucao", "grupo": "Guarda-corpo metálico – ambiente muito agressivo", "ensaio": "Preparação e espessura de película seca", "citado": null, "norma": null, "frequencia": "Em cada demão", "criterio": "Jato abrasivo quase branco Sa 2½; 1 demão de primer epoxídico com 120 µm; 1 demão de esmalte epoxídico com 120 µm", "secao": "5.2.2 c"},
+    {"etapa": "execucao", "grupo": "Barreiras New Jersey", "ensaio": "Recuperação ou substituição", "citado": null, "norma": null, "frequencia": "Em cada trecho", "criterio": "Recuperação artesanal (trincas, corrosão, desplacamentos); substituição integral em trechos muito deteriorados", "secao": "5.3"}
+  ],
+  "notas": [
+    "Os serviços têm acompanhamento contínuo e são considerados conformes ou não conformes em cada etapa; os não conformes devem ser refeitos (7).",
+    "A ES não prevê ensaios tecnológicos."
+  ]
+}

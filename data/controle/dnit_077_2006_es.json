@@ -1,0 +1,72 @@
+{
+ "es": "dnit-077-2006-es",
+ "servico": "Cerca viva ou de tela para proteção da fauna",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Mudas de cerca viva",
+   "ensaio": "Produção, plantio e manutenção",
+   "citado": "DNIT 073/2006-ES",
+   "norma": "dnit-073-2006-es",
+   "outras": [
+    "dnit-076-2006-es"
+   ],
+   "frequencia": "Conforme DNIT 073/2006-ES",
+   "criterio": "Espécies: sabiá-do-campo ou ora-pro-nóbis; conforme DNIT 073/2006-ES e 076/2006-ES",
+   "secao": "5 / 5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Telas de arame galvanizado e placas",
+   "ensaio": "Especificação do fabricante",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme catálogos técnicos; malha função das espécies cadastradas",
+   "secao": "3.2 / 5.1.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Cerca de tela",
+   "ensaio": "Extensão",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na locação",
+   "criterio": "100 m para cada lado da passagem de fauna",
+   "secao": "5.4.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Cerca de tela",
+   "ensaio": "Altura e malhas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Altura 2 m; 50 cm inferiores com malha quadrada de 2,0 cm ou placa pré-moldada (h ≈ 30 cm); restante malha de 10 cm",
+   "secao": "5.4.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Cerca viva",
+   "ensaio": "Inspeção do desenvolvimento vegetativo",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Mensal",
+   "criterio": "Germinação e crescimento conforme projeto; substituição de mudas doentes ou mortas",
+   "secao": "6"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Mudas plantadas",
+   "ensaio": "Estabelecimento das mudas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Para a 2ª medição",
+   "criterio": "100 % das mudas estabelecidas; as que não vingarem são substituídas sem ônus",
+   "secao": "7 / 8"
+  }
+ ],
+ "notas": [
+  "Para as telas de arame, a norma remete genericamente a “normas específicas do DNIT”, sem citá-las."
+ ]
+}

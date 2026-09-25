@@ -1,0 +1,34 @@
+{
+  "es": "dnit-120-2009-es",
+  "servico": "Pontes e viadutos – Fôrmas",
+  "itens": [
+    {"etapa": "materiais", "grupo": "Madeira em tábuas", "ensaio": "Inspeção das tábuas",
+     "citado": null, "norma": null,
+     "frequencia": "No recebimento", "criterio": "Sem nós de tamanho prejudicial; madeira nem muito seca nem muito verde; de exploração aprovada", "secao": "5.2.1 / 6 / 7.1"},
+    {"etapa": "materiais", "grupo": "Madeira compensada", "ensaio": "Resistência à água e à pressão do concreto",
+     "citado": null, "norma": null,
+     "frequencia": "No recebimento", "criterio": "Resistência à água e à pressão do concreto comprovadas", "secao": "7.1"},
+    {"etapa": "execucao", "grupo": "Projeto", "ensaio": "Aprovação do projeto de fôrmas",
+     "citado": null, "norma": null,
+     "frequencia": "Antes do início da construção", "criterio": "Projeto completo apresentado à Fiscalização, considerando pressão lateral do concreto, vento e sobrecargas, com forma, prazo e condições de remoção", "secao": "4 / 5.1 / 5.4"},
+    {"etapa": "execucao", "grupo": "Montagem", "ensaio": "Dimensões, nivelamento, alinhamento e verticalidade",
+     "citado": "ABNT NBR 6118", "norma": null,
+     "frequencia": "Antes, durante e após a concretagem", "criterio": "Dentro das tolerâncias da seção 11 da NBR 6118:2007 (como citado); fôrmas só entram em carga após liberação da Fiscalização", "obs": "As tolerâncias de fôrmas estão, de fato, na ABNT NBR 14931", "secao": "4 / 7.2"},
+    {"etapa": "execucao", "grupo": "Tirantes", "ensaio": "Obturação dos furos dos tirantes",
+     "citado": null, "norma": null,
+     "frequencia": "Após a desforma", "criterio": "Espessura de obturação ≥ cobrimento adotado", "secao": "5.3.2"},
+    {"etapa": "execucao", "grupo": "Fôrmas deslizantes", "ensaio": "Cobrimento adicional das armaduras",
+     "citado": null, "norma": null,
+     "frequencia": "No projeto/montagem das armaduras", "criterio": "Cobrimento acrescido de 2,5 cm", "condicao": "uso de fôrmas deslizantes", "secao": "5.6.1"},
+    {"etapa": "execucao", "grupo": "Desforma", "ensaio": "Prazo mínimo de retirada das fôrmas",
+     "citado": "ACI 347 e ABNT NBR 6118", "norma": null,
+     "frequencia": "Em cada desforma", "criterio": "Adotar o mais longo entre NBR 6118 e ACI 347: laterais de paredes, colunas e vigas 12 h; fundo de vigas com vão < 3 m: 7 dias (4 se carga móvel > permanente); 3 a 6 m: 14 dias (7); > 6 m: 10 dias (7) [valores do texto]", "obs": "Os prazos para vãos > 6 m (10 dias) são menores que os de 3–6 m (14 dias); no ACI 347 são 21/14 dias", "secao": "5.5 / 7.2"},
+    {"etapa": "produto", "grupo": "Fôrmas", "ensaio": "Aceitação das fôrmas",
+     "citado": null, "norma": null,
+     "frequencia": "Antes da concretagem", "criterio": "Rejeitar fôrmas frágeis, não estanques ou com defeitos que ponham a obra em risco", "secao": "7.3"}
+  ],
+  "notas": [
+    "Projeto, execução e remoção das fôrmas são de responsabilidade do construtor; fôrmas e escoramentos formam sistema interdependente (ver DNIT 124/2009-ES).",
+    "A norma não fixa ensaios de laboratório: o controle é essencialmente geométrico e de prazos de desforma."
+  ]
+}

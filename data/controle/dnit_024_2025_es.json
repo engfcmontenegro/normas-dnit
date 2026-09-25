@@ -1,0 +1,143 @@
+{
+ "es": "dnit-024-2025-es",
+ "servico": "Bueiros metálicos sem interrupção do tráfego (tunnel liner)",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Chapas metálicas corrugadas e elementos de fixação",
+   "ensaio": "Certificados de qualidade",
+   "citado": "ABNT NBR 16091",
+   "norma": null,
+   "frequencia": "No recebimento (cada fornecimento)",
+   "criterio": "Certificados atestando as normas do tipo de aço; galvanizadas (baixa agressividade) ou com epóxi (meio agressivo), fixações com o mesmo tratamento",
+   "secao": "5.1.1 / 5.1.2 / 8.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Argamassa de solo-cimento autoadensável",
+   "ensaio": "Especificação da argamassa",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Conforme plano de controle de insumos",
+   "criterio": "Conforme projeto",
+   "secao": "5.1.3 / 8.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Terreno",
+   "ensaio": "Sondagem e levantamento topográfico",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes da escavação",
+   "criterio": "Obrigatórios; definem nível do lençol freático e tipo de escoramento",
+   "secao": "4.2 / 6 b"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Montagem dos anéis",
+   "ensaio": "Alinhamento e nivelamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "A cada 3 anéis montados",
+   "criterio": "Conforme projeto específico",
+   "secao": "6 e"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Montagem dos anéis",
+   "ensaio": "Reaperto dos parafusos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Ao término da implantação",
+   "criterio": "Torque recomendado no projeto ou pelo fabricante; tiras vedantes entre chapas",
+   "secao": "6 d"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Seção transversal",
+   "ensaio": "Controle de deformações",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Passo a passo, na frente de escavação (topografia)",
+   "criterio": "Forma dos segmentos mantida (estroncas, tirantes ou escoramentos telescópicos)",
+   "secao": "8.2.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Superfície",
+   "ensaio": "Instrumentação de recalques",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Conforme projeto",
+   "criterio": "Conforme projeto",
+   "condicao": "quando definido em projeto",
+   "secao": "8.2.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto fresco",
+   "ensaio": "Consistência (abatimento/espalhamento)",
+   "citado": "ABNT NBR 16889 ou ABNT NBR 15823-2",
+   "norma": null,
+   "frequencia": "Quando houver alteração da umidade dos agregados; na 1ª amassada do dia; no reinício após interrupção > 2 h; a cada moldagem de corpos de prova; na troca de operadores",
+   "criterio": "Conforme dosagem aprovada",
+   "condicao": "quando houver revestimento interno em concreto",
+   "secao": "8.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Alinhamento, esconsidade, declividade, comprimentos e cotas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Topografia, acompanhando as Notas de Serviço",
+   "criterio": "Conforme projeto",
+   "secao": "8.2.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Dimensões das seções transversais",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Levantamento topográfico/gabaritos, acompanhando as Notas de Serviço",
+   "criterio": "Desvio ≤ 1 % em relação ao projeto, em pontos isolados",
+   "secao": "8.2.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessuras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Todas as medidas efetuadas",
+   "criterio": "Dentro de ± 10 % da espessura de projeto",
+   "secao": "8.2.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Acabamento",
+   "ensaio": "Inspeção visual do acabamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em todos os dispositivos executados",
+   "criterio": "Sem defeitos que prejudiquem a operação hidráulica da canalização",
+   "secao": "8.2.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Concreto",
+   "ensaio": "Resistência à compressão aos 28 dias",
+   "citado": "ABNT NBR 5739, NBR 6118 e NBR 12655",
+   "norma": null,
+   "frequencia": "Conforme plano prévio de retirada de corpos de prova (ABNT NBR 12655)",
+   "criterio": "Conforme projeto (NBR 12655)",
+   "condicao": "quando houver revestimento interno em concreto",
+   "secao": "8.1"
+  }
+ ],
+ "notas": [
+  "Serviços não executados em dias de chuva; atender NR-18, NR-33 e ABNT NBR 9061 (4.5).",
+  "Plano de controle dos insumos (chapas e argamassa de solo-cimento) estabelecido previamente (8.1)."
+ ]
+}

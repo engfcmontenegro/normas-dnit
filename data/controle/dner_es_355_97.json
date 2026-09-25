@@ -1,0 +1,59 @@
+{
+ "es": "dner-es-355-97",
+ "servico": "Edificações – vidraçaria",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Vidros",
+   "ensaio": "Inspeção visual no recebimento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Dimensões de fornecimento; bordas de corte esmerilhadas, sem arestas estilhaçadas",
+   "secao": "6 / 5.2 / 5.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Vidros em faces externas",
+   "ensaio": "Altura mínima e tipo de vidro",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Acima do térreo, sem proteção: vidro comum só a ≥ 0,90 m do piso, abaixo disso vidro de segurança (laminado ou aramado); internamente, recozido a ≥ 0,10 m do piso",
+   "secao": "5.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Assentamento em caixilho",
+   "ensaio": "Calços e folga",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Apoio em 2 calços a 1/3 do vão das extremidades; folga de 3,0 a 5,0 mm entre vidro e esquadria; gaxetas de neoprene ou baguetes baixos",
+   "secao": "5.7"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Vidros lisos comuns",
+   "ensaio": "Orientação das ondulações",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Ondulações na horizontal",
+   "secao": "5.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Instalação",
+   "ensaio": "Inspeção visual",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão",
+   "criterio": "Conforme projeto",
+   "secao": "6"
+  }
+ ],
+ "notas": [
+  "Controle do recebimento e da instalação exclusivamente visual (6)."
+ ]
+}

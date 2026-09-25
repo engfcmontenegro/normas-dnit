@@ -1,0 +1,19 @@
+{
+  "es": "dnit-116-2009-es",
+  "servico": "Pontes e viadutos – Serviços preliminares",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Canteiro de obra", "ensaio": "Escolha e preparo do terreno do canteiro",
+     "citado": null, "norma": null,
+     "frequencia": "Antes da instalação do canteiro", "criterio": "Terreno livre de enchentes, drenado e com boa capacidade de suporte; desmatado, limpo, sem poças, nivelado e cercado", "secao": "5.2.1"},
+    {"etapa": "execucao", "grupo": "Canteiro de obra", "ensaio": "Instalações do canteiro",
+     "citado": null, "norma": null,
+     "frequencia": "Na instalação do canteiro", "criterio": "Compartimentos independentes; alojamentos com energia elétrica, água corrente e esgoto sanitário; centro médico de urgência", "secao": "5.2.2"},
+    {"etapa": "execucao", "grupo": "Locação", "ensaio": "Locação da obra (eixo longitudinal e referências de nível)",
+     "citado": null, "norma": null,
+     "frequencia": "Antes do início da construção", "criterio": "Conforme projeto, materializada e complementada pelo executante; tolerâncias com base no Manual de Projeto de OAE (IPR Publ. 698)", "secao": "5.4 / 7.1"}
+  ],
+  "notas": [
+    "A norma não traz ensaios nem frequências numéricas: o controle dos serviços preliminares é feito com base no Manual de Projeto de Obras-de-Arte Especiais (IPR Publ. 698), estabelecendo-se as tolerâncias admitidas (7.1).",
+    "Ensaios e verificações conforme o Plano da Qualidade (PGQ) e a DNIT 011/2004-PRO, com registro em relatórios periódicos e tratamento das não-conformidades (7.2)."
+  ]
+}

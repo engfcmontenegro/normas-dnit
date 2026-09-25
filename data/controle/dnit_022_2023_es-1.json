@@ -1,0 +1,100 @@
+{
+ "es": "dnit-022-2023-es",
+ "servico": "Dissipadores de energia",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto",
+   "ensaio": "Dosagem",
+   "citado": "ABNT NBR 12655",
+   "norma": null,
+   "frequencia": "Na dosagem (racional e experimental)",
+   "criterio": "fck ≥ 20 MPa aos 28 dias",
+   "secao": "5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Armadura",
+   "ensaio": "Especificação do aço",
+   "citado": "ABNT NBR 7480",
+   "norma": null,
+   "frequencia": "No recebimento (plano de amostragem prévio)",
+   "criterio": "Classe CA-50",
+   "secao": "5.1.2 / 7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Pedra de mão",
+   "ensaio": "Qualidade e dimensão",
+   "citado": "ABNT NBR 7211",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Rocha sã e estável com os requisitos da brita para concreto (NBR 7211); diâmetro 15 a 25 cm",
+   "secao": "5.1.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto fresco",
+   "ensaio": "Consistência (abatimento/espalhamento)",
+   "citado": "ABNT NBR 16889 ou ABNT NBR 15823-2",
+   "norma": null,
+   "frequencia": "Quando houver alteração da umidade dos agregados; na 1ª amassada do dia; no reinício após interrupção > 2 h; a cada moldagem de corpos de prova; na troca de operadores",
+   "criterio": "Conforme dosagem aprovada",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Caixa de pedras",
+   "ensaio": "Camada de concreto de fixação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Camada de 10 cm de concreto fck 20 MPa; pedras (Ø 15–25 cm) arrumadas antes do início da cura",
+   "secao": "5.3.2 f / g"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Dimensões das seções transversais",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Levantamento topográfico/gabaritos, acompanhando as Notas de Serviço",
+   "criterio": "Desvio ≤ 1 % em relação ao projeto, em pontos isolados",
+   "secao": "7.2.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessuras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Todas as medidas efetuadas",
+   "criterio": "Dentro de ± 10 % da espessura de projeto",
+   "secao": "7.2.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Acabamento",
+   "ensaio": "Inspeção visual do acabamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em todos os dispositivos executados",
+   "criterio": "Sem defeitos que prejudiquem a operação hidráulica do dispositivo",
+   "secao": "7.2.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Concreto",
+   "ensaio": "Resistência à compressão aos 28 dias",
+   "citado": "ABNT NBR 12655 e DNIT 117-ES",
+   "norma": "dnit-117-2009-es",
+   "frequencia": "Conforme plano prévio de retirada de corpos de prova (ABNT NBR 12655)",
+   "criterio": "fck,est ≥ fck (conformidade); fck,est < fck: não conformidade",
+   "secao": "7.1 / 7.3"
+  }
+ ],
+ "notas": [
+  "Plano de retirada de corpos de prova e de amostras de aço, cimento e agregados deve ser estabelecido previamente (7.1).",
+  "Resultados do controle estatístico e não conformidades registrados em relatórios periódicos conforme DNIT 011-PRO (Gestão da qualidade em obras rodoviárias)."
+ ]
+}

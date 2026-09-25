@@ -1,0 +1,59 @@
+{
+ "es": "dner-es-348-97",
+ "servico": "Edificações – coberturas",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Telhas e madeiramento",
+   "ensaio": "Inspeção visual no recebimento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Madeira peroba-do-campo, ipê, maçaranduba ou equivalente; telhas conforme projeto",
+   "secao": "6.1 / 5.2.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Madeiramento",
+   "ensaio": "Tratamento preservativo",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes da montagem",
+   "criterio": "Toda a estrutura de madeira tratada (resinas sintéticas, pentaclorofenol e naftenato, com repelente à água)",
+   "secao": "5.2.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Telhamento",
+   "ensaio": "Inclinação mínima",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na montagem do madeiramento/estrutura",
+   "criterio": "Alumínio ≥ 10° (17,6 %); cimento-amianto ≥ 3 % (peça única) ou ≥ 9 % (com superposição); cerâmica ≥ 32,4 % (18°) ou ≥ 50 % (26°33') com canais > 5,0 m",
+   "secao": "5.2.12 / 5.2.17 / 5.16"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Telhas de alumínio",
+   "ensaio": "Fixação das telhas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na montagem",
+   "criterio": "Fixadores a ≤ 1,0 m (longitudinal) e a cada 2 ondas (transversal); furo ≤ Ø do parafuso + 0,8 mm; furo a ≥ 40,0 mm da borda; fixadores de alumínio ou aço galvanizado",
+   "secao": "5.2.14 / 5.2.15 / 5.2.18"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Cobertura",
+   "ensaio": "Dimensões, alinhamentos e declividades",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão",
+   "criterio": "Conforme projeto",
+   "secao": "6.2"
+  }
+ ],
+ "notas": [
+  "Recebimento de materiais apenas visual (6.1)."
+ ]
+}

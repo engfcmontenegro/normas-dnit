@@ -1,0 +1,113 @@
+{
+ "es": "dnit-026-2025-es",
+ "servico": "Caixas coletoras, caixas de ligação e passagem e bocas de bueiros",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto",
+   "ensaio": "Dosagem",
+   "citado": "ABNT NBR 12655",
+   "norma": null,
+   "frequencia": "Na dosagem (racional e experimental)",
+   "criterio": "fck conforme projeto",
+   "secao": "5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Aço",
+   "ensaio": "Especificação do aço",
+   "citado": "ABNT NBR 7480",
+   "norma": null,
+   "frequencia": "No recebimento (plano de amostragem prévio)",
+   "criterio": "Categoria CA-50",
+   "condicao": "elementos armados",
+   "secao": "5.1.2 / 7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Grelhas de aço",
+   "ensaio": "Tratamento antioxidante",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Tratamento antioxidante exigido",
+   "condicao": "tampa com grelha de aço",
+   "secao": "5.3.2 Nota 6"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto fresco",
+   "ensaio": "Consistência (abatimento/espalhamento)",
+   "citado": "ABNT NBR 16889 ou ABNT NBR 15823-2",
+   "norma": null,
+   "frequencia": "Quando houver alteração da umidade dos agregados; na 1ª amassada do dia; no reinício após interrupção > 2 h; a cada moldagem de corpos de prova; na troca de operadores",
+   "criterio": "Conforme dosagem aprovada",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Vala",
+   "ensaio": "Escoramento",
+   "citado": "NR-18 / ABNT NBR 9061",
+   "norma": null,
+   "frequencia": "Na escavação",
+   "criterio": "Obrigatório em valas com profundidade > 1,25 m ou solo sujeito a desmoronamento",
+   "secao": "4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Lastro de concreto magro",
+   "ensaio": "Espessura e resistência",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "5 cm, fck ≥ 15 MPa aos 28 dias",
+   "secao": "5.3.2 a / 5.3.3 a"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Dimensões das seções transversais",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Levantamento topográfico/gabaritos, acompanhando as Notas de Serviço",
+   "criterio": "Desvio ≤ 1 % em relação ao projeto, em pontos isolados",
+   "secao": "7.2.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessuras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Todas as medidas efetuadas",
+   "criterio": "Dentro de ± 10 % da espessura de projeto",
+   "secao": "7.2.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Acabamento",
+   "ensaio": "Inspeção visual do acabamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em todos os dispositivos executados",
+   "criterio": "Sem defeitos que prejudiquem a operação hidráulica da canalização",
+   "secao": "7.2.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Concreto",
+   "ensaio": "Resistência à compressão aos 28 dias",
+   "citado": "ABNT NBR 12655 e ABNT NBR 6118",
+   "norma": null,
+   "frequencia": "Conforme plano prévio de retirada de corpos de prova (ABNT NBR 12655)",
+   "criterio": "fck,est ≥ fck (conformidade); fck,est < fck: não conformidade",
+   "secao": "7.1 / 7.3"
+  }
+ ],
+ "notas": [
+  "Serviços não executados em dias de chuva (4).",
+  "Plano de retirada de corpos de prova e de amostras de aço, cimento e agregados deve ser estabelecido previamente (7.1).",
+  "Resultados do controle estatístico e não conformidades registrados em relatórios periódicos conforme DNIT 011-PRO (Gestão da qualidade em obras rodoviárias)."
+ ]
+}

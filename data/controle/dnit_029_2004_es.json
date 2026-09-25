@@ -1,0 +1,60 @@
+{
+ "es": "dnit-029-2004-es",
+ "servico": "Restauração de dispositivos de drenagem danificados",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto e argamassa",
+   "ensaio": "Especificação dos materiais (cimento, brita, areia, água)",
+   "citado": "DNER-ES 330/97",
+   "norma": null,
+   "norma_atual": "dnit-117-2009-es",
+   "frequencia": "No recebimento/preparo",
+   "criterio": "Conforme DNER-ES 330/97",
+   "secao": "5.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Argamassa cimento-areia",
+   "ensaio": "Traço",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na preparação (em betoneira)",
+   "criterio": "1:3 em massa",
+   "secao": "5.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Superfície",
+   "ensaio": "Preparo da superfície",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do lançamento",
+   "criterio": "Limpa, sem fragmentos soltos, apicoada (rugosa), escovada e previamente umedecida",
+   "secao": "5.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Restauração",
+   "ensaio": "Acompanhamento visual",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante o serviço",
+   "criterio": "Conforme Notas de Serviço",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Restauração",
+   "ensaio": "Apreciação visual e controle geométrico",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Ao final do serviço (régua e trena)",
+   "criterio": "Forma original do dispositivo recomposta; local de deposição adequado",
+   "secao": "7.2"
+  }
+ ],
+ "notas": [
+  "Serviços não conformes devem ser refeitos ou complementados (7.3)."
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "es": "dnit-066-2004-es",
+  "servico": "Pavimento com peças pré-moldadas de concreto",
+  "itens": [
+    {"etapa": "materiais", "grupo": "Peças pré-moldadas", "ensaio": "Especificação e dimensões das peças", "citado": "ABNT NBR 9781", "norma": null, "frequencia": "No recebimento", "criterio": "Conforme NBR 9781; formato regular; dimensões mínimas 40 cm (comprimento) × 10 cm (largura) × 6 cm (altura)", "obs": "Dimensões transcritas como na norma", "secao": "5.1.1"},
+    {"etapa": "materiais", "grupo": "Peças pré-moldadas", "ensaio": "Resistência das peças (esclerômetro)", "citado": "ABNT NBR 7584", "norma": null, "frequencia": "No recebimento, com peças de 15 a 60 dias de idade", "criterio": "Conforme NBR 9781", "secao": "5.1.1"},
+    {"etapa": "materiais", "grupo": "Areia ou pó de pedra", "ensaio": "Especificação do material do colchão", "citado": "ABNT NBR 7211", "norma": null, "frequencia": "No recebimento", "criterio": "Conforme NBR 7211", "secao": "5.1.2"},
+    {"etapa": "materiais", "grupo": "Asfalto de rejuntamento", "ensaio": "Tipo do cimento asfáltico", "citado": null, "norma": null, "frequencia": "No recebimento", "criterio": "CAP de penetração 40/50 ou 50/60", "secao": "5.1.3"},
+    {"etapa": "execucao", "grupo": "Sub-base", "ensaio": "Espessura da sub-base", "citado": null, "norma": null, "frequencia": "Antes do colchão", "criterio": "Conforme projeto, nunca < 15 cm; caimentos de drenagem dados na sub-base", "secao": "5.3.2"},
+    {"etapa": "execucao", "grupo": "Colchão de assentamento", "ensaio": "Espessura do colchão de areia ou pó de pedra", "citado": null, "norma": null, "frequencia": "Antes do assentamento", "criterio": "Uniforme, 4 cm após compactado; confinado por guias e sarjetas", "secao": "5.3.3"},
+    {"etapa": "execucao", "grupo": "Assentamento", "ensaio": "Linhas de referência (ponteiros e cordéis)", "citado": null, "norma": null, "frequencia": "Antes do assentamento", "criterio": "Ponteiros no eixo espaçados ≤ 10 m; cordéis nivelados conforme abaulamento de projeto", "secao": "5.3.4.2"},
+    {"etapa": "execucao", "grupo": "Rejuntamento", "ensaio": "Preenchimento das juntas", "citado": null, "norma": null, "frequencia": "Após o acerto das juntas", "criterio": "Pedrisco até ~3/4 da altura, compressão com rolo, asfalto quente até aflorar na superfície", "secao": "5.3.4.4"},
+    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Largura", "citado": null, "norma": null, "frequencia": "Relocação e nivelamento do eixo e bordos a cada 20 m", "criterio": "Variação < ± 10 % da largura de projeto", "secao": "7.2"},
+    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Espessura", "citado": null, "norma": null, "frequencia": "Relocação e nivelamento do eixo e bordos a cada 20 m", "criterio": "Média ≥ espessura de projeto e (máx − mín) ≤ 1 cm", "secao": "7.2"}
+  ],
+  "notas": [
+    "Sem tráfego sobre a pista durante a construção; valetas provisórias para desvio das águas de chuva.",
+    "Medição em m² de pavimentação com as larguras médias do controle geométrico."
+  ]
+}

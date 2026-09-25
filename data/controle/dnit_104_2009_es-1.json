@@ -1,0 +1,31 @@
+{
+  "es": "dnit-104-2009-es",
+  "servico": "Terraplenagem – serviços preliminares (desmatamento, destocamento e limpeza)",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Controle da execução", "ensaio": "Autorização e programação dos serviços",
+     "citado": null, "norma": null,
+     "frequencia": "Sistemática e contínua (Programa de Inspeções)", "criterio": "Execução formalmente autorizada pela Fiscalização; defasagem adequada em relação à terraplenagem e conforme a programação", "secao": "7.1"},
+    {"etapa": "execucao", "grupo": "Faixa de trabalho", "ensaio": "Limites da área desmatada",
+     "citado": null, "norma": null,
+     "frequencia": "Durante a execução", "criterio": "Plataforma: limites dos off-sets + faixa adicional mínima de operação; empréstimos e áreas de apoio: área mínima indispensável", "secao": "5.3.2"},
+    {"etapa": "execucao", "grupo": "Áreas de corte", "ensaio": "Remoção de tocos e raízes",
+     "citado": null, "norma": null,
+     "frequencia": "Durante a limpeza", "criterio": "Camada de 60 cm abaixo do greide projetado totalmente isenta de tocos ou raízes", "secao": "5.3.3"},
+    {"etapa": "execucao", "grupo": "Áreas de aterro", "ensaio": "Remoção da camada vegetal / destocamento",
+     "citado": null, "norma": null,
+     "frequencia": "Durante a limpeza", "criterio": "Cota vermelha < 2,00 m: remover a camada superficial com raízes e restos vegetais; cota vermelha > 2,00 m: corte das árvores no máximo rente ao terreno, sem destocamento", "secao": "5.3.4"},
+    {"etapa": "execucao", "grupo": "Vegetação", "ensaio": "Preservação de árvores e toras assinaladas",
+     "citado": null, "norma": null,
+     "frequencia": "Durante a derrubada", "criterio": "Árvores marcadas (caiação) preservadas sem danos; toras reservadas transportadas ao local determinado", "secao": "5.3.7"},
+    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Largura da faixa trabalhada",
+     "citado": null, "norma": null,
+     "frequencia": "Levantamento topográfico conforme Notas de Serviço", "criterio": "Até +0,15 m para cada lado do eixo; variação negativa não admitida", "secao": "7.2.1"},
+    {"etapa": "produto", "grupo": "Acabamento", "ensaio": "Inspeção visual da superfície limpa",
+     "citado": null, "norma": null,
+     "frequencia": "Na conclusão de cada área", "criterio": "Superfície isenta de camada vegetal e de elementos que prejudiquem a terraplenagem", "secao": "7.2.2"}
+  ],
+  "notas": [
+    "Controle externo por Programa de Inspeções da Fiscalização (DNIT 011/2004-PRO e DNIT 013/2004-PRO); serviço aceito se atendidas 7.1 e 7.2, e o corrigido só é aceito se ficar conforme.",
+    "Vegetação até 15 cm de diâmetro (a 1,00 m do solo): só desmatamento; acima de 15 cm: motosserra e destocamento. Árvores ≥ 0,15 m são medidas por unidade."
+  ]
+}

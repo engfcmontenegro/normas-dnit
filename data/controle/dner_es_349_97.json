@@ -1,0 +1,196 @@
+{
+ "es": "dner-es-349-97",
+ "servico": "Edificações – impermeabilização",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Materiais impermeabilizantes",
+   "ensaio": "Certificado de qualidade (laboratório oficial)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "1 por carregamento que chegar à obra",
+   "criterio": "Certificado apresentado e conforme",
+   "secao": "6.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Materiais impermeabilizantes",
+   "ensaio": "Inspeção visual",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Sem avarias; conforme especificado",
+   "secao": "6.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Asfalto oxidado",
+   "ensaio": "Ponto de fusão (amolecimento)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Entre 84 °C e 94 °C (texto: 'pontos de fusão médio de 84º e 94º C')",
+   "condicao": "membranas de feltro asfáltico",
+   "secao": "5.2.17"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Asfalto oxidado",
+   "ensaio": "Penetração",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme declividade da superfície – normalmente 20/30",
+   "condicao": "membranas de feltro asfáltico",
+   "secao": "5.2.17.4"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Feltro asfáltico",
+   "ensaio": "Tipo e massa nominal",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Tipos 250/15, 330/20, 420/25 ou 500/30; saturante = 120 % do cartão cru (550, 750, 950 e 1100 g/m² nominais)",
+   "condicao": "membranas de feltro asfáltico",
+   "secao": "5.2.17"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Superfície a impermeabilizar",
+   "ensaio": "Declividade",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes da impermeabilização",
+   "criterio": "Ótima 1,5 a 2,5 %; calhas e rincões ≥ 1,0 %; junto aos ralos 5 a 7 % com rebaixo ≥ 2,0 cm em faixa de 15,0 cm",
+   "secao": "5.2.2 / 5.2.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Condições de aplicação",
+   "ensaio": "Tempo e umidade",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada jornada",
+   "criterio": "Aplicar só com tempo seco e firme; sem água ou umidade entre camadas",
+   "secao": "5.2.7 / 5.2.8"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Ralos",
+   "ensaio": "Reforço junto às bocas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada ralo",
+   "criterio": "Tecido de reforço em faixa ≥ 15,0 cm ao redor da boca, mergulhando na bolsa do condutor",
+   "secao": "5.2.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Membrana asfáltica",
+   "ensaio": "Número de membranas de feltro",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na aplicação",
+   "criterio": "3 (módulos ≤ 24,0 m); 4 (24,0 a 34,0 m); 5 (> 34,0 m)",
+   "secao": "5.2.17"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Membrana asfáltica",
+   "ensaio": "Temperatura de aplicação do asfalto",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a aplicação (termômetro)",
+   "criterio": "180 °C a 200 °C",
+   "secao": "5.2.17.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Membrana asfáltica",
+   "ensaio": "Consumo de asfalto por demão",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na primeira e na última demão",
+   "criterio": "≈ 2,0 kg/m²",
+   "secao": "5.2.17.1 / 5.2.17.6"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Membrana asfáltica",
+   "ensaio": "Recobrimento das juntas do feltro",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a aplicação",
+   "criterio": "≥ 200,0 mm (longitudinais) e ≥ 100,0 mm (transversais)",
+   "secao": "5.2.17.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Membrana de elastômero butil",
+   "ensaio": "Espessuras das camadas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a aplicação",
+   "criterio": "Separadora 1:4:12 com 5,0 mm (subindo 20 cm nos elementos emergentes); protetora 1:4 com 2,0 cm e tela; berço ≈ 0,6 kg/m²; membrana 1,0 mm",
+   "condicao": "impermeabilização com membrana butílica",
+   "secao": "5.2.18"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Argamassa impermeável",
+   "ensaio": "Espessura e número de camadas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a aplicação",
+   "criterio": "Traço 1:3 + hidrófugo; ≥ 3,0 cm (2 × 1,5 cm) até 10 m.c.a., +1,0 cm a cada 5 m.c.a. adicionais; camada ≤ 1,5 cm; intervalo 12 a 24 h",
+   "secao": "5.2.19"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Reservatórios",
+   "ensaio": "Altura da impermeabilização",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "≥ 30,0 cm acima do nível máximo d'água; lâmina de 20,0 cm deixada após a conclusão",
+   "secao": "5.2.12"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Embasamentos",
+   "ensaio": "Altura de impermeabilização das paredes",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Desde as fundações até 30 cm acima do piso externo; face externa perimetral até 60 cm e faces internas até 15 cm acima do piso interno",
+   "secao": "5.2.14"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Lajes e áreas impermeabilizadas",
+   "ensaio": "Prova de estanqueidade (lâmina d'água)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após a impermeabilização e antes da camada protetora; lâmina mantida 5 dias consecutivos",
+   "criterio": "Lâmina ≈ 5,0 cm acima da membrana, com ralos vedados; nenhuma fuga ou sinal de umidade",
+   "secao": "6.2.1 / 6.2.2 / 6.2.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Concreto impermeável",
+   "ensaio": "Penetração de água sob pressão",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na verificação final",
+   "criterio": "Penetração ≤ 3,0 cm sob 0,1 MPa/48 h, 0,3 MPa/24 h e 0,7 MPa/12 h, sucessivamente",
+   "condicao": "quando utilizado concreto impermeável",
+   "secao": "6.2.4"
+  }
+ ],
+ "notas": [
+  "Cada carregamento deve vir com certificado de laboratório oficial (6.1.2).",
+  "Aceitação final condicionada à prova de lâmina d'água de 5 dias sem sinais de umidade.",
+  "Trabalhos que não atendam à ES são rejeitados e refeitos pela executante, sem ônus para o contratante."
+ ]
+}

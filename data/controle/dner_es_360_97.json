@@ -1,0 +1,70 @@
+{
+ "es": "dner-es-360-97",
+ "servico": "Edificações – instalação de gás",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos e conexões",
+   "ensaio": "Embalagens e características do fabricante",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Embalagens originais invioladas; características conforme fabricante; tubos sem rebarbas nem defeitos de estrutura/rosca",
+   "secao": "6.1 / 5.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Prumadas embutidas",
+   "ensaio": "Tipo de alvenaria junto à prumada",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Sem tijolos furados a menos de 50,0 cm de cada lado",
+   "secao": "5.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Ramificações",
+   "ensaio": "Afastamento de outras canalizações",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "≥ 0,2 m; em superposição, sempre acima das demais; declividade para os coletores de condensado",
+   "secao": "5.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Travessias",
+   "ensaio": "Bainha de proteção",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação",
+   "criterio": "Ø interno da bainha = Ø externo do ramal + 1\" (25,4 mm)",
+   "condicao": "passagem sob estruturas ou pisos que não possam ser abertos",
+   "secao": "5.11"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Geometria",
+   "ensaio": "Cotas, alinhamentos e dimensões",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Durante a execução",
+   "criterio": "Conforme projeto",
+   "secao": "6.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Tubulações de gás",
+   "ensaio": "Prova de estanqueidade com ar comprimido",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do fechamento de rasgos e vazios",
+   "criterio": "Pressão > 10,0 m.c.a. sem variação durante 20 min; proibido teste com chama ou água",
+   "secao": "6.3"
+  }
+ ],
+ "notas": [
+  "Trabalhos que não atendam à ES são rejeitados e refeitos pela executante, sem ônus para o contratante."
+ ]
+}

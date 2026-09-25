@@ -1,0 +1,230 @@
+{
+ "es": "dnit-015-2006-es",
+ "servico": "Drenos subterrâneos",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Tubo dreno corrugado de PEAD",
+   "ensaio": "Especificação do tubo",
+   "citado": "DNIT 093/2006-EM",
+   "norma": null,
+   "norma_atual": "dnit-093-2016-em",
+   "frequencia": "No recebimento",
+   "criterio": "Conforme DNIT 093/2006-EM",
+   "secao": "5.1.1.1 / 7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos coletores de PVC/PEAD/PRFV",
+   "ensaio": "Especificação do tubo",
+   "citado": "ABNT NBR 7362, NBR 7367/88, ABPE E/009 ou DNIT 094/2006-EM",
+   "norma": null,
+   "norma_atual": "dnit-094-2014-em",
+   "frequencia": "No recebimento",
+   "criterio": "Conforme normas citadas; conexões garantindo estanqueidade",
+   "secao": "5.1.2.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos coletores de ferro fundido",
+   "ensaio": "Especificação do tubo",
+   "citado": "ABNT NBR 8161/83",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme NBR 8161/83",
+   "condicao": "quando utilizados tubos metálicos",
+   "secao": "5.1.2.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos de concreto",
+   "ensaio": "Resistência à ruptura (compressão diametral, três cutelos)",
+   "citado": "ABNT NBR 8890/03",
+   "norma": null,
+   "frequencia": "Amostra ≥ 0,5 % dos tubos de cada diâmetro (mín. 2 unidades), ruptura em ≥ 75 % das unidades de ensaio; em grandes quantidades, 2 tubos por lote de 100 a 200 unidades",
+   "criterio": "Resistência média ≥ Tabela 1 (14,9 kg/cm p/ Ø 10,2 cm a 35,7 kg/cm p/ Ø 61,0 cm)",
+   "secao": "5.1.4 / 7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos de concreto",
+   "ensaio": "Permeabilidade do encaixe",
+   "citado": "ABNT NBR 8890/03",
+   "norma": null,
+   "frequencia": "2 tubos por lote de 100 a 200 unidades",
+   "criterio": "≥ Tabela 1 (0,5 l/min/cm p/ Ø 10,2 cm a 3,0 l/min/cm p/ Ø 61,0 cm)",
+   "secao": "5.1.4 / 7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos de concreto",
+   "ensaio": "Absorção",
+   "citado": "ABNT NBR 8890/03",
+   "norma": null,
+   "frequencia": "Nos 2 tubos do ensaio de compressão diametral, por lote de 100 a 200 unidades",
+   "criterio": "Conforme NBR 8890/03",
+   "secao": "7.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos de concreto",
+   "ensaio": "Dimensões (espessura, comprimento, encaixe, caimento)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Mínimos da Tabela 1; variações ≤ Tabela 2 (comprimento 0,3–0,6 cm; espessura 0,2–0,3 cm; caimento 0,02–0,03 cm/cm)",
+   "secao": "5.1.4"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tubos de concreto",
+   "ensaio": "Inspeção visual",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na fábrica, nos depósitos ou nas valas; e após o assentamento",
+   "criterio": "Sem trincas ou fraturas no corpo e nas bocas; desvio de alinhamento ≤ 0,3 cm em 30 cm; extremidades em esquadro com o eixo",
+   "secao": "5.1.4"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material filtrante/drenante",
+   "ensaio": "Granulometria",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Ensaios específicos no recebimento (7.1)",
+   "criterio": "Conforme projeto; na falta, faixas do item 5.1.5 conforme o solo (> ou < 35 % passando na nº 200) e a função (envolvimento do tubo / enchimento da vala); tubos porosos: 9,5 mm 100 %, 4,8 mm 95–100 %, 1,2 mm 45–80 %, 0,3 mm 10–30 %, 0,15 mm 2–10 %",
+   "secao": "5.1.5 / 7.1",
+   "obs": "A faixa b) para envolvimento do tubo é incoerente (38 mm ≤ 60 % e 19 mm ≥ 85 %) — ver PDF p. 6"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Material filtrante/drenante",
+   "ensaio": "Limpeza e qualidade das partículas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Partículas limpas, resistentes e duráveis, isentas de matéria orgânica, torrões de argila e deletérios; sem mistura com outros materiais (estocagem em pilhas/baias)",
+   "secao": "4 / 5.1.5 c"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Manta geotêxtil não tecido",
+   "ensaio": "Especificação da manta",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme recomendação do fabricante; se não prevista em projeto, exige estudo específico prévio",
+   "condicao": "quando substituir o filtro natural",
+   "secao": "5.1.5 d"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Argamassa de rejuntamento",
+   "ensaio": "Traço",
+   "citado": "DNER-ES 330/97",
+   "norma": null,
+   "norma_atual": "dnit-117-2009-es",
+   "frequencia": "Na preparação",
+   "criterio": "Cimento e areia 1:4 em massa (tubos de concreto); PEAD: luva de emenda (DNIT 093/2006-EM)",
+   "secao": "5.1.6"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto fresco",
+   "ensaio": "Consistência (abatimento/espalhamento)",
+   "citado": "ABNT NBR NM 67/98 ou NBR NM 68/98",
+   "norma": null,
+   "frequencia": "Quando houver alteração da umidade dos agregados; na 1ª amassada do dia; no reinício após interrupção > 2 h; a cada moldagem de corpos de prova; na troca de operadores",
+   "criterio": "Conforme dosagem aprovada",
+   "secao": "7.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Concreto ciclópico",
+   "ensaio": "Controle do concreto ciclópico",
+   "citado": "DNER-ES 330/97",
+   "norma": null,
+   "norma_atual": "dnit-117-2009-es",
+   "frequencia": "Conforme DNER-ES 330/97",
+   "criterio": "Conforme DNER-ES 330/97",
+   "condicao": "quando utilizado",
+   "secao": "7.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Drenos instalados",
+   "ensaio": "Vistoria de operacionalidade",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do fechamento das valas",
+   "criterio": "Operacionalidade comprovada; tubos tamponados e camadas protegidas até o fechamento",
+   "secao": "4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Alinhamento",
+   "ensaio": "Caixas de passagem",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na locação",
+   "criterio": "Obrigatórias em alinhamentos com extensão > 80 m",
+   "secao": "4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Camadas de envolvimento e enchimento",
+   "ensaio": "Compactação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Por camada",
+   "criterio": "Adensamento com equipamento vibratório na umidade adequada; bolsas voltadas para montante",
+   "secao": "5.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Dimensões das seções transversais",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Levantamento topográfico/gabaritos, acompanhando as Notas de Serviço",
+   "criterio": "Desvio ≤ 1 % em relação ao projeto, em pontos isolados",
+   "secao": "7.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessuras",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Todas as medidas efetuadas",
+   "criterio": "Dentro de ± 10 % da espessura de projeto",
+   "secao": "7.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Acabamento",
+   "ensaio": "Inspeção visual do acabamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em todos os dispositivos executados",
+   "criterio": "Sem defeitos que prejudiquem a operação hidráulica da canalização",
+   "secao": "7.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Concreto",
+   "ensaio": "Resistência à compressão aos 28 dias",
+   "citado": "ABNT NBR 12654/92, NBR 12655/96 e DNER-ES 330/97",
+   "norma": null,
+   "norma_atual": "dnit-117-2009-es",
+   "frequencia": "Conforme plano prévio de retirada de corpos de prova (ABNT NBR 12655)",
+   "criterio": "fck,est ≥ fck (conformidade); fck,est < fck: não conformidade",
+   "secao": "7.1 / 7.4"
+  }
+ ],
+ "notas": [
+  "Plano de retirada de corpos de prova e de amostras de aço, cimento e agregados deve ser estabelecido previamente (7.1).",
+  "Lotes de tubos de concreto: 100 a 200 unidades por partida; 4 tubos por lote (2 permeabilidade, 2 compressão diametral + absorção).",
+  "Resultados do controle estatístico e não conformidades registrados em relatórios periódicos conforme DNIT 011-PRO (Gestão da qualidade em obras rodoviárias)."
+ ]
+}

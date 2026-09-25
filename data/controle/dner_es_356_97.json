@@ -1,0 +1,69 @@
+{
+ "es": "dner-es-356-97",
+ "servico": "Edificações – pintura",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Tintas e vernizes",
+   "ensaio": "Embalagens originais invioladas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Embalagens originais e invioladas",
+   "secao": "6.1.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Superfície",
+   "ensaio": "Preparação da superfície",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes da aplicação",
+   "criterio": "Limpa, seca, lisa, isenta de graxas, óleos, sais solúveis e ferrugem; metais desengraxados e com primer",
+   "secao": "5.2.1 / 5.3.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Aplicação",
+   "ensaio": "Número de demãos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada superfície",
+   "criterio": "Suficiente para cobrir totalmente e ≥ 2 demãos",
+   "secao": "5.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Aplicação",
+   "ensaio": "Intervalo entre demãos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Entre demãos sucessivas",
+   "criterio": "≥ 24 h (salvo especificação), com a demão anterior perfeitamente seca",
+   "secao": "5.4.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Condições de aplicação",
+   "ensaio": "Chuva",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada jornada",
+   "criterio": "Pintura em locais desabrigados suspensa com chuva",
+   "secao": "5.4.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Superfície pintada",
+   "ensaio": "Inspeção visual",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão",
+   "criterio": "Coloração uniforme e ausência de manchas",
+   "secao": "6.2"
+  }
+ ],
+ "notas": [
+  "Trabalhos que não atendam à ES são rejeitados e refeitos pela executante, sem ônus para o contratante."
+ ]
+}

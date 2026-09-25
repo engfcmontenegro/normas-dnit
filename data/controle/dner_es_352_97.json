@@ -1,0 +1,69 @@
+{
+ "es": "dner-es-352-97",
+ "servico": "Edificações – forros",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Materiais de forro",
+   "ensaio": "Conformidade com catálogo do fabricante",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Atender às exigências dos catálogos dos fabricantes",
+   "secao": "6.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Forro metálico",
+   "ensaio": "Espessura e características das lâminas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "0,3 a 0,7 mm (liga AlMg 5050H ou aço SAE 1010); comprimento ≤ 9,0 m; tratamento anticorrosivo",
+   "secao": "5.3.3 / 5.3.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Início dos serviços",
+   "ensaio": "Tubulações ocultas concluídas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes do início",
+   "criterio": "Forro só após todas as tubulações que deva ocultar",
+   "secao": "5.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Forro metálico",
+   "ensaio": "Espaçamento da estrutura de sustentação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na montagem",
+   "criterio": "Perfis ≤ 1,10 m entre eixos; suspensão ≤ 1,40 m; suportes em fita galvanizada 1,0 × 20 mm ou tirante Ø 3/16\"",
+   "secao": "5.3 / 5.3.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Forro de gesso",
+   "ensaio": "Umidade das placas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na montagem",
+   "criterio": "Placas assentadas somente completamente secas",
+   "secao": "5.6"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Cotas e alinhamentos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão",
+   "criterio": "Conforme projeto",
+   "secao": "6.2.1"
+  }
+ ],
+ "notas": [
+  "Trabalhos que não atendam à ES são rejeitados e refeitos pela executante, sem ônus para o contratante."
+ ]
+}

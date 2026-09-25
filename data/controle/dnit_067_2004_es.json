@@ -1,0 +1,23 @@
+{
+  "es": "dnit-067-2004-es",
+  "servico": "Reabilitação de pavimento rígido",
+  "itens": [
+    {"etapa": "execucao", "grupo": "Reparo de esborcinamento", "ensaio": "Geometria do corte e da remoção", "citado": null, "norma": null, "frequencia": "Cada reparo", "criterio": "Corte com serra de 1,5 a 2 cm, paralelo à junta a ~15 cm; remoção até ≥ 5 cm de profundidade", "secao": "5.2.1.1"},
+    {"etapa": "execucao", "grupo": "Reparo de esborcinamento", "ensaio": "Pintura de ligação epóxi", "citado": null, "norma": null, "frequencia": "Cada reparo", "criterio": "Espessura de 1 a 2 mm sobre paredes e fundo limpos e secos", "secao": "5.2.1.1"},
+    {"etapa": "execucao", "grupo": "Reparo de esborcinamento", "ensaio": "Concreto do reparo", "citado": null, "norma": null, "frequencia": "Na dosagem", "criterio": "Consumo ≥ 350 kg/m³; DMC ≤ 1/3 da espessura do reparo", "secao": "5.2.1.1"},
+    {"etapa": "execucao", "grupo": "Reparo de esborcinamento", "ensaio": "Cura", "citado": null, "norma": null, "frequencia": "Após o acabamento", "criterio": "Cura química seguida de cura úmida por ≥ 7 dias", "secao": "5.2.1.1"},
+    {"etapa": "execucao", "grupo": "Tratamento de fissuras", "ensaio": "Abertura da fissura (escolha do tratamento)", "citado": null, "norma": null, "frequencia": "Cada fissura", "criterio": "≤ 1 mm, não ativa e sem esborcinamento: injeção/selagem epóxi; > 1 mm ou esborcinada: ranhura de 25 mm de profundidade e ≤ 30 mm de largura, selada", "secao": "5.2.2.1"},
+    {"etapa": "execucao", "grupo": "Tratamento de fissuras", "ensaio": "Concentração do endurecedor superficial", "citado": null, "norma": null, "frequencia": "Na aplicação", "criterio": "Solução de 20 % a 30 % (fluorsilicato de Zn/Mg ou silicato de sódio)", "condicao": "fissuras do tipo rendilhado", "secao": "5.2.2.2"},
+    {"etapa": "execucao", "grupo": "Desgaste superficial e escamação", "ensaio": "Profundidade do reparo e camada de ligação", "citado": null, "norma": null, "frequencia": "Cada reparo", "criterio": "Corte de 1,5 a 2,0 cm; remoção até ≥ 5 cm; argamassa de ligação de 1,5 a 3,0 mm; umedecimento prévio (recomendado 24 h)", "secao": "5.2.3"},
+    {"etapa": "execucao", "grupo": "Desgaste superficial e escamação", "ensaio": "Concreto do reparo", "citado": null, "norma": null, "frequencia": "Na dosagem", "criterio": "Relação a/c ≤ 0,45; DMC ≤ 1/3 da espessura do reparo", "secao": "5.2.3"},
+    {"etapa": "execucao", "grupo": "Reparo em toda a espessura", "ensaio": "Concreto do reparo", "citado": null, "norma": null, "frequencia": "Na dosagem", "criterio": "Baixa relação a/c; resistência ≥ projeto e ≥ concreto existente", "obs": "Recomenda CP-II-40 ou CP-V (abertura rápida)", "secao": "5.3.1 g–i"},
+    {"etapa": "execucao", "grupo": "Reparo em toda a espessura", "ensaio": "Dimensões do reparo", "citado": null, "norma": null, "frequencia": "Cada reparo", "criterio": "Fissura transversal: cortes a ~100 cm, serra ~3 cm; reparo interno L/B ≈ 1,5 a 2; tangente a junta transversal B ≥ 0,5 m (junta de expansão 1,0–1,2 m); em toda a largura: 1/3 a 2/3 da área da placa; > 2/3: reconstituição total", "secao": "5.3.1 / 5.4 / 5.5"},
+    {"etapa": "execucao", "grupo": "Reparo em toda a espessura", "ensaio": "Armadura distribuída exposta", "citado": null, "norma": null, "frequencia": "Cada reparo", "criterio": "Deixar ~25 cm de armadura exposta para ligação", "condicao": "pavimento com armadura distribuída", "secao": "5.3.1 / 5.4.1 / 5.4.3"},
+    {"etapa": "execucao", "grupo": "Reparo em toda a espessura", "ensaio": "Camada de concreto pobre sob a placa", "citado": null, "norma": null, "frequencia": "Cada reparo", "criterio": "10 cm de espessura (dispensável com barras de transferência nas juntas ou sub-base semirrígida em bom estado)", "secao": "5.4.4 / 5.5"},
+    {"etapa": "produto", "grupo": "Concreto dos reparos", "ensaio": "Controle e aceitação do concreto", "citado": "DNIT 047/2004-ES", "norma": "dnit-047-2004-es", "frequencia": "Conforme a ES de pequeno porte", "criterio": "Critérios de resistência e aceitação da DNIT 047/2004-ES", "obs": "A norma remete a 'pavimentos executados com equipamento de pequeno porte' sem citar o código no texto", "secao": "6.2"}
+  ],
+  "notas": [
+    "Reparos executados de forma diferente da especificada não são aceitos (6.1).",
+    "Fissuras e juntas medidas em m, recuperações de superfície em m², reconstituição de placas em m³."
+  ]
+}

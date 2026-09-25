@@ -1,0 +1,205 @@
+{
+ "es": "dner-es-350-97",
+ "servico": "Edificações – revestimento de pisos",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Materiais de revestimento",
+   "ensaio": "Conformidade com o fabricante",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Atender às exigências dos fabricantes",
+   "secao": "6.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Tacos de madeira",
+   "ensaio": "Especificação dos tacos",
+   "citado": "ABNT NBR 6451/84 (EB-14)",
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Conforme ABNT NBR 6451, com rebaixos em 'cauda de andorinha'",
+   "secao": "5.14"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Laminado fenólico-melamínico",
+   "ensaio": "Resistência à abrasão (Taber, rodas CS-17)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento (certificado)",
+   "criterio": "50 000 ciclos; índice de desgaste 0,0005 g/100 ciclos",
+   "condicao": "piso de laminado melamínico",
+   "secao": "5.13.4 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Laminado fenólico-melamínico",
+   "ensaio": "Resistência ao impacto",
+   "citado": "NEMA LD1-2.15",
+   "norma": null,
+   "frequencia": "No recebimento (certificado)",
+   "criterio": "Índice 56\"",
+   "condicao": "piso de laminado melamínico",
+   "secao": "5.13.4 b"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Laminado fenólico-melamínico",
+   "ensaio": "Resistência à compressão",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento (certificado)",
+   "criterio": "≥ 2 450 kgf/cm² (245 MPa)",
+   "condicao": "piso de laminado melamínico",
+   "secao": "5.13.4 c"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Laminado fenólico-melamínico",
+   "ensaio": "Resistência superficial à eletricidade estática",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento (certificado)",
+   "criterio": "8,1 × 10³ MΩ",
+   "condicao": "piso de laminado melamínico",
+   "secao": "5.13.4 d"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Sub-base",
+   "ensaio": "Grau de compactação",
+   "citado": "DNER-ES 301/97 (ABNT NBR 7182/86)",
+   "norma": null,
+   "frequencia": "Antes da base de concreto",
+   "criterio": "GC ≥ 95 % do Proctor Normal",
+   "secao": "5.7"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Laje de concreto (sub-base)",
+   "ensaio": "Consumo de cimento e espessura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "≥ 300 kg/m³ de cimento; espessura ≥ 10,0 cm",
+   "condicao": "piso de argamassa de alta resistência",
+   "secao": "5.5.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Base de concreto",
+   "ensaio": "Espessura e traço",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "≥ 8,0 cm (trânsito rolando/deslizando, solicitação leve); ≥ 12,0 cm (golpes e choques, pesada); traço 1:2:4",
+   "secao": "5.8"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Argamassa de alta resistência",
+   "ensaio": "Espessura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "≥ 8,0 mm (leve); ≥ 12,0 mm (média); ≥ 15,0 mm (pesada); chapisco 3–4 mm (1:2); contrapiso 1:3",
+   "secao": "5.5.3 / 5.5.4 / 5.5.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Argamassa de alta resistência",
+   "ensaio": "Juntas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Coincidentes com as da sub-base; junta de contorno a 20,0 mm das paredes; metal ≥ 1,6 mm ou plástico ≥ 3,0 mm; madeira proibida",
+   "secao": "5.5.6"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Ladrilhos cerâmicos",
+   "ensaio": "Aderência por percussão",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após a pega da argamassa",
+   "criterio": "Substituir peças que não apresentem completa segurança (som cavo)",
+   "secao": "5.4.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Ladrilhos cerâmicos",
+   "ensaio": "Largura das juntas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No assentamento",
+   "criterio": "≤ 2,0 mm (peças > 200 × 300 mm ou > 400 cm²); ≤ 1,2 mm (peças menores)",
+   "secao": "5.4.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Cimentado",
+   "ensaio": "Espessura e cura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução e nos 7 dias seguintes",
+   "criterio": "Espessura 20,0 mm, nunca < 10,0 mm; cura úmida contínua por 7 dias",
+   "secao": "5.10"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Marmorite",
+   "ensaio": "Painéis, juntas, cura e polimento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução",
+   "criterio": "Painéis < 0,80 m²; saliência das juntas 15,0 mm; grânulos > 70 %; cura ≥ 6 dias; 1º polimento após ≥ 8 dias",
+   "secao": "5.15 a 5.15.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Liberação ao trânsito",
+   "ensaio": "Prazo após assentamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Após a colocação",
+   "criterio": "Laminado: ≥ 48 h; tacos: ≥ 24 h (inclusive sobre tábuas)",
+   "secao": "5.13.3 / 5.14.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Alinhamentos e cotas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão",
+   "criterio": "Conforme projeto",
+   "secao": "6.2.1.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessura das camadas",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão",
+   "criterio": "Conforme projeto",
+   "secao": "6.2.2.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Caimento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão",
+   "criterio": "≥ 0,5 % em direção a ralos (internos) ou bocas de lobo/bueiros (externos)",
+   "secao": "5.3 / 6.2.3.3"
+  }
+ ],
+ "notas": [
+  "Verificação final essencialmente geométrica (alinhamento, cotas, espessuras e caimento).",
+  "Trabalhos que não atendam à ES são rejeitados e refeitos pela executante, sem ônus para o contratante."
+ ]
+}

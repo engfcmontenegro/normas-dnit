@@ -1,0 +1,70 @@
+{
+ "es": "dner-es-353-97",
+ "servico": "Edificações – esquadrias",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Esquadrias",
+   "ensaio": "Conformidade com catálogo do fabricante",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Atender às exigências dos catálogos; fornecidas com todos os acessórios",
+   "secao": "6.1 / 4.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Esquadrias de alumínio",
+   "ensaio": "Espessura dos perfis estruturais e contramarcos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Compatível com o vão e ≥ 1,6 mm",
+   "secao": "5.2.3.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Esquadrias de alumínio",
+   "ensaio": "Espessura da camada de anodização",
+   "citado": null,
+   "norma": null,
+   "frequencia": "No recebimento",
+   "criterio": "Agressividade forte: ≥ 20 µm (natural) e ≥ 25 µm (colorida); leve/nula: ≥ 12 µm e ≥ 20 µm; variação admitida 10 %",
+   "secao": "5.2.3.6 / 6.2.5"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Esquadrias de madeira",
+   "ensaio": "Inspeção visual de defeitos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em todas as peças",
+   "criterio": "Recusar peças com empenamento, deslocamento, rachaduras, lascas, desigualdades de madeira ou outros defeitos",
+   "secao": "6.2.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Vãos envidraçados",
+   "ensaio": "Estanqueidade (jato de mangueira)",
+   "citado": "AAMA",
+   "norma": null,
+   "frequencia": "Todos os vãos expostos às intempéries",
+   "criterio": "Sem vazamento com 19 L/h por 0,093 m² durante 15 min, sob pressão estática de 10,55 lb/pé² (≈ 51,5 kgf/m²; vento de 105 km/h)",
+   "secao": "6.2.2 / 6.2.3",
+   "obs": "A ES grafa '51,5 Kg/cm²'; o valor coerente com 10,55 lb/pé² é 51,5 kgf/m²."
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Caixilhos",
+   "ensaio": "Flecha das peças estruturais",
+   "citado": "ABNT NBR 6123/88",
+   "norma": null,
+   "frequencia": "Verificação de projeto/ensaio",
+   "criterio": "< 1/250 do comprimento sob as cargas de vento da ABNT NBR 6123",
+   "secao": "6.2.4"
+  }
+ ],
+ "notas": [
+  "Trabalhos que não atendam à ES são rejeitados e refeitos pela executante, sem ônus para o contratante."
+ ]
+}

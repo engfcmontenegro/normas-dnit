@@ -1,0 +1,151 @@
+{
+ "es": "dner-es-345-97",
+ "servico": "Edificações – fundações",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto",
+   "ensaio": "Resistência característica (fck) e abatimento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem / recebimento do concreto",
+   "criterio": "Conforme projeto (fck, slump) e Normas Brasileiras",
+   "secao": "5.2.4"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Concreto de estacas moldadas no solo",
+   "ensaio": "Consumo de cimento (dosagem empírica)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na dosagem",
+   "criterio": "≥ 300 kg/m³ de concreto, consistência plástica",
+   "condicao": "dosagem empírica, admitida quando a taxa nominal de trabalho da estaca for 10 t (texto da ES; provável ≤ 10 t)",
+   "secao": "5.4.6.1 b / d"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Cavas de fundação",
+   "ensaio": "Limpeza e esgotamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes de cada concretagem",
+   "criterio": "Cavas limpas, sem madeira, solo carreado ou água; concretagem proibida antes do esgotamento total",
+   "secao": "5.2.6 / 5.2.7"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Cavas de fundação",
+   "ensaio": "Lastro de fundo de vala",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes da concretagem",
+   "criterio": "Brita ≈ 3,0 cm + concreto magro ≥ 7,0 cm",
+   "secao": "5.2.8"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Fundação direta",
+   "ensaio": "Cota de assentamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na escavação de cada elemento",
+   "criterio": "Escavação levada até terreno com resistência suficiente (não se limitar à cota de projeto)",
+   "secao": "5.2.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Estacas cravadas",
+   "ensaio": "Nega",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada estaca, ao final da cravação",
+   "criterio": "≤ 2,0 cm para 10 golpes, obtida na 3ª tentativa consecutiva (quando não definida em projeto)",
+   "secao": "5.4.1 / 5.4.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Estacas",
+   "ensaio": "Arrasamento e embutimento no bloco",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada estaca",
+   "criterio": "Corte só com ponteiro até a cota de arrasamento; penetração no bloco ≥ 10,0 cm (concreto) ou ≥ 20,0 cm (metálicas)",
+   "secao": "5.4.4 / 5.4.5"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Estacas moldadas no solo",
+   "ensaio": "Diâmetro e espaçamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na locação/execução",
+   "criterio": "Ø ≥ 25,0 cm; espaçamento entre eixos ≥ 3 × diâmetro da menor estaca",
+   "secao": "5.4.6.1 a / e"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Estacas moldadas no solo",
+   "ensaio": "Cobrimento da armadura",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes da concretagem",
+   "criterio": "≥ 25,0 mm (salvo especificação diversa)",
+   "secao": "5.4.6.1 f"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Estacas Strauss",
+   "ensaio": "Comprimento e condições de uso",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada estaca",
+   "criterio": "Comprimento ≤ 15,0 m; vedadas em argilas submersas muito moles e com camada resistente acima do NA",
+   "secao": "5.4.7.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Estacas Franki",
+   "ensaio": "Energia na execução da base",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada estaca",
+   "criterio": "Últimos 150 L de concreto com energia ≥ 2,5 MN·m (Ø ≤ 45 cm) ou ≥ 5,0 MN·m (Ø > 45 cm)",
+   "secao": "5.4.8.1"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Estacas moldadas in situ",
+   "ensaio": "Excentricidade (estaca isolada)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada estaca, após a execução",
+   "criterio": "Não travada: desvio ≤ 10 % do diâmetro; travada: vigas de travamento dimensionadas para a excentricidade real se > 10 %",
+   "secao": "7.1.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Conjunto de estacas",
+   "ensaio": "Acréscimo de carga por desvio de locação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada bloco, após a execução",
+   "criterio": "Acréscimo ≤ 15 % da carga admissível de projeto (alinhadas: na estaca; não alinhadas: na mais solicitada); acima disso, corrigir com estacas adicionais ou recurso estrutural",
+   "secao": "7.1.3 / 7.1.4"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Estacas",
+   "ensaio": "Desvio de inclinação",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Em cada estaca, após a execução",
+   "criterio": "≤ 1:100 sem medidas corretivas",
+   "secao": "7.1.5"
+  }
+ ],
+ "notas": [
+  "Tolerâncias de 7.1 referem-se a estacas moldadas in situ.",
+  "Trabalhos que não atendam à ES são rejeitados e refeitos pela executante, sem ônus para o contratante."
+ ]
+}

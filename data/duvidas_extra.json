@@ -234,5 +234,632 @@
       "cat": "erro",
       "texto": "7.2.1 a cita \"DNER-ES 053/94\" para o teor de ligante; trata-se do método DNER-ME 053/94."
     }
+  ],
+  "dnit_071_2006_es": [
+    {
+      "page": 6,
+      "cat": "erro",
+      "texto": "Tabela 1: valor cultural das leguminosas 56,26 % (75 × 75 = 56,25 %)."
+    },
+    {
+      "page": 6,
+      "cat": "contradicao",
+      "texto": "Taxa de sementes: \"50 a 60 kg/ha\" em 5.1 e \"200 a 300 kg/ha\" em 5.2."
+    },
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "3.14 chama os sulcos de \"leivas\", contrariando a definição de 3.9."
+    },
+    {
+      "page": 10,
+      "cat": "erro",
+      "texto": "8 a): \"50% (trinta por cento)\"."
+    }
+  ],
+  "dnit_072_2006_es": [
+    {
+      "page": 7,
+      "cat": "erro",
+      "texto": "Tabela 3: valor cultural 56,26 % (75 × 75 = 56,25 %)."
+    },
+    {
+      "page": 9,
+      "cat": "contradicao",
+      "texto": "Teor de cimento do solo-cimento dos diques: 7 % em peso em 5.2.2 e 5 % em 5.4.2 d (p. 16)."
+    },
+    {
+      "page": 9,
+      "cat": "contradicao",
+      "texto": "Idade de ruptura dos CPs: 28 dias em 5.2.2 e 30 dias na seção 6 (p. 17), que ainda cita a NBR 6118 (projeto) para controle de solo-cimento."
+    },
+    {
+      "page": 12,
+      "cat": "contradicao",
+      "texto": "5.4.1 h: título diz adubação de cobertura \"após 60 dias\" e o texto 45 dias."
+    },
+    {
+      "page": 14,
+      "cat": "erro",
+      "texto": "Remete a \"item 4 – Execução\", que não existe (a execução é 5.4)."
+    },
+    {
+      "page": 18,
+      "cat": "erro",
+      "texto": "8 a): \"50% (trinta por cento)\"."
+    }
+  ],
+  "dnit_073_2006_es": [
+    {
+      "page": 8,
+      "cat": "contradicao",
+      "texto": "Dimensão das covas: 0,40 × 0,40 × 0,60 m em 5.2 e 0,40³ (arbustos) / 0,60³ (árvores) em 5.4.1 b (p. 10)."
+    },
+    {
+      "page": 8,
+      "cat": "contradicao",
+      "texto": "Covas preparadas \"com pelo menos 20 dias de antecedência\" e mistura \"preparada 30 dias antes\", no mesmo parágrafo."
+    },
+    {
+      "page": 10,
+      "cat": "contradicao",
+      "texto": "Época de plantio \"entre outubro e abril\" contra \"julho a setembro\"."
+    },
+    {
+      "page": 17,
+      "cat": "erro",
+      "texto": "Mudas \"superiores a 1,20 cm\" — provavelmente 1,20 m."
+    },
+    {
+      "page": 19,
+      "cat": "contradicao",
+      "texto": "Medição em \"três etapas\", mas só duas listadas; a segunda fala em \"germinação de 100 % das mudas\"."
+    }
+  ],
+  "dnit_074_2006_es": [
+    {
+      "page": 7,
+      "cat": "erro",
+      "texto": "5.4.2 b cita \"DNIT 073/2005-ES\" para rip-rap; o rip-rap está na DNIT 072/2006-ES."
+    },
+    {
+      "page": 8,
+      "cat": "contradicao",
+      "texto": "Grampos \"no mínimo a cada 40 cm\" e trespasses \"no mínimo de 30 cm\": pelo sentido técnico o espaçamento deveria ser máximo."
+    },
+    {
+      "page": 11,
+      "cat": "erro",
+      "texto": "Seção 8: \"50% (trinta por cento)\"."
+    }
+  ],
+  "dnit_075_2006_es": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "DNER-ES 337/97 citada como \"escoamento\" (é escoramento)."
+    },
+    {
+      "page": 6,
+      "cat": "contradicao",
+      "texto": "\"Tantos rolos quantos forem necessários\" e espaçamento mínimo de grampos: texto copiado da DNIT 074, sem sentido para concreto/tela."
+    }
+  ],
+  "dnit_076_2006_es": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Texto diz que 60 dB(A) só é atingido a > 270 m sem barreira; a tabela do Anexo A (p. 8) dá 60,00 a 250 m."
+    },
+    {
+      "page": 5,
+      "cat": "contradicao",
+      "texto": "Sabiá-do-campo \"cresce até três metros\" e é árvore de \"5 a 8 m\" no mesmo item."
+    }
+  ],
+  "dnit_077_2006_es": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Lei 9.985 datada de 18/07/2004 (é de 18/07/2000)."
+    },
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "Pagamento fala em \"barreiras artificiais\" — texto copiado da DNIT 076."
+    }
+  ],
+  "dner_es_044_71-1": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "4.3: \"os materiais serão medidos até atingir cor uniforme\" — deve ser misturados."
+    }
+  ],
+  "dnit_102_2009_es": [
+    {
+      "page": 7,
+      "cat": "erro",
+      "texto": "8 b fala em \"germinação de 100 % das mudas\"; 7.4 exige \"controle estatístico\" sem definir plano."
+    }
+  ],
+  "dnit_103_2009_es-1": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Tolerância: ±1 % nas caixas (7.2.1) contra ±10 % no muro (7.3, p. 5)."
+    },
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "5.1.2 exige para a pedra requisitos de brita para concreto e peso específico ≥ 2.300 kg/m³, mas 7.1.2 (p. 4) aceita controle visual ou testes expeditos."
+    },
+    {
+      "page": 2,
+      "cat": "contradicao",
+      "texto": "4.2.2: diafragmas do colchão Reno \"colocados durante a montagem\" e logo depois \"unidos durante a fabricação\"."
+    }
+  ],
+  "dnit_015_2006_es": [
+    {
+      "page": 6,
+      "cat": "erro",
+      "texto": "5.1.5 b: faixa do material de envolvimento impossível (≤ 60 % passando na 38 mm e ≥ 85 % passando na 19 mm)."
+    },
+    {
+      "page": 5,
+      "cat": "contradicao",
+      "texto": "Amostragem de tubos de concreto: ≥ 0,5 % dos tubos com ruptura em ≥ 75 % (5.1.4) contra 4 tubos por lote de 100–200 (7.1, p. 8)."
+    }
+  ],
+  "dnit_016_2006_es": [
+    {
+      "page": 7,
+      "cat": "erro",
+      "texto": "7.4 remete às \"condições dos itens 5 e 6\" (6 é Manejo ambiental; deveria ser 4 e 5). 5.3.1.3 (p. 4) cita NBR 9794/87 e 9795/87, ausentes da seção 2; 5.3.2 (p. 6) fala em \"drenos superficiais\" no trecho de drenos cegos."
+    }
+  ],
+  "dnit_017_2006_es": [
+    {
+      "page": 5,
+      "cat": "contradicao",
+      "texto": "7.1 manda seguir a NBR 7365 para tubos de PVC, mas a seção 2 a descreve como ensaio de tubo de poliéster com fibra de vidro."
+    }
+  ],
+  "dnit_019_2023_es-1": [
+    {
+      "page": 5,
+      "cat": "contradicao",
+      "texto": "Seção 8: b) mede escavações de valas e c) diz que escavações não serão medidas (ressalvando \"locais contíguos\")."
+    }
+  ],
+  "dnit_023_2024_es": [
+    {
+      "page": 6,
+      "cat": "erro",
+      "texto": "\"Linha dupla ou tripa\" (5.3 c, p. 4); 7.1 cita a NBR 6118 (projeto) como norma de controle tecnológico do concreto (o mesmo na DNIT 025 e 026)."
+    }
+  ],
+  "dnit_024_2025_es": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "NOTA 2 desaconselha guindaste para manusear as chapas, mas 5.2 lista guincho/grua/Munck; 8.2.3 (p. 6) remete às \"seções 4 e 5\", mas a execução está na seção 6."
+    }
+  ],
+  "dnit_030_2004_es": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "Traço da argamassa de rejuntamento: 1:4 em 5.1.3 e 1:3 em 5.3.1 (p. 4). Permeabilidade: NBR 9596 na seção 2 e NBR 9796/96 em 7.1 (p. 5)."
+    }
+  ],
+  "dnit_096_2006_es": [
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "B.7: controle do concreto por CPs aos 7 dias \"de acordo com a NBR 6118\" (norma de projeto; o ensaio é a NBR 5739); sem critério de aceitação aos 28 dias."
+    }
+  ],
+  "dnit_086_2006_es": [
+    {
+      "page": 2,
+      "cat": "contradicao",
+      "texto": "5.1 a: critérios de declividade deixam casos sem solução (obra ≤ 50 m com declividade < 2 % e obra > 50 m com ≥ 2 %)."
+    }
+  ],
+  "dnit_089_2006_es": [
+    {
+      "page": 2,
+      "cat": "contradicao",
+      "texto": "Seção 5: placa com espessura mínima de \"seis centímetros\", mas a placa comercial indicada é \"200/120/6 mm\" (6 mm); o peso de 28,8 kg só fecha com 200 × 120 cm × 6 mm — unidades misturadas."
+    }
+  ],
+  "dnit_084_2006_es": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "5.1 i: concreto novo \"não deve ser 20% superior\" ao existente — contradiz a DNIT 087-ES (5.6 e), que exige resistência pelo menos 20 % maior que a do substrato."
+    },
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.1 h: lógica invertida (\"sem fôrmas → concreto convencional; com fôrmas → concreto projetado\")."
+    }
+  ],
+  "dnit_087_2006_es": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Espessura por aplicação: 25 a 40 mm em 5.6 i e 25 a 50 mm em 7 d (p. 5)."
+    },
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "Item 4 diz que a aderência é melhor em substrato seco; 5.6 i e 7 b mandam aplicar sempre sobre superfície úmida."
+    }
+  ],
+  "dnit_088_2006_es": [
+    {
+      "page": 2,
+      "cat": "contradicao",
+      "texto": "Guarda-rodas das pontes anteriores a 1960: 0,55 m no item 4 (8,30 = 7,20 + 2 × 0,55) e 0,50 m nas p. 2, 3 e 5."
+    }
+  ],
+  "dnit_090_2006_es": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "4.1.2 e 6.2 exigem 40 MPa contra erosão; as seções 8 e 11 (p. 8–9) especificam fck = 30 MPa."
+    },
+    {
+      "page": 7,
+      "cat": "contradicao",
+      "texto": "7.2 repete o texto de 7.1 (sais insolúveis \"quando lixiviados\"), contradizendo 5.2.1 b (não são removidos)."
+    }
+  ],
+  "dnit_091_2006_es": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Remissões internas erradas: 5.2.2 remete a \"Item 6.1\"; 5.2.4.2–5.2.5.2 remetem a \"6.2.4.1\"/\"6.2.3.1\" (p. 5) — seriam 5.1, 5.2.4.1, 5.2.3.1. 5.1.2 a (p. 3): fissura tolerável de \"2 a 3 mm de comprimento\" (provavelmente largura)."
+    }
+  ],
+  "dnit_082_2006_es": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Item 3 cita \"NBR 14287\" (é NBR 14827); p. 4: 5.2 diz \"espessura de 1,5 hef\" e 5.1 \"espessura mínima\"."
+    }
+  ],
+  "dnit_083_2006_es": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.2 c/d: \"comprimento\" da junta móvel (deveria ser largura); 5.3 fala em \"reação sílica-agregado\" e o item 4 em \"álcali-agregado\"."
+    }
+  ],
+  "dnit_047_2004_es": [
+    {
+      "page": 5,
+      "cat": "contradicao",
+      "texto": "Teor de ar ≤ 0,5 % (5.1.10 f), contra ≤ 5 % nas DNIT 065 e 068 e ≤ 4 % na 049."
+    },
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "Abatimento citado pela NBR 7223, ausente das referências (que listam NBR NM 67) — 5.1.10 d e 7.2.1 (p. 10). A referência hh chama a DNIT 050/2004 de \"ME\"; em 4.3 (p. 3) é EM."
+    }
+  ],
+  "dnit_048_2004_es": [
+    {
+      "page": 5,
+      "cat": "contradicao",
+      "texto": "Abatimento atribuído à NBR NM 47 (que é a de teor de ar) em 5.1.10 e à NBR 7223 em 7.2.1 (p. 11); alínea \"a)\" repetida em 5.1.10; teor de ar ≤ 0,5 % (NBR 11686)."
+    }
+  ],
+  "dnit_049_2013_es": [
+    {
+      "page": 11,
+      "cat": "contradicao",
+      "texto": "7.2.2.2 exige mínimo de 32 exemplares, então a Tabela 1 de k (n = 6 a 32) só usa o último valor; 7.5.2 (p. 12–13) remete a outro k (Tabela 1 da DNER-PRO 277/97)."
+    }
+  ],
+  "dnit_057_2004_es": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.1.3: \"passando na peneira nº 200 50 %\" sem dizer se é mínimo ou máximo."
+    },
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Pulverização ≥ 60 % na mistura em central (5.3.1), mas 7.3.2 (p. 7) exige GP ≥ 80 % sem distinção; 7.3.1.2 manda reensaiar \"no caso de todos os valores… superiores a 100 %\" dentro da condição GC < 100 %."
+    }
+  ],
+  "dnit_058_2004_es": [
+    {
+      "page": 7,
+      "cat": "erro",
+      "texto": "7.3.1 a: aceitação automática invertida (\"fc ≥ fc7 − Ks\"; deveria ser fc7 − ks ≥ fc). 7.3.1 c decide pela média (fc7 ≥ fc), não pelo valor característico."
+    }
+  ],
+  "dnit_065_2004_es": [
+    {
+      "page": 6,
+      "cat": "contradicao",
+      "texto": "Exige 20 exemplares, mas usa k fixo de 0,842 com coeficiente de variação (7.1.2; 7.3.1 p. 7). Consumo mínimo de cimento de 100 kg/m³ (p. 4) — confere com o PDF, mas é atípico."
+    }
+  ],
+  "dnit_066_2004_es": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "4.1: \"material que não apresente expansibilidade, ou seja, bombeável\" (deveria ser \"nem seja bombeável\"); 5.1.1: dimensões mínimas das peças 40 × 10 × 6 cm (comprimento mínimo de 40 cm é suspeito); 7.2 (p. 5) fala em \"largura da placa\" num pavimento de peças."
+    }
+  ],
+  "dnit_067_2004_es": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Remissões erradas: 5.2.1.2 manda reparar juntas esborcinadas \"conforme 5.2.2.2\" (fissuras rendilhadas; seria 5.2.1.1); 5.4.4 a remete a \"5.4.1.1\", inexistente (p. 7); 6.2 (p. 8) remete à ES de pequeno porte sem citar o código."
+    }
+  ],
+  "dnit_068_2004_es": [
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "5.1.3: água com \"± 0,30 min\" (seria ± 30 min) e \"norma DNER 6\" (código truncado)."
+    },
+    {
+      "page": 6,
+      "cat": "contradicao",
+      "texto": "5.1.9: lençol plástico de cura com \"limite inferior de 0,5 mm\", acima do máximo de 0,3 mm de 5.1.8 a, ao qual remete."
+    },
+    {
+      "page": 7,
+      "cat": "contradicao",
+      "texto": "5.2.6: teor de ar ≤ 5 %, contra ≤ 0,5 % nas DNIT 047 e 048, às quais a própria 068 remete. VeBe citado como DNER-ME 94/78 (7.2.1) e DNIT 064/2004-ME (5.2.4, p. 13)."
+    },
+    {
+      "page": 14,
+      "cat": "erro",
+      "texto": "7.3.2.3: \"fctM,est ≥ fctMj\" (deveria ser ≥ fctM,k); 7.3.2.2 define fc28 \"na idade de j dias\"; remissões a 7.4.1.1–7.4.1.3, inexistentes (p. 14–15)."
+    }
+  ],
+  "dner_es_345_97": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "5.4.6.1 b: \"quando a taxa nominal de trabalho da estaca for 10 t\" — falta o operador (provavelmente ≤ 10 t)."
+    },
+    {
+      "page": 6,
+      "cat": "erro",
+      "texto": "7.2.2: a \"contratante\" fica obrigada a demolir e refazer (deveria ser a executante)."
+    }
+  ],
+  "dner_es_346_97": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "5.2.21 cita ABNT NBR 6118/90; o resto da norma cita NBR 6118/80. 5.2.22 a chama o fck de \"resistência de dosagem\"."
+    }
+  ],
+  "dner_es_349_97": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "5.2.17: \"pontos de fusão médio de 84º e 94º C\" (ambíguo; interpretado como faixa). Seção 6 (p. 6) começa em 6.1.2 e 6.3.1 fala em \"serviços preliminares\" (copiado da ES 344)."
+    }
+  ],
+  "dner_es_350_97": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.7 atribui o Proctor Normal à \"DNER-ES 301/97\" (especificação de sub-base, não método de ensaio). Seção 6 (p. 6): numeração 6.2.1.1 → 6.2.2.2 → 6.2.3.3 e \"7.3 Aceitação\" dentro da seção 6."
+    }
+  ],
+  "dner_es_351_97": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Argamassa alternativa para ladrilhos: 1:2:3 em 5.18.6 e 1:3:3 \"nas paredes\" em 5.18.9. Chapisco 1:3 (5.13) contra 1:2 na DNER-ES 350/97 (5.5.3)."
+    }
+  ],
+  "dner_es_353_97": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "6.2.3: \"51,5 Kg/cm² (10,55 libras/pé quadrado)\" — 10,55 lb/pé² = 51,5 kgf/m², não kgf/cm²."
+    }
+  ],
+  "dner_es_357_97": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "5.20: \"3,0 m entre curvas de 90°\" — provavelmente redução de 3 m por curva."
+    }
+  ],
+  "dner_es_358_97": [
+    {
+      "page": 2,
+      "cat": "incerto",
+      "texto": "5.4: declividade mínima de 2 % em canalização de água sob pressão (incomum)."
+    }
+  ],
+  "dner_es_359_97": [
+    {
+      "page": 7,
+      "cat": "erro",
+      "texto": "7.3.1: prova de fumaça com \"pressão mínima de 25,0 m de coluna d'água\" (usual: 25 mm c.a.; a prova com água é de 3 m.c.a.)."
+    },
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "5.23.2: dimensionamento do sumidouro pela NBR 7220/87 (agregados); o correto seria a NBR 7229, citada em 5.22.3. Fala em \"entrada do efluente na fossa\" no item do sumidouro."
+    }
+  ],
+  "dnit_104_2009_es-1": [
+    {
+      "page": 5,
+      "cat": "contradicao",
+      "texto": "5.3.5 considera vegetação \"até 15 cm\" como pequena; 8.1.1 e 8.1.2 (p. 8) medem árvore de exatamente 0,15 m como grande."
+    }
+  ],
+  "dnit_106_2009_es-1": [
+    {
+      "page": 8,
+      "cat": "erro",
+      "texto": "7.4 tira a conformidade só de 7.1 e 7.2 (sem 7.3); 8.1 (p. 9) remete a aceitação à 7.3 (seria 7.4); 8.1.5 d (p. 10) cita 5.3.1 para massas excedentes (seria 5.3.9)."
+    }
+  ],
+  "dnit_108_2009_es-terraplenagem_aterros-especificacao-de-servico_com_a_incoroporacao_da_errata_1": [
+    {
+      "page": 8,
+      "cat": "contradicao",
+      "texto": "5.1 c exige ISC ≥ 2 % no corpo do aterro, mas 7.1 não dá frequência de ISC para o corpo; 7.4 (p. 9) manda controlar ISC mínimo, mas a camada final não tem mínimo (5.1 d: \"melhor capacidade de suporte\"). 7.3.1 a: \"variação máxima da altura máxima de ± 0,04 m\"."
+    }
+  ],
+  "dnit_441_2023_es": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Nota 4 exige tração nominal ≥ 50 kN/m; a Tabela 2 da mesma página pede ≥ 12, 14 e 19 kN/m. Permeabilidade do geotêxtil em cm/s pela ASTM D4491 (que mede permissividade, s⁻¹)."
+    },
+    {
+      "page": 6,
+      "cat": "erro",
+      "texto": "8.3 diz \"vide 8.4\" e 8.4 cita a si mesma; a permeabilidade da areia (Tabela 1, p. 4) não aparece na lista de ensaios de 8.1 (p. 5)."
+    }
+  ],
+  "dnit_445_2023_es": [
+    {
+      "page": 6,
+      "cat": "erro",
+      "texto": "8.2.2 manda usar \"Tabela B1 – Amostragem Variável (Anexo A)\" (a tabela é a A1; B1 é a da MCT); referência 2 j (p. 2) cita DNER-PRO 273/97 e 8.2.2 cita 273/96 (correto); GC medido a cada 60 m (8.2.1 d) sem valor mínimo; Tabela B2 (p. 9) traz \"Pa-LA\" por \"Ps-LA\"."
+    }
+  ],
+  "dnit_100_2018_es": [
+    {
+      "page": 8,
+      "cat": "contradicao",
+      "texto": "Prazo da retrorrefletividade inicial: até 15 dias após a aplicação (p. 8), até 72 h após a liberação ao tráfego (p. 9) e 7 dias após a abertura ao tráfego (7.5, p. 12)."
+    },
+    {
+      "page": 6,
+      "cat": "contradicao",
+      "texto": "Escolha do material: Tabela 1 indica termoplástico extrudado acima de VMD 5000; Tabela 2 indica tinta EM-276 entre 5000 e 10000. Nota (3) da Tabela 2 fala em \"trechos de menor VMD\" para > 30000."
+    },
+    {
+      "page": 7,
+      "cat": "contradicao",
+      "texto": "Termoplástico pré-formado \"sem qualquer tipo de adesivo\" (4.3 e, p. 3) e \"autocolante\" (5.3.2.2 c/d). Espessura de tinta 0,4–0,8 mm (p. 7) contra 0,3–0,5 mm úmida para a acrílica (p. 10)."
+    },
+    {
+      "page": 11,
+      "cat": "erro",
+      "texto": "Alto-relevo com \"altura máxima de 8m\" (8 mm). NBR 16307 associada à geometria de 15 m (p. 9; é a de 30 m); NBR 14723 citada como 2013 (5.4) e 2005 (7.4.3, p. 12)."
+    }
+  ],
+  "dnit_099_2009_es-1": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "7.1.2 c dá resistência à flexão dos mourões em \"kg\"; 5.3.5 (p. 3) aceita grampo ou braçadeira de arame para qualquer mourão, mas 7.2.4 b (p. 5) exige grampo na madeira e arame liso no concreto."
+    }
+  ],
+  "dnit_101_2009_es-1": [
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "5.4.2: gabarito de 4,5 m \"exclusivamente para nos trechos urbanos fora da circunscrição do DNIT\" — redação truncada e contraditória."
+    }
+  ],
+  "dnit_117_2009_es-1": [
+    {
+      "page": 8,
+      "cat": "erro",
+      "texto": "Referências (p. 3) listam \"NBR NM 45 – pasta de consistência normal\", mas 7.1.1 cita a NBR NM 43 (a correta para o ensaio)."
+    },
+    {
+      "page": 10,
+      "cat": "contradicao",
+      "texto": "Tabela 3, vida útil da calda: \"índice de fluidez maior que 18 s durante 30 min\", contra fluidez ≤ 18 s na injeção (parece invertido)."
+    },
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "Tabela 1: condição de preparo C ausente e condição B com duas faixas (C10–C20 e C10–C25)."
+    }
+  ],
+  "dnit_118_2009_es-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.1: \"kgf/mm² = kN/cm²\" — unidades não equivalentes."
+    }
+  ],
+  "dnit_119_2009_es-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.1.1 a: fios com \"diâmetros internos variando de 4,0 a 9,0 mm\" (deveria ser diâmetro nominal)."
+    },
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "5.1.1 d: bainha especificada para 15 kgf/cm² (≈ 1,5 MPa), mas a DNIT 123-ES (5.3.2 e) prevê injeção de 1,5 a 2,0 MPa."
+    }
+  ],
+  "dnit_120_2009_es-1": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "5.5 b: fundo de vigas com vão > 6 m tem prazo de 10 dias, menor que os 14 dias de vãos de 3 a 6 m. Prazos de retirada diferentes da DNIT 124-ES (7.1): 12 h / 7–14 dias contra 3 / 14 / 21 dias."
+    },
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "7.2 remete tolerâncias de fôrma e desmoldagem à \"seção 11 da NBR 6118:2007\" (estão na NBR 14931)."
+    }
+  ],
+  "dnit_121_2009_es-1": [
+    {
+      "page": 6,
+      "cat": "contradicao",
+      "texto": "5.3.4 d: extremidade do tubo \"deve ser aberta\" e logo em seguida admite o fechamento da ponta com rolha."
+    }
+  ],
+  "dnit_122_2009_es-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.1.1 e 5.3.1: \"tetraclorofluoretileno\" (o material é politetrafluoretileno, PTFE). 7.2.3 e 7.3 (p. 6) citam DNER-ES 325/97, substituída pela DNIT 047/2004-ES que a própria norma usa em 5.2."
+    },
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Dreno ≥ 15 cm para fora da estrutura (5.1.5 a) contra 10 a 15 cm (5.3.5 a, p. 5)."
+    }
+  ],
+  "dnit_123_2009_es-1": [
+    {
+      "page": 4,
+      "cat": "incerto",
+      "texto": "5.3.2 b: limites na pós-tração 0,90 fpyk (RN) e 0,88 fpyk (RB) — conferir com a NBR 6118 vigente (que dá outros valores)."
+    },
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "5.3.2 e: velocidade de injeção \"6,0 m/seg a 12,0 m/seg\" (provavelmente m/min)."
+    }
+  ],
+  "dnit_124_2009_es-1": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Estacas do escoramento cortadas \"no nível do terreno\" (5.4.4) e \"pelo menos 50 cm abaixo do terreno acabado\" (7.1, p. 5). 5.4.1 repete a alínea \"a)\" depois de \"d)\"."
+    }
   ]
 }

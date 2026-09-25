@@ -1,0 +1,60 @@
+{
+ "es": "dner-es-344-97",
+ "servico": "Edificações – serviços preliminares",
+ "itens": [
+  {
+   "etapa": "execucao",
+   "grupo": "Caracterização do subsolo",
+   "ensaio": "Sondagens de simples reconhecimento",
+   "citado": "ABNT NBR 8036/83 (NB-12) e ABNT NBR 6122/86 (NB-51)",
+   "norma": null,
+   "frequencia": "Antes do início da obra (complementar às informações do contratante)",
+   "criterio": "Conforme ABNT NBR 8036 e códigos/posturas locais; executante responde pela suficiência das informações",
+   "secao": "5.1.1 / 5.1.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Canteiro – tapumes",
+   "ensaio": "Dimensões e materiais dos tapumes",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação do canteiro",
+   "criterio": "Tipo I: chapa de madeira prensada 6 mm, montantes 16 × 16 cm a cada 2,20 m, intermediários 7,5 × 7,5 cm; Tipo II: tábuas de pinho, montantes 75 × 75 mm, altura 2,50 m; pintura protetora",
+   "secao": "5.3.3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Canteiro – barracão/escritório",
+   "ensaio": "Instalações para a supervisão",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na instalação do canteiro",
+   "criterio": "Escritório claro e arejado, área compatível, com banheiro (vaso, lavatório e chuveiro), mesa e escaninhos",
+   "secao": "5.3.4"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Limpeza do terreno",
+   "ensaio": "Remoção de vegetação e resíduos",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Antes da locação; entulho removido periodicamente durante a obra",
+   "criterio": "Área livre de raízes, tocos, pedras e outros resíduos",
+   "secao": "5.4.2 / 5.4.3"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Serviços preliminares",
+   "ensaio": "Inspeção visual",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na conclusão dos serviços",
+   "criterio": "Atendimento às exigências da ES e ao projeto",
+   "secao": "7.1 / 7.2"
+  }
+ ],
+ "notas": [
+  "Controle de qualidade exclusivamente visual (7.1).",
+  "Trabalhos que não atendam à ES são rejeitados e refeitos pela executante, sem ônus para o contratante."
+ ]
+}

@@ -1,0 +1,31 @@
+{
+  "es": "dner-es-039-71",
+  "servico": "Muros de arrimo",
+  "itens": [
+    {"etapa": "materiais", "grupo": "Pedras", "ensaio": "Qualidade e volume das pedras",
+     "citado": null, "norma": null,
+     "frequencia": "No recebimento", "criterio": "Sem decomposição nem capa de pedreira; volume entre 0,015 e 0,05 m³; espessura ≤ metade da menor dimensão do muro", "condicao": "muros de alvenaria de pedra", "secao": "2"},
+    {"etapa": "materiais", "grupo": "Pedras", "ensaio": "Forma e dimensões das pedras",
+     "citado": null, "norma": null,
+     "frequencia": "No recebimento", "criterio": "Aprox. paralelepípedo com espessura mínima de 20 cm e demais dimensões de 3× e 1,5× a espessura; ≥ 50 % dos blocos com volume ≥ 0,036 m³", "condicao": "alvenaria de pedra argamassada", "secao": "2"},
+    {"etapa": "materiais", "grupo": "Argamassa", "ensaio": "Traço da argamassa",
+     "citado": null, "norma": null,
+     "frequencia": "No preparo", "criterio": "1:3 (cimento:areia), em volume", "condicao": "alvenaria de pedra argamassada", "secao": "4.1"},
+    {"etapa": "execucao", "grupo": "Fundação", "ensaio": "Escavação e preparo da fundação",
+     "citado": "DNER-ES-OA 35/71", "norma": null,
+     "frequencia": "Antes do assentamento", "criterio": "Conforme DNER-ES-OA 35/71 e dimensões do projeto", "secao": "4.1"},
+    {"etapa": "execucao", "grupo": "Drenagem", "ensaio": "Barbacãs",
+     "citado": null, "norma": null,
+     "frequencia": "Durante a execução do muro", "criterio": "100 cm² de drenos por m² de paramento, uniformemente distribuídos", "secao": "4.1 / 4.2"},
+    {"etapa": "execucao", "grupo": "Drenagem", "ensaio": "Camada filtrante no tardoz",
+     "citado": null, "norma": null,
+     "frequencia": "Simultaneamente à construção do muro", "criterio": "20 cm de espessura em toda a altura do paramento interno, com dreno de areia longitudinal", "condicao": "muro que intercepta lençol freático ou terreno de alta permeabilidade", "secao": "4.1 / 4.2"},
+    {"etapa": "execucao", "grupo": "Muros de concreto", "ensaio": "Execução do concreto (ciclópico, armado ou protendido)",
+     "citado": null, "norma": null,
+     "frequencia": "Conforme especificações de concreto do DNER", "criterio": "Conforme especificações correspondentes do DNER", "secao": "4.2"}
+  ],
+  "notas": [
+    "Norma de 1971 sem plano de ensaios: o controle é exercido pela Fiscalização com base na especificação e no projeto (seção 5).",
+    "Muros em fogueira: peças pré-moldadas de concreto armado com enchimento sílico-argiloso compactado."
+  ]
+}

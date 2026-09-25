@@ -75,11 +75,39 @@
   "usado_por": []
  },
  "dner-me-036-94": {
-  "depende": [],
+  "depende": [
+   {
+    "codigo": "DNIT 164/2013-ME",
+    "via": "tecnica",
+    "id": "dnit-164-2013-me",
+    "nota": "massa específica aparente seca máxima para o grau de compactação",
+    "titulo": "Solos - Compactação utilizando amostras não trabalhadas"
+   },
+   {
+    "codigo": "DNIT 456/2025-ME",
+    "via": "tecnica",
+    "id": "dnit-456-2025-me",
+    "nota": "umidade do solo retirado da cavidade"
+   }
+  ],
   "usado_por": []
  },
  "dner-me-037-94": {
-  "depende": [],
+  "depende": [
+   {
+    "codigo": "DNIT 164/2013-ME",
+    "via": "tecnica",
+    "id": "dnit-164-2013-me",
+    "nota": "massa específica aparente seca máxima para o grau de compactação",
+    "titulo": "Solos - Compactação utilizando amostras não trabalhadas"
+   },
+   {
+    "codigo": "DNIT 456/2025-ME",
+    "via": "tecnica",
+    "id": "dnit-456-2025-me",
+    "nota": "umidade do solo retirado da cavidade (estufa, speedy ou álcool)"
+   }
+  ],
   "usado_por": []
  },
  "dner-me-038-94": {
@@ -608,7 +636,7 @@
     "codigo": "DNER-ME 195/94",
     "via": "outra_edicao",
     "id": "dner-me-195-97",
-    "titulo": "Agregados - determinação da absorção e da massa específica do agregado graúdo"
+    "titulo": "Agregados - determinação da absorção e da massa específica de agregado graúdo"
    }
   ],
   "usado_por": []
@@ -860,14 +888,39 @@
   "usado_por": []
  },
  "dnit-164-2013-me": {
-  "depende": [],
+  "depende": [
+   {
+    "codigo": "DNIT 456/2025-ME",
+    "via": "tecnica",
+    "id": "dnit-456-2025-me",
+    "nota": "teor de umidade de cada corpo de prova (7.1 calcula h sem citar norma)"
+   }
+  ],
   "usado_por": [
+   "dner-me-036-94",
+   "dner-me-037-94",
    "dner-me-398-99",
-   "dnit-417-2019-me"
+   "dnit-172-2016-me",
+   "dnit-417-2019-me",
+   "dnit-458-2025-me"
   ]
  },
  "dnit-172-2016-me": {
-  "depende": [],
+  "depende": [
+   {
+    "codigo": "DNIT 164/2013-ME",
+    "via": "tecnica",
+    "id": "dnit-164-2013-me",
+    "nota": "umidade ótima \"antes determinada\" em que se lê o ISC",
+    "titulo": "Solos - Compactação utilizando amostras não trabalhadas"
+   },
+   {
+    "codigo": "DNIT 456/2025-ME",
+    "via": "tecnica",
+    "id": "dnit-456-2025-me",
+    "nota": "teor de umidade dos corpos de prova"
+   }
+  ],
   "usado_por": [
    "dnit-254-2023-me"
   ]
@@ -999,7 +1052,7 @@
     "codigo": "DNER-ME 266/97",
     "via": "faltante",
     "id": null,
-    "titulo": "Agregados – Determinação do teor de materiais pulverulentos"
+    "titulo": "Agregados - determinação do teor de materiais pulverulentos"
    }
   ],
   "usado_por": [
@@ -1271,10 +1324,14 @@
    }
   ],
   "usado_por": [
+   "dner-me-036-94",
+   "dner-me-037-94",
    "dner-me-201-94",
    "dner-me-202-94",
    "dner-me-216-94",
    "dner-me-274-96",
+   "dnit-164-2013-me",
+   "dnit-172-2016-me",
    "dnit-417-2019-me",
    "dnit-419-2019-me",
    "dnit-458-2025-me"
@@ -1282,6 +1339,13 @@
  },
  "dnit-458-2025-me": {
   "depende": [
+   {
+    "codigo": "DNIT 164/2013-ME",
+    "via": "tecnica",
+    "id": "dnit-164-2013-me",
+    "nota": "massa específica aparente seca de laboratório (ME_lab) para o grau de compactação",
+    "titulo": "Solos - Compactação utilizando amostras não trabalhadas"
+   },
    {
     "codigo": "DNIT 456-ME",
     "via": "acervo",
@@ -1388,7 +1452,7 @@
     "codigo": "DNER-ME 266/97",
     "via": "faltante",
     "id": null,
-    "titulo": "Agregados – Determinação do teor de materiais pulverulentos"
+    "titulo": "Agregados - determinação do teor de materiais pulverulentos"
    }
   ],
   "usado_por": [
@@ -1658,7 +1722,7 @@
    "tipo": "ES",
    "via": "substituida",
    "alternativa": "dnit-124-2009-es",
-   "titulo": "Obras-de-Arte Especiais – escoamento",
+   "titulo": "obras-de-arte especiais – escoramentos: especificação de serviço",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -2334,7 +2398,7 @@
    "tipo": "ME",
    "via": "outra_edicao",
    "alternativa": "dner-me-195-97",
-   "titulo": "Agregados - determinação da absorção e da massa específica do agregado graúdo",
+   "titulo": "Agregados - determinação da absorção e da massa específica de agregado graúdo",
    "cancelada": null,
    "citada_por_me": [
     "dner-me-399-99"
@@ -2394,7 +2458,7 @@
    "tipo": "ME",
    "via": "faltante",
    "alternativa": null,
-   "titulo": "Agregados – Determinação do teor de materiais pulverulentos",
+   "titulo": "Agregados - determinação do teor de materiais pulverulentos",
    "cancelada": null,
    "citada_por_me": [
     "dner-me-083-98",
@@ -2457,7 +2521,7 @@
    "tipo": "ES",
    "via": "faltante",
    "alternativa": null,
-   "titulo": "Pavimentos flexíveis – Concreto asfáltico - Especificação de serviço",
+   "titulo": "Pavimentos flexíveis – Concreto asfáltico – Especificação de serviço",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [

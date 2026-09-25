@@ -196,9 +196,11 @@
         '<span class="dep-via dep-falta">cancelada pelo DNIT em ' + escapeHtml(d.cancelada) + "</span>" +
         (d.sucessora && byId[d.sucessora] ? ' <span class="dep-via">(use no lugar <a data-id="' + escapeHtml(d.sucessora) +
           '" class="rel-link">' + escapeHtml(byId[d.sucessora].codigo) + "</a>)</span>" : "");
-    } else if (d.via === "acervo") {
+    } else if (d.via === "acervo" || d.via === "tecnica") {
       html = '<a data-id="' + escapeHtml(d.id) + '" class="rel-link">' + escapeHtml(byId[d.id].codigo) + "</a> " +
-        '<span class="dep-tit">' + escapeHtml(byId[d.id].titulo) + "</span>";
+        '<span class="dep-tit">' + escapeHtml(byId[d.id].titulo) + "</span>" +
+        (d.via === "tecnica" ? ' <span class="dep-via dep-tec" title="' + escapeHtml(d.nota || "") +
+          '">dependência técnica (não citada na norma)' + (d.nota ? ": " + escapeHtml(d.nota) : "") + "</span>" : "");
     } else {
       html = '<span class="dep-fora">' + escapeHtml(d.codigo) + "</span> " +
         (d.titulo ? '<span class="dep-tit">' + escapeHtml(d.titulo) + "</span> " : "");
@@ -1035,7 +1037,7 @@
         no(meId, { chave: meId, id: meId, codigo: n.codigo, titulo: n.titulo, tipo: n.status === "cancelada" ? "cancelada" : "acervo" });
         // a mesma norma citada em grafias diferentes (edições) vira uma aresta só
         if (!arestas.some(function (a) { return a.de === chave && a.para === meId; })) {
-          arestas.push({ de: chave, para: meId, via: x.via, citado: x.codigo });
+          arestas.push({ de: chave, para: meId, via: x.via, citado: x.codigo, nota: x.nota });
         }
       });
     });
@@ -1068,12 +1070,14 @@
     familias.forEach(function (f, i) { f.idx = i; });
     familias.sort(function (a, b) { return b.membros.length - a.membros.length || a.nome.localeCompare(b.nome, "pt-BR"); });
 
-    var estado = { familia: null, busca: "", fora: true, sel: null };
+    // foco: ao clicar num ensaio o diagrama mostra só a cadeia dele (pré-requisitos + quem o usa)
+    var estado = { familia: null, busca: "", fora: true, sel: null, foco: null, focoSet: null };
     var famEl = document.getElementById("deps-familias");
     var info = document.getElementById("deps-info");
 
     function visivel(k) {
       var n = nos[k];
+      if (estado.focoSet) return !!estado.focoSet[k] && (estado.fora || n.tipo !== "fora" || k === estado.foco);
       if (!estado.fora && n.tipo === "fora") return false;
       if (estado.familia !== null && familiaDe[k] !== estado.familia) return false;
       return true;
@@ -1136,12 +1140,15 @@
         };
       }));
       visArestas.add(arestas.filter(function (a) { return visivel(a.de) && visivel(a.para); }).map(function (a, i) {
-        return { id: i, from: a.de, to: a.para, dashes: a.via !== "acervo",
-          title: nos[a.para].codigo + " exige " + a.citado + (a.via === "substituida" ? " (substituída pela norma indicada)"
+        var tec = a.via === "tecnica";
+        return { id: i, from: a.de, to: a.para, dashes: tec ? [2, 5] : a.via !== "acervo", width: tec ? 2 : 1.2,
+          color: tec ? { color: "#e0a13a", highlight: "#ffc766" } : undefined,
+          title: tec ? nos[a.para].codigo + " usa " + a.citado + " — dependência técnica, não citada na norma: " + (a.nota || "")
+            : nos[a.para].codigo + " exige " + a.citado + (a.via === "substituida" ? " (substituída pela norma indicada)"
             : a.via === "outra_edicao" ? " (no acervo em outra edição)" : a.via === "cancelada" ? " (cancelada)" : "") };
       }));
       rede.fit({ animation: false });
-      if (estado.sel && visNos.get(estado.sel)) selecionar(estado.sel); else mostrarInfo(null);
+      if (estado.sel && visNos.get(estado.sel)) marcar(estado.sel); else mostrarInfo(null);
     }
 
     function cadeia(k, dir) {
@@ -1166,7 +1173,8 @@
     function mostrarInfo(k) {
       if (!k) {
         info.innerHTML = '<div class="deps-vazio">Clique num ensaio do diagrama para ver o que ele exige antes (pré-requisitos) ' +
-          "e quais ensaios dependem dele.<br><br>Setas tracejadas: a norma citada foi substituída, está em outra edição " +
+          "e quais ensaios dependem dele.<br><br>Setas laranja pontilhadas: dependência técnica — a norma usa o resultado " +
+          "do outro ensaio mas não o cita pelo código.<br><br>Setas tracejadas: a norma citada foi substituída, está em outra edição " +
           "ou foi cancelada; caixas cinza tracejadas: norma que não está no acervo.</div>";
         return;
       }
@@ -1176,7 +1184,8 @@
       var html = '<div class="deps-cod">' + escapeHtml(n.codigo) +
         (n.tipo === "cancelada" ? ' <span class="badge suspensa">CANCELADA</span>' : n.tipo === "fora" ? ' <span class="badge deps-fora-badge">FORA DO ACERVO</span>' : "") +
         '</div><div class="deps-tit">' + escapeHtml(n.titulo || "") + "</div>";
-      if (n.id) html += '<button class="edit-btn" id="deps-abrir">Abrir a norma</button>';
+      html += '<div class="deps-botoes">' + (n.id ? '<button class="edit-btn" id="deps-abrir">Abrir a norma</button>' : "") +
+        (estado.foco ? '<button class="edit-btn" id="deps-familia">Ver a família inteira</button>' : "") + "</div>";
       html += '<div class="label">Exige antes (' + antes.length + ")</div>" +
         (antes.length ? '<div class="deps-lista">' + diretos.map(chip).join(" ") +
           (antes.length > diretos.length ? '<div class="deps-sub">e, indiretamente: ' +
@@ -1187,13 +1196,32 @@
       info.innerHTML = html;
       var b = document.getElementById("deps-abrir");
       if (b) b.addEventListener("click", function () { selectNorma(n.id); showTab(tabNormas, viewNormas); });
+      var bf = document.getElementById("deps-familia");
+      if (bf) bf.addEventListener("click", sairFoco);
     }
 
-    function selecionar(k) {
-      estado.sel = k;
+    function marcar(k) {
       var marcados = [k].concat(cadeia(k, "antes"), cadeia(k, "depois")).filter(function (x) { return visNos.get(x); });
       rede.selectNodes(marcados, true);
       mostrarInfo(k);
+    }
+
+    // seleciona e entra no foco da cadeia do ensaio
+    function selecionar(k) {
+      estado.sel = k;
+      estado.foco = k;
+      estado.focoSet = {};
+      [k].concat(cadeia(k, "antes"), cadeia(k, "depois")).forEach(function (x) { estado.focoSet[x] = 1; });
+      desenhar();
+    }
+
+    function sairFoco() {
+      if (!estado.foco) return;
+      estado.familia = familiaDe[estado.foco];
+      estado.foco = null;
+      estado.focoSet = null;
+      renderFamilias();
+      desenhar();
     }
 
     rede.on("click", function (p) {
@@ -1208,8 +1236,6 @@
       var a = ev.target.closest(".deps-chip");
       if (!a) return;
       var k = a.dataset.k;
-      if (!visivel(k)) { estado.familia = null; renderFamilias(); desenhar(); }
-      rede.focus(k, { scale: 1, animation: true });
       selecionar(k);
     });
     famEl.addEventListener("click", function (ev) {
@@ -1217,6 +1243,8 @@
       if (!it) return;
       estado.familia = it.dataset.f === "" ? null : Number(it.dataset.f);
       estado.sel = null;
+      estado.foco = null;
+      estado.focoSet = null;
       renderFamilias();
       desenhar();
     });
@@ -1241,7 +1269,6 @@
       if (!nos[id]) return;
       estado.familia = familiaDe[id];
       renderFamilias();
-      desenhar();
       selecionar(id);
     };
     if (depsPendente) { depsSelecionar(depsPendente); depsPendente = null; }

@@ -1,0 +1,13 @@
+{
+  "_comentario": "Dependências técnicas entre ME que a norma usa mas não cita pelo código (curadas à mão). 'de' é pré-requisito de 'para'. Lidas por scripts/dependencias.py; no site aparecem com traço próprio e a indicação 'dependência técnica'.",
+  "ligacoes": [
+    {"de": "dnit-456-2025-me", "para": "dnit-164-2013-me", "nota": "teor de umidade de cada corpo de prova (7.1 calcula h sem citar norma)"},
+    {"de": "dnit-456-2025-me", "para": "dnit-172-2016-me", "nota": "teor de umidade dos corpos de prova"},
+    {"de": "dnit-456-2025-me", "para": "dner-me-036-94", "nota": "umidade do solo retirado da cavidade"},
+    {"de": "dnit-456-2025-me", "para": "dner-me-037-94", "nota": "umidade do solo retirado da cavidade (estufa, speedy ou álcool)"},
+    {"de": "dnit-164-2013-me", "para": "dnit-458-2025-me", "nota": "massa específica aparente seca de laboratório (ME_lab) para o grau de compactação"},
+    {"de": "dnit-164-2013-me", "para": "dner-me-036-94", "nota": "massa específica aparente seca máxima para o grau de compactação"},
+    {"de": "dnit-164-2013-me", "para": "dner-me-037-94", "nota": "massa específica aparente seca máxima para o grau de compactação"},
+    {"de": "dnit-164-2013-me", "para": "dnit-172-2016-me", "nota": "umidade ótima \"antes determinada\" em que se lê o ISC"}
+  ]
+}

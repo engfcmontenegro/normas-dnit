@@ -159,6 +159,18 @@ def main():
             if d["via"] in ("faltante", "outra_edicao", "cancelada"):
                 citantes[d["codigo"]].add(e["id"])
 
+    # dependências técnicas curadas (data/dependencias_tecnicas.json): usadas pela norma mas não citadas
+    tec_path = ROOT / "data/dependencias_tecnicas.json"
+    for lig in (json.loads(tec_path.read_text(encoding="utf-8"))["ligacoes"] if tec_path.exists() else []):
+        de, para = lig["de"], lig["para"]
+        if para not in deps or de not in by_id:
+            print(f"AVISO dependência técnica ignorada: {de} -> {para}")
+            continue
+        if any(x["id"] == de for x in deps[para]["depende"]):
+            continue  # já é citada pela norma
+        deps[para]["depende"].append({"codigo": by_id[de]["codigo"], "via": "tecnica", "id": de, "nota": lig.get("nota", "")})
+        deps[para]["depende"].sort(key=lambda x: x["codigo"])
+
     for nid, d in deps.items():
         for dep in d["depende"]:
             if dep["id"] and dep["id"] in deps and dep["via"] != "faltante":

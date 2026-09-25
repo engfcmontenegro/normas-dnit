@@ -183,6 +183,65 @@
     return html;
   }
 
+  // ---------- Dependências entre métodos de ensaio (data/dependencias.json) ----------
+  var DEPS = window.DEPENDENCIAS || {};
+  var VIA_TXT = { substituida: "substituída por", outra_edicao: "no acervo em outra edição:" };
+
+  function depItem(d, nivel, caminho, raiz) {
+    var html;
+    if (d.via === "acervo") {
+      html = '<a data-id="' + escapeHtml(d.id) + '" class="rel-link">' + escapeHtml(byId[d.id].codigo) + "</a> " +
+        '<span class="dep-tit">' + escapeHtml(byId[d.id].titulo) + "</span>";
+    } else {
+      html = '<span class="dep-fora">' + escapeHtml(d.codigo) + "</span> " +
+        (d.titulo ? '<span class="dep-tit">' + escapeHtml(d.titulo) + "</span> " : "");
+      if (d.id) {
+        html += '<span class="dep-via">(' + VIA_TXT[d.via] + ' <a data-id="' + escapeHtml(d.id) + '" class="rel-link">' +
+          escapeHtml(byId[d.id].codigo) + "</a>)</span>";
+      } else {
+        html += '<span class="dep-via dep-falta">fora do acervo</span>';
+      }
+    }
+    // cadeia: o que o método citado, por sua vez, exige (sem repetir quem já está no caminho)
+    var filhos = d.id && d.via !== "faltante" && DEPS[d.id] && nivel < 4
+      ? DEPS[d.id].depende.filter(function (x) {
+        // não repete o que já está no caminho nem o que já aparece como dependência direta
+        var k = x.id || x.codigo;
+        return caminho.indexOf(k) === -1 && raiz.indexOf(k) === -1;
+      })
+      : [];
+    if (filhos.length) {
+      html += '<ul class="dep-arvore">' + filhos.map(function (x) {
+        return depItem(x, nivel + 1, caminho.concat([x.id || x.codigo]), raiz);
+      }).join("") + "</ul>";
+    }
+    return "<li>" + html + "</li>";
+  }
+
+  function renderDependencias(n) {
+    var d = DEPS[n.id];
+    if (!d || (!d.depende.length && !d.usado_por.length)) return "";
+    var html = '<div class="related-box dep-box">';
+    if (d.depende.length) {
+      var fora = d.depende.filter(function (x) { return x.via !== "acervo"; }).length;
+      var raiz = d.depende.map(function (x) { return x.id || x.codigo; });
+      html += '<div class="label">Depende de — ensaios exigidos por este método (' + d.depende.length + ")</div>" +
+        '<ul class="dep-arvore dep-raiz">' + d.depende.map(function (x) {
+          return depItem(x, 1, [n.id, x.id || x.codigo], raiz);
+        }).join("") + "</ul>" +
+        (fora ? '<div class="dep-nota">' + fora + ' citado(s) não estão no acervo nesta edição — ' +
+          '<a href="normas_faltantes.html" target="_blank">ver todas as normas faltantes</a></div>' : "");
+    }
+    if (d.usado_por.length) {
+      html += '<div class="label"' + (d.depende.length ? ' style="margin-top:10px"' : "") +
+        ">Usado por — métodos que dependem deste (" + d.usado_por.length + ")</div>" +
+        d.usado_por.map(function (id) { return byId[id]; }).filter(Boolean).sort(compareCodigo).map(function (r) {
+          return '<a data-id="' + r.id + '" class="rel-link">' + escapeHtml(r.codigo) + "</a>";
+        }).join(" ");
+    }
+    return html + "</div>";
+  }
+
   var editingId = null; // id da norma atualmente em modo de edição, se houver
 
   function headerHtml(n, editMode) {
@@ -321,6 +380,7 @@
 
     contentPanel.innerHTML =
       headerHtml(n, false) +
+      renderDependencias(n) +
       renderRelated(n) +
       '<div class="markdown-body">' + bodyHtml + "</div>";
 

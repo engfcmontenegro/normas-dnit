@@ -245,68 +245,58 @@
   };
 
   // =====================================================================================
-  // DNIT 164/2013-ME — Solos — Compactação utilizando amostras não trabalhadas
+  // BLOCO — Compactação (moldagem dos corpos de prova e curva de compactação)
+  // usado pela DNIT 164/2013-ME e pela DNIT 172/2016-ME (o ISC traça a curva com os próprios CPs, 6.1 e 8.1)
   // =====================================================================================
   var ENERGIAS = { A: { nome: "Normal (Método A)", golpes: 12 }, B: { nome: "Intermediária (Método B)", golpes: 26 },
     C: { nome: "Modificada (Método C)", golpes: 55 } };
-  // volume útil do molde: Ø 15,24 cm, altura 17,78 cm menos o disco espaçador de 6,35 cm (seção 3 a/b)
+  // volume útil do molde: Ø 15,24 cm, altura 17,78 cm menos o disco espaçador de 6,35 cm
   var VOL_PADRAO = Math.round(Math.PI * Math.pow(15.24 / 2, 2) * (17.78 - 6.35));
+  var ALT_PADRAO = Math.round((17.78 - 6.35) * 100) / 10;  // altura do CP em mm (114,3)
+  // chaves de dados que pertencem à moldagem (copiadas ao importar uma compactação salva)
+  var CHAVES_MOLDAGEM = ["usar", "c1n", "c1t", "c1u", "c1s", "c2n", "c2t", "c2u", "c2s", "moldeN", "moldeM", "moldeV", "moldeSolo"];
 
-  FICHAS["dnit-164-2013-me"] = {
-    titulo: "Solos — Compactação utilizando amostras não trabalhadas",
-    resumo: "Curva de compactação (massa específica aparente seca × umidade), massa específica aparente seca máxima e umidade ótima.",
-    blocos: ["umidade"],
-    params: [
-      { k: "energia", r: "Energia de compactação (seção 6)", tipo: "select",
-        opcoes: [["A", "Normal — 12 golpes/camada"], ["B", "Intermediária — 26 golpes/camada"], ["C", "Modificada — 55 golpes/camada"]] },
-      { k: "volumePadrao", r: "Volume do molde padrão (cm³)", recarrega: "tabela", dica: "Ø 15,24 cm × (17,78 − 6,35) cm ≈ " + VOL_PADRAO +
-        " cm³; use a capacidade aferida do seu molde", ph: String(VOL_PADRAO) },
-      { k: "ret19", r: "Material retido na peneira de 19 mm (%)", dica: "substituído por igual massa passando na 19 mm e retido na 4,8 mm (4.2)" },
-      { k: "gs", r: "Massa específica dos grãos (g/cm³) — opcional", dica: "só para traçar a curva de saturação (S = 100 %) no gráfico" },
-    ],
-    padrao: { energia: "B" },
-    tabelas: function () {
+  BLOCOS.compactacao = {
+    nome: "Compactação",
+    norma: "dnit-164-2013-me",
+    linhas: function (secUmid, secCP) {
       var U = BLOCOS.umidade;
-      return [{
-        chave: "pontos", titulo: "Pontos da curva", rotulo: "Ponto", iniciais: 5, min: 5, usar: true,
-        dica: "uma coluna por corpo de prova; mínimo de 5 (5.4). Desmarque \"usar\" para tirar um ponto discrepante do ajuste.",
-        linhas: [{ grupo: "Umidade do corpo de prova — bloco Teor de umidade, DNIT 456-ME (5.1 e 7.1)" }]
-          .concat(U.linhas("c1", "Cápsula 1", "lab"))
-          .concat(U.linhas("c2", "Cápsula 2 (siltosos/argilosos)", "lab"))
-          .concat([{ calc: "h", r: "Teor de umidade médio (h)", u: "%", casas: 2, destaque: true },
-            { grupo: "Corpo de prova compactado (5.3 e 7.2)" },
-            { k: "moldeN", r: "Molde nº", texto: true },
-            { k: "moldeM", r: "Massa do molde", u: "g" },
-            { k: "moldeV", r: "Volume do molde (V)", u: "cm³", padrao: "volumePadrao", padraoFixo: String(VOL_PADRAO) },
-            { k: "moldeSolo", r: "Molde + solo úmido compactado", u: "g" },
-            { calc: "Ph", r: "Massa do solo úmido (P'h)", u: "g", casas: 0 },
-            { calc: "gh", r: "Massa específica aparente úmida (γh = P'h / V)", u: "g/cm³", casas: 3 },
-            { calc: "gs", r: "Massa específica aparente seca (γs = γh × 100 / (100 + h))", u: "g/cm³", casas: 3, destaque: true }]),
-      }];
+      return [{ grupo: "Umidade do corpo de prova — bloco Teor de umidade, DNIT 456-ME (" + secUmid + ")" }]
+        .concat(U.linhas("c1", "Cápsula 1", "lab"))
+        .concat(U.linhas("c2", "Cápsula 2 (siltosos/argilosos)", "lab"))
+        .concat([{ calc: "h", r: "Teor de umidade médio (h)", u: "%", casas: 2, destaque: true },
+          { grupo: "Corpo de prova compactado (" + secCP + ")" },
+          { k: "moldeN", r: "Molde nº", texto: true },
+          { k: "moldeM", r: "Massa do molde", u: "g" },
+          { k: "moldeV", r: "Volume do molde (V)", u: "cm³", padrao: "volumePadrao", padraoFixo: String(VOL_PADRAO) },
+          { k: "moldeSolo", r: "Molde + solo úmido compactado", u: "g" },
+          { calc: "Ph", r: "Massa do solo úmido (P'h)", u: "g", casas: 0 },
+          { calc: "gh", r: "Massa específica aparente úmida (γh = P'h / V)", u: "g/cm³", casas: 3 },
+          { calc: "gs", r: "Massa específica aparente seca (γs = γh × 100 / (100 + h))", u: "g/cm³", casas: 3, destaque: true }]);
     },
-
-    calcular: function (d) {
+    // pontos da moldagem + curva (parábola por mínimos quadrados) -> {pontos, res, avisos}
+    calcular: function (d, minPontos, rotuloPonto) {
       var P = d.params || {};
       var volPad = num(P.volumePadrao);
       if (!ok(volPad)) volPad = VOL_PADRAO;
-      var avisos = [];
+      var avisos = [], rot = rotuloPonto || "Ponto";
       var pontos = (d.pontos || []).map(function (p, i) {
         var h1 = BLOCOS.umidade.calcular(p, "c1", "lab").w, h2 = BLOCOS.umidade.calcular(p, "c2", "lab").w;
         var h = media([h1, h2]);
         var V = ok(num(p.moldeV)) ? num(p.moldeV) : volPad;
         var Ph = num(p.moldeSolo) - num(p.moldeM);
-        var gh = ok(Ph) && Ph > 0 ? Ph / V : NaN;               // γh = P'h / V  (7.2 a)
-        var gs = ok(gh) && ok(h) ? gh * 100 / (100 + h) : NaN;  // γs = γh × 100/(100+h)  (7.2 b)
+        var gh = ok(Ph) && Ph > 0 ? Ph / V : NaN;               // γh = P'h / V
+        var gs = ok(gh) && ok(h) ? gh * 100 / (100 + h) : NaN;  // γs = γh × 100/(100+h)
         if (ok(h1) && ok(h2) && Math.abs(h1 - h2) > 1) {
-          avisos.push("Ponto " + (i + 1) + ": as duas cápsulas diferem " + fmt(Math.abs(h1 - h2), 2) +
+          avisos.push(rot + " " + (i + 1) + ": as duas cápsulas diferem " + fmt(Math.abs(h1 - h2), 2) +
             " ponto(s) percentual(is) de umidade — confira as pesagens.");
         }
         return { c1W: h1, c2W: h2, h: h, Ph: Ph, gh: gh, gs: gs, usar: p.usar !== false };
       });
       var validos = pontos.filter(function (p) { return ok(p.h) && ok(p.gs); });
       var usados = validos.filter(function (p) { return p.usar; });
-      if (validos.length < 5) {
-        avisos.push("A norma pede no mínimo cinco pontos (5.4); há " + validos.length + " ponto(s) completo(s).");
+      if (minPontos && validos.length < minPontos) {
+        avisos.push("A norma pede no mínimo " + minPontos + " corpos de prova; há " + validos.length + " completo(s).");
       }
       var res = { gsMax: NaN, hOt: NaN, ajuste: null };
       if (usados.length >= 3) {
@@ -323,8 +313,7 @@
           }
           var secos = hs.filter(function (h) { return h < res.hOt; }).length, umidos = hs.length - secos;
           if (secos < 2 || umidos < 2) {
-            avisos.push("Recomenda-se ao menos dois pontos em cada ramo da curva (há " + secos + " no ramo seco e " +
-              umidos + " no úmido).");
+            avisos.push("Recomenda-se ao menos dois pontos em cada ramo da curva (há " + secos + " no ramo seco e " + umidos + " no úmido).");
           }
         } else {
           avisos.push("Os pontos marcados não formam uma curva com máximo (concavidade para baixo): revise os pontos ou desmarque os discrepantes.");
@@ -332,9 +321,131 @@
       } else if (validos.length) {
         avisos.push("Marque ao menos três pontos para traçar a curva de compactação.");
       }
-      return { tab: { pontos: pontos }, pontos: pontos, resultados: res, avisos: avisos };
+      return { pontos: pontos, res: res, avisos: avisos };
     },
+  };
 
+  // gráfico da curva de compactação; opt.isc = {pontos: [{h, v, usar}], ajuste, final, rotulo} desenha a curva
+  // ISC × umidade no eixo da direita (DNIT 172, 8.2: "de preferência, na mesma folha")
+  function graficoCompactacao(calc, d, opt) {
+    opt = opt || {};
+    var W = opt.w || 560, H = opt.h || 320, m = { l: 58, r: opt.isc ? 52 : 16, t: 14, b: 42 };
+    var pts = calc.pontos.filter(function (p) { return ok(p.h) && ok(p.gs); });
+    if (!pts.length) return '<div class="fe-graf-vazio">O gráfico aparece quando houver pontos completos.</div>';
+    var r = calc.resultados;
+    var xs = pts.map(function (p) { return p.h; }), ys = pts.map(function (p) { return p.gs; });
+    var x0 = Math.floor(Math.min.apply(null, xs) - 1), x1 = Math.ceil(Math.max.apply(null, xs) + 1);
+    var yMin = Math.min.apply(null, ys), yMax = Math.max.apply(null, ys.concat(ok(r.gsMax) ? [r.gsMax] : []));
+    var pad = Math.max((yMax - yMin) * 0.25, 0.02);
+    var y0 = Math.floor((yMin - pad) * 100) / 100, y1 = Math.ceil((yMax + pad) * 100) / 100;
+    function X(v) { return m.l + (v - x0) / (x1 - x0) * (W - m.l - m.r); }
+    function Y(v) { return H - m.b - (v - y0) / (y1 - y0) * (H - m.t - m.b); }
+    var cor = opt.imprimir ? { eixo: "#333", grade: "#ddd", txt: "#222", curva: "#1f5fbf", sat: "#888", pt: "#1f5fbf", isc: "#c0392b" }
+      : { eixo: "var(--text-dim)", grade: "var(--border)", txt: "var(--text-dim)", curva: "#4f8cff", sat: "#9aa3b2", pt: "#4f8cff", isc: "#e0a13a" };
+    var s = '<svg class="fe-graf" viewBox="0 0 ' + W + " " + H + '" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" font-size="11">';
+    var passoX = (x1 - x0) > 12 ? 2 : 1;
+    for (var gx = x0; gx <= x1; gx += passoX) {
+      s += '<line x1="' + X(gx) + '" y1="' + m.t + '" x2="' + X(gx) + '" y2="' + (H - m.b) + '" stroke="' + cor.grade + '" stroke-width="0.6"/>';
+      s += '<text x="' + X(gx) + '" y="' + (H - m.b + 15) + '" text-anchor="middle" fill="' + cor.txt + '">' + gx + "</text>";
+    }
+    var passoY = (y1 - y0) > 0.3 ? 0.05 : (y1 - y0) > 0.12 ? 0.02 : 0.01;
+    for (var gy = Math.ceil(y0 / passoY) * passoY; gy <= y1 + 1e-9; gy += passoY) {
+      s += '<line x1="' + m.l + '" y1="' + Y(gy) + '" x2="' + (W - m.r) + '" y2="' + Y(gy) + '" stroke="' + cor.grade + '" stroke-width="0.6"/>';
+      s += '<text x="' + (m.l - 6) + '" y="' + (Y(gy) + 4) + '" text-anchor="end" fill="' + cor.txt + '">' + fmt(gy, 3) + "</text>";
+    }
+    s += '<rect x="' + m.l + '" y="' + m.t + '" width="' + (W - m.l - m.r) + '" height="' + (H - m.t - m.b) + '" fill="none" stroke="' + cor.eixo + '"/>';
+    s += '<text x="' + ((W + m.l - m.r) / 2) + '" y="' + (H - 8) + '" text-anchor="middle" fill="' + cor.txt + '">Teor de umidade h (%)</text>';
+    s += '<text transform="translate(14 ' + ((H - m.b + m.t) / 2) + ') rotate(-90)" text-anchor="middle" fill="' + cor.curva + '">γs (g/cm³)</text>';
+    var Gs = num((d.params || {}).gs);
+    if (ok(Gs) && Gs > 1.5 && Gs < 4) {
+      var ds = "";
+      for (var hx = x0; hx <= x1 + 1e-9; hx += (x1 - x0) / 60) {
+        var ysat = Gs / (1 + hx * Gs / 100);
+        if (ysat >= y0 && ysat <= y1) ds += (ds ? " L" : "M") + X(hx).toFixed(1) + " " + Y(ysat).toFixed(1);
+      }
+      if (ds) s += '<path d="' + ds + '" fill="none" stroke="' + cor.sat + '" stroke-dasharray="5 4"/>' +
+        '<text x="' + (W - m.r - 4) + '" y="' + (m.t + 12) + '" text-anchor="end" fill="' + cor.sat + '">S = 100 %</text>';
+    }
+    var us = calc.pontos.filter(function (p) { return p.usar && ok(p.h) && ok(p.gs); });
+    var ha = us.length ? Math.min.apply(null, us.map(function (p) { return p.h; })) - 0.5 : x0;
+    var hb = us.length ? Math.max.apply(null, us.map(function (p) { return p.h; })) + 0.5 : x1;
+    if (r.ajuste) {
+      var a = r.ajuste, dc = "";
+      for (var hc = ha; hc <= hb + 1e-9; hc += (hb - ha) / 60) {
+        var yc = a.a * hc * hc + a.b * hc + a.c;
+        dc += (dc ? " L" : "M") + X(hc).toFixed(1) + " " + Y(Math.max(yc, y0)).toFixed(1);
+      }
+      s += '<path d="' + dc + '" fill="none" stroke="' + cor.curva + '" stroke-width="2"/>';
+      if (ok(r.gsMax)) {
+        s += '<line x1="' + X(r.hOt) + '" y1="' + m.t + '" x2="' + X(r.hOt) + '" y2="' + (H - m.b) + '" stroke="' + cor.curva + '" stroke-dasharray="3 3"/>';
+        s += '<line x1="' + m.l + '" y1="' + Y(r.gsMax) + '" x2="' + X(r.hOt) + '" y2="' + Y(r.gsMax) + '" stroke="' + cor.curva + '" stroke-dasharray="3 3"/>';
+        s += '<text x="' + (X(r.hOt) + 6) + '" y="' + (Y(r.gsMax) - 6) + '" fill="' + cor.curva + '" font-weight="bold">' +
+          fmt(r.gsMax, 3) + " g/cm³ · " + fmt(r.hOt, 1) + " %</text>";
+      }
+    }
+    calc.pontos.forEach(function (p, i) {
+      if (!ok(p.h) || !ok(p.gs)) return;
+      s += '<circle cx="' + X(p.h) + '" cy="' + Y(p.gs) + '" r="4.5" fill="' + (p.usar ? cor.pt : "none") + '" stroke="' + cor.pt + '" stroke-width="1.5"/>';
+      s += '<text x="' + (X(p.h) + 7) + '" y="' + (Y(p.gs) + 13) + '" fill="' + cor.txt + '" font-size="10">' + (i + 1) + "</text>";
+    });
+    // ISC × umidade (eixo da direita)
+    if (opt.isc) {
+      var ip = opt.isc.pontos.filter(function (p) { return ok(p.h) && ok(p.v); });
+      if (ip.length) {
+        var vMax = Math.max.apply(null, ip.map(function (p) { return p.v; }).concat(ok(opt.isc.final) ? [opt.isc.final] : []));
+        var passoV = vMax > 100 ? 25 : vMax > 40 ? 10 : 5, v1 = Math.ceil(vMax * 1.15 / passoV) * passoV;
+        var YV = function (v) { return H - m.b - v / v1 * (H - m.t - m.b); };
+        for (var gv = 0; gv <= v1 + 1e-9; gv += passoV) {
+          s += '<text x="' + (W - m.r + 6) + '" y="' + (YV(gv) + 4) + '" fill="' + cor.isc + '">' + gv + "</text>";
+        }
+        s += '<text transform="translate(' + (W - 10) + " " + ((H - m.b + m.t) / 2) + ') rotate(90)" text-anchor="middle" fill="' + cor.isc + '">' + esc(opt.isc.rotulo || "ISC (%)") + "</text>";
+        if (opt.isc.ajuste) {
+          var q = opt.isc.ajuste, di = "";
+          for (var hi = ha; hi <= hb + 1e-9; hi += (hb - ha) / 60) {
+            var vi = q.a * hi * hi + q.b * hi + q.c;
+            if (vi >= 0 && vi <= v1) di += (di ? " L" : "M") + X(hi).toFixed(1) + " " + YV(vi).toFixed(1);
+          }
+          if (di) s += '<path d="' + di + '" fill="none" stroke="' + cor.isc + '" stroke-width="1.8" stroke-dasharray="7 3"/>';
+        }
+        ip.forEach(function (p) {
+          s += '<rect x="' + (X(p.h) - 4) + '" y="' + (YV(p.v) - 4) + '" width="8" height="8" fill="' + (p.usar ? cor.isc : "none") + '" stroke="' + cor.isc + '" stroke-width="1.5"/>';
+        });
+        if (ok(opt.isc.final) && ok(r.hOt)) {
+          s += '<line x1="' + X(r.hOt) + '" y1="' + YV(opt.isc.final) + '" x2="' + (W - m.r) + '" y2="' + YV(opt.isc.final) + '" stroke="' + cor.isc + '" stroke-dasharray="3 3"/>';
+          s += '<text x="' + (X(r.hOt) + 6) + '" y="' + (YV(opt.isc.final) + 14) + '" fill="' + cor.isc + '" font-weight="bold">ISC ' + fmt(opt.isc.final, 0) + " %</text>";
+        }
+      }
+    }
+    return s + "</svg>";
+  }
+
+  // =====================================================================================
+  // DNIT 164/2013-ME — Solos — Compactação utilizando amostras não trabalhadas
+  // =====================================================================================
+  FICHAS["dnit-164-2013-me"] = {
+    titulo: "Solos — Compactação utilizando amostras não trabalhadas",
+    resumo: "Curva de compactação (massa específica aparente seca × umidade), massa específica aparente seca máxima e umidade ótima.",
+    blocos: ["umidade", "compactacao"],
+    params: [
+      { k: "energia", r: "Energia de compactação (seção 6)", tipo: "select",
+        opcoes: [["A", "Normal — 12 golpes/camada"], ["B", "Intermediária — 26 golpes/camada"], ["C", "Modificada — 55 golpes/camada"]] },
+      { k: "volumePadrao", r: "Volume do molde padrão (cm³)", recarrega: "tabela", dica: "Ø 15,24 cm × (17,78 − 6,35) cm ≈ " + VOL_PADRAO +
+        " cm³; use a capacidade aferida do seu molde", ph: String(VOL_PADRAO) },
+      { k: "ret19", r: "Material retido na peneira de 19 mm (%)", dica: "substituído por igual massa passando na 19 mm e retido na 4,8 mm (4.2)" },
+      { k: "gs", r: "Massa específica dos grãos (g/cm³) — opcional", dica: "só para traçar a curva de saturação (S = 100 %) no gráfico" },
+    ],
+    padrao: { energia: "B" },
+    tabelas: function () {
+      return [{
+        chave: "pontos", titulo: "Pontos da curva", rotulo: "Ponto", iniciais: 5, min: 5, usar: true,
+        dica: "uma coluna por corpo de prova; mínimo de 5 (5.4). Desmarque \"usar\" para tirar um ponto discrepante do ajuste.",
+        linhas: BLOCOS.compactacao.linhas("5.1 e 7.1", "5.3 e 7.2"),
+      }];
+    },
+    calcular: function (d) {
+      var c = BLOCOS.compactacao.calcular(d, 5, "Ponto");
+      return { tab: { pontos: c.pontos }, pontos: c.pontos, resultados: c.res, avisos: c.avisos };
+    },
     resultadosHtml: function (calc, d) {
       var r = calc.resultados, en = ENERGIAS[(d.params || {}).energia || "B"];
       return '<div class="fe-res"><div class="fe-res-item"><div class="fe-res-v">' + fmt(r.gsMax, 3) +
@@ -352,88 +463,254 @@
           ["Umidade ótima", fmt(calc.resultados.hOt, 1) + " %"]];
       },
     },
-
-    grafico: function (calc, d, opt) {
-      opt = opt || {};
-      var W = opt.w || 560, H = opt.h || 320, m = { l: 58, r: 16, t: 14, b: 42 };
-      var pts = calc.pontos.filter(function (p) { return ok(p.h) && ok(p.gs); });
-      if (!pts.length) return '<div class="fe-graf-vazio">O gráfico aparece quando houver pontos completos.</div>';
-      var r = calc.resultados;
-      var xs = pts.map(function (p) { return p.h; }), ys = pts.map(function (p) { return p.gs; });
-      var x0 = Math.floor(Math.min.apply(null, xs) - 1), x1 = Math.ceil(Math.max.apply(null, xs) + 1);
-      var yMin = Math.min.apply(null, ys), yMax = Math.max.apply(null, ys.concat(ok(r.gsMax) ? [r.gsMax] : []));
-      var pad = Math.max((yMax - yMin) * 0.25, 0.02);
-      var y0 = Math.floor((yMin - pad) * 100) / 100, y1 = Math.ceil((yMax + pad) * 100) / 100;
-      function X(v) { return m.l + (v - x0) / (x1 - x0) * (W - m.l - m.r); }
-      function Y(v) { return H - m.b - (v - y0) / (y1 - y0) * (H - m.t - m.b); }
-      var cor = opt.imprimir ? { eixo: "#333", grade: "#ddd", txt: "#222", curva: "#1f5fbf", sat: "#888", pt: "#1f5fbf" }
-        : { eixo: "var(--text-dim)", grade: "var(--border)", txt: "var(--text-dim)", curva: "#4f8cff", sat: "#9aa3b2", pt: "#4f8cff" };
-      var s = '<svg class="fe-graf" viewBox="0 0 ' + W + " " + H + '" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" font-size="11">';
-      var passoX = (x1 - x0) > 12 ? 2 : 1;
-      for (var gx = x0; gx <= x1; gx += passoX) {
-        s += '<line x1="' + X(gx) + '" y1="' + m.t + '" x2="' + X(gx) + '" y2="' + (H - m.b) + '" stroke="' + cor.grade + '" stroke-width="0.6"/>';
-        s += '<text x="' + X(gx) + '" y="' + (H - m.b + 15) + '" text-anchor="middle" fill="' + cor.txt + '">' + gx + "</text>";
-      }
-      var passoY = (y1 - y0) > 0.3 ? 0.05 : (y1 - y0) > 0.12 ? 0.02 : 0.01;
-      for (var gy = Math.ceil(y0 / passoY) * passoY; gy <= y1 + 1e-9; gy += passoY) {
-        s += '<line x1="' + m.l + '" y1="' + Y(gy) + '" x2="' + (W - m.r) + '" y2="' + Y(gy) + '" stroke="' + cor.grade + '" stroke-width="0.6"/>';
-        s += '<text x="' + (m.l - 6) + '" y="' + (Y(gy) + 4) + '" text-anchor="end" fill="' + cor.txt + '">' + fmt(gy, 3) + "</text>";
-      }
-      s += '<rect x="' + m.l + '" y="' + m.t + '" width="' + (W - m.l - m.r) + '" height="' + (H - m.t - m.b) + '" fill="none" stroke="' + cor.eixo + '"/>';
-      s += '<text x="' + ((W + m.l) / 2) + '" y="' + (H - 8) + '" text-anchor="middle" fill="' + cor.txt + '">Teor de umidade h (%)</text>';
-      s += '<text transform="translate(14 ' + ((H - m.b + m.t) / 2) + ') rotate(-90)" text-anchor="middle" fill="' + cor.txt + '">γs (g/cm³)</text>';
-      // curva de saturação (opcional): γs = Gs / (1 + h·Gs/100), γw = 1 g/cm³
-      var Gs = num((d.params || {}).gs);
-      if (ok(Gs) && Gs > 1.5 && Gs < 4) {
-        var ds = "";
-        for (var hx = x0; hx <= x1 + 1e-9; hx += (x1 - x0) / 60) {
-          var ysat = Gs / (1 + hx * Gs / 100);
-          if (ysat >= y0 && ysat <= y1) ds += (ds ? " L" : "M") + X(hx).toFixed(1) + " " + Y(ysat).toFixed(1);
-        }
-        if (ds) s += '<path d="' + ds + '" fill="none" stroke="' + cor.sat + '" stroke-dasharray="5 4"/>' +
-          '<text x="' + (W - m.r - 4) + '" y="' + (m.t + 12) + '" text-anchor="end" fill="' + cor.sat + '">S = 100 %</text>';
-      }
-      if (r.ajuste) {
-        var a = r.ajuste, us = calc.pontos.filter(function (p) { return p.usar && ok(p.h) && ok(p.gs); });
-        var ha = Math.min.apply(null, us.map(function (p) { return p.h; })) - 0.5;
-        var hb = Math.max.apply(null, us.map(function (p) { return p.h; })) + 0.5;
-        var dc = "";
-        for (var hc = ha; hc <= hb + 1e-9; hc += (hb - ha) / 60) {
-          var yc = a.a * hc * hc + a.b * hc + a.c;
-          dc += (dc ? " L" : "M") + X(hc).toFixed(1) + " " + Y(Math.max(yc, y0)).toFixed(1);
-        }
-        s += '<path d="' + dc + '" fill="none" stroke="' + cor.curva + '" stroke-width="2"/>';
-        if (ok(r.gsMax)) {
-          s += '<line x1="' + X(r.hOt) + '" y1="' + Y(r.gsMax) + '" x2="' + X(r.hOt) + '" y2="' + (H - m.b) + '" stroke="' + cor.curva + '" stroke-dasharray="3 3"/>';
-          s += '<line x1="' + m.l + '" y1="' + Y(r.gsMax) + '" x2="' + X(r.hOt) + '" y2="' + Y(r.gsMax) + '" stroke="' + cor.curva + '" stroke-dasharray="3 3"/>';
-          s += '<text x="' + (X(r.hOt) + 6) + '" y="' + (Y(r.gsMax) - 6) + '" fill="' + cor.curva + '" font-weight="bold">' +
-            fmt(r.gsMax, 3) + " g/cm³ · " + fmt(r.hOt, 1) + " %</text>";
-        }
-      }
-      calc.pontos.forEach(function (p, i) {
-        if (!ok(p.h) || !ok(p.gs)) return;
-        s += '<circle cx="' + X(p.h) + '" cy="' + Y(p.gs) + '" r="4.5" fill="' + (p.usar ? cor.pt : "none") + '" stroke="' + cor.pt + '" stroke-width="1.5"/>';
-        s += '<text x="' + (X(p.h) + 7) + '" y="' + (Y(p.gs) + 13) + '" fill="' + cor.txt + '" font-size="10">' + (i + 1) + "</text>";
-      });
-      return s + "</svg>";
-    },
-
+    grafico: function (calc, d, opt) { return graficoCompactacao(calc, d, opt); },
     // exemplo: pontos da planilha PROCTOR INTERMEDIÁRIO do laboratório, com a umidade de cada ponto por cápsula
     exemplo: function () {
-      var hs = [8.77, 10.80, 12.83, 14.86, 16.88];
-      var moldes = [["10", 5007, 2320, 9000], ["45", 4129, 2298, 8750], ["2", 5202, 2305, 10150], ["16", 4990, 2310, 10000], ["31", 4720, 2305, 9500]];
       return {
         ident: { registro: "EX-001", obra: "Exemplo", camada: "Base — solo-cimento 3 %", origem: "Jazida 1" },
         params: { energia: "B", volumePadrao: "", ret19: "0", gs: "2,65" },
-        pontos: hs.map(function (h, i) {
-          var t = 15 + i, seco = t + 100, umido = seco + h;  // 100 g de solo seco por cápsula
-          return { usar: true, c1n: String(20 + i), c1t: fmt(t, 2), c1u: fmt(umido, 2), c1s: fmt(seco, 2),
-            moldeN: moldes[i][0], moldeM: String(moldes[i][1]), moldeV: String(moldes[i][2]), moldeSolo: String(moldes[i][3]) };
-        }),
+        pontos: pontosExemplo(),
+      };
+    },
+  };
+  function pontosExemplo() {
+    var hs = [8.77, 10.80, 12.83, 14.86, 16.88];
+    var moldes = [["10", 5007, 2320, 9000], ["45", 4129, 2298, 8750], ["2", 5202, 2305, 10150], ["16", 4990, 2310, 10000], ["31", 4720, 2305, 9500]];
+    return hs.map(function (h, i) {
+      var t = 15 + i, seco = t + 100, umido = seco + h;  // 100 g de solo seco por cápsula
+      return { usar: true, c1n: String(20 + i), c1t: fmt(t, 2), c1u: fmt(umido, 2), c1s: fmt(seco, 2),
+        moldeN: moldes[i][0], moldeM: String(moldes[i][1]), moldeV: String(moldes[i][2]), moldeSolo: String(moldes[i][3]) };
+    });
+  }
+
+  // =====================================================================================
+  // DNIT 172/2016-ME — Solos — Índice de Suporte Califórnia (amostras não trabalhadas)
+  // =====================================================================================
+  var PENETRACOES = [[0.5, 0.63, 0.025], [1, 1.27, 0.05], [1.5, 1.90, 0.075], [2, 2.54, 0.1], [3, 3.81, 0.15], [4, 5.08, 0.2],
+    [6, 7.62, 0.3], [8, 10.16, 0.4], [10, 12.70, 0.5]];  // Tabela 1: tempo (min), mm, pol
+  var PRESSAO_PADRAO = { "2.54": 70.31, "5.08": 105.46 };   // Tabela 3 (kgf/cm²)
+  var LEITURAS_EXP = [0, 24, 48, 72, 96];                   // horas (6.2)
+
+  // aferição do anel: pressão (kgf/cm²) = K × leitura, ou tabela "leitura = pressão" interpolada
+  function pressaoAnel(P, leitura) {
+    if (!ok(leitura)) return NaN;
+    var tab = curvaSpeedy(P.aferTabela);  // mesmo formato "x = y; ..." do Speedy
+    if (tab.length >= 2) return interpolar([[0, 0]].concat(tab), leitura);
+    var K = num(P.aferK);
+    return ok(K) ? K * leitura : NaN;
+  }
+  // curva pressão × penetração (com a origem) e correção "c" pelo ponto de inflexão (7.3)
+  function interpCurva(xs, ys, x) {
+    for (var i = 1; i < xs.length; i++) {
+      if (x <= xs[i]) return ys[i - 1] + (ys[i] - ys[i - 1]) * (x - xs[i - 1]) / (xs[i] - xs[i - 1]);
+    }
+    return NaN;
+  }
+  function correcaoSugerida(xs, ys) {
+    // inflexão: a inclinação cresce no início (curva côncava para cima). Tangente no trecho de maior
+    // inclinação anterior à queda; c = onde essa tangente corta o eixo das penetrações.
+    var inc = [];
+    for (var i = 1; i < xs.length; i++) inc.push((ys[i] - ys[i - 1]) / (xs[i] - xs[i - 1]));
+    if (inc.length < 3 || !(inc[1] > inc[0] * 1.2)) return 0;  // concavidade inicial nítida (≥ 20 % a mais de inclinação)
+    var k = 0;
+    for (var j = 1; j < inc.length && xs[j + 1] <= 5.08; j++) { if (inc[j] > inc[k]) k = j; else break; }
+    var sl = inc[k];
+    if (!(sl > 0)) return 0;
+    var c = xs[k] - ys[k] / sl;
+    return c >= 0.1 ? c : 0;
+  }
+
+  FICHAS["dnit-172-2016-me"] = {
+    titulo: "Solos — Índice de Suporte Califórnia (amostras não trabalhadas)",
+    resumo: "Moldagem e curva de compactação dos próprios corpos de prova, expansão em 96 h, penetração, ISC de cada CP e ISC na umidade ótima (8.2).",
+    blocos: ["umidade", "compactacao"],
+    params: [
+      { k: "energia", r: "Energia de compactação (6.1.1)", tipo: "select",
+        opcoes: [["A", "12 golpes/camada — subleito"], ["B", "26 golpes/camada — sub-base"], ["C", "55 golpes/camada — base"]] },
+      { k: "importar", r: "Corpos de prova: importar de uma compactação salva (DNIT 164)", tipo: "importar", de: "dnit-164-2013-me",
+        dica: "copia a moldagem (umidade, molde e massas) dos pontos; expansão e penetração continuam aqui",
+        aplicar: function (e, P, d) {
+          var src = (e.dados || {}).pontos || [];
+          d.pontos = src.map(function (p, i) {
+            var alvo = Object.assign({}, (d.pontos || [])[i] || {});
+            CHAVES_MOLDAGEM.forEach(function (k) { if (p[k] !== undefined) alvo[k] = p[k]; });
+            return alvo;
+          });
+          ["energia", "volumePadrao", "ret19"].forEach(function (k) { if ((e.dados.params || {})[k] !== undefined) P[k] = e.dados.params[k]; });
+          P.compRegistro = ((e.dados.ident || {}).registro || "") + ((e.dados.ident || {}).origem ? " · " + e.dados.ident.origem : "");
+        } },
+      { k: "compRegistro", r: "Compactação de origem dos corpos de prova" },
+      { k: "volumePadrao", r: "Volume do molde padrão (cm³)", recarrega: "tabela", ph: String(VOL_PADRAO),
+        dica: "Ø 15,24 cm × (17,78 − 6,35) cm ≈ " + VOL_PADRAO + " cm³; use a capacidade aferida" },
+      { k: "altura", r: "Altura inicial do corpo de prova (mm)", recarrega: "tabela", ph: String(ALT_PADRAO).replace(".", ","),
+        dica: "para a expansão (7.2); padrão 17,78 − 6,35 cm; informe por molde na tabela se variar" },
+      { k: "sobrecarga", r: "Sobrecarga (kg)", ph: "4,54", dica: "massa superior a 4,536 kg (6.2)" },
+      { k: "aferK", r: "Aferição do anel — constante K (kgf/cm² por unidade de leitura)",
+        dica: "pressão calculada = K × leitura do extensômetro do anel (ex.: 0,077)" },
+      { k: "aferTabela", r: "…ou tabela de aferição (leitura = pressão kgf/cm²)", ph: "100=7,7; 500=38,5; 1000=77,0",
+        dica: "se preenchida, substitui a constante; interpolação linear" },
+      { k: "correcao", r: "Correção da curva pressão × penetração (7.3)", tipo: "select",
+        opcoes: [["manual", "Só quando informada por CP (c manual)"], ["auto", "Aplicar a correção sugerida (inflexão)"]] },
+      { k: "iscMin", r: "ISC mínimo exigido (%) — opcional", dica: "da especificação de serviço" },
+      { k: "expMax", r: "Expansão máxima admitida (%) — opcional", dica: "da especificação de serviço" },
+      { k: "gs", r: "Massa específica dos grãos (g/cm³) — opcional", dica: "curva de saturação no gráfico" },
+    ],
+    padrao: { energia: "B", correcao: "manual" },
+    tabelas: function (d) {
+      var P = d.params || {};
+      var linhas = BLOCOS.compactacao.linhas("6.1.3 e 7.1", "6.1.2 e 7.1");
+      linhas = linhas.concat([{ grupo: "Expansão — leituras do extensômetro a cada 24 h, CP imerso (6.2 e 7.2)" },
+        { k: "alt", r: "Altura inicial do CP", u: "mm", padrao: "altura", padraoFixo: String(ALT_PADRAO).replace(".", ",") }])
+        .concat(LEITURAS_EXP.map(function (hh) { return { k: "e" + hh, r: "Leitura com " + hh + " h", u: "mm" }; }))
+        .concat([{ calc: "exp", r: "Expansão = (final − inicial) / altura × 100", u: "%", casas: 2, destaque: true },
+          { grupo: "Penetração — leituras no extensômetro do anel, 1,27 mm/min (6.3, Tabela 1)" }])
+        .concat(PENETRACOES.map(function (x) { return { k: "p" + String(x[1]).replace(".", "_"), r: fmt(x[1], 2) + " mm (" + fmt(x[2], 3) + " pol) — " + fmt(x[0], 1) + " min", u: "leitura" }; }))
+        .concat([
+          { k: "cMan", r: "Correção c (manual)", u: "mm", ph: "—" },
+          { calc: "cSug", r: "Correção c sugerida (ponto de inflexão)", u: "mm", casas: 2 },
+          { calc: "p254", r: "Pressão em 2,54 mm (calculada ou corrigida)", u: "kgf/cm²", casas: 2 },
+          { calc: "p508", r: "Pressão em 5,08 mm (calculada ou corrigida)", u: "kgf/cm²", casas: 2 },
+          { calc: "i254", r: "ISC em 0,1 pol = P / 70,31 × 100", u: "%", casas: 1 },
+          { calc: "i508", r: "ISC em 0,2 pol = P / 105,46 × 100", u: "%", casas: 1 },
+          { calc: "isc", r: "ISC do corpo de prova (o maior)", u: "%", casas: 1, destaque: true },
+        ]);
+      return [{ chave: "pontos", titulo: "Corpos de prova", rotulo: "CP", iniciais: 5, min: 5, usar: true,
+        dica: "uma coluna por CP (geralmente cinco, 5.3); os mesmos CPs dão a curva de compactação, a expansão e o ISC",
+        linhas: linhas }];
+    },
+    calcular: function (d) {
+      var P = d.params || {};
+      var c = BLOCOS.compactacao.calcular(d, 5, "CP");
+      var avisos = c.avisos.slice();
+      var altPad = ok(num(P.altura)) ? num(P.altura) : ALT_PADRAO;
+      var semAfer = !ok(num(P.aferK)) && curvaSpeedy(P.aferTabela).length < 2;
+      (d.pontos || []).forEach(function (p, i) {
+        var o = c.pontos[i], rot = "CP " + (i + 1);
+        // expansão (7.2): leitura final − inicial, em % da altura inicial
+        var leit = LEITURAS_EXP.map(function (hh) { return num(p["e" + hh]); }).filter(ok);
+        var alt = ok(num(p.alt)) ? num(p.alt) : altPad;
+        o.exp = leit.length >= 2 ? (leit[leit.length - 1] - leit[0]) / alt * 100 : NaN;
+        if (leit.length >= 2 && leit.length < LEITURAS_EXP.length) avisos.push(rot + ": expansão com " + (leit.length - 1) * 24 + " h de imersão; a norma pede 96 h (6.2).");
+        // penetração (6.3 e 7.3)
+        var xs = [0], ys = [0];
+        PENETRACOES.forEach(function (x) {
+          var pr = pressaoAnel(P, num(p["p" + String(x[1]).replace(".", "_")]));
+          if (ok(pr)) { xs.push(x[1]); ys.push(pr); }
+        });
+        o.cSug = xs.length >= 4 ? correcaoSugerida(xs, ys) : NaN;
+        var cMan = num(p.cMan);
+        var cc = ok(cMan) ? cMan : (P.correcao === "auto" && ok(o.cSug) ? o.cSug : 0);
+        o.p254 = interpCurva(xs, ys, 2.54 + cc);
+        o.p508 = interpCurva(xs, ys, 5.08 + cc);
+        o.i254 = o.p254 / PRESSAO_PADRAO["2.54"] * 100;
+        o.i508 = o.p508 / PRESSAO_PADRAO["5.08"] * 100;
+        o.isc = ok(o.i254) || ok(o.i508) ? Math.max(ok(o.i254) ? o.i254 : -1, ok(o.i508) ? o.i508 : -1) : NaN;
+        o.curva = { xs: xs, ys: ys, c: cc };
+        if (xs.length > 1 && semAfer) avisos.push("Informe a aferição do anel (constante K ou tabela) para converter as leituras em pressão.");
+        if (ok(o.cSug) && o.cSug > 0 && !ok(cMan) && P.correcao !== "auto") {
+          avisos.push(rot + ": a curva pressão × penetração tem inflexão no início — correção sugerida c = " + fmt(o.cSug, 2) +
+            " mm (não aplicada; informe c ou escolha aplicar a sugerida).");
+        }
+      });
+      // curvas ISC × umidade e expansão × umidade; leitura na umidade ótima (8.2)
+      function naOtima(chave) {
+        var us = c.pontos.filter(function (o) { return o.usar && ok(o.h) && ok(o[chave]); });
+        if (!ok(c.res.hOt) || us.length < 2) return { v: NaN, ajuste: null };
+        if (us.length >= 3) {
+          var q = parabola(us.map(function (o) { return o.h; }), us.map(function (o) { return o[chave]; }));
+          if (q) return { v: q.a * c.res.hOt * c.res.hOt + q.b * c.res.hOt + q.c, ajuste: q };
+        }
+        var srt = us.slice().sort(function (a, b) { return a.h - b.h; });
+        return { v: interpCurva(srt.map(function (o) { return o.h; }), srt.map(function (o) { return o[chave]; }), c.res.hOt), ajuste: null };
+      }
+      var I = naOtima("isc"), E = naOtima("exp");
+      var res = Object.assign({}, c.res, { isc: I.v, iscAjuste: I.ajuste, exp: E.v });
+      var iscMin = num(P.iscMin), expMax = num(P.expMax);
+      if (ok(res.isc) && ok(iscMin) && res.isc < iscMin) avisos.push("ISC = " + fmt(res.isc, 0) + " %, abaixo do mínimo exigido de " + fmt(iscMin, 0) + " %.");
+      if (ok(res.exp) && ok(expMax) && res.exp > expMax) avisos.push("Expansão = " + fmt(res.exp, 2) + " %, acima da máxima admitida de " + fmt(expMax, 2) + " %.");
+      return { tab: { pontos: c.pontos }, pontos: c.pontos, resultados: res, avisos: avisos };
+    },
+    resultadosHtml: function (calc, d) {
+      var r = calc.resultados, P = d.params || {};
+      function cx(v, u, rot, casas) {
+        return '<div class="fe-res-item"><div class="fe-res-v">' + fmt(v, casas) + " <small>" + u + '</small></div><div class="fe-res-r">' + rot + "</div></div>";
+      }
+      return '<div class="fe-res">' + cx(r.isc, "%", "ISC na umidade ótima (8.2)" + (ok(num(P.iscMin)) ? " · mínimo " + P.iscMin + " %" : ""), 0) +
+        cx(r.exp, "%", "Expansão na umidade ótima" + (ok(num(P.expMax)) ? " · máxima " + P.expMax + " %" : ""), 2) +
+        cx(r.gsMax, "g/cm³", "Massa específica aparente seca máxima (8.1)", 3) + cx(r.hOt, "%", "Umidade ótima (8.1)", 1) + "</div>";
+    },
+    graficos: function (calc, d, opt) {
+      opt = opt || {};
+      var comp = graficoCompactacao(calc, d, Object.assign({}, opt, { isc: {
+        pontos: calc.pontos.map(function (o) { return { h: o.h, v: o.isc, usar: o.usar }; }),
+        ajuste: calc.resultados.iscAjuste, final: calc.resultados.isc, rotulo: "ISC (%)" } }));
+      return [comp, graficoPenetracao(calc, opt)];
+    },
+    relatorio: {
+      parametros: [["Moldagem", "5 camadas, soquete de 4,536 kg, queda de 45,72 cm; imersão de 96 h; penetração a 1,27 mm/min"]],
+      notas: "Curvas de compactação, ISC × umidade e expansão × umidade: parábolas por mínimos quadrados aos CPs considerados; ISC e expansão lidos na umidade ótima (8.2). ISC de cada CP: maior valor entre 0,1 e 0,2 pol (7.3). Pressões padrão 70,31 e 105,46 kgf/cm².",
+      resultados: function (calc) {
+        var r = calc.resultados;
+        return [["Índice de Suporte Califórnia (na umidade ótima)", fmt(r.isc, 0) + " %"], ["Expansão (na umidade ótima)", fmt(r.exp, 2) + " %"],
+          ["Massa específica aparente seca máxima", fmt(r.gsMax, 3) + " g/cm³"], ["Umidade ótima", fmt(r.hOt, 1) + " %"]];
+      },
+    },
+    exemplo: function () {
+      // moldagem = a do exemplo da compactação; leituras do anel com K = 0,077 kgf/cm² por divisão
+      var pts = pontosExemplo();
+      var pen = [[110, 242, 370, 435, 538, 595, 720, 800, 860], [210, 420, 640, 800, 1010, 1170, 1400, 1560, 1680],
+        [300, 600, 930, 1150, 1480, 1720, 2050, 2280, 2450], [180, 360, 560, 700, 890, 1030, 1240, 1380, 1480],
+        [75, 150, 240, 300, 390, 450, 540, 600, 650]];
+      var exp = [[2.00, 2.10, 2.16, 2.19, 2.20], [2.00, 2.05, 2.08, 2.09, 2.10], [2.00, 2.02, 2.03, 2.05, 2.05],
+        [2.00, 2.01, 2.02, 2.03, 2.03], [2.00, 2.01, 2.01, 2.02, 2.02]];
+      pts.forEach(function (p, i) {
+        LEITURAS_EXP.forEach(function (hh, j) { p["e" + hh] = fmt(exp[i][j], 2); });
+        PENETRACOES.forEach(function (x, j) { p["p" + String(x[1]).replace(".", "_")] = String(pen[i][j]); });
+      });
+      return {
+        ident: { registro: "EX-ISC-001", obra: "Exemplo", camada: "Base — solo-cimento 3 %", origem: "Jazida 1" },
+        params: { energia: "B", aferK: "0,077", correcao: "manual", sobrecarga: "4,54", iscMin: "80", expMax: "0,5" },
+        pontos: pts,
       };
     },
   };
 
+  // curvas pressão × penetração de todos os CPs (com a correção aplicada marcada)
+  function graficoPenetracao(calc, opt) {
+    opt = opt || {};
+    var W = opt.w || 560, H = opt.h || 280, m = { l: 52, r: 16, t: 14, b: 40 };
+    var curvas = calc.pontos.map(function (o) { return o.curva; }).filter(function (c) { return c && c.xs.length > 1; });
+    if (!curvas.length) return '<div class="fe-graf-vazio">As curvas de penetração aparecem com as leituras do anel e a aferição.</div>';
+    var pMax = Math.max.apply(null, curvas.map(function (c) { return Math.max.apply(null, c.ys); }));
+    var passo = pMax > 100 ? 20 : pMax > 40 ? 10 : 5, y1 = Math.ceil(pMax * 1.1 / passo) * passo;
+    function X(v) { return m.l + v / 13 * (W - m.l - m.r); }
+    function Y(v) { return H - m.b - v / y1 * (H - m.t - m.b); }
+    var imp = opt.imprimir, txt = imp ? "#222" : "var(--text-dim)", grade = imp ? "#ddd" : "var(--border)";
+    var cores = ["#4f8cff", "#34c38f", "#e0a13a", "#b58cff", "#e5534b", "#4fc3d9", "#9aa3b2"];
+    var s = '<svg class="fe-graf" viewBox="0 0 ' + W + " " + H + '" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" font-size="11">';
+    [0, 2.54, 5.08, 7.62, 10.16, 12.7].forEach(function (x) {
+      s += '<line x1="' + X(x) + '" y1="' + m.t + '" x2="' + X(x) + '" y2="' + (H - m.b) + '" stroke="' + grade + '" stroke-width="' + (x === 2.54 || x === 5.08 ? 1.2 : 0.6) + '"/>';
+      s += '<text x="' + X(x) + '" y="' + (H - m.b + 15) + '" text-anchor="middle" fill="' + txt + '">' + fmt(x, 2) + "</text>";
+    });
+    for (var gy = 0; gy <= y1; gy += passo) {
+      s += '<line x1="' + m.l + '" y1="' + Y(gy) + '" x2="' + (W - m.r) + '" y2="' + Y(gy) + '" stroke="' + grade + '" stroke-width="0.6"/>';
+      s += '<text x="' + (m.l - 6) + '" y="' + (Y(gy) + 4) + '" text-anchor="end" fill="' + txt + '">' + gy + "</text>";
+    }
+    s += '<text x="' + ((W + m.l) / 2) + '" y="' + (H - 6) + '" text-anchor="middle" fill="' + txt + '">Penetração (mm)</text>';
+    s += '<text transform="translate(13 ' + ((H - m.b + m.t) / 2) + ') rotate(-90)" text-anchor="middle" fill="' + txt + '">Pressão (kgf/cm²)</text>';
+    calc.pontos.forEach(function (o, i) {
+      var c = o.curva;
+      if (!c || c.xs.length < 2) return;
+      var cor = cores[i % cores.length];
+      s += '<path d="' + c.xs.map(function (x, j) { return (j ? "L" : "M") + X(x).toFixed(1) + " " + Y(c.ys[j]).toFixed(1); }).join(" ") +
+        '" fill="none" stroke="' + cor + '" stroke-width="1.8"/>';
+      c.xs.forEach(function (x, j) { if (j) s += '<circle cx="' + X(x) + '" cy="' + Y(c.ys[j]) + '" r="2.5" fill="' + cor + '"/>'; });
+      if (c.c > 0) s += '<line x1="' + X(c.c) + '" y1="' + (H - m.b) + '" x2="' + X(c.c) + '" y2="' + (H - m.b - 8) + '" stroke="' + cor + '" stroke-width="2"/>';
+      s += '<text x="' + (m.l + 8) + '" y="' + (m.t + 12 + i * 13) + '" text-anchor="start" fill="' + cor + '">CP ' + (i + 1) +
+        (ok(o.isc) ? " · ISC " + fmt(o.isc, 0) + " %" : "") + "</text>";
+    });
+    return s + "</svg>";
+  }
   // =====================================================================================
   // DNIT 458/2025-ME — Solos — Massa específica aparente in situ (frasco de areia) e grau de compactação
   // =====================================================================================
@@ -638,7 +915,8 @@
 
     var resRows = (F.relatorio && F.relatorio.resultados) ? F.relatorio.resultados(calc, d) : [];
     var resHtml = '<table class="res">' + resRows.map(function (r) { return "<tr><th>" + esc(r[0]) + "</th><td><b>" + esc(r[1]) + "</b></td></tr>"; }).join("") + "</table>";
-    var graf = F.grafico ? '<div class="graf">' + F.grafico(calc, d, { imprimir: true, w: 620, h: 330 }) + "</div>" : "";
+    var gOpt = { imprimir: true, w: 620, h: 330 };
+    var graf = (F.graficos ? F.graficos(calc, d, gOpt) : F.grafico ? [F.grafico(calc, d, gOpt)] : []).map(function (x) { return '<div class="graf">' + x + "</div>"; }).join("");
     var canc = n.status === "cancelada" ? '<div class="canc">ATENÇÃO: norma cancelada pelo DNIT — não está mais em vigor.</div>' : "";
     var hoje = new Date().toLocaleString("pt-BR");
     return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Relatório ' + esc(n.codigo) + " " + esc(i.registro || "") + "</title><style>" +
@@ -715,7 +993,7 @@
           (bl.length ? " · usa bloco: " + esc(bl.join(", ")) : "") + (qtd ? " · " + qtd + " salvo(s)" : "") + "</div></div>";
       }).join("") +
         '<div class="fe-sec fe-sec-em">Em preparação</div><div class="fe-prox">Próximas fichas (após aprovação): ' +
-        "ISC, granulometria, abrasão Los Angeles, equivalente de areia, ligantes…</div>";
+        "granulometria, abrasão Los Angeles, equivalente de areia, ligantes…</div>";
     }
 
     function relacoes(fid) {
@@ -805,7 +1083,7 @@
       });
 
       html += '<h3 class="fe-h">Resultados</h3><div id="fe-resultados"></div>' +
-        (F.grafico ? '<div class="fe-graf-box" id="fe-grafico"></div>' : "") + '<div id="fe-avisos"></div>' +
+        (F.grafico || F.graficos ? '<div class="fe-grafs" id="fe-grafico"></div>' : "") + '<div id="fe-avisos"></div>' +
         '<h3 class="fe-h">Observações</h3><textarea id="fe-obs" class="fe-obs" rows="3" placeholder="Ocorrências, desvios, material, etc.">' +
         esc(d.obs || "") + "</textarea>";
       painel.innerHTML = html;
@@ -849,7 +1127,7 @@
       });
       document.getElementById("fe-resultados").innerHTML = F.resultadosHtml(calc, d);
       var g = document.getElementById("fe-grafico");
-      if (g) g.innerHTML = F.grafico(calc, d);
+      if (g) g.innerHTML = (F.graficos ? F.graficos(calc, d) : [F.grafico(calc, d)]).map(function (x) { return '<div class="fe-graf-box">' + x + "</div>"; }).join("");
       document.getElementById("fe-avisos").innerHTML = calc.avisos.length
         ? '<div class="fe-avisos">' + calc.avisos.map(function (a) { return "<div>⚠ " + esc(a) + "</div>"; }).join("") + "</div>" : "";
     }
@@ -922,7 +1200,7 @@
           var f = F.params.filter(function (x) { return x.k === t.dataset.importar; })[0];
           var e = lerTodos().filter(function (s) { return s.uid === t.value; })[0];
           d.params[f.k] = t.value;
-          if (e) { f.aplicar(e, d.params); renderFicha(); status("Resultados importados de " + ((e.dados.ident || {}).registro || "ensaio salvo") + "."); }
+          if (e) { f.aplicar(e, d.params, d); renderFicha(); status("Resultados importados de " + ((e.dados.ident || {}).registro || "ensaio salvo") + "."); }
           return;
         }
         painel.oninput(ev);

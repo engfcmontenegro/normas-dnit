@@ -773,3 +773,11 @@ a.fe-rel:hover { text-decoration: underline; }
 .dep-via.dep-tec { color: #e0a13a; }
 .deps-leg-tec { display: inline-block; width: 22px; height: 0; border-top: 2px dotted #e0a13a; vertical-align: middle; margin-right: 5px; }
 .deps-botoes { display: flex; gap: 8px; flex-wrap: wrap; }
+.fe-resumo { border-collapse: collapse; margin-top: 12px; font-size: 13px; min-width: 520px; }
+.fe-resumo th, .fe-resumo td { border-bottom: 1px solid var(--border); padding: 5px 10px; text-align: right; }
+.fe-resumo th { color: var(--text-dim); font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+.fe-resumo td:nth-child(2), .fe-resumo td:nth-child(3), .fe-resumo th:nth-child(2), .fe-resumo th:nth-child(3), .fe-resumo td:last-child, .fe-resumo th:last-child { text-align: left; }
+.fe-ok { color: #34c38f; font-weight: 600; }
+.fe-nok { color: #e5534b; font-weight: 600; }
+a.fe-ficha-link { cursor: pointer; text-decoration: none; margin: 0 8px 0 -3px; font-size: 12px; }
+.fe-campo-imp select { border-color: var(--accent); }

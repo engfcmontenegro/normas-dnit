@@ -867,6 +867,122 @@
   };
   function c0(arr, k) { return arr && arr[0] ? arr[0][k] : ""; }
 
+  // =====================================================================================
+  // EXEMPLOS de cada ficha (grupo "Exemplos" na lista de ensaios; abrir carrega uma cópia).
+  // Os números saem de valores-alvo coerentes (umidade, γs, ISC, expansão, GC), para que cada
+  // exemplo seja internamente consistente; o 1º de cada ficha usa dados das planilhas do laboratório.
+  // =====================================================================================
+  function capsula(t, ms, h) {  // tara, massa seca da amostra, umidade (%) -> [tara, tara+úmida, tara+seca]
+    var s = t + ms, u = s + ms * h / 100;
+    return [fmt(t, 2), fmt(u, 2), fmt(s, 2)];
+  }
+  function pontosCompactacao(cfg) {
+    return cfg.hs.map(function (h, i) {
+      var c1 = capsula(14 + i * 0.37, 90 + i * 3, h - (cfg.duasCap ? 0.15 : 0));
+      var mm = cfg.molde.m + i * 7;
+      var p = { usar: true, c1n: String(10 + i), c1t: c1[0], c1u: c1[1], c1s: c1[2],
+        moldeN: String(i + 1), moldeM: String(mm), moldeV: String(cfg.molde.v) };
+      if (cfg.duasCap) {
+        var c2 = capsula(15.1 + i * 0.29, 85 + i * 2, h + 0.15);
+        p.c2n = String(40 + i); p.c2t = c2[0]; p.c2u = c2[1]; p.c2s = c2[2];
+      }
+      p.moldeSolo = String(Math.round(mm + cfg.gss[i] * (1 + h / 100) * cfg.molde.v));
+      return p;
+    });
+  }
+  // leituras do anel (K = constante) para um ISC-alvo em 0,1 pol; "infl" = curva com assentamento inicial
+  var REL_PEN = [0.30, 0.58, 0.80, 1.0, 1.28, 1.48, 1.80, 2.05, 2.25];
+  var REL_INFL = [0.07, 0.22, 0.58, 1.0, 1.40, 1.62, 1.95, 2.20, 2.40];
+  function leiturasPen(iscPct, K, infl) {
+    var p254 = iscPct / 100 * 70.31;
+    return (infl ? REL_INFL : REL_PEN).map(function (r) { return String(Math.round(p254 * r / K)); });
+  }
+  function leiturasExp(expPct, altMm) {  // extensômetro começando em 2,00 mm
+    var total = expPct / 100 * altMm;
+    return [0, 0.55, 0.8, 0.93, 1].map(function (f) { return fmt(2 + total * f, 2); });
+  }
+  function comEnsaioISC(pontos, iscs, exps, K, alt, infl) {
+    pontos.forEach(function (p, i) {
+      var pen = leiturasPen(iscs[i], K, infl && infl.indexOf(i) !== -1), ex = leiturasExp(exps[i], alt);
+      PENETRACOES.forEach(function (x, j) { p["p" + String(x[1]).replace(".", "_")] = pen[j]; });
+      LEITURAS_EXP.forEach(function (hh, j) { p["e" + hh] = ex[j]; });
+    });
+    return pontos;
+  }
+  var CURVA_SPEEDY_EX = "20=2,1; 40=4,3; 60=6,6; 80=8,8; 100=11,0; 120=13,1; 150=16,2";
+
+  var SUBLEITO = { hs: [18, 20, 22, 24, 26], gss: [1.52, 1.58, 1.61, 1.58, 1.52], molde: { m: 4850, v: 2085 }, duasCap: true };
+  var BASE_GRAN = { hs: [4.5, 5.5, 6.5, 7.5, 8.5], gss: [2.08, 2.15, 2.19, 2.16, 2.10], molde: { m: 5120, v: 2085 }, duasCap: false };
+
+  FICHAS["dnit-456-2025-me"].exemplos = [
+    { nome: "Solo — estufa, 2 determinações", dados: FICHAS["dnit-456-2025-me"].exemplo },
+    { nome: "Agregado graúdo 19 mm — estufa com verificação de constância de massa", dados: function () {
+      return { ident: { registro: "EX-U-002", camada: "Brita graduada", origem: "Pedreira A" },
+        params: { material: "agregado", metodo: "lab", tamanho: "19,0" },
+        det: [{ dn: "B1", dt: "612,40", du: "3715,20", ds: "3653,80", d2: "3653,10" },
+          { dn: "B2", dt: "598,10", du: "3702,60", ds: "3640,90", d2: "3640,40" }] };
+    } },
+    { nome: "Solo arenoso — Speedy com curva de calibração", dados: function () {
+      return { ident: { registro: "EX-U-003", camada: "Sub-base — areia", local: "Estaca 42" },
+        params: { material: "solo", metodo: "speedy", curva: CURVA_SPEEDY_EX },
+        det: [{ dm: "6", dp: "58" }, { dm: "6", dp: "61" }] };
+    } },
+    { nome: "Solo — frigideira (campo)", dados: function () {
+      return { ident: { registro: "EX-U-004", camada: "Aterro", local: "Estaca 118" },
+        params: { material: "solo", metodo: "frigideira", tamanho: "4,8" },
+        det: [{ dn: "F1", dt: "412,00", du: "612,50", ds: "588,30" }] };
+    } },
+  ];
+
+  FICHAS["dnit-164-2013-me"].exemplos = [
+    { nome: "Base solo-cimento 3 % — Proctor intermediário (planilha do laboratório)", dados: FICHAS["dnit-164-2013-me"].exemplo },
+    { nome: "Subleito argiloso — Proctor normal (12 golpes), 2 cápsulas por ponto", dados: function () {
+      return { ident: { registro: "EX-002", camada: "Subleito — argila siltosa", origem: "Corte km 12" },
+        params: { energia: "A", gs: "2,70" }, pontos: pontosCompactacao(SUBLEITO) };
+    } },
+    { nome: "Base granular — Proctor modificado (55 golpes), 12 % retido na 19 mm", dados: function () {
+      return { ident: { registro: "EX-003", camada: "Base — solo-brita", origem: "Jazida 4" },
+        params: { energia: "C", ret19: "12", gs: "2,75" }, pontos: pontosCompactacao(BASE_GRAN) };
+    } },
+  ];
+
+  FICHAS["dnit-172-2016-me"].exemplos = [
+    { nome: "Base solo-cimento — 26 golpes (leituras da planilha do laboratório no CP 1)", dados: FICHAS["dnit-172-2016-me"].exemplo },
+    { nome: "Subleito argiloso — 12 golpes, expansão alta, CP com curva corrigida", dados: function () {
+      return { ident: { registro: "EX-ISC-002", camada: "Subleito — argila siltosa", origem: "Corte km 12" },
+        params: { energia: "A", aferK: "0,077", correcao: "auto", sobrecarga: "4,54", expMax: "2", gs: "2,70" },
+        pontos: comEnsaioISC(pontosCompactacao(SUBLEITO), [7, 10, 12, 9, 5], [2.4, 1.6, 1.0, 0.7, 0.5], 0.077, ALT_PADRAO, [2]) };
+    } },
+    { nome: "Base granular — 55 golpes, ISC alto, baixa expansão", dados: function () {
+      return { ident: { registro: "EX-ISC-003", camada: "Base — solo-brita", origem: "Jazida 4" },
+        params: { energia: "C", aferK: "0,077", correcao: "manual", sobrecarga: "4,54", iscMin: "80", expMax: "0,5" },
+        pontos: comEnsaioISC(pontosCompactacao(BASE_GRAN), [62, 85, 104, 88, 60], [0.20, 0.12, 0.08, 0.05, 0.04], 0.077, ALT_PADRAO) };
+    } },
+  ];
+
+  // furo gerado a partir de GC-alvo e pressão do Speedy
+  function furoExemplo(est, pos, gcAlvo, pressao, meLab, mea, m3) {
+    var w = interpolar(curvaSpeedy(CURVA_SPEEDY_EX), pressao);
+    var V = 1480 + (est % 7) * 12, MEd = gcAlvo / 100 * meLab, MEh = MEd * (1 + w / 100);
+    var M1 = 7200, M6 = Math.round(M1 - (V * mea + m3));
+    return { estaca: String(est), posicao: pos, prof: "15", M1: String(M1), M6: String(M6),
+      mb: String(Math.round(MEh * V + 250)), mr: "250", um: "6", up: String(pressao) };
+  }
+  FICHAS["dnit-458-2025-me"].exemplos = [
+    { nome: "Sub-base — 1 furo, estufa (planilha do laboratório, estaca 2)", dados: FICHAS["dnit-458-2025-me"].exemplo },
+    { nome: "Base granular — 4 furos, umidade pelo Speedy, um furo abaixo do mínimo", dados: function () {
+      var mea = 1.412, m3 = 488, meLab = 2.183;  // = γs,máx do exemplo "Base granular — Proctor modificado"
+      return {
+        ident: { registro: "EX-IS-002", obra: "Exemplo", trecho: "km 10 ao km 11", camada: "Base — solo-brita" },
+        params: { frasco: "2", vc: "2000", metodo: "speedy", curva: CURVA_SPEEDY_EX, meLab: "2,183", hOt: "6,6",
+          labRegistro: "EX-003 (exemplo Proctor modificado)", gcMin: "100" },
+        calib: [{ M1: "7200", M2: "6712", M4: "3888" }, { M1: "7200", M2: "6713", M4: "3890" }, { M1: "7200", M2: "6711", M4: "3887" }],
+        furos: [furoExemplo(10, "LD", 101.2, 58, meLab, mea, m3), furoExemplo(15, "eixo", 99.1, 64, meLab, mea, m3),
+          furoExemplo(20, "LE", 102.0, 55, meLab, mea, m3), furoExemplo(25, "eixo", 100.6, 60, meLab, mea, m3)],
+      };
+    } },
+  ];
+
   // ---------- relatório completo (HTML autônomo, A4) ----------
   function valorParam(f, d) {
     var v = (d.params || {})[f.k] || "";
@@ -958,6 +1074,22 @@
     var estado = { ficha: null, ensaio: null };  // ensaio = {uid, ficha, dados, resultados, atualizado}
     var ultimoCalc = null;
 
+    function exemplosDe(fid) {
+      var F = FICHAS[fid];
+      return F.exemplos || (F.exemplo ? [{ nome: "Exemplo", dados: F.exemplo }] : []);
+    }
+    // exemplo como "ensaio" (dados novos a cada chamada; resultados calculados na hora)
+    function ensaioExemplo(fid, i) {
+      var ex = exemplosDe(fid)[i];
+      if (!ex) return null;
+      var dados = JSON.parse(JSON.stringify(typeof ex.dados === "function" ? ex.dados() : ex.dados));
+      dados.ident = dados.ident || {};
+      dados.obs = dados.obs || "";
+      var r = FICHAS[fid].calcular(dados).resultados;
+      return { uid: uid(), ficha: fid, dados: dados, exemplo: ex.nome,
+        resultados: JSON.parse(JSON.stringify(r, function (k, v) { return k === "ajuste" || k === "furos" || k === "iscAjuste" ? undefined : v; })) };
+    }
+
     function fichasDisponiveis() {
       return Object.keys(FICHAS).filter(function (id) { return byId[id]; });
     }
@@ -1026,13 +1158,18 @@
         }).join("") + "</select>";
       } else if (f.tipo === "importar") {
         var salvos = lerTodos().filter(function (s) { return s.ficha === f.de && s.resultados; });
-        input = '<select id="' + id + '" data-importar="' + esc(f.k) + '"><option value="">' +
-          (salvos.length ? "— escolher um ensaio salvo —" : "nenhum ensaio salvo de " + esc(byId[f.de] ? byId[f.de].codigo : f.de)) + "</option>" +
-          salvos.map(function (s) {
-            var i = s.dados.ident || {}, r = s.resultados || {};
-            return '<option value="' + esc(s.uid) + '"' + (valor === s.uid ? " selected" : "") + ">" +
-              esc((i.registro || "sem registro") + " · " + (i.origem || i.local || "") + " · γs,máx " + fmt(r.gsMax, 3) + " · h ót " + fmt(r.hOt, 1) + " %") + "</option>";
-          }).join("") + "</select>";
+        var rotulo = function (i, r) {
+          return (i.registro || "sem registro") + " · " + (i.origem || i.local || "") + " · γs,máx " + fmt(r.gsMax, 3) + " · h ót " + fmt(r.hOt, 1) + " %";
+        };
+        input = '<select id="' + id + '" data-importar="' + esc(f.k) + '"><option value="">— escolher um ensaio de ' +
+          esc(byId[f.de] ? byId[f.de].codigo : f.de) + " —</option>" +
+          (salvos.length ? '<optgroup label="Salvos neste navegador">' + salvos.map(function (s) {
+            return '<option value="' + esc(s.uid) + '"' + (valor === s.uid ? " selected" : "") + ">" + esc(rotulo(s.dados.ident || {}, s.resultados || {})) + "</option>";
+          }).join("") + "</optgroup>" : "") +
+          '<optgroup label="Exemplos">' + exemplosDe(f.de).map(function (ex, k) {
+            var e = ensaioExemplo(f.de, k), v = "ex:" + f.de + ":" + k;
+            return '<option value="' + v + '"' + (valor === v ? " selected" : "") + ">" + esc("Exemplo — " + ex.nome + " · γs,máx " + fmt(e.resultados.gsMax, 3) + " · h ót " + fmt(e.resultados.hOt, 1) + " %") + "</option>";
+          }).join("") + "</optgroup></select>";
       } else {
         input = '<input id="' + id + '" data-g="' + grupo + '" data-k="' + f.k + '" type="' + (f.tipo === "date" ? "date" : "text") +
           '" value="' + esc(valor || "") + '"' + (f.ph ? ' placeholder="' + esc(f.ph) + '"' : "") + ">";
@@ -1054,17 +1191,21 @@
         '<div class="codigo">' + esc(F.titulo) + "</div>" +
         '<div class="meta"><a class="fe-rel" data-id="' + esc(fid) + '">' + esc(n.codigo) + "</a> — " + esc(F.resumo) + "</div></div>" +
         '<div class="header-actions"><button class="edit-btn" id="fe-novo">Novo</button>' +
-        '<button class="edit-btn" id="fe-exemplo">Carregar exemplo</button>' +
         '<button class="edit-btn save" id="fe-salvar">Salvar</button>' +
         '<button class="edit-btn save" id="fe-relatorio">Gerar relatório</button></div></div>' +
         relacoes(fid) + "</div>";
 
-      html += '<div class="fe-salvos"><label>Ensaios salvos neste navegador: <select id="fe-abrir"><option value="">— abrir um ensaio salvo —</option>' +
-        salvos.map(function (s) {
+      html += '<div class="fe-salvos"><label>Abrir ensaio: <select id="fe-abrir"><option value="">— escolher um exemplo ou um ensaio salvo —</option>' +
+        '<optgroup label="Exemplos">' + exemplosDe(fid).map(function (ex, k) {
+          return '<option value="ex:' + k + '"' + (estado.ensaio.exemplo === ex.nome ? " selected" : "") + ">" + esc(ex.nome) + "</option>";
+        }).join("") + "</optgroup>" +
+        (salvos.length ? '<optgroup label="Salvos neste navegador">' + salvos.map(function (s) {
           var i = s.dados.ident || {};
           return '<option value="' + esc(s.uid) + '"' + (s.uid === estado.ensaio.uid ? " selected" : "") + ">" +
             esc((i.registro || "sem registro") + " · " + (i.data || "") + " · " + (i.local || i.origem || "")) + "</option>";
-        }).join("") + '</select></label> <button class="fe-link" id="fe-exportar">Exportar arquivo</button>' +
+        }).join("") + "</optgroup>" : "") + '</select></label>' +
+        (estado.ensaio.exemplo ? ' <span class="fe-ex-tag">exemplo — salve para guardar uma cópia</span>' : "") +
+        ' <button class="fe-link" id="fe-exportar">Exportar arquivo</button>' +
         ' <label class="fe-link">Importar arquivo<input type="file" id="fe-importar" accept=".json" hidden></label>' +
         (salvos.some(function (s) { return s.uid === estado.ensaio.uid; }) ? ' <button class="fe-link fe-perigo" id="fe-excluir">Excluir este ensaio</button>' : "") +
         '<span id="fe-status"></span></div>';
@@ -1198,7 +1339,8 @@
         var t = ev.target;
         if (t.dataset.importar) {  // traz resultados de um ensaio salvo de outra ficha
           var f = F.params.filter(function (x) { return x.k === t.dataset.importar; })[0];
-          var e = lerTodos().filter(function (s) { return s.uid === t.value; })[0];
+          var mEx = /^ex:(.+):(\d+)$/.exec(t.value);
+          var e = mEx ? ensaioExemplo(mEx[1], Number(mEx[2])) : lerTodos().filter(function (s) { return s.uid === t.value; })[0];
           d.params[f.k] = t.value;
           if (e) { f.aplicar(e, d.params, d); renderFicha(); status("Resultados importados de " + ((e.dados.ident || {}).registro || "ensaio salvo") + "."); }
           return;
@@ -1215,15 +1357,10 @@
         if (rem && d[rem.dataset.rem].length > 1) { d[rem.dataset.rem].pop(); renderTabelas(); recalcular(); }
       };
       document.getElementById("fe-novo").onclick = function () { estado.ensaio = novoEnsaio(estado.ficha); renderFicha(); };
-      document.getElementById("fe-exemplo").onclick = function () {
-        var ex = F.exemplo();
-        ex.ident.data = new Date().toISOString().slice(0, 10);
-        estado.ensaio = { uid: uid(), ficha: estado.ficha, dados: Object.assign({ obs: "" }, ex) };
-        renderFicha();
-      };
       document.getElementById("fe-salvar").onclick = function () {
         var todos = lerTodos().filter(function (s) { return s.uid !== estado.ensaio.uid; });
         estado.ensaio.atualizado = new Date().toISOString();
+        delete estado.ensaio.exemplo;
         // resultados ficam disponíveis para as fichas que dependem desta (campo "importar")
         var r = ultimoCalc ? ultimoCalc.resultados : null;
         estado.ensaio.resultados = r ? JSON.parse(JSON.stringify(r, function (k, v) { return k === "ajuste" || k === "furos" ? undefined : v; })) : null;
@@ -1240,7 +1377,15 @@
       };
       document.getElementById("fe-abrir").onchange = function (ev) {
         ev.stopPropagation();
-        var s = lerTodos().filter(function (x) { return x.uid === ev.target.value; })[0];
+        var v = ev.target.value;
+        if (v.indexOf("ex:") === 0) {
+          var e = ensaioExemplo(estado.ficha, Number(v.slice(3)));
+          e.dados.ident.data = new Date().toISOString().slice(0, 10);
+          estado.ensaio = e;
+          renderFicha();
+          return;
+        }
+        var s = lerTodos().filter(function (x) { return x.uid === v; })[0];
         if (s) { estado.ensaio = s; renderFicha(); }
       };
       document.getElementById("fe-exportar").onclick = function () {

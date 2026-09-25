@@ -29,6 +29,10 @@ def main():
     entries = json.loads(NORMAS_JSON.read_text(encoding="utf-8"))
     graph = json.loads(GRAPH_JSON.read_text(encoding="utf-8"))
 
+    canc_path = ROOT / "data" / "canceladas.json"
+    canceladas = json.loads(canc_path.read_text(encoding="utf-8")) if canc_path.exists() else []
+    canc_por_id = {c["id"]: c for c in canceladas if c.get("id")}
+
     videos_path = ROOT / "data" / "videos.json"
     videos = json.loads(videos_path.read_text(encoding="utf-8")) if videos_path.exists() else {}
 
@@ -52,11 +56,21 @@ def main():
             extra.update({"video_titulo": info.get("titulo_video"), "video_canal": info.get("canal"),
                           "video_auto": info.get("origem") == "busca",
                           "video_relacao_baixa": bool(info.get("relacao_baixa"))})
+        c = canc_por_id.get(e["id"])
+        if c:
+            # norma cancelada pelo IPR (data/canceladas.json): o site mostra a tarja
+            extra["status"] = "cancelada"
+            extra["cancelada"] = {k: c.get(k) for k in ("data", "motivo", "pdf", "sucessoras")}
         bundled.append({**e, "conteudo": conteudo, **extra})
 
     SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DATA_DIR / "normas_data.js").write_text(
         "window.NORMAS_DATA = " + json.dumps(bundled, ensure_ascii=False) + ";\n",
+        encoding="utf-8",
+    )
+    (SITE_DATA_DIR / "canceladas_data.js").write_text(
+        "window.CANCELADAS = " + json.dumps([{k: v for k, v in c.items() if not k.startswith("_")}
+                                            for c in canceladas], ensure_ascii=False) + ";\n",
         encoding="utf-8",
     )
     (SITE_DATA_DIR / "graph_data.js").write_text(

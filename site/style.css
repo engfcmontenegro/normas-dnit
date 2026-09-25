@@ -669,3 +669,20 @@ a.ctl-ref.ref-dnit { color: var(--dnit); }
 .links-extra a:hover { color: var(--text); text-decoration: underline; }
 @media (max-width: 900px) { .links-extra { display: none; } }
 .dep-via a.rel-link { margin-right: 0; }
+
+/* ---- Tarja de norma cancelada / suspensa ---- */
+.tarja-cancelada {
+  position: sticky;
+  top: -24px;
+  z-index: 3;
+  margin: -24px -40px 20px;
+  padding: 12px 40px;
+  background: #e5534b;
+  color: #fff;
+}
+.tarja-cancelada.tarja-suspensa { background: #c77d12; }
+.tarja-cancelada .tc-titulo { font-size: 19px; font-weight: 700; }
+.tarja-cancelada .tc-det { font-size: 13px; margin-top: 4px; line-height: 1.5; }
+.tarja-cancelada a { color: #fff; text-decoration: underline; cursor: pointer; font-weight: 600; }
+.ctl-canc { font-size: 11.5px; color: #e5534b; font-weight: 600; margin-top: 3px; }
+.ctl-canc a.ctl-ref { color: inherit; text-decoration: underline; }

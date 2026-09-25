@@ -596,9 +596,10 @@
   "depende": [
    {
     "codigo": "DNER-ME 008/94",
-    "via": "faltante",
+    "via": "cancelada",
     "id": null,
-    "titulo": "Agregado graúdo - determinação da densidade"
+    "titulo": "Emulsão asfáltica - Determinação de ruptura - Método de mistura com filler silícico (ABNT-NBR 6302)",
+    "cancelada": "15/09/2026"
    },
    {
     "codigo": "DNER-ME 070/79",
@@ -610,7 +611,7 @@
     "codigo": "DNER-ME 195/94",
     "via": "outra_edicao",
     "id": "dner-me-195-97",
-    "titulo": "Agregados - determinação da absorção e da massa específica de agregado graúdo"
+    "titulo": "Agregados - determinação da absorção e da massa específica do agregado graúdo"
    }
   ],
   "usado_por": []
@@ -650,7 +651,7 @@
  "dner-me-404-00": {
   "depende": [
    {
-    "codigo": "DNER-ME 402/2000",
+    "codigo": "DNER-ME 402/00",
     "via": "acervo",
     "id": "dner-me-402-00"
    }
@@ -1085,19 +1086,23 @@
  "dnit-417-2019-me": {
   "depende": [
    {
-    "codigo": "DNER-ME 088/1994",
-    "via": "faltante",
-    "id": null
+    "codigo": "DNER-ME 088/94",
+    "via": "cancelada",
+    "id": null,
+    "titulo": "Solos - Determinação da umidade pelo método expedito do álcool",
+    "cancelada": "10/6/2025"
    },
    {
-    "codigo": "DNER-ME 092/1994",
+    "codigo": "DNER-ME 092/94",
     "via": "substituida",
-    "id": "dnit-458-2025-me"
+    "id": "dnit-458-2025-me",
+    "titulo": "Solo – Determinação da massa específica aparente “in situ”, com emprego do frasco de areia"
    },
    {
-    "codigo": "DNER-ME 213/1994",
+    "codigo": "DNER-ME 213/94",
     "via": "substituida",
-    "id": "dnit-456-2025-me"
+    "id": "dnit-456-2025-me",
+    "titulo": "Solos - determinação do teor de umidade"
    },
    {
     "codigo": "DNIT 164-ME",
@@ -1277,9 +1282,10 @@
   "depende": [
    {
     "codigo": "DNER-ME 083/98",
-    "via": "substituida",
+    "via": "cancelada",
     "id": "dnit-412-2025-me",
-    "titulo": "Agregados - análise granulométrica"
+    "titulo": "Agregados - análise granulométrica",
+    "cancelada": "20/5/2025"
    }
   ],
   "usado_por": []
@@ -1331,6 +1337,7 @@
    "via": "substituida",
    "alternativa": "dnit-454-2025-em",
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-049-2013-es",
@@ -1343,6 +1350,7 @@
    "via": "substituida",
    "alternativa": "dnit-462-2025-em",
    "titulo": "Agregado graúdo para concreto de cimento",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-049-2013-es",
@@ -1358,6 +1366,7 @@
    "via": "substituida",
    "alternativa": "dnit-462-2025-em",
    "titulo": "Agregado miúdo para concreto de cimento",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-327-97",
@@ -1374,6 +1383,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-144-85"
@@ -1384,7 +1394,8 @@
    "tipo": "EM",
    "via": "outra_edicao",
    "alternativa": "dner-em-230-94",
-   "titulo": "Agregados sintéticos graúdos de argila calcinada",
+   "titulo": "Agregados Sintéticos Graúdos de Argila Calcinada",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-227-89"
@@ -1396,6 +1407,7 @@
    "via": "substituida",
    "alternativa": "dnit-165-2013-em",
    "titulo": "Emulsões asfálticas catiônicas",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-390-99",
@@ -1410,6 +1422,7 @@
    "via": "substituida",
    "alternativa": "dnit-128-2010-em",
    "titulo": "Cimento asfáltico modificado por polímero",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-386-99",
@@ -1422,6 +1435,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Levantamento da condição de superfície de segmentos-testemunha de rodovias de pavimento flexível ou semi-rígido para gerência de pavimentos a nível de rede",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-169-86"
@@ -1432,7 +1446,8 @@
    "tipo": "ES",
    "via": "faltante",
    "alternativa": null,
-   "titulo": "pavimentação – regularização do subleito: especificação de serviço",
+   "titulo": "pavimentação – regularização do subleito",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-327-97"
@@ -1443,7 +1458,8 @@
    "tipo": "ES",
    "via": "substituida",
    "alternativa": "dnit-138-2010-es",
-   "titulo": "Pavimentação - reforço de subleito",
+   "titulo": "pavimentação – reforço do subleito",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-327-97"
@@ -1455,6 +1471,7 @@
    "via": "substituida",
    "alternativa": "dnit-139-2010-es",
    "titulo": "Pavimentação - Pavimento",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-350-97"
@@ -1466,6 +1483,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-034-2005-es"
@@ -1477,6 +1495,7 @@
    "via": "substituida",
    "alternativa": "dnit-047-2004-es",
    "titulo": "pavimentação - concreto de cimento Portland com equipamento de pequeno porte: especificação de serviço",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-122-2009-es"
@@ -1488,6 +1507,7 @@
    "via": "substituida",
    "alternativa": "dnit-117-2009-es",
    "titulo": "Obras-de-Arte Especiais – Concretos e Argamassas apresentam as características necessárias dos materiais",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-346-97",
@@ -1506,6 +1526,7 @@
    "via": "substituida",
    "alternativa": "dnit-118-2009-es",
    "titulo": "Armadura para Concreto Armado",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-075-2006-es"
@@ -1516,7 +1537,8 @@
    "tipo": "ES",
    "via": "substituida",
    "alternativa": "dnit-120-2009-es",
-   "titulo": "Obras-de-Arte Especiais – formas",
+   "titulo": "obras-de-arte especiais – fôrmas: especificação de serviço",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-075-2006-es"
@@ -1528,6 +1550,7 @@
    "via": "substituida",
    "alternativa": "dnit-122-2009-es",
    "titulo": "obras-de-arte especiais – estruturas de concreto armado: especificação de serviço",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-346-97",
@@ -1540,6 +1563,7 @@
    "via": "substituida",
    "alternativa": "dnit-123-2009-es",
    "titulo": "Obras-de-Arte Especiais - estruturas de concreto protendido",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-346-97"
@@ -1551,6 +1575,7 @@
    "via": "substituida",
    "alternativa": "dnit-124-2009-es",
    "titulo": "Obras-de-Arte Especiais – escoamento",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-075-2006-es"
@@ -1561,7 +1586,8 @@
    "tipo": "ES",
    "via": "faltante",
    "alternativa": null,
-   "titulo": "Proteção do Corpo Estradal – Impermeabilização betuminosa de Taludes determinam as características exibidas para os materiais",
+   "titulo": "proteção do corpo estradal – impermeabilização betuminosa de taludes: especificação de serviço",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-075-2006-es"
@@ -1573,6 +1599,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Emulsão asfáltica - carga da partícula",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-390-99",
@@ -1592,6 +1619,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Material betuminoso - determinação da penetração",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-386-99",
@@ -1608,7 +1636,8 @@
    "tipo": "ME",
    "via": "faltante",
    "alternativa": null,
-   "titulo": "material asfáltico",
+   "titulo": "Material betuminoso – Determinação da penetração",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-032-2005-es",
@@ -1620,9 +1649,14 @@
   {
    "codigo": "DNER-ME 004/94",
    "tipo": "ME",
-   "via": "faltante",
+   "via": "cancelada",
    "alternativa": null,
-   "titulo": "material asfáltico",
+   "titulo": "Material betuminoso - Determinação da viscosidade saybolt-furol a alta temperatura método da película delgada",
+   "cancelada": {
+    "data": "15/09/2026",
+    "motivo": "A norma apresenta em seu conteúdo apenas referência à norma da ABNT.",
+    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_004_94-1.pdf"
+   },
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-032-2005-es",
@@ -1639,9 +1673,14 @@
   {
    "codigo": "DNER-ME 005/94",
    "tipo": "ME",
-   "via": "faltante",
+   "via": "cancelada",
    "alternativa": null,
-   "titulo": "Emulsão asfáltica - determinação da peneiração",
+   "titulo": "Emulsão asfáltica - Determinação da peneiração (ABNT-MB 609)",
+   "cancelada": {
+    "data": "15/09/2026",
+    "motivo": "A norma apresenta em seu conteúdo apenas referência à norma da ABNT.",
+    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_005_94-1.pdf"
+   },
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-390-99",
@@ -1665,6 +1704,7 @@
    "via": "outra_edicao",
    "alternativa": "dner-me-006-00",
    "titulo": "Emulsões asfálticas - determinação da sedimentação",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-390-99",
@@ -1678,9 +1718,14 @@
   {
    "codigo": "DNER-ME 008/94",
    "tipo": "ME",
-   "via": "faltante",
+   "via": "cancelada",
    "alternativa": null,
-   "titulo": "Agregado graúdo - determinação da densidade",
+   "titulo": "Emulsão asfáltica - Determinação de ruptura - Método de mistura com filler silícico (ABNT-NBR 6302)",
+   "cancelada": {
+    "data": "15/09/2026",
+    "motivo": "A norma apresenta em seu conteúdo apenas referência à norma da ABNT.",
+    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_008_94-1.pdf"
+   },
    "citada_por_me": [
     "dner-me-399-99"
    ],
@@ -1692,6 +1737,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Densidade de materiais betuminosos",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-193-96"
    ],
@@ -1703,6 +1749,7 @@
    "via": "substituida",
    "alternativa": "dnit-133-2025-me",
    "titulo": "Pavimento – Determinação das deflexões pela Viga Benkelman",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-152-2010-es"
@@ -1714,6 +1761,7 @@
    "via": "substituida",
    "alternativa": "dnit-160-2012-me",
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-098-2007-es",
@@ -1726,6 +1774,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Agregados - determinação da abrasão “Los Angeles”",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-222-94"
    ],
@@ -1739,6 +1788,7 @@
    "via": "substituida",
    "alternativa": "dnit-451-2024-me",
    "titulo": "Agregados - determinação da abrasão “ Los Angeles ”",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-386-99",
@@ -1771,6 +1821,7 @@
    "via": "outra_edicao",
    "alternativa": "dner-me-041-94",
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-093-94"
    ],
@@ -1782,6 +1833,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Ensaio Marshail para misturas betuminosas",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-018-94"
    ],
@@ -1793,6 +1845,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Misturas betuminosas a quente - Ensaio Marshall",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-401-99",
     "dnit-136-2018-me",
@@ -1811,6 +1864,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Compactação de Solos (Método A)",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-162-94"
    ],
@@ -1822,6 +1876,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Compactação de Solos (Método B)",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-162-94"
    ],
@@ -1832,7 +1887,8 @@
    "tipo": "ME",
    "via": "substituida",
    "alternativa": "dnit-172-2016-me",
-   "titulo": "Solos - determinação do índice de suporte Califórnia utilizando amostras não trabalhadas",
+   "titulo": "Solos – Determinação do Índice Suporte Califórnia utilizando amostras não trabalhadas",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-098-2007-es",
@@ -1852,6 +1908,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Solos – Análise granulométrica",
+   "cancelada": null,
    "citada_por_me": [
     "dnit-443-2023-me"
    ],
@@ -1865,6 +1922,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-057-2004-es",
@@ -1877,6 +1935,7 @@
    "via": "substituida",
    "alternativa": "dnit-456-2025-me",
    "titulo": "Solos e agregados miúdos – Determinação da umidade com emprego do “Speedy”",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-098-2007-es",
@@ -1901,6 +1960,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Equivalente de areia",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-397-99"
    ],
@@ -1916,6 +1976,7 @@
    "via": "substituida",
    "alternativa": "dnit-450-2024-me",
    "titulo": "Equivalente de areia",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-032-2005-es",
@@ -1935,9 +1996,14 @@
   {
    "codigo": "DNER-ME 059/94",
    "tipo": "ME",
-   "via": "faltante",
+   "via": "cancelada",
    "alternativa": null,
-   "titulo": "Emulsões asfálticas - determinação da resistência à água (adesividade)",
+   "titulo": "Emulsões asfálticas - Determinação da resistência à água (adesividade) (ABNT NBR 6300)",
+   "cancelada": {
+    "data": "15/09/2026",
+    "motivo": "A norma apresenta em seu conteúdo apenas referência à norma da ABNT.",
+    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_059_94-1.pdf"
+   },
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-390-99",
@@ -1954,6 +2020,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Emulsões asfálticas catiônicas - determinação da desemulsibilidade",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-390-99",
@@ -1971,6 +2038,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Agregados - determinação da resistência ao choque de agregado",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-399-99"
    ],
@@ -1982,6 +2050,7 @@
    "via": "substituida",
    "alternativa": "dnit-452-2024-me",
    "titulo": "Agregado graúdo - adesividade a ligante betuminoso",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-391-99",
@@ -1999,9 +2068,14 @@
   {
    "codigo": "DNER-ME 079/94",
    "tipo": "ME",
-   "via": "faltante",
+   "via": "cancelada",
    "alternativa": null,
-   "titulo": "Agregado - adesividade a ligante betuminoso",
+   "titulo": "Agregado - adesividade a ligante betuminoso - Método de ensaio",
+   "cancelada": {
+    "data": "24/9/2024",
+    "motivo": "O procedimento referenciado na norma encontra-se em desuso. Processo de cancelamento da norma: 50600.028235/2024-51",
+    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_079_94__cancelada.pdf"
+   },
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-390-99",
@@ -2016,9 +2090,14 @@
   {
    "codigo": "DNER-ME 080/94",
    "tipo": "ME",
-   "via": "faltante",
+   "via": "cancelada",
    "alternativa": null,
-   "titulo": "Solos – Análise granulométrica por peneiramento",
+   "titulo": "Solos - Análise granulométrica por peneiramento",
+   "cancelada": {
+    "data": "8/7/2025",
+    "motivo": "A norma foi cancelada pela publicação da norma DNIT 459/2025 – ME – Solos – Análise granulométrica – Método de ensaio",
+    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner-me-080_94_cancelada.pdf"
+   },
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-098-2007-es",
@@ -2036,6 +2115,7 @@
    "via": "outra_edicao",
    "alternativa": "dner-me-082-94",
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-057-2004-es",
@@ -2048,6 +2128,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Agregados - análise granulométrica",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-195-97"
    ],
@@ -2058,10 +2139,17 @@
   {
    "codigo": "DNER-ME 083/98",
    "tipo": "ME",
-   "via": "substituida",
+   "via": "cancelada",
    "alternativa": "dnit-412-2025-me",
    "titulo": "Agregados - análise granulométrica",
-   "citada_por_me": [],
+   "cancelada": {
+    "data": "20/5/2025",
+    "motivo": "A norma foi substituída pela revisão de norma DNIT 412/2025-ME - Agregados - Análise granulométrica de agregados graúdos e miúdos e misturas de agregados por peneiramento - Método de ensaio",
+    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner-me-083_98_cancelada.pdf"
+   },
+   "citada_por_me": [
+    "dnit-451-2024-me"
+   ],
    "citada_em_controle": [
     "dner-es-386-99",
     "dner-es-387-99",
@@ -2090,6 +2178,7 @@
    "via": "substituida",
    "alternativa": "dnit-424-2020-me",
    "titulo": "Agregado - determinação do índice de forma",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-386-99",
@@ -2113,22 +2202,12 @@
    ]
   },
   {
-   "codigo": "DNER-ME 088/1994",
-   "tipo": "ME",
-   "via": "faltante",
-   "alternativa": null,
-   "titulo": "",
-   "citada_por_me": [
-    "dnit-417-2019-me"
-   ],
-   "citada_em_controle": []
-  },
-  {
    "codigo": "DNER-ME 088/64",
    "tipo": "ME",
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-057-2004-es",
@@ -2138,10 +2217,17 @@
   {
    "codigo": "DNER-ME 088/94",
    "tipo": "ME",
-   "via": "faltante",
+   "via": "cancelada",
    "alternativa": null,
-   "titulo": "Solos – Determinação da umidade pelo método expedito do álcool",
-   "citada_por_me": [],
+   "titulo": "Solos - Determinação da umidade pelo método expedito do álcool",
+   "cancelada": {
+    "data": "10/6/2025",
+    "motivo": "O procedimento apresentado na norma encontra-se em desuso.",
+    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner-me-088_94_cancelada.pdf"
+   },
+   "citada_por_me": [
+    "dnit-417-2019-me"
+   ],
    "citada_em_controle": [
     "dnit-098-2007-es",
     "dnit-137-2010-es",
@@ -2164,6 +2250,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Agregados - avaliação da durabilidade pelo emprego de soluções de sulfato de sódio ou de magnésio",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-386-99",
@@ -2193,6 +2280,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-057-2004-es",
@@ -2205,6 +2293,7 @@
    "via": "substituida",
    "alternativa": "dnit-458-2025-me",
    "titulo": "Solo – Determinação da massa específica aparente “in situ”, com emprego do frasco de areia",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-166-2013-es",
@@ -2221,6 +2310,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-068-2004-es"
@@ -2232,6 +2322,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-013-94"
    ],
@@ -2243,6 +2334,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-234-94"
    ],
@@ -2254,6 +2346,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-107-94"
    ],
@@ -2267,6 +2360,7 @@
    "via": "outra_edicao",
    "alternativa": "dner-me-122-94",
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-057-2004-es",
@@ -2279,6 +2373,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-201-94",
     "dner-me-202-94",
@@ -2292,6 +2387,7 @@
    "via": "substituida",
    "alternativa": "dnit-164-2013-me",
    "titulo": "Solos-compactação utilizando amostras não trabalhadas",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-098-2007-es",
@@ -2311,6 +2407,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "misturas asfálticas – determinação da resistência à tração por compressão diametral:",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-386-99",
@@ -2322,9 +2419,14 @@
   {
    "codigo": "DNER-ME 148/94",
    "tipo": "ME",
-   "via": "faltante",
+   "via": "cancelada",
    "alternativa": null,
-   "titulo": "Material betuminoso - determinação dos pontos de fulgor e de combustão (vaso aberto Cleveland )",
+   "titulo": "Material betuminoso - Determinação dos pontos de fulgor e de combustão (vaso aberto cleveland) (ABNT-NBR 11341)",
+   "cancelada": {
+    "data": "15/09/2026",
+    "motivo": "A norma apresenta em seu conteúdo apenas referência à norma da ABNT.",
+    "pdf": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_148_94-1.pdf"
+   },
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-386-99",
@@ -2348,6 +2450,7 @@
    "via": "outra_edicao",
    "alternativa": "dner-me-194-98",
    "titulo": "Agregados - determinação da massa específica de agregados miúdos para concreto por meio do frasco de Chapman",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-195-97"
    ],
@@ -2358,7 +2461,8 @@
    "tipo": "ME",
    "via": "outra_edicao",
    "alternativa": "dner-me-195-97",
-   "titulo": "Agregados - determinação da absorção e da massa específica de agregado graúdo",
+   "titulo": "Agregados - determinação da absorção e da massa específica do agregado graúdo",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-399-99"
    ],
@@ -2370,6 +2474,7 @@
    "via": "outra_edicao",
    "alternativa": "dner-me-201-94",
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-202-94"
    ],
@@ -2381,6 +2486,7 @@
    "via": "outra_edicao",
    "alternativa": "dner-me-203-94",
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [
     "dner-me-202-94"
    ],
@@ -2392,6 +2498,7 @@
    "via": "outra_edicao",
    "alternativa": "dner-me-222-94",
    "titulo": "Desgaste por Abrasão de Agregado Sintético Fabricado com Argila",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-227-89"
@@ -2403,6 +2510,7 @@
    "via": "outra_edicao",
    "alternativa": "dner-me-225-94",
    "titulo": "Agregado Sintético de Argila Calcinada - Determinação da Perda de Massa após Fervura",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-227-89"
@@ -2414,6 +2522,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Agregados – Determinação do teor de materiais pulverulentos",
+   "cancelada": null,
    "citada_por_me": [
     "dnit-412-2025-me"
    ],
@@ -2425,6 +2534,7 @@
    "via": "substituida",
    "alternativa": "dnit-130-2010-me",
    "titulo": "Determinação da recuperação elástica de materiais asfálticos modificados por polímero, pelo método do ductilômetro",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-386-99",
@@ -2444,6 +2554,7 @@
    "via": "substituida",
    "alternativa": "dnit-384-2022-me",
    "titulo": "Estabilidade ao armazenamento de asfalto polímero",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-386-99",
@@ -2461,6 +2572,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Gestão da qualidade em obras rodoviárias - Procedimento",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-049-2013-es"
@@ -2472,6 +2584,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Pavimentos flexíveis – Concreto asfáltico – Especificação de serviço",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-033-2021-es"
@@ -2483,6 +2596,7 @@
    "via": "outra_edicao",
    "alternativa": "dnit-044-2004-me",
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [
     "dnit-039-2004-me"
    ],
@@ -2494,6 +2608,7 @@
    "via": "outra_edicao",
    "alternativa": "dnit-045-2004-me",
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [
     "dnit-039-2004-me"
    ],
@@ -2505,6 +2620,7 @@
    "via": "substituida",
    "alternativa": "dnit-093-2016-em",
    "titulo": "Tubo Dreno Corrugado de Polietileno de Alta Densidade (PEAD) para Drenagem Rodoviária citada no item 2 desta Norma",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-015-2006-es",
@@ -2518,6 +2634,7 @@
    "via": "substituida",
    "alternativa": "dnit-094-2014-em",
    "titulo": "tubo de poliéster reforçado com fibra de vidro (prfv) para drenagem rodoviária: especificação de material",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-015-2006-es"
@@ -2529,6 +2646,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Pavimentação – Solos – Determinação do módulo de resiliência",
+   "cancelada": null,
    "citada_por_me": [
     "dnit-434-2022-me"
    ],
@@ -2544,6 +2662,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Solos - Determinação do módulo de resilência",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-406-2017-es",
@@ -2556,6 +2675,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Material asfáltico – Determinação da penetração",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-385-2026-es"
@@ -2567,6 +2687,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-166-2013-es",
@@ -2579,6 +2700,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-146-2012-es",
@@ -2592,6 +2714,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-049-2013-es",
@@ -2609,6 +2732,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-146-2012-es",
@@ -2622,6 +2746,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-169-2014-es"
@@ -2633,6 +2758,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Pavimentação – Solos – Determinação da deformação permanente – Instrução de ensaio",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-140-2022-es",
@@ -2646,6 +2772,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Pavimentação – Material estabilizado quimicamente – Determinação do módulo de resiliência",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-143-2025-es"
@@ -2657,6 +2784,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Pavimentação – Misturas asfálticas – Determinação dos parâmetros CDI e TDI – Instrução de ensaio",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-385-2026-es"
@@ -2668,6 +2796,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Agregados – Avaliação da durabilidade pelo emprego de soluções de sulfato de sódio ou magnésio",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-385-2026-es"
@@ -2679,6 +2808,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Misturas asfálticas – Ensaio de estabilidade e fluência Marshall",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-385-2026-es"
@@ -2690,6 +2820,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Pavimentação asfáltica",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-385-2026-es"
@@ -2701,6 +2832,7 @@
    "via": "faltante",
    "alternativa": null,
    "titulo": "Solos – Análise granulométrica",
+   "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
     "dnit-143-2025-es"

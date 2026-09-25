@@ -122,7 +122,8 @@
       item.className = "norma-item" + (n.id === state.selectedId ? " selected" : "");
       item.dataset.id = n.id;
       var badgeOrgao = '<span class="badge ' + n.orgao.toLowerCase() + '">' + n.orgao + "</span>";
-      var badgeStatus = n.status === "suspensa" ? '<span class="badge suspensa">SUSPENSA</span>' : "";
+      var badgeStatus = n.status === "suspensa" ? '<span class="badge suspensa">SUSPENSA</span>'
+        : n.status === "cancelada" ? '<span class="badge suspensa">CANCELADA</span>' : "";
       item.innerHTML =
         '<div class="codigo">' + escapeHtml(n.codigo) + badgeOrgao + badgeStatus + "</div>" +
         '<div class="titulo">' + escapeHtml(n.titulo) + "</div>";
@@ -185,7 +186,7 @@
 
   // ---------- Dependências entre métodos de ensaio (data/dependencias.json) ----------
   var DEPS = window.DEPENDENCIAS || {};
-  var VIA_TXT = { substituida: "substituída por", outra_edicao: "no acervo em outra edição:" };
+  var VIA_TXT = { substituida: "substituída por", outra_edicao: "no acervo em outra edição:", cancelada: "use no lugar" };
 
   function depItem(d, nivel, caminho, raiz) {
     var html;
@@ -195,10 +196,13 @@
     } else {
       html = '<span class="dep-fora">' + escapeHtml(d.codigo) + "</span> " +
         (d.titulo ? '<span class="dep-tit">' + escapeHtml(d.titulo) + "</span> " : "");
+      if (d.via === "cancelada") {
+        html += '<span class="dep-via dep-falta">cancelada pelo DNIT em ' + escapeHtml(d.cancelada) + "</span> ";
+      }
       if (d.id) {
         html += '<span class="dep-via">(' + VIA_TXT[d.via] + ' <a data-id="' + escapeHtml(d.id) + '" class="rel-link">' +
           escapeHtml(byId[d.id].codigo) + "</a>)</span>";
-      } else {
+      } else if (d.via !== "cancelada") {
         html += '<span class="dep-via dep-falta">fora do acervo</span>';
       }
     }
@@ -242,11 +246,31 @@
     return html + "</div>";
   }
 
+  // ---------- Tarja de norma cancelada (data/canceladas.json, página "Normas canceladas IPR") ----------
+  var URL_CANCELADAS = "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-canceladas-ipr";
+
+  function tarjaCancelada(n, linkClass) {
+    var c = n && n.cancelada;
+    if (!c && !(n && n.status === "suspensa")) return "";
+    if (!c) {
+      return '<div class="tarja-cancelada tarja-suspensa"><div class="tc-titulo">Norma suspensa. Não está em vigor.</div></div>';
+    }
+    var subst = (c.sucessoras || []).filter(function (id) { return byId[id]; }).map(function (id) {
+      return '<a data-id="' + escapeHtml(id) + '" class="' + linkClass + '">' + escapeHtml(byId[id].codigo) + "</a>";
+    });
+    return '<div class="tarja-cancelada"><div class="tc-titulo">Norma cancelada. Não está mais em vigor.</div>' +
+      '<div class="tc-det">Cancelada pelo DNIT em ' + escapeHtml(c.data) + ". " + escapeHtml(c.motivo || "") +
+      (subst.length ? " Use no lugar: " + subst.join(", ") + "." : "") +
+      (c.pdf ? ' · <a href="' + escapeHtml(c.pdf) + '" target="_blank">PDF com tarja</a>' : "") +
+      ' · <a href="' + URL_CANCELADAS + '" target="_blank">normas canceladas no site do DNIT</a></div></div>';
+  }
+
   var editingId = null; // id da norma atualmente em modo de edição, se houver
 
   function headerHtml(n, editMode) {
     var badgeOrgao = '<span class="badge ' + n.orgao.toLowerCase() + '">' + n.orgao + "</span>";
-    var badgeStatus = n.status === "suspensa" ? '<span class="badge suspensa">SUSPENSA</span>' : "";
+    var badgeStatus = n.status === "suspensa" ? '<span class="badge suspensa">SUSPENSA</span>'
+        : n.status === "cancelada" ? '<span class="badge suspensa">CANCELADA</span>' : "";
     var actionBtn = editMode
       ? '<button class="edit-btn save" id="btn-save">Salvar</button><button class="edit-btn cancel" id="btn-cancel">Cancelar</button>'
       : '<button class="edit-btn" id="btn-edit">✎ Editar</button>';
@@ -379,6 +403,7 @@
     }
 
     contentPanel.innerHTML =
+      tarjaCancelada(n, "rel-link") +
       headerHtml(n, false) +
       renderDependencias(n) +
       renderRelated(n) +
@@ -748,6 +773,11 @@
           (it.norma ? "" : ' <span class="ctl-fora">(fora do acervo)</span>') + "</div>";
       }
       if (it.norma_atual) html += '<div class="ctl-atual">versão no acervo: ' + refLink(it.norma_atual) + "</div>";
+      (it.canceladas || []).forEach(function (c) {
+        var subst = (c.sucessoras || []).filter(function (id) { return byId[id]; });
+        html += '<div class="ctl-canc">' + escapeHtml(c.codigo) + " cancelada em " + escapeHtml(c.data) +
+          (subst.length ? " — use " + subst.map(refLink).join(", ") : "") + "</div>";
+      });
       return html || '<span class="ctl-fora">—</span>';
     }
 
@@ -763,7 +793,8 @@
       p.itens.forEach(function (it) {
         [it.norma, it.norma_atual].concat(it.outras || []).forEach(function (id) { if (id) refs[id] = 1; });
       });
-      var html = '<div class="content-header"><div class="header-top"><div>' +
+      var html = tarjaCancelada(es, "ctl-ref") +
+        '<div class="content-header"><div class="header-top"><div>' +
         '<div class="codigo">' + escapeHtml(p.servico) + "</div>" +
         '<div class="meta">' + refLink(p.es) + " — " + escapeHtml(es.titulo) + "</div>" +
         '<div class="meta">' + p.itens.length + " ensaios/verificações · " + Object.keys(refs).length +

@@ -19,10 +19,14 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from dependencias import cancelada, cancelamentos, codigos  # noqa: E402
+
+CANC = cancelamentos()
 DIR = ROOT / "data" / "controle"
 ETAPAS = ("materiais", "execucao", "produto")
 CHAVES = {"etapa", "grupo", "ensaio", "citado", "norma", "norma_atual", "outras",
-          "frequencia", "criterio", "condicao", "secao", "obs"}
+          "frequencia", "criterio", "condicao", "secao", "obs", "canceladas"}
 
 
 def main():
@@ -56,6 +60,16 @@ def main():
             for o in it.get("outras") or []:
                 if o not in entries:
                     erros.append(f"{onde}: outras {o!r} não existe no acervo")
+        for it in d.get("itens", []):
+            canc = []
+            for chave, rot, _ in codigos(it.get("citado") or ""):
+                c = cancelada(CANC, chave)
+                if c:
+                    canc.append({"codigo": rot, "data": c["data"], "sucessoras": c["sucessoras"]})
+            if canc:
+                it["canceladas"] = canc
+            else:
+                it.pop("canceladas", None)
         # área da ES (front-matter do markdown), usada no filtro da aba
         m = re.search(r'^area:[ \t]*"?([^"\n]*)', (ROOT / es["md"]).read_text(encoding="utf-8"), re.M)
         d["area"] = (m.group(1).strip() if m else "") or "Outras"

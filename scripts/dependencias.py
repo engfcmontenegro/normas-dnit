@@ -50,11 +50,30 @@ def codigos(texto):
     out = []
     for m in DNER_RE.finditer(texto):
         tipo, num, ano = m.group(1).upper(), int(m.group(2)), ano4(m.group(3))
-        out.append((("DNER", tipo, num, ano), f"DNER-{tipo} {num:03d}/{m.group(3)[-2:] if len(m.group(3)) == 2 else m.group(3)}", m.end()))
+        out.append((("DNER", tipo, num, ano), f"DNER-{tipo} {num:03d}/{ano[-2:]}", m.end()))
     for m in DNIT_RE.finditer(texto):
         num, ano, tipo = int(m.group(1)), m.group(2), m.group(3).upper()
         out.append((("DNIT", tipo, num, ano), f"DNIT {num:03d}/{ano}-{tipo}" if ano else f"DNIT {num:03d}-{tipo}", m.end()))
     return out
+
+
+def cancelamentos():
+    """data/canceladas.json indexado por (órgão, tipo, número) -> lista de cancelamentos."""
+    p = ROOT / "data/canceladas.json"
+    out = defaultdict(list)
+    for c in (json.loads(p.read_text(encoding="utf-8")) if p.exists() else []):
+        org, tipo, num, ano = c["_chave"]
+        out[(org, tipo, num)].append(c)
+    return out
+
+
+def cancelada(canc, chave):
+    """Cancelamento que corresponde ao código citado (mesmo ano, ou qualquer ano se a citação não traz ano)."""
+    org, tipo, num, ano = chave
+    for c in canc.get((org, tipo, num), []):
+        if not ano or c["_chave"][3] == ano:
+            return c
+    return None
 
 
 def main():
@@ -78,6 +97,8 @@ def main():
                     if chave[:3] != (by_id[nid]["orgao"], by_id[nid]["tipo"], None) and idx[chave[:3]].get(chave[3]) != nid:
                         sucessora.setdefault(chave, nid)
 
+    canc = cancelamentos()
+
     def resolve(chave):
         org, tipo, num, ano = chave
         edicoes = idx.get((org, tipo, num), {})
@@ -85,6 +106,9 @@ def main():
             return "acervo", edicoes[ano]
         if not ano and edicoes:
             return "acervo", edicoes[max(edicoes)]
+        c = cancelada(canc, chave)
+        if c:
+            return "cancelada", (c["sucessoras"] or [sucessora.get(chave)])[0]
         if chave in sucessora:
             return "substituida", sucessora[chave]
         if edicoes:
@@ -122,10 +146,10 @@ def main():
                 via, alvo = resolve(chave)
                 if alvo == e["id"] or rot in vistos:
                     continue
-                vistos[rot] = {"codigo": rot, "via": via, "id": alvo}
+                vistos[rot] = {"codigo": rot, "via": via, "id": alvo, "_chave": chave}
         deps[e["id"]] = {"depende": sorted(vistos.values(), key=lambda d: d["codigo"]), "usado_por": []}
         for d in vistos.values():
-            if d["via"] == "faltante" or d["via"] == "outra_edicao":
+            if d["via"] in ("faltante", "outra_edicao", "cancelada"):
                 citantes[d["codigo"]].add(e["id"])
 
     for nid, d in deps.items():
@@ -135,6 +159,11 @@ def main():
             t = titulos.get(dep["codigo"])
             if t and dep["via"] != "acervo":
                 dep["titulo"] = max(set(t), key=t.count)
+            if dep["via"] == "cancelada":
+                c = cancelada(canc, dep["_chave"])
+                dep["cancelada"] = c["data"]
+                dep["titulo"] = c["titulo"] or dep.get("titulo")
+            dep.pop("_chave", None)
     for d in deps.values():
         d["usado_por"] = sorted(set(d["usado_por"]))
 
@@ -160,8 +189,10 @@ def main():
         if via == "acervo":
             continue
         t = titulos.get(rot)
+        c = cancelada(canc, chave) if via == "cancelada" else None
         faltantes.append({"codigo": rot, "tipo": tipo, "via": via, "alternativa": alvo,
-                          "titulo": max(set(t), key=t.count) if t else "",
+                          "titulo": (c or {}).get("titulo") or (max(set(t), key=t.count) if t else ""),
+                          "cancelada": {k: c[k] for k in ("data", "motivo", "pdf")} if c else None,
                           "citada_por_me": sorted(citantes[rot]), "citada_em_controle": sorted(controle.get(rot, ()))})
 
     out = dict(deps)
@@ -190,16 +221,21 @@ def pagina(faltantes, by_id):
         return " ".join(f'<a href="index.html#controle:{html.escape(i)}" target="_blank">{html.escape(by_id[i]["codigo"])}</a>'
                         for i in ids)
 
-    SIT = {"faltante": ("falta", "Não há nada no acervo"),
+    SIT = {"cancelada": ("canc", "Cancelada pelo DNIT"),
+           "faltante": ("falta", "Não há nada no acervo"),
            "substituida": ("subst", "Substituída por norma do acervo"),
            "outra_edicao": ("edicao", "Acervo tem outra edição")}
     linhas = []
     for f in sorted(faltantes, key=lambda f: (-(len(f["citada_por_me"]) + len(f["citada_em_controle"])), f["codigo"])):
         cls, rot = SIT[f["via"]]
         alt = ""
+        if f.get("cancelada"):
+            c = f["cancelada"]
+            alt += f'<div class="alt canc">Cancelada em {html.escape(c["data"])} — {html.escape(c["motivo"])}' + \
+                   (f' <a href="{html.escape(c["pdf"])}" target="_blank">PDF com tarja</a>' if c["pdf"] else "") + "</div>"
         if f["alternativa"]:
             a = by_id[f["alternativa"]]
-            alt = f'<div class="alt">{"sucessora" if f["via"] == "substituida" else "edição no acervo"}: ' \
+            alt = f'<div class="alt">{"edição no acervo" if f["via"] == "outra_edicao" else "sucessora"}: ' \
                   f'<a href="index.html#norma:{html.escape(a["id"])}" target="_blank">{html.escape(a["codigo"])}</a> — {html.escape(a["titulo"])}</div>'
         n = len(f["citada_por_me"]) + len(f["citada_em_controle"])
         linhas.append(
@@ -225,20 +261,20 @@ td{{padding:7px 8px;border-bottom:1px solid var(--border);vertical-align:top;fon
 td.cod{{font-weight:600;white-space:nowrap}}td.n{{text-align:center;color:var(--dim)}}a{{color:var(--accent);text-decoration:none;white-space:nowrap}}
 .alt{{font-size:12px;color:var(--dim);margin-top:3px}}.dim{{color:var(--dim)}}
 .sit{{font-size:11px;font-weight:600;border-radius:4px;padding:1px 7px;color:#fff;white-space:nowrap}}
-.sit.falta{{background:#e5534b}}.sit.subst{{background:#34c38f}}.sit.edicao{{background:#e0a13a}}
+.sit.falta{{background:#e5534b}}.sit.canc{{background:#8b1e1e}}.alt.canc{{color:#e5534b}}.sit.subst{{background:#34c38f}}.sit.edicao{{background:#e0a13a}}
 @media (max-width:600px){{header,main{{padding-left:16px;padding-right:16px}}}}
 </style></head><body><header><h1>Normas citadas que não estão no acervo</h1>
 <div class="sub">{len(faltantes)} códigos citados por métodos de ensaio (dependências) ou pelos planos de controle de serviço:
-{n_falta} sem nada no acervo, {sum(1 for f in faltantes if f["via"] == "substituida")} substituídos oficialmente por norma do acervo
+{sum(1 for f in faltantes if f["via"] == "cancelada")} canceladas pelo DNIT, {n_falta} sem nada no acervo, {sum(1 for f in faltantes if f["via"] == "substituida")} substituídos oficialmente por norma do acervo
 ("cancela e substitui") e {sum(1 for f in faltantes if f["via"] == "outra_edicao")} com outra edição no acervo. Ordenado pelo número de citações.
 Títulos tirados das listas de referências das próprias normas.</div>
 <div class="bar"><input id="q" type="search" placeholder="Filtrar por código, título, norma que cita...">
-<span class="chip on" data-sit="falta">Não há no acervo</span><span class="chip on" data-sit="edicao">Outra edição</span>
+<span class="chip on" data-sit="canc">Cancelada</span><span class="chip on" data-sit="falta">Não há no acervo</span><span class="chip on" data-sit="edicao">Outra edição</span>
 <span class="chip on" data-sit="subst">Substituída</span>
 <span class="chip on" data-tipo="ME">ME</span><span class="chip on" data-tipo="outros">EM/ES/PRO…</span></div></header>
 <main><table><thead><tr><th>Código</th><th>Título</th><th>Situação</th><th>Citações</th><th>Citada por ME</th><th>Citada no controle de serviços</th></tr></thead>
 <tbody>{"".join(linhas)}</tbody></table></main>
-<script>(function(){{var on={{falta:1,edicao:1,subst:1,ME:1,outros:1}},q=document.getElementById('q');
+<script>(function(){{var on={{canc:1,falta:1,edicao:1,subst:1,ME:1,outros:1}},q=document.getElementById('q');
 function apply(){{var t=q.value.toLowerCase();document.querySelectorAll('tbody tr').forEach(function(r){{
 var tp=r.dataset.tipo==='ME'?'ME':'outros';r.style.display=on[r.dataset.sit]&&on[tp]&&(!t||r.textContent.toLowerCase().indexOf(t)>=0)?'':'none';}});}}
 document.querySelectorAll('.chip').forEach(function(c){{c.addEventListener('click',function(){{var k=c.dataset.sit||c.dataset.tipo;on[k]=!on[k];c.classList.toggle('on');apply();}});}});

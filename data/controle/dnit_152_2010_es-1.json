@@ -1,31 +1,225 @@
 {
-  "es": "dnit-152-2010-es",
-  "servico": "Macadame hidráulico",
-  "itens": [
-    {"etapa": "materiais", "grupo": "Agregado graúdo", "ensaio": "Granulometria", "citado": "DNER-ME 083/98", "norma": null, "norma_atual": "dnit-412-2025-me", "frequencia": "2 por jornada de 8 h", "criterio": "Dentro da faixa A, B ou C da Tabela 1 (tolerância ± 7 %); Dmáx entre 1/2 e 2/3 da espessura final da camada", "secao": "5.1.1 / 7.1.2", "obs": "Espessura máxima da camada: 25 cm (faixa A) ou 20 cm (B e C)"},
-    {"etapa": "materiais", "grupo": "Agregado graúdo", "ensaio": "Durabilidade (sulfato de sódio / magnésio)", "citado": "DNER-ME 089/94", "norma": null, "frequencia": "No início da utilização e quando houver variação aparente ou dúvida", "criterio": "Perda ≤ 20 % (sódio) ou ≤ 30 % (magnésio)", "secao": "5.1.1 / 7.1.2"},
-    {"etapa": "materiais", "grupo": "Agregado graúdo", "ensaio": "Abrasão Los Angeles", "citado": "DNER-ME 035/98", "norma": null, "norma_atual": "dnit-451-2024-me", "frequencia": "No início da utilização e quando houver variação aparente ou dúvida", "criterio": "< 50 % (admite-se maior com desempenho anterior comprovado)", "secao": "5.1.1 / 7.1.2"},
-    {"etapa": "materiais", "grupo": "Agregado graúdo", "ensaio": "Partículas com duas faces britadas", "citado": null, "norma": null, "norma_atual": "dnit-430-2020-me", "frequencia": "Na seleção do material", "criterio": "≥ 75 % em peso", "condicao": "pedregulho ou cascalho britados", "secao": "5.1.1"},
-    {"etapa": "materiais", "grupo": "Agregado para enchimento", "ensaio": "Granulometria", "citado": "DNER-ME 080/94", "norma": null, "frequencia": "2 por jornada de 8 h", "criterio": "Dentro da faixa A ou B da Tabela 2; tolerâncias ± 7 % (3/4\" a 3/8\"), ± 5 % (nº 4 e nº 10), ± 3 % (nº 40)", "secao": "5.1.2 / 7.1.3"},
-    {"etapa": "materiais", "grupo": "Agregado para enchimento", "ensaio": "Limite de liquidez", "citado": "DNER-ME 122/94", "norma": "dner-me-122-94", "frequencia": "A cada 200 m de pista", "criterio": "LL ≤ 25 % (fração passante na nº 40)", "secao": "5.1.2 / 7.1.3"},
-    {"etapa": "materiais", "grupo": "Agregado para enchimento", "ensaio": "Índice de plasticidade", "citado": "DNER-ME 082/94", "norma": "dner-me-082-94", "frequencia": "A cada 200 m de pista", "criterio": "IP ≤ 6 % (fração passante na nº 40)", "secao": "5.1.2 / 7.1.3"},
-    {"etapa": "materiais", "grupo": "Agregado para enchimento", "ensaio": "Equivalente de areia", "citado": "DNER-ME 054/97", "norma": null, "norma_atual": "dnit-450-2024-me", "frequencia": "1 por jornada de 8 h e sempre que variar a natureza do material", "criterio": "EA ≥ 55 %", "secao": "5.1.2 / 7.1.3"},
-    {"etapa": "materiais", "grupo": "Camada de bloqueio", "ensaio": "Granulometria", "citado": "DNER-ME 080/94", "norma": null, "frequencia": "2 por jornada de 8 h", "criterio": "Dentro da faixa A ou B da Tabela 3; tolerâncias ± 7 % (3/4\" a 3/8\"), ± 5 % (nº 4 e nº 10), ± 3 % (nº 40), ± 2 % (nº 200)", "condicao": "quando a camada subjacente tiver > 35 % passando na peneira nº 200", "secao": "5.1.3 / 7.1.1"},
-    {"etapa": "materiais", "grupo": "Camada de bloqueio", "ensaio": "Limite de liquidez", "citado": "DNER-ME 122/94", "norma": "dner-me-122-94", "frequencia": "A cada 200 m de pista", "criterio": "Sem limite próprio (usado para o IP)", "condicao": "quando a camada subjacente tiver > 35 % passando na peneira nº 200", "secao": "5.1.3 / 7.1.1"},
-    {"etapa": "materiais", "grupo": "Camada de bloqueio", "ensaio": "Índice de plasticidade", "citado": "DNER-ME 082/94", "norma": "dner-me-082-94", "frequencia": "A cada 200 m de pista", "criterio": "IP < 6 % (fração passante na nº 40)", "condicao": "quando a camada subjacente tiver > 35 % passando na peneira nº 200", "secao": "5.1.3 / 7.1.1"},
-    {"etapa": "materiais", "grupo": "Camada de bloqueio", "ensaio": "Equivalente de areia", "citado": "DNER-ME 054/97", "norma": null, "norma_atual": "dnit-450-2024-me", "frequencia": "1 por jornada de 8 h e sempre que variar a natureza do material", "criterio": "EA ≥ 55 %", "condicao": "quando a camada subjacente tiver > 35 % passando na peneira nº 200", "secao": "5.1.3 / 7.1.1"},
-    {"etapa": "execucao", "grupo": "Camada de bloqueio", "ensaio": "Espessura da camada de bloqueio", "citado": null, "norma": null, "frequencia": "Na execução, antes do espalhamento do agregado graúdo", "criterio": "4 cm ± 1 cm", "condicao": "quando a camada subjacente tiver > 35 % passando na peneira nº 200", "secao": "5.3.1 / Tabela 3"},
-    {"etapa": "execucao", "grupo": "Compressão", "ensaio": "Verificação visual após a compressão (passagem do rolo)", "citado": null, "norma": null, "frequencia": "1 após cada compressão, antes do agregado para enchimento, em cada faixa", "criterio": "Sem sulcos ou ondulações", "secao": "7.2.1 a"},
-    {"etapa": "execucao", "grupo": "Compressão", "ensaio": "Verificação do enchimento dos vazios", "citado": null, "norma": null, "frequencia": "1 após concluída a irrigação", "criterio": "Formação de pequena onda de pasta (agregado + água) à frente do rolo", "secao": "7.2.1 b"},
-    {"etapa": "execucao", "grupo": "Compressão", "ensaio": "Verificação da compactação final (pedra à frente do rolo)", "citado": null, "norma": null, "frequencia": "1 ao final da compressão", "criterio": "Pedra esmagada pelo rolo sem penetrar na camada", "secao": "7.2.1 c"},
-    {"etapa": "execucao", "grupo": "Após a compressão", "ensaio": "Deflexão (Viga Benkelman)", "citado": "DNER-ME 024/94", "norma": null, "norma_atual": "dnit-133-2025-me", "frequencia": "1 por estaca, alternando bordas e eixo (compatibilizar com o Plano de Amostragem Variável)", "criterio": "Valores definidos no projeto para o topo da camada (análise estatística)", "condicao": "verificação adicional facultativa, sobre a base ainda úmida", "secao": "7.2.2"},
-    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Largura da plataforma", "citado": null, "norma": null, "frequencia": "Relocação e nivelamento do eixo e bordas", "criterio": "± 10 cm", "secao": "7.3 a"},
-    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Flecha de abaulamento", "citado": null, "norma": null, "frequencia": "Relocação e nivelamento do eixo e bordas", "criterio": "Até +20 %; não se tolera falta", "secao": "7.3 b"},
-    {"etapa": "produto", "grupo": "Geometria", "ensaio": "Espessura da camada", "citado": null, "norma": null, "frequencia": "Relocação e nivelamento do eixo e bordas", "criterio": "± 10 % da espessura de projeto", "secao": "7.3 c"}
-  ],
-  "notas": [
-    "Número e frequência de determinações por Plano de Amostragem aprovado pela Fiscalização (DNER-PRO 277/97); conformidade se X̄ − ks ≥ mín. e X̄ + ks ≤ máx.; as frequências de 7.1 são mínimas.",
-    "Não conformidades tratadas conforme DNIT 011/2004-PRO.",
-    "Não executar em dias de chuva; após a construção, deixar secar e manter sob tráfego com recobrimento de agregado para enchimento por 7 a 15 dias antes da camada seguinte, corrigindo pontos fracos."
-  ]
+ "es": "dnit-152-2010-es",
+ "servico": "Macadame hidráulico",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado graúdo",
+   "ensaio": "Granulometria",
+   "citado": "DNER-ME 083/98",
+   "norma": "dner-me-083-98",
+   "norma_atual": "dnit-412-2025-me",
+   "frequencia": "2 por jornada de 8 h",
+   "criterio": "Dentro da faixa A, B ou C da Tabela 1 (tolerância ± 7 %); Dmáx entre 1/2 e 2/3 da espessura final da camada",
+   "secao": "5.1.1 / 7.1.2",
+   "obs": "Espessura máxima da camada: 25 cm (faixa A) ou 20 cm (B e C)"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado graúdo",
+   "ensaio": "Durabilidade (sulfato de sódio / magnésio)",
+   "citado": "DNER-ME 089/94",
+   "norma": null,
+   "frequencia": "No início da utilização e quando houver variação aparente ou dúvida",
+   "criterio": "Perda ≤ 20 % (sódio) ou ≤ 30 % (magnésio)",
+   "secao": "5.1.1 / 7.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado graúdo",
+   "ensaio": "Abrasão Los Angeles",
+   "citado": "DNER-ME 035/98",
+   "norma": null,
+   "norma_atual": "dnit-451-2024-me",
+   "frequencia": "No início da utilização e quando houver variação aparente ou dúvida",
+   "criterio": "< 50 % (admite-se maior com desempenho anterior comprovado)",
+   "secao": "5.1.1 / 7.1.2"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado graúdo",
+   "ensaio": "Partículas com duas faces britadas",
+   "citado": null,
+   "norma": null,
+   "norma_atual": "dnit-430-2020-me",
+   "frequencia": "Na seleção do material",
+   "criterio": "≥ 75 % em peso",
+   "condicao": "pedregulho ou cascalho britados",
+   "secao": "5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado para enchimento",
+   "ensaio": "Granulometria",
+   "citado": "DNER-ME 080/94",
+   "norma": "dner-me-080-94",
+   "frequencia": "2 por jornada de 8 h",
+   "criterio": "Dentro da faixa A ou B da Tabela 2; tolerâncias ± 7 % (3/4\" a 3/8\"), ± 5 % (nº 4 e nº 10), ± 3 % (nº 40)",
+   "secao": "5.1.2 / 7.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado para enchimento",
+   "ensaio": "Limite de liquidez",
+   "citado": "DNER-ME 122/94",
+   "norma": "dner-me-122-94",
+   "frequencia": "A cada 200 m de pista",
+   "criterio": "LL ≤ 25 % (fração passante na nº 40)",
+   "secao": "5.1.2 / 7.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado para enchimento",
+   "ensaio": "Índice de plasticidade",
+   "citado": "DNER-ME 082/94",
+   "norma": "dner-me-082-94",
+   "frequencia": "A cada 200 m de pista",
+   "criterio": "IP ≤ 6 % (fração passante na nº 40)",
+   "secao": "5.1.2 / 7.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Agregado para enchimento",
+   "ensaio": "Equivalente de areia",
+   "citado": "DNER-ME 054/97",
+   "norma": null,
+   "norma_atual": "dnit-450-2024-me",
+   "frequencia": "1 por jornada de 8 h e sempre que variar a natureza do material",
+   "criterio": "EA ≥ 55 %",
+   "secao": "5.1.2 / 7.1.3"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Camada de bloqueio",
+   "ensaio": "Granulometria",
+   "citado": "DNER-ME 080/94",
+   "norma": "dner-me-080-94",
+   "frequencia": "2 por jornada de 8 h",
+   "criterio": "Dentro da faixa A ou B da Tabela 3; tolerâncias ± 7 % (3/4\" a 3/8\"), ± 5 % (nº 4 e nº 10), ± 3 % (nº 40), ± 2 % (nº 200)",
+   "condicao": "quando a camada subjacente tiver > 35 % passando na peneira nº 200",
+   "secao": "5.1.3 / 7.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Camada de bloqueio",
+   "ensaio": "Limite de liquidez",
+   "citado": "DNER-ME 122/94",
+   "norma": "dner-me-122-94",
+   "frequencia": "A cada 200 m de pista",
+   "criterio": "Sem limite próprio (usado para o IP)",
+   "condicao": "quando a camada subjacente tiver > 35 % passando na peneira nº 200",
+   "secao": "5.1.3 / 7.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Camada de bloqueio",
+   "ensaio": "Índice de plasticidade",
+   "citado": "DNER-ME 082/94",
+   "norma": "dner-me-082-94",
+   "frequencia": "A cada 200 m de pista",
+   "criterio": "IP < 6 % (fração passante na nº 40)",
+   "condicao": "quando a camada subjacente tiver > 35 % passando na peneira nº 200",
+   "secao": "5.1.3 / 7.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Camada de bloqueio",
+   "ensaio": "Equivalente de areia",
+   "citado": "DNER-ME 054/97",
+   "norma": null,
+   "norma_atual": "dnit-450-2024-me",
+   "frequencia": "1 por jornada de 8 h e sempre que variar a natureza do material",
+   "criterio": "EA ≥ 55 %",
+   "condicao": "quando a camada subjacente tiver > 35 % passando na peneira nº 200",
+   "secao": "5.1.3 / 7.1.1"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Camada de bloqueio",
+   "ensaio": "Espessura da camada de bloqueio",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Na execução, antes do espalhamento do agregado graúdo",
+   "criterio": "4 cm ± 1 cm",
+   "condicao": "quando a camada subjacente tiver > 35 % passando na peneira nº 200",
+   "secao": "5.3.1 / Tabela 3"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Compressão",
+   "ensaio": "Verificação visual após a compressão (passagem do rolo)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "1 após cada compressão, antes do agregado para enchimento, em cada faixa",
+   "criterio": "Sem sulcos ou ondulações",
+   "secao": "7.2.1 a"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Compressão",
+   "ensaio": "Verificação do enchimento dos vazios",
+   "citado": null,
+   "norma": null,
+   "frequencia": "1 após concluída a irrigação",
+   "criterio": "Formação de pequena onda de pasta (agregado + água) à frente do rolo",
+   "secao": "7.2.1 b"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Compressão",
+   "ensaio": "Verificação da compactação final (pedra à frente do rolo)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "1 ao final da compressão",
+   "criterio": "Pedra esmagada pelo rolo sem penetrar na camada",
+   "secao": "7.2.1 c"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Após a compressão",
+   "ensaio": "Deflexão (Viga Benkelman)",
+   "citado": "DNER-ME 024/94",
+   "norma": null,
+   "norma_atual": "dnit-133-2025-me",
+   "frequencia": "1 por estaca, alternando bordas e eixo (compatibilizar com o Plano de Amostragem Variável)",
+   "criterio": "Valores definidos no projeto para o topo da camada (análise estatística)",
+   "condicao": "verificação adicional facultativa, sobre a base ainda úmida",
+   "secao": "7.2.2"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Largura da plataforma",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 10 cm",
+   "secao": "7.3 a"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Flecha de abaulamento",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "Até +20 %; não se tolera falta",
+   "secao": "7.3 b"
+  },
+  {
+   "etapa": "produto",
+   "grupo": "Geometria",
+   "ensaio": "Espessura da camada",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Relocação e nivelamento do eixo e bordas",
+   "criterio": "± 10 % da espessura de projeto",
+   "secao": "7.3 c"
+  }
+ ],
+ "notas": [
+  "Número e frequência de determinações por Plano de Amostragem aprovado pela Fiscalização (DNER-PRO 277/97); conformidade se X̄ − ks ≥ mín. e X̄ + ks ≤ máx.; as frequências de 7.1 são mínimas.",
+  "Não conformidades tratadas conforme DNIT 011/2004-PRO.",
+  "Não executar em dias de chuva; após a construção, deixar secar e manter sob tráfego com recobrimento de agregado para enchimento por 7 a 15 dias antes da camada seguinte, corrigindo pontos fracos."
+ ]
 }

@@ -93,7 +93,7 @@
    "grupo": "Material (in natura ou beneficiado)",
    "ensaio": "Granulometria",
    "citado": "DNER-ME 080/94",
-   "norma": null,
+   "norma": "dner-me-080-94",
    "frequencia": "Na seleção do material",
    "criterio": "Faixa A ou B do Quadro de composição granulométrica; tolerâncias da curva de projeto ± 7 (3/8\"–1\"), ± 5 (nº 40–nº 4), ± 2 (nº 200)",
    "secao": "5.3 f"
@@ -160,7 +160,7 @@
    "grupo": "Antes da compactação",
    "ensaio": "Umidade higroscópica",
    "citado": "DNER-ME 052/94 ou DNER-ME 088/94",
-   "norma": null,
+   "norma": "dner-me-088-94",
    "norma_atual": "dnit-456-2025-me",
    "frequencia": "Por camada, a cada 100 m de pista, imediatamente antes da compactação",
    "criterio": "hót ± 2 %",

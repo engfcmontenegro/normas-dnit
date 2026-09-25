@@ -69,7 +69,7 @@
    "grupo": "Mistura Açobrita® + solo",
    "ensaio": "Granulometria",
    "citado": "DNER-ME 080/94",
-   "norma": null,
+   "norma": "dner-me-080-94",
    "frequencia": "Na dosagem",
    "criterio": "Uma das faixas da Tabela 2 (Anexo A): A–D para N > 5×10⁶, E–F para N < 5×10⁶; tolerâncias ± 7 / ± 5 / ± 2",
    "secao": "5.1.2"
@@ -142,7 +142,7 @@
    "grupo": "Mistura espalhada na pista",
    "ensaio": "Granulometria",
    "citado": "DNER-ME 080/94",
-   "norma": null,
+   "norma": "dner-me-080-94",
    "frequencia": "1 amostra por camada a cada 200 m de pista ou por jornada diária (400 m com material homogêneo, a critério da Fiscalização); com usina, na saída do misturador; mín. 5 por segmento/camada (área < 4.000 m²)",
    "criterio": "Faixa de projeto (Tabela 2, Anexo A) ± tolerâncias; X̄ − ks ≥ mín. e X̄ + ks ≤ máx.",
    "secao": "7.1.1 / 7.4.2"
@@ -172,7 +172,7 @@
    "grupo": "Antes da compactação",
    "ensaio": "Teor de umidade",
    "citado": "DNER-ME 052/94 ou DNER-ME 088/94",
-   "norma": null,
+   "norma": "dner-me-088-94",
    "norma_atual": "dnit-456-2025-me",
    "frequencia": "Nº definido pela Tabela 3 (amostragem variável)",
    "criterio": "hót ± 2 %",

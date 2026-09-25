@@ -89,7 +89,7 @@
    "grupo": "Antes da compactação",
    "ensaio": "Umidade higroscópica",
    "citado": "DNER-ME 052/94 ou DNER-ME 088/94",
-   "norma": null,
+   "norma": "dner-me-088-94",
    "norma_atual": "dnit-456-2025-me",
    "frequencia": "Por camada, a cada 100 m de pista, imediatamente antes da compactação",
    "criterio": "hót ± 2 %",

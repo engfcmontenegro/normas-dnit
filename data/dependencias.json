@@ -1443,6 +1443,19 @@
  },
  "_faltantes": [
   {
+   "codigo": "DNER-CLA 259/96",
+   "tipo": "CLA",
+   "via": "substituida",
+   "alternativa": "dnit-259-2023-cla",
+   "titulo": "Classificação de solos tropicais para finalidades rodoviárias utilizando corpos-de-prova compactados em equipamento miniatura",
+   "cancelada": null,
+   "citada_por_me": [],
+   "citada_em_controle": [
+    "dnit-114-2009-es",
+    "dnit-115-2009-es"
+   ]
+  },
+  {
    "codigo": "DNER-EM 034/97",
    "tipo": "EM",
    "via": "substituida",
@@ -1636,7 +1649,7 @@
    "tipo": "ES",
    "via": "substituida",
    "alternativa": "dnit-118-2009-es",
-   "titulo": "Armadura para Concreto Armado",
+   "titulo": "obras-de-arte especiais – armaduras para concreto armado: especificação de serviço",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -1822,7 +1835,8 @@
     "dner-me-222-94"
    ],
    "citada_em_controle": [
-    "dnit-098-2007-es"
+    "dnit-098-2007-es",
+    "dnit-114-2009-es"
    ]
   },
   {
@@ -1854,6 +1868,7 @@
     "dner-es-394-99",
     "dnit-034-2005-es",
     "dnit-112-2009-es",
+    "dnit-115-2009-es",
     "dnit-141-2022-es",
     "dnit-146-2012-es",
     "dnit-147-2012-es",
@@ -1949,6 +1964,8 @@
     "dnit-098-2007-es",
     "dnit-107-2009-es",
     "dnit-108-2009-es",
+    "dnit-114-2009-es",
+    "dnit-115-2009-es",
     "dnit-137-2010-es",
     "dnit-138-2010-es",
     "dnit-139-2010-es",
@@ -1993,20 +2010,7 @@
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
-    "dnit-098-2007-es",
-    "dnit-137-2010-es",
-    "dnit-138-2010-es",
-    "dnit-139-2010-es",
-    "dnit-140-2022-es",
-    "dnit-141-2022-es",
-    "dnit-142-2022-es",
-    "dnit-151-2010-es",
-    "dnit-167-2013-es",
-    "dnit-406-2017-es",
-    "dnit-407-2017-es",
-    "dnit-420-2019-es",
-    "dnit-421-2019-es",
-    "dnit-445-2023-es"
+    "dnit-167-2013-es"
    ]
   },
   {
@@ -2088,11 +2092,6 @@
    "citada_por_me": [],
    "citada_em_controle": [
     "dner-es-391-99",
-    "dner-es-392-99",
-    "dner-es-393-99",
-    "dner-es-394-99",
-    "dnit-034-2005-es",
-    "dnit-112-2009-es",
     "dnit-146-2012-es",
     "dnit-147-2012-es",
     "dnit-148-2012-es",
@@ -2221,6 +2220,8 @@
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
+    "dnit-114-2009-es",
+    "dnit-115-2009-es",
     "dnit-166-2013-es",
     "dnit-167-2013-es",
     "dnit-169-2014-es",
@@ -2318,12 +2319,27 @@
     "dnit-098-2007-es",
     "dnit-107-2009-es",
     "dnit-108-2009-es",
+    "dnit-114-2009-es",
+    "dnit-115-2009-es",
     "dnit-137-2010-es",
     "dnit-138-2010-es",
     "dnit-139-2010-es",
     "dnit-151-2010-es",
     "dnit-406-2017-es",
     "dnit-407-2017-es"
+   ]
+  },
+  {
+   "codigo": "DNER-ME 131/94",
+   "tipo": "ME",
+   "via": "faltante",
+   "alternativa": null,
+   "titulo": "Solos – determinação do módulo de resilência",
+   "cancelada": null,
+   "citada_por_me": [],
+   "citada_em_controle": [
+    "dnit-114-2009-es",
+    "dnit-115-2009-es"
    ]
   },
   {

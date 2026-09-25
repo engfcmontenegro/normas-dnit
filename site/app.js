@@ -764,7 +764,8 @@
         return '<div class="norma-item' + (p.es === ctl.es && ctl.modo === "checklist" ? " selected" : "") +
           '" data-es="' + escapeHtml(p.es) + '"><div class="codigo">' + escapeHtml(p.servico) + "</div>" +
           '<div class="titulo">' + escapeHtml(es.codigo) + ' <span class="badge ' + es.orgao.toLowerCase() + '">' +
-          es.orgao + "</span> · " + p.itens.length + " itens</div></div>";
+          es.orgao + "</span>" + (es.status === "cancelada" ? ' <span class="badge suspensa">CANCELADA</span>' : "") +
+          " · " + p.itens.length + " itens</div></div>";
       }).join("");
     }
 
@@ -902,9 +903,11 @@
       html += '<div class="ctl-matriz-wrap"><table class="ctl-matriz"><thead><tr><th class="ctl-canto">Norma de ensaio</th>' +
         '<th class="ctl-tot">nº</th>' +
         cols.map(function (p) {
-          return '<th class="ctl-col" data-es="' + escapeHtml(p.es) + '" title="' + escapeHtml(p.servico + " — " + byId[p.es].codigo) +
+          var canc = byId[p.es].status === "cancelada";
+          return '<th class="ctl-col' + (canc ? " ctl-col-canc" : "") + '" data-es="' + escapeHtml(p.es) + '" title="' +
+            escapeHtml(p.servico + " — " + byId[p.es].codigo + (canc ? " (CANCELADA)" : "")) +
             '"><div><b>' + escapeHtml(byId[p.es].codigo.replace(/^DNER-ES |^DNIT |-ES$/g, "")) + "</b> " +
-            escapeHtml(p.servico) + "</div></th>";
+            (canc ? '<span class="ctl-canc-tag">cancelada</span> ' : "") + escapeHtml(p.servico) + "</div></th>";
         }).join("") + "</tr></thead><tbody>";
       var tipoAtual = null;
       rows.forEach(function (l) {
@@ -913,7 +916,9 @@
           tipoAtual = n.tipo;
           html += '<tr class="ctl-grupo"><td colspan="' + (cols.length + 2) + '">' + tipoAtual + "</td></tr>";
         }
-        html += '<tr><th class="ctl-linha">' + refLink(l.id) + '<div class="ctl-lt">' + escapeHtml(n.titulo) + "</div></th>" +
+        html += '<tr><th class="ctl-linha">' + refLink(l.id) +
+          (n.status === "cancelada" ? ' <span class="ctl-canc-tag" style="color:#e5534b">cancelada</span>' : "") +
+          '<div class="ctl-lt">' + escapeHtml(n.titulo) + "</div></th>" +
           '<td class="ctl-tot">' + l.n + "</td>";
         cols.forEach(function (p, c) {
           var cel = l.cel[c];

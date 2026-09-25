@@ -1,35 +1,94 @@
 {
-  "es": "dner-es-395-99",
-  "servico": "Pintura de ligação com asfalto polímero",
-  "itens": [
-    {"etapa": "materiais", "grupo": "Emulsão modificada por polímero", "ensaio": "Especificação do ligante",
-     "citado": "DNER-EM 369/97", "norma": null, "norma_atual": "dnit-165-2013-em",
-     "frequencia": "No recebimento", "criterio": "Emulsão RR-1C modificada por polímero SBR ou SBS", "obs": "Para emulsões modificadas por polímero, ver também DNIT 128/2010-EM", "secao": "2 / 5.1.1"},
-    {"etapa": "materiais", "grupo": "Emulsão modificada por polímero", "ensaio": "Resíduo por evaporação",
-     "citado": "ABNT NBR 6568", "norma": null,
-     "frequencia": "1 por carregamento que chegar à obra", "criterio": "Conforme especificação do material", "secao": "7.1.1 a"},
-    {"etapa": "materiais", "grupo": "Emulsão modificada por polímero", "ensaio": "Peneiramento",
-     "citado": "DNER-ME 005/94", "norma": null,
-     "frequencia": "1 por carregamento que chegar à obra", "criterio": "Conforme especificação do material", "secao": "7.1.1 a"},
-    {"etapa": "materiais", "grupo": "Emulsão modificada por polímero", "ensaio": "Carga da partícula",
-     "citado": "DNER-ME 002/98", "norma": null,
-     "frequencia": "1 por carregamento que chegar à obra", "criterio": "Conforme especificação do material (positiva)", "secao": "7.1.1 a"},
-    {"etapa": "materiais", "grupo": "Emulsão modificada por polímero", "ensaio": "Recuperação elástica no resíduo",
-     "citado": "DNER-ME 382/99", "norma": null, "norma_atual": "dnit-130-2010-me",
-     "frequencia": "1 por carregamento que chegar à obra", "criterio": "Conforme especificação do material", "secao": "7.1.1 a"},
-    {"etapa": "materiais", "grupo": "Emulsão modificada por polímero", "ensaio": "Sedimentação",
-     "citado": "DNER-ME 006/94", "norma": null, "norma_atual": "dner-me-006-00",
-     "frequencia": "1 a cada 100 t", "criterio": "Conforme especificação do material", "secao": "7.1.1 b"},
-
-    {"etapa": "execucao", "grupo": "Aplicação", "ensaio": "Temperatura do ligante (no caminhão distribuidor)",
-     "citado": null, "norma": null,
-     "frequencia": "Imediatamente antes da aplicação", "criterio": "No intervalo da relação viscosidade × temperatura do projeto; ≤ 60 °C", "secao": "5.3.3 / 7.2.1 / 7.3.2"},
-    {"etapa": "execucao", "grupo": "Aplicação", "ensaio": "Taxa de aplicação (bandejas)",
-     "citado": null, "norma": null,
-     "frequencia": "5 determinações (área ≤ 4.000 m²); entre 4.000 e 20.000 m² pela tabela de amostragem variável", "criterio": "Ligante residual 0,3–0,4 l/m²; tolerância ± 0,2 l/m² (emulsão diluída); X̄ − ks ≥ mín. e X̄ + ks ≤ máx.", "secao": "5.1.2 / 5.3.4 / 7.2.2 / 7.3.3"}
-  ],
-  "notas": [
-    "Amostragem variável (tabela n × k × α); recomenda-se α = 0,10 e determinações de campo a cada 700 m² de pista.",
-    "Não executar com chuva ou temperatura < 10 °C; umedecer bases de solo-cimento ou concreto magro antes da aplicação."
-  ]
+ "es": "dner-es-395-99",
+ "servico": "Pintura de ligação com asfalto polímero",
+ "itens": [
+  {
+   "etapa": "materiais",
+   "grupo": "Emulsão modificada por polímero",
+   "ensaio": "Especificação do ligante",
+   "citado": "DNER-EM 369/97",
+   "norma": null,
+   "norma_atual": "dnit-165-2013-em",
+   "frequencia": "No recebimento",
+   "criterio": "Emulsão RR-1C modificada por polímero SBR ou SBS",
+   "obs": "Para emulsões modificadas por polímero, ver também DNIT 128/2010-EM",
+   "secao": "2 / 5.1.1"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Emulsão modificada por polímero",
+   "ensaio": "Resíduo por evaporação",
+   "citado": "ABNT NBR 6568",
+   "norma": null,
+   "frequencia": "1 por carregamento que chegar à obra",
+   "criterio": "Conforme especificação do material",
+   "secao": "7.1.1 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Emulsão modificada por polímero",
+   "ensaio": "Peneiramento",
+   "citado": "DNER-ME 005/94",
+   "norma": "dner-me-005-94",
+   "frequencia": "1 por carregamento que chegar à obra",
+   "criterio": "Conforme especificação do material",
+   "secao": "7.1.1 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Emulsão modificada por polímero",
+   "ensaio": "Carga da partícula",
+   "citado": "DNER-ME 002/98",
+   "norma": null,
+   "frequencia": "1 por carregamento que chegar à obra",
+   "criterio": "Conforme especificação do material (positiva)",
+   "secao": "7.1.1 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Emulsão modificada por polímero",
+   "ensaio": "Recuperação elástica no resíduo",
+   "citado": "DNER-ME 382/99",
+   "norma": null,
+   "norma_atual": "dnit-130-2010-me",
+   "frequencia": "1 por carregamento que chegar à obra",
+   "criterio": "Conforme especificação do material",
+   "secao": "7.1.1 a"
+  },
+  {
+   "etapa": "materiais",
+   "grupo": "Emulsão modificada por polímero",
+   "ensaio": "Sedimentação",
+   "citado": "DNER-ME 006/94",
+   "norma": null,
+   "norma_atual": "dner-me-006-00",
+   "frequencia": "1 a cada 100 t",
+   "criterio": "Conforme especificação do material",
+   "secao": "7.1.1 b"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Aplicação",
+   "ensaio": "Temperatura do ligante (no caminhão distribuidor)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "Imediatamente antes da aplicação",
+   "criterio": "No intervalo da relação viscosidade × temperatura do projeto; ≤ 60 °C",
+   "secao": "5.3.3 / 7.2.1 / 7.3.2"
+  },
+  {
+   "etapa": "execucao",
+   "grupo": "Aplicação",
+   "ensaio": "Taxa de aplicação (bandejas)",
+   "citado": null,
+   "norma": null,
+   "frequencia": "5 determinações (área ≤ 4.000 m²); entre 4.000 e 20.000 m² pela tabela de amostragem variável",
+   "criterio": "Ligante residual 0,3–0,4 l/m²; tolerância ± 0,2 l/m² (emulsão diluída); X̄ − ks ≥ mín. e X̄ + ks ≤ máx.",
+   "secao": "5.1.2 / 5.3.4 / 7.2.2 / 7.3.3"
+  }
+ ],
+ "notas": [
+  "Amostragem variável (tabela n × k × α); recomenda-se α = 0,10 e determinações de campo a cada 700 m² de pista.",
+  "Não executar com chuva ou temperatura < 10 °C; umedecer bases de solo-cimento ou concreto magro antes da aplicação."
+ ]
 }

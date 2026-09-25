@@ -923,6 +923,16 @@
       "page": 7,
       "cat": "erro",
       "texto": "Fórmula da média: o somatório traz x₁ em vez de xᵢ (o mesmo na DNIT 115/2009 e 112/2009)."
+    },
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Los Angeles citado como \"DNER-ME 035/94\" (referências, p. 2: 035/98); ISC da ACERITA® e da mistura remetido à DNER-ME 129/94 (compactação), o ensaio de ISC é a DNER-ME 049/94."
+    },
+    {
+      "page": 6,
+      "cat": "contradicao",
+      "texto": "Grau de compactação: \"mínimo de 100 %\" em 5.3 (p. 4–5) e \"GC > 100 %\" (desigualdade estrita) em 7.2.1; grafado \"CG\"."
     }
   ],
   "dnit_115_2009_es": [
@@ -930,6 +940,16 @@
       "page": 7,
       "cat": "erro",
       "texto": "Fórmula da média: o somatório traz x₁ em vez de xᵢ."
+    },
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "ISC da ACERITA® e da mistura remetido à DNER-ME 129/94 (compactação); o ensaio de ISC é a DNER-ME 049/94."
+    },
+    {
+      "page": 7,
+      "cat": "contradicao",
+      "texto": "Grau de compactação: \"mínimo de 100 %\" em 5.3 (p. 5) e \"GC > 100 %\" em 7.2.1; grafado \"CG\"."
     }
   ],
   "dnit_126_2017_pad": [

@@ -484,7 +484,49 @@
       if (s) { s.textContent = t; setTimeout(function () { if (s.textContent === t) s.textContent = ""; }, 3000); }
     }
 
+    // ---------- navegação de planilha na tabela de pontos (como no Excel) ----------
+    // ↑/↓ e Enter/Shift+Enter mudam de linha (Enter na última linha vai para o topo do próximo ponto);
+    // ←/→ mudam de coluna quando o cursor está no início/fim do texto ou com tudo selecionado;
+    // Tab/Shift+Tab mudam de coluna. Ao entrar na célula o conteúdo fica selecionado.
+    function celulaVizinha(inp, dLin, dCol, quebra) {
+      var tab = document.getElementById("fe-tab");
+      var linhas = Array.prototype.filter.call(tab.querySelectorAll("tbody tr"), function (tr) {
+        return tr.querySelector("input[data-i]");
+      });
+      var lin = linhas.indexOf(inp.closest("tr")), col = Number(inp.dataset.i);
+      var nCol = estado.ensaio.dados.pontos.length;
+      var L = lin + dLin, C = col + dCol;
+      if (quebra && L >= linhas.length) { L = 0; C = col + 1; }       // Enter no fim da coluna -> próximo ponto
+      if (quebra && L < 0) { L = linhas.length - 1; C = col - 1; }    // Shift+Enter no topo -> ponto anterior
+      if (L < 0 || L >= linhas.length || C < 0 || C >= nCol) return null;
+      return linhas[L].querySelector('input[data-i="' + C + '"]');
+    }
+
+    function navegarTabela(ev) {
+      var t = ev.target;
+      if (!t.matches || !t.matches("#fe-tab tbody input[data-i]")) return;
+      var tudo = t.selectionStart === 0 && t.selectionEnd === t.value.length;
+      var alvo = null;
+      switch (ev.key) {
+        case "ArrowDown": alvo = celulaVizinha(t, 1, 0); break;
+        case "ArrowUp": alvo = celulaVizinha(t, -1, 0); break;
+        case "Enter": alvo = celulaVizinha(t, ev.shiftKey ? -1 : 1, 0, true); break;
+        case "ArrowRight": if (tudo || t.selectionEnd === t.value.length) alvo = celulaVizinha(t, 0, 1); break;
+        case "ArrowLeft": if (tudo || t.selectionStart === 0) alvo = celulaVizinha(t, 0, -1); break;
+        case "Tab": alvo = celulaVizinha(t, 0, ev.shiftKey ? -1 : 1); if (!alvo) return; break;
+        default: return;
+      }
+      if (ev.key === "Enter" || ev.key === "Tab" || alvo) ev.preventDefault();
+      if (alvo) { alvo.focus(); alvo.select(); }
+    }
+
     function ligarEventos() {
+      painel.onkeydown = navegarTabela;
+      painel.onfocusin = function (ev) {
+        var t = ev.target;
+        // entrar na célula seleciona o conteúdo (digitar substitui, como no Excel)
+        if (t.matches && t.matches("#fe-tab tbody input[data-i]")) setTimeout(function () { if (document.activeElement === t) t.select(); }, 0);
+      };
       var d = estado.ensaio.dados;
       painel.oninput = function (ev) {
         var t = ev.target;

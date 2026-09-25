@@ -292,6 +292,9 @@
           (youtubeId(n.video)
             ? ' · <button class="video-reopen" id="btn-video" type="button">▶ Assistir ao vídeo</button>'
             : "") +
+          (window.FICHAS_ENSAIO && window.FICHAS_ENSAIO[n.id]
+            ? ' · <a class="video-reopen" href="#fichas:' + n.id + '">🧮 Ficha de ensaio</a>'
+            : "") +
         "</div>" +
       "</div>"
     );
@@ -537,11 +540,26 @@
   var tabDeps = document.getElementById("tab-deps");
   var viewDeps = document.getElementById("view-deps");
   var depsIniciado = false;
+  var tabFichas = document.getElementById("tab-fichas");
+  var viewFichas = document.getElementById("view-fichas");
+  var fichas = null;  // controlador da aba "Fichas de ensaios" (site/fichas.js)
 
   function showTab(tab, view) {
-    [tabNormas, tabRede, tabControle, tabDeps].forEach(function (t) { t.classList.toggle("active", t === tab); });
-    [viewNormas, viewRede, viewControle, viewDeps].forEach(function (v) { v.classList.toggle("active", v === view); });
+    [tabNormas, tabRede, tabControle, tabDeps, tabFichas].forEach(function (t) { t.classList.toggle("active", t === tab); });
+    [viewNormas, viewRede, viewControle, viewDeps, viewFichas].forEach(function (v) { v.classList.toggle("active", v === view); });
   }
+
+  function abrirFichas(fid) {
+    showTab(tabFichas, viewFichas);
+    if (!fichas && window.initFichas) {
+      fichas = window.initFichas({
+        byId: byId, DEPS: DEPS,
+        abrirNorma: function (id) { selectNorma(id); showTab(tabNormas, viewNormas); },
+      });
+    }
+    if (fichas && fid) fichas.abrir(fid);
+  }
+  tabFichas.addEventListener("click", function () { abrirFichas(null); });
 
   tabDeps.addEventListener("click", function () {
     showTab(tabDeps, viewDeps);
@@ -1239,6 +1257,9 @@
     var h = decodeURIComponent(location.hash || "");
     var m = /^#norma:(.+)$/.exec(h);
     if (m && byId[m[1]] && m[1] !== state.selectedId) selectNorma(m[1]);
+    // #fichas ou #fichas:<id do ME> abrem a aba de fichas de ensaios
+    m = /^#fichas(?::(.+))?$/.exec(h);
+    if (m) abrirFichas(m[1] || null);
     // #deps ou #deps:<id do ME> abrem a aba de dependências de ensaios
     m = /^#deps(?::(.+))?$/.exec(h);
     if (m) {

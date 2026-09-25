@@ -83,5 +83,23 @@
     "latex": "",
     "ignorar": true,
     "nota": "variável solta de legenda (γ_h)"
+  },
+  "t71": {
+    "todas": true,
+    "de_inicio": "onde:  - teor de umidade em percentagem;\n\n- massa da amostra úmida, como obtida em 5.1;\n\n$^{- massa da amostra seca em estufa na temperatura}$ de 110ºC ± 5ºC, até constância de massa.",
+    "para": "onde:\n\n$h$ - teor de umidade em percentagem;\n$P_h$ - massa da amostra úmida, como obtida em 5.1;\n$P_s$ - massa da amostra seca em estufa na temperatura de 110ºC ± 5ºC, até constância de massa.",
+    "nota": "símbolos da legenda são imagem no PDF (p. 3) e se perderam na extração; recolocados"
+  },
+  "t72a": {
+    "todas": true,
+    "de_inicio": "onde:  - massa específica aparente do solo úmido, em g/cm³;  - massa do solo úmido compactado, obtida como indicado na subseção 5.3, em g;  - volume do solo compactado, em cm³(capacidade do molde).",
+    "para": "onde:\n\n$\\gamma_h$ - massa específica aparente do solo úmido, em g/cm³;\n$P'_h$ - massa do solo úmido compactado, obtida como indicado na subseção 5.3, em g;\n$V$ - volume do solo compactado, em cm³ (capacidade do molde).",
+    "nota": "símbolos da legenda são imagem no PDF (p. 3) e se perderam na extração; recolocados"
+  },
+  "t72b": {
+    "todas": true,
+    "de_inicio": "onde:  - massa específica aparente do solo seco, em g/cm³;\n\n- massa específica aparente do solo úmido, em g/cm³;\n\nh - teor de umidade do solo compactado, em percentagem, obtido conforme subseção 7.1.",
+    "para": "onde:\n\n$\\gamma_s$ - massa específica aparente do solo seco, em g/cm³;\n$\\gamma_h$ - massa específica aparente do solo úmido, em g/cm³;\n$h$ - teor de umidade do solo compactado, em percentagem, obtido conforme subseção 7.1.",
+    "nota": "símbolos da legenda são imagem no PDF (p. 3) e se perderam na extração; recolocados"
   }
 }

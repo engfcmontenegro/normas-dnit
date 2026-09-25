@@ -149,7 +149,12 @@ def main():
                 if alvo == e["id"] or rot in vistos:
                     continue
                 vistos[rot] = {"codigo": rot, "via": via, "id": alvo, "_chave": chave}
-        deps[e["id"]] = {"depende": sorted(vistos.values(), key=lambda d: d["codigo"]), "usado_por": []}
+        # a mesma norma citada em grafias diferentes ("DNIT 044-ME" e "DNIT 044/2004-ME") conta uma vez;
+        # fica a grafia mais completa (com ano)
+        unicos = {}
+        for d in sorted(vistos.values(), key=lambda d: -len(d["codigo"])):
+            unicos.setdefault(d["id"] or d["codigo"], d)
+        deps[e["id"]] = {"depende": sorted(unicos.values(), key=lambda d: d["codigo"]), "usado_por": []}
         for d in vistos.values():
             if d["via"] in ("faltante", "outra_edicao", "cancelada"):
                 citantes[d["codigo"]].add(e["id"])

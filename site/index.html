@@ -19,6 +19,7 @@
       <button id="tab-normas" class="active">Normas</button>
       <button id="tab-rede">Rede de correlação</button>
       <button id="tab-controle">Controle de serviços</button>
+      <button id="tab-deps">Dependências de ensaios</button>
     </div>
   </header>
 
@@ -64,6 +65,29 @@
         <span style="margin-left:auto">A rede se acomoda sozinha. Clique num nó para abrir a norma. Arraste para reorganizar. Role para zoom.</span>
       </div>
       <div id="network"></div>
+    </section>
+
+    <section id="view-deps" class="view">
+      <aside class="sidebar">
+        <div class="filters">
+          <input type="search" id="deps-search" placeholder="Buscar ensaio (código ou título)...">
+          <label class="deps-opt"><input type="checkbox" id="deps-fora" checked> Mostrar normas fora do acervo</label>
+        </div>
+        <div class="result-count" id="deps-count"></div>
+        <div class="norma-list" id="deps-familias"></div>
+      </aside>
+      <div class="deps-main">
+        <div class="rede-toolbar deps-legenda">
+          <span><span class="legend-dot" style="background:var(--dner)"></span>DNER</span>
+          <span><span class="legend-dot" style="background:var(--dnit)"></span>DNIT</span>
+          <span><span class="legend-dot" style="background:#e5534b"></span>Cancelada</span>
+          <span><span class="legend-dot deps-dot-fora"></span>Fora do acervo</span>
+          <span class="deps-seta">pré-requisito → ensaio que depende dele</span>
+          <span style="margin-left:auto">Clique num ensaio para ver a cadeia; duplo clique abre a norma.</span>
+        </div>
+        <div id="deps-network"></div>
+      </div>
+      <aside class="deps-info" id="deps-info"></aside>
     </section>
 
     <section id="view-controle" class="view">

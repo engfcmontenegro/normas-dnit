@@ -235,7 +235,8 @@
     if (d.depende.length) {
       var fora = d.depende.filter(function (x) { return x.via !== "acervo"; }).length;
       var raiz = d.depende.map(function (x) { return x.id || x.codigo; });
-      html += '<div class="label">Depende de — ensaios exigidos por este método (' + d.depende.length + ")</div>" +
+      html += '<div class="label">Depende de — ensaios exigidos por este método (' + d.depende.length + ') · ' +
+        '<a href="#deps:' + escapeHtml(n.id) + '" class="dep-diagrama">ver no diagrama</a></div>' +
         '<ul class="dep-arvore dep-raiz">' + d.depende.map(function (x) {
           return depItem(x, 1, [n.id, x.id || x.codigo], raiz);
         }).join("") + "</ul>" +
@@ -533,11 +534,23 @@
 
   var tabControle = document.getElementById("tab-controle");
   var viewControle = document.getElementById("view-controle");
+  var tabDeps = document.getElementById("tab-deps");
+  var viewDeps = document.getElementById("view-deps");
+  var depsIniciado = false;
 
   function showTab(tab, view) {
-    [tabNormas, tabRede, tabControle].forEach(function (t) { t.classList.toggle("active", t === tab); });
-    [viewNormas, viewRede, viewControle].forEach(function (v) { v.classList.toggle("active", v === view); });
+    [tabNormas, tabRede, tabControle, tabDeps].forEach(function (t) { t.classList.toggle("active", t === tab); });
+    [viewNormas, viewRede, viewControle, viewDeps].forEach(function (v) { v.classList.toggle("active", v === view); });
   }
+
+  tabDeps.addEventListener("click", function () {
+    showTab(tabDeps, viewDeps);
+    if (!depsIniciado) {
+      depsIniciado = true;
+      // mesma razão da rede: só cria o canvas depois que a aba está visível
+      requestAnimationFrame(function () { requestAnimationFrame(initDependencias); });
+    }
+  });
 
   tabNormas.addEventListener("click", function () { showTab(tabNormas, viewNormas); });
   tabControle.addEventListener("click", function () { showTab(tabControle, viewControle); });
@@ -981,6 +994,243 @@
     };
   }
 
+  // ---------- Aba "Dependências de ensaios" (ME que exigem outros ME) ----------
+  // dados: window.DEPENDENCIAS (scripts/dependencias.py). Aresta = pré-requisito -> ensaio que depende dele.
+  function initDependencias() {
+    var nos = {};      // chave -> {chave, id|null, codigo, titulo, tipo: "acervo"|"cancelada"|"fora"}
+    var arestas = [];  // {de, para, via}
+    function no(chave, d) {
+      if (!nos[chave]) nos[chave] = d;
+      return nos[chave];
+    }
+    Object.keys(DEPS).forEach(function (meId) {
+      if (meId.charAt(0) === "_" || !byId[meId]) return;
+      DEPS[meId].depende.forEach(function (x) {
+        var chave = x.id || "fora:" + x.codigo;
+        if (x.id && byId[x.id]) {
+          no(x.id, { chave: x.id, id: x.id, codigo: byId[x.id].codigo, titulo: byId[x.id].titulo,
+            tipo: byId[x.id].status === "cancelada" ? "cancelada" : "acervo" });
+        } else {
+          no(chave, { chave: chave, id: null, codigo: x.codigo, titulo: x.titulo || "", tipo: "fora" });
+        }
+        var n = byId[meId];
+        no(meId, { chave: meId, id: meId, codigo: n.codigo, titulo: n.titulo, tipo: n.status === "cancelada" ? "cancelada" : "acervo" });
+        // a mesma norma citada em grafias diferentes (edições) vira uma aresta só
+        if (!arestas.some(function (a) { return a.de === chave && a.para === meId; })) {
+          arestas.push({ de: chave, para: meId, via: x.via, citado: x.codigo });
+        }
+      });
+    });
+
+    // famílias = componentes conexos, nomeadas pelo início mais comum dos títulos ("Solo-cimento", "Agregados"...)
+    var viz = {};
+    Object.keys(nos).forEach(function (k) { viz[k] = []; });
+    arestas.forEach(function (a) { viz[a.de].push(a.para); viz[a.para].push(a.de); });
+    var familiaDe = {}, familias = [];
+    Object.keys(nos).forEach(function (k) {
+      if (familiaDe[k] !== undefined) return;
+      var f = { membros: [] }, pilha = [k];
+      familiaDe[k] = familias.length;
+      while (pilha.length) {
+        var x = pilha.pop();
+        f.membros.push(x);
+        viz[x].forEach(function (y) { if (familiaDe[y] === undefined) { familiaDe[y] = familias.length; pilha.push(y); } });
+      }
+      var cont = {};
+      f.membros.forEach(function (m) {
+        var t = (nos[m].titulo || "").split(/\s[-–]\s/)[0].trim();
+        if (t) cont[t] = (cont[t] || 0) + 1;
+      });
+      var nomes = Object.keys(cont).sort(function (a, b) { return cont[b] - cont[a]; });
+      f.nome = nomes[0] || nos[f.membros[0]].codigo;
+      if (nomes[1] && cont[nomes[1]] === cont[nomes[0]] && nomes[1].length < 40) f.nome += " / " + nomes[1];
+      f.nome = f.nome.charAt(0).toUpperCase() + f.nome.slice(1);
+      familias.push(f);
+    });
+    familias.forEach(function (f, i) { f.idx = i; });
+    familias.sort(function (a, b) { return b.membros.length - a.membros.length || a.nome.localeCompare(b.nome, "pt-BR"); });
+
+    var estado = { familia: null, busca: "", fora: true, sel: null };
+    var famEl = document.getElementById("deps-familias");
+    var info = document.getElementById("deps-info");
+
+    function visivel(k) {
+      var n = nos[k];
+      if (!estado.fora && n.tipo === "fora") return false;
+      if (estado.familia !== null && familiaDe[k] !== estado.familia) return false;
+      return true;
+    }
+
+    function renderFamilias() {
+      var q = normalize(estado.busca.trim());
+      var lista = familias.filter(function (f) {
+        return !q || f.membros.some(function (m) { return normalize(nos[m].codigo + " " + nos[m].titulo).indexOf(q) !== -1; });
+      });
+      document.getElementById("deps-count").textContent =
+        Object.keys(nos).length + " ensaios · " + arestas.length + " dependências · " + familias.length + " famílias";
+      famEl.innerHTML = '<div class="norma-item' + (estado.familia === null ? " selected" : "") + '" data-f="">' +
+        '<div class="codigo">Todas as famílias</div><div class="titulo">visão geral</div></div>' +
+        lista.map(function (f) {
+          var codigos = f.membros.filter(function (m) { return nos[m].tipo !== "fora"; }).slice(0, 4)
+            .map(function (m) { return nos[m].codigo; }).join(", ");
+          return '<div class="norma-item' + (estado.familia === f.idx ? " selected" : "") + '" data-f="' + f.idx + '">' +
+            '<div class="codigo">' + escapeHtml(f.nome) + ' <span class="deps-n">' + f.membros.length + "</span></div>" +
+            '<div class="titulo">' + escapeHtml(codigos) + (f.membros.length > 4 ? "…" : "") + "</div></div>";
+        }).join("");
+    }
+
+    var COR = { DNER: "#34c38f", DNIT: "#4f8cff" };
+    function corNo(n) {
+      if (n.tipo === "fora") return { background: "#2a2f3a", border: "#6b7384" };
+      if (n.tipo === "cancelada") return { background: "#e5534b", border: "#a8322c" };
+      var c = COR[byId[n.id].orgao];
+      return { background: c, border: c };
+    }
+
+    var visNos = new vis.DataSet(), visArestas = new vis.DataSet();
+    var rede = new vis.Network(document.getElementById("deps-network"), { nodes: visNos, edges: visArestas }, {
+      layout: { hierarchical: { direction: "LR", sortMethod: "directed", levelSeparation: 260, nodeSpacing: 70, treeSpacing: 90 } },
+      physics: false,
+      nodes: {
+        shape: "box", margin: 8, borderWidth: 1, widthConstraint: { maximum: 210 },
+        font: { color: "#0f1115", size: 13, face: "-apple-system, Segoe UI, Roboto, Arial, sans-serif", multi: "html" },
+      },
+      edges: { arrows: { to: { scaleFactor: 0.6 } }, color: { color: "#5b6475", highlight: "#e6e8ec" }, width: 1.2,
+        smooth: { type: "cubicBezier", forceDirection: "horizontal", roundness: 0.4 } },
+      interaction: { hover: true, tooltipDelay: 120 },
+    });
+
+    function desenhar() {
+      var ks = Object.keys(nos).filter(visivel);
+      visNos.clear();
+      visArestas.clear();
+      visNos.add(ks.map(function (k) {
+        var n = nos[k], cor = corNo(n);
+        var tit = (n.titulo || "").replace(/\s*[-–]\s*M[ée]todo de ensaio\s*$/i, "");
+        return {
+          id: k,
+          label: "<b>" + n.codigo + "</b>\n" + (tit.length > 60 ? tit.slice(0, 58) + "…" : tit),
+          title: n.codigo + " — " + (n.titulo || "") + (n.tipo === "fora" ? " (fora do acervo)" : n.tipo === "cancelada" ? " (CANCELADA)" : ""),
+          color: { background: cor.background, border: cor.border, highlight: { background: cor.background, border: "#fff" },
+            hover: { background: cor.background, border: "#fff" } },
+          font: { color: n.tipo === "fora" ? "#c7cdd8" : "#0f1115" },
+          shapeProperties: { borderDashes: n.tipo === "fora" ? [4, 3] : false },
+        };
+      }));
+      visArestas.add(arestas.filter(function (a) { return visivel(a.de) && visivel(a.para); }).map(function (a, i) {
+        return { id: i, from: a.de, to: a.para, dashes: a.via !== "acervo",
+          title: nos[a.para].codigo + " exige " + a.citado + (a.via === "substituida" ? " (substituída pela norma indicada)"
+            : a.via === "outra_edicao" ? " (no acervo em outra edição)" : a.via === "cancelada" ? " (cancelada)" : "") };
+      }));
+      rede.fit({ animation: false });
+      if (estado.sel && visNos.get(estado.sel)) selecionar(estado.sel); else mostrarInfo(null);
+    }
+
+    function cadeia(k, dir) {
+      // dir "antes": pré-requisitos (de quem k depende); "depois": ensaios que dependem de k
+      var vistos = {}, pilha = [k];
+      while (pilha.length) {
+        var x = pilha.pop();
+        arestas.forEach(function (a) {
+          var prox = dir === "antes" ? (a.para === x ? a.de : null) : (a.de === x ? a.para : null);
+          if (prox && !vistos[prox] && prox !== k) { vistos[prox] = 1; pilha.push(prox); }
+        });
+      }
+      return Object.keys(vistos);
+    }
+
+    function chip(k) {
+      var n = nos[k];
+      var cls = n.tipo === "fora" ? "deps-chip fora" : n.tipo === "cancelada" ? "deps-chip canc" : "deps-chip ref-" + byId[n.id].orgao.toLowerCase();
+      return '<a class="' + cls + '" data-k="' + escapeHtml(k) + '" title="' + escapeHtml(n.titulo || "") + '">' + escapeHtml(n.codigo) + "</a>";
+    }
+
+    function mostrarInfo(k) {
+      if (!k) {
+        info.innerHTML = '<div class="deps-vazio">Clique num ensaio do diagrama para ver o que ele exige antes (pré-requisitos) ' +
+          "e quais ensaios dependem dele.<br><br>Setas tracejadas: a norma citada foi substituída, está em outra edição " +
+          "ou foi cancelada; caixas cinza tracejadas: norma que não está no acervo.</div>";
+        return;
+      }
+      var n = nos[k];
+      var antes = cadeia(k, "antes"), depois = cadeia(k, "depois");
+      var diretos = arestas.filter(function (a) { return a.para === k; }).map(function (a) { return a.de; });
+      var html = '<div class="deps-cod">' + escapeHtml(n.codigo) +
+        (n.tipo === "cancelada" ? ' <span class="badge suspensa">CANCELADA</span>' : n.tipo === "fora" ? ' <span class="badge deps-fora-badge">FORA DO ACERVO</span>' : "") +
+        '</div><div class="deps-tit">' + escapeHtml(n.titulo || "") + "</div>";
+      if (n.id) html += '<button class="edit-btn" id="deps-abrir">Abrir a norma</button>';
+      html += '<div class="label">Exige antes (' + antes.length + ")</div>" +
+        (antes.length ? '<div class="deps-lista">' + diretos.map(chip).join(" ") +
+          (antes.length > diretos.length ? '<div class="deps-sub">e, indiretamente: ' +
+            antes.filter(function (x) { return diretos.indexOf(x) === -1; }).map(chip).join(" ") + "</div>" : "") + "</div>"
+          : '<div class="deps-sub">nenhum pré-requisito citado</div>');
+      html += '<div class="label">É usado por (' + depois.length + ")</div>" +
+        (depois.length ? '<div class="deps-lista">' + depois.map(chip).join(" ") + "</div>" : '<div class="deps-sub">nenhum ensaio do acervo cita este</div>');
+      info.innerHTML = html;
+      var b = document.getElementById("deps-abrir");
+      if (b) b.addEventListener("click", function () { selectNorma(n.id); showTab(tabNormas, viewNormas); });
+    }
+
+    function selecionar(k) {
+      estado.sel = k;
+      var marcados = [k].concat(cadeia(k, "antes"), cadeia(k, "depois")).filter(function (x) { return visNos.get(x); });
+      rede.selectNodes(marcados, true);
+      mostrarInfo(k);
+    }
+
+    rede.on("click", function (p) {
+      if (p.nodes.length) selecionar(p.nodes[0]);
+      else { estado.sel = null; rede.unselectAll(); mostrarInfo(null); }
+    });
+    rede.on("doubleClick", function (p) {
+      var n = p.nodes.length && nos[p.nodes[0]];
+      if (n && n.id) { selectNorma(n.id); showTab(tabNormas, viewNormas); }
+    });
+    info.addEventListener("click", function (ev) {
+      var a = ev.target.closest(".deps-chip");
+      if (!a) return;
+      var k = a.dataset.k;
+      if (!visivel(k)) { estado.familia = null; renderFamilias(); desenhar(); }
+      rede.focus(k, { scale: 1, animation: true });
+      selecionar(k);
+    });
+    famEl.addEventListener("click", function (ev) {
+      var it = ev.target.closest(".norma-item");
+      if (!it) return;
+      estado.familia = it.dataset.f === "" ? null : Number(it.dataset.f);
+      estado.sel = null;
+      renderFamilias();
+      desenhar();
+    });
+    document.getElementById("deps-search").addEventListener("input", function (ev) {
+      estado.busca = ev.target.value;
+      renderFamilias();
+      // um único ensaio encontrado: seleciona-o no diagrama
+      var q = normalize(estado.busca.trim());
+      var achados = q ? Object.keys(nos).filter(function (k) { return visivel(k) && normalize(nos[k].codigo + " " + nos[k].titulo).indexOf(q) !== -1; }) : [];
+      if (achados.length) { rede.selectNodes(achados, false); if (achados.length === 1) { rede.focus(achados[0], { scale: 1, animation: true }); mostrarInfo(achados[0]); } }
+    });
+    document.getElementById("deps-fora").addEventListener("change", function (ev) {
+      estado.fora = ev.target.checked;
+      desenhar();
+    });
+
+    // abre na maior família: a visão com todas empilha 20 grupos e fica miúda demais
+    estado.familia = familias.length ? familias[0].idx : null;
+    renderFamilias();
+    desenhar();
+    depsSelecionar = function (id) {
+      if (!nos[id]) return;
+      estado.familia = familiaDe[id];
+      renderFamilias();
+      desenhar();
+      selecionar(id);
+    };
+    if (depsPendente) { depsSelecionar(depsPendente); depsPendente = null; }
+  }
+  var depsSelecionar = null;
+  var depsPendente = null;
+
   renderList();
   var controle = initControle();
 
@@ -989,6 +1239,15 @@
     var h = decodeURIComponent(location.hash || "");
     var m = /^#norma:(.+)$/.exec(h);
     if (m && byId[m[1]] && m[1] !== state.selectedId) selectNorma(m[1]);
+    // #deps ou #deps:<id do ME> abrem a aba de dependências de ensaios
+    m = /^#deps(?::(.+))?$/.exec(h);
+    if (m) {
+      tabDeps.click();
+      if (m[1]) {
+        if (depsSelecionar) depsSelecionar(m[1]);
+        else depsPendente = m[1];  // aplicado no fim de initDependencias
+      }
+    }
     // #controle, #controle:matriz ou #controle:<id da ES> abrem a aba de controle de serviços
     m = /^#controle(?::(.+))?$/.exec(h);
     if (m) {

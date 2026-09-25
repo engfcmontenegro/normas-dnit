@@ -178,11 +178,6 @@
  "dner-me-093-94": {
   "depende": [
    {
-    "codigo": "DNER-ME 041/63",
-    "via": "outra_edicao",
-    "id": "dner-me-041-94"
-   },
-   {
     "codigo": "DNER-ME 041/94",
     "via": "acervo",
     "id": "dner-me-041-94"
@@ -613,7 +608,7 @@
     "codigo": "DNER-ME 195/94",
     "via": "outra_edicao",
     "id": "dner-me-195-97",
-    "titulo": "Agregados - determinação da absorção e da massa específica de agregado graúdo"
+    "titulo": "Agregados - determinação da absorção e da massa específica do agregado graúdo"
    }
   ],
   "usado_por": []
@@ -675,19 +670,9 @@
  "dnit-039-2004-me": {
   "depende": [
    {
-    "codigo": "DNIT 044/2003-ME",
-    "via": "outra_edicao",
-    "id": "dnit-044-2004-me"
-   },
-   {
     "codigo": "DNIT 044/2004-ME",
     "via": "acervo",
     "id": "dnit-044-2004-me"
-   },
-   {
-    "codigo": "DNIT 045/2003-ME",
-    "via": "outra_edicao",
-    "id": "dnit-045-2004-me"
    },
    {
     "codigo": "DNIT 045/2004-ME",
@@ -838,11 +823,6 @@
  "dnit-135-2018-me": {
   "depende": [
    {
-    "codigo": "DNIT 136-ME",
-    "via": "acervo",
-    "id": "dnit-136-2018-me"
-   },
-   {
     "codigo": "DNIT 136/2010-ME",
     "via": "substituida",
     "id": "dnit-136-2018-me"
@@ -911,19 +891,9 @@
     "titulo": "Misturas betuminosas a quente - Ensaio Marshall"
    },
    {
-    "codigo": "DNIT 135-ME",
-    "via": "acervo",
-    "id": "dnit-135-2018-me"
-   },
-   {
     "codigo": "DNIT 135/2018-ME",
     "via": "acervo",
     "id": "dnit-135-2018-me"
-   },
-   {
-    "codigo": "DNIT 136-ME",
-    "via": "acervo",
-    "id": "dnit-136-2018-me"
    },
    {
     "codigo": "DNIT 136/2018-ME",
@@ -1072,11 +1042,6 @@
  "dnit-416-2019-me": {
   "depende": [
    {
-    "codigo": "DNIT 415-ME",
-    "via": "acervo",
-    "id": "dnit-415-2019-me"
-   },
-   {
     "codigo": "DNIT 415/2019-ME",
     "via": "acervo",
     "id": "dnit-415-2019-me"
@@ -1104,11 +1069,6 @@
     "via": "substituida",
     "id": "dnit-456-2025-me",
     "titulo": "Solos - determinação do teor de umidade"
-   },
-   {
-    "codigo": "DNIT 164-ME",
-    "via": "acervo",
-    "id": "dnit-164-2013-me"
    },
    {
     "codigo": "DNIT 164/2013-ME",
@@ -1649,7 +1609,7 @@
    "tipo": "ES",
    "via": "substituida",
    "alternativa": "dnit-118-2009-es",
-   "titulo": "obras-de-arte especiais – armaduras para concreto armado: especificação de serviço",
+   "titulo": "Armadura para Concreto Armado",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -1698,7 +1658,7 @@
    "tipo": "ES",
    "via": "substituida",
    "alternativa": "dnit-124-2009-es",
-   "titulo": "obras-de-arte especiais – escoramentos: especificação de serviço",
+   "titulo": "Obras-de-Arte Especiais – escoamento",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -1710,7 +1670,7 @@
    "tipo": "ES",
    "via": "faltante",
    "alternativa": null,
-   "titulo": "proteção do corpo estradal – impermeabilização betuminosa de taludes: especificação de serviço",
+   "titulo": "Proteção do Corpo Estradal – Impermeabilização betuminosa de Taludes determinam as características exibidas para os materiais",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -1760,7 +1720,7 @@
    "tipo": "ME",
    "via": "faltante",
    "alternativa": null,
-   "titulo": "material asfáltico",
+   "titulo": "Material betuminoso – Determinação da penetração",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -2334,7 +2294,7 @@
    "tipo": "ME",
    "via": "faltante",
    "alternativa": null,
-   "titulo": "Solos – determinação do módulo de resilência",
+   "titulo": "Solos – Determinação do módulo de resilência",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [
@@ -2374,7 +2334,7 @@
    "tipo": "ME",
    "via": "outra_edicao",
    "alternativa": "dner-me-195-97",
-   "titulo": "Agregados - determinação da absorção e da massa específica de agregado graúdo",
+   "titulo": "Agregados - determinação da absorção e da massa específica do agregado graúdo",
    "cancelada": null,
    "citada_por_me": [
     "dner-me-399-99"
@@ -2497,7 +2457,7 @@
    "tipo": "ES",
    "via": "faltante",
    "alternativa": null,
-   "titulo": "Pavimentos flexíveis – Concreto asfáltico – Especificação de serviço",
+   "titulo": "Pavimentos flexíveis – Concreto asfáltico - Especificação de serviço",
    "cancelada": null,
    "citada_por_me": [],
    "citada_em_controle": [

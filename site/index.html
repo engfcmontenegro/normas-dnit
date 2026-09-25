@@ -72,6 +72,14 @@
       <aside class="sidebar">
         <div class="filters">
           <input type="search" id="deps-search" placeholder="Buscar ensaio (código ou título)...">
+          <div class="filter-group">
+            <div class="label">Tipo de dependência</div>
+            <div class="chip-row" id="deps-modo">
+              <div class="chip active" data-modo="todas">Todas</div>
+              <div class="chip" data-modo="norma">Citadas na norma</div>
+              <div class="chip" data-modo="tecnica">Técnicas</div>
+            </div>
+          </div>
           <label class="deps-opt"><input type="checkbox" id="deps-fora" checked> Mostrar normas fora do acervo</label>
         </div>
         <div class="result-count" id="deps-count"></div>

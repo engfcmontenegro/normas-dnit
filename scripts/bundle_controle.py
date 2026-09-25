@@ -14,6 +14,7 @@ Cada plano:
 Uso: python scripts/bundle_controle.py [--so-validar]
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -55,6 +56,9 @@ def main():
             for o in it.get("outras") or []:
                 if o not in entries:
                     erros.append(f"{onde}: outras {o!r} não existe no acervo")
+        # área da ES (front-matter do markdown), usada no filtro da aba
+        m = re.search(r'^area:[ \t]*"?([^"\n]*)', (ROOT / es["md"]).read_text(encoding="utf-8"), re.M)
+        d["area"] = (m.group(1).strip() if m else "") or "Outras"
         planos.append(d)
     for e in erros:
         print("ERRO", e)

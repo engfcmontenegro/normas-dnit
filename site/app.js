@@ -599,7 +599,7 @@
       { key: "execucao", titulo: "Execução — controle durante o serviço", letra: "E" },
       { key: "produto", titulo: "Produto acabado — verificação final", letra: "P" },
     ];
-    var ctl = { modo: "checklist", es: null, busca: "" };
+    var ctl = { modo: "checklist", es: null, busca: "", area: "Pavimentação" };
     var listEl = document.getElementById("ctl-list");
     var panel = document.getElementById("ctl-panel");
 
@@ -639,13 +639,35 @@
 
     function filtrados() {
       var q = normalize(ctl.busca.trim());
-      return PLANOS.filter(function (p) { return !q || p._busca.indexOf(q) !== -1; });
+      return PLANOS.filter(function (p) {
+        return (!ctl.area || p.area === ctl.area) && (!q || p._busca.indexOf(q) !== -1);
+      });
     }
+
+    // filtro por área (uma de cada vez; "Todas" limpa) — a matriz com todas as ES fica larga demais
+    var AREAS = {};
+    PLANOS.forEach(function (p) { AREAS[p.area] = (AREAS[p.area] || 0) + 1; });
+    if (!AREAS[ctl.area]) ctl.area = "";
+    var areaEl = document.getElementById("ctl-area");
+    function renderAreas() {
+      areaEl.innerHTML = [["", "Todas", PLANOS.length]].concat(Object.keys(AREAS).sort(function (a, b) {
+        return AREAS[b] - AREAS[a] || a.localeCompare(b, "pt-BR");
+      }).map(function (a) { return [a, a, AREAS[a]]; })).map(function (x) {
+        return '<div class="chip' + (x[0] === ctl.area ? " active" : "") + '" data-area="' + escapeHtml(x[0]) + '">' +
+          escapeHtml(x[1]) + " (" + x[2] + ")</div>";
+      }).join("");
+    }
+    areaEl.addEventListener("click", function (ev) {
+      var chip = ev.target.closest(".chip");
+      if (!chip) return;
+      ctl.area = chip.dataset.area;
+      render();
+    });
 
     function renderLista() {
       var arr = filtrados();
       document.getElementById("ctl-count").textContent =
-        arr.length + " de " + PLANOS.length + " serviços (ES de pavimentação)";
+        arr.length + " de " + PLANOS.length + " serviços" + (ctl.area ? " · " + ctl.area : "");
       listEl.innerHTML = arr.map(function (p) {
         var es = byId[p.es];
         return '<div class="norma-item' + (p.es === ctl.es && ctl.modo === "checklist" ? " selected" : "") +
@@ -772,7 +794,8 @@
         return (ordemTipo[na.tipo] - ordemTipo[nb.tipo]) || (b.n - a.n) || compareCodigo(na, nb);
       });
 
-      var html = '<div class="content-header"><div class="codigo">Matriz ES × ensaios</div>' +
+      var html = '<div class="content-header"><div class="codigo">Matriz ES × ensaios' +
+        (ctl.area ? " — " + escapeHtml(ctl.area) : "") + "</div>" +
         '<div class="meta">' + cols.length + " serviços × " + rows.length +
         " normas do acervo citadas no controle. Letras: " +
         '<span class="ctl-letra ctl-materiais">M</span> materiais · <span class="ctl-letra ctl-execucao">E</span> execução · ' +
@@ -814,12 +837,14 @@
 
     function render() {
       panel.classList.toggle("ctl-modo-matriz", ctl.modo === "matriz");
+      renderAreas();
       renderLista();
       if (ctl.modo === "matriz") renderMatriz(); else renderChecklist();
     }
 
     function selecionar(es) {
       ctl.es = es;
+      if (planoPorEs[es] && ctl.area && planoPorEs[es].area !== ctl.area) ctl.area = planoPorEs[es].area;
       ctl.modo = "checklist";
       Array.prototype.forEach.call(document.querySelectorAll("#ctl-modo .chip"), function (c) {
         c.classList.toggle("active", c.dataset.modo === "checklist");

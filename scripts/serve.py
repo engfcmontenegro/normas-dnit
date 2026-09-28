@@ -9,7 +9,7 @@ Depois abra http://localhost:8124/site/index.html
 import json
 import sys
 from functools import partial
-from http.server import HTTPServer, SimpleHTTPRequestHandler
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -69,7 +69,7 @@ class NoCacheHandler(SimpleHTTPRequestHandler):
 def main():
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8124
     handler = partial(NoCacheHandler, directory=str(ROOT))
-    server = HTTPServer(("localhost", port), handler)
+    server = ThreadingHTTPServer(("localhost", port), handler)  # várias conexões simultâneas
     print(f"Servindo {ROOT} em http://localhost:{port}/site/index.html")
     server.serve_forever()
 

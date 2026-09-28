@@ -49,7 +49,8 @@ def main():
             video = m.group(1).strip("\"'") if m else None
         else:
             missing += 1
-        extra = {"video": video}
+        # PDF local presente? (senão o site abre o link oficial, campo `url`)
+        extra = {"video": video, "pdf_existe": (ROOT / e["pdf"]).exists()}
         info = videos.get(md_path.stem) or {}
         if video and info.get("url") == video:
             # título/canal do vídeo achado na busca (para a barra lateral do site)

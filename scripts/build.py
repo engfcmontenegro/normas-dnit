@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-STEPS = ["extract_metadata.py", "pdf_to_md.py", "build_graph.py", "normalizar_me_dner.py", "formulas_dner.py", "tabelas_dner.py", "figuras_dner.py", "normas_canceladas.py", "bundle_site.py", "bundle_controle.py", "dependencias.py"]
+STEPS = ["extract_metadata.py", "pdf_to_md.py", "build_graph.py", "normalizar_me_dner.py", "formulas_dner.py", "tabelas_dner.py", "figuras_dner.py", "normas_canceladas.py", "link_front_matter.py", "bundle_site.py", "bundle_controle.py", "dependencias.py"]
 
 
 def main():

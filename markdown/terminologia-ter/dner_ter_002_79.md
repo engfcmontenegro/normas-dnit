@@ -7,6 +7,7 @@ ano: 1979
 aprovacao:
 status: vigente
 pdf_original: ../../normas/terminologia-ter/dner_ter_002_79.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/terminologia-ter/dner_ter_002_79.pdf
 video:
 Macrodescritores MT:
 Microdescritores DNER:

@@ -7,6 +7,7 @@ ano: 2018
 aprovacao: 2018-05-29
 status: vigente
 pdf_original: ../../normas/procedimento-pro/dnit_182_2018_pro-hiperlink.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/procedimento-pro/dnit_182_2018_pro-hiperlink.pdf
 video:
 Palavras-chave:
   - Esforços de Roçada

@@ -8,6 +8,7 @@ ano: 2009
 aprovacao: 2009-08-04
 status: vigente
 pdf_original: ../../normas/especificacao-de-servico-es/dnit_108_2009_es-terraplenagem_aterros-especificacao-de-servico_com_a_incoroporacao_da_errata_1.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/especificacao-de-servico-es/dnit_108_2009_es-terraplenagem_aterros-especificacao-de-servico_com_a_incoroporacao_da_errata_1.pdf
 video:
 Palavras-chave:
   - Versão corrigida em 24/04/2025. Terraplenagem

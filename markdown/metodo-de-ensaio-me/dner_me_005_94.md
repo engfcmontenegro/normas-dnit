@@ -7,6 +7,7 @@ ano: 1994
 aprovacao: 1971-11-05
 status: cancelada
 pdf_original: ../../normas/metodo-de-ensaio-me/dner_me_005_94.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_005_94-1.pdf
 video: https://www.youtube.com/watch?v=wtf414lTZeg
 Macrodescritores MT:
   - ensaio

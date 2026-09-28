@@ -7,6 +7,7 @@ ano: 1997
 aprovacao: 1997-03-05
 status: vigente
 pdf_original: ../../normas/procedimento-pro/dner_pro_277_97.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/procedimento-pro/dner_pro_277_97.pdf
 video:
 Macrodescritores MT:
   - metodologia

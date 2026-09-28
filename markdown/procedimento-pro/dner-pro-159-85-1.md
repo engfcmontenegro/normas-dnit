@@ -7,6 +7,7 @@ ano: 1985
 aprovacao: 1985-07-18
 status: vigente
 pdf_original: ../../normas/procedimento-pro/dner-pro-159-85-1.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/procedimento-pro/dner-pro-159-85-1.pdf
 video:
 Macrodescritores MT:
   - pavimento

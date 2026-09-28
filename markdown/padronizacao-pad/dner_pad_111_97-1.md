@@ -7,6 +7,7 @@ ano: 1997
 aprovacao: 1997-01-22
 status: vigente
 pdf_original: ../../normas/padronizacao-pad/dner_pad_111_97-1.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/padronizacao-pad/dner_pad_111_97-1.pdf
 video:
 Macrodescritores MT:
   - documentação

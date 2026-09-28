@@ -7,6 +7,7 @@ ano: 2000
 aprovacao: 2000-12-20
 status: vigente
 pdf_original: ../../normas/especificacao-de-material-em/dner_em_373_00.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/especificacao-de-material-em/dner_em_373_00.pdf
 video:
 Macrodescritores MT:
   - sinalização rodoviária

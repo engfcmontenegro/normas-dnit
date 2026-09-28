@@ -7,6 +7,7 @@ ano: 1994
 aprovacao:
 status: cancelada
 pdf_original: ../../normas/metodo-de-ensaio-me/dner_me_088_94.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner-me-088_94_cancelada.pdf
 video: https://www.youtube.com/watch?v=ZN8NsuJu6qo
 Macrodescritores MT:
 Microdescritores DNER:

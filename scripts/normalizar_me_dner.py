@@ -39,7 +39,7 @@ DESCRITORES = [
 ]
 APROVACAO_STOP = r"Aprovad[ao]|Autor\s*:|Resolução|Sessão|Revisão\s+d|Adaptação|Processo\s+n"
 KEY_ORDER = [
-    "codigo", "titulo", "orgao", "tipo", "area", "ano", "aprovacao", "status", "pdf_original", "video",
+    "codigo", "titulo", "orgao", "tipo", "area", "ano", "aprovacao", "status", "pdf_original", "link", "video",
     "Macrodescritores MT", "Microdescritores DNER", "Palavras-chave IRRD/IPR", "Descritores SINORTEC",
     "Palavras-chave", "Citada por", "Esta Norma cita",
 ]
@@ -561,6 +561,7 @@ def process(path, normas_by_md, graph, id_to_stem, stems):
         "aprovacao": aprov,
         "status": entry["status"],
         "pdf_original": f"../../{entry['pdf']}",
+        "link": entry.get("url"),
         "video": video_for(path.stem),
     }
     if entry["tipo"] != "ES":

@@ -172,6 +172,7 @@ def main():
             "status": status,
             "pdf": rel_pdf,
             "md": rel_md,
+            "url": href,  # link oficial do PDF (o site abre este quando o arquivo local não existe)
         })
 
     # normas canceladas pelo IPR (data/canceladas.json, scripts/normas_canceladas.py) cujo PDF
@@ -201,6 +202,7 @@ def main():
             "status": "cancelada",
             "pdf": pdf_path.relative_to(ROOT).as_posix(),
             "md": md_path.relative_to(ROOT).as_posix(),
+            "url": c["pdf"],  # PDF "com tarja" no site do IPR
         })
 
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)

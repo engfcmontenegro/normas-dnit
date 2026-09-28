@@ -7,6 +7,7 @@ ano: 1994
 aprovacao: 1973-05-04
 status: cancelada
 pdf_original: ../../normas/metodo-de-ensaio-me/dner_me_004_94.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_004_94-1.pdf
 video: https://www.youtube.com/watch?v=BmuyCTeE4lc
 Macrodescritores MT:
   - material betuminoso

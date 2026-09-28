@@ -7,6 +7,7 @@ ano: 1994
 aprovacao: 1985-04-11
 status: cancelada
 pdf_original: ../../normas/metodo-de-ensaio-me/dner_me_150_94.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_me_150_94-1.pdf
 video: https://www.youtube.com/watch?v=h46-MqFSUTM
 Macrodescritores MT:
   - ensaio

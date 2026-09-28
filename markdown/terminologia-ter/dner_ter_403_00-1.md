@@ -7,6 +7,7 @@ ano: 2000
 aprovacao: 2000-04-18
 status: vigente
 pdf_original: ../../normas/terminologia-ter/dner_ter_403_00-1.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/terminologia-ter/dner_ter_403_00-1.pdf
 video:
 Macrodescritores MT:
   - norma

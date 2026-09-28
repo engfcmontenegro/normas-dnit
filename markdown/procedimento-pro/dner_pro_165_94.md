@@ -7,6 +7,7 @@ ano: 1994
 aprovacao: 1985-11-20
 status: cancelada
 pdf_original: ../../normas/procedimento-pro/dner_pro_165_94.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner-pro-165-94-1.pdf
 video:
 Macrodescritores MT:
   - norma

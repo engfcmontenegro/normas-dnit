@@ -1269,7 +1269,8 @@ def process(md_path, entry, entries, graph):
         fm["area"] = area_for(entry["codigo"], title or entry["titulo"])
     fm |= {
         "ano": entry["ano"], "aprovacao": aprov, "status": entry["status"],
-        "pdf_original": f"../../{entry['pdf']}", "video": old_fm.get("video") or video_for(stem),
+        "pdf_original": f"../../{entry['pdf']}", "link": entry.get("url"),
+        "video": old_fm.get("video") or video_for(stem),
         "Palavras-chave": kws,
         "Citada por": [f"[[{s}]]" for s in citada],
         "Esta Norma cita": [f"[[{s}]]" for s in cita],

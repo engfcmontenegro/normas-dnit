@@ -7,6 +7,7 @@ ano: 1979
 aprovacao:
 status: vigente
 pdf_original: ../../normas/procedimento-pro/dner-pro-011-79-1.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/procedimento-pro/dner-pro-011-79-1.pdf
 video:
 Macrodescritores MT:
 Microdescritores DNER:

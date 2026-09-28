@@ -7,6 +7,7 @@ ano: 1994
 aprovacao: 1984-05-23
 status: vigente
 pdf_original: ../../normas/procedimento-pro/dner-pro-137-94-1.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/procedimento-pro/dner-pro-137-94-1.pdf
 video:
 Macrodescritores MT:
   - propriedade dos materiais

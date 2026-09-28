@@ -274,6 +274,29 @@
       ' · <a href="' + URL_CANCELADAS + '" target="_blank">normas canceladas no site do DNIT</a></div></div>';
   }
 
+  // ---------- Link do PDF: arquivo local ou, se não encontrado, o link oficial (campo url) ----------
+  function linkPdf(n) {
+    var oficial = n.url ? ' · <a class="pdf-oficial" href="' + escapeHtml(n.url) + '" target="_blank" rel="noopener">link oficial</a>' : "";
+    if (n.pdf_existe === false && n.url) {
+      return '<a class="pdf-link" href="' + escapeHtml(n.url) + '" target="_blank" rel="noopener" title="PDF não está no acervo local">Abrir PDF (site do DNIT)</a>';
+    }
+    return '<a class="pdf-link" data-pdf-id="' + escapeHtml(n.id) + '" href="../' + escapeHtml(n.pdf) + '" target="_blank">Abrir PDF original</a>' + oficial;
+  }
+
+  // Servido por http(s) (scripts/serve.py), confere se o arquivo existe antes de abrir; em file://
+  // vale a verificação feita no build (pdf_existe), pois o navegador não deixa consultar o disco.
+  document.addEventListener("click", function (ev) {
+    var a = ev.target.closest && ev.target.closest("a.pdf-link[data-pdf-id]");
+    if (!a || !/^https?:$/.test(location.protocol) || ev.ctrlKey || ev.metaKey || ev.shiftKey) return;
+    var n = byId[a.getAttribute("data-pdf-id")];
+    if (!n || !n.url) return;
+    ev.preventDefault();
+    var janela = window.open("", "_blank");  // aberta já no clique, para não ser bloqueada
+    var destino = function (url) { if (janela) janela.location.href = url; else location.href = url; };
+    fetch(a.href, { method: "HEAD" }).then(function (r) { destino(r.ok ? a.href : n.url); },
+      function () { destino(n.url); });
+  });
+
   var editingId = null; // id da norma atualmente em modo de edição, se houver
 
   function headerHtml(n, editMode) {
@@ -290,7 +313,7 @@
           '<div class="header-actions">' + actionBtn + "</div>" +
         "</div>" +
         '<div class="meta">Tipo: ' + escapeHtml(n.tipo || "-") + " · Ano: " + (n.ano || "-") + " · " +
-          '<a class="pdf-link" href="../' + n.pdf + '" target="_blank">Abrir PDF original</a>' +
+          linkPdf(n) +
           (youtubeId(n.video)
             ? ' · <button class="video-reopen" id="btn-video" type="button">▶ Assistir ao vídeo</button>'
             : "") +

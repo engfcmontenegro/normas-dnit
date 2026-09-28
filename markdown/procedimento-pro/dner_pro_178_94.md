@@ -7,6 +7,7 @@ ano: 1994
 aprovacao: 1986-12-19
 status: cancelada
 pdf_original: ../../normas/procedimento-pro/dner_pro_178_94.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner-pro-178-94-cancelada.pdf
 video:
 Macrodescritores MT:
   - ponte

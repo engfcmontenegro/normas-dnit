@@ -8,6 +8,7 @@ ano: 1999
 aprovacao: 1999-03-09
 status: vigente
 pdf_original: ../../normas/especificacao-de-servico-es/dner_es_387_99.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/especificacao-de-servico-es/dner_es_387_99.pdf
 video:
 Macrodescritores MT:
   - pavimentação

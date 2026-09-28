@@ -7,6 +7,7 @@ ano: 1999
 aprovacao: 1999-06-30
 status: vigente
 pdf_original: ../../normas/metodo-de-ensaio-me/dner_me_398_99.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/metodo-de-ensaio-me/dner_me_398_99.pdf
 video: https://www.youtube.com/watch?v=EgAIMYMEhI4
 Macrodescritores MT:
   - agregado

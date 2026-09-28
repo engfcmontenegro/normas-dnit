@@ -7,6 +7,7 @@ ano: 1997
 aprovacao: 1997-03-20
 status: cancelada
 pdf_original: ../../normas/especificacao-de-material-em/dner_em_364_97.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner_em_364_97_cancelada.pdf
 video:
 Macrodescritores MT:
   - material betuminoso

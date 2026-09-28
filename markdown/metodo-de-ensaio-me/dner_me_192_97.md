@@ -7,6 +7,7 @@ ano: 1997
 aprovacao: 1997-11-25
 status: vigente
 pdf_original: ../../normas/metodo-de-ensaio-me/dner_me_192_97.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/metodo-de-ensaio-me/dner_me_192_97.pdf
 video: https://www.youtube.com/watch?v=D75jRDSnpUQ
 Macrodescritores MT:
   - agregado

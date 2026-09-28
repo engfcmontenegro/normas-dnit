@@ -7,6 +7,7 @@ ano: 1996
 aprovacao: 1996-07-24
 status: vigente
 pdf_original: ../../normas/metodo-de-ensaio-me/dner_me_274_96.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/metodo-de-ensaio-me/dner_me_274_96.pdf
 video: https://www.youtube.com/watch?v=jsOKdOcqJm4
 Macrodescritores MT:
   - cimento

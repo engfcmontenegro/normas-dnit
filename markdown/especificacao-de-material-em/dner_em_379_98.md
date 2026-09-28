@@ -7,6 +7,7 @@ ano: 1998
 aprovacao: 1998-08-13
 status: vigente
 pdf_original: ../../normas/especificacao-de-material-em/dner_em_379_98.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/especificacao-de-material-em/dner_em_379_98.pdf
 video:
 Macrodescritores MT:
   - materiais

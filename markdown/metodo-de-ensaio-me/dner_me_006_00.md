@@ -7,6 +7,7 @@ ano: 2000
 aprovacao: 2000-09-05
 status: vigente
 pdf_original: ../../normas/metodo-de-ensaio-me/dner_me_006_00.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/metodo-de-ensaio-me/dner_me_006_00.pdf
 video: https://www.youtube.com/watch?v=ozlQdAb-qQg
 Macrodescritores MT:
   - ensaio

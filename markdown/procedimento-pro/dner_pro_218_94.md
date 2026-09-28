@@ -7,6 +7,7 @@ ano: 1994
 aprovacao:
 status: cancelada
 pdf_original: ../../normas/procedimento-pro/dner_pro_218_94.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner-pro-218-94-cancelada.pdf
 video:
 Macrodescritores MT:
   - aperfeiçoamento profissional

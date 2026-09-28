@@ -7,6 +7,7 @@ ano: 1996
 aprovacao: 1996-05-15
 status: vigente
 pdf_original: ../../normas/procedimento-pro/dner_pro_273_96.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/procedimento-pro/dner_pro_273_96.pdf
 video:
 Macrodescritores MT:
   - ensaio

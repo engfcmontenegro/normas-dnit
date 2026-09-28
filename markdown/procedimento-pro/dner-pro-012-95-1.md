@@ -7,6 +7,7 @@ ano: 1995
 aprovacao: 1995-12-20
 status: vigente
 pdf_original: ../../normas/procedimento-pro/dner-pro-012-95-1.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/procedimento-pro/dner-pro-012-95-1.pdf
 video:
 Macrodescritores MT:
   - norma

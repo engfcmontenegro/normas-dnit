@@ -7,6 +7,7 @@ ano: 1998
 aprovacao: 1998-09-03
 status: cancelada
 pdf_original: ../../normas/metodo-de-ensaio-me/dner_me_083_98.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/normas-cancelas-com-tarja/dner-me-083_98_cancelada.pdf
 video: https://www.youtube.com/watch?v=tUfaVEzjHD4
 Macrodescritores MT:
   - agregado

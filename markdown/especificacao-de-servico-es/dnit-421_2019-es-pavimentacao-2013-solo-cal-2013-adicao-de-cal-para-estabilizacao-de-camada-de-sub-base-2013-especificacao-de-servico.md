@@ -8,6 +8,7 @@ ano: 2019
 aprovacao: 2019-10-07
 status: vigente
 pdf_original: ../../normas/especificacao-de-servico-es/dnit-421_2019-es-pavimentacao-2013-solo-cal-2013-adicao-de-cal-para-estabilizacao-de-camada-de-sub-base-2013-especificacao-de-servico.pdf
+link: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-normas/coletanea-de-normas/especificacao-de-servico-es/dnit-421_2019-es-pavimentacao-2013-solo-cal-2013-adicao-de-cal-para-estabilizacao-de-camada-de-sub-base-2013-especificacao-de-servico.pdf
 video:
 Palavras-chave:
   - Pavimentação

@@ -817,3 +817,19 @@ a.fe-ficha-link { cursor: pointer; text-decoration: none; margin: 0 8px 0 -3px; 
 .fe-resumo.fe-gran td, .fe-resumo.fe-gran th { text-align: right; padding: 4px 8px; }
 .fe-resumo.fe-gran td:first-child, .fe-resumo.fe-gran th:first-child { text-align: left; white-space: nowrap; }
 .fe-resumo.fe-gran thead tr:first-child th { text-align: center; border-bottom: 0; }
+
+/* anexos da ficha (fotos e arquivos) */
+#fe-anexos { border: 1px dashed transparent; border-radius: 8px; padding: 2px; max-width: 1100px; }
+#fe-anexos.fe-anx-sobre { border-color: var(--accent); background: rgba(90, 150, 255, 0.06); }
+.fe-anx-grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; }
+.fe-anx { border: 1px solid var(--border); border-radius: 8px; padding: 8px; display: flex; flex-direction: column; gap: 5px; background: var(--panel); min-width: 0; }
+.fe-anx-prev { height: 110px; border-radius: 6px; background: rgba(0, 0, 0, 0.25); display: flex; align-items: center; justify-content: center; overflow: hidden; cursor: pointer; }
+.fe-anx-prev img { width: 100%; height: 100%; object-fit: cover; }
+.fe-anx-ext { font-weight: 700; font-size: 18px; color: var(--text-dim); letter-spacing: .05em; }
+.fe-anx-nome { font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fe-anx-nome small { color: var(--text-dim); }
+.fe-anx-leg { font-size: 12px; padding: 4px 6px; background: var(--bg); border: 1px solid var(--border); border-radius: 5px; color: var(--text); }
+.fe-anx .fe-link { align-self: flex-start; font-size: 12px; }
+.fe-anx-add { align-items: center; justify-content: center; cursor: pointer; min-height: 170px; color: var(--accent); font-size: 13px; text-align: center; border-style: dashed; }
+.fe-anx-add span { font-size: 30px; line-height: 1; }
+.fe-anx-add:hover { border-color: var(--accent); }

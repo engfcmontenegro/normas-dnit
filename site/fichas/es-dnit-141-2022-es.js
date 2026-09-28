@@ -21,21 +21,14 @@
  */
 (function () {
   "use strict";
-  var FE = window.FE, num = FE.num, ok = FE.ok, fmt = FE.fmt, esc = FE.esc, media = FE.media;
+  var FE = window.FE, A = FE.aceitacao, num = FE.num, ok = FE.ok, fmt = FE.fmt, esc = FE.esc, media = FE.media;
   var ID = "dnit-141-2022-es";
 
-  // ---------- Tabela B1 — Amostragem Variável (Anexo B, normativo; PDF p. 10): [n, k, α] ----------
-  var K_B1 = [[5, 1.55, 0.45], [6, 1.41, 0.35], [7, 1.36, 0.30], [8, 1.31, 0.25], [9, 1.25, 0.19], [10, 1.21, 0.15],
-    [11, 1.19, 0.13], [12, 1.16, 0.10], [13, 1.13, 0.08], [14, 1.11, 0.06], [15, 1.10, 0.05], [16, 1.08, 0.04],
-    [17, 1.06, 0.03], [19, 1.04, 0.02], [21, 1.01, 0.01]];
-  // n < 5: fora da tabela (sem controle estatístico). n não tabelado (18, 20): k do maior n tabelado abaixo dele
-  // (k maior = mais conservador). n > 21: 1,01 (último da tabela).
-  function coefK(n) {
-    if (!(n >= 5)) return null;
-    var sel = null;
-    K_B1.forEach(function (x) { if (x[0] <= n) sel = x; });
-    return { k: sel[1], alfa: sel[2], nTab: sel[0], exato: sel[0] === n };
-  }
+  // ---------- Tabela B1 — Amostragem Variável (Anexo B, normativo; PDF p. 10) ----------
+  // É a tabela padrão da biblioteca (A.K_DNIT: n = 5…17, 19, 21 → k = 1,55…1,01). n < 5: fora da tabela (sem controle
+  // estatístico). n não tabelado (18, 20): k do maior n tabelado abaixo dele (k maior = mais conservador). n > 21: 1,01.
+  // Seções citadas nos motivos da avaliação (7.5, eq. 2 e 3).
+  var REFS = { reprova: "7.5 b", atende: "7.5 a", corrige: "7.5", regra: "7.5", tabela: "Tabela B1" };
 
   // ---------- peneiras da Tabela A1 (Anexo A, informativo; PDF p. 9) e tolerâncias da faixa de projeto ----------
   var PEN = [[50.8, "2\"", 7], [25.4, "1\"", 7], [9.5, "3/8\"", 7], [4.8, "nº 4", 5], [2.0, "nº 10", 5], [0.42, "nº 40", 2], [0.074, "nº 200", 2]];
@@ -46,132 +39,50 @@
     return FE.granulometria.faixasDisponiveis().filter(function (f) { return f.norma === ID; });
   }
 
-  // códigos curtos das fichas de origem (registro da importação)
-  var COD = { "dnit-456-2025-me": "DNIT 456", "dnit-164-2013-me": "DNIT 164", "dnit-172-2016-me": "DNIT 172",
-    "dnit-458-2025-me": "DNIT 458", "dner-me-036-94": "DNER-ME 036", "dner-me-037-94": "DNER-ME 037",
-    "dnit-417-2019-me": "DNIT 417", "dnit-405-2017-me": "DNIT 405", "dnit-412-2025-me": "DNIT 412",
-    "dner-me-122-94": "DNER-ME 122", "dner-me-082-94": "DNER-ME 082", "dnit-450-2024-me": "DNIT 450", "dnit-451-2024-me": "DNIT 451" };
+  // fichas de origem do grau de compactação (importarVarios); código curto = A.codigoCurto(id) ("DNIT 458")
+  var COD = A.codigoCurto;
   var GC_FONTES = ["dnit-458-2025-me", "dner-me-036-94", "dnit-417-2019-me", "dner-me-037-94", "dnit-405-2017-me"];
   var GC_NAO_CITADAS = ["dner-me-037-94", "dnit-405-2017-me"];
 
-
-  // ---------- estacas (20 m) ----------
-  // aceita "40", "40+10", "40 + 10,00", "Estaca 42", "E-42"
-  function estacaM(s) {
-    var m = /(\d+)(?:\s*\+\s*([\d.,]+))?/.exec(String(s || ""));
-    if (!m) return NaN;
-    return Number(m[1]) * 20 + (m[2] ? num(m[2]) : 0);
-  }
-  function txtEstaca(m) {
-    if (!ok(m)) return "—";
-    var e = Math.floor(m / 20 + 1e-9), r = m - e * 20;
-    return String(e) + (r > 0.005 ? " + " + fmt(r, 2) : "");
-  }
-  function numOuNP(v) {
-    var t = String(v === undefined || v === null ? "" : v).trim();
-    if (/^n\.?\s*p\.?$/i.test(t)) return { np: true, v: NaN };
-    return { np: false, v: num(t) };
-  }
+  // ---------- estacas (20 m): "40", "40+10", "40 + 10,00", "Estaca 42", "E-42" ----------
+  var estacaM = A.estacaM, numOuNP = A.numOuNP;
+  function txtEstaca(m) { return A.fmtEstaca(m, { simples: true }); }
 
   // ---------- estatística (7.5, eq. 2 e 3) ----------
   function estat(vals) {
-    var n = vals.length, xm = media(vals), s = NaN;
-    if (n >= 2) s = Math.sqrt(vals.reduce(function (a, x) { return a + (x - xm) * (x - xm); }, 0) / (n - 1));
-    return { n: n, xm: xm, s: s };
+    var e = A.estatistica(vals);
+    return { n: e.n, xm: e.n ? e.X : NaN, s: e.n ? e.s : NaN };
   }
 
-  // Avalia um critério com mínimo e/ou máximo (7.5).
+  // Avalia um critério com mínimo e/ou máximo (7.5) com A.avaliar, no formato desta ficha.
   // cfg: {id, nome, secao, unid, casas, pontos: [{v, est, rot}], min, max, minEstrito, obrigMin, obrigMax, exigido, naoExigidoPor}
   // situação: C conforme · CR conforme com ressalva · NC não conforme · SD sem dados · NE não exigido · I informativo
+  var SIT_LIB = { C: "conforme", CR: "ressalva", NC: "nao_conforme", SD: "sem_dados", NE: "nao_exigido", I: "informativo",
+    ATENDE: "atende", FALTA: "insuficiente" };
+  var SIT_141 = {};
+  Object.keys(SIT_LIB).forEach(function (k) { SIT_141[SIT_LIB[k]] = k; });
   function avaliar(cfg) {
     var o = { id: cfg.id, nome: cfg.nome, secao: cfg.secao, unid: cfg.unid || "", casas: cfg.casas === undefined ? 1 : cfg.casas,
       min: cfg.min, max: cfg.max, minEstrito: !!cfg.minEstrito, pontos: cfg.pontos || [], exigido: cfg.exigido !== false,
       grafico: cfg.grafico };
-    var vals = o.pontos.map(function (p) { return p.v; }).filter(ok);
-    var E = estat(vals);
-    o.n = E.n; o.xm = E.xm; o.s = E.s;
-    o.exigTxt = cfg.exigTxt || exigidoTxt(o);
-    if (!o.exigido) { o.sit = "NE"; o.motivo = cfg.naoExigidoPor || "não exigido"; return o; }
-    if (!o.n) { o.sit = "SD"; o.motivo = "sem determinações"; return o; }
-    function abaixo(v) { return ok(o.min) && (o.minEstrito ? v <= o.min + 1e-9 : v < o.min - 1e-9); }
-    function acima(v) { return ok(o.max) && v > o.max + 1e-9; }
-    o.fora = o.pontos.filter(function (p) { return ok(p.v) && (abaixo(p.v) || acima(p.v)); });
-    var foraObrig = o.pontos.filter(function (p) { return ok(p.v) && ((cfg.obrigMin && abaixo(p.v)) || (cfg.obrigMax && acima(p.v))); });
-    var listaFora = o.fora.map(function (p) { return fmt(p.v, o.casas) + (p.est ? " (est. " + p.est + ")" : p.rot ? " (" + p.rot + ")" : ""); }).join("; ");
-    var K = coefK(o.n);
-    if (K) {
-      o.k = K.k; o.alfa = K.alfa; o.kExato = K.exato; o.nTab = K.nTab;
-      var sv = ok(o.s) ? o.s : 0;
-      o.inf = o.xm - o.k * sv; o.sup = o.xm + o.k * sv;
-      o.regra = "estatística (7.5)";
-      var falhas = [];
-      if (ok(o.min) && abaixo(o.inf)) falhas.push("X̄ − k·s = " + fmt(o.inf, o.casas + 1) + (o.minEstrito ? " ≤ " : " < ") + fmt(o.min, o.casas) + " " + o.unid);
-      if (ok(o.max) && acima(o.sup)) falhas.push("X̄ + k·s = " + fmt(o.sup, o.casas + 1) + " > " + fmt(o.max, o.casas) + " " + o.unid);
-      if (falhas.length) { o.sit = "NC"; o.motivo = falhas.join("; ") + " (7.5 b)"; }
-      else if (foraObrig.length) { o.sit = "NC"; o.motivo = "a estatística atende, mas a ES não tolera valores individuais fora: " + listaFora; }
-      else if (o.fora.length) { o.sit = "CR"; o.motivo = "a estatística atende (7.5 a); " + o.fora.length + " valor(es) individual(is) fora do limite — corrigir o local (7.5): " + listaFora; }
-      else { o.sit = "C"; o.motivo = "X̄ " + (ok(o.min) ? "− k·s = " + fmt(o.inf, o.casas + 1) : "") + (ok(o.min) && ok(o.max) ? " e X̄ " : "") +
-        (ok(o.max) ? "+ k·s = " + fmt(o.sup, o.casas + 1) : "") + " " + o.unid + " (7.5 a)"; }
-      if (!K.exato) o.motivo += o.n > 21 ? " — n > 21: k = 1,01 (último da Tabela B1)" : " — n = " + o.n + " não tabelado: k de n = " + K.nTab;
-    } else {
-      o.regra = "valores individuais (n < 5)";
-      if (o.fora.length) { o.sit = "NC"; o.motivo = "valor individual fora do limite (n < 5, sem estatística): " + listaFora; }
-      else { o.sit = "C"; o.motivo = "todos os valores individuais atendem (n < 5, sem estatística)"; }
+    var l = A.avaliar({ id: cfg.id, criterio: cfg.nome, secao: cfg.secao, unid: o.unid, casas: o.casas, pontos: o.pontos, min: cfg.min, max: cfg.max,
+      minEstrito: o.minEstrito, obrigMin: cfg.obrigMin, obrigMax: cfg.obrigMax, exigido: cfg.exigTxt, aplica: o.exigido,
+      naoAplicaPor: cfg.naoExigidoPor || "não exigido", refs: REFS });
+    o.n = l.n; o.xm = l.media; o.s = l.s;
+    o.exigTxt = l.exigido;
+    if (l.situacao !== "nao_exigido" && l.situacao !== "sem_dados") {
+      o.fora = l.fora;
+      if (ok(l.k)) { o.k = l.k; o.alfa = l.alfa; o.kExato = l.kExato; o.nTab = l.nTab; o.inf = l.inf; o.sup = l.sup; }
+      o.regra = l.regra;
     }
+    o.sit = SIT_141[l.situacao]; o.motivo = l.motivo;
     return o;
   }
-  function exigidoTxt(o) {
-    var u = o.unid ? " " + o.unid : "", c = o.casas;
-    if (ok(o.min) && ok(o.max)) return fmt(o.min, c) + " a " + fmt(o.max, c) + u;
-    if (ok(o.min)) return (o.minEstrito ? "> " : "≥ ") + fmt(o.min, c) + u;
-    if (ok(o.max)) return "≤ " + fmt(o.max, c) + u;
-    return "—";
-  }
+  function sitHtml(s, relat) { return A.situacaoHtml(SIT_LIB[s] || s, relat); }
 
-  var SIT = {
-    C: ["conforme", "fe-ok", "CONFORME"], CR: ["conforme com ressalva", "", "CONFORME COM RESSALVA"],
-    NC: ["não conforme", "fe-nok", "NÃO CONFORME"], SD: ["sem dados", "fe-nok", "SEM DADOS"],
-    NE: ["não exigido", "", "não exigido"], I: ["informativo", "", "informativo"],
-    ATENDE: ["atende", "fe-ok", "atende"], FALTA: ["insuficiente", "fe-nok", "INSUFICIENTE"],
-  };
-  var AMBAR = "color:#c77d12;font-weight:600";
-  function sitHtml(s, relat) {
-    var x = SIT[s] || [s, "", s];
-    if (relat) return x[2];
-    if (s === "CR") return '<span style="' + AMBAR + '">' + x[0] + "</span>";
-    return x[1] ? '<span class="' + x[1] + '">' + x[0] + "</span>" : "<span>" + x[0] + "</span>";
-  }
-
-  // ---------- importação (importarVarios) ----------
-  function rotReg(e, extra) {
-    var i = (e.dados || {}).ident || {};
-    return (i.registro || "sem registro") + " · " + (COD[e.ficha] || e.ficha) + (extra ? " · " + extra : "");
-  }
-  // colunas digitadas (sem marca de importação) com algum valor são mantidas; as importadas são substituídas
-  function trocarImportadas(d, chave, novas) {
-    var manter = (d[chave] || []).filter(function (c) {
-      return !c.imp && Object.keys(c).some(function (k) { return k !== "usar" && c[k] !== "" && c[k] !== undefined && c[k] !== null; });
-    });
-    d[chave] = manter.concat(novas);
-    if (!d[chave].length) d[chave].push({});
-  }
-  // junta na mesma coluna ensaios de um mesmo registro (ex.: LL/IP e EA da mesma amostra)
-  function juntarPorRegistro(itens) {
-    var out = [], por = {};
-    itens.forEach(function (it) {
-      var c = it.col, key = it.chave;
-      if (key && por[key]) {
-        var alvo = por[key];
-        Object.keys(c).forEach(function (k) {
-          if (k === "reg") return;
-          if (c[k] !== "" && c[k] !== undefined && (alvo[k] === "" || alvo[k] === undefined)) alvo[k] = c[k];
-        });
-        if (alvo.reg.indexOf(it.cod) === -1) alvo.reg += " + " + it.cod;
-      } else { out.push(c); if (key) por[key] = c; }
-    });
-    return out;
-  }
-  function identDe(e) { return (e.dados || {}).ident || {}; }
+  // ---------- importação (importarVarios): colunas digitadas e o que foi digitado nas importadas são mantidos ----------
+  var rotReg = A.importacao.rotulo, identDe = A.importacao.ident, juntarPorRegistro = A.importacao.juntarPorRegistro;
+  function trocarImportadas(d, chave, novas) { A.importacao.substituir(d, chave, novas); }
 
   var APLICAR = {
     umid: function (lista, P, d) {
@@ -183,7 +94,7 @@
     comp: function (lista, P, d) {
       trocarImportadas(d, "comp", juntarPorRegistro(lista.map(function (e) {
         var r = e.resultados || {}, i = identDe(e), e172 = e.ficha === "dnit-172-2016-me";
-        return { chave: i.registro || "", cod: COD[e.ficha], col: { imp: "1", est: i.local || "", reg: rotReg(e),
+        return { chave: i.registro || "", cod: COD(e.ficha), col: { imp: "1", est: i.local || "", reg: rotReg(e),
           gs: ok(r.gsMax) ? fmt(r.gsMax, 3) : "", hot: ok(r.hOt) ? fmt(r.hOt, 1) : "",
           isc: e172 && ok(r.isc) ? fmt(Math.round(r.isc), 0) : "", exp: e172 && ok(r.exp) ? fmt(r.exp, 2) : "" } };
       })));
@@ -223,7 +134,7 @@
         } else if (e.ficha === "dnit-450-2024-me") {
           c.ea = ok(r.ea) ? fmt(r.ea, 0) : "";
         }
-        return { chave: i.registro || "", cod: COD[e.ficha], col: c };
+        return { chave: i.registro || "", cod: COD(e.ficha), col: c };
       })));
     },
     la: function (lista, P, d) {
@@ -346,10 +257,9 @@
 
   function calcular(d) {
     var P = P_(d), av = [];
-    var ini = estacaM(P.estIni), fim = estacaM(P.estFim);
-    var L = ok(num(P.ext)) ? num(P.ext) : ok(ini) && ok(fim) && fim > ini ? fim - ini : NaN;
-    var larg = num(P.largura), espP = num(P.espessura), emp = P.dimens !== "mec";
-    var area = ok(L) && ok(larg) ? L * larg : NaN;
+    // lote: estacas crescentes (fim > ini); extensão digitada tem prioridade; área = extensão × largura de projeto
+    var LT = A.lote(P, { crescente: true }), ini = LT.ini, fim = LT.fim, L = LT.ext, larg = LT.larg, area = LT.area;
+    var espP = num(P.espessura), emp = P.dimens !== "mec";
     if (!ok(L)) av.push("Informe as estacas inicial e final (ou a extensão) do lote: as frequências dependem da extensão.");
     if (ok(ini) && ok(fim) && fim <= ini) av.push("A estaca final deve ser maior que a inicial.");
     if (ok(espP) && (espP < 10 || espP > 20)) av.push("Espessura de projeto de " + fmt(espP, 1) + " cm: a camada compactada deve ter entre 10 e 20 cm; acima de 20 cm, subdividir em camadas de no mínimo 10 cm (5.3.6).");
@@ -381,7 +291,7 @@
     var gcCols = (d.gc || []).filter(function (c) { return ok(num(c.gc)); });
     gcCols.forEach(function (c, i) { dentroLote(c.est, "Grau de compactação, furo " + (i + 1)); });
     var fontesNC = {};
-    gcCols.forEach(function (c) { if (GC_NAO_CITADAS.indexOf(c.fonte) !== -1) fontesNC[COD[c.fonte]] = 1; });
+    gcCols.forEach(function (c) { if (GC_NAO_CITADAS.indexOf(c.fonte) !== -1) fontesNC[COD(c.fonte)] = 1; });
     if (Object.keys(fontesNC).length) av.push("Grau de compactação por " + Object.keys(fontesNC).join(" e ") +
       ": método não citado pela ES (7.2.1 b cita DNER-ME 092 — hoje DNIT 458 —, DNER-ME 036 e DNIT 417); aceitar só com anuência da Fiscalização.");
     if (gcCols.some(function (c) { return c.fonte === "dnit-417-2019-me"; })) av.push("Densímetro eletromagnético: confirme a calibração conforme a DNIT 417 para este material (NOTA 5).");
@@ -400,7 +310,7 @@
     // ----- frequência (7.2.1, NOTA 4, 7.2.2, 7.3; materiais: plano de amostragem 7.4) -----
     var jorn = ok(num(P.jornadas)) && num(P.jornadas) > 0 ? Math.round(num(P.jornadas)) : 1;
     var intComp = P.freq === "400" ? 400 : 200;
-    var nComp = ok(L) ? Math.max(Math.ceil(L / intComp - 1e-9), jorn) : NaN;
+    var nComp = A.nMin(L, intComp, jorn);
     var espGC = num(P.espGC), espGeo = ok(num(P.espGeo)) && num(P.espGeo) > 0 ? num(P.espGeo) : 20;
     var deflExig = P.defl !== "dispensada", iscExig = emp && P.iscProj !== "nao";
     var laExig = P.agreg !== "nao";
@@ -408,13 +318,13 @@
     function contaNP(arr, k) { return (arr || []).filter(function (c) { var x = numOuNP(c[k]); return x.np || ok(x.v); }).length; }
     var freq = [
       { ens: "Teor de umidade antes da compactação", norma: "DNER-ME 052 / 088 → DNIT 456", regra: "1 a cada 100 m (7.2.1 a)",
-        exig: ok(L) ? Math.max(1, Math.ceil(L / 100 - 1e-9)) : NaN, real: umidN },
+        exig: A.nMin(L, 100), real: umidN },
       { ens: "Compactação (γs,máx e h ót)", norma: "DNIT 164", regra: "1 a cada " + intComp + " m ou por jornada (NOTA 4)", exig: nComp, real: conta(d.comp, "gs") },
       { ens: "Expansão", norma: "DNIT 172", regra: "1 a cada " + intComp + " m ou por jornada (NOTA 4)", exig: nComp, real: conta(d.comp, "exp") },
       { ens: "Índice de Suporte Califórnia", norma: "DNIT 172", regra: iscExig ? "1 a cada " + intComp + " m ou por jornada (NOTA 4)" : "não especificado em projeto",
         exig: iscExig ? nComp : 0, real: conta(d.comp, "isc"), naoExig: !iscExig },
       { ens: "Grau de compactação", norma: "DNIT 458 / DNER-ME 036 / DNIT 417", regra: ok(espGC) && espGC > 0 ? "1 a cada " + fmt(espGC, 0) + " m (plano, 7.4); mín. 5" : "plano de amostragem (7.4): mín. 5 (Tabela B1)",
-        exig: ok(espGC) && espGC > 0 && ok(L) ? Math.max(5, Math.ceil(L / espGC - 1e-9)) : 5, real: gcCols.length },
+        exig: ok(espGC) && espGC > 0 && ok(L) ? A.nMin(L, espGC, 5) : 5, real: gcCols.length },
       { ens: "Granulometria", norma: "DNIT 412", regra: emp || temProj ? "caracterização (5.1) — mín. 1 por lote (adotado)" : "sem curva de projeto (mecanicista)",
         exig: emp || temProj ? 1 : 0, real: granCols.length, naoExig: !(emp || temProj) },
       { ens: "Limite de liquidez e índice de plasticidade", norma: "DNER-ME 122 / 082", regra: emp ? "caracterização (5.1) — mín. 1 por lote (adotado)" : "projeto mecanicista",
@@ -422,11 +332,11 @@
     ];
     if (laExig) freq.push({ ens: "Abrasão Los Angeles", norma: "DNIT 451", regra: "caracterização (5.1) — mín. 1 por lote (adotado)", exig: 1, real: conta(d.la, "la") });
     if (!emp) freq.push({ ens: "Módulo de resiliência", norma: "DNIT 134", regra: "1 a cada 1500 m (7.2.1 a)",
-      exig: ok(L) ? Math.max(1, Math.ceil(L / 1500 - 1e-9)) : 1, real: conta(d.mr, "mr") });
+      exig: ok(L) ? A.nMin(L, 1500) : 1, real: conta(d.mr, "mr") });
     if (deflExig) freq.push({ ens: "Deflexão D₀", norma: "DNER-ME 024 / DNER-PRO 273", regra: "a cada 20 m em faixas alternadas; mín. 15 (7.2.2)",
-      exig: ok(L) ? Math.max(15, Math.floor(L / 20 + 1e-9) + 1) : 15, real: conta(d.defl, "d0") });
+      exig: ok(L) ? A.nPontos(L, 20, 15) : 15, real: conta(d.defl, "d0") });
     freq.push({ ens: "Controle geométrico (seções)", norma: "—", regra: "eixo e bordas (7.3); 1 seção a cada " + fmt(espGeo, 0) + " m (adotado)",
-      exig: ok(L) ? Math.floor(L / espGeo + 1e-9) + 1 : NaN, real: (d.geo || []).filter(function (c) { return cheia(c, ["larg", "esp", "dle", "dld", "flecha"]); }).length });
+      exig: A.nPontos(L, espGeo), real: (d.geo || []).filter(function (c) { return cheia(c, ["larg", "esp", "dle", "dld", "flecha"]); }).length });
     freq.forEach(function (f) {
       f.sit = f.naoExig ? "NE" : !ok(f.exig) ? "SD" : f.real >= f.exig ? "ATENDE" : "FALTA";
       if (f.sit === "FALTA") av.push("Frequência: " + f.ens + " — " + f.real + " de " + f.exig + " exigida(s) (" + f.regra + ").");
@@ -549,7 +459,7 @@
     if (deflExig) {
       var dPts = (d.defl || []).map(function (c, i) { return pontoDe(c, num(c.d0), "det. " + (i + 1)); }).filter(function (p) { return ok(p.v); });
       (d.defl || []).forEach(function (c, i) { if (ok(num(c.d0))) dentroLote(c.est, "Deflexão, determinação " + (i + 1)); });
-      var Ed = estat(dPts.map(function (p) { return p.v; })), Kd = coefK(Ed.n);
+      var Ed = estat(dPts.map(function (p) { return p.v; })), Kd = A.coefK(Ed.n);
       cDef = { id: "defl", nome: "Deflexão característica Dc = D₀médio + k·S", secao: "7.2.2 (eq. 1)", unid: "0,01 mm", casas: 0, n: Ed.n,
         xm: Ed.xm, s: Ed.s, pontos: dPts, max: lse, exigTxt: ok(lse) ? "Dc ≤ " + fmt(lse, 0) + " (LSE); n ≥ 15" : "Dc ≤ LSE; n ≥ 15", grafico: true };
       if (Kd) { cDef.k = Kd.k; cDef.kExato = Kd.exato; cDef.nTab = Kd.nTab; cDef.sup = Ed.xm + Kd.k * (ok(Ed.s) ? Ed.s : 0); }
@@ -612,58 +522,26 @@
 
   // ---------- apresentação ----------
   var PARECER = {
-    ACEITO: ["LOTE ACEITO", "fe-ok", "Todos os critérios da DNIT 141/2022-ES atendidos, com a frequência exigida."],
-    RESSALVA: ["LOTE ACEITO COM RESSALVAS", "", "Os critérios de aceitação (7.5) são atendidos, mas há pontos a corrigir ou a documentar: \"todo detalhe incorreto ou mal executado deve ser corrigido\" (7.5)."],
-    PENDENTE: ["LOTE PENDENTE — CONTROLE INCOMPLETO", "", "Nenhum critério reprovado, mas faltam ensaios ou determinações exigidos: complete o controle antes de aceitar o lote (7.4 e 7.5)."],
-    REJEITADO: ["LOTE REJEITADO", "fe-nok", "Há critério não conforme (7.5 b). \"Qualquer serviço corrigido só deve ser aceito se as correções executadas o colocarem em conformidade\" (7.5)."],
+    ACEITO: { titulo: "LOTE ACEITO", texto: "Todos os critérios da DNIT 141/2022-ES atendidos, com a frequência exigida." },
+    RESSALVA: { titulo: "LOTE ACEITO COM RESSALVAS", texto: "Os critérios de aceitação (7.5) são atendidos, mas há pontos a corrigir ou a documentar: \"todo detalhe incorreto ou mal executado deve ser corrigido\" (7.5)." },
+    PENDENTE: { titulo: "LOTE PENDENTE — CONTROLE INCOMPLETO", texto: "Nenhum critério reprovado, mas faltam ensaios ou determinações exigidos: complete o controle antes de aceitar o lote (7.4 e 7.5)." },
+    REJEITADO: { titulo: "LOTE REJEITADO", texto: "Há critério não conforme (7.5 b). \"Qualquer serviço corrigido só deve ser aceito se as correções executadas o colocarem em conformidade\" (7.5)." },
   };
-  function listaMotivos(r) {
-    var m = [];
-    r.nc.forEach(function (c) { m.push(["Não conforme", c.nome + " (" + c.secao + "): " + c.motivo]); });
-    r.sd.forEach(function (c) { m.push(["Pendente", c.nome + " (" + c.secao + "): " + c.motivo]); });
-    r.falta.forEach(function (f) { m.push(["Pendente", "frequência de " + f.ens.toLowerCase() + ": " + f.real + " de " + (ok(f.exig) ? f.exig : "?") + " (" + f.regra + ")"]); });
-    r.cr.forEach(function (c) { m.push(["Ressalva", c.nome + " (" + c.secao + "): " + c.motivo]); });
-    return m;
+  // critérios e frequências desta ficha → linhas da biblioteca (A.htmlCriterios, A.htmlFrequencia, A.parecer)
+  function paraLinha(c) {
+    var l = { id: c.id, criterio: c.nome, secao: c.secao, casas: c.casas, n: c.n, media: c.xm, s: c.s, k: c.k, inf: c.inf, sup: c.sup,
+      lim: { min: c.min, max: c.max }, exigido: c.exigTxt, situacao: SIT_LIB[c.sit] || c.sit, motivo: c.motivo };
+    if (c.id === "defl") l.txtEstat = ok(c.sup) ? "Dc = " + fmt(c.sup, 1) : "—";
+    if (c.id === "faixa") l.semMedia = true;
+    return l;
   }
+  function paraFreq(f) { return { ensaio: f.ens, metodo: f.norma, regra: f.regra, exigido: f.exig, realizado: f.real, situacao: SIT_LIB[f.sit] }; }
   function parecerHtml(r, relat) {
-    var p = PARECER[r.parecer], mot = listaMotivos(r);
     var n5 = r.obsN5.length ? "Avaliados por valor individual (n < 5 — a Tabela B1 começa em n = 5): " + r.obsN5.join("; ") + "." : "";
-    var cor = r.parecer === "ACEITO" ? "#1e7d4f" : r.parecer === "REJEITADO" ? "#c0392b" : "#c77d12";
-    if (relat) {
-      return '<div style="border:2px solid ' + cor + ';padding:6px 9px;margin:6px 0"><div style="font-size:14px;font-weight:bold;color:' + cor + '">PARECER: ' + p[0] +
-        '</div><div style="margin-top:2px">' + esc(p[2]) + "</div>" +
-        (mot.length ? '<ol style="margin:5px 0 0 18px;padding:0">' + mot.map(function (x) { return "<li><b>" + esc(x[0]) + ":</b> " + esc(x[1]) + "</li>"; }).join("") + "</ol>" : "") +
-        (n5 ? '<div style="margin-top:4px;color:#555">' + esc(n5) + "</div>" : "") + "</div>";
-    }
-    return '<div style="border:2px solid ' + cor + ';border-radius:8px;padding:10px 14px;margin:4px 0 12px">' +
-      '<div style="font-size:1.25em;font-weight:700;color:' + cor + '">' + p[0] + "</div>" +
-      '<div style="margin-top:3px;opacity:.9">' + esc(p[2]) + "</div>" +
-      (mot.length ? '<ol style="margin:8px 0 0 20px;padding:0">' + mot.map(function (x) {
-        var c = x[0] === "Não conforme" ? "fe-nok" : x[0] === "Pendente" ? "" : "";
-        return '<li style="margin:2px 0"><b' + (c ? ' class="' + c + '"' : ' style="' + AMBAR + '"') + ">" + esc(x[0]) + ":</b> " + esc(x[1]) + "</li>";
-      }).join("") + "</ol>" : "") + (n5 ? '<div style="margin-top:6px;font-size:.9em;opacity:.8">' + esc(n5) + "</div>" : "") + "</div>";
+    return A.htmlParecer(A.parecer(r.crit.map(paraLinha), r.freq.map(paraFreq), { textos: PARECER, nota: n5 }), { relat: relat });
   }
-  function vTxt(c, v, extra) { return ok(v) ? fmt(v, (c.casas || 0) + (extra || 0)) : "—"; }
-  function tabCriterios(r, relat) {
-    var cls = relat ? "gr" : "fe-resumo";
-    return '<table class="' + cls + '"><thead><tr><th style="text-align:left">Critério</th><th style="text-align:left">Seção</th><th>n</th><th>X̄</th><th>s</th><th>k</th><th>X̄ ∓ k·s</th>' +
-      "<th>Exigido</th><th style=\"text-align:left\">Situação</th></tr></thead><tbody>" + r.crit.map(function (c) {
-        var est = c.id === "defl" ? (ok(c.sup) ? "Dc = " + fmt(c.sup, 1) : "—")
-          : ok(c.inf) || ok(c.sup) ? [ok(c.min) ? fmt(c.inf, (c.casas || 0) + 1) : "", ok(c.max) ? fmt(c.sup, (c.casas || 0) + 1) : ""].filter(Boolean).join(" / ") : "—";
-        return '<tr><td style="text-align:left">' + esc(c.nome) + '</td><td style="text-align:left">' + esc(c.secao) + "</td><td>" + (c.n || 0) + "</td><td>" + (c.id === "faixa" ? "—" : vTxt(c, c.xm, 1)) +
-          "</td><td>" + (c.id === "faixa" ? "—" : vTxt(c, c.s, 1)) + "</td><td>" + (ok(c.k) ? fmt(c.k, 2) : "—") + "</td><td>" + esc(est) + "</td><td>" + esc(c.exigTxt || "—") +
-          "</td><td style=\"text-align:left\">" + sitHtml(c.sit, relat) + (c.motivo ? '<br><small style="font-size:.9em">' + esc(c.motivo) + "</small>" : "") + "</td></tr>";
-      }).join("") + "</tbody></table>";
-  }
-  function tabFrequencia(r, relat) {
-    var cls = relat ? "gr" : "fe-resumo";
-    return '<table class="' + cls + '"><thead><tr><th style="text-align:left">Ensaio / determinação</th><th style="text-align:left">Método</th><th style="text-align:left">Frequência (ES)</th><th>Exigido</th><th>Realizado</th><th>Situação</th></tr></thead><tbody>' +
-      r.freq.map(function (f) {
-        var L = '<td style="text-align:left">';
-        return "<tr>" + L + esc(f.ens) + "</td>" + L + esc(f.norma) + "</td>" + L + esc(f.regra) + "</td><td>" + (f.naoExig ? "—" : ok(f.exig) ? f.exig : "?") +
-          "</td><td>" + f.real + "</td><td>" + sitHtml(f.sit, relat) + "</td></tr>";
-      }).join("") + "</tbody></table>";
-  }
+  function tabCriterios(r, relat) { return A.htmlCriterios(r.crit.map(paraLinha), { relat: relat, estilo: "estatistico" }); }
+  function tabFrequencia(r, relat) { return A.htmlFrequencia(r.freq.map(paraFreq), relat); }
   function tabGranulometria(r, relat) {
     if (!r.granPen.some(function (g) { return g.av.n || ok(g.proj); })) return "";
     var cls = relat ? "gr" : "fe-resumo", fx = r.faixaRef;
@@ -677,7 +555,7 @@
           sitHtml(a.sit, relat) + "</td></tr>";
       }).join("") + "</tbody></table>";
   }
-  function cartao(v, rot) { return '<div class="fe-res-item"><div class="fe-res-v fe-res-p">' + v + '</div><div class="fe-res-r">' + rot + "</div></div>"; }
+  var cartao = A.cartao;
 
   function resultadosHtml(calc, d) {
     var r = calc.resultados;
@@ -806,7 +684,7 @@
       parametros: [["Critério de aceitação", "DNIT 141/2022-ES, 7.5 — controle estatístico com a Tabela B1 (Anexo B)"]],
       resultados: function (calc) {
         var r = calc.resultados, p = PARECER[r.parecer];
-        var rows = [["Parecer do lote", p[0]],
+        var rows = [["Parecer do lote", p.titulo],
           ["Lote", (ok(r.ini) && ok(r.fim) ? "estaca " + txtEstaca(r.ini) + " a " + txtEstaca(r.fim) + " · " : "") + (ok(r.L) ? fmt(r.L, 0) + " m" : "—") +
             (ok(r.area) ? " · " + fmt(r.area, 0) + " m²" : "")],
           ["Dimensionamento", r.emp ? "empírico (ISC, LL, IP e EA exigidos)" : "mecanicista (MR e DP conforme projeto)"]];
@@ -827,18 +705,7 @@
   // Exemplos: lotes montados com os EXEMPLOS das fichas ME (importados como faria o botão "Importar selecionados")
   // e determinações digitadas para completar a frequência.
   // =====================================================================================
-  function ensaioEx(fid, i) {
-    var X = FE.FICHAS[fid], exs = X.exemplos || [{ dados: X.exemplo }];
-    var dados = JSON.parse(JSON.stringify(exs[i].dados()));
-    dados.params = Object.assign({}, X.padrao || {}, dados.params || {});
-    dados.ident = dados.ident || {};
-    return { ficha: fid, dados: dados, resultados: X.calcular(dados).resultados };
-  }
-  function importa(d, k, refs) {
-    var f = PARAMS.filter(function (x) { return x.k === k; })[0];
-    d.params[k] = refs.map(function (r) { return "ex:" + r[0] + ":" + r[1]; });
-    f.aplicar(refs.map(function (r) { return ensaioEx(r[0], r[1]); }), d.params, d);
-  }
+  function importa(d, k, refs) { A.exemplos.importar(PARAMS, d, k, refs); }
   function vazio(ch) { return [{}]; }
   // seções geométricas a cada 20 m: [largura, espessura, decl LE, decl LD] por estaca
   function secoes(ini, lista) {

@@ -19,19 +19,12 @@
  */
 (function () {
   "use strict";
-  var FE = window.FE, num = FE.num, ok = FE.ok, fmt = FE.fmt, esc = FE.esc, media = FE.media, G = FE.granulometria;
+  var FE = window.FE, A = FE.aceitacao, num = FE.num, ok = FE.ok, fmt = FE.fmt, esc = FE.esc, media = FE.media, G = FE.granulometria;
   var ID = "dnit-385-2026-es-aceitacao", RHO = 0.9971;  // DNIT 428 eq. 7: MEa = 0,9971 × Gmb
 
   // ---------- Tabela A1 (Anexo A, p. 25) — amostragem variável ----------
-  var TAB_K = [[5, 1.55], [6, 1.41], [7, 1.36], [8, 1.31], [9, 1.25], [10, 1.21], [11, 1.19], [12, 1.16], [13, 1.13], [14, 1.11],
-    [15, 1.10], [16, 1.08], [17, 1.06], [19, 1.04], [21, 1.01]];
-  // n não tabelado (18, 20): k do maior n tabelado abaixo (mais exigente); n > 21: k = 1,01; n < 5: sem k
-  function coefK(n) {
-    if (!(n >= 5)) return { k: NaN };
-    var sel = null;
-    TAB_K.forEach(function (x) { if (x[0] <= n) sel = x; });
-    return { k: sel[1], nTab: sel[0], exato: sel[0] === n };
-  }
+  // É a tabela padrão da biblioteca (A.K_DNIT: n = 5…17, 19, 21 → k = 1,55…1,01); n não tabelado (18, 20): k do maior n
+  // tabelado abaixo (mais exigente); n > 21: k = 1,01; n < 5: sem k (avaliação individual). Ver A.estatistica.
 
   // ---------- faixas (Tabela 1), TNM para a Tabela 5 e pontos de controle (Tabela 2) ----------
   var FX = {
@@ -56,70 +49,31 @@
   var CL_IFI = [[0.06, "1 – Péssimo"], [0.09, "2 – Muito ruim"], [0.12, "3 – Ruim"], [0.15, "4 – Regular"], [0.22, "5 – Bom"], [0.35, "6 – Muito bom"], [Infinity, "7 – Ótimo"]];
   function classe(tab, v) { if (!ok(v)) return ""; for (var i = 0; i < tab.length; i++) if (v < tab[i][0]) return tab[i][1]; return ""; }
 
-  // ---------- estacas ----------
-  // "20+10,5" → 20 × 20 + 10,5 = 410,5 m; "20" → 400 m
-  function estacaM(s) {
-    s = String(s || "").trim();
-    if (!s) return NaN;
-    var m = /^(\d+)\s*(?:\+\s*([\d.,]+))?$/.exec(s);
-    if (!m) return NaN;
-    return Number(m[1]) * 20 + (m[2] ? num(m[2]) : 0);
-  }
-  function fmtEst(x) {
-    if (!ok(x)) return "—";
-    var e = Math.floor(x / 20 + 1e-9), r = x - e * 20;
-    return e + "+" + (r < 10 ? "0" : "") + fmt(r, Math.abs(r - Math.round(r)) < 1e-6 ? 0 : 2);
-  }
-  // número como texto para as tabelas (vírgula decimal, sem separador de milhar — "1.568" seria lido como 1,568)
-  function nstr(x, casas) { return ok(x) ? x.toFixed(casas).replace(".", ",") : ""; }
-  // fmt sem "-0,0"
-  function fmtR(x, casas) { return ok(x) && Math.abs(x) < 0.5 * Math.pow(10, -casas) ? fmt(0, casas) : fmt(x, casas); }
-  function dataBR(s) { return s && /^\d{4}-\d{2}-\d{2}$/.test(s) ? s.split("-").reverse().join("/") : (s || ""); }
-  function ceil(x) { return ok(x) ? Math.max(1, Math.ceil(x - 1e-9)) : NaN; }
+  // ---------- estacas e utilidades (biblioteca) ----------
+  // "20+10,5" → 20 × 20 + 10,5 = 410,5 m; "20" → 400 m (formato estrito: "100+00 a 110+00" não é estaca)
+  function estacaM(s) { return A.estacaM(s, { estrito: true }); }
+  var nstr = A.nstr, fmtR = A.fmtR, dataBR = A.dataBR, lim = A.txtLimites;
+  function ceil(x) { return A.nMin(x); }
 
   // ---------- lote ----------
   function lote(P) {
-    var a = estacaM(P.estIni), b = estacaM(P.estFim), ext = num(P.ext);
-    if (!ok(ext) && ok(a) && ok(b)) ext = Math.abs(b - a);
-    var larg = num(P.largura), horas = num(P.horas), dias = num(P.dias);
+    var L = A.lote(P, { estrito: true }), horas = num(P.horas), dias = num(P.dias);
     var sem = NaN;
     if (P.dataIni && P.dataFim) {
       var d0 = Date.parse(P.dataIni), d1 = Date.parse(P.dataFim);
       if (ok(d0) && ok(d1) && d1 >= d0) sem = Math.ceil((Math.round((d1 - d0) / 864e5) + 1) / 7);
     }
     if (!ok(sem) && ok(dias)) sem = ceil(dias / 7);
-    return { ini: ok(a) && ok(b) ? Math.min(a, b) : a, fim: ok(a) && ok(b) ? Math.max(a, b) : NaN, ext: ext, larg: larg,
-      area: ok(ext) && ok(larg) ? ext * larg : NaN, horas: horas, per: ceil(horas / 4), dias: dias, sem: sem,
-      cargas: num(P.nCargas), nCap: num(P.nCap), nFr: ok(num(P.nFracoes)) ? num(P.nFracoes) : 3 };
+    return Object.assign(L, { horas: horas, per: ceil(horas / 4), dias: dias, sem: sem,
+      cargas: num(P.nCargas), nCap: num(P.nCap), nFr: ok(num(P.nFracoes)) ? num(P.nFracoes) : 3 });
   }
   function rolamento(P) { return (P.camada || "rolamento") === "rolamento"; }
   function revestimento(P) { return P.camada !== "base"; }
 
   // ---------- estatística (7.5) ----------
-  // lado: "bi" (mín. e máx.), "min", "max". n ≥ 5: X̄ − ks ≥ mín. e/ou X̄ + ks ≤ máx. (eq. 2 e 3, Tabela A1);
+  // lado: mín. e máx., só mín., só máx. n ≥ 5: X̄ − ks ≥ mín. e/ou X̄ + ks ≤ máx. (eq. 2 e 3, Tabela A1);
   // 1 ≤ n < 5: a Tabela A1 não dá k — cada valor individual deve atender.
-  function estat(vals, min, max) {
-    var v = vals.filter(function (x) { return ok(x.v); }), n = v.length;
-    var o = { n: n, vals: v, min: min, max: max };
-    if (!n) return o;
-    var xs = v.map(function (x) { return x.v; });
-    o.X = media(xs);
-    o.s = n > 1 ? Math.sqrt(xs.reduce(function (s, x) { return s + (x - o.X) * (x - o.X); }, 0) / (n - 1)) : NaN;
-    o.vMin = Math.min.apply(null, xs); o.vMax = Math.max.apply(null, xs);
-    o.fora = v.filter(function (x) { return (ok(min) && x.v < min - 1e-9) || (ok(max) && x.v > max + 1e-9); });
-    var K = coefK(n);
-    if (ok(K.k)) {
-      o.modo = "estatistico"; o.k = K.k; o.kInfo = K;
-      o.inf = o.X - K.k * o.s; o.sup = o.X + K.k * o.s;
-      o.okMin = ok(min) ? o.inf >= min - 1e-9 : null;
-      o.okMax = ok(max) ? o.sup <= max + 1e-9 : null;
-      o.conforme = o.okMin !== false && o.okMax !== false;
-    } else {
-      o.modo = "individual";
-      o.conforme = !o.fora.length;
-    }
-    return o;
-  }
+  function estat(vals, min, max) { return A.estatistica(vals, min, max); }
 
   // ---------- critérios ----------
   var PESO = { nc: 4, pend: 3, ressalva: 2, ok: 1, info: 0, na: -1 };
@@ -134,13 +88,6 @@
     if (!ok(exig)) return;
     if (real === 0 && exig > 0) marca(c, "pend", "nenhuma determinação (mínimo " + exig + " " + unid + ")");
     else if (real < exig) marca(c, "ressalva", "frequência abaixo da mínima: " + real + " de " + exig + " " + unid);
-  }
-  function lim(min, max, casas, u) {
-    u = u ? " " + u : "";
-    if (ok(min) && ok(max)) return fmt(min, casas) + " a " + fmt(max, casas) + u;
-    if (ok(min)) return "≥ " + fmt(min, casas) + u;
-    if (ok(max)) return "≤ " + fmt(max, casas) + u;
-    return "—";
   }
   // critério estatístico da execução (7.3/7.5)
   function critEstat(c, e, casas, u, rotulo) {
@@ -183,7 +130,9 @@
 
   // ---------- parâmetros ----------
   var SIM_NAO = [["", "—"], ["sim", "Sim"], ["nao", "Não"]];
-  function impDica(t) { return "marque os ensaios e clique em \"Importar selecionados\": " + t + " (substitui a tabela; pode também digitar)"; }
+  function impDica(t) { return "marque os ensaios e clique em \"Importar selecionados\": " + t + " (substitui as colunas importadas antes; as colunas digitadas e o que foi digitado nas importadas são mantidos)"; }
+  // põe as colunas importadas na tabela (A.importacao.substituir: mantém colunas e campos digitados à mão)
+  function importar(d, chave, cols) { A.importacao.substituir(d, chave, cols); }
   var params = [
     // lote
     { k: "estIni", r: "Estaca inicial do lote", ph: "ex.: 20+00", dica: "estaca de 20 m: 20+10,5 = 410,5 m" },
@@ -239,68 +188,64 @@
     // importações
     { k: "impUsina", r: "Extrações (teor + granulometria)", tipo: "importarVarios", de: ["dner-me-053-94", "dnit-412-2025-me"],
       dica: impDica("DNER-ME 053 (teor e granulometria do agregado recuperado) ou DNIT 412 (só granulometria)"),
-      aplicar: function (lista, P, d) { d.usina = lista.map(colUsina).filter(Boolean); if (!d.usina.length) d.usina = [{}]; } },
+      aplicar: function (lista, P, d) { importar(d, "usina", lista.map(colUsina).filter(Boolean)); } },
     { k: "impRice", r: "Densidade máxima medida (Rice)", tipo: "importarVarios", de: "dnit-427-2020-me", dica: impDica("DNIT 427"),
       aplicar: function (lista, P, d) {
-        d.rice = lista.map(function (e) {
+        importar(d, "rice", lista.map(function (e) {
           var i = e.dados.ident || {}, r = e.resultados || {};
           return { reg: i.registro || "", data: dataBR(i.data), gmm: nstr(r.gmm, 3),
             obs: r.conforme === false ? "amostras fora de ± 0,020 da média (DNIT 427, seção 8)" : "" };
-        });
-        if (!d.rice.length) d.rice = [{}];
+        }));
       } },
     { k: "impMar", r: "CPs de usina — Marshall (controle)", tipo: "importarVarios", de: "dnit-385-2026-es",
       dica: impDica("ficha de dosagem Marshall com um só teor (modo controle); dosagens com vários teores são ignoradas"),
       aplicar: function (lista, P, d) {
-        var ign = [];
-        d.mar = [];
+        var ign = [], cols = [];
         lista.forEach(function (e) {
           var i = e.dados.ident || {}, t = ((e.resultados || {}).teores) || [];
           if (t.length !== 1) { ign.push((i.registro || "sem registro") + " (" + t.length + " teores)"); return; }
           var u = t[0];
-          d.mar.push({ reg: i.registro || "", data: dataBR(i.data), teor: nstr(u.teor, 2), gmb: nstr(u.gmb, 4), vv: nstr(u.vv, 2), rbv: nstr(u.rbv, 1),
+          cols.push({ reg: i.registro || "", data: dataBR(i.data), teor: nstr(u.teor, 2), gmb: nstr(u.gmb, 4), vv: nstr(u.vv, 2), rbv: nstr(u.rbv, 1),
             vam: nstr(u.vam, 2), est: nstr(u.est, 0), ncp: String(u.n) });
         });
         P.impMarIgn = ign.join("; ");
-        if (!d.mar.length) d.mar = [{}];
+        importar(d, "mar", cols);
       } },
     { k: "impRt", r: "Resistência à tração (RT)", tipo: "importarVarios", de: "dnit-136-2018-me", dica: impDica("DNIT 136"),
       aplicar: function (lista, P, d) {
-        d.rt = lista.map(function (e) {
+        importar(d, "rt", lista.map(function (e) {
           var i = e.dados.ident || {}, r = e.resultados || {};
           return { reg: i.registro || "", data: dataBR(i.data), rt: nstr(r.rt, 2),
             obs: r.pista ? "CPs extraídos da pista (o controle pede CPs moldados, DNIT 178)" : r.criterio === false ? "individual a mais de ± 10 % da média (DNIT 136, seção 6)" : "" };
-        });
-        if (!d.rt.length) d.rt = [{}];
+        }));
       } },
     { k: "impDui", r: "Dano por umidade induzida (RRT)", tipo: "importarVarios", de: "dnit-180-2018-me", dica: impDica("DNIT 180"),
       aplicar: function (lista, P, d) {
-        d.dui = lista.map(function (e) {
+        importar(d, "dui", lista.map(function (e) {
           var i = e.dados.ident || {}, r = e.resultados || {};
           return { reg: i.registro || "", data: dataBR(i.data), rrt: nstr(r.rrt / 100, 2),
             obs: r.sFora ? r.sFora + " CP(s) com saturação fora de 55–80 % (DNIT 180, 6.5 f)" : "" };
-        });
-        if (!d.dui.length) d.dui = [{}];
+        }));
       } },
     { k: "impPista", r: "Pista — CPs extraídos ou densímetro", tipo: "importarVarios", de: ["dnit-428-2022-me", "dnit-431-2020-me"],
       dica: impDica("DNIT 428 (Gmb e altura de cada CP extraído) ou DNIT 431 (densidade corrigida de cada ponto)"),
       aplicar: function (lista, P, d) {
-        d.pista = [];
+        var cols = [];
         lista.forEach(function (e) {
           var i = e.dados.ident || {}, r = e.resultados || {};
           if (e.ficha === "dnit-428-2022-me") {
             (r.cps || []).forEach(function (o) {
               if (!o.valido) return;
-              d.pista.push({ est: i.local || "", pos: "CP " + o.nome, reg: (i.registro || "") + " — DNIT 428", gmb: nstr(o.gmb, 4), esp: nstr(o.H, 2) });
+              cols.push({ est: i.local || "", pos: "CP " + o.nome, reg: (i.registro || "") + " — DNIT 428", gmb: nstr(o.gmb, 4), esp: nstr(o.H, 2) });
             });
           } else {
             (r.pts || []).forEach(function (o) {
               if (!ok(o.corr)) return;
-              d.pista.push({ est: o.estaca || "", pos: o.posicao || "", reg: (i.registro || "") + " — DNIT 431", gmb: nstr(o.corr / RHO, 4) });
+              cols.push({ est: o.estaca || "", pos: o.posicao || "", reg: (i.registro || "") + " — DNIT 431", gmb: nstr(o.corr / RHO, 4) });
             });
           }
         });
-        if (!d.pista.length) d.pista = [{}];
+        importar(d, "pista", cols);
       } },
   ];
 
@@ -706,17 +651,9 @@
 
   // cada trecho de 100 m do lote deve ter ao menos uma determinação (7.3.1, 7.3.2: "no mínimo, uma a cada 100 m")
   function cobertura(c, vals, L, passo, avisos, nome) {
-    if (!vals.length || !ok(L.ini) || !ok(L.fim) || L.fim <= L.ini) return;
-    var semX = vals.filter(function (v) { return !ok(v.x); }).length;
-    if (semX) avisos.push(nome + ": " + semX + " determinação(ões) sem estaca — não entram na verificação da distribuição a cada " + passo + " m.");
-    var fora = vals.filter(function (v) { return ok(v.x) && (v.x < L.ini - 1e-6 || v.x > L.fim + 1e-6); });
-    if (fora.length) avisos.push(nome + ": " + fora.length + " determinação(ões) fora das estacas do lote (" + fora.map(function (v) { return v.rot; }).join("; ") + ").");
-    var vazios = [];
-    for (var a = L.ini; a < L.fim - 1e-6; a += passo) {
-      var b = Math.min(a + passo, L.fim);
-      if (!vals.some(function (v) { return ok(v.x) && v.x >= a - 1e-6 && (v.x < b - 1e-6 || (b >= L.fim - 1e-6 && v.x <= b + 1e-6)); })) vazios.push(fmtEst(a) + " a " + fmtEst(b));
-    }
-    if (vazios.length && vals.some(function (v) { return ok(v.x); })) marca(c, "ressalva", "trecho(s) de " + passo + " m sem determinação: " + vazios.join("; "));
+    var r = A.cobertura(vals, L, passo, nome);
+    r.avisos.forEach(function (t) { avisos.push(t); });
+    if (r.motivo) marca(c, "ressalva", r.motivo);
   }
 
   var SIT = { ok: ["conforme", "fe-ok"], info: ["registrado", "fe-ok"], ressalva: ["ressalva", "rs"], nc: ["NÃO CONFORME", "fe-nok"], pend: ["pendente", "rs"] };
@@ -752,7 +689,7 @@
   function selo(sit, relat) {
     var s = SIT[sit] || ["—", ""];
     if (relat) return s[0];
-    if (s[1] === "rs") return '<span style="color:#c77d12;font-weight:bold">' + s[0] + "</span>";
+    if (s[1] === "rs") return '<span style="color:' + A.COR.ambar + ';font-weight:bold">' + s[0] + "</span>";
     return '<span class="' + s[1] + '">' + s[0] + "</span>";
   }
   function freqTxt(c) {
@@ -809,19 +746,19 @@
       return '<div style="margin-top:6px"><b' + (cor ? ' style="color:' + cor + '"' : "") + ">" + esc(tit) + "</b><ul style=\"margin:3px 0 0 18px;padding:0\">" +
         arr.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul></div>";
     }
-    return ul("Não conformidades", par.nc, relat ? "#b00" : "#e5534b") + ul("Pendências", par.pend, "#c77d12") + ul("Ressalvas", par.res, "#c77d12") + ul("Providências (DNIT 385/2026-ES)", par.prov, "");
+    return ul("Não conformidades", par.nc, relat ? "#b00" : "#e5534b") + ul("Pendências", par.pend, A.COR.ambar) + ul("Ressalvas", par.res, A.COR.ambar) + ul("Providências (DNIT 385/2026-ES)", par.prov, "");
   }
   function cabecalhoLote(r, P) {
     var L = r.lote;
     return (P.estIni || P.estFim ? "Est. " + (P.estIni || "?") + " a " + (P.estFim || "?") + " · " : "") + (ok(L.ext) ? fmt(L.ext, 0) + " m" : "extensão ?") +
       (ok(L.larg) ? " × " + fmt(L.larg, 2) + " m = " + fmt(L.area, 0) + " m²" : "") + (P.pista ? " · " + P.pista : "");
   }
-  var COR_ST = { aceito: "#2e8b57", ressalva: "#c77d12", pendente: "#c77d12", rejeitado: "#c0392b" };
+  var COR_ST = { aceito: A.COR.verde, ressalva: A.COR.ambar, pendente: A.COR.ambar, rejeitado: A.COR.nok };
 
   function resultadosHtml(calc, d) {
     var r = calc.resultados, par = r.parecer, P = d.params || {}, L = r.lote;
     var cls = par.st === "aceito" ? "fe-ok" : par.st === "rejeitado" ? "fe-nok" : "";
-    var h = '<div class="fe-res"><div class="fe-res-item" style="flex:2 1 320px"><div class="fe-res-v fe-res-p"><span class="' + cls + '"' + (cls ? "" : ' style="color:#c77d12"') + ">" + esc(par.titulo) + "</span></div>" +
+    var h = '<div class="fe-res"><div class="fe-res-item" style="flex:2 1 320px"><div class="fe-res-v fe-res-p"><span class="' + cls + '"' + (cls ? "" : ' style="color:' + A.COR.ambar + '"') + ">" + esc(par.titulo) + "</span></div>" +
       '<div class="fe-res-r">' + esc(par.frase) + "</div></div>" +
       '<div class="fe-res-item"><div class="fe-res-v fe-res-p">' + esc(cabecalhoLote(r, P)) + '</div><div class="fe-res-r">Lote · camada ' + esc({ rolamento: "de rolamento", ligacao: "de ligação", base: "de base/regularização/reforço" }[P.camada || "rolamento"]) +
       (r.fx ? " · faixa " + esc(r.fx.faixa) : "") + "</div></div>" +
@@ -833,63 +770,7 @@
   }
 
   // ---------- gráficos ----------
-  function grafico(titulo, pts, linhas, opt, eixoX) {
-    opt = opt || {};
-    var W = opt.w || 560, H = opt.h || 230, m = { l: 50, r: 14, t: 22, b: 36 };
-    pts = pts.filter(function (p) { return ok(p.y) && ok(p.x); });
-    if (!pts.length) return null;
-    var imp = opt.imprimir, txt = imp ? "#222" : "var(--text-dim)", grade = imp ? "#ddd" : "var(--border)", cor = imp ? "#1f5fbf" : "#4f8cff";
-    var ys = pts.map(function (p) { return p.y; }).concat(linhas.map(function (l) { return l.y; }).filter(ok));
-    var y0 = Math.min.apply(null, ys), y1 = Math.max.apply(null, ys), pad = Math.max((y1 - y0) * 0.12, Math.abs(y1) * 0.005, 0.05);
-    y0 -= pad; y1 += pad;
-    var xs = pts.map(function (p) { return p.x; }), x0 = Math.min.apply(null, xs), x1 = Math.max.apply(null, xs);
-    if (x1 - x0 < 1e-9) { x0 -= 1; x1 += 1; }
-    var dx = (x1 - x0) * 0.05; x0 -= dx; x1 += dx;
-    function X(v) { return m.l + (v - x0) / (x1 - x0) * (W - m.l - m.r); }
-    function Y(v) { return H - m.b - (v - y0) / (y1 - y0) * (H - m.t - m.b); }
-    var s = '<svg class="fe-graf" viewBox="0 0 ' + W + " " + H + '" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" font-size="10">';
-    s += '<text x="' + m.l + '" y="13" fill="' + txt + '" font-weight="bold" font-size="11">' + esc(titulo) + "</text>";
-    var passo = niceStep((y1 - y0) / 5);
-    for (var gy = Math.ceil(y0 / passo) * passo; gy <= y1 + 1e-9; gy += passo) {
-      s += '<line x1="' + m.l + '" y1="' + Y(gy) + '" x2="' + (W - m.r) + '" y2="' + Y(gy) + '" stroke="' + grade + '" stroke-width="0.6"/>';
-      s += '<text x="' + (m.l - 5) + '" y="' + (Y(gy) + 3) + '" text-anchor="end" fill="' + txt + '">' + fmt(gy, passo < 0.1 ? 2 : passo < 1 ? 1 : 0) + "</text>";
-    }
-    s += '<rect x="' + m.l + '" y="' + m.t + '" width="' + (W - m.l - m.r) + '" height="' + (H - m.t - m.b) + '" fill="none" stroke="' + txt + '" stroke-width="0.6"/>';
-    linhas.forEach(function (l) {
-      if (!ok(l.y) || l.y < y0 || l.y > y1) return;
-      var c = l.tipo === "lim" ? (imp ? "#c0392b" : "#e5534b") : l.tipo === "ks" ? (imp ? "#7a4fbf" : "#b58cff") : txt;
-      s += '<line x1="' + m.l + '" y1="' + Y(l.y) + '" x2="' + (W - m.r) + '" y2="' + Y(l.y) + '" stroke="' + c + '" stroke-width="' + (l.tipo === "lim" ? 1.4 : 1) + '"' +
-        (l.tipo === "med" ? "" : ' stroke-dasharray="' + (l.tipo === "lim" ? "6 3" : "2 3") + '"') + "/>";
-      s += '<text x="' + (W - m.r - 3) + '" y="' + (Y(l.y) - 3) + '" text-anchor="end" fill="' + c + '">' + esc(l.txt) + "</text>";
-    });
-    var ord = pts.slice().sort(function (a, b) { return a.x - b.x; });
-    if (opt.linha !== false) s += '<path d="' + ord.map(function (p, i) { return (i ? "L" : "M") + X(p.x).toFixed(1) + " " + Y(p.y).toFixed(1); }).join(" ") + '" fill="none" stroke="' + cor + '" stroke-width="1" opacity="0.5"/>';
-    pts.forEach(function (p) {
-      s += '<circle cx="' + X(p.x).toFixed(1) + '" cy="' + Y(p.y).toFixed(1) + '" r="3.5" fill="' + (p.fora ? (imp ? "#c0392b" : "#e5534b") : cor) + '"/>';
-    });
-    // eixo x: estacas (marcas em múltiplos de 20 m quando o trecho é longo) ou nº da amostra
-    var pX = eixoX === "idx" ? Math.max(1, Math.round(niceStep((x1 - x0) / 6))) : niceStep((x1 - x0) / 6);
-    if (eixoX !== "idx" && pX >= 20) pX = Math.round(pX / 20) * 20;
-    if (eixoX !== "idx" && pX < 1) pX = 1;
-    for (var xv = Math.ceil(x0 / pX) * pX; xv <= x1 + 1e-9; xv += pX) {
-      s += '<line x1="' + X(xv) + '" y1="' + (H - m.b) + '" x2="' + X(xv) + '" y2="' + (H - m.b + 3) + '" stroke="' + txt + '" stroke-width="0.6"/>';
-      s += '<text x="' + X(xv) + '" y="' + (H - m.b + 13) + '" text-anchor="middle" fill="' + txt + '">' + esc(eixoX === "idx" ? String(Math.round(xv)) : fmtEst(Math.round(xv))) + "</text>";
-    }
-    s += '<text x="' + ((W + m.l) / 2) + '" y="' + (H - 5) + '" text-anchor="middle" fill="' + txt + '">' + (eixoX === "idx" ? "Amostra" : "Estaca") + "</text>";
-    return s + "</svg>";
-  }
-  function niceStep(x) { var p = Math.pow(10, Math.floor(Math.log10(x))), f = x / p; return (f < 1.5 ? 1 : f < 3.5 ? 2 : f < 7.5 ? 5 : 10) * p; }
-  function linhasEst(e, casas, u) {
-    var l = [];
-    if (ok(e.min)) l.push({ y: e.min, tipo: "lim", txt: "mín. " + fmt(e.min, casas) + u });
-    if (ok(e.max)) l.push({ y: e.max, tipo: "lim", txt: "máx. " + fmt(e.max, casas) + u });
-    if (ok(e.X)) l.push({ y: e.X, tipo: "med", txt: "X̄ " + fmt(e.X, casas) });
-    if (e.modo === "estatistico") {
-      if (ok(e.min)) l.push({ y: e.inf, tipo: "ks", txt: "X̄ − ks" });
-      if (ok(e.max)) l.push({ y: e.sup, tipo: "ks", txt: "X̄ + ks" });
-    }
-    return l;
-  }
+  var grafico = A.grafico, linhasEst = A.linhasEst;  // valores × estaca com limites, média e X̄ ± ks
   function graficos(calc, d, opt) {
     var r = calc.resultados, P = d.params || {}, out = [];
     function ptsEst(e) { return e.vals.map(function (v) { return { x: v.x, y: v.v, fora: (ok(e.min) && v.v < e.min - 1e-9) || (ok(e.max) && v.v > e.max + 1e-9) }; }); }
@@ -967,16 +848,7 @@
   // =====================================================================================
   // exemplos
   // =====================================================================================
-  function imp(fid, i) {  // ensaio de exemplo de uma ficha ME, como o motor entrega ao "aplicar"
-    var dados = JSON.parse(JSON.stringify(FE.FICHAS[fid].exemplos[i].dados()));
-    dados.params = Object.assign({}, FE.FICHAS[fid].padrao || {}, dados.params || {});
-    return { ficha: fid, dados: dados, resultados: FE.FICHAS[fid].calcular(dados).resultados, exemplo: FE.FICHAS[fid].exemplos[i].nome };
-  }
-  function aplicarEx(d, k, refs) {
-    var f = params.filter(function (x) { return x.k === k; })[0];
-    d.params[k] = refs.map(function (r) { return "ex:" + r[0] + ":" + r[1]; });
-    f.aplicar(refs.map(function (r) { return imp(r[0], r[1]); }), d.params, d);
-  }
+  function aplicarEx(d, k, refs) { A.exemplos.importar(params, d, k, refs); }  // como o botão "Importar selecionados"
   function col(sieves, vals) { var o = {}; sieves.forEach(function (mm, j) { if (ok(vals[j])) o[G.chavePen(mm)] = nstr(vals[j], 1); }); return o; }
   var PEN_C = [19.1, 12.7, 9.5, 6.3, 4.8, 2.36, 1.18, 0.6, 0.3, 0.15, 0.075];
   var PEN_B = [25.4, 19.1, 12.7, 9.5, 6.3, 4.8, 2.36, 1.18, 0.6, 0.3, 0.15, 0.075];

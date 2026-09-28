@@ -1427,8 +1427,9 @@
     }
     return v;
   }
-  function montarRelatorio(F, n, d) {
-    var calc = F.calcular(d), i = d.ident || {};
+  // extra.anexos = [{nome, legenda, tipo, tamanho, url (data URL das imagens)}]
+  function montarRelatorio(F, n, d, extra) {
+    var calc = F.calcular(d), i = d.ident || {}, anexos = (extra && extra.anexos) || [];
     var identHtml = IDENT.map(function (f) {
       var v = i[f.k] || "";
       if (f.tipo === "date" && v) v = v.split("-").reverse().join("/");
@@ -1499,6 +1500,9 @@
       ".res th{width:42%;background:#f2f2f2;font-weight:normal}.res td b{font-size:12.5px}" +
       ".gr{margin-top:8px}.gr th,.gr td{text-align:center;font-size:10.5px}.gr td:first-child{text-align:left}.gr thead th{background:#f2f2f2}" +
       ".graf{text-align:center;margin-top:8px}.graf svg{width:100%;max-width:560px}" +
+      ".fotos{display:grid;grid-template-columns:1fr 1fr;gap:8px}.fotos figure{margin:0;break-inside:avoid;page-break-inside:avoid}" +
+      ".fotos img{width:100%;max-height:300px;object-fit:contain;border:1px solid #ccc;background:#fafafa}" +
+      ".fotos figcaption{font-size:10px;color:#333;margin-top:2px}.fotos figcaption span{color:#777}" +
       ".av{border:1px solid #c77d12;background:#fff6e5;padding:5px 8px;margin-top:6px}.nota{color:#555;margin:4px 0}" +
       ".canc{border:2px solid #c0392b;color:#c0392b;font-weight:bold;padding:5px 8px;margin:8px 0}" +
       ".ass{display:flex;gap:30px;margin-top:34px}.ass div{flex:1;border-top:1px solid #111;text-align:center;padding-top:3px}" +
@@ -1514,8 +1518,22 @@
       ((F.relatorio || {}).notas ? '<p class="nota">' + esc(F.relatorio.notas) + "</p>" : "") +
       (calc.avisos.length ? '<div class="av">' + calc.avisos.map(function (a) { return "⚠ " + esc(a); }).join("<br>") + "</div>" : "") +
       (d.obs ? "<h2>Observações</h2><p>" + esc(d.obs).replace(/\n/g, "<br>") + "</p>" : "") +
+      htmlAnexos(anexos) +
       '<div class="ass"><div>' + esc(i.laboratorista || "Laboratorista") + "</div><div>" + esc(i.responsavel || "Responsável técnico") + "</div></div>" +
       '<div class="rod">Calculado conforme ' + esc(n.codigo) + " · gerado em " + esc(hoje) + " pelo acervo Normas DNER/DNIT.</div></body></html>";
+  }
+
+  function htmlAnexos(anexos) {
+    if (!anexos.length) return "";
+    var fotos = anexos.filter(function (a) { return a.url; }), outros = anexos.filter(function (a) { return !a.url; });
+    return "<h2>Anexos</h2>" +
+      (fotos.length ? '<div class="fotos">' + fotos.map(function (a, k) {
+        return '<figure><img src="' + a.url + '" alt=""><figcaption>Foto ' + (k + 1) + (a.legenda ? " — " + esc(a.legenda) : "") +
+          " <span>(" + esc(a.nome) + ")</span></figcaption></figure>";
+      }).join("") + "</div>" : "") +
+      (outros.length ? "<p><b>Arquivos anexados:</b> " + outros.map(function (a) {
+        return esc(a.nome) + (a.legenda ? " — " + esc(a.legenda) : "");
+      }).join("; ") + "</p>" : "");
   }
 
   // =====================================================================================
@@ -1765,8 +1783,8 @@
             esc((i.registro || "sem registro") + " · " + (i.data || "") + " · " + (i.local || i.origem || "")) + "</option>";
         }).join("") + "</optgroup>" : "") + '</select></label>' +
         (estado.ensaio.exemplo ? ' <span class="fe-ex-tag">exemplo — salve para guardar uma cópia</span>' : "") +
-        ' <button class="fe-link" id="fe-exportar">Exportar arquivo</button>' +
-        ' <label class="fe-link">Importar arquivo<input type="file" id="fe-importar" accept=".json" hidden></label>' +
+        ' <button class="fe-link" id="fe-exportar" title="Pacote .zip com os dados do ensaio e os anexos">Exportar (.zip)</button>' +
+        ' <label class="fe-link" title="Pacote .zip exportado por esta aba (aceita também o .json antigo)">Importar (.zip)<input type="file" id="fe-importar" accept=".zip,.json" hidden></label>' +
         (salvos.some(function (s) { return s.uid === estado.ensaio.uid; }) ? ' <button class="fe-link fe-perigo" id="fe-excluir">Excluir este ensaio</button>' : "") +
         '<span id="fe-status"></span></div>';
 
@@ -1786,11 +1804,84 @@
       html += '<h3 class="fe-h">Resultados</h3><div id="fe-resultados"></div>' +
         (F.grafico || F.graficos ? '<div class="fe-grafs" id="fe-grafico"></div>' : "") + '<div id="fe-avisos"></div>' +
         '<h3 class="fe-h">Observações</h3><textarea id="fe-obs" class="fe-obs" rows="3" placeholder="Ocorrências, desvios, material, etc.">' +
-        esc(d.obs || "") + "</textarea>";
+        esc(d.obs || "") + "</textarea>" +
+        '<h3 class="fe-h">Anexos — fotos e arquivos <span class="fe-hint">ficam neste navegador junto com o ensaio salvo; vão no .zip exportado e no relatório</span></h3>' +
+        '<div id="fe-anexos"></div>';
       painel.innerHTML = html;
       renderTabelas();
       recalcular();
       ligarEventos();
+      renderAnexos();
+    }
+
+    // ---------- anexos (fotos e arquivos) ----------
+    // d.anexos = [{id, nome, tipo, tamanho, legenda}]; os arquivos ficam no IndexedDB (FE_ARQ.anexos)
+    var ARQ = window.FE_ARQ, urlsAnexo = {};
+    function tamanhoTxt(b) { return b >= 1048576 ? fmt(b / 1048576, 1) + " MB" : fmt(Math.max(1, Math.round(b / 1024)), 0) + " kB"; }
+    function ehImagem(a) { return /^image\//.test(a.tipo || ""); }
+    function urlAnexo(a) {
+      if (urlsAnexo[a.id]) return Promise.resolve(urlsAnexo[a.id]);
+      return ARQ.anexos.ler(a.id).then(function (b) { return b ? (urlsAnexo[a.id] = URL.createObjectURL(b)) : null; });
+    }
+    function renderAnexos() {
+      var box = document.getElementById("fe-anexos");
+      if (!box || !ARQ) return;
+      var lista = estado.ensaio.dados.anexos || [];
+      box.innerHTML = '<div class="fe-anx-grade">' + lista.map(function (a, i) {
+        return '<div class="fe-anx" data-anx="' + i + '"><div class="fe-anx-prev" data-abrir="' + i + '" title="Abrir">' +
+          (ehImagem(a) ? '<img alt="">' : '<span class="fe-anx-ext">' + esc((a.nome.split(".").pop() || "arq").slice(0, 5).toUpperCase()) + "</span>") + "</div>" +
+          '<div class="fe-anx-nome" title="' + esc(a.nome) + '">' + esc(a.nome) + ' <small>' + tamanhoTxt(a.tamanho || 0) + "</small></div>" +
+          '<input class="fe-anx-leg" data-leg="' + i + '" placeholder="Legenda (sai no relatório)" value="' + esc(a.legenda || "") + '">' +
+          '<button class="fe-link fe-perigo" data-rem-anx="' + i + '">remover</button></div>';
+      }).join("") +
+        '<label class="fe-anx fe-anx-add" title="Fotos, planilhas, PDFs… (ou arraste os arquivos para cá)"><span>＋</span>Adicionar fotos e arquivos' +
+        '<input type="file" id="fe-anx-input" multiple hidden></label></div>' +
+        (ARQ.anexos.soMemoria() ? '<p class="fe-hint">Este navegador não permite guardar arquivos: os anexos valem só até fechar a página — use Exportar (.zip).</p>' : "");
+      lista.forEach(function (a, i) {
+        if (!ehImagem(a)) return;
+        urlAnexo(a).then(function (u) {
+          var img = box.querySelector('[data-anx="' + i + '"] img');
+          if (img && u) img.src = u;
+        });
+      });
+    }
+    function adicionarAnexos(files) {
+      var d = estado.ensaio.dados, grandes = [];
+      d.anexos = d.anexos || [];
+      Promise.all(Array.prototype.map.call(files, function (f) {
+        if (f.size > 50 * 1048576) { grandes.push(f.name); return null; }
+        var a = { id: uid(), nome: f.name, tipo: f.type || "", tamanho: f.size, legenda: "" };
+        return ARQ.anexos.guardar(a.id, f).then(function () { d.anexos.push(a); });
+      })).then(function () {
+        renderAnexos();
+        status(grandes.length ? "Arquivo(s) acima de 50 MB não anexado(s): " + grandes.join(", ") : "Anexo(s) adicionado(s) — salve o ensaio para guardá-los.");
+      }).catch(function (e) { alert("Não foi possível anexar: " + e.message); });
+    }
+    // apaga do IndexedDB os arquivos que nenhum ensaio salvo (nem o aberto) usa mais
+    function limparAnexosOrfaos() {
+      if (!ARQ) return;
+      var usados = {};
+      lerTodos().concat([estado.ensaio]).forEach(function (s) {
+        ((s && s.dados && s.dados.anexos) || []).forEach(function (a) { usados[a.id] = true; });
+      });
+      ARQ.anexos.chaves().then(function (ks) {
+        var orf = ks.filter(function (k) { return !usados[k]; });
+        if (orf.length) ARQ.anexos.apagar(orf);
+      });
+    }
+    // anexos como data URL (para o relatório, que abre em outra janela)
+    function anexosParaRelatorio(d) {
+      return Promise.all((d.anexos || []).map(function (a) {
+        return ARQ.anexos.ler(a.id).then(function (b) {
+          if (!b || !ehImagem(a)) return { nome: a.nome, legenda: a.legenda, tipo: a.tipo, tamanho: a.tamanho };
+          return new Promise(function (ok) {
+            var r = new FileReader();
+            r.onload = function () { ok({ nome: a.nome, legenda: a.legenda, tipo: a.tipo, tamanho: a.tamanho, url: r.result }); };
+            r.onerror = function () { ok({ nome: a.nome, legenda: a.legenda, tipo: a.tipo, tamanho: a.tamanho }); };
+            r.readAsDataURL(b);
+          });
+        });
+      }));
     }
 
     function renderTabelas() {
@@ -1881,6 +1972,7 @@
       painel.oninput = function (ev) {
         var t = ev.target;
         if (t.id === "fe-obs") { d.obs = t.value; return; }
+        if (t.dataset.leg !== undefined) { (d.anexos || [])[Number(t.dataset.leg)].legenda = t.value; return; }
         if (t.dataset.g) {
           d[t.dataset.g] = d[t.dataset.g] || {};
           d[t.dataset.g][t.dataset.k] = t.value;
@@ -1897,6 +1989,8 @@
       };
       painel.onchange = function (ev) {
         var t = ev.target;
+        if (t.id === "fe-anx-input") { if (t.files.length) adicionarAnexos(t.files); t.value = ""; return; }
+        if (t.dataset.leg !== undefined) return;
         if (t.dataset.importar) {  // traz resultados de um ensaio salvo de outra ficha
           var f = F.params.filter(function (x) { return x.k === t.dataset.importar; })[0];
           var mEx = /^ex:(.+):(\d+)$/.exec(t.value);
@@ -1912,6 +2006,20 @@
         if (a) { ctx.abrirNorma(a.dataset.id); return; }
         var fl = ev.target.closest(".fe-ficha-link");
         if (fl) { abrir(fl.dataset.f); return; }
+        var remAnx = ev.target.closest("[data-rem-anx]"), abrAnx = ev.target.closest("[data-abrir]");
+        if (remAnx) {
+          var ra = d.anexos[Number(remAnx.dataset.remAnx)];
+          if (confirm("Remover o anexo \"" + ra.nome + "\" deste ensaio?")) { d.anexos.splice(Number(remAnx.dataset.remAnx), 1); renderAnexos(); }
+          return;
+        }
+        if (abrAnx) {
+          var aa = d.anexos[Number(abrAnx.dataset.abrir)], jan = window.open("", "_blank");
+          urlAnexo(aa).then(function (u) {
+            if (!u) { if (jan) jan.close(); alert("Arquivo não encontrado neste navegador."); return; }
+            if (jan) jan.location.href = u; else window.open(u, "_blank");
+          });
+          return;
+        }
         var impv = ev.target.closest("[data-impv-aplicar]");
         if (impv) {
           var fv = F.params.filter(function (x) { return x.k === impv.dataset.impvAplicar; })[0];
@@ -1928,6 +2036,22 @@
         if (add) { d[add.dataset.add].push({ usar: true }); renderTabelas(); recalcular(); }
         if (rem && d[rem.dataset.rem].length > 1) { d[rem.dataset.rem].pop(); renderTabelas(); recalcular(); }
       };
+      // arrastar arquivos para a área de anexos
+      painel.ondragover = function (ev) {
+        if (!ev.target.closest("#fe-anexos")) return;
+        ev.preventDefault();
+        document.getElementById("fe-anexos").classList.add("fe-anx-sobre");
+      };
+      painel.ondragleave = function (ev) {
+        var box = document.getElementById("fe-anexos");
+        if (box && !box.contains(ev.relatedTarget)) box.classList.remove("fe-anx-sobre");
+      };
+      painel.ondrop = function (ev) {
+        if (!ev.target.closest("#fe-anexos")) return;
+        ev.preventDefault();
+        document.getElementById("fe-anexos").classList.remove("fe-anx-sobre");
+        if (ev.dataTransfer.files.length) adicionarAnexos(ev.dataTransfer.files);
+      };
       document.getElementById("fe-novo").onclick = function () { estado.ensaio = novoEnsaio(estado.ficha); renderFicha(); };
       var bNorma = document.getElementById("fe-btn-norma");
       if (bNorma) bNorma.onclick = function () {
@@ -1943,15 +2067,15 @@
         var r = ultimoCalc ? ultimoCalc.resultados : null;
         estado.ensaio.resultados = r ? JSON.parse(JSON.stringify(r, function (k, v) { return k === "ajuste" || k === "iscAjuste" ? undefined : v; })) : null;
         todos.push(estado.ensaio);
-        if (gravarTodos(todos)) { renderLista(); renderFicha(); status("Salvo neste navegador."); }
-        else status("Não foi possível salvar (armazenamento do navegador indisponível) — use Exportar arquivo.");
+        if (gravarTodos(todos)) { renderLista(); renderFicha(); limparAnexosOrfaos(); status("Salvo neste navegador."); }
+        else status("Não foi possível salvar (armazenamento do navegador indisponível) — use Exportar (.zip).");
       };
       var ex = document.getElementById("fe-excluir");
       if (ex) ex.onclick = function () {
-        if (!confirm("Excluir este ensaio salvo neste navegador?")) return;
+        if (!confirm("Excluir este ensaio salvo neste navegador (e os anexos dele)?")) return;
         gravarTodos(lerTodos().filter(function (s) { return s.uid !== estado.ensaio.uid; }));
         estado.ensaio = novoEnsaio(estado.ficha);
-        renderLista(); renderFicha();
+        renderLista(); renderFicha(); limparAnexosOrfaos();
       };
       document.getElementById("fe-abrir").onchange = function (ev) {
         ev.stopPropagation();
@@ -1967,20 +2091,48 @@
         var s = lerTodos().filter(function (x) { return x.uid === v; })[0];
         if (s) { estado.ensaio = s; renderFicha(); }
       };
+      // pacote .zip: ensaio.json + anexos/<id>-<nome>
       document.getElementById("fe-exportar").onclick = function () {
-        var blob = new Blob([JSON.stringify(estado.ensaio, null, 1)], { type: "application/json" });
-        var a = document.createElement("a");
-        a.href = URL.createObjectURL(blob);
-        a.download = (normaDe(estado.ficha).codigo + "_" + ((d.ident || {}).registro || "ensaio")).replace(/[^\w.-]+/g, "_") + ".json";
-        a.click();
-        setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+        var e = JSON.parse(JSON.stringify(estado.ensaio)), anx = e.dados.anexos || [];
+        Promise.all(anx.map(function (a) {
+          return ARQ.anexos.ler(a.id).then(function (b) {
+            a.arquivo = "anexos/" + a.id + "-" + a.nome.replace(/[\\/:*?"<>|]+/g, "_");
+            return b ? { nome: a.arquivo, dados: b } : null;
+          });
+        })).then(function (arqs) {
+          var faltam = anx.filter(function (a, i) { return !arqs[i]; }).map(function (a) { return a.nome; });
+          var itens = [{ nome: "ensaio.json", dados: JSON.stringify(e, null, 1) }].concat(arqs.filter(Boolean));
+          return ARQ.zip.criar(itens).then(function (zip) {
+            var a = document.createElement("a");
+            a.href = URL.createObjectURL(zip);
+            a.download = (normaDe(estado.ficha).codigo + "_" + ((d.ident || {}).registro || "ensaio")).replace(/[^\w.-]+/g, "_") + ".zip";
+            a.click();
+            setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000);
+            status(faltam.length ? "Exportado, mas sem os anexos não encontrados neste navegador: " + faltam.join(", ") : "Exportado (.zip com " + (itens.length - 1) + " anexo(s)).");
+          });
+        }).catch(function (err) { alert("Não foi possível exportar: " + err.message); });
       };
       document.getElementById("fe-importar").onchange = function (ev) {
         ev.stopPropagation();
         var f = ev.target.files[0];
         if (!f) return;
-        f.text().then(function (t) {
-          var e = JSON.parse(t);
+        var zip = /\.zip$/i.test(f.name) || f.type === "application/zip" || f.type === "application/x-zip-compressed";
+        (zip ? ARQ.zip.ler(f).then(function (ent) {
+          if (!ent["ensaio.json"]) throw new Error("o .zip não tem ensaio.json");
+          return ent["ensaio.json"].text().then(function (t) {
+            var e = JSON.parse(t);
+            return Promise.all(((e.dados && e.dados.anexos) || []).map(function (a) {
+              var b = ent[a.arquivo];
+              if (!b) return null;
+              a.id = uid();  // id novo: não sobrescreve anexos de outro ensaio deste navegador
+              delete a.arquivo;
+              return ARQ.anexos.guardar(a.id, a.tipo ? new Blob([b], { type: a.tipo }) : b);
+            })).then(function () {
+              if (e.dados && e.dados.anexos) e.dados.anexos = e.dados.anexos.filter(function (a) { return !a.arquivo; });
+              return e;
+            });
+          });
+        }) : f.text().then(JSON.parse)).then(function (e) {
           if (!e || !FICHAS[e.ficha] || !e.dados) throw new Error("arquivo não é um ensaio desta aba");
           estado.ficha = e.ficha;
           estado.ensaio = e;
@@ -1988,12 +2140,16 @@
         }).catch(function (err) { alert("Não foi possível importar: " + err.message); });
       };
       document.getElementById("fe-relatorio").onclick = function () {
-        var doc = montarRelatorio(FICHAS[estado.ficha], normaDe(estado.ficha), estado.ensaio.dados);
+        // a janela abre já no clique (senão o navegador bloqueia); o conteúdo entra quando os anexos carregarem
         var w = window.open("", "_blank");
         if (!w) { alert("O navegador bloqueou a janela do relatório: permita pop-ups para esta página."); return; }
-        w.document.open();
-        w.document.write(doc);
-        w.document.close();
+        w.document.write("<p style=\"font:14px Arial;padding:20px\">Gerando o relatório…</p>");
+        anexosParaRelatorio(estado.ensaio.dados).then(function (anexos) {
+          var doc = montarRelatorio(FICHAS[estado.ficha], normaDe(estado.ficha), estado.ensaio.dados, { anexos: anexos });
+          w.document.open();
+          w.document.write(doc);
+          w.document.close();
+        });
       };
     }
 

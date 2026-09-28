@@ -137,6 +137,11 @@
       "page": 31,
       "cat": "contradicao",
       "texto": "Degradação Marshall: o Anexo E inverte os limites de IDm e IDml (IDm ≤ 5 %, IDml ≤ 8 %) em relação ao texto de 5.1.2.1 a. Adotado o texto."
+    },
+    {
+      "page": 9,
+      "cat": "contradicao",
+      "texto": "Tabela 4 exige estabilidade Marshall ≥ 700 kgf; o Anexo E (p. 31) diz ≥ 500 kgf \"na dosagem\". Diferença semelhante na resistência à tração (0,70 × 0,65 MPa) e no dano por umidade (0,75 × 0,70)."
     }
   ],
   "dnit_407_2017_es-1": [
@@ -253,6 +258,11 @@
       "page": 9,
       "cat": "erro",
       "texto": "7.2.1 a cita \"DNER-ES 053/94\" para o teor de ligante; trata-se do método DNER-ME 053/94."
+    },
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "Tabela 3: a linha \"Nº 10 – 1,18 mm\" está trocada; 1,18 mm corresponde à peneira nº 16 (a nº 10 é 2,0 mm)."
     }
   ],
   "dnit_071_2006_es": [
@@ -1166,6 +1176,13 @@
       "page": 1,
       "cat": "erro",
       "texto": "Adota a ABNT MB-50 sem procedimento nem fórmula; a p. 1 diz \"MB-50, de 1989\" e a seção 3 (p. 2) \"de 1939\". Correção barométrica, arredondamento e precisão dependem da MB-50/NBR 11341, fora do acervo."
+    }
+  ],
+  "dner_me_107_94-1": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "A fórmula do fator de correção f = 927,23 h^−1,64 (p. 04) dá 1,024 para 63,5 mm, enquanto a Tabela anexa (p. 05) dá 1,00; a fórmula fica ~2 % acima da tabela em toda a faixa. A densidade aparente remete à DNER-ME 117/94, fora do acervo."
     }
   ]
 }

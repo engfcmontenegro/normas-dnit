@@ -1184,5 +1184,119 @@
       "cat": "contradicao",
       "texto": "A fórmula do fator de correção f = 927,23 h^−1,64 (p. 04) dá 1,024 para 63,5 mm, enquanto a Tabela anexa (p. 05) dá 1,00; a fórmula fica ~2 % acima da tabela em toda a faixa. A densidade aparente remete à DNER-ME 117/94, fora do acervo."
     }
+  ],
+  "dnit_429_2020_me-3": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "7 b: fala em \"porcentagem total de partículas fraturadas\" — texto copiado de outra norma (o ensaio é de partículas achatadas e alongadas)."
+    },
+    {
+      "page": 6,
+      "cat": "contradicao",
+      "texto": "7 a pede Pᵢ com aproximação de 1 %, mas o Anexo B apresenta 5,84 %, 18,17 % e 7,13 %. O Anexo B não informa a razão dimensional nem o número de partículas, rotula a fração \"12,5–9,5\" com o % retido na 9,5 mm e mostra 95,86 % onde a soma das parcelas (85,8 + 10,1) dá 95,9 %."
+    }
+  ],
+  "dnit_452_2024_me": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "Seção 7: o resultado \"deve ser o mesmo para as duas amostras\", mas só o Anexo A (informativo) diz o que fazer quando divergem (concluir como não satisfatório). Não define se o teor de melhorador é em relação à massa de ligante."
+    }
+  ],
+  "dnit_133_2025_me": [
+    {
+      "page": 8,
+      "cat": "contradicao",
+      "texto": "k é o fator de correção de temperatura em 7.1 (p. 5), mas a legenda do formulário C1 (p. 8) chama k de \"constante da viga Benkelman\"."
+    },
+    {
+      "page": 9,
+      "cat": "erro",
+      "texto": "Formulário C2 traz L₀, L₂₀, L₃₀, L₄₅, L₆₀, L₁₂₀ e Lf, sem L₂₅ e L₉₀, que 6.8 exige (L₂₅ também em 6.10)."
+    },
+    {
+      "page": 10,
+      "cat": "incerto",
+      "texto": "Anexo B (normativo): a correção de temperatura existe só como gráfico, sem equação; as curvas de 15 e 20 cm quase se sobrepõem entre 18 e 25 °C."
+    }
+  ],
+  "dner_me_082_94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "A fórmula da umidade h não tem o \"× 100\", embora h seja definido em porcentagem. Não fixa o arredondamento do LP."
+    }
+  ],
+  "dner_me_093_94-1": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Tabela de 6.4: massa específica da água a 17 °C impressa como 0,9998 (o correto é 0,9988); o k20 = 1,0006 da mesma linha está coerente."
+    },
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "4 (aparelhagem): \"balança com capacidade de 200 kg, sensível a 0,01 g\" — provavelmente 200 g. 4.1 cita a DNER-ME 041/63 e 2.1 a 041/94. 6.3: \"não diferirem do 0,009\"."
+    }
+  ],
+  "dner_me_122_94-1": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "7.1.5 manda usar o \"recipiente referido em 3.e\"; o recipiente está em 4.e. Em 8.1 a remissão \"itens 7 la? 1.6\" está corrompida (7.1.1 a 7.1.6)."
+    }
+  ],
+  "dnit_266_2025_me": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "A eq. 1 divide pela massa final m_f, mas 7 a) diz \"em porcentagem da massa da amostra ensaiada\" (massa inicial)."
+    },
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "Tabela 1: faixas de TNM se sobrepõem em 2,36, 4,75, 9,5 e 19 mm (≤ e ≥ no mesmo valor)."
+    }
+  ],
+  "dnit_437_2022_me": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "O título de 6.3.2 vai até TNM ≤ 152 mm, mas a Tabela 1 termina em 125 mm; 6.2 a) escreve \"TMN\" por \"TNM\"; V é chamado de \"volume nominal\", embora seja o volume medido na calibração."
+    }
+  ],
+  "dner_me_192_97": [
+    {
+      "page": 1,
+      "cat": "incerto",
+      "texto": "A massa unitária remete à DNER-ME 152, cancelada e substituída pela DNIT 437/2022-ME."
+    }
+  ],
+  "dner_me_404_00": [
+    {
+      "page": 8,
+      "cat": "erro",
+      "texto": "5.10 cita a \"Figura 4, no Anexo\", mas a figura da medida do abatimento está rotulada \"Figura 3\"; há duas Figuras 3."
+    }
+  ],
+  "dner_me_201_94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "6.2 omite o valor em mm/min para prensas não hidráulicas e escreve \"(140 +70) kPa/s\" (provavelmente ± 70). 5.2 diz \"moldados e deformados\" em vez de desmoldados."
+    }
+  ],
+  "dner_me_180_94-1": [
+    {
+      "page": 10,
+      "cat": "erro",
+      "texto": "Tabela 2 intitulada \"Resiliência\" à compressão simples, com Rcs em 2 casas contra a aproximação de 0,1 MPa de 7.3; o Anexo tem 6 umidades contra as \"5 umidades\" de 7.2."
+    },
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "6.5.5 chama m's de \"massa específica aparente\" com unidade em g (é a massa da mistura úmida); 6.5.1 converte 0,59 MN·m/m³ em 60 412 kgf·m/m³ (o correto é ~60 163)."
+    }
   ]
 }

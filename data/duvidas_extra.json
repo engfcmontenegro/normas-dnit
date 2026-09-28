@@ -1298,5 +1298,167 @@
       "cat": "erro",
       "texto": "6.5.5 chama m's de \"massa específica aparente\" com unidade em g (é a massa da mistura úmida); 6.5.1 converte 0,59 MN·m/m³ em 60 412 kgf·m/m³ (o correto é ~60 163)."
     }
+  ],
+  "dner_me_399_99": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "Seção 6 define a perda ao choque como a diferença (M1 − Mr) em % de M1, e a ficha do Anexo (p. 05) tem a coluna \"material que passa, Mp\"; mas a fórmula impressa (p. 03 e 05) é T = Mr/M1 × 100, que dá a fração retida."
+    }
+  ],
+  "dner_me_197_97": [
+    {
+      "page": 5,
+      "cat": "incerto",
+      "texto": "R = (Mi − Mf)/Mi × 100 é a porcentagem de finos produzidos (menor = mais resistente), mas a DNIT 462/2025-EM (6.6) exige \"resistência ao esmagamento\" ≥ 55 % ou ≥ 65 %, o que só faz sentido para 100 − R. 6.2: \"diferença de 3 %\" não diz se é absoluta ou relativa."
+    }
+  ],
+  "dnit_462_2025_em": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "6.6 exige resistência ao esmagamento ≥ 55 % / ≥ 65 % pela DNER-ME 197/97, cujo resultado R é a porcentagem de finos produzidos (quanto menor, melhor); o limite só é coerente com 100 − R."
+    }
+  ],
+  "dner_me_397_99": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Diz que \"os valores de H podem variar de 0 a 100\"; quem varia de 0 a 100 é o IDW — H vai de 0 a 15\"."
+    }
+  ],
+  "dner_me_400_99": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "A fórmula usa Mr₁ (retido na nº 10), mas 5.1 h–i manda lavar só na nº 40; o peneiramento na nº 10 não é descrito, embora a peneira conste da aparelhagem."
+    },
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "Estufa a 111 °C ± 5 °C — valor atípico, provavelmente 110 °C."
+    }
+  ],
+  "dner_me_398_99": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "6 000 g de amostra não cabem no molde com disco espaçador (~2 085 cm³); a norma não diz o que fazer com o material rasado nem qual massa é a base do % passando."
+    }
+  ],
+  "dner_me_006_00": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "4.5 chama de \"massa A\" o béquer com 50 g de emulsão e 4.6 de \"B\" o béquer com o resíduo; 4.7 redefine A = béquer + bastão + resíduo e B = tara. A fórmula 2(A − B) só vale com as definições de 4.7 e 50 g exatos."
+    }
+  ],
+  "dnit_384_2022_me": [
+    {
+      "page": 2,
+      "cat": "contradicao",
+      "texto": "Freezer a −10 °C ± 10 °C na aparelhagem (4 e) e −10 °C ± 5 °C no procedimento (5 e). A seção 6 dá \"fundo − topo\" por tubo, sem dizer como combinar os tubos nem se o limite vale para o valor absoluto."
+    }
+  ],
+  "dner_me_163_98": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "Define ductilidade como \"a resistência em milímetros\", quando se trata da distância (alongamento) na ruptura; o resultado é dado em mm, mas as especificações usam cm."
+    }
+  ],
+  "dner_me_009_98": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "A correção da densidade a 20 °C remete à Resolução CNP 6/70 sem reproduzir as tabelas. 6.1 diz \"a menos de 0,0005\" e 5.2.6 pede aproximação de 0,0005."
+    }
+  ],
+  "dner_me_216_94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "4.1: volume do molde impresso como \"100 cm³ ± 10 cm³\"; Ø 100 × 127,3 mm dá 1000 cm³ (a DNER-ME 202 diz 1000)."
+    }
+  ],
+  "dner_me_203_94-1": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "A Tabela cita AASHTO M 145-73, mas as referências (2.1 b) citam M 145-82."
+    }
+  ],
+  "dner_me_202_94-2": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "6.2.3: tolerância de massa específica de \"30 g/cm³\" — deve ser 0,030 g/cm³."
+    }
+  ],
+  "dnit_414_2019_me-2": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Eq. 1: falta o fator × 100, embora o Anexo B apresente ΔV em %."
+    }
+  ],
+  "dnit_419_2019_me-2": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "7 b remete ao \"item 3\" (definições). 7 e prevê 5 teores de 2 % a 10 %, mas o gráfico do Anexo B vai de 1 % a 10 %."
+    }
+  ],
+  "dner_me_181_94-1": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "Item 5 p dá velocidade de 0,05 ± 0,02 MPa/s e 7.1 (p. 7) imprime \"0,5 MPa ± 0,02\". 5 p também diz \"5 000 N (5 tf)\", mas 5 tf ≈ 49 kN."
+    }
+  ],
+  "dnit_443_2023_me": [
+    {
+      "page": 10,
+      "cat": "contradicao",
+      "texto": "7.1 l pede amostras de umidade de 250 g, mas o exemplo do Anexo D usa ~70 a 150 g."
+    },
+    {
+      "page": 7,
+      "cat": "erro",
+      "texto": "Tabela A1: energias nominais — pela eq. 1, 12 golpes do soquete leve no molde de 10 cm dão 5,8 kgf·cm/cm³, não 6,0; a eq. 1 dá a unidade como kgf/cm² e a tabela como kgf·cm/cm³."
+    }
+  ],
+  "dnit_228_2023_me": [
+    {
+      "page": 7,
+      "cat": "erro",
+      "texto": "Eq. 5: denominador impresso como \"A\"; o correto é ms."
+    },
+    {
+      "page": 15,
+      "cat": "erro",
+      "texto": "Figura A7: o CP 2 tem 68,58 − 18,23 = 50,35 mm (não 51,35); a 3ª tentativa do CP 1 registra 181 g, mas pela eq. 4 seriam 191 g; anota 50 % retido na nº 10, contra o limite de 5 % da seção 6 c."
+    }
+  ],
+  "dnit_254_2023_me": [
+    {
+      "page": 9,
+      "cat": "erro",
+      "texto": "Tabela D1 dá valores sistematicamente 0,5 % a 1 % abaixo das eq. 2 e 3, com erros de digitação (53 kgf → 18,8 a 2,5 mm, ~18,2 pelas equações; 94 kgf → 32,0 a 2,0 mm, ~32,6). RIS: a eq. 4 é uma razão, mas o texto diz \"em %\"."
+    }
+  ],
+  "dnit_258_2023_me": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "3.11 manda traçar a curva de 10 golpes na série de Parsons, mas 10 não pertence a essa série. A Fig. A11 calcula d' = 75 numa curva \"interpolada\", enquanto 3.12 manda usar a curva de 10 golpes (com os dados da Fig. A8, ~67). Os Mini-MCV da Fig. A8 parecem lidos no gráfico (7,8/10,5/13,1 contra 8,0/11,0/13,2 pela eq. 3)."
+    }
+  ],
+  "dnit_259_2023_cla-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Eq. 1: índice da raiz impresso como \"S\" (a metodologia MCT usa raiz cúbica); a definição de \"n\" que acompanha a equação não é usada nela. 3.8 b usa AF < 48 e AF > 48, e o critério seguinte AF ≥ 48."
+    }
   ]
 }

@@ -112,7 +112,16 @@ d) deverão ser preparados três recipientes para a moldagem de três corpos-de-
 
 ### Tabela 1 – Granulometria padrão das amostras de agregados
 
-19 mm – 9,5 mm 20 240 9,5 mm – nº 4 15 180 nº 4 – nº 10 15 180 nº 10 – nº 40 15 180 nº 40 – nº 200 15 180 < nº 200 5 60 Total 100 1200
+| Peneiras | Porcentagem de material retido | Quantidade (g) |
+|---|---|---|
+| 25,4 mm – 19 mm | 15 | 180 |
+| 19 mm – 9,5 mm | 20 | 240 |
+| 9,5 mm – nº 4 | 15 | 180 |
+| nº 4 – nº 10 | 15 | 180 |
+| nº 10 – nº 40 | 15 | 180 |
+| nº 40 – nº 200 | 15 | 180 |
+| < nº 200 | 5 | 60 |
+| Total | 100 | 1200 |
 
 ![[dner_me_401_99_fig01.png]]
 

@@ -36,6 +36,7 @@
 
   FE.FICHAS["dnit-405-2017-me"] = {
     titulo: "Controle de compactação em aterros com o gamadensímetro",
+    rotuloImportar: function (r) { return "GC médio " + (ok(r.gcMedio) ? fmt(r.gcMedio, 1) + " %" : "—") + " · " + ((r.pts || []).length || "?") + " ponto(s)"; },
     resumo: "Aferição diária no bloco padronizado (|Ns − N0| ≤ 2,0 √(N0/F), seção 8), leituras por ponto (diretas ou contagens pelas curvas de calibração), w = Mm / (ρT − Mm) × 100, ρS = ρT / (1 + w), γS = ρS · g e grau de compactação (seção 11).",
     blocos: ["umidade"],
     params: [

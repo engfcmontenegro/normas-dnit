@@ -297,6 +297,13 @@
       function () { destino(n.url); });
   });
 
+  // fichas de ensaio de uma norma: a de mesmo id e as que declaram {norma: id} (ex.: aceitação de lote de uma ES)
+  function fichasDaNorma(id) {
+    var FE = window.FICHAS_ENSAIO || {};
+    return Object.keys(FE).filter(function (fid) { return fid === id || FE[fid].norma === id; })
+      .sort(function (a, b) { return (a === id ? 0 : 1) - (b === id ? 0 : 1); });
+  }
+
   var editingId = null; // id da norma atualmente em modo de edição, se houver
 
   function headerHtml(n, editMode) {
@@ -317,9 +324,11 @@
           (youtubeId(n.video)
             ? ' · <button class="video-reopen" id="btn-video" type="button">▶ Assistir ao vídeo</button>'
             : "") +
-          (window.FICHAS_ENSAIO && window.FICHAS_ENSAIO[n.id]
-            ? ' · <a class="video-reopen" href="#fichas:' + n.id + '">🧮 Ficha de ensaio</a>'
-            : "") +
+          fichasDaNorma(n.id).map(function (fid) {
+            var F = window.FICHAS_ENSAIO[fid];
+            return ' · <a class="video-reopen" href="#fichas:' + fid + '"' + (fid !== n.id ? ' title="' + escapeHtml(F.titulo) + '"' : "") + ">🧮 " +
+              (fid === n.id ? "Ficha de ensaio" : escapeHtml(F.rotuloLink || F.titulo)) + "</a>";
+          }).join("") +
         "</div>" +
       "</div>"
     );

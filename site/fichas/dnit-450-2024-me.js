@@ -19,6 +19,7 @@
 
   FE.FICHAS["dnit-450-2024-me"] = {
     titulo: "Equivalente de areia",
+    rotuloImportar: function (r) { return "EA " + (ok(r.ea) ? r.ea + " %" : "—"); },
     resumo: "Material passante na peneira de 4,8 mm; EA = leitura no topo da areia / leitura no topo da argila × 100; média de três determinações, arredondada ao inteiro.",
     blocos: [],
     params: [

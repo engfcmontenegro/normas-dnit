@@ -781,6 +781,11 @@ a.fe-rel:hover { text-decoration: underline; }
 .fe-nok { color: #e5534b; font-weight: 600; }
 a.fe-ficha-link { cursor: pointer; text-decoration: none; margin: 0 8px 0 -3px; font-size: 12px; }
 .fe-campo-imp select { border-color: var(--accent); }
+.fe-impv { grid-column: 1 / -1; }
+.fe-impv details { border: 1px solid var(--accent); border-radius: 6px; padding: 6px 10px; }
+.fe-impv summary { cursor: pointer; font-size: 13px; }
+.fe-impv-lista { max-height: 260px; overflow: auto; margin: 8px 0; display: flex; flex-direction: column; gap: 3px; }
+.fe-impv-item { display: flex; gap: 6px; align-items: flex-start; font-size: 12.5px; cursor: pointer; }
 .fe-ex-tag { font-size: 11.5px; color: #e0a13a; border: 1px solid rgba(224,161,58,.5); border-radius: 999px; padding: 1px 8px; }
 .fe-resumo.fe-gran td, .fe-resumo.fe-gran th { text-align: right; padding: 4px 8px; }
 .fe-resumo.fe-gran td:first-child, .fe-resumo.fe-gran th:first-child { text-align: left; white-space: nowrap; }

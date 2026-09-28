@@ -75,6 +75,7 @@
 
   FE.FICHAS["dnit-180-2018-me"] = {
     titulo: "Misturas asfálticas — Dano por umidade induzida (Lottman modificado)",
+    rotuloImportar: function (r) { return "RRT " + (ok(r.rrt) ? fmt(r.rrt, 0) + " %" : "—"); },
     resumo: "Seis CPs com 7 % ± 1 % de vazios: três condicionados (saturação a vácuo com 55 % < S < 80 %, congelamento a −18 °C por ≥ 16 h, banho a 60 °C por 24 h) e três sem condicionamento; RRT = RTc / RT × 100 %.",
     blocos: [],
     params: [

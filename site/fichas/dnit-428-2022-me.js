@@ -33,6 +33,7 @@
 
   FE.FICHAS["dnit-428-2022-me"] = {
     titulo: "Misturas asfálticas — Densidade relativa aparente (Gmb) e massa específica aparente de CPs compactados",
+    rotuloImportar: function (r) { return "Gmb " + (ok(r.gmb) ? fmt(r.gmb, 4) : "—") + " · " + (r.n || 0) + " CP(s)" + (r.procedimento === "geom" ? " · geométrico" : ""); },
     resumo: "Pesagem hidrostática (Gmb = A / (C − B)), com filme PVC quando a absorção passa de 2 % (eq. 8), ou medição geométrica para vazios ≥ 10 % (eq. 10); MEa = 0,9971 × Gmb; volume de vazios com o Gmm da DNIT 427-ME (eq. 12).",
     blocos: [],
     params: [

@@ -29,6 +29,7 @@
 
   FE.FICHAS["dner-me-053-94"] = {
     titulo: "Misturas betuminosas — percentagem de betume",
+    rotuloImportar: function (r) { return "Teor " + (ok(r.teor) ? fmt(r.teor, 2) + " %" : "—") + (r.faixaConf === true ? " · na faixa" : r.faixaConf === false ? " · fora da faixa" : ""); },
     resumo: "Extração do ligante no extrator centrífugo; betume = amostra − agregado recuperado seco (5 g); P = betume / amostra × 100 (6). Granulometria do agregado recuperado comparada com a faixa da especificação e com a faixa de trabalho.",
     blocos: [],
     params: [

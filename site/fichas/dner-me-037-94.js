@@ -26,6 +26,7 @@
 
   FE.FICHAS["dner-me-037-94"] = {
     titulo: "Solo — Massa específica aparente in situ (óleo) e grau de compactação",
+    rotuloImportar: function (r) { return "GC médio " + (ok(r.gcMedio) ? fmt(r.gcMedio, 1) + " %" : "—") + (r.furos ? " · " + r.furos.length + " furo(s)" : ""); },
     resumo: "Volume da cavidade pelo óleo SAE 40 vertido de proveta de 1 000 ml (V = V1 − V2), massa específica aparente úmida e seca in situ e grau de compactação (5.1 a 5.4). Para solos argilosos/siltosos, inclusive com pedregulho ou brita salientes nas paredes da cavidade.",
     blocos: ["umidade"],
     params: [

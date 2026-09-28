@@ -152,6 +152,16 @@
       "page": 9,
       "cat": "contradicao",
       "texto": "Tabela 4 exige estabilidade Marshall ≥ 700 kgf; o Anexo E (p. 31) diz ≥ 500 kgf \"na dosagem\". Diferença semelhante na resistência à tração (0,70 × 0,65 MPa) e no dano por umidade (0,75 × 0,70)."
+    },
+    {
+      "page": 31,
+      "cat": "contradicao",
+      "texto": "Anexo E × texto: dano por umidade \"a cada 5 dias\" (7.2.4 d) × \"semanal\"; IDm ≤ 8 % e IDml ≤ 5 % (5.1.2.1 a) invertidos no Anexo E; umidade \"< 0,3 %\" × \"igual ou inferior a 0,3 %\" (5.3.4); estabilidade ao armazenamento \"DNER-ME 384\" (7.1.1 f) × DNIT 384-ME; ± 5 °C do Anexo E sem referência."
+    },
+    {
+      "page": 20,
+      "cat": "incerto",
+      "texto": "7.3.1 manda evitar mistura abaixo de 145 °C, enquanto 5.4.4 admite CAP a partir de 140 °C; 7.3.5 pede controle estatístico \"bilateral\" para a régua de 3 m, que só tem máximo; GC 97–100 % com controle bilateral X̄ + ks é muito apertado; Tabela D3 tem lacuna de IFI entre 0,08 e 0,09; Tabelas 1/2 usam TNM 25,4/19,1/12,7 mm e a Tabela 5 25,0/19,0/12,5 mm."
     }
   ],
   "dnit_407_2017_es-1": [
@@ -1762,6 +1772,23 @@
       "page": 9,
       "cat": "erro",
       "texto": "Seção 9 dá |E*| em kPa, mas a Tabela 8 usa MPa; na Tabela 8 o desvio-padrão de φ a 40 °C/25 Hz aparece como 0,0, mas os valores 31,9 e 32,0 dão 0,07."
+    }
+  ],
+  "dnit_141_2022_es-1": [
+    {
+      "page": 6,
+      "cat": "erro",
+      "texto": "7.1 cita \"ensaio de deformação de ISC (DNIT 179 – IE)\"; o ISC é a DNIT 172-ME (a DNIT 179 é deformação permanente). Cita métodos substituídos: DNER-ME 080 (→ DNIT 412), 052/088 (→ 456), 092 (→ 458), 054 (→ 450), 035 (→ 451)."
+    },
+    {
+      "page": 7,
+      "cat": "incerto",
+      "texto": "7.2.2 exige no mínimo 15 leituras de deflexão espaçadas de 20 m — impossível em segmentos com menos de ~280 m. Granulometria, LL, IP e LA só aparecem em 5.1 (materiais), sem frequência no controle da execução (7.2); o GC também não tem frequência (a edição de 2010 tinha)."
+    },
+    {
+      "page": 10,
+      "cat": "incerto",
+      "texto": "Tabela B1 não tem n = 18, n = 20 nem n > 21. O Anexo A usa \"N > 5×10⁶ / N < 5×10⁶\" e 5.1 usa \"≤\" (N exatamente 5×10⁶ não coberto). \"EA … quando os limites forem ultrapassados\" não diz se um ou os dois."
     }
   ]
 }

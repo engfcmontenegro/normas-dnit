@@ -161,6 +161,8 @@
 
   FE.FICHAS["dnit-385-2026-es"] = {
     titulo: "Concreto asfáltico — dosagem Marshall e controle (Gmb, DMT, Vv, VAM, RBV, estabilidade, fluência)",
+    // resumo na lista de importação (aceitação de lote da DNIT 385-ES)
+    rotuloImportar: function (r) { var t = (r.teores || []); if (t.length !== 1) return t.length + " teores" + (r.ot && FE.ok(r.ot.teor) ? " · ótimo " + FE.fmt(r.ot.teor, 2) + " %" : ""); t = t[0]; return "teor " + FE.fmt(t.teor, 1) + " % · Vv " + FE.fmt(t.vv, 1) + " % · RBV " + FE.fmt(t.rbv, 0) + " %"; },
     resumo: "CPs por teor de ligante: Gmb por pesagem ao ar e imersa, DMT calculada ou Gmm medida, Vv, VAM, RBV, estabilidade corrigida e fluência; curvas por teor, teor ótimo e verificação dos limites da especificação.",
     blocos: [],
     params: params,

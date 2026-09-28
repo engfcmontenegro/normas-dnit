@@ -33,6 +33,7 @@
 
   FE.FICHAS["dnit-417-2019-me"] = {
     titulo: "Solos — Controle de compactação com densímetro eletromagnético",
+    rotuloImportar: function (r) { return "GC médio " + (ok(r.gcMedio) ? fmt(r.gcMedio, 1) + " %" : "—") + " · " + ((r.pts || []).length || "?") + " ponto(s)"; },
     resumo: "Leituras de densidade (ρt) e umidade por ponto, correções da calibração in situ (7.5.3 e 7.5.4), massa específica aparente seca ρd = ρt − Mw (eq. 1) ou ρt / (1 + w/100) (eq. 2) e grau de compactação (9.4).",
     blocos: ["umidade"],
     params: [

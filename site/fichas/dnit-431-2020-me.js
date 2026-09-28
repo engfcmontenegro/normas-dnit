@@ -44,6 +44,7 @@
 
   FE.FICHAS["dnit-431-2020-me"] = {
     titulo: "Misturas asfálticas — Densidade in situ com densímetro não nuclear",
+    rotuloImportar: function (r) { return "GC médio " + (ok(r.gcMedio) ? fmt(r.gcMedio, 1) + " %" : "—") + " · " + (r.n || 0) + " ponto(s)"; },
     resumo: "Calibração por correlação com corpos de prova extraídos (fator de ajuste = diferença média CP − densímetro, desvio-padrão ≤ 0,04 g/cm³, 7.5), média de cinco leituras por ponto, densidade corrigida e grau de compactação; número de passadas do rolo opcional (8.5).",
     blocos: [],
     params: [

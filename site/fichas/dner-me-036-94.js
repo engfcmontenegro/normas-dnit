@@ -30,6 +30,7 @@
 
   FE.FICHAS["dner-me-036-94"] = {
     titulo: "Solo — Massa específica aparente in situ (balão de borracha) e grau de compactação",
+    rotuloImportar: function (r) { return "GC médio " + (ok(r.gcMedio) ? fmt(r.gcMedio, 1) + " %" : "—") + (r.furos ? " · " + r.furos.length + " furo(s)" : ""); },
     resumo: "Volume da cavidade pelo balão de borracha (V = L1 − L2), massa específica aparente úmida e seca in situ e grau de compactação em relação à massa específica aparente seca de laboratório (6.1 a 6.4). Solos com partículas de até 2,5 cm.",
     blocos: ["umidade"],
     params: [

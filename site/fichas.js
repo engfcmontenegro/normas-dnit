@@ -10,6 +10,9 @@
  *   resultadosHtml(calc, d), grafico?(calc, d, opt), relatorio: {parametros?, notas?}, exemplo() }
  * - Um campo de parâmetro {tipo: "importar", de: <id da ficha>} traz resultados de um ensaio salvo de outra
  *   ficha (ex.: γs,máx e umidade ótima do Proctor para o grau de compactação).
+ * - {tipo: "importarVarios", de: id ou [ids], aplicar(lista, P, d)} escolhe vários ensaios salvos/exemplos de uma
+ *   ou mais fichas (fichas de ES: aceitação de lote); os resultados de cada um são recalculados dos dados.
+ * - Uma ficha pode ter chave própria e declarar {norma: <id>} (ex.: duas fichas para a mesma norma).
  * - Motor: identificação, tabelas em colunas (navegação como no Excel), cálculo ao vivo, salvar/abrir no
  *   navegador, exportar/importar arquivo, relatório A4 para imprimir/PDF.
  * Os cálculos seguem o texto da norma (seções citadas nos rótulos).
@@ -167,6 +170,7 @@
   // =====================================================================================
   FICHAS["dnit-456-2025-me"] = {
     titulo: "Teor de umidade de solos e agregados",
+    rotuloImportar: function (r) { return "w " + (ok(r.w) ? fmt(r.w, 1) + " %" : "—"); },
     resumo: "Métodos de laboratório (estufa) e expeditos (frigideira e \"Speedy\"); resultado com aproximação de 0,1 %.",
     blocos: ["umidade"],
     params: [
@@ -522,6 +526,7 @@
 
   FICHAS["dnit-172-2016-me"] = {
     titulo: "Solos — Índice de Suporte Califórnia (amostras não trabalhadas)",
+    rotuloImportar: function (r) { return "ISC " + (ok(r.isc) ? fmt(r.isc, 0) + " %" : "—") + " · expansão " + (ok(r.exp) ? fmt(r.exp, 2) + " %" : "—"); },
     resumo: "Moldagem e curva de compactação dos próprios corpos de prova, expansão em 96 h, penetração, ISC de cada CP e ISC na umidade ótima (8.2).",
     blocos: ["umidade", "compactacao"],
     params: [
@@ -716,6 +721,7 @@
   // =====================================================================================
   FICHAS["dnit-458-2025-me"] = {
     titulo: "Solos — Massa específica aparente in situ (frasco de areia) e grau de compactação",
+    rotuloImportar: function (r) { return "GC médio " + (ok(r.gcMedio) ? fmt(r.gcMedio, 1) + " %" : "—") + " · " + ((r.furos || []).length || "?") + " furo(s)"; },
     resumo: "Calibração do frasco e da areia (6.1–6.2), volume do furo, massa específica aparente seca de campo e grau de compactação (6.5).",
     blocos: ["umidade"],
     params: [
@@ -905,6 +911,7 @@
 
   FICHAS["dnit-412-2025-me"] = {
     titulo: "Agregados — Análise granulométrica por peneiramento",
+    rotuloImportar: function (r) { return "TNM " + (ok(r.tnm) ? fmt(r.tnm, 1) + " mm" : "—") + (r.conforme === true ? " · na faixa" : r.conforme === false ? " · fora da faixa" : ""); },
     resumo: "Porcentagens retidas, acumuladas e passantes; dimensão máxima característica, tamanho nominal máximo, módulo de finura e verificação da faixa granulométrica.",
     blocos: [],
     params: [
@@ -1152,6 +1159,7 @@
 
   FICHAS["dnit-451-2024-me"] = {
     titulo: "Agregados — Desgaste por abrasão \"Los Angeles\"",
+    rotuloImportar: function (r) { return "LA " + (ok(r.A) ? fmt(r.A, 0) + " %" : "—") + (r.g ? " (graduação " + r.g + ")" : ""); },
     resumo: "Graduações A a G (Anexo B), carga abrasiva (Tabela 1), 500 ou 1000 rotações; desgaste Aₙ = (mₙ − m'ₙ)/mₙ × 100, com aproximação de 1 %.",
     blocos: [],
     params: [
@@ -1428,7 +1436,7 @@
     });
     var paramRows = [["Norma", n.codigo + " — " + n.titulo]];
     F.params.forEach(function (f) {
-      if (f.tipo === "importar" || (f.se && !f.se(d))) return;
+      if (f.tipo === "importar" || f.tipo === "importarVarios" || (f.se && !f.se(d))) return;
       var v = valorParam(f, d);
       if (f.k === "volumePadrao" && !v) v = VOL_PADRAO + " (nominal)";
       if (v) paramRows.push([f.r.replace(/ — opcional$/, "").replace(/ — se não calibrar hoje$/, ""), v]);
@@ -1440,20 +1448,32 @@
     var tabsHtml = F.tabelas(d).map(function (T) {
       var cols = d[T.chave] || [], ct = (calc.tab || {})[T.chave] || [];
       if (!cols.length) return "";
-      var corpo = T.linhas.map(function (l) {
-        if (l.grupo) return '<tr class="g"><td colspan="' + (cols.length + 2) + '">' + esc(l.grupo) + "</td></tr>";
+      // valores de cada linha (todas as colunas); linhas sem dados não entram
+      var linhas = T.linhas.map(function (l) {
+        if (l.grupo) return { grupo: l.grupo };
         var vals = cols.map(function (p, k) {
           if (l.calc) return fmt((ct[k] || {})[l.calc], l.casas);
           return p[l.k] || (l.padrao ? ((d.params || {})[l.padrao] || l.padraoFixo || "") : "");
         });
-        if (vals.every(function (v) { return v === "" || v === "—"; })) return "";  // linha sem dados não entra
-        return "<tr" + (l.destaque ? ' class="d"' : "") + "><th>" + esc(l.r) + '</th><td class="u">' + esc(l.u || "") + "</td>" +
-          vals.map(function (v) { return "<td>" + esc(v) + "</td>"; }).join("") + "</tr>";
-      }).join("");
+        return vals.every(function (v) { return v === "" || v === "—"; }) ? null : { l: l, vals: vals };
+      }).filter(Boolean);
       var nota = T.usar && cols.some(function (p) { return p.usar === false; }) ? '<p class="nota">* não considerado no ajuste da curva.</p>' : "";
-      return "<h2>" + esc(T.titulo) + '</h2><table class="pts"><tr><th>' + esc(T.rotulo) + "</th><th></th>" + cols.map(function (p, k) {
-        return "<th>" + (T.nomes ? esc(T.nomes[k] || k + 1) : k + 1) + (T.usar && p.usar === false ? "*" : "") + "</th>";
-      }).join("") + "</tr>" + corpo + "</table>" + nota;
+      // tabelas largas saem em blocos de até 12 colunas
+      var BLOCO = 12, html = "";
+      for (var b0 = 0; b0 < cols.length; b0 += BLOCO) {
+        var fim = Math.min(cols.length, b0 + BLOCO);
+        html += '<table class="pts"' + (b0 ? ' style="margin-top:6px"' : "") + "><tr><th>" + esc(T.rotulo) + "</th><th></th>" +
+          cols.slice(b0, fim).map(function (p, j) {
+            var k = b0 + j;
+            return "<th>" + (T.nomes ? esc(T.nomes[k] || k + 1) : k + 1) + (T.usar && p.usar === false ? "*" : "") + "</th>";
+          }).join("") + "</tr>" +
+          linhas.map(function (x) {
+            if (x.grupo) return '<tr class="g"><td colspan="' + (fim - b0 + 2) + '">' + esc(x.grupo) + "</td></tr>";
+            return "<tr" + (x.l.destaque ? ' class="d"' : "") + "><th>" + esc(x.l.r) + '</th><td class="u">' + esc(x.l.u || "") + "</td>" +
+              x.vals.slice(b0, fim).map(function (v) { return "<td>" + esc(v) + "</td>"; }).join("") + "</tr>";
+          }).join("") + "</table>";
+      }
+      return "<h2>" + esc(T.titulo) + "</h2>" + html + nota;
     }).join("");
 
     var resRows = (F.relatorio && F.relatorio.resultados) ? F.relatorio.resultados(calc, d) : [];
@@ -1462,6 +1482,11 @@
     var graf = (F.graficos ? F.graficos(calc, d, gOpt) : F.grafico ? [F.grafico(calc, d, gOpt)] : []).map(function (x) { return '<div class="graf">' + x + "</div>"; }).join("");
     var canc = n.status === "cancelada" ? '<div class="canc">ATENÇÃO: norma cancelada pelo DNIT — não está mais em vigor.</div>' : "";
     var hoje = new Date().toLocaleString("pt-BR");
+    // fichas de especificação de serviço: relatório de aceitação, com o parecer antes das tabelas de dados
+    var lote = F.lote === true || n.tipo === "ES";
+    var resBloco = "<h2>" + (lote ? "Parecer e critérios de aceitação" : "Resultados") + "</h2>" + resHtml +
+      ((F.relatorio || {}).extraHtml ? F.relatorio.extraHtml(calc, d) : "") + graf;
+    var dadosBloco = (lote && tabsHtml ? '<h2 style="border:0;margin-top:18px">Dados do lote</h2>' : "") + tabsHtml;
     return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Relatório ' + esc(n.codigo) + " " + esc(i.registro || "") + "</title><style>" +
       "@page{size:A4;margin:14mm 12mm}body{font:11px/1.35 Arial,sans-serif;color:#111;margin:0}" +
       "h1{font-size:15px;margin:0}h2{font-size:12px;margin:14px 0 5px;border-bottom:1px solid #999;padding-bottom:2px;text-transform:uppercase;letter-spacing:.03em}" +
@@ -1480,11 +1505,12 @@
       ".rod{margin-top:14px;color:#666;font-size:9.5px;border-top:1px solid #ccc;padding-top:4px}" +
       ".btn{position:fixed;top:10px;right:10px;padding:6px 12px}@media print{.btn{display:none}}" +
       '</style></head><body><button class="btn" onclick="print()">Imprimir / salvar PDF</button>' +
-      '<div class="cab"><div><h1>RELATÓRIO DE ENSAIO</h1><div class="sub">' + esc(F.titulo) + '</div></div><div class="n">' + esc(n.codigo) +
+      '<div class="cab"><div><h1>' + (lote ? "RELATÓRIO DE ACEITAÇÃO DE LOTE" : "RELATÓRIO DE ENSAIO") + '</h1><div class="sub">' + esc(F.titulo) + '</div></div><div class="n">' + esc(n.codigo) +
       '<br><span style="font-weight:normal">Registro: ' + esc(i.registro || "—") + "</span></div></div>" + canc +
       '<h2>Identificação</h2><div class="duas"><table>' + identHtml.slice(0, 5).join("") + "</table><table>" + identHtml.slice(5).join("") + "</table></div>" +
-      "<h2>Parâmetros</h2><table>" + paramHtml + "</table>" + tabsHtml +
-      "<h2>Resultados</h2>" + resHtml + ((F.relatorio || {}).extraHtml ? F.relatorio.extraHtml(calc, d) : "") + graf +
+      // aceitação de lote: parecer logo após a identificação; parâmetros e dados depois
+      (lote ? resBloco + "<h2>Parâmetros do lote</h2><table>" + paramHtml + "</table>" + dadosBloco
+        : "<h2>Parâmetros</h2><table>" + paramHtml + "</table>" + tabsHtml + resBloco) +
       ((F.relatorio || {}).notas ? '<p class="nota">' + esc(F.relatorio.notas) + "</p>" : "") +
       (calc.avisos.length ? '<div class="av">' + calc.avisos.map(function (a) { return "⚠ " + esc(a); }).join("<br>") + "</div>" : "") +
       (d.obs ? "<h2>Observações</h2><p>" + esc(d.obs).replace(/\n/g, "<br>") + "</p>" : "") +
@@ -1515,11 +1541,13 @@
       dados.obs = dados.obs || "";
       var r = FICHAS[fid].calcular(dados).resultados;
       return { uid: uid(), ficha: fid, dados: dados, exemplo: ex.nome,
-        resultados: JSON.parse(JSON.stringify(r, function (k, v) { return k === "ajuste" || k === "furos" || k === "iscAjuste" ? undefined : v; })) };
+        resultados: JSON.parse(JSON.stringify(r, function (k, v) { return k === "ajuste" || k === "iscAjuste" ? undefined : v; })) };
     }
 
+    // norma da ficha: o próprio id, ou F.norma quando a ficha tem chave própria (ex.: aceitação de lote de uma ES)
+    function normaDe(fid) { var F = FICHAS[fid]; return byId[(F && F.norma) || fid]; }
     function fichasDisponiveis() {
-      return Object.keys(FICHAS).filter(function (id) { return byId[id]; });
+      return Object.keys(FICHAS).filter(function (id) { return normaDe(id); });
     }
     function tabelasDe(fid, d) { return FICHAS[fid].tabelas(d); }
     function novoEnsaio(fid) {
@@ -1546,7 +1574,7 @@
     function renderLista() {
       var salvos = lerTodos();
       lista.innerHTML = '<div class="fe-sec">Fichas disponíveis</div>' + fichasDisponiveis().map(function (id) {
-        var n = byId[id], F = FICHAS[id], qtd = salvos.filter(function (s) { return s.ficha === id; }).length;
+        var n = normaDe(id), F = FICHAS[id], qtd = salvos.filter(function (s) { return s.ficha === id; }).length;
         var bl = (F.blocos || []).filter(function (b) { return BLOCOS[b].norma !== id; }).map(function (b) { return BLOCOS[b].nome; });
         return '<div class="norma-item' + (estado.ficha === id ? " selected" : "") + '" data-f="' + esc(id) + '">' +
           '<div class="codigo">' + esc(n.codigo) + "</div><div class=\"titulo\">" + esc(F.titulo) +
@@ -1557,7 +1585,7 @@
     }
 
     function relacoes(fid) {
-      var d = DEPS[fid] || { depende: [], usado_por: [] };
+      var d = DEPS[(FICHAS[fid] && FICHAS[fid].norma) || fid] || { depende: [], usado_por: [] };
       function link(id) {
         if (!byId[id]) return "";
         return '<a class="fe-rel" data-id="' + esc(id) + '">' + esc(byId[id].codigo) + "</a>" +
@@ -1595,7 +1623,7 @@
           return (i.registro || "sem registro") + " · " + (i.origem || i.local || "") + " · " + resumoImp(r);
         };
         input = '<select id="' + id + '" data-importar="' + esc(f.k) + '"><option value="">— escolher um ensaio de ' +
-          esc(byId[f.de] ? byId[f.de].codigo : f.de) + " —</option>" +
+          esc(normaDe(f.de) ? normaDe(f.de).codigo : f.de) + " —</option>" +
           (salvos.length ? '<optgroup label="Salvos neste navegador">' + salvos.map(function (s) {
             return '<option value="' + esc(s.uid) + '"' + (valor === s.uid ? " selected" : "") + ">" + esc(rotulo(s.dados.ident || {}, s.resultados || {})) + "</option>";
           }).join("") + "</optgroup>" : "") +
@@ -1603,6 +1631,8 @@
             var e = ensaioExemplo(f.de, k), v = "ex:" + f.de + ":" + k;
             return '<option value="' + v + '"' + (valor === v ? " selected" : "") + ">" + esc("Exemplo — " + ex.nome + " · " + resumoImp(e.resultados)) + "</option>";
           }).join("") + "</optgroup></select>";
+      } else if (f.tipo === "importarVarios") {
+        return campoImportarVarios(f, valor);
       } else {
         input = '<input id="' + id + '" data-g="' + grupo + '" data-k="' + f.k + '" type="' + (f.tipo === "date" ? "date" : "text") +
           '" value="' + esc(valor || "") + '"' + (f.ph ? ' placeholder="' + esc(f.ph) + '"' : "") + ">";
@@ -1611,10 +1641,55 @@
         (f.dica ? "<small>" + esc(f.dica) + "</small>" : "") + "</label>";
     }
 
+    // ---------- importar vários ensaios (fichas de ES: aceitação de lote) ----------
+    // param {k, r, tipo: "importarVarios", de: id ou [ids], aplicar(lista, P, d)}; lista = [{ficha, dados,
+    // resultados (recalculados a partir dos dados, completos), uid|exemplo}]; guarda em P[k] os valores escolhidos
+    function resumoDe(fid, r) {
+      var O = FICHAS[fid];
+      return O && O.rotuloImportar ? O.rotuloImportar(r || {}) : "";
+    }
+    function candidatosDe(f) {
+      var ids = Array.isArray(f.de) ? f.de : [f.de], out = [];
+      ids.forEach(function (fid) {
+        if (!FICHAS[fid]) return;
+        lerTodos().filter(function (s) { return s.ficha === fid; }).forEach(function (s) {
+          out.push({ v: s.uid, fid: fid, salvo: true, ident: (s.dados || {}).ident || {}, r: s.resultados });
+        });
+        exemplosDe(fid).forEach(function (ex, k) {
+          var e = ensaioExemplo(fid, k);
+          out.push({ v: "ex:" + fid + ":" + k, fid: fid, salvo: false, nome: ex.nome, ident: e.dados.ident || {}, r: e.resultados });
+        });
+      });
+      return out;
+    }
+    function campoImportarVarios(f, valor) {
+      var sel = Array.isArray(valor) ? valor : [], cands = candidatosDe(f);
+      var itens = cands.map(function (c) {
+        var i = c.ident, n = normaDe(c.fid);
+        var txt = (n ? n.codigo + " · " : "") + (c.salvo ? "" : "Exemplo — " + c.nome + " · ") + (i.registro || "sem registro") +
+          (i.local ? " · " + i.local : "") + (i.data ? " · " + i.data : "") + (resumoDe(c.fid, c.r) ? " · " + resumoDe(c.fid, c.r) : "");
+        return '<label class="fe-impv-item"><input type="checkbox" value="' + esc(c.v) + '"' + (sel.indexOf(c.v) >= 0 ? " checked" : "") + "> " + esc(txt) + "</label>";
+      }).join("");
+      return '<div class="fe-campo fe-campo-imp fe-impv" data-impv="' + esc(f.k) + '"><span>' + esc(f.r) + "</span>" +
+        "<details" + (sel.length ? "" : " open") + "><summary>" + (sel.length ? sel.length + " ensaio(s) importado(s) — alterar seleção" : "Escolher ensaios salvos ou exemplos") + "</summary>" +
+        '<div class="fe-impv-lista">' + (itens || "<em>Nenhum ensaio salvo nem exemplo nas fichas de origem.</em>") + "</div>" +
+        '<button type="button" class="edit-btn" data-impv-aplicar="' + esc(f.k) + '">Importar selecionados</button></details>' +
+        (f.dica ? "<small>" + esc(f.dica) + "</small>" : "") + "</div>";
+    }
+    function ensaioPorValor(v) {
+      var m = /^ex:(.+):(\d+)$/.exec(v);
+      var e = m ? ensaioExemplo(m[1], Number(m[2])) : lerTodos().filter(function (s) { return s.uid === v; })[0];
+      if (!e || !FICHAS[e.ficha]) return null;
+      e = JSON.parse(JSON.stringify(e));
+      e.dados.params = Object.assign({}, FICHAS[e.ficha].padrao || {}, e.dados.params || {});
+      try { e.resultados = FICHAS[e.ficha].calcular(e.dados).resultados; } catch (err) { /* mantém os resultados salvos */ }
+      return e;
+    }
+
     function renderFicha() {
       var fid = estado.ficha;
       if (!fid) { painel.innerHTML = '<div class="empty-state">Escolha uma ficha à esquerda.</div>'; return; }
-      var F = FICHAS[fid], n = byId[fid];
+      var F = FICHAS[fid], n = normaDe(fid);
       if (!estado.ensaio || estado.ensaio.ficha !== fid) estado.ensaio = novoEnsaio(fid);
       garantirTabelas();
       var d = estado.ensaio.dados;
@@ -1645,7 +1720,7 @@
 
       html += '<h3 class="fe-h">Identificação</h3><div class="fe-grid">' +
         IDENT.map(function (f) { return campo("ident", f, (d.ident || {})[f.k]); }).join("") + "</div>";
-      html += '<h3 class="fe-h">Parâmetros do ensaio</h3><div class="fe-grid">' +
+      html += '<h3 class="fe-h">' + (F.lote === true || n.tipo === "ES" ? "Parâmetros do lote" : "Parâmetros do ensaio") + '</h3><div class="fe-grid">' +
         F.params.filter(function (f) { return !f.se || f.se(d); })
           .map(function (f) { return campo("params", f, (d.params || {})[f.tipo === "importar" ? f.k : f.k]); }).join("") + "</div>";
 
@@ -1785,6 +1860,18 @@
         if (a) { ctx.abrirNorma(a.dataset.id); return; }
         var fl = ev.target.closest(".fe-ficha-link");
         if (fl) { abrir(fl.dataset.f); return; }
+        var impv = ev.target.closest("[data-impv-aplicar]");
+        if (impv) {
+          var fv = F.params.filter(function (x) { return x.k === impv.dataset.impvAplicar; })[0];
+          var box = impv.closest("[data-impv]");
+          var vals = Array.prototype.map.call(box.querySelectorAll("input[type=checkbox]:checked"), function (c) { return c.value; });
+          var listaImp = vals.map(ensaioPorValor).filter(Boolean);
+          d.params[fv.k] = vals;
+          fv.aplicar(listaImp, d.params, d);
+          renderFicha();
+          status(listaImp.length + " ensaio(s) importado(s).");
+          return;
+        }
         var add = ev.target.closest("[data-add]"), rem = ev.target.closest("[data-rem]");
         if (add) { d[add.dataset.add].push({ usar: true }); renderTabelas(); recalcular(); }
         if (rem && d[rem.dataset.rem].length > 1) { d[rem.dataset.rem].pop(); renderTabelas(); recalcular(); }
@@ -1796,7 +1883,7 @@
         delete estado.ensaio.exemplo;
         // resultados ficam disponíveis para as fichas que dependem desta (campo "importar")
         var r = ultimoCalc ? ultimoCalc.resultados : null;
-        estado.ensaio.resultados = r ? JSON.parse(JSON.stringify(r, function (k, v) { return k === "ajuste" || k === "furos" ? undefined : v; })) : null;
+        estado.ensaio.resultados = r ? JSON.parse(JSON.stringify(r, function (k, v) { return k === "ajuste" || k === "iscAjuste" ? undefined : v; })) : null;
         todos.push(estado.ensaio);
         if (gravarTodos(todos)) { renderLista(); renderFicha(); status("Salvo neste navegador."); }
         else status("Não foi possível salvar (armazenamento do navegador indisponível) — use Exportar arquivo.");
@@ -1826,7 +1913,7 @@
         var blob = new Blob([JSON.stringify(estado.ensaio, null, 1)], { type: "application/json" });
         var a = document.createElement("a");
         a.href = URL.createObjectURL(blob);
-        a.download = (byId[estado.ficha].codigo + "_" + ((d.ident || {}).registro || "ensaio")).replace(/[^\w.-]+/g, "_") + ".json";
+        a.download = (normaDe(estado.ficha).codigo + "_" + ((d.ident || {}).registro || "ensaio")).replace(/[^\w.-]+/g, "_") + ".json";
         a.click();
         setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
       };
@@ -1843,7 +1930,7 @@
         }).catch(function (err) { alert("Não foi possível importar: " + err.message); });
       };
       document.getElementById("fe-relatorio").onclick = function () {
-        var doc = montarRelatorio(FICHAS[estado.ficha], byId[estado.ficha], estado.ensaio.dados);
+        var doc = montarRelatorio(FICHAS[estado.ficha], normaDe(estado.ficha), estado.ensaio.dados);
         var w = window.open("", "_blank");
         if (!w) { alert("O navegador bloqueou a janela do relatório: permita pop-ups para esta página."); return; }
         w.document.open();

@@ -305,6 +305,8 @@
   }
 
   var editingId = null; // id da norma atualmente em modo de edição, se houver
+  // edição do markdown só com o servidor local (scripts/serve.py grava em /api/save); no GitHub Pages fica oculta
+  var EDICAO_LOCAL = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
 
   function headerHtml(n, editMode) {
     var badgeOrgao = '<span class="badge ' + n.orgao.toLowerCase() + '">' + n.orgao + "</span>";
@@ -312,7 +314,7 @@
         : n.status === "cancelada" ? '<span class="badge suspensa">CANCELADA</span>' : "";
     var actionBtn = editMode
       ? '<button class="edit-btn save" id="btn-save">Salvar</button><button class="edit-btn cancel" id="btn-cancel">Cancelar</button>'
-      : '<button class="edit-btn" id="btn-edit">✎ Editar</button>';
+      : EDICAO_LOCAL ? '<button class="edit-btn" id="btn-edit">✎ Editar</button>' : "";
     return (
       '<div class="content-header">' +
         '<div class="header-top">' +
@@ -453,7 +455,8 @@
       renderRelated(n) +
       '<div class="markdown-body">' + bodyHtml + "</div>";
 
-    document.getElementById("btn-edit").addEventListener("click", function () {
+    var btnEdit = document.getElementById("btn-edit");
+    if (btnEdit) btnEdit.addEventListener("click", function () {
       renderEditMode(n);
     });
 

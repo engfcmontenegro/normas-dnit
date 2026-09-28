@@ -586,12 +586,42 @@
     [viewNormas, viewRede, viewControle, viewDeps, viewFichas].forEach(function (v) { v.classList.toggle("active", v === view); });
   }
 
+  // texto da norma (markdown renderizado) dentro de um contêiner qualquer — barra lateral da aba Fichas;
+  // links para outras normas abrem a aba Normas
+  function renderNormaEm(n, el) {
+    var corpo;
+    try {
+      corpo = marked.parse(resolveWikilinks(n.conteudo) || "_Conteúdo não disponível._");
+    } catch (e) {
+      corpo = "<pre>" + escapeHtml(n.conteudo || "") + "</pre>";
+    }
+    el.innerHTML = tarjaCancelada(n, "rel-link") + '<div class="markdown-body">' + corpo + "</div>";
+    var md = el.querySelector(".markdown-body");
+    Array.prototype.forEach.call(el.querySelectorAll("a"), function (a) {
+      var href = a.getAttribute("href") || "", alvo = null;
+      if (href.indexOf("#norma:") === 0) alvo = href.slice(7);
+      else if (a.classList.contains("rel-link")) alvo = a.dataset.id;
+      else if (href.indexOf(".md") !== -1 && !/^https?:/i.test(href)) alvo = byMdPath[resolveRelativePath(n.md, href)];
+      if (!alvo) return;
+      a.href = "javascript:void(0)";
+      a.addEventListener("click", function (ev) {
+        ev.preventDefault();
+        var id = byId[alvo] ? alvo : byStem[alvo];
+        if (id) { selectNorma(id); showTab(tabNormas, viewNormas); }
+      });
+    });
+    renderCallouts(md);
+    renderMath(md);
+    colorRefs(el);
+  }
+
   function abrirFichas(fid) {
     showTab(tabFichas, viewFichas);
     if (!fichas && window.initFichas) {
       fichas = window.initFichas({
         byId: byId, DEPS: DEPS,
         abrirNorma: function (id) { selectNorma(id); showTab(tabNormas, viewNormas); },
+        renderNorma: renderNormaEm,
       });
     }
     if (fichas && fid) fichas.abrir(fid);

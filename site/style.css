@@ -723,10 +723,37 @@ a.ctl-ref.ref-dnit { color: var(--dnit); }
 
 /* ---- View: Fichas de ensaios ---- */
 #view-fichas { flex-direction: row; }
+.chip small { opacity: .65; font-size: 10.5px; margin-left: 2px; }
+.edit-btn.ativo { border-color: var(--accent); color: var(--accent); }
+/* texto da norma ao lado da ficha */
+.fe-norma-panel { width: clamp(320px, 36vw, 760px); flex: 0 0 auto; background: var(--panel); border-left: 1px solid var(--border); display: flex; min-height: 0; }
+.fe-norma-panel .fn-arrasta { flex: 0 0 6px; cursor: col-resize; }
+.fe-norma-panel .fn-rolagem { flex: 1 1 auto; min-width: 0; overflow-y: auto; padding: 14px 18px 30px 12px; }
+.fe-norma-panel .fn-arrasta:hover, body.fn-arrastando .fe-norma-panel .fn-arrasta { background: var(--accent); opacity: .5; }
+body.fn-arrastando { cursor: col-resize; user-select: none; }
+.fe-norma-panel[hidden] { display: none; }
+.fe-norma-panel .fn-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; position: sticky; top: -14px; background: var(--panel); padding: 4px 0 8px; border-bottom: 1px solid var(--border); z-index: 1; }
+.fe-norma-panel .label { color: var(--text-dim); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+.fe-norma-panel .fn-cod { font-weight: 700; font-size: 15px; }
+.fe-norma-panel .fn-acoes { display: flex; align-items: center; gap: 10px; }
+.fe-norma-panel .fn-abrir { color: var(--accent); font-size: 12px; cursor: pointer; text-decoration: none; white-space: nowrap; }
+.fe-norma-panel .fn-abrir:hover { text-decoration: underline; }
+.fe-norma-panel .vp-close { background: transparent; border: 1px solid var(--border); color: var(--text-dim); border-radius: 6px; padding: 2px 9px; cursor: pointer; font-size: 12px; }
+.fe-norma-panel .vp-close:hover { border-color: var(--accent); color: var(--text); }
+.fe-norma-panel .fn-titulo { font-size: 13px; color: var(--text-dim); margin: 8px 0 4px; line-height: 1.4; }
+.fe-norma-panel .markdown-body { font-size: 13.5px; }
+.fe-norma-panel .markdown-body h1 { font-size: 18px; }
+.fe-norma-panel .markdown-body h2 { font-size: 16px; }
+.fe-norma-panel .markdown-body h3, .fe-norma-panel .markdown-body h4 { font-size: 14px; }
+.fe-norma-panel .markdown-body img { max-width: 100%; }
+.fe-norma-panel .markdown-body table { display: block; overflow-x: auto; }
+@media (max-width: 1100px) { .fe-norma-panel { position: fixed; right: 0; top: 0; bottom: 0; z-index: 30; box-shadow: -8px 0 24px rgba(0,0,0,.35); } }
 .fe-sec { padding: 10px 12px 4px; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--text-dim); }
 .fe-sec-em { margin-top: 10px; }
 .fe-prox { padding: 4px 12px 12px; font-size: 12px; color: var(--text-dim); line-height: 1.45; }
 .fe-painel .header-actions { flex-wrap: wrap; justify-content: flex-end; }
+.fe-painel .header-top { flex-wrap: wrap; }
+.fe-painel .header-top > div:first-child { flex: 1 1 320px; min-width: 0; }
 .fe-relacoes { display: flex; flex-direction: column; gap: 3px; margin-top: 8px; font-size: 12.5px; color: var(--text-dim); }
 .fe-relacoes b { color: var(--text); font-weight: 600; }
 a.fe-rel { color: var(--accent); cursor: pointer; text-decoration: none; font-weight: 600; margin-right: 6px; }

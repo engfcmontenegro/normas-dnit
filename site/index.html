@@ -101,8 +101,32 @@
     </section>
 
     <section id="view-fichas" class="view">
-      <aside class="sidebar"><div class="norma-list" id="fe-lista"></div></aside>
+      <aside class="sidebar">
+        <div class="filters">
+          <input type="search" id="fe-busca" placeholder="Buscar por código, título ou ensaio...">
+          <div class="filter-group">
+            <div class="label">Área</div>
+            <div class="chip-row" id="fe-f-area"></div>
+          </div>
+          <div class="filter-group">
+            <div class="label">Tipo de norma</div>
+            <div class="chip-row" id="fe-f-tipo"></div>
+          </div>
+          <div class="filter-group">
+            <div class="label">Órgão · situação</div>
+            <div class="chip-row" id="fe-f-outros">
+              <div class="chip" data-grupo="orgao" data-value="DNER">DNER</div>
+              <div class="chip" data-grupo="orgao" data-value="DNIT">DNIT</div>
+              <div class="chip" data-grupo="salvos" data-value="sim">Com ensaios salvos</div>
+              <div class="chip" data-grupo="cancelada" data-value="nao">Só em vigor</div>
+            </div>
+          </div>
+        </div>
+        <div class="result-count" id="fe-count"></div>
+        <div class="norma-list" id="fe-lista"></div>
+      </aside>
       <div class="content-panel fe-painel" id="fe-painel"></div>
+      <aside class="fe-norma-panel" id="fe-norma" hidden></aside>
     </section>
 
     <section id="view-controle" class="view">

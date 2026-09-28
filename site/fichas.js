@@ -1549,6 +1549,53 @@
     function fichasDisponiveis() {
       return Object.keys(FICHAS).filter(function (id) { return normaDe(id); });
     }
+
+    // área de cada ficha pelo título da norma e da ficha (a primeira regra que casar vence)
+    var AREAS = [
+      ["Solos", /solo|expansibilidade|compacta|aterro|in situ|mct|miniatura|limite de|densidade real|gamadens|eletromagn|base estabilizada|sub-base/i],
+      ["Solos estabilizados", /solo-cimento|solo-cal|solo cal|cinza volante|estabilizad[ao]s? quimicamente|compress[ãa]o simples/i],
+      ["Agregados", /^agregado|agregados? (gra[úu]do|mi[úu]do)|de agregados|agregado sint|argila calcinada|argilas para|pulverizado|^areia|equivalente de areia|esc[óo]ria/i],
+      ["Ligantes asfálticos", /imprima|pintura de liga|taxa de aplica|ligante|materia(?:l|is) (?:asf[aá]lt|betumin)|emuls|cimento asf[aá]ltico de|petr[óo]leo|dilu[ií]do|alcatr/i],
+      ["Misturas asfálticas", /mistura|cbuq|marshall|concreto asf|cantabro/i],
+      ["Pavimento rígido e concreto", /selante|pavimento r[ií]gido|concreto(?! asf)|cimento portland|amassamento|vebe/i],
+      ["Pavimento e campo", /deflex|dynaflect|benkelman|prova de carga|geof[ií]sica|eletrorresist|s[ií]smica/i],
+      ["Sinalização", /tinta|microesfera|termopl|demarca|sinaliza/i],
+    ];
+    // ordem de teste (a da lista acima é a de exibição): específicas antes das genéricas
+    var ORDEM_AREAS = ["Sinalização", "Pavimento rígido e concreto", "Solos estabilizados", "Agregados", "Misturas asfálticas",
+      "Ligantes asfálticos", "Solos", "Pavimento e campo"];
+    var cacheArea = {};
+    function areaDe(fid) {
+      if (cacheArea[fid]) return cacheArea[fid];
+      var F = FICHAS[fid], n = normaDe(fid), t = (n ? n.titulo : "") + " " + (F.titulo || ""), a = "Outros";
+      for (var i = 0; i < ORDEM_AREAS.length; i++) {
+        var rx = AREAS.filter(function (x) { return x[0] === ORDEM_AREAS[i]; })[0][1];
+        if (rx.test(t)) { a = ORDEM_AREAS[i]; break; }
+      }
+      return (cacheArea[fid] = a);
+    }
+    var filtro = { busca: "", area: [], tipo: [], orgao: [], salvos: false, soVigor: false };
+    function semAcento(s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); }
+    function passaFiltro(id, salvos) {
+      var F = FICHAS[id], n = normaDe(id);
+      if (filtro.area.length && filtro.area.indexOf(areaDe(id)) < 0) return false;
+      if (filtro.tipo.length && filtro.tipo.indexOf(n.tipo) < 0) return false;
+      if (filtro.orgao.length && filtro.orgao.indexOf(n.orgao) < 0) return false;
+      if (filtro.soVigor && n.status !== "vigente") return false;
+      if (filtro.salvos && !salvos.some(function (s) { return s.ficha === id; })) return false;
+      var q = semAcento(filtro.busca).trim();
+      if (q) {
+        var alvo = semAcento([n.codigo, n.titulo, F.titulo, F.resumo, areaDe(id)].join(" "));
+        var alvoCod = alvo.replace(/[^a-z0-9]/g, "");
+        // cada palavra precisa aparecer; código também sem pontuação ("dnit450" acha "DNIT 450/2024-ME")
+        var achou = q.split(/\s+/).every(function (p) {
+          var pc = p.replace(/[^a-z0-9]/g, "");
+          return alvo.indexOf(p) >= 0 || (pc && alvoCod.indexOf(pc) >= 0);
+        });
+        if (!achou) return false;
+      }
+      return true;
+    }
     function tabelasDe(fid, d) { return FICHAS[fid].tabelas(d); }
     function novoEnsaio(fid) {
       var F = FICHAS[fid];
@@ -1572,16 +1619,19 @@
     }
 
     function renderLista() {
-      var salvos = lerTodos();
-      lista.innerHTML = '<div class="fe-sec">Fichas disponíveis</div>' + fichasDisponiveis().map(function (id) {
+      var salvos = lerTodos(), todas = fichasDisponiveis();
+      var vis = todas.filter(function (id) { return passaFiltro(id, salvos); });
+      var cnt = document.getElementById("fe-count");
+      if (cnt) cnt.textContent = vis.length === todas.length ? todas.length + " fichas" : vis.length + " de " + todas.length + " fichas";
+      lista.innerHTML = (vis.length ? "" : '<div class="fe-prox">Nenhuma ficha com esses filtros.</div>') + vis.map(function (id) {
         var n = normaDe(id), F = FICHAS[id], qtd = salvos.filter(function (s) { return s.ficha === id; }).length;
         var bl = (F.blocos || []).filter(function (b) { return BLOCOS[b].norma !== id; }).map(function (b) { return BLOCOS[b].nome; });
         return '<div class="norma-item' + (estado.ficha === id ? " selected" : "") + '" data-f="' + esc(id) + '">' +
           '<div class="codigo">' + esc(n.codigo) + "</div><div class=\"titulo\">" + esc(F.titulo) +
           (bl.length ? " · usa bloco: " + esc(bl.join(", ")) : "") + (qtd ? " · " + qtd + " salvo(s)" : "") + "</div></div>";
       }).join("") +
-        '<div class="fe-prox">' + fichasDisponiveis().length + " fichas — todos os métodos de ensaio (ME) em vigor do acervo, " +
-        "mais recebimento de ligantes (EM), taxa de aplicação (ES) e dosagem Marshall.</div>";
+        '<div class="fe-prox">Todos os métodos de ensaio (ME) em vigor do acervo, mais recebimento de ligantes (EM), ' +
+        "taxa de aplicação, dosagem Marshall e aceitação de lote (ES).</div>";
     }
 
     function relacoes(fid) {
@@ -1697,8 +1747,10 @@
 
       var html = '<div class="content-header"><div class="header-top"><div>' +
         '<div class="codigo">' + esc(F.titulo) + "</div>" +
-        '<div class="meta"><a class="fe-rel" data-id="' + esc(fid) + '">' + esc(n.codigo) + "</a> — " + esc(F.resumo) + "</div></div>" +
-        '<div class="header-actions"><button class="edit-btn" id="fe-novo">Novo</button>' +
+        '<div class="meta"><a class="fe-rel" data-id="' + esc(n.id) + '">' + esc(n.codigo) + "</a> — " + esc(F.resumo) + "</div></div>" +
+        '<div class="header-actions">' +
+        (ctx.renderNorma ? '<button class="edit-btn' + (estado.normaAberta ? " ativo" : "") + '" id="fe-btn-norma" title="Mostrar o texto da norma ao lado">📄 Norma</button>' : "") +
+        '<button class="edit-btn" id="fe-novo">Novo</button>' +
         '<button class="edit-btn save" id="fe-salvar">Salvar</button>' +
         '<button class="edit-btn save" id="fe-relatorio">Gerar relatório</button></div></div>' +
         relacoes(fid) + "</div>";
@@ -1877,6 +1929,12 @@
         if (rem && d[rem.dataset.rem].length > 1) { d[rem.dataset.rem].pop(); renderTabelas(); recalcular(); }
       };
       document.getElementById("fe-novo").onclick = function () { estado.ensaio = novoEnsaio(estado.ficha); renderFicha(); };
+      var bNorma = document.getElementById("fe-btn-norma");
+      if (bNorma) bNorma.onclick = function () {
+        estado.normaAberta = !estado.normaAberta;
+        bNorma.classList.toggle("ativo", estado.normaAberta);
+        painelNorma();
+      };
       document.getElementById("fe-salvar").onclick = function () {
         var todos = lerTodos().filter(function (s) { return s.uid !== estado.ensaio.uid; });
         estado.ensaio.atualizado = new Date().toISOString();
@@ -1945,12 +2003,98 @@
       estado.ensaio = null;
       renderLista();
       renderFicha();
+      painelNorma();
     }
 
     lista.onclick = function (ev) {
       var it = ev.target.closest(".norma-item");
       if (it) abrir(it.dataset.f);
     };
+
+    // ---------- texto da norma numa barra lateral à direita ----------
+    var painelN = document.getElementById("fe-norma"), normaMostrada = null;
+    function painelNorma() {
+      if (!painelN || !ctx.renderNorma) return;
+      var n = estado.ficha && normaDe(estado.ficha);
+      if (!estado.normaAberta || !n) { painelN.hidden = true; normaMostrada = null; return; }
+      painelN.hidden = false;
+      if (normaMostrada === n.id) return;
+      normaMostrada = n.id;
+      var larg = null;
+      try { larg = Number(localStorage.getItem("fe_norma_largura")) || null; } catch (e) { /* sem armazenamento */ }
+      if (larg) painelN.style.width = larg + "px";
+      painelN.innerHTML = '<div class="fn-arrasta" title="Arraste para ajustar a largura"></div><div class="fn-rolagem">' +
+        '<div class="fn-head"><div><div class="label">Norma</div><div class="fn-cod">' + esc(n.codigo) + "</div></div>" +
+        '<div class="fn-acoes"><a class="fn-abrir" data-id="' + esc(n.id) + '" title="Abrir na aba Normas">abrir na aba Normas ↗</a>' +
+        '<button class="vp-close" id="fe-norma-fechar" title="Fechar">✕</button></div></div>' +
+        '<div class="fn-titulo">' + esc(n.titulo) + '</div><div class="fn-corpo"></div></div>';
+      ctx.renderNorma(n, painelN.querySelector(".fn-corpo"));
+      painelN.querySelector(".fn-rolagem").scrollTop = 0;
+    }
+    // largura do painel: arrastar a borda esquerda (fica guardada neste navegador)
+    if (painelN) painelN.onmousedown = function (ev) {
+      if (!ev.target.closest(".fn-arrasta")) return;
+      ev.preventDefault();
+      var x0 = ev.clientX, w0 = painelN.getBoundingClientRect().width;
+      document.body.classList.add("fn-arrastando");
+      function mover(e) {
+        var w = Math.max(280, Math.min(window.innerWidth - 520, w0 + (x0 - e.clientX)));
+        painelN.style.width = w + "px";
+      }
+      function soltar() {
+        document.removeEventListener("mousemove", mover);
+        document.removeEventListener("mouseup", soltar);
+        document.body.classList.remove("fn-arrastando");
+        try { localStorage.setItem("fe_norma_largura", String(Math.round(painelN.getBoundingClientRect().width))); } catch (e) { /* sem armazenamento */ }
+      }
+      document.addEventListener("mousemove", mover);
+      document.addEventListener("mouseup", soltar);
+    };
+    if (painelN) painelN.onclick = function (ev) {
+      if (ev.target.closest("#fe-norma-fechar")) {
+        estado.normaAberta = false;
+        var b = document.getElementById("fe-btn-norma");
+        if (b) b.classList.remove("ativo");
+        painelNorma();
+        return;
+      }
+      var a = ev.target.closest(".fn-abrir");
+      if (a) ctx.abrirNorma(a.dataset.id);
+    };
+
+    // ---------- filtros da barra lateral ----------
+    var busca = document.getElementById("fe-busca");
+    if (busca) busca.oninput = function () { filtro.busca = busca.value; renderLista(); };
+    function montarChips() {
+      var fa = document.getElementById("fe-f-area"), ft = document.getElementById("fe-f-tipo"), fo = document.getElementById("fe-f-outros");
+      if (!fa) return;
+      var ids = fichasDisponiveis(), contA = {}, contT = {};
+      ids.forEach(function (id) {
+        contA[areaDe(id)] = (contA[areaDe(id)] || 0) + 1;
+        var t = normaDe(id).tipo; contT[t] = (contT[t] || 0) + 1;
+      });
+      fa.innerHTML = AREAS.map(function (a) { return a[0]; }).concat(["Outros"]).filter(function (a) { return contA[a]; }).map(function (a) {
+        return '<div class="chip" data-grupo="area" data-value="' + esc(a) + '">' + esc(a) + " <small>" + contA[a] + "</small></div>";
+      }).join("");
+      var NOMES_T = { ME: "Método de ensaio (ME)", EM: "Especificação de material (EM)", ES: "Especificação de serviço (ES)" };
+      ft.innerHTML = Object.keys(contT).sort().map(function (t) {
+        return '<div class="chip" data-grupo="tipo" data-value="' + esc(t) + '" title="' + esc(NOMES_T[t] || t) + '">' + esc(t) + " <small>" + contT[t] + "</small></div>";
+      }).join("");
+      [fa, ft, fo].forEach(function (row) {
+        row.onclick = function (ev) {
+          var c = ev.target.closest(".chip");
+          if (!c) return;
+          var g = c.dataset.grupo, v = c.dataset.value, on = !c.classList.contains("active");
+          c.classList.toggle("active", on);
+          if (g === "salvos") filtro.salvos = on;
+          else if (g === "cancelada") filtro.soVigor = on;
+          else if (on) filtro[g].push(v);
+          else filtro[g] = filtro[g].filter(function (x) { return x !== v; });
+          renderLista();
+        };
+      });
+    }
+    montarChips();
 
     estado.ficha = fichasDisponiveis()[0] || null;
     renderLista();

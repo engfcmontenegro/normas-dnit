@@ -1586,8 +1586,13 @@
         }).join("") + "</select>";
       } else if (f.tipo === "importar") {
         var salvos = lerTodos().filter(function (s) { return s.ficha === f.de && s.resultados; });
+        // resumo dos resultados da ficha de origem (rotuloImportar próprio, ou γs,máx/h ót do Proctor)
+        var resumoImp = function (r) {
+          var O = FICHAS[f.de];
+          return O && O.rotuloImportar ? O.rotuloImportar(r || {}) : "γs,máx " + fmt(r.gsMax, 3) + " · h ót " + fmt(r.hOt, 1) + " %";
+        };
         var rotulo = function (i, r) {
-          return (i.registro || "sem registro") + " · " + (i.origem || i.local || "") + " · γs,máx " + fmt(r.gsMax, 3) + " · h ót " + fmt(r.hOt, 1) + " %";
+          return (i.registro || "sem registro") + " · " + (i.origem || i.local || "") + " · " + resumoImp(r);
         };
         input = '<select id="' + id + '" data-importar="' + esc(f.k) + '"><option value="">— escolher um ensaio de ' +
           esc(byId[f.de] ? byId[f.de].codigo : f.de) + " —</option>" +
@@ -1596,7 +1601,7 @@
           }).join("") + "</optgroup>" : "") +
           '<optgroup label="Exemplos">' + exemplosDe(f.de).map(function (ex, k) {
             var e = ensaioExemplo(f.de, k), v = "ex:" + f.de + ":" + k;
-            return '<option value="' + v + '"' + (valor === v ? " selected" : "") + ">" + esc("Exemplo — " + ex.nome + " · γs,máx " + fmt(e.resultados.gsMax, 3) + " · h ót " + fmt(e.resultados.hOt, 1) + " %") + "</option>";
+            return '<option value="' + v + '"' + (valor === v ? " selected" : "") + ">" + esc("Exemplo — " + ex.nome + " · " + resumoImp(e.resultados)) + "</option>";
           }).join("") + "</optgroup></select>";
       } else {
         input = '<input id="' + id + '" data-g="' + grupo + '" data-k="' + f.k + '" type="' + (f.tipo === "date" ? "date" : "text") +

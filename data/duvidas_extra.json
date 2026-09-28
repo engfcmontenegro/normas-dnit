@@ -908,6 +908,11 @@
       "page": 3,
       "cat": "erro",
       "texto": "3.3: \"umidade de volume\" (unidade) e \"cumprimento submerso\" (comprimento)."
+    },
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Tabela 2: a primeira linha traz \"retida 33 mm\"; na DNER-ME 195/97 (mesma tabela) é 38 mm."
     }
   ],
   "dner_em_364_97": [
@@ -1066,6 +1071,101 @@
       "page": 4,
       "cat": "erro",
       "texto": "Tabela 1: penetração do resíduo em \"mm\" (4,0 a 15,0), deveria ser 0,1 mm (40 a 150); \"resíduo seco\" sob \"Destilação\" cita a NBR 14376, que é o método por evaporação."
+    }
+  ],
+  "dner_me_195_97": [
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "7.1.2: a massa específica na condição saturada com superfície seca (γsss) está impressa como A/(B − C), idêntica à γs; pela definição 3.3 e a Nota 4 deve ser B/(B − C). As definições 3.2 e 3.3 dizem \"excluídos os vazios permeáveis\", incoerente com o volume B − C."
+    }
+  ],
+  "dnit_413_2021_me": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Tabela 2: o cabeçalho diz \"Passante, % / Retida, %\", mas as colunas são aberturas de peneira em mm."
+    },
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "3.5: massa específica dada em kg/m³, mas as equações resultam em g/cm³."
+    },
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "7.2 b): chama MEsb de \"saturado com superfície seca\", mas a fórmula usa a massa seca A."
+    }
+  ],
+  "dnit_411_2021_me-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "4 b): picnômetro de 500 mL descrito como \"(100 mm³)\"."
+    }
+  ],
+  "dnit_427_2020_me-2": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Seção 8: tolerância de ± 0,020 g/cm³ aplicada também ao Gmm, que é adimensional. Item 5 b remete à \"subseção 5a\" para obter a amostra; deveria ser 4.1."
+    },
+    {
+      "page": 4,
+      "cat": "incerto",
+      "texto": "Seção 6 (agregado poroso): \"esta massa deve substituir a massa A\" — se substituir também o numerador, conta água como mistura; a ASTM D2041 citada troca só no denominador (adotado na ficha)."
+    }
+  ],
+  "dnit_428_2022_me": [
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "6.2.4: as alíneas começam em e), sem a) a d)."
+    },
+    {
+      "page": 9,
+      "cat": "erro",
+      "texto": "Tabela A2: desvio-padrão entre laboratórios (0,015) menor que o de um operador (0,028) — provável erro de digitação."
+    }
+  ],
+  "dnit_180_2018_me-1": [
+    {
+      "page": 2,
+      "cat": "contradicao",
+      "texto": "4 a): exige CPs de 50 a 70 mm de altura; a DNIT 136/2018-ME, que ela manda seguir na ruptura, admite 35 a 65 mm (seção 4)."
+    },
+    {
+      "page": 4,
+      "cat": "incerto",
+      "texto": "Não define como obter o volume E do CP (dimensões ou pesagem hidrostática); S exatamente igual a 55 % ou 80 % não é tratado (6.5 f usa desigualdades estritas)."
+    }
+  ],
+  "dnit_136_2018_me-1": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "Seção 6: exige resultados dentro de ± 10 % da média de 3 CPs, mas não diz o que fazer quando um CP excede (novo conjunto? descarte?). Não fixa arredondamento do resultado."
+    }
+  ],
+  "dnit_131_2010_me": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "Seção 6: aproximação de 0,2 °C fixada só para o termômetro ASTM 15C (água); nada para o 16C (glicerina). Não prevê correlação entre resultados em água e em glicerina."
+    }
+  ],
+  "dnit_130_2010_me": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "8.1: \"diferirem por mais do que 10 % da média\" é ambíguo; não diz o que fazer quando só um ou dois dos três CPs rompem."
+    }
+  ],
+  "dner_me_148_94": [
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "Adota a ABNT MB-50 sem procedimento nem fórmula; a p. 1 diz \"MB-50, de 1989\" e a seção 3 (p. 2) \"de 1939\". Correção barométrica, arredondamento e precisão dependem da MB-50/NBR 11341, fora do acervo."
     }
   ]
 }

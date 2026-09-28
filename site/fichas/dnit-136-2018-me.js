@@ -29,6 +29,8 @@
 
   FE.FICHAS["dnit-136-2018-me"] = {
     titulo: "Misturas asfálticas — Resistência à tração por compressão diametral",
+    // resumo no seletor de importação das fichas que usam a RT (DNIT 135, 183, 434)
+    rotuloImportar: function (r) { return "RT " + (ok(r.rt) ? fmt(r.rt, 2) : "—") + " MPa"; },
     resumo: "Corpos de prova cilíndricos a 25 °C rompidos por compressão diametral a 0,8 ± 0,1 mm/s; σR = 2F / (π·D·H), com D e H médias de quatro leituras. Em CPs moldados, o resultado é a média de três CPs, cada um a ± 10 % da média.",
     blocos: [],
     params: [

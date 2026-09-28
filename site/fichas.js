@@ -1552,8 +1552,8 @@
           '<div class="codigo">' + esc(n.codigo) + "</div><div class=\"titulo\">" + esc(F.titulo) +
           (bl.length ? " · usa bloco: " + esc(bl.join(", ")) : "") + (qtd ? " · " + qtd + " salvo(s)" : "") + "</div></div>";
       }).join("") +
-        '<div class="fe-sec fe-sec-em">Em preparação</div><div class="fe-prox">Próximas fichas (após aprovação): ' +
-        "massas específicas de agregados, Marshall, resistência à tração, ponto de amolecimento…</div>";
+        '<div class="fe-prox">' + fichasDisponiveis().length + " fichas — todos os métodos de ensaio (ME) em vigor do acervo, " +
+        "mais recebimento de ligantes (EM), taxa de aplicação (ES) e dosagem Marshall.</div>";
     }
 
     function relacoes(fid) {
@@ -1813,7 +1813,8 @@
         var v = ev.target.value;
         if (v.indexOf("ex:") === 0) {
           var e = ensaioExemplo(estado.ficha, Number(v.slice(3)));
-          e.dados.ident.data = new Date().toISOString().slice(0, 10);
+          e.dados.ident = e.dados.ident || {};
+          if (!e.dados.ident.data) e.dados.ident.data = new Date().toISOString().slice(0, 10);  // mantém a data do exemplo
           estado.ensaio = e;
           renderFicha();
           return;

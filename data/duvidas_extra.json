@@ -38,6 +38,11 @@
       "page": 1,
       "cat": "erro",
       "texto": "Referências: DNER-ME 018/94 aparece três vezes (itens b, c e d)."
+    },
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "A DNER-ME 018 aparece repetida três vezes nas referências (itens b a d); cita a DNER-ME 190/94 (massa específica), fora do acervo."
     }
   ],
   "dner_em_372_00": [
@@ -45,6 +50,11 @@
       "page": null,
       "cat": "erro",
       "texto": "Referências: DNER-ME 246/94 aparece duas vezes (itens c e f)."
+    },
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "5.12: \"e suas tolerâncias exceto notação…\" — o \"exceto\" parece erro de texto."
     }
   ],
   "dner_em_374_97": [
@@ -655,6 +665,11 @@
       "page": 14,
       "cat": "erro",
       "texto": "7.3.2.3: \"fctM,est ≥ fctMj\" (deveria ser ≥ fctM,k); 7.3.2.2 define fc28 \"na idade de j dias\"; remissões a 7.4.1.1–7.4.1.3, inexistentes (p. 14–15)."
+    },
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "5.1.3: \"± 0,30 min\" (deve ser ± 30 min) e cita a \"norma DNER 6\"."
     }
   ],
   "dner_es_345_97": [
@@ -1459,6 +1474,294 @@
       "page": 3,
       "cat": "erro",
       "texto": "Eq. 1: índice da raiz impresso como \"S\" (a metodologia MCT usa raiz cúbica); a definição de \"n\" que acompanha a equação não é usada nela. 3.8 b usa AF < 48 e AF > 48, e o critério seguinte AF ≥ 48."
+    }
+  ],
+  "dnit_038_2004_me": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "Balança de 1 kg com precisão de 0,1 mg — incoerente. A seção 7 só diz que a fluidez é a alteração do comprimento em mm, sem arredondamento nem critério de repetição."
+    }
+  ],
+  "dnit_039_2004_me": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "Espessura impressa como \"(2,00 + 0,01) mm\" (provavelmente ±); 5.2 (p. 3) cita \"DNIT 039/2003, 044/2003 e 045/2003\"; o símbolo df é usado com dois significados em 7.2 e 7.3."
+    }
+  ],
+  "dnit_040_2004_me": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "A fórmula da tensão cita \"largura do cunho\" (copiada da DNIT 039), que não se aplica a este CP (seção aderida de 12 × 30 mm da Figura 1)."
+    }
+  ],
+  "dnit_041_2004_me": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "A fórmula da deformação permanente não tem o fator × 100, embora o resultado seja em %."
+    }
+  ],
+  "dnit_042_2004_me": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "\"Afastamento mínimo do curso das garras de 75 cm\"; as DNIT 039 e 040 dizem 7,5 cm."
+    }
+  ],
+  "dnit_043_2004_me": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "Balança \"de 1000 kg\" com precisão de 1 mg; banho-maria \"± 10 °C\" contra os (50 ± 1) °C do ensaio; tubo de comprimento mínimo 30 mm para CP de 75 mm; limitador que ultrapassa a placa em 25 mm (as outras normas dizem 2 mm)."
+    }
+  ],
+  "dnit_046_2004_em": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.3 repete no enunciado o título de \"juntas longitudinais de articulação\", mas o requisito é o da junta de expansão. A fluidez de 5 mm não diz se é máximo."
+    }
+  ],
+  "dnit_113_2009_me": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "A altura de 116,4 mm (7.1, da ASTM D4792) não bate com o equipamento do item 3 (molde de 17,80 cm − disco de 6,40 cm = 114,0 mm); a sobrecarga de 5.4 (4,542 kg) difere do disco anelar de 2,27 kg (3 f)."
+    },
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "7.3 diz \"dividida pela leitura inicial\" (é a altura inicial); chama de \"expansão volumétrica\" uma medida de altura; \"após 14 dias da condição de submersão\" são 7 dias submersos + 7 saturados; cita \"DNIT 049/94-ME\" (é DNER)."
+    }
+  ],
+  "dner_me_085_94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "A seção 5 salta de 5.1 para 5.3; o arredondamento do resultado não é dado."
+    }
+  ],
+  "dner_me_087_94-2": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "7.2: RC = Ps/Vs sai em g/cm³ (não divide pela massa específica da água); a norma não fixa arredondamentos."
+    }
+  ],
+  "dnit_410_2017_me-2": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Tabelas 1 e 2: os kN correspondem à placa de 30 cm (0,01/0,08 … 0,50 MPa), mas a coluna em MPa foi calculada para a placa de 76,2 cm; o texto diz que o módulo vai até 0,2 MPa e o exemplo para em 0,08."
+    },
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "Unidade de a1 dada como mm/(MN²/m⁴); para EV sair em MPa deve ser mm/(MN/m²). Tabela 3: \"kEV (%) ≥ 2\" — kEV é razão adimensional e valor maior indica pior compactação."
+    }
+  ],
+  "dner_me_039_94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "\"L — leitura do sensor, em milímetros de polegadas\": o correto é milésimos de polegada (D = L × 2,54 em 0,01 mm)."
+    }
+  ],
+  "dnit_405_2017_me-2": [
+    {
+      "page": 5,
+      "cat": "incerto",
+      "texto": "Seção 8 dá uma só fórmula N0/F, embora o aparelho tenha contagens separadas de densidade e umidade; não diz se as curvas de calibração são em cpm ou razão de contagem."
+    }
+  ],
+  "dner_me_028_94-1": [
+    {
+      "page": 9,
+      "cat": "erro",
+      "texto": "Tabela 2: 1 050 g aparece como 144 UK, fora da sequência (1 040 g = 140; 1 060 g = 141); \"216 g\" deve ser 215. Tabela I (p. 8): cabeçalho \"75\" da segunda metade deve ser 750. 6.1.2 remete ao \"item 2.c\" (4.c); 6.2.5.1 omite \"maior\" (\"velocidade do que 200 rpm\")."
+    }
+  ],
+  "dner_me_233_94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.2.1 cita a \"solução 4.2.3\", que deveria ser 4.2.a."
+    }
+  ],
+  "dner_me_238_94-1": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "7.1 fala em TiO₂ \"na matéria mineral\", mas o resultado (seção 8) é \"no pigmento\"."
+    }
+  ],
+  "dner_me_018_94-1": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "7.4 fixa 25 °C sem tolerância."
+    }
+  ],
+  "dner_em_276_00": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "A Tabela 3 exige estabilidade na diluição, mas as referências não incluem a DNER-ME 184; sangramento só aparece em 4.14, fora da Tabela 3."
+    }
+  ],
+  "dner_me_040_95-1": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "5.3: arranjo Lee com K = 6π·a; pela teoria do arranjo K = 4π·MN = 8π·b."
+    }
+  ],
+  "dnit_415_2019_me-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5 b: V = 1000·M/D com D em g/cm³ dá volume 1000 vezes maior; o correto é V = M/D."
+    }
+  ],
+  "dnit_432_2020_me-2": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "4.1 diz que as expressões estão no Anexo B (estão no Anexo A); 7.5 e 7.6 usam \">\" e as Tabelas B6/B7 \"≥\"; no Anexo B o N de uma mesma fração varia conforme a propriedade (4,75 mm com 71, 73 e 75)."
+    }
+  ],
+  "dner_me_045_95-1": [
+    {
+      "page": 7,
+      "cat": "incerto",
+      "texto": "7.2.9 só cita as dromocrônicas: não traz fórmulas de velocidade nem de espessura das camadas (a ficha usa o método do tempo de interceptação para camadas plano-paralelas)."
+    }
+  ],
+  "dnit_036_2004_me": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "5.2.3: a fórmula \"10t/(V − V1)\" está dimensionalmente errada (o coerente é t·(V − V1)·1000/Va, = 10·t·(V − V1) para 100 cm³). 5.5.3 (p. 5) define \"F = fator do nitrato de prata\", mas na fórmula o fator do nitrato é f. A norma não fixa limites."
+    }
+  ],
+  "dnit_055_2004_me": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "3.1 dá a unidade de P como \"MPa/m (kgf/cm²/cm)\", que é a unidade de k; escreve \"Westergard\" (Westergaard)."
+    }
+  ],
+  "dnit_064_2004_me": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "4.1 a: \"freqüência de 3.000 hertz\" — só é coerente como 3 000 vibrações/min (50 Hz)."
+    }
+  ],
+  "dner_me_046_98": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Tabela 1: desvio de geratriz de 0,03 mm para d = 100 e 0,3 mm para d ≥ 150 — um deles é erro de digitação. A Tabela 3 não cobre abatimento de 180 mm, e 5.2.1.3 (metade das camadas) contradiz a Nota 3 (camadas ≤ 100 mm) para cilindros de 100 mm."
+    }
+  ],
+  "dner_me_249_94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "A fórmula \"% = A / M × 1,30\" não tem o fator 100 (conferido no PDF); não diz como converter o teor sobre a matéria mineral para o termoplástico."
+    }
+  ],
+  "dner_me_058_94-1": [
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "5.8 \"repetir 5.1 a 5.7 para cada peneira\" é ambíguo. A aparelhagem não tem as peneiras nº 18 e nº 80 exigidas pela DNER-EM 373 nem as nº 12, 14, 16, 18 e 25 da DNER-EM 379; as EM escrevem 840/210 µm e 1,2/0,70 mm para as nominais 0,850/0,212 e 1,18/0,71 mm."
+    }
+  ],
+  "dner_em_379_98": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "Cita microesfera \"drop-on (II A)\" da DNER-EM 373, tipo que não existe (lá são F e G); peneiras 1,2 e 0,70 mm para as nominais 1,18 e 0,71 mm."
+    }
+  ],
+  "dnit_069_2005_me": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "Cita \"DNER EM-244/94\" como especificação do termoplástico; 244/94 é a ME de estabilidade — a especificação é a DNER-EM 372/2000."
+    }
+  ],
+  "dner_me_110_94-1": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "A amostragem remete ao item \"2.1.9\", que não existe."
+    }
+  ],
+  "dnit_423_2020_me": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Eq. 8 a 11 dividem por 100 e 3200 (tensão em Pa) mas dão o resultado em kPa⁻¹ (o coerente é dividir pela tensão em kPa, como na ASTM D7405). 7.1.2 escreve \"εr(100; N)\" para 3200 Pa; a numeração pula de 6.6.2 para 6.5.3; o abstract diz \"10 and 3200 Pa\"; a nota B da Tabela 1 (p. 6) está truncada (\"100 Pa-1\" = 0,1 kPa⁻¹)."
+    }
+  ],
+  "dnit_439_2022_me": [
+    {
+      "page": 6,
+      "cat": "contradicao",
+      "texto": "Eq. 14 traz k = 1 + (1 + C2)α, mas o exemplo (p. 15, k = 2,1246) e a AASHTO T 391 usam (1 − C2). Na p. 15 o denominador de A mostra 0,1717 (Cf) no lugar de C2. Eq. 6 (p. 5) sem o operador."
+    },
+    {
+      "page": 10,
+      "cat": "erro",
+      "texto": "Tabela B1: |G*| a 30 Hz = 6,97E+07; pelo G' da própria tabela seria 5,97E+07. No ΔD₃ (p. 12) o texto mostra γ = 0,31, mas a conta usa 0,52. As frequências da Tabela B1 diferem da lista de 6.2; C1 e C2 do exemplo (0,1136/0,4187) não se reproduzem com os 75 pontos publicados (dão 0,1246/0,3988)."
+    }
+  ],
+  "dnit_448_2024_me": [
+    {
+      "page": 11,
+      "cat": "erro",
+      "texto": "Tabela 2: tensão no PAV de 500 kPa (400 a 600); pela ASTM D7175 e pela coerência 5000 kPa × 1 % seria 50 kPa. A fonte aparece como \"ASTM D7151\" (D7175). A Tabela 3 chama de \"CV 2 amostras\" o que na ASTM é a d2s %."
+    }
+  ],
+  "dnit_135_2018_me-2": [
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "A eq. 6 escreve ΔVins = Hmax − Hf e a eq. 8 ΔVt = Vmax − H0 (deveriam usar V). A nota de 7.4 diz \"módulo de resiliência\" onde o assunto é o MI; 6.1 cita a DNIT 136/2010; a eq. 13 só vale para ΔH medido no diâmetro com sensor externo — a norma não diz como fica o MR com sensor interno."
+    }
+  ],
+  "dnit_183_2018_me-1": [
+    {
+      "page": 13,
+      "cat": "erro",
+      "texto": "Anexo F: o modelo por deformação (N = 3E-11·ε^-3,261, R² = 0,9715) não bate com a própria tabela — como εi = σt/11580 e Δσ = 4σt, o expoente teria de ser igual ao do Δσ (3,398), com k₂ ≈ 7,7 × 10⁻¹²."
+    }
+  ],
+  "dnit_184_2018_me-1": [
+    {
+      "page": 12,
+      "cat": "incerto",
+      "texto": "Anexo B: a coluna \"deformação plástica específica\" não é ΔL dividido por um Hr constante (a razão varia de 135 a 132 mm)."
+    }
+  ],
+  "dnit_434_2022_me": [
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "Seção 7: %RF é descrita como razão \"expressa em MPa\", sem dizer se é porcentagem ou fração."
+    }
+  ],
+  "dnit_416_2019_me-1": [
+    {
+      "page": 9,
+      "cat": "erro",
+      "texto": "Seção 9 dá |E*| em kPa, mas a Tabela 8 usa MPa; na Tabela 8 o desvio-padrão de φ a 40 °C/25 Hz aparece como 0,0, mas os valores 31,9 e 32,0 dão 0,07."
     }
   ]
 }

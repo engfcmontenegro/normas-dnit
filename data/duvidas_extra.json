@@ -17,6 +17,36 @@
       "page": 14,
       "cat": "erro",
       "texto": "Tabela 5: \"amostras deformadas e informadas\" — provavelmente \"indeformadas\". Transcrito como no PDF."
+    },
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "4.1: Classe II = aterros altos com h > 3 m; Classe III = altura < 3 m — h = 3 m não é enquadrado (ficha adota Classe II e emite ressalva)."
+    },
+    {
+      "page": 6,
+      "cat": "erro",
+      "texto": "Tabela 2: as células das Classes II e III remetem a \"Obs. 1\", mas a nota da tabela é a \"NOTA 4\" marcada com asterisco."
+    },
+    {
+      "page": 6,
+      "cat": "incerto",
+      "texto": "Tabela 2 × Tabela 3: para as Classes II e III o recalque residual longitudinal fica a definir no projeto, mas o diferencial transversal tem limite (5 e 10 cm) — limite longitudinal oferecido como parâmetro."
+    },
+    {
+      "page": 7,
+      "cat": "incerto",
+      "texto": "Eq. 1: N_SPT,60 = N_SPT × Energia Aplicada / 0,60 — a \"Energia Aplicada\" não é definida no \"onde\"; interpretada como fração (eficiência) da energia teórica."
+    },
+    {
+      "page": 14,
+      "cat": "erro",
+      "texto": "Tabela 5: \"Coleta de amostras deformadas e informadas\" — deveria ser \"indeformadas\"."
+    },
+    {
+      "page": 13,
+      "cat": "incerto",
+      "texto": "Tabelas 4 e 5, Classe I: \"uma vertical em cada extremidade da estrutura\" — o número de extremidades adjacentes ao aterro não é definido (parâmetro na ficha, padrão 2)."
     }
   ],
   "dnit_453_2024_em": [
@@ -130,6 +160,51 @@
       "page": 11,
       "cat": "erro",
       "texto": "Severidade A = \"20\" — provavelmente > 20. Transcrito como no PDF."
+    },
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "5.3.2 c): 'Os critérios para a contagem também se encontram no Anexo C' — o Anexo C é o modelo circular; os critérios de contagem estão no Anexo E."
+    },
+    {
+      "page": 5,
+      "cat": "incerto",
+      "texto": "6.3: 'cadastro documental do trecho em inspeção (ver Anexo H)' — o Anexo H é a ficha de inspeção preenchida (exemplo), não trata de cadastro documental."
+    },
+    {
+      "page": 9,
+      "cat": "erro",
+      "texto": "Anexo D, placa (1,2): 'Deslocamento vertical de aproximadamente mm' — falta o valor."
+    },
+    {
+      "page": 9,
+      "cat": "contradicao",
+      "texto": "Anexo D: fissuras de retração plástica nas placas (1,2) e (2,3); no croqui da ficha do Anexo J (p. 21) o tipo 15 aparece em (10,3) e (2,3), e a placa (1,2) só tem 18B."
+    },
+    {
+      "page": 11,
+      "cat": "erro",
+      "texto": "Anexo E, item 4 (escalonamento), tabela: grau A com desnível '20' — deveria ser '> 20' (como no item 18, placa bailarina). A ficha usa > 20 mm."
+    },
+    {
+      "page": 12,
+      "cat": "incerto",
+      "texto": "Anexo E, item 7 (fissuras lineares): degrau de exatamente 10 mm não é enquadrado (M: < 10 mm; A: > 10 mm)."
+    },
+    {
+      "page": 14,
+      "cat": "incerto",
+      "texto": "Anexo E, item 16 (quebra de canto): quebras com lado < 13 cm ou área < 65 cm² são desprezadas — uma quebra de 13 × 13 cm já tem ≥ 84,5 cm², de modo que o critério de área nunca atua; e 'mais que 30 × 30' não diz se basta um lado."
+    },
+    {
+      "page": 14,
+      "cat": "incerto",
+      "texto": "Anexo E, item 17 (esborcinamento de juntas): largura '< 100' e '> 100' sem unidade (provavelmente mm) e sem o valor 100; a ficha trata 100 como '< 100'."
+    },
+    {
+      "page": 21,
+      "cat": "contradicao",
+      "texto": "Anexo J (ficha de inspeção - exemplo): o quadro registra 10 placas com desgaste superficial (10), mas o croqui da mesma ficha mostra o tipo 10 em 9 placas (coluna 2, linhas 2 a 10)."
     }
   ],
   "dnit_438_2022_pro": [
@@ -166,6 +241,21 @@
       "page": null,
       "cat": "incerto",
       "texto": "Quadro 1: o título \"Tipo de inspeção\" da 1ª coluna foi criado na transcrição (no PDF a coluna não tem título)."
+    },
+    {
+      "page": 19,
+      "cat": "contradicao",
+      "texto": "Anexo C, nota (1): \"Inspeções Intermediárias\" = novas inspeções a intervalos inferiores aos normais; em 4.2.5 a inspeção intermediária é a feita para monitorar uma anomalia específica, não regular (p. 4)."
+    },
+    {
+      "page": 20,
+      "cat": "erro",
+      "texto": "Anexo D: \"Demais tabelas ... constaram na documentação do SGE\" — tempo verbal (constam); as tabelas de EC por elemento não estão na norma (só a Tabela D1 genérica)."
+    },
+    {
+      "page": 19,
+      "cat": "incerto",
+      "texto": "Anexo C, Obs.: a nota final oficial é calculada pelo SGE (modelo não publicado); a alternativa da menor nota dos elementos com função estrutural foi adotada na ficha."
     }
   ],
   "dnit_097_2025_pro": [
@@ -180,6 +270,26 @@
       "page": 3,
       "cat": "incerto",
       "texto": "Tabela 1: \"CentroOeste\" do PDF escrito como \"Centro-Oeste\"."
+    },
+    {
+      "page": 5,
+      "cat": "contradicao",
+      "texto": "Anexo B: o exemplo usa a estação 2044042 (d = 323,5 km), mas pelas coordenadas da Tabela 1 a estação 2142022 (RJ) fica a ≈ 319 km do ponto — as 5 estações do exemplo não são exatamente as mais próximas, como exige a seção 3 (p. 2)."
+    },
+    {
+      "page": 4,
+      "cat": "incerto",
+      "texto": "Tabela 1: NERE das estações 2142022 (nd 0,02159 → 3,849) e 1137043 (nd 0,01671 → 3,248) aparece como 3,9 e 3,3, e não 3,8 e 3,2 pela relação linear da seção 3 (todas as outras 80 conferem) — aparente arredondamento duplo."
+    },
+    {
+      "page": 2,
+      "cat": "incerto",
+      "texto": "Seção 4: 'NERP é um número inteiro', mas a eq. 1 dá valor decimal; a regra de arredondamento (3,4 → 3; 3,5 → 4) só aparece no Anexo B, informativo."
+    },
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Tabela 1: nomes de UF grafados 'Segipe' (Sergipe) e 'Rio Grande no Norte' (Rio Grande do Norte)."
     }
   ],
   "dnit_385_2026_es": [
@@ -2896,6 +3006,233 @@
       "page": 1,
       "cat": "erro",
       "texto": "A eq. 1 omite o ×100 que as eqs. 5 e 6 incluem."
+    }
+  ],
+  "dner-pro-132-94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "4.3.1: redação truncada — \"se o número de sacos defeituosos for igual ou superior ao número caso o número de rejeição (coluna 7 da Tabela 1)\" (sobra \"ao número caso\")."
+    },
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "A Tabela 1 (inspeção normal) vai até lotes de 1 300 sacos, mas a Tabela 2 (inspeção rigorosa, 4.4) só até 1 160: um lote de 1 161 a 1 300 sacos rejeitado não tem plano de reinspeção; lotes acima de 1 300 sacos não têm plano algum."
+    },
+    {
+      "page": 4,
+      "cat": "incerto",
+      "texto": "A Tabela 2 (inspeção rigorosa) é só de amostragem simples, embora 4.4 mande aplicar \"o procedimento descrito nos itens 4.1, 4.2 e 4.3\" (que preveem amostragem dupla)."
+    }
+  ],
+  "dner-pro-231-94-1-1": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "Tabela 1 e Tabela 2 (p. 4 e 5), coluna 3: a segunda amostra aparece como \"2\" em vez de \"2ª\" nas faixas de 501 a 3 200 (Tabela 1) e de 301 a 3 200 (Tabela 2)."
+    },
+    {
+      "page": 5,
+      "cat": "incerto",
+      "texto": "Nota 2 (não reincorporar a 1ª amostra antes da 2ª), citada em 4.3.1, está impressa depois de 4.5, fora da seção 4.3."
+    }
+  ],
+  "dner-pro-232-94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "6.5: a lista de registros salta de g) para j) — faltam as alíneas h) e i); a temperatura ambiente, exigida em 6.3 (de preferência 15 °C a 35 °C), não consta da lista (provavelmente numa das alíneas perdidas)."
+    },
+    {
+      "page": 2,
+      "cat": "incerto",
+      "texto": "3.1 b e c: grade de 30 retículos com \"3,3%\" cada somam 99 %; o valor exato é 100/30 = 3,33 % (a ficha usa 100/30)."
+    },
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "5.2: \"desgaste de suas características e da ordem de 50%, no máximo\" — limite vago (\"da ordem de\" e \"no máximo\"); a norma não define a vida útil prevista nem liga o resultado de 8.1 aos limites de 5.1/5.2 (a ficha compara a média de 8.1 com 25 % até a metade da vida útil e 50 % até o fim)."
+    },
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "5.3 e 2.1: cita as DNER-EM 118/94 e 252/94 para as tintas branca e amarela; as especificações de tinta do acervo são as DNER-EM 276/00, 368/00 e 371/00."
+    },
+    {
+      "page": 4,
+      "cat": "incerto",
+      "texto": "7.2 b: faixas contínuas com leituras a cada 7 m num trecho de ≈ 1 000 m (4.2) dariam cerca de 140 leituras; a norma não diz se as leituras cobrem todo o trecho ou apenas as faixas amostradas ao acaso (7.1)."
+    }
+  ],
+  "dner-pro-250-94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.3: a legenda define \"S - veículo não total, porcentagem em massa no veículo\"; o correto é \"veículo não volátil\" (título de 5.3)."
+    },
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "5.2: as duas fórmulas R = NV − P e R = 100 − (P + V) só coincidem se NV + V = 100 (o que vale pela DNER-ME 235); a norma não diz qual prevalece se os teores forem de determinações diferentes (a ficha usa NV − P e avisa)."
+    }
+  ],
+  "dner-pro-015-94-1": [
+    {
+      "page": 6,
+      "cat": "contradicao",
+      "texto": "5.1.2 exige amostras de mistura 'pelo menos duas vezes por dia de 8 horas', mas o Quadro 1 (item 7, p. 9) diz 'diariamente pelo menos a cada 8 horas de trabalho' (uma por 8 h). A ficha adota o 5.1.2 (2 por dia de 8 h)."
+    },
+    {
+      "page": 6,
+      "cat": "erro",
+      "texto": "5.1.2 remete à DNER-PRO 013/94 como '(ver 2.1.2)'; a referência está em 2.1 a."
+    },
+    {
+      "page": 9,
+      "cat": "incerto",
+      "texto": "Quadro 1, item 8 (amostra de mistura na pista): a coluna 'área de compactação (cm²)' está cortada no original — só se leem os finais '..50' (2,8 a 19,0 mm) e '..00' (25 a 50 mm); a ficha não usa esses valores (ver DNER-PRO 013/94)."
+    },
+    {
+      "page": 9,
+      "cat": "contradicao",
+      "texto": "Quadro 1, item 7: Dmáx 2,0/4,8/9,5/12,7/19,0/25,0/38,0/50,0 mm → 2/2/4/6/8/10/12/16 kg de mistura, diferente da Tabela de 4.3 da DNER-PRO 013/94 à qual o próprio quadro remete (2,4/4,8/9,5/12,5/19,5/25,4/38,1/50,8 mm → 1,8/1,8/3,6/5,4/7,3/8,1/11,3/15,9 kg)."
+    },
+    {
+      "page": 4,
+      "cat": "incerto",
+      "texto": "4.2 e 4.3.5 mandam conferir a exatidão das balanças com pesos padronizados e as temperaturas (4.3.8) e a dosagem (4.3.1) pelas tolerâncias da fiscalização, mas a PRO não fixa nenhuma tolerância numérica (erro da balança, teor de ligante, temperaturas); a ficha as recebe como parâmetros."
+    },
+    {
+      "page": 9,
+      "cat": "incerto",
+      "texto": "Quadro 1, item 1 (agregado miúdo): o texto da frequência termina com 'Igual ao agregado miúdo', que pertence ao item 2 (agregado graúdo) — as células estão desalinhadas no original."
+    }
+  ],
+  "dner-pro-261-94-1": [
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "5.1 remete à DNER-EM 260/94 como '(ver item 2.1.9)'; a referência é 2.1 a."
+    },
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Página 3 com diagramação embaralhada no original: o texto de 5.5 e da Nota aparece fora de ordem (\"(ver item 2.1.a). engenharia em causa.\" antes do cabeçalho)."
+    }
+  ],
+  "dner-pro-263-94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Nota de 5.1 truncada: termina em 'conforme o Método PTM 130 (Pennsylvania Testing Method, USA), adaptado pelo' — falta o órgão (DER-MG, pela DNER-EM 262/94 e DNIT 113/2009-ME)."
+    },
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "4 e 5.1 remetem à DNER-EM 262/94 como 'item 2.1.3' e 'irem 2.1.4'; a referência é 2.1 a."
+    }
+  ],
+  "dner_pro_361_97": [
+    {
+      "page": 2,
+      "cat": "contradicao",
+      "texto": "4.1.1 c (tabela): PA-45 com limite de resistência mínimo 54 e máximo 54 kgf/mm²; 4.1.1 b diz que a parte numérica (45) é a resistência mínima de ruptura. A ficha usa 45 a 54 kgf/mm²."
+    },
+    {
+      "page": 2,
+      "cat": "incerto",
+      "texto": "4.1.1 c (tabela): ângulo de dobramento de 100° para o PA-37 (180° para o PA-45); valor atípico, possivelmente 180°. A ficha segue o texto (100°)."
+    },
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "4.2.4: estabilizador (colômbio ou titânio) 'de 0,7% a 1%', mas o titânio 'no mínimo, de 0,4% a 0,8%' e 'cinco vezes superior ao de carbono' — faixas que não se conciliam. A ficha exige Nb + Ti de 0,7 % a 1 %, Ti ≥ 5 × C e Ti ≥ 0,4 %."
+    },
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "4.2.1: 'contém 10% de cromo' sem dizer se é mínimo; a ficha usa ≥ 10 %."
+    },
+    {
+      "page": 2,
+      "cat": "incerto",
+      "texto": "3.4 e 3.6 anunciam o 'critério de similaridade a seguir definido' no capítulo seguinte, mas o capítulo 4 só traz requisitos de aços; não há critério geral (nem estatístico) de comparação — a ficha compara cada característica com os limites da EM e, opcionalmente, com o material especificado por uma tolerância dada pelo projeto."
+    }
+  ],
+  "dnit_054_2004_pro": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "3.2.3: 'Determinação do teor de partículas leves - NBR 9937' — a NBR 9937 é absorção e massa específica do agregado graúdo (já citada em 3.2.2); partículas leves é a NBR 9936."
+    },
+    {
+      "page": 4,
+      "cat": "incerto",
+      "texto": "4.3: 'Teor de ar incorporado máximo – NBR NM 47 – 0,5%' — valor típico de ar aprisionado; para ar incorporado seria um teor mínimo/faixa (4 a 6 %). A ficha aplica ≤ 0,5 % como está escrito."
+    },
+    {
+      "page": 6,
+      "cat": "incerto",
+      "texto": "5.3: resistência média com 0,84·Sd (quantil de 20 %) remetendo ao 'critério da norma NBR 12655', que usa 1,65·Sd, Sd ≥ 2 MPa e uma condição C (7,0 MPa) ausente aqui. A ficha segue a DNIT 054 (0,84; padrões rigoroso e razoável)."
+    },
+    {
+      "page": 6,
+      "cat": "incerto",
+      "texto": "5.3: 'correlação entre a resistência à compressão diametral e a relação água/cimento' — trata-se da resistência à tração por compressão diametral."
+    }
+  ],
+  "dner_pad_111_97-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "A página do Anexo A (ficha de sondagem a percussão) traz no canto o rótulo \"ANEXO B\", e a do Anexo B (rotativa/mista, p. 4) o rótulo \"ANEXO C\" — rótulos herdados da edição anterior."
+    },
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Legenda de granulometria do Anexo A: \"0,002 µ\" — a fronteira argila/silte é 0,002 mm (2 µm); a unidade µ está errada."
+    },
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "As escalas de consistência (MOLE a M/DURA, marcas 8-16-24-32-40) e de compacidade (FOFA a M/COMPACTA, marcas 4-12-20-28-36) não coincidem com a grade de 4 em 4 golpes do campo de penetração e a PAD não fixa numericamente os limites das classes; a ficha usa os limites da ABNT NBR 6484:2020 como parâmetro editável."
+    },
+    {
+      "page": 5,
+      "cat": "incerto",
+      "texto": "Anexo C: o IR é descrito como a \"relação entre a metragem perfurada (Mp) e a metragem de testemunho (Tb)\", mas a fórmula é IR = Tb/Mp × 100 (ordem invertida no texto); adotada a fórmula."
+    },
+    {
+      "page": 1,
+      "cat": "incerto",
+      "texto": "A Apresentação diz que a PAD está adaptada à DNER-PRO 101/93, que não consta do acervo (seriam dela as classes de consistência/compacidade e a definição das séries de golpes)."
+    }
+  ],
+  "dnit_380_2022_pro": [
+    {
+      "page": 13,
+      "cat": "contradicao",
+      "texto": "Tabela A2 dá para \"Areias\" tamanho máximo do grão < 4 mm e a Tabela A3 < 2 mm."
+    },
+    {
+      "page": 13,
+      "cat": "erro",
+      "texto": "Tabela A3: \"Siltes e argilas < 0.06\" com ponto decimal (demais valores com vírgula)."
+    },
+    {
+      "page": 13,
+      "cat": "incerto",
+      "texto": "Tabela A2 não tem coluna para geotêxteis com M_A ≤ 140 g/m²."
+    },
+    {
+      "page": 5,
+      "cat": "contradicao",
+      "texto": "5.1.3.1 a) chama de \"valores indicativos\" os FR_fl da Tabela A1, cujo título é \"Valores mínimos do fator de redução (FR_fl)\" (p. 13); a ficha os trata como mínimos."
+    },
+    {
+      "page": 8,
+      "cat": "incerto",
+      "texto": "5.3.5 e): \"resistência à tração de dimensionamento do reforço ≥ 30 kN/m\" — termo não definido; interpretado como T_proj da eq. 1."
     }
   ]
 }

@@ -49,6 +49,7 @@
 
   FE.FICHAS["dner-pro-102-97"] = {
     titulo: "Sondagem rotativa — Boletim de sondagem",
+    rotuloImportar: function (r) { return "prof. " + fmt(r.prof, 2) + " m · " + (r.n || 0) + " manobra(s) · rec. " + fmt(r.recG, 0) + " % · RQD " + fmt(r.rqdG, 0) + " %"; },
     resumo: "Boletim de sondagem rotativa por manobra: recuperação (3.4), número de peças (3.5), RQD e qualidade da rocha (7.1.2, Tabela 12), grau de fraturamento (Tabela 13), alteração e coerência (Tabelas 11 e 14); recuperação mínima (5.3), manobras curtas (5.4 d), nível d'água (5.6), itens do boletim (7.2) e perfil individual.",
     params: [
       { k: "firma", r: "Firma executora (7.2 b)" },

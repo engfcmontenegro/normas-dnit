@@ -51,7 +51,7 @@ Na aplicação desta Norma é necessário consultar:
 
 a) DNER-EM 118/94, designada Tinta à base de resina acrílica e/ou vinílica para demarcação viária;
 
-0) DNSEKEM “171/94, designada Wiicroesieras Ge viGro retrorreTicuvas usadas em materiais paia demarcação viária;
+b) DNER-EM 121/94, designada Microesferas de vidro retrorrefletivas usadas em materiais para demarcação viária;
 
 c) DNER-EM 252/94, designada Tinta à base deresina alquídica/borracha clorada; copolimero estireno-acrilato e/ou estireno-butadieno, usada para demarcação viária.
 
@@ -93,7 +93,7 @@ b) pavimento em boas condições.
 
 **5.2** Durante o período de vida útil prevista, a pintura deve permanecer na faixa de tráfego, admitindo-se, porém, um desgaste de suas características e da ordem de 50%, no máximo.
 
-**5.3** As tintas branca e amarela, para demarcação viária, devem obedecer as condições específicas constantes da Norma DNER-EM 118/94 (ver item 2.1.2) e da DNER-EM 252/94 (ver item 2.1.c).
+**5.3** As tintas branca e amarela, para demarcação viária, devem obedecer as condições específicas constantes da Norma DNER-EM 118/94 (ver item 2.1.a) e da DNER-EM 252/94 (ver item 2.1.c).
 
 ## 6 CONDIÇÕES DE APLICAÇÃO DA TINTA NA PISTA
 
@@ -103,7 +103,7 @@ b) pavimento em boas condições.
 
 **6.2.1** Casoatintanão tenha a consistência especificada, deve ser adicionada uma percentagem mínima de solvente, compatível com a tinta, para acertar a consistência.
 
-**6.3** A tinta, quando aplicadana quantidade especificada, deverecobrir perfeitamente o pavimento na faixa destinada à pintura, e secar dentro de 30 minutos, no máximo, após a sua aplicação sob condições de temperatura ambiente, variando de preferência entre 15ºCa 35ºC, e com umidaderelativa do ar não superior
+**6.3** A tinta, quando aplicadana quantidade especificada, deverecobrir perfeitamente o pavimento na faixa destinada à pintura, e secar dentro de 30 minutos, no máximo, após a sua aplicação sob condições de temperatura ambiente, variando de preferência entre 15ºCa 35ºC, e com umidaderelativa do ar não superior a 80%.
 
 **6.4** Asuperficie da pista derolamento deve estar seca, limpa, isenta de qualquer detrito ouóleo, previamente varrida com vassoura de piaçava, ou jateamento de ar.
 
@@ -127,7 +127,7 @@ j) umidade relativa do ar;
 
 k) temperatura do pavimento;
 
-D tempo de secagem ao tráfego;
+l) tempo de secagem ao tráfego;
 
 m) velocidade de aplicação da máquina;
 

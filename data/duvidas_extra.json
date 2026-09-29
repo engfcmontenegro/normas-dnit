@@ -5,6 +5,11 @@
       "page": 2,
       "cat": "erro",
       "texto": "\"¾ da amostra total (32,5 kg)\": com 50 kg seriam 37,5 kg (32,5 + 12,5 ≠ 50). Transcrito como no PDF."
+    },
+    {
+      "page": 2,
+      "cat": "erro",
+      "texto": "Seção 4: ¾ de 50 kg escrito \"32,5 kg\" (37,5, como no fluxograma); o fluxograma diz \"Sg\" onde deveria ser \"Sp\"; a Tabela C2 descreve Ps-NS' e Sp-NS' como \"argiloso\" (siltoso); as Tabelas 1 e 2 deixam indefinidos os limites exatos de 10 %, 30 % e 50 %; a seção 6 cita a Figura B1 para o grupo MCT."
     }
   ],
   "dnit_381_2022_pro": [
@@ -24,6 +29,11 @@
       "page": null,
       "cat": "erro",
       "texto": "Item 3.2.3 a) cita \"Anexo C\" onde o conteúdo está no Anexo B."
+    },
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "As equações 1–3 só reproduzem o Anexo B com w e resultados em µm (a norma diz mm); no Anexo B, as peneiras 0,355, 0,21 e 0,18 mm têm ±Y (0,133 / 0,087 / 0,076) e +Z com erro de casa decimal; a coluna +Z das peneiras finas está arredondada a 2 decimais."
     }
   ],
   "dner_em_230_94-1": [
@@ -31,6 +41,11 @@
       "page": 3,
       "cat": "erro",
       "texto": "Tabela de 5.1, Classe II: massa unitária \"Máx. –\" e \"Mín. 0,880\" — colunas possivelmente trocadas. Transcrito como no PDF."
+    },
+    {
+      "page": 1,
+      "cat": "contradicao",
+      "texto": "0,880 t/m³ é ao mesmo tempo o máximo da classe I e o mínimo da classe II."
     }
   ],
   "dner_em_371_00": [
@@ -55,6 +70,11 @@
       "page": 4,
       "cat": "erro",
       "texto": "5.12: \"e suas tolerâncias exceto notação…\" — o \"exceto\" parece erro de texto."
+    },
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "Sem método para índice de deslizamento, desgaste Taber e sulfeto de cádmio; sem regra de amostragem para laboratório."
     }
   ],
   "dner_em_374_97": [
@@ -62,6 +82,11 @@
       "page": null,
       "cat": "erro",
       "texto": "Item 4.6 cita \"ver 4.9.1\", item que não existe na norma."
+    },
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "Tabela 2 em \"kgf/m\" (deveria ser kg/m); cabeçalho de alongamento \"(mm)\" com valores em %; a Tabela 3 (pinos \"φ < 20 / φ > 20\") deixa φ = 20 indefinido; a nota (C) \"3 pinos de φ 8\" é obscura; fst/fy do CA-50 = 1,10, contra 1,08 da NBR 7480."
     }
   ],
   "DNIT_409_2017_PRO": [
@@ -69,6 +94,11 @@
       "page": null,
       "cat": "erro",
       "texto": "O índice cita uma \"Tabela 2\" que não existe na norma."
+    },
+    {
+      "page": 1,
+      "cat": "incerto",
+      "texto": "\"Desvio padrão máximo de 20 %\" não diz 20 % de quê (a ficha adota 20 % da média); os valores mínimos não estão na norma (estão no programa BR-Legal)."
     }
   ],
   "dner-pro-103-94-1": [
@@ -76,6 +106,11 @@
       "page": 3,
       "cat": "erro",
       "texto": "Tabela 2, segunda linha: \"1 a 75 tambores\" (a primeira já é \"1 a 25\"). Transcrito como no PDF."
+    },
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "A Tabela 2 aceita 1,0 kg de graxa, contra o mínimo de 2 kg de 3.2.1; as faixas da Tabela 2 se sobrepõem (1–25 e 1–75 tambores; 1–250 e 1–1 050 baldes); a Tabela 1 para em 1 000 recipientes."
     }
   ],
   "dnit_435_2021_pro": [
@@ -83,6 +118,11 @@
       "page": 3,
       "cat": "erro",
       "texto": "\"30 mm\" — provavelmente 30 µm. Transcrito como no PDF."
+    },
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Espessura da lâmina \"cerca de 30 mm\", contra 0,03 mm na definição 3.2 (p. 2)."
     }
   ],
   "dnit_060_2004_pro": [
@@ -97,6 +137,11 @@
       "page": null,
       "cat": "erro",
       "texto": "4 b) cita \"subseção 3.3\", mas TNM é definido em 3.5; a seção 4 remete aos exemplos no \"Anexo C\" (estão no B) e 5.3 cita \"Anexo D\" (é o C)."
+    },
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "\"O Anexo C apresenta\" os exemplos (estão no Anexo B); \"subseção 3.3\" para o TNM (é a 3.5); p. 7: \"O Anexo D\" (é o C); p. 8: \"seção 5, a partir da alínea b\" (seção 4, alínea c) e \"Subseção 6.2\" (5.2); no Anexo C o passo k usa AF@AG = 2,21 % e o passo i dá 2,20 %; a Tabela 3 não define PCT para TNM 12,5/9,5/4,75."
     }
   ],
   "dnit_085_2006_es": [
@@ -1440,6 +1485,11 @@
       "page": 3,
       "cat": "incerto",
       "texto": "Tabela: os símbolos antes dos valores de Água e Densidade não têm glifo no PDF; lidos como ≤ (água, máximo) e ≥ (densidade, mínimo) pelo contexto da AASHTO M 52. A unidade da Densidade aparece como \"°C\" e a da Flutuação como \"°E\"."
+    },
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Densidade com unidade \"°C\" (é adimensional, 25/25 °C); ensaio de flutuação em \"°E\" (a ASTM D 139 dá segundos); os sinais ≤/≥ aparecem como glifos ilegíveis no PDF."
     }
   ],
   "dner_me_004_94": [
@@ -1898,6 +1948,11 @@
       "page": 4,
       "cat": "contradicao",
       "texto": "6.6 exige resistência ao esmagamento ≥ 55 % / ≥ 65 % pela DNER-ME 197/97, cujo resultado R é a porcentagem de finos produzidos (quanto menor, melhor); o limite só é coerente com 100 − R."
+    },
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "Tabela A1 dá 3/8\" como 9,8 mm, enquanto a coluna de abertura nominal e a Tabela A2 usam 9,5 mm; a Tabela A3 se intitula \"limites recomendados\", mas 7.1 a torna obrigatória."
     }
   ],
   "dner_me_397_99": [
@@ -2088,6 +2143,11 @@
       "page": 3,
       "cat": "erro",
       "texto": "5.3 repete no enunciado o título de \"juntas longitudinais de articulação\", mas o requisito é o da junta de expansão. A fluidez de 5 mm não diz se é máximo."
+    },
+    {
+      "page": 3,
+      "cat": "contradicao",
+      "texto": "5.1 b e 5.2 b divergem sobre qual envelhecimento (estufa ou intemperismo) se aplica ao alongamento na tração."
     }
   ],
   "dnit_113_2009_me": [
@@ -2175,6 +2235,11 @@
       "page": 2,
       "cat": "erro",
       "texto": "A Tabela 3 exige estabilidade na diluição, mas as referências não incluem a DNER-ME 184; sangramento só aparece em 4.14, fora da Tabela 3."
+    },
+    {
+      "page": 2,
+      "cat": "incerto",
+      "texto": "Não indica método para sólidos por volume, identificação por IV, gasolina e intemperismo; finura e poder de cobertura (Tabela 1) sem as DNER-ME 027 e 026 na seção 2."
     }
   ],
   "dner_me_040_95-1": [
@@ -2252,6 +2317,11 @@
       "page": 2,
       "cat": "erro",
       "texto": "Cita microesfera \"drop-on (II A)\" da DNER-EM 373, tipo que não existe (lá são F e G); peneiras 1,2 e 0,70 mm para as nominais 1,18 e 0,71 mm."
+    },
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "A seção 5 salta de 5.9 para 5.11; sem requisito de resistência à umidade nem cláusula de dispensa de ensaios."
     }
   ],
   "dnit_069_2005_me": [
@@ -2571,6 +2641,261 @@
       "page": 3,
       "cat": "erro",
       "texto": "5.1.2 d: LL e IP \"quando ensaiado pela DNER-ME 122\" (o IP é pela DNER-ME 082)."
+    }
+  ],
+  "dner_ie_005_94-1": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "5.5 dá pressão inicial de \"0,20 kPa ou 0,25 kPa\", enquanto a sequência é 20/25 kPa. 7.4 diz que a reta de permeabilidade relaciona k à pressão média, mas a Figura 9 plota k contra o índice de vazios."
+    },
+    {
+      "page": 19,
+      "cat": "erro",
+      "texto": "Figura 11: na cápsula 15 a tara e a massa de água estão trocadas (tara 25,52, água 21,51); o primeiro εm impresso 5,46 (3,46); no estágio de 160 kPa cv = 0,730, mas t = 1800 s e Hm = 1,789 dão 0,876 (e o k derivado também); o próprio exemplo tem D/H = 2,44, contra 3 a 4 exigidos em 4.4."
+    }
+  ],
+  "dner_ie_004_94-1": [
+    {
+      "page": 5,
+      "cat": "erro",
+      "texto": "A Figura 4 toma 1 g/cm² como 10⁻¹ kPa (é 0,0981); 7.1 cita o item \"5.10\", inexistente (é 5.9)."
+    }
+  ],
+  "dnit_128_2010_em": [
+    {
+      "page": 4,
+      "cat": "incerto",
+      "texto": "Tabela 1: no markdown as células mescladas saíram deslocadas (PA do resíduo 50/55, Brookfield 550/600 e RE 65/70 só nas duas primeiras colunas; \"agregado seco 80\" só sob RR1C-E) — seguir o PDF (erro de transcrição)."
+    }
+  ],
+  "dnit_111_2009_em-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Tabela 1: o PA cita a DNER-ME 247/94 (termoplástico; o correto é a DNIT 131) e a \"DNER ME-384/99\" (hoje DNIT 384/2022); \"Variação do PA\" sem sinal; \"Broookfield\"."
+    }
+  ],
+  "dnit_129_2011_em": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "\"Variação do PA, máx.\" dada como faixa (−5 a +7)."
+    }
+  ],
+  "dner_em_368_00": [
+    {
+      "page": 2,
+      "cat": "incerto",
+      "texto": "Massa específica pela DNER-ME 190/94, ausente do acervo (o mesmo na DNER-EM 371)."
+    }
+  ],
+  "dner-pro-164-94-1": [
+    {
+      "page": 18,
+      "cat": "erro",
+      "texto": "Anexo L: a leitura \"497\" do M-38 não fecha com a soma 3080 nem com Δ = 38 (seria 597); 6.2.4 escreve \"± 0,58 x V\" sem a barra (V̄); o Anexo E dá 12,85, mas 0,58 × 22,17 = 12,86; remissões aos anexos deslocadas (6.2.2 cita o Anexo G como modelo, que seria o J); a 6.2.2 fala em 2 percursos, mas o Anexo L tem 5 e os fatores 2,11 e 0,58 valem para 5 leituras."
+    }
+  ],
+  "DNIT_132_2010_PRO1": [
+    {
+      "page": 7,
+      "cat": "contradicao",
+      "texto": "7.2.1 c diz que, com desvio dos três resultados inferior a 0,003, o procedimento deve ser repetido — contradiz 6.2 c e a AASHTO R32."
+    }
+  ],
+  "DNIT_171_2016_PRO1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.2 k: A3 = 0,80 ± 1,5 admite valores negativos (−0,70 a 2,30); 3.1 cita \"DNIT 170/2015\"."
+    }
+  ],
+  "DNIT_170_2016_PRO1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "5.2 cita \"DNIT-xxx/2015-PRO\"; o raio de curvatura Rc não tem fórmula, só a definição de 3.5."
+    }
+  ],
+  "DNIT_162_2012_PRO": [
+    {
+      "page": 2,
+      "cat": "incerto",
+      "texto": "Remete à \"DNER-ME 024\", hoje substituída pela DNIT 133-ME."
+    }
+  ],
+  "dner_pro_277_97": [
+    {
+      "page": 3,
+      "cat": "incerto",
+      "texto": "A fórmula de k traz \"Ver Errata\", mas a errata não está no PDF (a fórmula do texto reproduz o exemplo de 5.1.4); a Tabela 1 (p. 6) não tem n = 11, que as ES recentes do DNIT incluem (k = 1,19)."
+    }
+  ],
+  "dner-pro-179-94-1": [
+    {
+      "page": 7,
+      "cat": "incerto",
+      "texto": "O fator D/(1,5 + 1/r) parece ser o de conversão para cubo (BS 1881), embora a norma diga que o resultado é expresso em cilindro; p. 10: \"não deve ser inferior a 1,2 vezes a resistência característica\" sem dizer como estimar o fck (remete à NB-1)."
+    }
+  ],
+  "DNIT_178_2018_PRO1": [
+    {
+      "page": 6,
+      "cat": "contradicao",
+      "texto": "Condicionamento de 2 h ± 10 min em 5.3 e e 2 h ± 5 min em 5.3 f; termômetro com \"resolução de 3,0 ºC\" (p. 5); 6.1.2 (p. 8) diz \"densidade máxima específica\" onde deveria ser a massa específica aparente (Gmb)."
+    }
+  ],
+  "dner_em_036_95-1": [
+    {
+      "page": 9,
+      "cat": "erro",
+      "texto": "Quadro IV: Blaine do CP II-F-32 impresso \"≤ 260\" (deveria ser ≥ 260) e expansibilidade \"≥ 5\" para CP II-F-32 e CP III-32 (deveria ser ≤ 5); o Quadro II diz \"CP III-F\" onde deveria ser CP II-F; a composição é obrigatória em 4.2, mas seus ensaios aparecem como facultativos no Quadro V."
+    }
+  ],
+  "dnit_050_2004_em": [
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "Tabela 3: fim de pega do CP IV impresso \"≤ 2(1)\"; a ficha adota ≤ 12 h."
+    }
+  ],
+  "dner_em_262_94-1": [
+    {
+      "page": 1,
+      "cat": "incerto",
+      "texto": "5.1 d: o limite de abrasão Los Angeles cita só \"sub-base e revestimento\"; a ficha aplica também à base, com aviso."
+    }
+  ],
+  "dner_em_367_97": [
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "4.3 associa a DNER-ME 084 à \"massa específica aparente\", mas a 084 determina a massa específica real; 5.5 remete as cinzas volantes às DNER-ME 180/181, que são métodos sem limites (valores só informativos na ficha)."
+    }
+  ],
+  "dnit_454_2025_em": [
+    {
+      "page": 1,
+      "cat": "contradicao",
+      "texto": "A Tabela 3 diz \"diferença máxima 10 %\", enquanto 6 b diz que uma redução de 10 % basta para rejeitar (a ficha adota ≤ 10 %); a Tabela 4 não lista água de chuva nem esgoto tratado."
+    }
+  ],
+  "dner_em_366_97": [
+    {
+      "page": 1,
+      "cat": "contradicao",
+      "texto": "6.2.3 b exige que ao menos 2 das 4 amostras de contraprova passem, enquanto 6.2.3 c admite só uma abaixo do mínimo (e não abaixo de 95 %); os limites de zinco de 5.1.8 pulam Ø = 1,80 exato; 4.1 escreve \"N (kgf)\"."
+    }
+  ],
+  "dner_em_370_97": [
+    {
+      "page": 1,
+      "cat": "incerto",
+      "texto": "A Tabela 1 não cobre e = 3,0 mm (a ficha adota 23 %); 6 amostras por 300 não corresponde a nenhum plano da NBR 5426."
+    }
+  ],
+  "dner_em_375_97": [
+    {
+      "page": 1,
+      "cat": "incerto",
+      "texto": "Tabela 1 diz \"Relação máxima\" para a relaxação; alongamento \"Zona de estricção 2 %\" parece deslocado."
+    }
+  ],
+  "dner_em_376_97": [
+    {
+      "page": 4,
+      "cat": "contradicao",
+      "texto": "Tabela 1 (RN) dá a relaxação \"após 100 h\", enquanto a Tabela 2 (RB) dá 1000 h; a tolerância ±0,3 mm da Tabela 3 não diz se vale para o fio ou para a cordoalha."
+    }
+  ],
+  "dnit_093_2016_em": [
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "Lote de 130 cai tanto na Tabela 5 (30–130) quanto na Tabela 6 (130–500); o Anexo A está numerado B.1–B.4; unidade \"≤ 50 ηm\"."
+    }
+  ],
+  "dnit_094_2014_em": [
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "A Tabela 2 se intitula \"compressão axial\", mas trata de tração axial (5.8); F dado em \"KN/m²\" (deveria ser kN/m); 6.4.1 diz amostragem simples para ensaios destrutivos, mas a Tabela 9 tem linhas de amostragem dupla."
+    }
+  ],
+  "dnit_161_2022_em": [
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "Gramatura citada como ISO 9862 na Tabela 4 e em 7.3 d, mas ISO 9864 em 8.1 d; Tabela 5: AOS \"< 75 µm\" numa coluna em mm; 4.2.3 b fixa gradiente 0,1, a Tabela 3 usa 0,01/1,00; 4.2.1 c remete à Tabela 4 (drenos verticais) para geocompostos de trincheira; a Tabela 7 cobre lotes de 1–500, mas 8.1 e exige acordo prévio abaixo de 30."
+    }
+  ],
+  "dner-pro-002-94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Em 3.5 a legenda chama Di de \"diâmetro externo\" (é o interno); com os tubos padrão da Tabela 1 a relação de áreas dá 10,5 % (50,8 × 1,24) e 10,7 % (127 × 3,16), acima do limite de 10 % do próprio 5.4."
+    }
+  ],
+  "dner-pro-003-94-1": [
+    {
+      "page": 4,
+      "cat": "erro",
+      "texto": "A seção \"Relatório de campo\" está sem número e a lista pula o item b; o título \"Processo de perfuração\" está corrompido na transcrição."
+    }
+  ],
+  "dner-pro-251-94-1": [
+    {
+      "page": 3,
+      "cat": "erro",
+      "texto": "Uma passagem no repartidor 1/16 dá 3 125 g (2 sacos) ou 6 250 g (4 sacos), nunca ≈ 5 000 g; a Tabela para em 1 160 sacos."
+    }
+  ],
+  "dnit_461_2025-pro-1": [
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "A Tabela 1 repete 40 kg nas duas primeiras faixas e não cobre dimensão máxima acima de 75 mm."
+    }
+  ],
+  "dner-pro-159-85-1": [
+    {
+      "page": 9,
+      "cat": "erro",
+      "texto": "A fórmula de a2 para bases granulares dá valores absurdos; parece ser a fórmula por polegada dividida por 2,54, faltando ×10⁻⁴ na expressão inteira."
+    },
+    {
+      "page": 24,
+      "cat": "contradicao",
+      "texto": "A eq. 8 imprime 0,819·HVA, mas o exemplo do Anexo (p. 30) e a eq. 3 usam 0,189; 9.2.2 manda comparar desgaste em vez de trincamento no tratamento superficial, mas o Anexo classifica a situação III pelo trincamento; o Anexo cita \"item 10.3.4\" (é 9.3.4) e \"CBR2 = … da sub-base\" onde se trata da base."
+    }
+  ],
+  "dnit_062_2004_pro": [
+    {
+      "page": 12,
+      "cat": "erro",
+      "texto": "A figura do defeito 6.18 (placa bailarina) é idêntica à do 6.4 (degrau), pp. 12 e 26; o formulário de exemplo registra q = 6, mas o VDC de 48 corresponde à curva q = 5 (regra da nota do gráfico: só o maior valor por tipo de defeito); o formulário escreve \"IPC\" em vez de ICP."
+    }
+  ],
+  "dner-pro-010-79-1": [
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "Tabela de critérios: \"3dadm ≥ da > dadm\" deveria ser d0; as linhas de dp > 3dadm e de F̄/AP repetem \"aproveitamento total\" onde parece caber aproveitamento parcial."
+    }
+  ],
+  "dner-pro-011-79-1": [
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "Capítulo 6: escreve T_r = T_f − T_1 onde se trata de Ti."
+    }
+  ],
+  "dnit_433_2021_pro": [
+    {
+      "page": 1,
+      "cat": "erro",
+      "texto": "A eq. 1 omite o ×100 que as eqs. 5 e 6 incluem."
     }
   ]
 }

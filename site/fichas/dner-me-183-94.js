@@ -116,4 +116,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-183-94"].rotuloImportar = function (r) { return "cor " + ((r.notacoes || []).join("; ") || "—") + (r.conforme === true ? " · conforme" : r.conforme === false ? " · não conforme" : ""); };
 })();

@@ -27,6 +27,7 @@
   FE.FICHAS["dner-me-148-94"] = {
     titulo: "Pontos de fulgor e de combustão — vaso aberto Cleveland",
     resumo: "Temperaturas observadas corrigidas para a pressão normal (101,3 kPa): T + 0,25 (101,3 − p) [kPa] ou T + 0,033 (760 − p) [mmHg]; média das determinações, arredondada; repetibilidade 8 °C (MB-50 / NBR 11341, adotada pela DNER-ME 148/94).",
+    rotuloImportar: function (r) { return "fulgor " + (ok(r.fulgor) ? fmt(r.fulgor, 0) + " °C" : "—") + (r.conforme === false ? " · não atende" : ""); },
     blocos: [],
     params: [
       { k: "material", r: "Material", ph: "ex.: CAP 50/70" },

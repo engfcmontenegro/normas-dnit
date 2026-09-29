@@ -38,4 +38,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-244-94"].rotuloImportar = function (r) { return "estabilidade: " + (r.satisf === true ? "satisfatório" : r.satisf === false ? "não satisfatório" : "sem parecer"); };
 })();

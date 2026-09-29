@@ -102,4 +102,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-247-94"].rotuloImportar = function (r) { return "PA " + window.FE.fmt(r.pa, 1) + " °C"; };
 })();

@@ -39,4 +39,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-020-94"].rotuloImportar = function (r) { return r.texto && r.texto !== "—" ? "resistência à água: " + r.texto.toLowerCase() : "sem resultado"; };
 })();

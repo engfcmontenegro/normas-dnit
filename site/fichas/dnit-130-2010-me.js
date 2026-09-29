@@ -24,6 +24,7 @@
   FE.FICHAS["dnit-130-2010-me"] = {
     titulo: "Recuperação elástica pelo ductilômetro",
     resumo: "Corpo de prova alongado 20 cm a 5 cm/min e 25 °C, cortado ao meio, 60 min de repouso; RE = (L1 − L2) / L1 × 100; média de três ensaios, ao inteiro mais próximo.",
+    rotuloImportar: function (r) { return "RE " + (ok(r.re) ? fmt(r.re, 0) + " %" : "—") + (r.rtfot ? " · após RTFOT" : "") + (r.conforme === false ? " · não atende" : ""); },
     blocos: [],
     params: [
       { k: "material", r: "Material asfáltico", ph: "ex.: CAP 60/85-E, resíduo de emulsão modificada" },

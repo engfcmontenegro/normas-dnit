@@ -84,4 +84,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-038-94"].rotuloImportar = function (r) { return "alteração de consistência " + window.FE.fmt(r.delta, 0) + " UK"; };
 })();

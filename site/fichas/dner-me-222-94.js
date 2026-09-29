@@ -26,6 +26,7 @@
 
   FE.FICHAS["dner-me-222-94"] = {
     titulo: "Agregado sintético de argila — desgaste por abrasão",
+    rotuloImportar: function (r) { var F = window.FE; return "desgaste " + (F.ok(r.final) ? F.fmt(r.final, 0) + " %" : "—") + (r.g ? " (graduação " + r.g + ")" : ""); },
     resumo: "Máquina Los Angeles, 500 revoluções; frações da Tabela 1 e carga abrasiva da Tabela 2 corrigidas pela massa específica aparente do agregado sintético (X = C × A / 1,550; Y = A × E / 1,550); An = (Pn − P'n) / Pn × 100, com aproximação de 1 %.",
     blocos: [],
     params: [

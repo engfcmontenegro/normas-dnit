@@ -60,4 +60,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-139-94"].rotuloImportar = function (r) { return r.texto && r.texto !== "—" ? "aderência: " + r.texto.toLowerCase() : "sem resultado"; };
 })();

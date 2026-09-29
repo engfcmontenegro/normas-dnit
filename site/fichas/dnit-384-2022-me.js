@@ -29,6 +29,7 @@
   FE.FICHAS["dnit-384-2022-me"] = {
     titulo: "Estabilidade ao armazenamento de ligantes modificados por polímero",
     resumo: "Tubos de alumínio com 50 g de ligante, 48 h a 163 °C em posição vertical, congelamento e corte em três seções; ponto de amolecimento (anel e bola) do topo e do fundo; resultado = diferença entre os PA do fundo e do topo de cada tubo.",
+    rotuloImportar: function (r) { return "diferença de PA " + (ok(r.res) ? fmt(r.res, 1) + " °C" : "—") + (r.conforme === false ? " · acima do máximo" : ""); },
     blocos: [],
     params: [
       { k: "material", r: "Ligante modificado", ph: "ex.: CAP 60/85-E, asfalto-borracha AB 8" },

@@ -72,4 +72,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-186-94"].rotuloImportar = function (r) { return "secagem " + window.FE.fmt(r.t, 1) + " min"; };
 })();

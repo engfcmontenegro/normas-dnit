@@ -52,6 +52,7 @@
 
   FE.FICHAS["dnit-425-2020-me"] = {
     titulo: "Agregado graúdo — Índice de forma com paquímetro",
+    rotuloImportar: function (r) { var F = window.FE; return "índice de forma " + (F.ok(r.I) ? F.fmt(r.I, 1) : "—"); },
     resumo: "Frações retidas a partir de 9,5 mm com ≥ 5 %; 200 grãos distribuídos por Nᵢ = 200 Fᵢ / ΣFᵢ; comprimento c e espessura e de cada grão; I = c médio / e médio, ao décimo.",
     blocos: [],
     params: [

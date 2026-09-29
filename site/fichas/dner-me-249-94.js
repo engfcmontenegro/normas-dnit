@@ -93,4 +93,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-249-94"].rotuloImportar = function (r) { return "microesferas " + window.FE.fmt(r.pt, 1) + " %"; };
 })();

@@ -46,4 +46,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-023-94"].rotuloImportar = function (r) { return "água: " + (r.satisf === true ? "satisfatório" : r.satisf === false ? "não satisfatório" : "sem parecer") + (window.FE.ok(r.vHCl) ? " · " + window.FE.fmt(r.vHCl, 1) + " ml de HCl" : ""); };
 })();

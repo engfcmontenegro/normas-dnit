@@ -84,4 +84,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-057-94"].rotuloImportar = function (r) { return "sílica " + window.FE.fmt(r.pct, 1) + " %"; };
 })();

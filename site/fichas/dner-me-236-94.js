@@ -60,4 +60,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-236-94"].rotuloImportar = function (r) { return "brilho " + window.FE.fmt(r.b, 1); };
 })();

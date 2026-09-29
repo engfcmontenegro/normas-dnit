@@ -86,4 +86,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-243-94"].rotuloImportar = function (r) { return "densidade " + window.FE.fmt(r.D, 2); };
 })();

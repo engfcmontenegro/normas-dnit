@@ -113,4 +113,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dnit-069-2005-me"].rotuloImportar = function (r) { return "óleo diesel: " + (r.satisf === true ? "satisfatório" : r.satisf === false ? "não satisfatório" : "sem parecer"); };
 })();

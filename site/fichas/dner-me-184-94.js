@@ -50,4 +50,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-184-94"].rotuloImportar = function (r) { return r.texto && r.texto !== "—" ? "diluição: " + r.texto.toLowerCase() : "sem resultado"; };
 })();

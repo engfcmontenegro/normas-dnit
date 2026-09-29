@@ -1536,6 +1536,29 @@
       }).join("; ") + "</p>" : "");
   }
 
+  // área técnica de uma norma pelo título (a primeira regra de ORDEM_AREAS que casar vence) — usada pelas abas
+  // "Fichas de ensaios" e "Equipamentos de laboratório"
+  var AREAS_NORMA = [
+    ["Solos", /solo|expansibilidade|compacta|aterro|in situ|mct|miniatura|limite de|densidade real|gamadens|eletromagn|base estabilizada|sub-base|adensamento/i],
+    ["Solos estabilizados", /solo-cimento|solo-cal|solo cal|cinza volante|estabilizad[ao]s? quimicamente|compress[ãa]o simples/i],
+    ["Agregados", /^agregado|agregados? (gra[úu]do|mi[úu]do)|de agregados|agregado sint|argila calcinada|argilas para|pulverizado|^areia|equivalente de areia|esc[óo]ria/i],
+    ["Ligantes asfálticos", /imprima|pintura de liga|taxa de aplica|ligante|materia(?:l|is) (?:asf[aá]lt|betumin)|emuls|cimento asf[aá]ltico de|petr[óo]leo|dilu[ií]do|alcatr/i],
+    ["Misturas asfálticas", /mistura|cbuq|marshall|concreto asf|cantabro/i],
+    ["Pavimento rígido e concreto", /selante|pavimento r[ií]gido|concreto(?! asf)|cimento portland|amassamento|vebe/i],
+    ["Pavimento e campo", /deflex|dynaflect|benkelman|prova de carga|geof[ií]sica|eletrorresist|s[ií]smica/i],
+    ["Sinalização", /tinta|microesfera|termopl|demarca|sinaliza|defensa/i],
+  ];
+  // ordem de teste (a da lista acima é a de exibição): específicas antes das genéricas
+  var ORDEM_AREAS = ["Sinalização", "Pavimento rígido e concreto", "Solos estabilizados", "Agregados", "Misturas asfálticas",
+    "Ligantes asfálticos", "Solos", "Pavimento e campo"];
+  function areaDeTexto(t) {
+    for (var i = 0; i < ORDEM_AREAS.length; i++) {
+      var rx = AREAS_NORMA.filter(function (x) { return x[0] === ORDEM_AREAS[i]; })[0][1];
+      if (rx.test(t)) return ORDEM_AREAS[i];
+    }
+    return "Outros";
+  }
+
   // =====================================================================================
   // Motor da aba
   // =====================================================================================
@@ -1568,29 +1591,12 @@
       return Object.keys(FICHAS).filter(function (id) { return normaDe(id); });
     }
 
-    // área de cada ficha pelo título da norma e da ficha (a primeira regra que casar vence)
-    var AREAS = [
-      ["Solos", /solo|expansibilidade|compacta|aterro|in situ|mct|miniatura|limite de|densidade real|gamadens|eletromagn|base estabilizada|sub-base/i],
-      ["Solos estabilizados", /solo-cimento|solo-cal|solo cal|cinza volante|estabilizad[ao]s? quimicamente|compress[ãa]o simples/i],
-      ["Agregados", /^agregado|agregados? (gra[úu]do|mi[úu]do)|de agregados|agregado sint|argila calcinada|argilas para|pulverizado|^areia|equivalente de areia|esc[óo]ria/i],
-      ["Ligantes asfálticos", /imprima|pintura de liga|taxa de aplica|ligante|materia(?:l|is) (?:asf[aá]lt|betumin)|emuls|cimento asf[aá]ltico de|petr[óo]leo|dilu[ií]do|alcatr/i],
-      ["Misturas asfálticas", /mistura|cbuq|marshall|concreto asf|cantabro/i],
-      ["Pavimento rígido e concreto", /selante|pavimento r[ií]gido|concreto(?! asf)|cimento portland|amassamento|vebe/i],
-      ["Pavimento e campo", /deflex|dynaflect|benkelman|prova de carga|geof[ií]sica|eletrorresist|s[ií]smica/i],
-      ["Sinalização", /tinta|microesfera|termopl|demarca|sinaliza/i],
-    ];
-    // ordem de teste (a da lista acima é a de exibição): específicas antes das genéricas
-    var ORDEM_AREAS = ["Sinalização", "Pavimento rígido e concreto", "Solos estabilizados", "Agregados", "Misturas asfálticas",
-      "Ligantes asfálticos", "Solos", "Pavimento e campo"];
+    var AREAS = AREAS_NORMA;
     var cacheArea = {};
     function areaDe(fid) {
       if (cacheArea[fid]) return cacheArea[fid];
-      var F = FICHAS[fid], n = normaDe(fid), t = (n ? n.titulo : "") + " " + (F.titulo || ""), a = "Outros";
-      for (var i = 0; i < ORDEM_AREAS.length; i++) {
-        var rx = AREAS.filter(function (x) { return x[0] === ORDEM_AREAS[i]; })[0][1];
-        if (rx.test(t)) { a = ORDEM_AREAS[i]; break; }
-      }
-      return (cacheArea[fid] = a);
+      var F = FICHAS[fid], n = normaDe(fid);
+      return (cacheArea[fid] = areaDeTexto((n ? n.titulo : "") + " " + (F.titulo || "")));
     }
     var filtro = { busca: "", area: [], tipo: [], orgao: [], salvos: false, soVigor: false };
     function semAcento(s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); }
@@ -2263,6 +2269,7 @@
     FICHAS: FICHAS, BLOCOS: BLOCOS, IDENT: IDENT,
     num: num, ok: ok, fmt: fmt, fmtSig: fmtSig, esc: esc, media: media, parabola: parabola, uid: uid,
     curvaSpeedy: curvaSpeedy, interpolar: interpolar,
+    areas: { lista: AREAS_NORMA.map(function (a) { return a[0]; }), deTexto: areaDeTexto },
     granulometria: { SERIES: SERIES_412, PENEIRAS_A1: PENEIRAS_A1, chavePen: chavePen, nomePeneira: nomePeneira,
       faixasDisponiveis: faixasDisponiveis, tabela: tabelaGranulometria, grafico: graficoGranulometria,
       calcular: function (d) { return FICHAS["dnit-412-2025-me"].calcular(d); } },

@@ -382,4 +382,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-018-94"].rotuloImportar = function (r) { return r.texto && r.texto !== "—" ? "sangramento: " + r.texto.toLowerCase() : "sem resultado"; };
 })();

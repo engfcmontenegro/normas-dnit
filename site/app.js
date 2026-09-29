@@ -331,6 +331,7 @@
             return ' · <a class="video-reopen" href="#fichas:' + fid + '"' + (fid !== n.id ? ' title="' + escapeHtml(F.titulo) + '"' : "") + ">🧮 " +
               (fid === n.id ? "Ficha de ensaio" : escapeHtml(F.rotuloLink || F.titulo)) + "</a>";
           }).join("") +
+          (window.APARELHAGEM && window.APARELHAGEM[n.id] ? ' · <a class="video-reopen" href="#equipamentos:' + n.id + '">🔧 Equipamentos</a>' : "") +
         "</div>" +
       "</div>"
     );
@@ -580,10 +581,13 @@
   var tabFichas = document.getElementById("tab-fichas");
   var viewFichas = document.getElementById("view-fichas");
   var fichas = null;  // controlador da aba "Fichas de ensaios" (site/fichas.js)
+  var tabEquip = document.getElementById("tab-equip");
+  var viewEquip = document.getElementById("view-equip");
+  var equip = null;  // controlador da aba "Equipamentos" (site/equipamentos.js)
 
   function showTab(tab, view) {
-    [tabNormas, tabRede, tabControle, tabDeps, tabFichas].forEach(function (t) { t.classList.toggle("active", t === tab); });
-    [viewNormas, viewRede, viewControle, viewDeps, viewFichas].forEach(function (v) { v.classList.toggle("active", v === view); });
+    [tabNormas, tabRede, tabControle, tabDeps, tabFichas, tabEquip].forEach(function (t) { t.classList.toggle("active", t === tab); });
+    [viewNormas, viewRede, viewControle, viewDeps, viewFichas, viewEquip].forEach(function (v) { v.classList.toggle("active", v === view); });
   }
 
   // texto da norma (markdown renderizado) dentro de um contêiner qualquer — barra lateral da aba Fichas;
@@ -627,6 +631,18 @@
     if (fichas && fid) fichas.abrir(fid);
   }
   tabFichas.addEventListener("click", function () { abrirFichas(null); });
+
+  function abrirEquip(id) {
+    showTab(tabEquip, viewEquip);
+    if (!equip && window.initEquipamentos) {
+      equip = window.initEquipamentos({
+        byId: byId,
+        abrirNorma: function (nid) { selectNorma(nid); showTab(tabNormas, viewNormas); },
+      });
+    }
+    if (equip && id) equip.abrir(id);
+  }
+  tabEquip.addEventListener("click", function () { abrirEquip(null); });
 
   tabDeps.addEventListener("click", function () {
     showTab(tabDeps, viewDeps);
@@ -1370,6 +1386,9 @@
     // #fichas ou #fichas:<id do ME> abrem a aba de fichas de ensaios
     m = /^#fichas(?::(.+))?$/.exec(h);
     if (m) abrirFichas(m[1] || null);
+    // #equipamentos ou #equipamentos:<id do ME> abrem a aba de equipamentos de laboratório
+    m = /^#equipamentos(?::(.+))?$/.exec(h);
+    if (m) abrirEquip(m[1] || null);
     // #deps ou #deps:<id do ME> abrem a aba de dependências de ensaios
     m = /^#deps(?::(.+))?$/.exec(h);
     if (m) {

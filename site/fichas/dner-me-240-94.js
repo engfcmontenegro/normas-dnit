@@ -43,4 +43,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-240-94"].rotuloImportar = function (r) { return r.texto && r.texto !== "—" ? "breu: " + r.texto.toLowerCase() : "sem resultado"; };
 })();

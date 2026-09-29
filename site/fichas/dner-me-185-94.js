@@ -47,4 +47,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-185-94"].rotuloImportar = function (r) { return r.texto && r.texto !== "—" ? r.texto.toLowerCase() : "sem resultado"; };
 })();

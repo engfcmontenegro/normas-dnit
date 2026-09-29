@@ -21,6 +21,7 @@
       <button id="tab-controle">Controle de serviços</button>
       <button id="tab-deps">Dependências de ensaios</button>
       <button id="tab-fichas">Fichas de ensaios</button>
+      <button id="tab-equip">Equipamentos</button>
     </div>
   </header>
 
@@ -127,6 +128,24 @@
       </aside>
       <div class="content-panel fe-painel" id="fe-painel"></div>
       <aside class="fe-norma-panel" id="fe-norma" hidden></aside>
+    </section>
+
+    <section id="view-equip" class="view">
+      <aside class="sidebar">
+        <div class="filters">
+          <input type="search" id="eq-busca" placeholder="Buscar ensaio ou equipamento...">
+          <div class="filter-group">
+            <div class="label">Área</div>
+            <div class="chip-row" id="eq-f-area"></div>
+          </div>
+          <div class="chip-row" id="eq-f-outros">
+            <div class="chip" data-value="vigor">Só em vigor</div>
+          </div>
+        </div>
+        <div class="result-count" id="eq-count"></div>
+        <div class="norma-list" id="eq-lista"></div>
+      </aside>
+      <div class="content-panel eq-painel" id="eq-painel"></div>
     </section>
 
     <section id="view-controle" class="view">
@@ -441,6 +460,83 @@
 <script src="fichas/es-dnit-099-2009-es.js"></script>
 <script src="fichas/es-dnit-100-2018-es.js"></script>
 <script src="fichas/es-dnit-101-2009-es.js"></script>
+<script src="fichas/dner-ie-004-94.js"></script>
+<script src="fichas/dner-ie-005-94.js"></script>
+<script src="fichas/dner-ie-146-94.js"></script>
+<script src="fichas/dnit-259-2023-cla.js"></script>
+<script src="fichas/dnit-444-2023-cla.js"></script>
+<script src="fichas/dnit-129-2011-em.js"></script>
+<script src="fichas/dnit-128-2010-em.js"></script>
+<script src="fichas/dnit-111-2009-em.js"></script>
+<script src="fichas/dnit-168-2013-em.js"></script>
+<script src="fichas/dner-em-364-97.js"></script>
+<script src="fichas/dner-em-036-95.js"></script>
+<script src="fichas/dnit-050-2004-em.js"></script>
+<script src="fichas/dner-em-230-94.js"></script>
+<script src="fichas/dner-em-260-94.js"></script>
+<script src="fichas/dner-em-262-94.js"></script>
+<script src="fichas/dner-em-367-97.js"></script>
+<script src="fichas/dnit-418-2019-em.js"></script>
+<script src="fichas/dnit-454-2025-em.js"></script>
+<script src="fichas/dnit-462-2025-em.js"></script>
+<script src="fichas/dnit-453-2024-em.js"></script>
+<script src="fichas/dner-em-276-00.js"></script>
+<script src="fichas/dner-em-368-00.js"></script>
+<script src="fichas/dner-em-371-00.js"></script>
+<script src="fichas/dner-em-372-00.js"></script>
+<script src="fichas/dner-em-373-00.js"></script>
+<script src="fichas/dner-em-379-98.js"></script>
+<script src="fichas/dnit-046-2004-em.js"></script>
+<script src="fichas/dner-em-033-94.js"></script>
+<script src="fichas/dner-em-174-94.js"></script>
+<script src="fichas/dner-em-366-97.js"></script>
+<script src="fichas/dner-em-370-97.js"></script>
+<script src="fichas/dner-em-374-97.js"></script>
+<script src="fichas/dner-em-375-97.js"></script>
+<script src="fichas/dner-em-376-97.js"></script>
+<script src="fichas/dnit-093-2016-em.js"></script>
+<script src="fichas/dnit-094-2014-em.js"></script>
+<script src="fichas/dnit-161-2022-em.js"></script>
+<script src="fichas/dner-pro-010-79.js"></script>
+<script src="fichas/dner-pro-011-79.js"></script>
+<script src="fichas/dner-pro-159-85.js"></script>
+<script src="fichas/dner-pro-269-94.js"></script>
+<script src="fichas/dner-pro-273-96.js"></script>
+<script src="fichas/dnit-062-2004-pro.js"></script>
+<script src="fichas/dnit-063-2004-pro.js"></script>
+<script src="fichas/dnit-433-2021-pro.js"></script>
+<script src="fichas/dnit-442-2023-pro.js"></script>
+<script src="fichas/dnit-409-2017-pro.js"></script>
+<script src="fichas/dner-pro-164-94.js"></script>
+<script src="fichas/dner-pro-229-94.js"></script>
+<script src="fichas/dnit-132-2010-pro.js"></script>
+<script src="fichas/dnit-163-2012-pro.js"></script>
+<script src="fichas/dnit-171-2016-pro.js"></script>
+<script src="fichas/dnit-175-2025-pro.js"></script>
+<script src="fichas/dnit-162-2012-pro.js"></script>
+<script src="fichas/dnit-170-2016-pro.js"></script>
+<script src="fichas/dner-pro-277-97.js"></script>
+<script src="fichas/dner-pro-143-94.js"></script>
+<script src="fichas/dner-pro-179-94.js"></script>
+<script src="fichas/dner-pro-206-94.js"></script>
+<script src="fichas/dnit-178-2018-pro.js"></script>
+<script src="fichas/dnit-438-2022-pro.js"></script>
+<script src="fichas/dnit-435-2021-pro.js"></script>
+<script src="fichas/dnit-257-2021-pro.js"></script>
+<script src="fichas/dnit-455-2025-pro.js"></script>
+<script src="fichas/dnit-461-2025-pro.js"></script>
+<script src="fichas/dner-pro-002-94.js"></script>
+<script src="fichas/dner-pro-003-94.js"></script>
+<script src="fichas/dner-pro-005-94.js"></script>
+<script src="fichas/dner-pro-013-94.js"></script>
+<script src="fichas/dner-pro-137-94.js"></script>
+<script src="fichas/dner-pro-102-97.js"></script>
+<script src="fichas/dner-pro-377-97.js"></script>
+<script src="fichas/dner-pro-104-94.js"></script>
+<script src="fichas/dner-pro-251-94.js"></script>
+<script src="fichas/dner-pro-103-94.js"></script>
+<script src="data/aparelhagem_data.js"></script>
+<script src="equipamentos.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

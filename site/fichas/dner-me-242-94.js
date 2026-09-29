@@ -87,4 +87,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-242-94"].rotuloImportar = function (r) { return "PbCrO₄ " + window.FE.fmt(r.pt, 2) + " % na mistura"; };
 })();

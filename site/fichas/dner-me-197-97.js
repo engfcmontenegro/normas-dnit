@@ -13,6 +13,7 @@
 
   FE.FICHAS["dner-me-197-97"] = {
     titulo: "Resistência ao esmagamento de agregado graúdo",
+    rotuloImportar: function (r) { var F = window.FE; return "esmagamento R " + (F.ok(r.R) ? F.fmt(r.R, 1) + " %" : "—"); },
     resumo: "Fração 12,5–9,5 mm seca em estufa, apiloada no recipiente e comprimida no cilindro sob 400 kN a (40 ± 5) kN/min; R = (Mᵢ − M_f) / Mᵢ × 100 com M_f retido na peneira de 2,4 mm; média de duas determinações com diferença ≤ 3 % (terceira se preciso).",
     blocos: [],
     params: [

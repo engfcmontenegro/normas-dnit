@@ -19,6 +19,7 @@
 
   FE.FICHAS["dner-me-225-94"] = {
     titulo: "Agregado sintético de argila calcinada — perda de massa após fervura",
+    rotuloImportar: function (r) { var F = window.FE; return "perda após fervura " + (F.ok(r.P) ? F.fmt(r.P, 1) + " %" : "—"); },
     resumo: "Amostra passante na 19,05 mm e retida na 2,00 mm, sem lavar, até a metade do frasco de 500 cm³ com 200 cm³ de água destilada; fervura de 15 min em panela de pressão, resfriamento a 27 ± 2 °C, 30 min no agitador e lavagem na 0,42 mm; P = P1 / (P1 + P2) × 100.",
     blocos: [],
     params: [

@@ -106,4 +106,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-110-94"].rotuloImportar = function (r) { return window.FE.ok(r.ir) ? "IR " + window.FE.fmt(r.ir, 2) : "IR não determinado"; };
 })();

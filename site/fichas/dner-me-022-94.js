@@ -44,4 +44,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-022-94"].rotuloImportar = function (r) { return "Na₂S: " + (r.satisf === true ? "satisfatório" : r.satisf === false ? "não satisfatório" : "sem parecer"); };
 })();

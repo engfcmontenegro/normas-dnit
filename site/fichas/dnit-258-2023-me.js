@@ -64,12 +64,13 @@
   // linha NS' | NA': (0,45; 1,75) – (1,70; 1,15)
   function eNS(c) { return 1.75 - (c - 0.45) * 0.6 / 1.25; }
   function grupoL(c) { return c < 0.7 ? "LA" : c < 1.5 ? "LA'" : "LG'"; }
+  // o traço vertical c' = 1,5 separa NS' de NG' só acima da linha NS'|NA' (e' ≈ 1,25); abaixo dela, até c' = 1,70, é NA' (mesma regra do FE.mct da DNIT 259)
   function classificar(c, e) {
     if (!ok(c) || !ok(e)) return "";
     if (e < eLN(c)) return grupoL(c);
-    if (c >= 1.5) return "NG'";
     if (c < cNA(e)) return "NA";
-    return c >= 0.45 && e <= eNS(c) ? "NA'" : "NS'";
+    if (c >= 0.45 && c <= 1.7 && e <= eNS(c)) return "NA'";
+    return c >= 1.5 ? "NG'" : "NS'";
   }
 
   // ---------- gráficos ----------

@@ -30,6 +30,7 @@
   FE.FICHAS["dnit-131-2010-me"] = {
     titulo: "Ponto de amolecimento — anel e bola",
     resumo: "Duas bolas por ensaio; diferença entre elas ≤ 1 °C (senão, repete-se o ensaio); PA = média das duas temperaturas, com aproximação de 0,2 °C; banho de água (30 °C a 80 °C) ou glicerina (80 °C a 157 °C).",
+    rotuloImportar: function (r) { return "PA " + (ok(r.pa) ? fmt(r.pa, 1) + " °C" : "—") + (r.rtfot ? " · após RTFOT" : "") + (r.conforme === false ? " · não atende" : ""); },
     blocos: [],
     params: [
       { k: "material", r: "Material asfáltico", ph: "ex.: CAP 50/70, CAP 60/85-E, resíduo de emulsão" },

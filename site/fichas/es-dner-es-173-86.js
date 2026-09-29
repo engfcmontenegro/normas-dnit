@@ -250,6 +250,7 @@
     titulo: "Irregularidade pelo método de nível e mira — QI para calibração (DNER-ES 173/86)",
     resumo: "Calcula VA(1,0), VA(2,5) e o quociente de irregularidade QI de cada alinhamento e do trecho (7) a partir das leituras L0 … L9 e da cota do instrumento, e confere equipe, aparelhagem (5), posição das trilhas (Quadro 1) e codificação (6.4).",
     rotuloLink: "Cálculo do QI",
+    rotuloImportar: function (r) { return "QI " + (ok(r.qT) ? Math.round(r.qT) + " contagens/km" : "—"); },
     blocos: [],
     params: [
       { k: "codigo", r: "Código do trecho de calibração (pos. 3–5)", ph: "ex.: R10" },

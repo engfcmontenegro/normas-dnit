@@ -24,6 +24,7 @@
   FE.FICHAS["dner-me-193-96"] = {
     titulo: "Densidade e massa específica de materiais betuminosos — picnômetro",
     resumo: "Picnômetro de 24 mL a 30 mL calibrado com água na temperatura do ensaio (25 °C ou 15,6 °C); densidade do líquido (c − a)/(b − a) ou do semissólido (d − a)/[(b − a) − (e − d)]; massa específica = densidade × massa específica da água; média de duas determinações com três casas decimais.",
+    rotuloImportar: function (r) { return "densidade " + (ok(r.D) ? fmt(r.D, 3) : "—") + (r.T ? " a " + String(r.T).replace(".", ",") + " °C" : ""); },
     blocos: [],
     params: [
       { k: "material", r: "Material betuminoso", ph: "ex.: CAP 50/70, asfalto diluído CM-30, alcatrão RT-10" },

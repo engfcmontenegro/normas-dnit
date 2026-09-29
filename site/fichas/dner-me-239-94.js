@@ -84,4 +84,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-239-94"].rotuloImportar = function (r) { return "abrasão " + window.FE.fmt(r.A, 1) + " L"; };
 })();

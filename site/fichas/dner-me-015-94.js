@@ -35,4 +35,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-015-94"].rotuloImportar = function (r) { return "umidade: " + (r.satisf === true ? "satisfatório" : r.satisf === false ? "não satisfatório" : "sem parecer"); };
 })();

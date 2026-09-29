@@ -80,4 +80,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-238-94"].rotuloImportar = function (r) { return "TiO₂ " + window.FE.fmt(r.pct, 2) + " % no pigmento"; };
 })();

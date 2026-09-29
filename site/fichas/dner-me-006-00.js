@@ -33,6 +33,7 @@
   FE.FICHAS["dner-me-006-00"] = {
     titulo: "Sedimentação de emulsões asfálticas",
     resumo: "Duas provetas de 500 mL em repouso por 5 dias; resíduo por evaporação a 163 °C de 50 g retirados do topo (primeiros ~55 mL) e do fundo (após retirar mais ~390 mL) de cada proveta; sedimentação = média dos resíduos do fundo − média dos resíduos do topo.",
+    rotuloImportar: function (r) { return "sedimentação " + (ok(r.res) ? fmt(r.res, 1) + " %" : "—") + (r.conforme === false ? " · acima do máximo" : ""); },
     blocos: [],
     params: [
       { k: "material", r: "Emulsão", ph: "ex.: RR-2C, RR-1C, EAI" },

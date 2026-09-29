@@ -37,6 +37,7 @@
 
   FE.FICHAS["dnit-413-2021-me"] = {
     titulo: "Massa específica, densidade relativa e absorção de agregado graúdo",
+    rotuloImportar: function (r) { var F = window.FE; return "Gsb " + (F.ok(r.gsb) ? F.fmt(r.gsb, 3) : "—") + " · absorção " + (F.ok(r.abs) ? F.fmt(r.abs, 2) + " %" : "—"); },
     resumo: "Agregado graúdo (retido 4,75 mm) imerso (24 ± 4) h: massas seca (A), saturada superfície seca (B) e imersa (C); Gsa = A/(A−C), Gsb = A/(B−C), ME = 0,9971 × G, absorção = (B−A)/A × 100; frações combinadas pelas eq. 5 e 7.",
     blocos: [],
     params: [

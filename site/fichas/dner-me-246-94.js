@@ -37,4 +37,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-246-94"].rotuloImportar = function (r) { return "resistência à luz: " + (r.satisf === true ? "satisfatório" : r.satisf === false ? "não satisfatório" : "sem parecer"); };
 })();

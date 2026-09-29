@@ -82,4 +82,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-027-97"].rotuloImportar = function (r) { return "finura " + window.FE.fmt(r.H, 1) + " Hegman"; };
 })();

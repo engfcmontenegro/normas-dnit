@@ -833,3 +833,32 @@ a.fe-ficha-link { cursor: pointer; text-decoration: none; margin: 0 8px 0 -3px; 
 .fe-anx-add { align-items: center; justify-content: center; cursor: pointer; min-height: 170px; color: var(--accent); font-size: 13px; text-align: center; border-style: dashed; }
 .fe-anx-add span { font-size: 30px; line-height: 1; }
 .fe-anx-add:hover { border-color: var(--accent); }
+
+/* ---------- Aba Equipamentos de laboratório ---------- */
+.eq-painel { padding: 0 28px 40px; }
+.eq-modos { margin-top: 12px; }
+.eq-item { display: flex; gap: 8px; align-items: flex-start; }
+.eq-check { margin-top: 3px; flex: none; cursor: pointer; }
+.eq-canc { font-size: 10px; color: var(--suspensa); font-weight: 400; }
+.eq-acao, .eq-norma { color: var(--accent); cursor: pointer; }
+.eq-acao:hover, .eq-norma:hover { text-decoration: underline; }
+.eq-cab h2 { margin: 18px 0 4px; font-size: 18px; }
+.eq-links { margin-top: 6px; font-size: 12px; color: var(--text-dim); }
+.eq-links a { color: var(--accent); cursor: pointer; }
+.eq-tab { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 6px; }
+.eq-tab th, .eq-tab td { border: 1px solid var(--border); padding: 6px 9px; text-align: left; vertical-align: top; }
+.eq-tab th { width: 210px; background: var(--panel-2); font-weight: 600; }
+.eq-det { margin-top: 4px; font-size: 12px; color: var(--text-dim); }
+.eq-parte { font-size: 11px; color: var(--text-dim); }
+.eq-tit { font-size: 11px; font-weight: 400; color: var(--text-dim); margin-top: 2px; }
+.eq-resumo { font-size: 13px; color: var(--text-dim); margin: 16px 0 8px; }
+.eq-sel { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; margin-bottom: 8px; }
+.eq-cat { border: 1px solid var(--border); border-radius: 6px; margin: 6px 0; background: var(--panel); }
+.eq-cat summary { padding: 8px 10px; cursor: pointer; font-size: 13px; }
+.eq-cat[open] summary { border-bottom: 1px solid var(--border); }
+.eq-cat .eq-tab { margin: 0; }
+.eq-cat .eq-tab th { width: 150px; }
+.eq-grupo { margin: 10px 0; }
+.eq-grupo .label { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--text-dim); margin-bottom: 5px; }
+.eq-grupo .chip { display: inline-block; margin: 0 5px 5px 0; }
+@media (max-width: 700px) { .eq-painel { padding: 0 16px 30px; } .eq-tab th { width: 110px; } }

@@ -114,4 +114,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-241-94"].rotuloImportar = function (r) { return "TiO₂ " + window.FE.fmt(r.tt, 1) + " % na composição"; };
 })();

@@ -38,6 +38,7 @@
 
   FE.FICHAS["dnit-437-2022-me"] = {
     titulo: "Massa unitária e volume de vazios — estados solto e compactado",
+    rotuloImportar: function (r) { var F = window.FE, s = r.solto || {}, c = r.comp || {}; return "MU solto " + (F.ok(s.MU) ? F.fmt(s.MU, 0) + " kg/m³" : "—") + (F.ok(c.MU) ? " · compactado " + F.fmt(c.MU, 0) + " kg/m³" : ""); },
     resumo: "MU = (massa do recipiente com agregado − recipiente) / V, em kg/m³ (eq. 2 e 3); Vv = 100 × (1 − MU / (1000 × MEsb)) (eq. 4 e 5); média de pelo menos três determinações; MU com aproximação de 10 kg/m³ e Vv de 1 %.",
     blocos: [],
     params: [

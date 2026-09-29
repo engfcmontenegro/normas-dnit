@@ -214,4 +214,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-011-94"].rotuloImportar = function (r) { return "CaCl₂: " + (r.satisf === true ? "satisfatório" : r.satisf === false ? "não satisfatório" : "sem parecer"); };
 })();

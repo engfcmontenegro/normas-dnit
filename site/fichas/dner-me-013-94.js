@@ -90,4 +90,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-013-94"].rotuloImportar = function (r) { return "massa específica " + window.FE.fmt(r.me, 2) + " g/cm³"; };
 })();

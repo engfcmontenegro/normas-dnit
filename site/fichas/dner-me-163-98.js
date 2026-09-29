@@ -42,6 +42,7 @@
   FE.FICHAS["dner-me-163-98"] = {
     titulo: "Ductilidade de materiais betuminosos",
     resumo: "Três corpos de prova tracionados no ductilômetro a (50 ± 2,5) mm/min em banho a (25 ± 0,5) °C; ductilidade = média das três distâncias de ruptura; cada resultado deve ficar a até 10 % da média.",
+    rotuloImportar: function (r) { return "ductilidade " + (ok(r.cm) ? (r.maior ? "> " : "") + fmt(r.cm, 0) + " cm" : "—") + (ok(r.temp) ? " a " + fmt(r.temp, 0) + " °C" : ""); },
     blocos: [],
     params: [
       { k: "material", r: "Material betuminoso", ph: "ex.: CAP 50/70, resíduo de emulsão RR-2C, resíduo de CM-30" },

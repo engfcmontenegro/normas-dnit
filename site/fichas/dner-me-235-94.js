@@ -105,4 +105,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-235-94"].rotuloImportar = function (r) { return "não voláteis " + window.FE.fmt(r.NV, 2) + " %" + (window.FE.ok(r.Sv) ? " · veíc. NV " + window.FE.fmt(r.Sv, 2) + " % · veíc. total " + window.FE.fmt(r.Vt, 2) + " %" : ""); };
 })();

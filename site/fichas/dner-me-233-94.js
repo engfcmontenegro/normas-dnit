@@ -67,4 +67,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-233-94"].rotuloImportar = function (r) { return "PbCrO₄ " + window.FE.fmt(r.pct, 2) + " % no pigmento"; };
 })();

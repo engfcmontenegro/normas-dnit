@@ -153,4 +153,5 @@
       } },
     ],
   };
+  window.FE.FICHAS["dner-me-058-94"].rotuloImportar = function (r) { return (r.faixa ? r.faixa.ref : "sem faixa") + (r.conforme === true ? " · dentro da faixa" : r.conforme === false ? " · fora da faixa" : ""); };
 })();

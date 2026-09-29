@@ -19,6 +19,7 @@
 
   FE.FICHAS["dner-me-084-95"] = {
     titulo: "Densidade real de agregado miúdo (picnômetro)",
+    rotuloImportar: function (r) { var F = window.FE; return "densidade real " + (F.ok(r.Dr) ? F.fmt(r.Dr, 2) : "—"); },
     resumo: "Cerca de 500 g do material entre as peneiras de 4,8 mm e 0,075 mm, seco em estufa; picnômetro com água fervida por 15 min e levado a 25 °C: D25 = (b − a) / ((d − a) − (c − b)); média de duas determinações, com aproximação de 0,01.",
     blocos: [],
     params: [

@@ -82,6 +82,7 @@
 
   FE.FICHAS["dnit-133-2025-me"] = {
     titulo: "Deflexões pela viga Benkelman",
+    rotuloImportar: function (r) { return r.n + " estações · D máx " + fmt(r.dMax, 0) + (r.est ? " · Dc " + fmt(r.est.dc, 1) : ""); },
     resumo: "Leituras L₀, intermediárias e Lf por estação; Dn = (a/b)·(Ln − Lf) (eq. 1), correção de temperatura D′n = Dn × k em revestimento asfáltico (eq. 2, Anexo B), raio de curvatura R = 6250 / [2(D₀ − D₂₅)] (eq. 3) e deflectograma; estatística do segmento opcional (DNER-PRO 011/79).",
     blocos: [],
     params: [
@@ -91,6 +92,14 @@
       { k: "relacao", r: "Relação entre braços da viga a/b (5 a)", tipo: "select", opcoes: [["2", "2/1"], ["3", "3/1"], ["4", "4/1"]] },
       { k: "constante", r: "Constante aferida da viga — opcional (DNIT 175-PRO)", ph: "ex.: 2,02",
         dica: "se informada, substitui a relação nominal a/b na eq. 1" },
+      { k: "afericao", r: "Constante: importar de uma aferição salva (DNIT 175-PRO)", tipo: "importar", de: "dnit-175-2025-pro",
+        aplicar: function (e, P) {
+          var r = e.resultados || {}, i = (e.dados || {}).ident || {}, pv = (e.dados || {}).params || {};
+          if (r.relacao) P.relacao = r.relacao;
+          P.constante = ok(r.K) ? fmt(r.K, 2) : "";
+          P.viga = (pv.viga || "Viga") + (r.aceita === false ? " — REJEITADA na aferição" : " — aferida") + (i.data ? " em " + i.data.split("-").reverse().join("/") : "") +
+            " (DNIT 175-PRO" + (r.caso ? ", caso " + r.caso : "") + (i.registro ? ", " + i.registro : "") + ")";
+        } },
       { k: "viga", r: "Tipo de viga / extensômetro", ph: "ex.: viga mecânica, extensômetro analógico 0,01 mm" },
       { k: "superficie", r: "Superfície ensaiada", tipo: "select", recarrega: true,
         opcoes: [["asf", "Revestimento asfáltico — aplica a correção de temperatura (eq. 2)"], ["outro", "Outro revestimento ou camada — sem correção (NOTA 5)"]] },
@@ -150,8 +159,11 @@
       // ---- verificações gerais ----
       if (ok(cte) && INTERVALO_175[P.relacao || "2"]) {
         var iv = INTERVALO_175[P.relacao || "2"];
-        if (cte < iv[0] || cte > iv[1]) avisos.push("Constante aferida " + fmt(cte, 3) + " fora do intervalo " + fmt(iv[0], 2) + " – " + fmt(iv[1], 2) +
-          " aceito para a relação " + P.relacao + "/1 (DNIT 175-PRO, Tabela 1): confira a aferição da viga (6.1).");
+        // DNIT 175-PRO, Tabela 3: caso I → K = centro do intervalo; caso III → K = X̄, que pode passar de αi ou βi em até
+        // (βi − αi)/2 (ε0 < (βi − αi)/2 com um dos limites Li/Ls dentro do intervalo)
+        var h175 = (iv[1] - iv[0]) / 2;
+        if (cte < iv[0] - h175 - 1e-9 || cte > iv[1] + h175 + 1e-9) avisos.push("Constante aferida " + fmt(cte, 3) + " incompatível com a aferição da DNIT 175-PRO para a relação " + (P.relacao || "2") +
+          "/1 (Tabela 3: K = " + fmt(iv[0] + h175, 2) + " no caso I ou K = X̄ entre " + fmt(iv[0] - h175, 2) + " e " + fmt(iv[1] + h175, 2) + " no caso III): confira a aferição da viga.");
       }
       var carga = num(P.carga), pressao = num(P.pressao);
       if (ok(carga) && Math.abs(carga - 8.2) > 0.05) avisos.push("Carga do eixo de " + fmt(carga, 2) + " tf, diferente de 8,2 tf: a alteração deve ser justificada (5 b).");

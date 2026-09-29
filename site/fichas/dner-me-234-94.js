@@ -39,4 +39,5 @@
       } },
     ],
   });
+  window.FE.FICHAS["dner-me-234-94"].rotuloImportar = function (r) { return r.texto && r.texto !== "—" ? "resistência ao calor: " + r.texto.toLowerCase() : "sem resultado"; };
 })();

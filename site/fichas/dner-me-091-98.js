@@ -31,6 +31,7 @@
 
   FE.FICHAS["dner-me-091-98"] = {
     titulo: "Concreto — Compressão de corpos de prova cilíndricos",
+    rotuloImportar: function (r) { var l = (r.lista || []).filter(function (x) { return ok(x.fc); }); return l.length ? l.length + " resultado(s) · fc " + l.map(function (x) { return fmt(x.fc, 1) + (ok(x.idade) ? " (" + x.idade + " d)" : ""); }).join("; ") + " MPa" : "—"; },
     resumo: "fc = 4Q / (π·d²), com Q (carga máxima) em N e d (média de dois diâmetros a meia altura) em mm; resultado em MPa com aproximação de 0,1 MPa. Idade de ruptura com as tolerâncias da Tabela 1.",
     blocos: [],
     params: [

@@ -30,6 +30,7 @@
 
   FE.FICHAS["dnit-036-2004-me"] = {
     titulo: "Água de amassamento do concreto — Ensaios químicos",
+    rotuloImportar: function (r) { return (r.am || []).length + " amostra(s)" + ((r.am || []).some(function (o) { return o.atende === false; }) ? " · há amostra fora dos limites" : (r.am || []).some(function (o) { return o.atende === true; }) ? " · atende(m)" : ""); },
     resumo: "Resíduo sólido = G / 0,5 (mg/l); oxigênio consumido pelo permanganato 0,0125 N (mg/l); pH eletrométrico (0,1); sulfatos = 0,414·G / V × 10⁶ (mg/l SO4); cloretos = (A·f − B·F)·Q / V × 10⁶ (mg/l Cl). Resultados comparados com os limites da especificação de serviço.",
     blocos: [],
     params: [

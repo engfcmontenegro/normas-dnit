@@ -52,6 +52,7 @@
 
   FE.FICHAS["dnit-414-2019-me"] = {
     titulo: "Solo-cimento — Dosagem físico-química",
+    rotuloImportar: function (r) { return "teor mínimo de cimento " + (ok(r.teorMin) ? fmt(r.teorMin, 0) + " %" : "—"); },
     resumo: "Sete ou mais provetas de 250 ml com 20 g de solo (passante na peneira nº 10) e teores crescentes de cimento, completadas a 100 ml com água destilada; leituras diárias do volume do sedimento (≥ 2 h após agitar) até ficarem constantes ou decrescentes em dois dias seguidos. ΔV = (Vmáx(teor) − Vmáx(0 %)) / Vmáx(0 %) × 100 (eq. 1); o teor do ponto máximo de ΔV é o teor mínimo de cimento.",
     blocos: [],
     params: [

@@ -170,6 +170,7 @@
   S.fichaEnvelhecimento = function (cfg) {
     var F = {
       titulo: cfg.titulo,
+      rotuloImportar: function (r) { return r.conforme === true ? "atende à DNIT 046-EM" : r.conforme === false ? "não atende à DNIT 046-EM" : "sem verificação"; },
       resumo: cfg.resumo,
       blocos: [],
       params: [
@@ -255,6 +256,7 @@
   // =====================================================================================
   FE.FICHAS["dnit-038-2004-me"] = {
     titulo: "Selante de juntas — índice de fluidez",
+    rotuloImportar: function (r) { return r.conforme === true ? "atende à DNIT 046-EM" : r.conforme === false ? "não atende à DNIT 046-EM" : "sem verificação"; },
     resumo: "Mástique moldado a quente em fôrma de 40 × 60 × 3,2 mm, 5 h em estufa a (60 ± 1) °C com a placa inclinada a 75°; fluidez = alteração do comprimento da amostra, em mm (seção 7).",
     blocos: [],
     params: [

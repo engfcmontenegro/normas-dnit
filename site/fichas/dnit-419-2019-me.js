@@ -49,6 +49,7 @@
 
   FE.FICHAS["dnit-419-2019-me"] = {
     titulo: "Solo-cal — Teor mínimo de cal pelo pH",
+    rotuloImportar: function (r) { return "teor mínimo de cal " + (ok(r.teor) ? fmt(r.teor, 0) + " %" : "—"); },
     resumo: "Frascos com o equivalente a 25 g de solo seco (passante na peneira nº 40), teores de cal de 2 % a 10 % e 100 ml de água destilada, agitados 30 s a cada 10 min durante 1 h; pH medido nos últimos 15 min. O menor teor que alcança pH 12,4 é o teor mínimo de cal (8); com pH máximo de 12,3 constante em dois teores sucessivos após a repetição, adota-se o menor deles.",
     blocos: [],
     params: [

@@ -8,6 +8,7 @@
 
   FE.FICHAS["dnit-051-2004-me"] = {
     titulo: "Selante de juntas — deformação permanente na tração (alongamento constante)",
+    rotuloImportar: function (r) { return r.conforme === true ? "atende à DNIT 046-EM" : r.conforme === false ? "não atende à DNIT 046-EM" : "sem verificação"; },
     resumo: "CP de tração (DNIT 039) alongado até 1,5 vez a distância inicial entre os traços, mantido 15 min e medido após 10 min de repouso; DP = (df − di) / di × 100 (seção 7).",
     blocos: [],
     params: [

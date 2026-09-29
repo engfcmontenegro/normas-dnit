@@ -95,6 +95,7 @@
 
   FE.FICHAS["dner-me-181-94"] = {
     titulo: "Solo–cinza volante–cal — Tração por compressão diametral",
+    rotuloImportar: function (r) { var c = (r.rcs || {})["7"]; return "Rcd 7 d " + (c && ok(c.naOtima) ? fmt(c.naOtima, 2) + " MPa" : "—") + " · γs,máx " + (ok(r.gsMax) ? fmt(r.gsMax, 3) : "—"); },
     resumo: "Solo estabilizado com cinza volante e cal hidratada (fração < 25,4 mm), compactado em molde Ø 10 × 20 cm (5 camadas) em ao menos 5 umidades; curva de compactação e curvas de Rcd × umidade aos 7, 14 e 28 dias (cura em saco plástico + 24 h de imersão). Rcd = 2F / (100·π·d·l), média de 3 CPs, excluído o que variar mais de 10 % da média; aproximação de 0,05 MPa.",
     blocos: ["umidade"],
     params: [

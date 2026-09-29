@@ -87,6 +87,7 @@
 
   FE.FICHAS["dner-me-216-94"] = {
     titulo: "Solo-cimento — Relação umidade × massa específica aparente seca",
+    rotuloImportar: function (r) { return "γs,máx " + (ok(r.gsMax) ? fmt(r.gsMax, 3) : "—") + " · h ót " + (ok(r.hOt) ? fmt(r.hOt, 1) + " %" : "—"); },
     resumo: "Compactação da mistura solo-cimento na energia normal (molde de 1 000 cm³, 3 camadas de 25 golpes, soquete de 2,5 kg, queda de 305 mm); h, γu = mu / v e γs = γu × 100 / (100 + h) de cada ponto; curva de compactação, umidade ótima (ho) e massa específica aparente seca máxima (γm).",
     blocos: ["umidade", "compactacao"],
     params: [

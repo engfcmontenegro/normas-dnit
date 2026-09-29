@@ -14,6 +14,7 @@
 
   FE.FICHAS["dnit-040-2004-me"] = {
     titulo: "Selante de juntas — aderência selante × substrato",
+    rotuloImportar: function (r) { return r.conforme === true ? "atende à DNIT 046-EM" : r.conforme === false ? "não atende à DNIT 046-EM" : "sem verificação"; },
     resumo: "Selante moldado no vão de 6 mm entre duas bordas de argamassa (12 × 30 × 55 mm) e tracionado até a ruptura: tensão de ruptura TR = CR / (e × l) e alongamento AR = (dr − di) / di × 100 (seção 7); local de ruptura registrado.",
     blocos: [],
     params: [

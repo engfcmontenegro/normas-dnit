@@ -9,6 +9,7 @@
 
   FE.FICHAS["dnit-041-2004-me"] = {
     titulo: "Selante de juntas — deformação permanente à compressão",
+    rotuloImportar: function (r) { return r.conforme === true ? "atende à DNIT 046-EM" : r.conforme === false ? "não atende à DNIT 046-EM" : "sem verificação"; },
     resumo: "CPs cilíndricos de 25 × 25 mm comprimidos 6 h entre placas com espaçadores de 40 % da altura; após 2 h de repouso, DP = (hi − hf) / (hi − he) × 100 (7.1); dois CPs por condição.",
     blocos: [],
     params: [

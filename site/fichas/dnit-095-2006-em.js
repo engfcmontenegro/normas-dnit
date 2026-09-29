@@ -210,6 +210,7 @@
     return {
       titulo: cfg.titulo,
       resumo: cfg.resumo,
+      rotuloImportar: function (r) { return (r.classe || "—") + " · " + (r.geral === "reprovado" ? "reprovado" : r.geral === "aprovado" ? "aprovado" : r.geral === "parcial" ? "aprovado nos ensaios realizados" : "sem ensaios") + (FE.ok((r.V || {}).residuo) ? " · resíduo " + fmt(r.V.residuo, 1) + " %" : ""); },
       blocos: [],
       params: params,
       padrao: cfg.padrao,

@@ -9,6 +9,7 @@
 
   FE.FICHAS["dnit-043-2004-me"] = {
     titulo: "Selante de juntas — absorção de água",
+    rotuloImportar: function (r) { return r.conforme === true ? "atende à DNIT 046-EM" : r.conforme === false ? "não atende à DNIT 046-EM" : "sem verificação"; },
     resumo: "CPs de 25 × 75 × 2 mm imersos em água destilada, 48 h a (50 ± 1) °C e 1 h a (23 ± 2) °C; ABS = (M₂ − M₁) / M₁ × 100 (7.1); três CPs por condição.",
     blocos: [],
     params: [

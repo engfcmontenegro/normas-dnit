@@ -169,6 +169,7 @@
 
   FE.FICHAS["dnit-144-2014-es"] = {
     titulo: "Taxa de aplicação de ligante (e de agregado) por bandeja",
+    rotuloImportar: function (r) { return (r.cod || "") + (r.nomeServ ? " " + r.nomeServ : "") + " · ligante " + (ok(r.mediaL) ? fmt(r.mediaL, 2) + " l/m²" : "—") + " (" + (r.nL || 0) + ")" + (ok(r.mediaA) ? " · agregado " + fmt(r.mediaA, 1) + " kg/m² (" + r.nA + ")" : ""); },
     resumo: "Controle da execução pelas ES: bandejas de massa (P₁) e área (A) conhecidas na pista; taxa = (P₂ − P₁) / A; resíduo → taxa do ligante aplicado; kg/m² → l/m² pela massa específica; X̄ ± ks por segmento contra projeto ± tolerância.",
     blocos: [],
     params: [

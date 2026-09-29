@@ -25,6 +25,7 @@
 
   FE.FICHAS["dnit-452-2024-me"] = {
     titulo: "Agregado graúdo — Adesividade ao ligante asfáltico",
+    rotuloImportar: function (r) { return r.texto || "—"; },
     resumo: "Duas amostras de 500 g (19,0–12,5 mm) envolvidas com 17,5 g de CAP, em água destilada a 40 °C por 72 h: satisfatório se nenhuma película se deslocar nas duas amostras; se não satisfatório, repete-se com melhorador de adesividade (menor teor que resolve).",
     blocos: [],
     params: [

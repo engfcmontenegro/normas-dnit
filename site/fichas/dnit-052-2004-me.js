@@ -19,6 +19,7 @@
 
   FE.FICHAS["dnit-052-2004-me"] = {
     titulo: "Selante de juntas — puncionamento estático",
+    rotuloImportar: function (r) { return r.conforme === true ? "atende à DNIT 046-EM" : r.conforme === false ? "não atende à DNIT 046-EM" : "sem verificação"; },
     resumo: "Placa de 200 × 200 mm e 2 mm de espessura sobre substrato de borracha; pistão de ponta Ø 11 mm (≈ 1 cm²) com carga de 8,5 kg por uma hora; resultado classificado de a (perfuração visível) a d (sem perfuração nem marcas) (seção 6).",
     blocos: [],
     params: [

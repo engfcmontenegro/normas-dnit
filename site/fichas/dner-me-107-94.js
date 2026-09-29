@@ -100,6 +100,7 @@
 
   FE.FICHAS["dner-me-107-94"] = {
     titulo: "Mistura betuminosa a frio com emulsão — ensaio Marshall",
+    rotuloImportar: function (r) { var t = r.teores || []; return t.length === 1 ? "Estabilidade " + (ok(t[0].est) ? fmt(t[0].est, 0) + " kgf" : "—") + " · fluência " + (ok(t[0].flu) ? fmt(t[0].flu, 1) + " mm" : "—") + " · " + t[0].n + " CP" : t.length + " teores (dosagem)"; },
     resumo: "Corpos de prova de ~1 200 g e 63,5 ± 1,3 mm (mínimo 3 por dosagem); estabilidade lida × fator da espessura = estabilidade Marshall; fluência; densidade aparente e volume de vazios opcionais.",
     blocos: [],
     params: [

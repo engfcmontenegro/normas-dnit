@@ -14,6 +14,7 @@
 
   FE.FICHAS["dner-me-404-00"] = {
     titulo: "Concreto — Consistência pelo abatimento do tronco de cone",
+    rotuloImportar: function (r) { var l = (r.ens || []).filter(function (x) { return ok(x.abr); }); return l.length ? "abatimento " + l.map(function (x) { return fmt(x.abr, 0); }).join("; ") + " mm" : "—"; },
     resumo: "Abatimento = altura do molde (300 mm) − altura do eixo do corpo de prova desmoldado, aproximado aos 5 mm (5.10 e 6). Aplicável a concretos plásticos e coesos com abatimento ≥ 10 mm e agregado graúdo de dimensão máxima ≤ 37,5 mm.",
     blocos: [],
     params: [

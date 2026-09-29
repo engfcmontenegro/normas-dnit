@@ -12,6 +12,7 @@
 
   FE.FICHAS["dner-me-201-94"] = {
     titulo: "Solo-cimento — Compressão axial de corpos de prova cilíndricos",
+    rotuloImportar: function (r) { var g = (r.grupos || []).filter(function (x) { return x.idade === 7; })[0] || (r.grupos || [])[0]; return g ? "RCS " + (g.idade ? g.idade + " d: " : "") + (ok(g.media) ? fmt(g.media, 2) : "—") + " MPa (" + g.n + " CP)" : "—"; },
     resumo: "CPs moldados pela DNER-ME 202 (Ø 100 mm × 127,3 mm), curados em câmara úmida e imersos 4 h; resistência = carga de ruptura (precisão de 50 N) / área da seção, com aproximação de 10 kPa (7.1).",
     blocos: [],
     params: [

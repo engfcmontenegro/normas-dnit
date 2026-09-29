@@ -46,6 +46,7 @@
 
   FE.FICHAS["dnit-037-2004-me"] = {
     titulo: "Água de amassamento do concreto — Ensaios comparativos (pega e resistência)",
+    rotuloImportar: function (r) { return "pega Δ " + (ok(r.dIni) ? r.dIni : "—") + " / " + (ok(r.dFim) ? r.dFim : "—") + " min" + (r.atende === true ? " · satisfatória" : r.atende === false ? " · não satisfatória" : ""); },
     resumo: "Pastas (NBR 11580/11581) e argamassas (NBR 7215) preparadas com a água de referência e com a água em exame. Pega: diferença exame − referência em h:min, (+) aumento e (−) diminuição (6.1). Resistência: exame / referência × 100 (%) (6.2).",
     blocos: [],
     params: [

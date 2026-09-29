@@ -11,6 +11,7 @@
 
   FE.FICHAS["dnit-064-2004-me"] = {
     titulo: "Concreto — Consistência pelo consistômetro VeBe",
+    rotuloImportar: function (r) { var l = (r.det || []).filter(function (x) { return ok(x.vebe); }); return l.length ? "VeBe " + l.map(function (x) { return fmt(x.vebe, 1); }).join("; ") + " s" : "—"; },
     resumo: "Tronco de cone moldado (NBR NM 67) dentro do recipiente de Ø 24 cm fixado na mesa vibratória; disco transparente (haste + disco = 2,75 kg) sobre o concreto; grau VeBe = tempo de vibração, em segundos (0,5 s), até a pasta preencher todo o espaço sob o disco. Para concretos muito secos (CCR); ≤ 3 s não é significativo.",
     blocos: [],
     params: [

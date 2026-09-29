@@ -9,6 +9,7 @@
 
   FE.FICHAS["dnit-042-2004-me"] = {
     titulo: "Selante de juntas — rasgamento",
+    rotuloImportar: function (r) { return r.conforme === true ? "atende à DNIT 046-EM" : r.conforme === false ? "não atende à DNIT 046-EM" : "sem verificação"; },
     resumo: "CPs cunhados de placa de 2 mm (cunho com ângulo de 90°), tracionados a 50 cm/min; carga de rasgamento por unidade de espessura CR = c / e, em N/mm (7.1); três CPs por condição.",
     blocos: [],
     params: [

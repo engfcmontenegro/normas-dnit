@@ -34,6 +34,7 @@
 
   FE.FICHAS["dnit-055-2004-me"] = {
     titulo: "Prova de carga estática — Coeficiente de recalque (k)",
+    rotuloImportar: function (r) { return "k = " + (ok(r.k) ? fmt(r.k, 0) + " MPa/m" : "—"); },
     resumo: "Placa rígida de Ø ≥ 76 cm (recomendada 79,9 cm = 5000 cm²); acomodação até 0,25–0,50 mm (Pad), leituras de referência sob Pad/2, incrementos de 0,015 a 0,020 MPa até 0,15–0,18 MPa (≥ 6 pontos) e descarregamento. k = (P0,127 − Pad/2) / w, com w = 0,127 cm, em MPa/m (10.2); sub-base cimentada: k na pressão de 68,9 kPa.",
     blocos: [],
     params: [

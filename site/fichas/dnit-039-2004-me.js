@@ -9,6 +9,7 @@
 
   FE.FICHAS["dnit-039-2004-me"] = {
     titulo: "Selante de juntas — tração",
+    rotuloImportar: function (r) { return r.conforme === true ? "atende à DNIT 046-EM" : r.conforme === false ? "não atende à DNIT 046-EM" : "sem verificação"; },
     resumo: "CPs cunhados de placa de 2 mm (cunho de 6 mm); tensão de ruptura TR = CR / (e × l), alongamento de ruptura AR e deformação permanente após a ruptura DP (seção 7); três CPs por condição (normal, estufa, intemperismo).",
     blocos: [],
     params: [

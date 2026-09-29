@@ -13,6 +13,10 @@
   var CHAVE = "equip_selecao_v1";
   function lerSel() { try { return JSON.parse(localStorage.getItem(CHAVE) || "[]"); } catch (e) { return []; } }
   function gravarSel(a) { try { localStorage.setItem(CHAVE, JSON.stringify(a)); } catch (e) { /* sem armazenamento */ } }
+  // itens marcados como disponíveis no laboratório: chave "<id da norma>|<texto do item>"
+  var CHAVE_OK = "equip_disponivel_v1";
+  function lerOk() { try { return JSON.parse(localStorage.getItem(CHAVE_OK) || "{}") || {}; } catch (e) { return {}; } }
+  function gravarOk(o) { try { localStorage.setItem(CHAVE_OK, JSON.stringify(o)); } catch (e) { /* sem armazenamento */ } }
 
   window.initEquipamentos = function (ctx) {
     var byId = ctx.byId, AP = window.APARELHAGEM || {}, CATS = window.APARELHAGEM_CATS || [];
@@ -24,7 +28,7 @@
     var ordemGrupo = [], ordemCat = {};
     CATS.forEach(function (c, i) { if (ordemGrupo.indexOf(c.grupo) < 0) ordemGrupo.push(c.grupo); ordemCat[c.cat] = i; });
     var est = { modo: "ensaio", atual: ids[0] || null, cat: null, sel: lerSel().filter(function (id) { return AP[id]; }),
-      busca: "", areas: [], soVigor: false };
+      busca: "", areas: [], soVigor: false, tem: lerOk(), soPend: false, abertos: {} };
 
     // ---------- filtros e lista ----------
     function passa(id) {
@@ -65,7 +69,7 @@
         return '<div class="norma-item eq-item' + (est.modo === "ensaio" && est.atual === id ? " selected" : "") + '" data-id="' + esc(id) + '">' +
           '<input type="checkbox" class="eq-check" data-sel="' + esc(id) + '"' + (on ? " checked" : "") + ' title="Incluir na lista consolidada">' +
           '<div><div class="codigo">' + esc(n.codigo) + (n.status === "cancelada" ? ' <span class="eq-canc">cancelada</span>' : "") + '</div><div class="titulo">' +
-          esc(n.titulo) + " · " + AP[id].itens.length + " itens</div></div></div>";
+          esc(n.titulo) + " · " + progresso(paresDe([id])) + "</div></div></div>";
       }).join("") || '<div class="fe-prox">Nenhum ensaio com esses filtros.</div>';
       renderAbas();
     }
@@ -104,6 +108,22 @@
       idsSel.forEach(function (id) { (AP[id] || { itens: [] }).itens.forEach(function (it) { out.push({ id: id, it: it }); }); });
       return out;
     }
+    function chave(p) { return p.id + "|" + p.it.texto; }
+    function temItem(p) { return !!est.tem[chave(p)]; }
+    function progresso(pares) {
+      var n = pares.filter(temItem).length;
+      return n === pares.length && n ? '<span class="eq-ok">✓ ' + n + "/" + pares.length + " disponíveis</span>" : n + "/" + pares.length + " itens disponíveis";
+    }
+    // "só pendentes": esconde o que já foi marcado
+    function visiveis(pares) { return est.soPend ? pares.filter(function (p) { return !temItem(p); }) : pares; }
+    function caixa(p) {
+      return '<input type="checkbox" class="eq-tem" data-tem="' + esc(chave(p)) + '"' + (temItem(p) ? " checked" : "") + ' title="Já tenho este equipamento">';
+    }
+    function caixaCat(pares) {
+      var n = pares.filter(temItem).length;
+      return '<input type="checkbox" class="eq-tem" data-tem-cat="' + esc(JSON.stringify(pares.map(chave))) + '"' + (n === pares.length ? " checked" : "") +
+        (n && n < pares.length ? " data-parcial" : "") + ' title="Marcar/desmarcar todos os itens deste equipamento">';
+    }
     function textoItem(it, comDetalhe) {
       return esc(it.texto) + (it.parte_de ? ' <span class="eq-parte">(parte de: ' + esc(it.parte_de) + "…)</span>" : "") +
         (comDetalhe && it.detalhes && it.detalhes.length ? '<div class="eq-det">' + it.detalhes.map(esc).join("<br>") + "</div>" : "");
@@ -116,9 +136,10 @@
       if (!el) return;
       el.innerHTML = [["ensaio", "Por ensaio"], ["consolidado", "Lista consolidada (" + est.sel.length + ")"], ["equipamento", "Por equipamento"]].map(function (m) {
         return '<div class="chip' + (est.modo === m[0] ? " active" : "") + '" data-modo="' + m[0] + '">' + esc(m[1]) + "</div>";
-      }).join("");
+      }).join("") + '<div class="chip eq-pend' + (est.soPend ? " active" : "") + '" data-pend="1" title="Esconde os itens já marcados como disponíveis">Só pendentes</div>';
     }
-    function renderPainel() {
+    function renderPainel(manterRolagem) {
+      var rol = painel.scrollTop;
       var html = '<div class="content-header"><div class="header-top"><div><div class="codigo">Equipamentos de laboratório</div>' +
         '<div class="meta">Aparelhagem exigida por ' + ids.length + " métodos e instruções de ensaio, extraída da seção “Aparelhagem” de cada norma e agrupada por tipo de equipamento.</div></div>" +
         '<div class="header-actions"><button class="edit-btn" id="eq-csv">Baixar CSV</button><button class="edit-btn" id="eq-imprimir">Imprimir</button></div></div>' +
@@ -128,7 +149,8 @@
       else html += painelEquipamento();
       painel.innerHTML = html;
       renderAbas();
-      painel.scrollTop = 0;
+      Array.prototype.forEach.call(painel.querySelectorAll("[data-parcial]"), function (c) { c.indeterminate = true; });
+      painel.scrollTop = manterRolagem ? rol : 0;
     }
     function painelEnsaio() {
       var id = est.atual;
@@ -139,11 +161,13 @@
         '<div class="eq-links">' + linkNorma(id).replace(">" + esc(n.codigo) + "<", ">📄 abrir a norma<") +
         (ficha ? ' · <a href="#fichas:' + esc(ficha) + '">🧮 ficha de ensaio</a>' : "") +
         ' · <a class="eq-acao" data-toggle="' + esc(id) + '">' + (on ? "✓ na lista consolidada (remover)" : "+ incluir na lista consolidada") + "</a>" +
-        " · seção: " + esc(AP[id].secao.replace(/^#+\s*/, "")) + "</div></div>";
-      porGrupo(paresDe([id])).forEach(function (g) {
+        " · seção: " + esc(AP[id].secao.replace(/^#+\s*/, "")) + '</div><div class="eq-prog">' + progresso(paresDe([id])) + "</div></div>";
+      var vis = visiveis(paresDe([id]));
+      if (!vis.length) html += '<div class="empty-state">Todos os itens deste ensaio já estão marcados como disponíveis.</div>';
+      porGrupo(vis).forEach(function (g) {
         html += '<h3 class="fe-h">' + esc(g.grupo) + "</h3><table class=\"eq-tab\"><tbody>" + g.cats.map(function (c) {
           return c.pares.map(function (p, k) {
-            return "<tr>" + (k === 0 ? '<th rowspan="' + c.pares.length + '">' + esc(c.cat) + "</th>" : "") + "<td>" + textoItem(p.it, true) + "</td></tr>";
+            return "<tr>" + (k === 0 ? '<th rowspan="' + c.pares.length + '">' + esc(c.cat) + "</th>" : "") + '<td class="eq-cel">' + caixa(p) + "<div>" + textoItem(p.it, true) + "</div></td></tr>";
           }).join("");
         }).join("") + "</tbody></table>";
       });
@@ -154,18 +178,21 @@
         return '<div class="empty-state">Marque na lista à esquerda os ensaios que o laboratório vai realizar (ou filtre e use “marcar visíveis”). ' +
           "A lista consolidada junta a aparelhagem de todos eles, agrupada por equipamento, com a especificação exigida por cada norma.</div>";
       }
-      var grupos = porGrupo(paresDe(est.sel));
+      var todos = paresDe(est.sel), grupos = porGrupo(visiveis(todos));
       var nCats = grupos.reduce(function (s, g) { return s + g.cats.length; }, 0);
       var html = '<p class="eq-resumo"><b>' + est.sel.length + " ensaios</b> · " + nCats + " tipos de equipamento. Cada tipo mostra a especificação que cada norma exige — " +
-        "o equipamento do laboratório precisa atender à mais exigente (capacidade, resolução, dimensões).</p>" +
+        "o equipamento do laboratório precisa atender à mais exigente (capacidade, resolução, dimensões). Marque o que o laboratório já tem.</p>" +
+        '<div class="eq-prog">' + progresso(todos) + "</div>" +
         '<div class="eq-sel">' + est.sel.map(function (id) { return byId[id] ? linkNorma(id) : ""; }).join(" ") + "</div>";
       grupos.forEach(function (g) {
         html += '<h3 class="fe-h">' + esc(g.grupo) + "</h3>";
         g.cats.forEach(function (c) {
           var usos = {}; c.pares.forEach(function (p) { usos[p.id] = true; });
-          html += '<details class="eq-cat"' + (Object.keys(usos).length <= 3 ? "" : "") + "><summary><b>" + esc(c.cat) + "</b> — " +
-            Object.keys(usos).length + " ensaio(s)</summary><table class=\"eq-tab\"><tbody>" + c.pares.map(function (p) {
-              return "<tr><th>" + linkNorma(p.id) + "</th><td>" + textoItem(p.it, false) + "</td></tr>";
+          var feitos = c.pares.filter(temItem).length;
+          html += '<details class="eq-cat" data-cat-aberta="' + esc(c.cat) + '"' + (est.abertos[c.cat] ? " open" : "") + "><summary>" + caixaCat(c.pares) + "<b>" + esc(c.cat) + "</b> — " +
+            Object.keys(usos).length + " ensaio(s)" + (feitos ? ' · <span class="eq-ok">' + feitos + "/" + c.pares.length + " ✓</span>" : "") +
+            "</summary><table class=\"eq-tab\"><tbody>" + c.pares.map(function (p) {
+              return "<tr><th>" + linkNorma(p.id) + '</th><td class="eq-cel">' + caixa(p) + "<div>" + textoItem(p.it, false) + "</div></td></tr>";
             }).join("") + "</tbody></table></details>";
         });
       });
@@ -183,8 +210,8 @@
       html += "</div>";
       if (est.cat) {
         var pares = paresDe(base).filter(function (p) { return p.it.cat === est.cat; });
-        html += '<h3 class="fe-h">' + esc(est.cat) + " — " + pares.length + " menções</h3><table class=\"eq-tab\"><tbody>" + pares.map(function (p) {
-          return "<tr><th>" + linkNorma(p.id) + '<div class="eq-tit">' + esc(byId[p.id].titulo) + "</div></th><td>" + textoItem(p.it, true) + "</td></tr>";
+        html += '<h3 class="fe-h">' + caixaCat(pares) + esc(est.cat) + " — " + pares.length + ' menções <span class="fe-hint">' + progresso(pares) + "</span></h3><table class=\"eq-tab\"><tbody>" + visiveis(pares).map(function (p) {
+          return "<tr><th>" + linkNorma(p.id) + '<div class="eq-tit">' + esc(byId[p.id].titulo) + '</div></th><td class="eq-cel">' + caixa(p) + "<div>" + textoItem(p.it, true) + "</div></td></tr>";
         }).join("") + "</tbody></table>";
       }
       return html;
@@ -195,10 +222,10 @@
       var base = est.modo === "consolidado" ? est.sel : est.modo === "ensaio" ? [est.atual] : ids.filter(passa);
       var pares = paresDe(base);
       if (est.modo === "equipamento" && est.cat) pares = pares.filter(function (p) { return p.it.cat === est.cat; });
-      return pares.map(function (p) { return [p.it.grupo, p.it.cat, byId[p.id].codigo, byId[p.id].titulo, p.it.texto]; });
+      return visiveis(pares).map(function (p) { return [p.it.grupo, p.it.cat, byId[p.id].codigo, byId[p.id].titulo, p.it.texto, temItem(p) ? "sim" : "não"]; });
     }
     function baixarCsv() {
-      var cab = ["Grupo", "Equipamento", "Norma", "Ensaio", "Especificação na norma"];
+      var cab = ["Grupo", "Equipamento", "Norma", "Ensaio", "Especificação na norma", "Disponível"];
       var csv = [cab].concat(linhasExport()).map(function (r) {
         return r.map(function (v) { return '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"'; }).join(";");
       }).join("\r\n");
@@ -215,13 +242,32 @@
       w.document.write('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Equipamentos de laboratório</title><style>' +
         "@page{size:A4;margin:12mm}body{font:11px Arial,sans-serif}h1{font-size:15px}table{border-collapse:collapse;width:100%}" +
         "th,td{border:1px solid #bbb;padding:3px 5px;text-align:left;vertical-align:top}th{background:#f2f2f2}td.c{width:18%}</style></head><body>" +
-        "<h1>Equipamentos de laboratório — " + esc(titulo) + "</h1><table><thead><tr><th>Grupo</th><th>Equipamento</th><th>Norma</th><th>Especificação</th></tr></thead><tbody>" +
-        rows.map(function (r) { return '<tr><td class="c">' + esc(r[0]) + '</td><td class="c">' + esc(r[1]) + '</td><td class="c">' + esc(r[2]) + "</td><td>" + esc(r[4]) + "</td></tr>"; }).join("") +
+        "<h1>Equipamentos de laboratório — " + esc(titulo) + "</h1><table><thead><tr><th>✓</th><th>Grupo</th><th>Equipamento</th><th>Norma</th><th>Especificação</th></tr></thead><tbody>" +
+        rows.map(function (r) { return '<tr><td>' + (r[5] === "sim" ? "☑" : "☐") + '</td><td class="c">' + esc(r[0]) + '</td><td class="c">' + esc(r[1]) + '</td><td class="c">' + esc(r[2]) + "</td><td>" + esc(r[4]) + "</td></tr>"; }).join("") +
         "</tbody></table><script>print()<\/script></body></html>");
       w.document.close();
     }
 
+    function marcar(chaves, valor) {
+      chaves.forEach(function (k) { if (valor) est.tem[k] = 1; else delete est.tem[k]; });
+      gravarOk(est.tem);
+      renderLista(); renderPainel(true);
+    }
+    painel.addEventListener("toggle", function (ev) {
+      var d = ev.target;
+      if (d.dataset && d.dataset.catAberta) { if (d.open) est.abertos[d.dataset.catAberta] = true; else delete est.abertos[d.dataset.catAberta]; }
+    }, true);
     painel.onclick = function (ev) {
+      var tc = ev.target.closest("[data-tem-cat]");
+      if (tc) {  // dentro do <summary>: não deixa o clique abrir/fechar o grupo
+        ev.preventDefault();
+        var ks = JSON.parse(tc.dataset.temCat);
+        marcar(ks, !ks.every(function (k) { return est.tem[k]; }));
+        return;
+      }
+      var ti = ev.target.closest("[data-tem]");
+      if (ti) { marcar([ti.dataset.tem], ti.checked); return; }
+      if (ev.target.closest("[data-pend]")) { est.soPend = !est.soPend; renderPainel(); return; }
       var m = ev.target.closest("[data-modo]");
       if (m) { est.modo = m.dataset.modo; renderLista(); renderPainel(); return; }
       var c = ev.target.closest("[data-cat]");

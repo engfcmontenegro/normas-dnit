@@ -861,4 +861,11 @@ a.fe-ficha-link { cursor: pointer; text-decoration: none; margin: 0 8px 0 -3px; 
 .eq-grupo { margin: 10px 0; }
 .eq-grupo .label { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--text-dim); margin-bottom: 5px; }
 .eq-grupo .chip { display: inline-block; margin: 0 5px 5px 0; }
+.eq-cel { display: flex; gap: 8px; align-items: flex-start; }
+.eq-tem { margin-top: 2px; flex: none; cursor: pointer; width: 15px; height: 15px; accent-color: var(--dner); }
+.eq-cat summary .eq-tem { margin: 0 8px 0 0; vertical-align: -2px; }
+.fe-h .eq-tem { margin: 0; align-self: center; }
+.eq-ok { color: var(--dner); }
+.eq-prog { margin-top: 6px; font-size: 12px; color: var(--text-dim); }
+.eq-pend { margin-left: auto; }
 @media (max-width: 700px) { .eq-painel { padding: 0 16px 30px; } .eq-tab th { width: 110px; } }

@@ -26,6 +26,7 @@
       { k: "limite", r: "Desgaste máximo admitido (%) — opcional", dica: "DNER-ES 386/99 (camada porosa de atrito): Cantabro ≤ 25 %" },
     ],
     padrao: {},
+    rotuloImportar: function (r) { return "Cantabro " + (ok(r.a) ? fmt(r.a, 0) + " %" : "—"); },
     tabelas: function () {
       return [{
         chave: "cp", titulo: "Corpos de prova Marshall (seções 3 e 4)", rotulo: "CP", iniciais: 3, min: 1,

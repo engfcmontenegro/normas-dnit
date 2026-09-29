@@ -285,52 +285,19 @@ Neste sentido, e de conformidade com o instituído no
 
 **7.1** Controle dos insumos
 
-Deve ser procedido o controle tecnológico dos materiais terrosos utilizados, objetivando verificar quanto ao atendimento aos vários requisitos, em termos de características físicas e mecânicas, de conformidade com o definido no Projeto de Engenharia e nas alíneas
-
-“a” a “e” da subseção 5.1 desta Norma.
+Deve ser procedido o controle tecnológico dos materiais terrosos utilizados, objetivando verificar quanto ao atendimento aos vários requisitos, em termos de características físicas e mecânicas, de conformidade com o definido no Projeto de Engenharia e nas alíneas “a” a “e” da subseção 5.1 desta Norma.
 
 Neste sentido, devem ser adotados os seguintes procedimentos:
 
-a) 1 (um) ensaio de compactação, segundo o
+a) 1 (um) ensaio de compactação, segundo o Método de Ensaio da Norma DNER-ME 129/94 (Método A), para cada 1.000 m³ de material do corpo do aterro;
 
-Método de Ensaio da Norma DNER-ME 129/94
+b) 1 (um) ensaio de compactação, segundo o Método de Ensaio da Norma DNER-ME 129/94 (Método B), para cada 200m³ de material de camada final do aterro;
 
-(Método A), para cada 1.000 m³ de material do corpo do aterro;
+c) 1 (um) ensaio de granulometria ([[dner_me_080_94|DNER-ME 080/94]]), do limite de liquidez ([[dner_me_122_94-1|DNER-ME 122/94]]) e do limite de plasticidade ([[dner_me_082_94-1|DNER-ME 082/94]]) para o corpo do aterro, para todo o grupo de dez amostras submetidas ao ensaio de compactação, conforme a alínea “a” desta subseção;
 
-b) 1 (um) ensaio de compactação, segundo o
+d) 1 (um) ensaio de granulometria ([[dner_me_080_94|DNER-ME 080/94]]), do limite de liquidez ([[dner_me_122_94-1|DNER-ME 122/94]]) e do limite de plasticidade ([[dner_me_082_94-1|DNER-ME 082/94]]), para camadas finais do aterro, para todo o grupo de quatro amostras submetidas ao ensaio de compactação, conforme a alínea “b” desta subseção;
 
-Método de Ensaio da Norma DNER-ME 129/94
-
-(Método B), para cada 200m³ de material de camada final do aterro;
-
-c) 1 (um) ensaio de granulometria ([[dner_me_080_94|DNER-ME
-
-080/94]]), do limite de liquidez ([[dner_me_122_94-1|DNER-ME
-
-122/94]]) e do limite de plasticidade ([[dner_me_082_94-1|DNER-ME
-
-082/94]]) para o corpo do aterro, para todo o grupo de dez amostras submetidas ao ensaio de compactação, conforme a alínea “a” desta subseção;
-
-d) 1 (um) ensaio de granulometria ([[dner_me_080_94|DNER-ME
-
-080/94]]), do limite de liquidez ([[dner_me_122_94-1|DNER-ME
-
-122/94]]) e do limite de plasticidade ([[dner_me_082_94-1|DNER-ME
-
-082/94]]), para camadas finais do aterro, para todo o grupo de quatro amostras submetidas ao ensaio de compactação, conforme a alínea “b” desta subseção;
-
-e) 1 (um) ensaio do Índice de Suporte Califórnia, com energia do Método de Ensaio da Norma
-
-| Tabela 1 - TABELA DE AMOSTRAGEM VARIÁVEL |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| n | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 19 | 21 |
-| k | 1,55 | 1,41 | 1,36 | 1,31 | 1,25 | 1,21 | 1,19 | 1,16 | 1,13 | 1,11 | 1,10 | 1,08 | 1,06 | 1,04 | 1,01 |
-| α | 0,45 | 0,35 | 0,30 | 0,25 | 0,19 | 0,15 | 0,13 | 0,10 | 0,08 | 0,06 | 0,05 | 0,04 | 0,03 | 0,02 | 0,01 |
-| n = n° de amostras; k = coeficiente multiplicador; α = risco do Executante. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-
-![[dnit_108_2009_es-terraplenagem_aterros-especificacao-de-servico_com_a_incoroporacao_da_errata_1_tab01.png]]
-
-DNER-ME 049/94 para camada final, para cada grupo de quatro amostras submetidas a ensaios de compactação, segundo a alínea “b” desta subseção.
+e) 1 (um) ensaio do Índice de Suporte Califórnia, com energia do Método de Ensaio da Norma DNER-ME 049/94 para camada final, para cada grupo de quatro amostras submetidas a ensaios de compactação, segundo a alínea “b” desta subseção.
 
 **7.2** Controle da execução
 
@@ -353,6 +320,16 @@ Devem ser adotados os seguintes procedimentos:
 a) Ensaio de massa específica aparente seca “in situ”, em locais escolhidos aleatoriamente, por camada, distribuídos regularmente ao longo do segmento, pelos Métodos de Ensaios das Normas DNER-ME 092/94 e [[dner_me_037_94-1|DNER-ME 037/94]]. Para pistas de extensões limitadas, com volume de, no máximo, 1.200m³ no corpo do aterro, ou 800m³ para as camadas finais, devem ser feitas, pelo menos, cinco determinações para o cálculo do grau de compactação (GC).
 
 b) O número de ensaios de massa específica aparente “in situ”, para o controle da execução, deve ser definido em função do risco de rejeição de um serviço de boa qualidade, a ser assumido pelo executante, conforme a Tabela 1:
+
+| Tabela 1 - TABELA DE AMOSTRAGEM VARIÁVEL |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| n | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 19 | 21 |
+| k | 1,55 | 1,41 | 1,36 | 1,31 | 1,25 | 1,21 | 1,19 | 1,16 | 1,13 | 1,11 | 1,10 | 1,08 | 1,06 | 1,04 | 1,01 |
+| α | 0,45 | 0,35 | 0,30 | 0,25 | 0,19 | 0,15 | 0,13 | 0,10 | 0,08 | 0,06 | 0,05 | 0,04 | 0,03 | 0,02 | 0,01 |
+| n = n° de amostras; k = coeficiente multiplicador; α = risco do Executante. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+![[dnit_108_2009_es-terraplenagem_aterros-especificacao-de-servico_com_a_incoroporacao_da_errata_1_tab01.png]]
+
 
 c) As determinações do grau de compactação (GC) devem ser realizadas utilizando-se os valores da massa específica aparente seca de laboratório e da massa específica aparente "in situ" obtida no campo. Devem ser obedecidos os limites seguintes:
 

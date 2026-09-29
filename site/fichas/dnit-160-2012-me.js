@@ -43,6 +43,7 @@
       { k: "limite", r: "Expansibilidade máxima admitida (%) — opcional", dica: "da especificação do serviço" },
     ],
     padrao: { unidade: "div" },
+    rotuloImportar: function (r) { return "Expansibilidade " + (ok(r.exp) ? fmt(r.exp, 0) + " %" : "—"); },
     tabelas: function (d) {
       var u = (d.params || {}).unidade === "mm" ? "mm" : "div.";
       return [{ chave: "leituras", titulo: "Leituras do extensômetro (5.3 d a f)", rotulo: "Leitura", iniciais: 8, min: 3,

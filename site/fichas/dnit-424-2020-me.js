@@ -49,6 +49,7 @@
         dica: "DNIT 406/407-ES: ≤ 10 %; DNIT 167-ES: < 20 %. A ficha toma como lamelar o que passa no crivo 2 (ver nota)" },
     ],
     padrao: { graduacao: "C" },
+    rotuloImportar: function (r) { return "f = " + (ok(r.f) ? fmt(r.f, 2) : "—") + " · lamelares " + (ok(r.lam) ? fmt(r.lam, 1) + " %" : "—"); },
     tabelas: function (d) {
       var g = (d.params || {}).graduacao || "C", G = GRAD[g];
       return [

@@ -2531,13 +2531,6 @@
       "texto": "7.4.2 b: critério do Cantabro (máximo) escrito \"X̄ − ks > valor máximo ⇒ rejeitar\" — o correto é X̄ + ks. A tabela de amostragem variável de 7.2.1.5 (p. 12) não tem n = 11 (o mesmo nas DNER-ES 387 e 388); RT em kgf/cm² (5,5)."
     }
   ],
-  "dner_es_387_99": [
-    {
-      "page": 5,
-      "cat": "incerto",
-      "texto": "O markdown do acervo perdeu os itens 5.3.2 a 5.3.6 de execução (temperaturas do ligante, agregados e compactação), presentes no PDF, p. 5–6 (erro de transcrição)."
-    }
-  ],
   "dner_es_388_99": [
     {
       "page": 4,
